@@ -1,0 +1,33 @@
+import type { DuotoneIconProps } from "../shared/types";
+
+export function Hourglass({
+  size = 24,
+  color = "currentColor",
+  secondaryOpacity = 0.3,
+  ...rest
+}: DuotoneIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M5 3h14a7.8 7.8 0 0 1-3.25 6.32L12 12l3.75 2.68A7.8 7.8 0 0 1 19 21H5a7.8 7.8 0 0 1 3.25-6.32L12 12 8.25 9.32A7.8 7.8 0 0 1 5 3"
+        opacity=".14"
+      />
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M20 3H4m16 18H4M5 3a7.8 7.8 0 0 0 3.25 6.32l7.5 5.36A7.8 7.8 0 0 1 19 21m0-18a7.8 7.8 0 0 1-3.25 6.32l-7.5 5.36A7.8 7.8 0 0 0 5 21"
+      />
+    </svg>
+  );
+}

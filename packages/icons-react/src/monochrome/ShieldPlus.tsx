@@ -1,0 +1,31 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function ShieldPlus({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M12.29 2.09a2 2 0 0 0-.58 0q-.33.06-.58.17l-.04.01-5.5 2.06c-.61.23-1.16.44-1.57.8a3 3 0 0 0-.82 1.19C3 6.84 3 7.42 3 8.08V12c0 2.65 1.61 4.82 3.29 6.38a22 22 0 0 0 4.6 3.19l.04.02q.26.15.69.26c.24.05.53.05.76 0 .3-.05.51-.17.69-.26l.03-.02c.99-.51 2.92-1.62 4.61-3.2C19.4 16.83 21 14.66 21 12V8.08c0-.66 0-1.24-.2-1.76a3 3 0 0 0-.82-1.18 5 5 0 0 0-1.57-.8l-5.5-2.07-.04-.01a3 3 0 0 0-.58-.17"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M13 9a1 1 0 1 0-2 0v2H9a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0-2h-2z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

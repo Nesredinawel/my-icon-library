@@ -1,0 +1,10298 @@
+{
+  "address-book": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "address-card": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "airplay": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "airpods-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "airpods": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "alarm-clock-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "alarm-clock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "alarm-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "alarm-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "alarm-snooze": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "album-collection": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "album": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "align-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "align-center-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "align-center-justify": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "align-center": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "align-justify": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "align-left-justify": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "align-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "align-letter-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "align-right-justify": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "align-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "anchor": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "angel": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "annotation-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "annotation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "aperture": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "archway": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-circle-down-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-circle-down-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-circle-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-circle-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-circle-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-circle-up-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-circle-up-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-circle-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down-1-9": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down-9-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down-a-z": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down-big-small": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down-short-wide": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down-small-big": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down-to-arc": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down-to-bracket": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down-to-square": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down-wide-short": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down-z-a": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-bottom-alignment": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-circle-broken-down-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-circle-broken-down-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-circle-broken-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-circle-broken-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-circle-broken-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-circle-broken-up-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-circle-broken-up-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-down-move": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-left-alignment": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-left-move": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-right-alignment": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-right-move": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-top-alignment": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-up-move": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-narrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-right-from-arc": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-right-from-bracket": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-right-to-arc": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-right-to-bracket": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-rotate-right-24": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-sm-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-sm-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-sm-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-sm-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-spin": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-square-down-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-square-down-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-square-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-square-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-square-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-square-up-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-square-up-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-square-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up-1-9": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up-9-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up-a-z": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up-big-small": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up-from-arc": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up-from-bracket": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up-from-square": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up-right-from-square": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up-short-wide": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up-small-big": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up-wide-short": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up-z-a": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrows-left-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "arrows-up-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "asterisk": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "at-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "atom": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "audio-description-slasg": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "audio-description": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "austral-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "award-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "award": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "backpack-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "backpack": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "backward-fast": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "backward-step": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "backward": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "badge-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "badge-dollar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "badge-percent": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "badge": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bag-shopping": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bags-shopping": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "ball-pile": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "balloon": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "ban": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bandage": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bank": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bars-progress": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "basket-shopping-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "basket-shopping": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bat": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "battery-bolt-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "battery-bolt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "battery-empty": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "battery-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "battery-full": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "battery-low": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "battery-mid": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "battery-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bed": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bell-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bell-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bell-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bell": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bitcoin-circle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bitcoin-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bluetooth-on": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bluetooth-signal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bluetooth-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bold": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bolt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bones": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "book-open": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "book-section": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "book-sparkles": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "book-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "book": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bookmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "boombox": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "border-bottom": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "border-clear": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "border-horizontal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "border-inner": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "border-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "border-outer": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "border-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "border-top-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "border-top": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "border-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "box-archive": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bracket-curly-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bracket-curly": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bracket-round-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bracket-round": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bracket-square-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bracket-square": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "brackets-curly": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "brackets-round": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "brackets-square": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "brake-warning": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bridge-suspension": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "briefcase-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "briefcase-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "briefcase-alt-3": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "briefcase-alt-4": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "briefcase-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "briefcase-dollar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "briefcase-medical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "briefcase-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "briefcase": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "broom": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "browser": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "brush": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bug-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bug": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "building-arrow-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "building-car": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "building-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "building-columns": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "building-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "building-flag": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "building-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "building-ngo": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "building-shield": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "building-un": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "building-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "building-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "building": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "buildings": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bullseye-arrow": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "bus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cake-christmas": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calculator": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-circle-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-circle-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-circle-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-day": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-days": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-exclamation-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-heart": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-lines-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-lines-pen": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-lines": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-pen": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-plus-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-week": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-xmark-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "calendars": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "camcorder": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "camera-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "camera-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "camera-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "camera-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "camera": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "campground": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "candle-holder": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "candle-stand": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "candy-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "candy-cane": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "candy-corn": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "candy": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "capsule": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "car-battery": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "car-side": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "car": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "caret-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "caret-left-to-line": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "caret-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "caret-right-to-line": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "caret-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "caret-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cart-arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cart-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cart-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cart-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cart-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cart-shopping-fast": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cart-shopping": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cart-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cash-register": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cassette-tape": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "castle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cat": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cauldron": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cctv": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cedi-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cent-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "certificate-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "certificate": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-area": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-bar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-bullet": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-column": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-gantt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-line-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-line-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-line": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-mixed-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-mixed": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-network": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-pie-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-pie-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-pie-simple": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-pie": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-pyramid": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-radar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-scatter-3d": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-scatter-bubble": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-scatter": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-simple-horizontal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-simple": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-tree-map": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-user-square": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chart-waterfall": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "check-double": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-down-dot": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-down-double": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-down-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-down-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-left-dot": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-left-double": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-right-dot": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-right-double": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-selector-horizontal-dot": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-selector-horizontal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-selector-vertical-dot": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-selector-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-up-dot": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-up-double": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-up-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-up-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chevron-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chimney": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "chirstmas-star": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "christmas-bag": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "christmas-candle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "christmas-star": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "church": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-bolt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-dashed": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-dollar-to-slot": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-dollar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-dots-horizontal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-dots-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-exclamation-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-half-stroke": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-half": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-heart": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-heat": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-information": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-location-arrow": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-microphone": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-notch": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-parking-splash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-parking": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-pause": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-percentage": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-play": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-plug-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-plug": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-quarter": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-quarters": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-question": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-radiation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-stop": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-three-quarters": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-video": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-water-plug": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-waveform-lines": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle-yen": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "circuit": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "city": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clapperboard-play": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clapperboard": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clarinet": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cleaver-blood": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cleaver": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clipboard-arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clipboard-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clipboard-attachment": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clipboard-list-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clipboard-list": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clipboard-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clipboard-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clipboard-text-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clipboard-text": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clipboard-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clipboard-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clipboard": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloche": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-desk": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-eight-thirty": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-eight": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-eleven-thirty": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-eleven": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-five-thirty": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-five": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-four-thirty": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-lines": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-nine-thirty": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-nine": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-one-thirty": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-one": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-seven-thirty": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-seven": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-six-thirty": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-six": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-snooze": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-ten-thirty": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-ten": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-three-thirty": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-three": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-twelve-thirty": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-twelve": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-two-thirty": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-two": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clone": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "closed-captioning": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-arrow-down-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-bolt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-fog": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-moon": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-music": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-question": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-rain-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-rain-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-rain": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-rainbow": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-search": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-showers": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-sleet": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-snow-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-snow": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-sun-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-sun": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-up-arrow": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-wired": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cloud": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "clouds": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "club": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "code-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "code-branch": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "code-commit": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "code-compare": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "code-fork": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "code-merge": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "code-pull-request-closed": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "code-pull-request": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "code": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "coffin-cross": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "coffin-open": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "coffin": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "coin-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "coin-front": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "coin-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "coin": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "coins-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "coins": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "colon-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "colors": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "columns-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "columns-3": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "command": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "compact-disc": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "compass-drafting": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "compass": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "compress-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "compress-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "compress-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "compress-wide": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "compress": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "container-storage": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cookie-man": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cookie": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cookies": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "corner-down-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "corner-down-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "corner-left-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "corner-left-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "corner-right-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "corner-right-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "corner-up-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "corner-up-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "credit-card-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "credit-card-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "credit-card-arrow-right-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "credit-card-arrow-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "credit-card-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "credit-card-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "credit-card-scan": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "credit-card": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "crop-simple": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "crop": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "crosshair-simple": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "crosshair": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "crow": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "crown": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cruzeiro-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cube-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cube-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cube-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cube": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cursor-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "cursor": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dazzle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dazzling-star": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "delete-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "delete-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "desktop-computer": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diagram-cells": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diagram-lean-canvas": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diagram-nested": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diagram-next": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diagram-predecessor": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diagram-previous": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diagram-project": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diagram-sankey": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diagram-subtask": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diagram-successor": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diagram-venn": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dial-high": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dial-low": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dial-max": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dial-med-low": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dial-med": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dial-min": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dial-off": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dial": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dialpad-circle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dialpad-square": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diamond-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diamond-turn-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diamond-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "diamond": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dice-five": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dice-four": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dice-one": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dice-six": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dice-three": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dice-two": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "disc-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "disc-drive": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "disc": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "distribute-spacing-horizontal-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "distribute-spacing-horizontal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "distribute-spacing-vertical-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "distribute-spacing-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dna": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "do-not-enter": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "document-layout-center": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "document-layout-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "document-layout-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dollar-circle-list": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dollar-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dong-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "door-closed": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "door-open": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dots-horizontal-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dots-horizontal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dots-vertical-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "dots-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "download": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "draw-square-t": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "draw-square": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "drawing-tablet": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "drone": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "droplet-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "droplet-degree": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "droplet-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "droplet": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "droplets": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "drum": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "eclipse": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "engine-warning": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "engine": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "english-to-chinese": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "enter": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "euro-circle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "euro-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "exclamation-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "expand-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "expand-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "expand-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "expand-wide": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "expand": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "eye-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "eye-dropper-full": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "eye-dropper-half": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "eye-dropper": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "eye-slash-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "eye-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "eye": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "face-frown": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "face-id": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "face-smile": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "farm": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "fence": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "ferris-wheel": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "figma": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-arrow-down-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-arrow-down-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-arrow-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-arrow-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-arrow-up-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-arrow-up-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-audio": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-block-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-block-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-block": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-bookmark-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-bookmark-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-bookmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-chart-column": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-check-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-check-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-code": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-contract": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-copy": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-cv": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-dashed-line": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-dollar-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-dollar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-exclamation-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-exclamation-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-graph": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-heart-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-heart-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-heart": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-horizontal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-info-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-info-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-info": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-link": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-lock-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-lock-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-minus-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-minus-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-pencil-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-pencil-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-pencil": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-plus-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-plus-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-question-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-question-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-question": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-redo-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-redo-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-redo": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-search-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-search-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-search": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-shield-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-shield-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-shield": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-shredder": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-wired": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-xmark-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-xmark-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file-zipper": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "file": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "files-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "files-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "files-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "files": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "film-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "film-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "film": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "filter-list": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "filter-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "filter-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "filter": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "fingerprint-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "fingerprint": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "fireplace": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "firewall": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "flag": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "flashlight": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "flask-round-blank": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "flask-round-potion": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "flip-backward": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "flip-forward-energy": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "flip-forward": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "floppy-disk-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "floppy-disk": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "flute": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-arrow-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-arrow-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-block": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-heart": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-image": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-info": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-question": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-search": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-shield": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "folder": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "font-case": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "font": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "fork-knife": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "fork-spoon": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "forward-step": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "forward": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "frame": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "frankenstein ": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gallery-thumbnails": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gaming-pad-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gaming-pad-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gaming-pad": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "garage-open": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "garage": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gauge-high": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gauge-low": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gauge-max": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gauge": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gear-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gear": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gem-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gem": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "ghost-smile": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "ghost": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gift-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gift-card": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gift": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "glasses": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "globe-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "globe-dollar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "globe-stand": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "globe": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "gold": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "graduation-hat-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "graduation-hat-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "graduation-hat-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "graduation-hat": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "grid-circle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "grid-dividers": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "grid-horizontal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "grid-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "grid-search": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "grid-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "grid": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "grip-dots-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "grip-dots": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "grip-lines-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "grip-lines": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "h1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "h2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "halloween-calendar-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "halloween-calendar-bat": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "halloween-calendar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "halloween-decorations": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "halloween-mail-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "halloween-mail": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "handshake": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hard-drive": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hashtag-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hashtag": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hat-witch": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hat-wizard-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hat-wizard": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "heading": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "headphones-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "headphones-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "headphones-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "headphones": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "heart-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "heart-crack": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "heart-half-stroke": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "heart-half": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "heart": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "heat-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "heat": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hexagon-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hexagon-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hexagon-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hexagon-image": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hexagon": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "high-definition": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hockey-mask": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "horizontal-rule": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hospital-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hospital": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hospitals": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hotel": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hourglass-end": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hourglass-half": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hourglass-start": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hourglass": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-bolt-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-bolt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-building": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-celcius": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-chimney-blank": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-chimney-floor": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-chimney-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-crack": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-fire": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-flag": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-floor": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-line": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-lock-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-medical-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-medical-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-medical-flag": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-medical-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-medical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-shield": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-smile": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-sun": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-tree": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-turret": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-water": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-wifi": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "house-window": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hurricane-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hurricane-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "hurricane": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "i-cursor": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "icicles": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "id-badge": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "id-card-clip": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "id-card": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "image-circle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "image-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "image-pen": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "image-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "image-polaroid-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "image-portrait": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "image-square-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "image-square-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "image-square": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "image-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "image": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "images-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-arrow-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-arrow-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-heart": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-information": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-star": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "inbox": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "indent": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "industry-windows": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "industry": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "infinity": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "information-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "information": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "italic": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "jack-o-lantern": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "kerning": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "key-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "key": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "keyboard-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "keyboard-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "keyboard": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "kit-medical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "knife-kitchen": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lamp-desk": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "landmark-dome": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "landmark-flag": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "landmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-arrow-down-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-arrow-up-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-check-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-dollar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-exclamation-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-lock-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-medical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-refresh-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-refresh": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-search-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-search": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-shield-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-shield": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-signal-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-signal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-wired": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-xmark-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "laptop": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lasso-sparkles": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lasso": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "layer-group": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "left-indent": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "left-to-right-text-direction": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "letter-chinese-a": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "letter-english-a": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "letter-japanese-a": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "life-ring": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "light-emergency-on": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "light-emergency": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lightbulb-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lightbulb-exclamation-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lightbulb-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lightbulb": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lights-holiday": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "line-columns": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "line-height": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lines-leaning": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "link-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "link-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "link-slash-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "link-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "link": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lira-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "list-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "list-music": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "list-ol": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "list-ul-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "list-ul-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "list-ul": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "list": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "loader": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "location-arrow-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "location-arrow": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "location-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "location-crosshairs-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "location-crosshairs": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "location-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "location-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "location-pin-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "location-pin-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "location-pin-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "location-pin-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "location-pin": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "location-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "location-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lock-a": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lock-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lock-hashtag": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lock-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "lollipop": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "loop-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "loop": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "magnet": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-alt-3": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-block": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-bookmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-heart": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-info": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-notification": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-open-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-open-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-open-arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-open-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-open-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-open-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-open-info": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-open-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-open-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-open-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-open": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-pencil": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-refresh": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-search": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-shield": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-star": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mail": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mailbox-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mailbox": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "map-location-pin": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "map-pin-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "map-pin": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "map": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "marker": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "martini-glass": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mask-face": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mask": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "maximize": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "medal-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "medal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "memo-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "memo-pencil": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "memo": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "menorah-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "menorah-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "menorah": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "menu-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "menu-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "menu-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "menu": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-block": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-chart-lines": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-chat": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-dots": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-heart": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-image": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-info": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-lines-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-lines": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-list": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-medical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-notification": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-pencil": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-question": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-refresh": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-search": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-shield": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-circle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-block": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-chart-lines": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-chat": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-dots": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-heart": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-image": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-info": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-lines-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-lines": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-list": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-medical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-notification": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-pencil": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-question": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-refresh": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-search": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-shield": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "message-square": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "microchip": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "microphone-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "microphone-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "microphone-slash-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "microphone-slash-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "microphone-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "microphone": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "microscope": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "minimize": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mistletoe": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mobile-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mobile-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mobile-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mobile-bolt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mobile-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mobile-dollar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mobile-signal-out": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mobile-signal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mobile-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mobile-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mobile": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "modem-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "modem-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "modem-alt-3": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "modem-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "modem": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "money-bill-stack": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "money-bill": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "money-check-dollar-pen": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "money-check-dollar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "money-check-pen": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "money-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "money-insert": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "money-stack": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "money-withdrawal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "moneybag": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "monitor-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "monitor-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "monitor-alt-3": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "monitor-alt-4": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "monitor-alt-5": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "monitor-alt-6": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "monitor-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "monitor-heart-rate": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "monitor-medical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "monitor-sun": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "monitor-water": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "monitor": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "monument": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "moon-cloud": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "moon-stars": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "moon": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "moped": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "motorcycle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mountain-city": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mouse-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mouse-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mouse-alt-3": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mouse-alt-4": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mouse-alt-5": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mouse-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mouse": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "move-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "move-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "move-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "move": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mp3-player": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "mug-sauser": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "music-note-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "music-note": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "music": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "network-wired": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "nfc-symbol": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "notdef": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "note-medical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "note-sticky": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "notebook": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "notes": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "objects-align-bottom-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "objects-align-bottom": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "objects-align-center-horizontal-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "objects-align-center-horizontal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "objects-align-center-vertical-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "objects-align-center-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "objects-align-left-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "objects-align-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "objects-align-right-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "objects-align-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "objects-align-top-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "objects-align-top": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "objects-column": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "octagon-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "octagon": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "oil-well": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "ornament-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "ornament": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "overline": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "paint-roller": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "paintbrush-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "paintbrush": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "palette": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "paperclip-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "paperclip-slash-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "paperclip-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "paperclip": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "paragraph": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "party-bell": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "party-horn": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pause": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pen-circle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pen-clip-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pen-clip": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pen-field": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pen-line": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pen-nib-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pen-nib": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pen-ruler": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pen-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pen-square": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pen-swirl": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pen": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pencil-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pencil": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pentagon": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "percent": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-block-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-block": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-call-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-call": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-flip-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-flip": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-incoming-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-incoming": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-intercom": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-lock-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-missed-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-missed": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-office": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-outgoing-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-outgoing": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-pause-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-pause": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-plus-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-signal-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-signal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-slash-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-xmark-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "phone": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "piano": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "place-of-worship": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "play-pause": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "play": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "plug": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "plus-large": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "plus-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "podcast": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "podium": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "poll-people": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "portrait-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "potion": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pound-circle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "pound-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "power-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "power-bank": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "power-off": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "prescription-bottle-medical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "prescription-bottle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "presentation-chart-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "presentation-chart-arrow": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "presentation-chart": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "presentation-line": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "presentation-screen": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "printer-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "printer": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "projector": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "question": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "radiation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "radio": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rainbow": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "receipt-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "receipt-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "receipt-alt-3": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "receipt-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "reciept": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rectangle-code": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rectangle-terminal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rectangle-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rectangle-wide": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rectangle-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rectangles-mixed": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "refresh-ccw-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "refresh-ccw-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "refresh-ccw-alt-3": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "refresh-ccw-alt-4": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "refresh-ccw-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "refresh-ccw-clock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "refresh-ccw": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "refresh-cw-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "refresh-cw-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "refresh-cw-alt-3": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "refresh-cw-alt-4": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "refresh-cw-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "refresh-cw": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "repeat-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "repeat": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "reply": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "resize-handle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "restaurant-menu": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rhombus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "right-indent": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "right-to-left-text-direction": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rocket": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rocking-horse": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "roller-coaster": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rotate-ccw": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rotate-cw": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rotate-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rotate": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "route": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rss": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "ruler-traingle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "ruler": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "rupee-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "santa-claus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "santa-glove": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "santa-hat-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "santa-hat": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "satellite-dish": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "scale-balanced": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "scale-unbalanced-flip": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "scale-unbalanced": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "scan": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "scarecrow": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "school-flag": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "school": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "scissors": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "screen-users": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "screencast": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "scribble": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "scrubber": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "scythe": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "seal-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "seal-question": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "seal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "search-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "search-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "search-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "search-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "search-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "search": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "send-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "send-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "send-alt-3": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "send-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "send": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sensor-fire": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sensor-on": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sensor-triangle-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sensor": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "server": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shapes": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield-bolt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield-dollar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield-heart": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield-keyhole": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield-slash-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield-slash-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shield": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shop": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shredder": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "shuffle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sidebar-flip": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sidebar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sigma": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "signal-fair": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "signal-good": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "signal-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "signal-steam": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "signal-stream-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "signal-strong": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "signal-weak": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "signal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "signature-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "signature": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "signs-post": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "simcard-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "simcard-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "simcard": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sipder-web": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sitemap": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "skates-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "skates": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "skull-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "skull-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "skull-crossbones": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "skull": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "slash-flip": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sleigh": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sliders-simple": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sliders-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sliders": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "snooze": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "snow-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "snow-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "snow-blowing": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "snow": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "snowman-head": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "snowman": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sort-amount-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sort-amount-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sort-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sort-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sort": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sparkles": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "speaker-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "speaker-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "speaker": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "spell-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "spider-widow": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "spider": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-a-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-code": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-cv": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-dashed": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-dazzle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-dollar-chart": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-dollar": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-dots-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-dots": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-h": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-kanban": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-list": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-medical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-parking-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-parking": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-pen": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-phone-flip": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-phone": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-poll-horizontal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-poll-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-quarters": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-ring": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-rss": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-sliders-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-sliders": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-small": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-t": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-terminal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-user-chart": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-user-check-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-user-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square-user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "square": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "staff-snake": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "star-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "star-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "star-alt-3": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "star-alt-4": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "star-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "star-half-stroke": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "star-sharp-half": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "star-sharp": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "star": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "stars": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "stocking": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "stopwatch-10": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "stopwatch": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "strikethrough": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "subdirectory": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "subscript": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "suitcase-medical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "suitcase": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sun-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sun-dust": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sun-haze": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sun": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sunrise": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "sunset": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "superscript": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "swatchbook": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "switch-horizontal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "switch-vertical": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "table-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "table-cells-large": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "table-cells": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "table-columns": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "table-layout": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "table-list-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "table-list": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "table-rows": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "table-tree": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "table": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tablet-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tablet-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tablet-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tablet": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tag": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tags": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tally": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "teddy-bear": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "temperature-arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "temperature-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "temperature-empty": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "temperature-full": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "temperature-half": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "temperature-high": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "temperature-list": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "temperature-low": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "temperature-quarter": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "temperature-snow": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "temperature-sun": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "temple": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tenge-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tent-arrow-down-to-line": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tent-arrow-left-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tent-arrow-turn-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tent-arrows-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tent": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tents": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "terminal": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "text-height": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "text-size": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "text-width": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "text": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "thermometer": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "thumbtack": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "ticket-simple": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "timer": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "toilet-paper-blank": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "toilet-paper-dots": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "toilet-portable": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "toilets-portable": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tombstone-blank": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tombstone": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "torii-gate": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tower-broadcast-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tower-broadcast": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tower-observation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tower": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trademark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "traffic-cone": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "traffic-light-go": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "traffic-light-slow": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "traffic-light-stop": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "traffic-light": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "train-subway": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "train-track": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "train-tram": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "train": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-arrow-up-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-blank-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-blank": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-check-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-clock-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-clock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-list-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-list": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-plus-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-slash-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-undo-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-undo": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-xmark-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "treasure-chest": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tree-decorated-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tree-decorated-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tree-decorated": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tree-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "triangle-arrows-bolt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "triangle-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "triangle-instrument": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "triangle": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "trophy": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "truck": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tughrik-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "turkish-lira-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "turn-off": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tv-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tv-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "tv": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "umbrella": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "underline": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "university": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "unlock-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "unlock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "upload": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "usb-flash-drive-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "usb-flash-drive": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-block-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-block-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-block": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-check-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-check-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-check": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-heart-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-heart-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-heart": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-lock-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-lock-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-lock": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-minus-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-minus-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-pen-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-pen-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-pen": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-plus-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-plus-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-question-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-question-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-question": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-refresh-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-refresh-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-refresh": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-search-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-search-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-search": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-shield-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-shield-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-shield": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-xmark-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-xmark-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "user": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "users": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "van": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "vault": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "vial": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "video-arrow-down-left": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "video-arrow-up-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "video-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "video-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "video": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "vihara": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "virus-covid-19": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "voicemail": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "volume-max": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "volume-min": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "volume-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "volume-off": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "volume-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "volume-xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wallet-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wallet-arrow-right": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wallet-minus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wallet-plus": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wallet": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wand-magic-sparkles": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wand-magic": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wand-sparkles": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wand": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "warehouse-full": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "warehouse": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "watch-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "watch-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "watch-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "watch": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "water-arrow-down": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "water-arrow-up": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "water": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wave-pulse": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "webcam-alt-1": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "webcam-alt-2": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "webcam-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "webcam-slash-alt": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "webcam-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "webcam": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "weight-scale": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "weight": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wifi-exclamation": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wifi-fair": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wifi-good": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wifi-slash": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wifi-weak": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wifi": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wind-warning": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wind": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "window-flip": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "window": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wine-glass": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "won-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "wreath": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "xmark-large": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "xmark": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ],
+  "yen-sign": [
+    "duotone",
+    "monochrome",
+    "outline",
+    "solid"
+  ]
+}

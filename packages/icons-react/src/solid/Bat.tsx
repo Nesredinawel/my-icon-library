@@ -1,0 +1,26 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Bat({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M6.53 3.11a1 1 0 0 1 .5.98Q7 4.3 7 4.5c0 1.4.82 2.6 2 3.16V5a1 1 0 0 1 1.9-.45L11.61 6h.76l.73-1.45A1 1 0 0 1 15 5v2.66a3.5 3.5 0 0 0 1.98-3.57 1 1 0 0 1 1.59-.91 11 11 0 0 1 3.8 12.51 1 1 0 0 1-1.42.55Q20.53 16 20 16a2 2 0 0 0-2 1.85 1 1 0 0 1-1.66.66A2 2 0 0 0 13 20a1 1 0 0 1-2 0 2 2 0 0 0-3.34-1.49A1 1 0 0 1 6 17.85a2 2 0 0 0-2.94-1.61 1 1 0 0 1-1.41-.55 11 11 0 0 1 3.8-12.51 1 1 0 0 1 1.09-.07"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

@@ -1,0 +1,26 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function TvAlt1({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M2 6.8c0-1.68 0-2.52.33-3.16a3 3 0 0 1 1.3-1.31C4.29 2 5.13 2 6.8 2h10.4c1.68 0 2.52 0 3.16.33a3 3 0 0 1 1.31 1.3c.33.65.33 1.49.33 3.17v7.4c0 1.68 0 2.52-.33 3.16a3 3 0 0 1-1.3 1.31c-.54.27-1.2.32-2.37.33v2a1 1 0 1 1-2 0v-2H8v2a1 1 0 1 1-2 0v-2c-1.16-.01-1.83-.06-2.36-.33a3 3 0 0 1-1.31-1.3C2 16.71 2 15.87 2 14.2zm2-1.2c0-.56 0-.84.1-1.05a1 1 0 0 1 .45-.44C4.76 4 5.04 4 5.6 4h12.8c.56 0 .84 0 1.05.1a1 1 0 0 1 .44.45c.11.21.11.49.11 1.05V15H4z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

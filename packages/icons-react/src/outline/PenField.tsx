@@ -1,0 +1,31 @@
+import type { OutlineIconProps } from "../shared/types";
+
+export function PenField({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 1.5,
+  ...rest
+}: OutlineIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      width={size}
+      height={size}
+      color={color}
+      strokeWidth={strokeWidth}
+      {...rest}
+    >
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M8 9H6.2c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C3 10.52 3 11.08 3 12.2v5.6c0 1.12 0 1.68.22 2.1q.3.58.87.88c.43.22.99.22 2.11.22h11.59c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .88-.87c.22-.43.22-.99.22-2.11V12m-9.49.9 1.32-.27c.71-.14 1.07-.2 1.4-.34a4 4 0 0 0 .83-.44c.3-.2.55-.46 1.06-.97l5.15-5.15a1.76 1.76 0 1 0-2.5-2.49l-5.23 5.24c-.48.48-.72.72-.91 1a4 4 0 0 0-.43.76c-.13.31-.2.64-.36 1.3z"
+      />
+    </svg>
+  );
+}

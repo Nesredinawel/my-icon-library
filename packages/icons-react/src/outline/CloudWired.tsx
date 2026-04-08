@@ -1,0 +1,31 @@
+import type { OutlineIconProps } from "../shared/types";
+
+export function CloudWired({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 1.5,
+  ...rest
+}: OutlineIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      width={size}
+      height={size}
+      color={color}
+      strokeWidth={strokeWidth}
+      {...rest}
+    >
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M15 18a3 3 0 1 1-6 0m6 0a3 3 0 0 0-3-3m3 3h6M9 18a3 3 0 0 1 3-3m-3 3H3m9-3v-3m-2.4 0A3.5 3.5 0 0 1 6 8.56c0-1.57 1.2-3.03 3-3.31A3.8 3.8 0 0 1 12.46 3c2 0 3.63 1.5 3.74 3.38A3 3 0 0 1 18 9.1c0 1.6-1.34 2.89-3 2.89z"
+      />
+    </svg>
+  );
+}

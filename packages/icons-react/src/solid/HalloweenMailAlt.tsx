@@ -1,0 +1,32 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function HalloweenMailAlt({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M2 5a1 1 0 0 1 .06-.35l4.35 2.17 1.88 1.89a1 1 0 1 0 1.42-1.42L8.69 6.27l.76-.38A1 1 0 0 0 9.02 4H21a1 1 0 0 1 1 1v2.46L12 11.9 2 7.42z"
+      />
+      <path
+        fill="currentColor"
+        d="M5.24 4h3.74a1 1 0 0 0-.43.1L7 4.89zM22 9.65l-9.6 4.26a1 1 0 0 1-.8 0L4 10.51v3.08l.27.27 2.41-.8a1 1 0 0 1 .77.05l2 1a1 1 0 1 1-.9 1.78l-1.63-.81-2.38.8-.83.83A1 1 0 0 1 2 16v3a1 1 0 0 0 1 1h11v-3.5a2.5 2.5 0 0 1 2.5-2.5h.5c0-1.1.9-2 2-2h3z"
+      />
+      <path
+        fill="currentColor"
+        d="M19 14h2v4a1 1 0 0 1-1 1h-4v-2.5c0-.28.22-.5.5-.5h.5a2 2 0 0 0 2-2"
+      />
+    </svg>
+  );
+}

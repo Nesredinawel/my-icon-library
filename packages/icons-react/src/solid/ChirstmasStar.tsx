@@ -1,0 +1,26 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function ChirstmasStar({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M12 2a1 1 0 0 1 .93.64l1.95 5.06 3.41-3.4a1 1 0 1 1 1.42 1.4L16.3 9.13l5.06 1.95a1 1 0 0 1 0 1.86l-5.06 1.95 3.4 3.41a1 1 0 0 1-1.4 1.42l-3.42-3.41-1.95 5.06a1 1 0 0 1-1.86 0L9.12 16.3 5.7 19.7a1 1 0 0 1-1.42-1.4l3.41-3.42-5.06-1.95a1 1 0 0 1 0-1.86L7.7 9.12 4.3 5.7a1 1 0 0 1 1.4-1.42L9.13 7.7l1.95-5.06A1 1 0 0 1 12 2"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

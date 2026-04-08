@@ -1,0 +1,24 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function CircleWaterPlug({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M15.58 2.66c-.25.28-.59.69-.88 1.16a4.2 4.2 0 0 0-.24 4.3A1 1 0 0 0 13 9v1.99h-2V9a1 1 0 1 0-2 0v2H8a1 1 0 0 0-1 1v3a3 3 0 0 0 3 3h1v3.95a10 10 0 1 1 4.58-19.3M15 11V9a5 5 0 0 0 6.83 1.13q.17.9.17 1.87a10 10 0 0 1-9 9.95V18h1a3 3 0 0 0 3-3v-3a1 1 0 0 0-1-1zm4-2a3 3 0 0 0 3-2.98c0-.76-.63-1.6-1.1-2.12C20.35 3.28 19 2 19 2s-1.3 1.28-1.85 1.9C16.68 4.43 16 5.26 16 6.02A3 3 0 0 0 19 9"
+      />
+    </svg>
+  );
+}

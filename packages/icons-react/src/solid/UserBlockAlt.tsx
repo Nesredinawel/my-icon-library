@@ -1,0 +1,30 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function UserBlockAlt({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M11 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10M7.68 13H7.6q-.8-.02-1.3.06a4 4 0 0 0-3.23 3.23q-.08.5-.06 1.3v1.84q0 .39.02.7c.02.24.06.5.2.78q.3.57.87.87a2 2 0 0 0 .77.2q.33.02.7.02h6.97a6 6 0 0 1 .35-8.37 5 5 0 0 1-4.64-.46 1 1 0 0 0-.56-.17"
+      />
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M13 18a4 4 0 1 1 8 0 4 4 0 0 1-8 0m4-2a2 2 0 0 0-1.98 2.27l2.73-2.12A2 2 0 0 0 17 16m1.98 1.73-2.73 2.12a2 2 0 0 0 2.73-2.12"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

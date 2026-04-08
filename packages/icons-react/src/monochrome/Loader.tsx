@@ -1,0 +1,31 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Loader({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M19.07 4.93a1 1 0 0 1 0 1.41l-2.12 2.12a1 1 0 1 1-1.41-1.41l2.12-2.12a1 1 0 0 1 1.41 0M17 12a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1m-1.46 3.54a1 1 0 0 1 1.4 0l2.13 2.12a1 1 0 0 1-1.41 1.41l-2.12-2.12a1 1 0 0 1 0-1.41M12 17a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0v-3a1 1 0 0 1 1-1"
+        clip-rule="evenodd"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        d="M12 2a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1M4.93 4.93a1 1 0 0 1 1.41 0l2.13 2.12a1 1 0 1 1-1.42 1.42L4.93 6.34a1 1 0 0 1 0-1.41M2 12a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1m6.46 3.54a1 1 0 0 1 0 1.4l-2.12 2.13a1 1 0 1 1-1.41-1.41l2.12-2.12a1 1 0 0 1 1.41 0"
+      />
+    </svg>
+  );
+}

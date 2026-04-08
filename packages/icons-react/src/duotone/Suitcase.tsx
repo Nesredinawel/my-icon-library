@@ -1,0 +1,33 @@
+import type { DuotoneIconProps } from "../shared/types";
+
+export function Suitcase({
+  size = 24,
+  color = "currentColor",
+  secondaryOpacity = 0.3,
+  ...rest
+}: DuotoneIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M3 11.8c0-1.68 0-2.52.33-3.16a3 3 0 0 1 1.3-1.31C5.29 7 6.13 7 7.8 7h8.4c1.68 0 2.52 0 3.16.33a3 3 0 0 1 1.31 1.3c.33.65.33 1.49.33 3.17v4.4c0 1.68 0 2.52-.33 3.16a3 3 0 0 1-1.3 1.31c-.65.33-1.49.33-3.17.33H7.8c-1.68 0-2.52 0-3.16-.33a3 3 0 0 1-1.31-1.3C3 18.71 3 17.87 3 16.2z"
+        opacity=".14"
+      />
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M8 7v-.8c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C9.52 3 10.08 3 11.2 3h1.6c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11V7M7 21V7m10 14V7M7 7h9M7 7c-1.16.01-1.83.06-2.36.33a3 3 0 0 0-1.31 1.3C3 9.29 3 10.13 3 11.8v4.4c0 1.68 0 2.52.33 3.16a3 3 0 0 0 1.3 1.31c.65.33 1.49.33 3.17.33h8.4c1.68 0 2.52 0 3.16-.33a3 3 0 0 0 1.31-1.3c.33-.65.33-1.49.33-3.17v-4.4c0-1.68 0-2.52-.33-3.16a3 3 0 0 0-1.3-1.31C18.71 7 17.87 7 16.2 7h.8m0 0h-1"
+      />
+    </svg>
+  );
+}

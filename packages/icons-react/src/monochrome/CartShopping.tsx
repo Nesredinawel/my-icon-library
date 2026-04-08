@@ -1,0 +1,31 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function CartShopping({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="m7.17 4 1.38 9H19a1 1 0 0 0 .96-.73l2-7A1 1 0 0 0 21 4z"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M2 3a1 1 0 0 1 1-1h3a1 1 0 0 1 .99.85L8.86 15H20a1 1 0 1 1 0 2H8a1 1 0 0 1-.99-.85L5.14 4H3a1 1 0 0 1-1-1m4 17a2 2 0 1 1 4 0 2 2 0 0 1-4 0m11 0a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

@@ -1,0 +1,28 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function ChartPieSimple({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M14 2a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1 8 8 0 0 0-8-8"
+      />
+      <path
+        fill="currentColor"
+        d="M11 4a9 9 0 1 0 9 9 1 1 0 0 0-1-1h-6a1 1 0 0 1-1-1V5a1 1 0 0 0-1-1"
+      />
+    </svg>
+  );
+}

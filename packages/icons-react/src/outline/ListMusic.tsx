@@ -1,0 +1,31 @@
+import type { OutlineIconProps } from "../shared/types";
+
+export function ListMusic({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 1.5,
+  ...rest
+}: OutlineIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      width={size}
+      height={size}
+      color={color}
+      strokeWidth={strokeWidth}
+      {...rest}
+    >
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M16 5v13m0 0c0 1.1-1.34 2-3 2s-3-.9-3-2 1.34-2 3-2 3 .9 3 2M4 5h8M4 9h8m-8 4h4m8-9 4-1v4l-4 1z"
+      />
+    </svg>
+  );
+}

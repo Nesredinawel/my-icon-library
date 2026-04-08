@@ -1,0 +1,4 @@
+node_modules
+packages/**/dist
+packages/**/src/**   # optional: remove this line if you want generated source committed
+.DS_Store

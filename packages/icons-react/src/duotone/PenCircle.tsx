@@ -1,0 +1,42 @@
+import type { DuotoneIconProps } from "../shared/types";
+
+export function PenCircle({
+  size = 24,
+  color = "currentColor",
+  secondaryOpacity = 0.3,
+  ...rest
+}: DuotoneIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18m-3.1-7.52-.4 2.02 2.03-.4.34-.09.2-.11q.1-.07.27-.24l4.16-4.16a1.41 1.41 0 0 0-2-2l-4.16 4.16-.24.26-.11.2z"
+        clip-rule="evenodd"
+        opacity=".14"
+      />
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
+      />
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="m8.9 13.48.09-.35.11-.2q.07-.1.24-.27L13.5 8.5a1.41 1.41 0 0 1 2 2l-4.16 4.16-.26.24-.2.11-.36.09-2.02.4z"
+      />
+    </svg>
+  );
+}

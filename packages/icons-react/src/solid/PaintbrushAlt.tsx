@@ -1,0 +1,24 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function PaintbrushAlt({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="m15.56 13.15 6.3-6.3a2.62 2.62 0 1 0-3.71-3.7l-6.3 6.29zm-1.41 1.41-3.71-3.7-1.32 1.32c-.56.56-.82 1.3-.77 2.04a3.74 3.74 0 0 0-4.99 3.13q-.03.49.1.87a1.9 1.9 0 0 1-.97 2.23l-.21.1a.5.5 0 0 0 .22.95h4.59a3.75 3.75 0 0 0 3.58-4.86c.77.08 1.56-.17 2.15-.76z"
+      />
+    </svg>
+  );
+}

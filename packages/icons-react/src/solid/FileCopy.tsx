@@ -1,0 +1,30 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function FileCopy({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M15.5 2h-2.2c-1.68 0-2.52 0-3.16.33a3 3 0 0 0-1.31 1.3c-.33.65-.33 1.49-.33 3.17v5.4c0 1.68 0 2.52.33 3.16a3 3 0 0 0 1.3 1.31c.65.33 1.49.33 3.17.33h2.4c1.68 0 2.52 0 3.16-.33a3 3 0 0 0 1.31-1.3c.33-.65.33-1.49.33-3.17V7zm-.2 6c-.28 0-.42 0-.53-.05a.5.5 0 0 1-.22-.22c-.05-.11-.05-.25-.05-.53V3.5L19 8z"
+        clip-rule="evenodd"
+      />
+      <path
+        fill="currentColor"
+        d="M7.5 7h-1a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3v-1h-1.6c-2.24 0-3.36 0-4.22-.44a4 4 0 0 1-1.74-1.74c-.44-.86-.44-1.98-.44-4.22z"
+      />
+    </svg>
+  );
+}

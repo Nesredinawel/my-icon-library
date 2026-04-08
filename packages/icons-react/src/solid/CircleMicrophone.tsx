@@ -1,0 +1,26 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function CircleMicrophone({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M7 10a1 1 0 0 1 1 1v2a4 4 0 0 0 8 0v-2a1 1 0 1 1 2 0v2a6 6 0 0 1-12 0v-2a1 1 0 0 1 1-1m5-5a2 2 0 0 0-2 2v6a2 2 0 1 0 4 0V7a2 2 0 0 0-2-2"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

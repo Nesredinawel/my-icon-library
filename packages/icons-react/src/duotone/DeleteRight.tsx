@@ -1,0 +1,33 @@
+import type { DuotoneIconProps } from "../shared/types";
+
+export function DeleteRight({
+  size = 24,
+  color = "currentColor",
+  secondaryOpacity = 0.3,
+  ...rest
+}: DuotoneIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M16.56 6.25a4 4 0 0 0-.75-.85 2 2 0 0 0-.65-.33C14.89 5 14.6 5 14.03 5H6.2c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C3 6.52 3 7.08 3 8.2v7.6c0 1.12 0 1.68.22 2.1q.3.58.87.88c.43.22.99.22 2.11.22h7.83c.57 0 .86 0 1.13-.07a2 2 0 0 0 .65-.33c.22-.16.4-.39.75-.85l2.93-3.8c.54-.7.81-1.04.92-1.43a2 2 0 0 0 0-1.04c-.1-.39-.38-.74-.92-1.43z"
+        opacity=".14"
+      />
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="m7 9.5 5 5m0-5-5 5m12.5-.55-2.94 3.8c-.35.46-.53.69-.75.85a2 2 0 0 1-.65.33c-.27.07-.56.07-1.13.07H6.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C3 17.48 3 16.92 3 15.8V8.2c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C4.52 5 5.08 5 6.2 5h7.83c.57 0 .86 0 1.13.07a2 2 0 0 1 .65.33c.22.16.4.39.75.85l2.93 3.8c.54.7.81 1.04.92 1.43q.13.52 0 1.04c-.1.39-.38.74-.92 1.43"
+      />
+    </svg>
+  );
+}

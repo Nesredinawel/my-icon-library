@@ -1,0 +1,26 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function WatchAlt2({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M9 2a1 1 0 0 0-.98.78L7.1 7.01a7 7 0 0 0 0 9.99l.93 4.21a1 1 0 0 0 .98.79h6a1 1 0 0 0 .98-.78l.93-4.23a7 7 0 0 0 .01-9.97l-.94-4.24A1 1 0 0 0 15 2zm.8 18-.32-1.47a7 7 0 0 0 5.04 0L14.2 20zM12 5q1.34.01 2.53.47L14.2 4H9.8l-.32 1.47Q10.66 5 12 5m1 4.5a1 1 0 1 0-2 0V12a1 1 0 0 0 .4.8l2 1.5a1 1 0 0 0 1.2-1.6L13 11.5z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

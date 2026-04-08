@@ -1,0 +1,26 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function CloudMusic({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M6.8 7.62a6.6 6.6 0 0 1 12.43 1.99A5.7 5.7 0 0 1 22 14.5a5.5 5.5 0 0 1-5.5 5.5H8.4A6.4 6.4 0 0 1 2 13.65a6.25 6.25 0 0 1 4.8-6.03M15 10a1 1 0 0 0-1.2-.98l-3.57.71a1 1 0 0 0-.8.98v3.7l-.4.21a1 1 0 0 0 .94 1.76l.93-.5a1 1 0 0 0 .53-.88v-3.47l1.57-.31v2.16l-.45.23a1 1 0 1 0 .9 1.78l1-.5A1 1 0 0 0 15 14z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

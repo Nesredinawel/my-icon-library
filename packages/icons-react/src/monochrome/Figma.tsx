@@ -1,0 +1,29 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Figma({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M5.5 12a3 3 0 0 1 3-3h3v6h-3a3 3 0 0 1-3-3m13-7a3 3 0 0 0-3-3h-3v6h3a3 3 0 0 0 3-3"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        d="M5.5 5a3 3 0 0 1 3-3h3v6h-3a3 3 0 0 1-3-3m3 11a3 3 0 1 0 3 3v-3zm7-1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+      />
+    </svg>
+  );
+}

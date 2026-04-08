@@ -1,0 +1,31 @@
+import type { OutlineIconProps } from "../shared/types";
+
+export function SkullAlt1({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 1.5,
+  ...rest
+}: OutlineIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      width={size}
+      height={size}
+      color={color}
+      strokeWidth={strokeWidth}
+      {...rest}
+    >
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M12 18v3m-4-3v3h8v-3m-2.5-4L12 12.5 10.5 14M8 19H6.34a9 9 0 1 1 11.31 0H16M10 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m6 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+      />
+    </svg>
+  );
+}

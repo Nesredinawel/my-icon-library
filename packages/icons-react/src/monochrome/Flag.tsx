@@ -1,0 +1,31 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Flag({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M8.5 2a8 8 0 0 0-3.11.53c-.64.26-.98.54-1.09.65A1 1 0 0 1 6 3.9v11.34l.15-.07a6 6 0 0 1 2.35-.37c1.1 0 2.04.38 3.18.85 1.06.44 2.3.95 3.82.95a8 8 0 0 0 3.11-.53c.64-.26.98-.54 1.09-.65q.3-.3.3-.72V3.9a1 1 0 0 0-.62-.93c-.44-.17-.77 0-1.12.25q-.1.07-.4.2a6 6 0 0 1-2.36.38c-1.09 0-2-.37-3.12-.82l-.06-.03A10 10 0 0 0 8.5 2"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M5 2.9a1 1 0 0 1 1 1V21a1 1 0 1 1-2 0V3.9a1 1 0 0 1 1-1"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

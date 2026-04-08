@@ -1,0 +1,29 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function HouseTree({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M14.75 2.3a1 1 0 0 0-1.41 0L6.69 8.93q.28-.16.65-.27a4 4 0 0 1 3.62.69c.22.17.44.37.59.5l4.47 4.07A3 3 0 0 1 15 18.98v.6l-.02.87c-.03.35-.11.91-.42 1.51l-.01.04H21a1 1 0 0 0 .8-1.59l-2.84-3.91H21a1 1 0 0 0 .8-1.6L18.88 11H21a1 1 0 0 0 .7-1.7z"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        d="M9.08 10.44a2 2 0 0 0-1.16 0q-.4.14-.65.35-.24.18-.5.43l-2.97 2.7-1.47 1.34a1 1 0 1 0 1.34 1.48l.33-.3v3q0 .37.02.7a2 2 0 0 0 .2.77q.3.57.87.87.42.19.77.2.33.03.7.02h3.87q.39 0 .7-.02.36-.01.78-.2a2 2 0 0 0 .87-.87 2 2 0 0 0 .2-.77q.02-.33.02-.7v-3l.33.3a1 1 0 0 0 1.34-1.48l-4.44-4.04q-.26-.25-.5-.43a2 2 0 0 0-.65-.35"
+      />
+    </svg>
+  );
+}

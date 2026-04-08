@@ -1,0 +1,29 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Aperture({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M3.9 6.14A10 10 0 0 0 2.2 14h6.25zm6.94 15.79a10 10 0 0 0 7.8-2.45l-3.19-5.5zM21.17 8a10 10 0 0 0-6.05-5.5L11.92 8z"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        d="M2.83 16a10 10 0 0 0 5.96 5.48L11.97 16zm17.22 1.93A10 10 0 0 0 21.8 10h-6.35zM13.07 2.06Q12.55 2 12 2c-2.58 0-4.92.97-6.7 2.57l3.15 5.44z"
+      />
+    </svg>
+  );
+}

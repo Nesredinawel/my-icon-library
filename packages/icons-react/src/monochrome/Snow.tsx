@@ -1,0 +1,31 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Snow({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M11 5.58 8.72 3.3A1 1 0 0 0 7.3 4.71L11 8.4zM8.42 11 4.71 7.3a1 1 0 1 0-1.42 1.4L5.6 11zM5.6 13h2.82l-3.71 3.7a1 1 0 1 1-1.42-1.4zm5.4 2.59v2.83L8.72 20.7a1 1 0 1 1-1.42-1.42zm2 2.82V15.6l3.7 3.7a1 1 0 0 1-1.4 1.42zM15.59 13h2.82l2.3 2.3a1 1 0 0 1-1.42 1.4zm2.82-2H15.6l3.7-3.7a1 1 0 1 1 1.42 1.4zM13 8.41V5.6l2.3-2.3a1 1 0 1 1 1.4 1.42z"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M12 2a1 1 0 0 1 1 1v8h8a1 1 0 1 1 0 2h-8v8a1 1 0 1 1-2 0v-8H3a1 1 0 1 1 0-2h8V3a1 1 0 0 1 1-1"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

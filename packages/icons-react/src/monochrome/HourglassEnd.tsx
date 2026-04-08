@@ -1,0 +1,29 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function HourglassEnd({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M4 2a1 1 0 0 0 0 2h16a1 1 0 1 0 0-2zm0 18a1 1 0 1 0 0 2h16a1 1 0 1 0 0-2h-2.07a6.8 6.8 0 0 0-2.77-4.51L12 13.23l-3.16 2.26A6.8 6.8 0 0 0 6.07 20z"
+      />
+      <path
+        fill="currentColor"
+        d="M4.06 4a8.8 8.8 0 0 0 3.61 6.14l2.6 1.86-2.6 1.86A8.8 8.8 0 0 0 4.06 20h2.01a6.8 6.8 0 0 1 2.77-4.51L12 13.23l3.16 2.26A6.8 6.8 0 0 1 17.93 20h2.01a8.8 8.8 0 0 0-3.61-6.14L13.72 12l2.6-1.86A8.8 8.8 0 0 0 19.95 4h-2.01a6.8 6.8 0 0 1-2.77 4.51L12 10.77 8.84 8.51A6.8 6.8 0 0 1 6.07 4z"
+        opacity=".3"
+      />
+    </svg>
+  );
+}

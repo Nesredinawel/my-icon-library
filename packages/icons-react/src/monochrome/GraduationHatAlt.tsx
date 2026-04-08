@@ -1,0 +1,29 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function GraduationHatAlt({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M11.55 3.1a1 1 0 0 1 .9 0l9.98 5A1 1 0 0 1 23 9v6a1 1 0 1 1-2 0v-4.38l-8.55 4.27a1 1 0 0 1-.9 0l-10-5a1 1 0 0 1 0-1.78z"
+      />
+      <path
+        fill="currentColor"
+        d="M4 11.12v5.38a1 1 0 0 0 .55.9l7 3.5a1 1 0 0 0 .9 0l7-3.5a1 1 0 0 0 .55-.9v-5.38l-7.55 3.77a1 1 0 0 1-.9 0z"
+        opacity=".3"
+      />
+    </svg>
+  );
+}

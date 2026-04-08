@@ -1,0 +1,31 @@
+import type { OutlineIconProps } from "../shared/types";
+
+export function Pencil({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 1.5,
+  ...rest
+}: OutlineIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      width={size}
+      height={size}
+      color={color}
+      strokeWidth={strokeWidth}
+      {...rest}
+    >
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M9.66 17H7v-3m-.9.9L17.41 3.59a2 2 0 1 1 2.83 2.83L8.76 17.89c-.53.54-.8.8-1.1 1.04a6 6 0 0 1-.83.54c-.33.18-.69.32-1.4.6L3 21l.78-2.35c.27-.8.4-1.2.59-1.58a6 6 0 0 1 .58-.94c.26-.34.55-.63 1.15-1.23"
+      />
+    </svg>
+  );
+}

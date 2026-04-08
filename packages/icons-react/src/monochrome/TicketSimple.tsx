@@ -1,0 +1,25 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function TicketSimple({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M2.22 6.1C2 6.51 2 7.07 2 8.2v1.3a2.5 2.5 0 0 1 0 5v1.3c0 1.12 0 1.68.22 2.1q.3.58.87.88c.43.22.99.22 2.11.22h13.6c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .88-.87c.22-.43.22-.99.22-2.11v-1.3a2.5 2.5 0 0 1 0-5V8.2c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C20.48 5 19.92 5 18.8 5H5.2c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87"
+        opacity=".3"
+      />
+    </svg>
+  );
+}

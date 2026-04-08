@@ -1,0 +1,30 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Projector({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M17.5 3a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0zm-4.8 1.3a1 1 0 1 0-1.4 1.4l1 1a1 1 0 1 0 1.4-1.4zm7.6 0a1 1 0 1 1 1.4 1.4l-1 1a1 1 0 1 1-1.4-1.4z"
+      />
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M19 18.4a5.5 5.5 0 1 0-6.27-8.9H5a3 3 0 0 0-3 3v3a3 3 0 0 0 2 2.83V21a1 1 0 1 0 2 0v-2.5h8.2a5.5 5.5 0 0 0 2.8.48V21a1 1 0 1 0 2 0zm-2.01-8.37a3.5 3.5 0 1 1-.98 6.94 3.5 3.5 0 0 1 .98-6.94M7 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m2 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

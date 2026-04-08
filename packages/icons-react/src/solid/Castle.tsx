@@ -1,0 +1,24 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Castle({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M7 3a1 1 0 1 0-2 0v7H4V8a1 1 0 1 0-2 0v8.24q-.01 1.2.04 2.01c.05.56.15 1.08.4 1.57a4 4 0 0 0 1.74 1.74c.49.25 1 .35 1.57.4q.8.05 2 .04H10v-5a2 2 0 1 1 4 0v5h2.24q1.2.01 2.01-.04a4 4 0 0 0 1.57-.4 4 4 0 0 0 1.74-1.74c.25-.49.35-1 .4-1.57q.05-.8.04-2V8a1 1 0 1 0-2 0v2h-1V3a1 1 0 1 0-2 0v2h-2V3a1 1 0 1 0-2 0v2h-2V3a1 1 0 1 0-2 0v2H7z"
+      />
+    </svg>
+  );
+}

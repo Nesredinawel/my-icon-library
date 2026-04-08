@@ -1,0 +1,27 @@
+import type { DuotoneIconProps } from "../shared/types";
+
+export function SignalSlash({
+  size = 24,
+  color = "currentColor",
+  secondaryOpacity = 0.3,
+  ...rest
+}: DuotoneIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-width="2"
+        d="M20 4v10.4M16 16v4m0-12v2.4M12 12v8m-4-4v4m-4-1v1M3 3l18 18"
+      />
+    </svg>
+  );
+}

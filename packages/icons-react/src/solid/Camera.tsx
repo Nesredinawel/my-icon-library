@@ -1,0 +1,27 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Camera({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path fill="currentColor" d="M9 13a3 3 0 1 1 6 0 3 3 0 0 1-6 0" />
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M10.45 3q-.3 0-.56.02a3 3 0 0 0-2.17 1.34q-.14.21-.26.49l-.02.04-.06.1-.13.01H6.16q-.8 0-1.36.03c-.39.03-.78.1-1.16.3a3 3 0 0 0-1.31 1.3c-.2.39-.27.78-.3 1.17Q2 8.38 2 9.16v7.68q0 .8.03 1.36c.03.39.1.78.3 1.16a3 3 0 0 0 1.3 1.31c.39.2.78.27 1.17.3q.57.04 1.36.03h11.68q.8 0 1.36-.03c.39-.03.78-.1 1.16-.3a3 3 0 0 0 1.31-1.3c.2-.39.27-.78.3-1.17q.04-.57.03-1.36V9.16q0-.8-.03-1.36a3 3 0 0 0-.3-1.16 3 3 0 0 0-1.3-1.31c-.39-.2-.78-.27-1.18-.3Q18.65 5 17.85 5h-1.22l-.06-.11-.02-.04-.26-.49a3 3 0 0 0-2.17-1.34q-.26-.03-.56-.02zM12 8a5 5 0 1 0 0 10 5 5 0 0 0 0-10"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

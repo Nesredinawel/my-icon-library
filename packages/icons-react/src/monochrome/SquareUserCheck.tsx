@@ -1,0 +1,29 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function SquareUserCheck({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M3 7.8c0-1.68 0-2.52.33-3.16a3 3 0 0 1 1.3-1.31C5.29 3 6.13 3 7.8 3h8.4c1.68 0 2.52 0 3.16.33a3 3 0 0 1 1.31 1.3c.33.65.33 1.49.33 3.17V13a3 3 0 0 0-2.12.88L17 15.76a3 3 0 0 0-4.12 4.36l.88.88H7.8c-1.68 0-2.52 0-3.16-.33a3 3 0 0 1-1.31-1.3C3 18.71 3 17.87 3 16.2z"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        d="M15 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-2.12 5.88a3 3 0 0 0-.7 3.12h-6.1a6 6 0 0 1 9.27-3.98 3 3 0 0 0-2.47.86m8.82.82a1 1 0 0 0-1.4-1.4L17 18.58l-1.3-1.3a1 1 0 0 0-1.4 1.42l2 2a1 1 0 0 0 1.4 0z"
+      />
+    </svg>
+  );
+}

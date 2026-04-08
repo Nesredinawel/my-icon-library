@@ -1,0 +1,25 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Filter({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M4.57 2q-.39 0-.7.02c-.24.02-.5.06-.78.2a2 2 0 0 0-.87.87 2 2 0 0 0-.2.77Q2 4.2 2 4.56V6.4q-.01.3.06.66a2 2 0 0 0 .67 1.09L9 14.42c.04 2.2 0 4.39 0 6.58a1 1 0 0 0 1.7.7l4-4a1 1 0 0 0 .3-.7v-2.58l6.27-6.28q.22-.2.44-.5A2 2 0 0 0 22 6.38V4.57q0-.39-.02-.7-.01-.36-.2-.78a2 2 0 0 0-.87-.87 2 2 0 0 0-.77-.2Q19.8 2 19.44 2z"
+        opacity=".3"
+      />
+    </svg>
+  );
+}

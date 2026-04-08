@@ -1,0 +1,26 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function TughrikSign({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M4 4a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2h-6v4.22l2.6-1.14a1 1 0 1 1 .8 1.84L13 11.4v1.82l2.6-1.14a1 1 0 0 1 .8 1.84L13 15.4V20a1 1 0 1 1-2 0v-3.72l-2.6 1.14a1 1 0 0 1-.8-1.84L11 14.1v-1.82l-2.6 1.14a1 1 0 0 1-.8-1.84L11 10.1V5H5a1 1 0 0 1-1-1"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

@@ -1,0 +1,26 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function UserMinus({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M11 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10m0 11a8 8 0 0 0-8 8 1 1 0 0 0 1 1h14a1 1 0 0 0 1-1h-5a3 3 0 1 1 0-6h2.3a8 8 0 0 0-5.3-2"
+        opacity=".3"
+      />
+      <path fill="currentColor" d="M14 17a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2z" />
+    </svg>
+  );
+}

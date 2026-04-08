@@ -1,0 +1,31 @@
+import type { OutlineIconProps } from "../shared/types";
+
+export function PenClipSlash({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 1.5,
+  ...rest
+}: OutlineIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      width={size}
+      height={size}
+      color={color}
+      strokeWidth={strokeWidth}
+      {...rest}
+    >
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="m18.33 8.33-2.44-2.44c-1.18-1.18-1.78-1.78-2.46-2a3 3 0 0 0-1.86 0c-.4.13-.76.38-1.23.8m2.99 2.99 4.08-4.09a2 2 0 1 1 2.83 2.83l-4.09 4.08M3 3l7.5 7.5M21 21l-7.67-7.67M10.5 10.5l-4.74 4.74c-.84.84-1.26 1.26-1.58 1.74a6 6 0 0 0-.69 1.38c-.19.55-.27 1.13-.44 2.3L3 21l.49-.1c1.05-.21 1.58-.32 2.07-.51a6 6 0 0 0 1.24-.66c.44-.3.82-.69 1.58-1.45l4.95-4.95M10.5 10.5l2.83 2.83"
+      />
+    </svg>
+  );
+}

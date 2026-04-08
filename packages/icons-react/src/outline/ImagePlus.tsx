@@ -1,0 +1,31 @@
+import type { OutlineIconProps } from "../shared/types";
+
+export function ImagePlus({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 1.5,
+  ...rest
+}: OutlineIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      width={size}
+      height={size}
+      color={color}
+      strokeWidth={strokeWidth}
+      {...rest}
+    >
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="m14.26 15.94-1.71-1.7c-.8-.79-1.19-1.18-1.64-1.33a2 2 0 0 0-1.23 0c-.46.15-.85.54-1.64 1.32l-4 4.03m10.22-2.32.35-.34c.8-.8 1.2-1.2 1.67-1.35a2 2 0 0 1 1.24.02c.46.16.86.56 1.64 1.38l.84.85m-5.74-.56 3.96 4.02m0 0q-.5.05-1.42.04H7.2c-1.12 0-1.68 0-2.1-.22a1.9 1.9 0 0 1-1.05-1.52m14.17 1.7q.41-.04.69-.18a2 2 0 0 0 .87-.87c.22-.43.22-.99.22-2.11V13m-9-9H7.2c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C4 5.52 4 6.08 4 7.2v9.6c0 .65 0 1.1.04 1.46M18 9V6m0 0V3m0 3h3m-3 0h-3"
+      />
+    </svg>
+  );
+}

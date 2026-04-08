@@ -1,0 +1,30 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function AudioDescription({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="m8.5 11.6.58 1.4H7.92zm6 2.4v-4h.5a2 2 0 0 1 0 4z"
+      />
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M2.33 5.64C2 6.28 2 7.12 2 8.8v6.4c0 1.68 0 2.52.33 3.16a3 3 0 0 0 1.3 1.31c.65.33 1.49.33 3.17.33h10.4c1.68 0 2.52 0 3.16-.33a3 3 0 0 0 1.31-1.3c.33-.65.33-1.49.33-3.17V8.8c0-1.68 0-2.52-.33-3.16a3 3 0 0 0-1.3-1.31C19.71 4 18.87 4 17.2 4H6.8c-1.68 0-2.52 0-3.16.33a3 3 0 0 0-1.31 1.3m7.1 2.98a1 1 0 0 0-1.85 0l-2.5 6a1 1 0 1 0 1.84.76l.16-.38h2.84l.16.38a1 1 0 0 0 1.84-.76zM14 8c-.83 0-1.5.67-1.5 1.5v5c0 .83.67 1.5 1.5 1.5h1a4 4 0 0 0 0-8z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

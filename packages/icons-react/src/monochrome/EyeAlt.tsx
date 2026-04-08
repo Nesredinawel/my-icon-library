@@ -1,0 +1,31 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function EyeAlt({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M6 14a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
+        clip-rule="evenodd"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        d="M12 6a8 8 0 0 0-8 8 1 1 0 1 1-2 0 10 10 0 1 1 20 0 1 1 0 1 1-2 0 8 8 0 0 0-8-8"
+      />
+    </svg>
+  );
+}

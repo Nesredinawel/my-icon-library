@@ -1,0 +1,29 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function TrafficCone({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M5.48 16h13.04l-.78-2H6.26zm1.95-5h9.14l-.77-2H8.2z"
+      />
+      <path
+        fill="currentColor"
+        d="m18.52 16 1.16 3H21a1 1 0 1 1 0 2H3a1 1 0 1 1 0-2h1.32l1.16-3zm-.78-2-1.17-3H7.43l-1.17 3zM8.2 9h7.6l-1.2-3.04q-.36-.97-.66-1.59A2.4 2.4 0 0 0 13 3.25a2.1 2.1 0 0 0-1.98 0c-.5.26-.78.75-.96 1.12q-.3.61-.66 1.6z"
+        opacity=".3"
+      />
+    </svg>
+  );
+}

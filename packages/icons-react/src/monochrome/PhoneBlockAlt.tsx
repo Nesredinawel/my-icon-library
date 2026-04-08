@@ -1,0 +1,31 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function PhoneBlockAlt({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="m7.22 11.82-.86 1.05a14.3 14.3 0 0 0 5.26 5.06l.86-.84 1.77-1.76c.33-.32.65-.65 1.06-.84a2.5 2.5 0 0 1 1.13-.23c.45.01.87.19 1.3.36l.79.3q.9.33 1.77.74.39.19.74.52c.33.35.56.8.64 1.26q.07.5 0 .9-.2 1.04-.49 2.05l-.22.85A1 1 0 0 1 20 22a19 19 0 0 1-8.66-1.95c-3-1.51-5.45-3.85-7.06-6.77A19 19 0 0 1 2 4a1 1 0 0 1 .76-.97l2-.5q.5-.13.89-.2c.28-.05.58-.08.9-.01q.73.13 1.27.64.34.36.52.74.44.92.78 1.9l.33.84c.15.37.3.75.33 1.15q.04.53-.14 1.02c-.14.38-.39.7-.64 1.01q-.87 1.12-1.78 2.2"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M14 6a4 4 0 1 1 8 0 4 4 0 0 1-8 0m4-2a2 2 0 0 0-1.98 2.28l1.33-1.04 1.4-1.1A2 2 0 0 0 18 4m1.98 1.72-1.4 1.1-1.33 1.04a2 2 0 0 0 2.73-2.14"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

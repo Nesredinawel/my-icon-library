@@ -1,0 +1,30 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function BitcoinCircle({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M10.5 11V9h3a1 1 0 1 1 0 2zm0 4v-2h3a1 1 0 1 1 0 2z"
+      />
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0m8.5-5.5a1 1 0 1 0-2 0V7H8a1 1 0 0 0 0 2h.5v6H8a1 1 0 1 0 0 2h.5v.5a1 1 0 1 0 2 0V17h1v.5a1 1 0 1 0 2 0V17a3 3 0 0 0 2.24-5 3 3 0 0 0-2.24-5v-.5a1 1 0 1 0-2 0V7h-1z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

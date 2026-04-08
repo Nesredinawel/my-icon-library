@@ -1,0 +1,26 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function ToiletPaperDots({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M7 3h11c1.41 0 2.42 1.12 3.02 2.31.62 1.25.98 2.91.98 4.69s-.36 3.44-.98 4.69c-.6 1.2-1.6 2.31-3.02 2.31a3 3 0 0 1-2.13-1.01c-.2 1.63-.57 3.39-.93 4.36A1 1 0 0 1 14 21H3a1 1 0 0 1-.94-1.35C2.5 18.5 3 15.74 3 14v-4c0-1.78.36-3.44.98-4.69C4.58 4.11 5.58 3 7 3m9.77 10.8A9 9 0 0 1 16 10c0-1.54.31-2.88.77-3.8.5-.97.98-1.2 1.23-1.2s.74.23 1.23 1.2c.46.92.77 2.26.77 3.8s-.31 2.88-.77 3.8c-.5.97-.98 1.2-1.23 1.2s-.74-.23-1.23-1.2M7 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3.5 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3.5 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

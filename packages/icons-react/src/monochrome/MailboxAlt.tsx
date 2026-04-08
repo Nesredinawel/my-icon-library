@@ -1,0 +1,35 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function MailboxAlt({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M19.25 5.04c.56.05 1.08.15 1.57.4a4 4 0 0 1 1.74 1.74c.25.49.35 1 .4 1.57q.05.8.04 2V18a1 1 0 0 1-1 1H11a1 1 0 0 0 1-1v-8a5 5 0 0 0-5-5h10.24q1.2-.01 2.01.04"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        d="M13 3a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-2v8a1 1 0 1 1-2 0z"
+      />
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M15 21a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2H3a1 1 0 0 1-1-1v-8a5 5 0 0 1 10 0v8a1 1 0 0 1-1 1v1h2v-1h2zM8 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

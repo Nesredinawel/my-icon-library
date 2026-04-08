@@ -1,0 +1,26 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Lasso({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M6.12 5.34C4.63 6.17 4 7.14 4 8c0 .85.63 1.83 2.12 2.66C7.58 11.46 9.65 12 12 12s4.42-.53 5.88-1.34C19.37 9.83 20 8.86 20 8c0-.85-.63-1.83-2.12-2.66A12.4 12.4 0 0 0 12 4c-2.35 0-4.42.53-5.88 1.34m-.97-1.75C6.95 2.59 9.38 2 12 2s5.05.59 6.85 1.59C20.62 4.57 22 6.09 22 8c0 1.9-1.38 3.43-3.15 4.41a13 13 0 0 1-4.91 1.48 5.7 5.7 0 0 1 .59 4.62C13.84 20.6 11.85 22 9 22H3a1 1 0 1 1 0-2h6c2.15 0 3.26-1 3.62-2.11s.1-2.58-1.06-3.9a14 14 0 0 1-6.41-1.58C3.38 11.43 2 9.91 2 8c0-1.9 1.38-3.43 3.15-4.41"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

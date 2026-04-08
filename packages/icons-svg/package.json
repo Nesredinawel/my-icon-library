@@ -1,0 +1,14 @@
+{
+  "name": "@nasicons/icons-svg",
+  "version": "0.1.0",
+  "private": false,
+  "sideEffects": false,
+  "files": ["src"],
+  "exports": {
+    "./metadata": "./src/metadata.json",
+    "./outline/*": "./src/outline/*.svg",
+    "./solid/*": "./src/solid/*.svg",
+    "./duotone/*": "./src/duotone/*.svg",
+    "./monochrome/*": "./src/monochrome/*.svg"
+  }
+}

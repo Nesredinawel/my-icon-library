@@ -1,0 +1,34 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Hospitals({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M10.76 3H12a4 4 0 0 1 4 4v13q-.02 1.1-.53 2h1.73c1.68 0 2.52 0 3.16-.33a3 3 0 0 0 1.31-1.3c.33-.65.33-1.49.33-3.17V13h-2a1 1 0 1 1 0-2h2V9h-2a1 1 0 1 1 0-2h2v-.2c0-1.68 0-2.52-.33-3.16a3 3 0 0 0-1.3-1.31C19.71 2 18.87 2 17.2 2h-2.4c-1.68 0-2.52 0-3.16.33a3 3 0 0 0-.88.67"
+      />
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M2.33 6.64C2 7.28 2 8.12 2 9.8V17h12V9.8c0-1.68 0-2.52-.33-3.16a3 3 0 0 0-1.3-1.31C11.71 5 10.87 5 9.2 5H6.8c-1.68 0-2.52 0-3.16.33a3 3 0 0 0-1.31 1.3M8 9a1 1 0 0 1 1 1v1h1a1 1 0 1 1 0 2H9v1a1 1 0 1 1-2 0v-1H6a1 1 0 1 1 0-2h1v-1a1 1 0 0 1 1-1"
+        clip-rule="evenodd"
+      />
+      <path
+        fill="currentColor"
+        d="M2.33 20.36a3 3 0 0 1-.3-1.36h11.94c-.03.59-.12 1-.3 1.36a3 3 0 0 1-1.3 1.31c-.65.33-1.49.33-3.17.33H6.8c-1.68 0-2.52 0-3.16-.33a3 3 0 0 1-1.31-1.3"
+      />
+    </svg>
+  );
+}

@@ -1,0 +1,33 @@
+import type { DuotoneIconProps } from "../shared/types";
+
+export function VirusCovid19({
+  size = 24,
+  color = "currentColor",
+  secondaryOpacity = 0.3,
+  ...rest
+}: DuotoneIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M18 12a6 6 0 1 1-12 0 6 6 0 0 1 12 0"
+        opacity=".14"
+      />
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M18 12a6 6 0 0 1-6 6m6-6a6 6 0 0 0-6-6m6 6h3m-9 6a6 6 0 0 1-6-6m6 6v3m-6-9a6 6 0 0 1 6-6m-6 6H3m9-6V3m9 8v2M3 11v2m7.5-10h3M11 21h2M4.58 6.7 6.7 4.57m10.96 14.5 1.41-1.41M5.64 5.64l2.12 2.12m8.48 8.48 2.12 2.12M17.3 4.58l2.13 2.12M4.93 17.66l1.41 1.41M18.36 5.64l-2.12 2.12m-8.48 8.48-2.12 2.12m5.84-6.86a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+      />
+    </svg>
+  );
+}

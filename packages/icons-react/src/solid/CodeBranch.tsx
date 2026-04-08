@@ -1,0 +1,26 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function CodeBranch({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M2 5.5a3.5 3.5 0 1 1 4.5 3.36v2.68a4 4 0 0 1 2-.54h6c1 0 1.3 0 1.52-.07a2 2 0 0 0 1.41-1.41c.04-.14.06-.31.06-.67a3.5 3.5 0 1 1 2 0q.01.68-.13 1.19a4 4 0 0 1-2.82 2.82 8 8 0 0 1-1.9.14H8.5a2 2 0 0 0-2 2v.14a3.5 3.5 0 1 1-2 0V8.86A3.5 3.5 0 0 1 2 5.5"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

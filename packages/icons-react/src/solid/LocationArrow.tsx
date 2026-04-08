@@ -1,0 +1,26 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function LocationArrow({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M19.07 2.15c.4-.12.93-.25 1.46-.07.66.21 1.18.73 1.4 1.4.17.52.04 1.05-.08 1.45q-.2.63-.6 1.57l-5.1 12.63q-.38.95-.67 1.55c-.19.37-.47.85-.98 1.1-.62.31-1.34.3-1.95-.04-.5-.27-.75-.77-.92-1.14q-.28-.62-.6-1.58l-1.5-4.19-.1-.26-.26-.1-4.19-1.5q-.96-.32-1.58-.6a2.4 2.4 0 0 1-1.14-.92 2.1 2.1 0 0 1-.04-1.95c.25-.5.73-.79 1.1-.98q.61-.29 1.55-.67L17.5 2.74a21 21 0 0 1 1.57-.6"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

@@ -1,0 +1,31 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Broom({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M10.88 7.5a1 1 0 0 1 .83.3l4.5 4.5a1 1 0 0 1-.2 1.56L14 15.06a6 6 0 0 1-4.81 5.72l-6 1.2a1 1 0 0 1-1.17-1.18l1.2-5.99a6 6 0 0 1 5.72-4.8l1.2-2.02a1 1 0 0 1 .74-.48m2.27 5.74-2.39-2.4.44-.73 2.69 2.69z"
+        clip-rule="evenodd"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        d="M21.7 2.3a1 1 0 0 1 0 1.4l-7.04 7.05-1.41-1.41 7.04-7.05a1 1 0 0 1 1.42 0m-10.95 8.56 2.4 2.39.73-.44-2.69-2.69z"
+      />
+    </svg>
+  );
+}

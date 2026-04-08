@@ -1,0 +1,33 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function WifiGood({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M2.67 9.56A14 14 0 0 1 12 6c3.59 0 6.86 1.35 9.33 3.56a1 1 0 1 0 1.34-1.49A16 16 0 0 0 12 4C7.9 4 4.16 5.54 1.33 8.07a1 1 0 1 0 1.34 1.5"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        d="M5.95 13.34a8.96 8.96 0 0 1 12.1 0 1 1 0 0 0 1.35-1.48 10.96 10.96 0 0 0-14.8 0 1 1 0 1 0 1.35 1.48"
+      />
+      <path
+        fill="currentColor"
+        d="M9.31 17.04a4 4 0 0 1 5.38 0 1 1 0 0 0 1.35-1.48 6 6 0 0 0-8.08 0 1 1 0 0 0 1.35 1.48M12 19a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2z"
+      />
+    </svg>
+  );
+}

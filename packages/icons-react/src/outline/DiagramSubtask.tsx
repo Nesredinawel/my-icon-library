@@ -1,0 +1,31 @@
+import type { OutlineIconProps } from "../shared/types";
+
+export function DiagramSubtask({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 1.5,
+  ...rest
+}: OutlineIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      width={size}
+      height={size}
+      color={color}
+      strokeWidth={strokeWidth}
+      {...rest}
+    >
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M11 18c0 .93 0 1.4.15 1.77a2 2 0 0 0 1.08 1.08c.37.15.84.15 1.77.15h4c.93 0 1.4 0 1.77-.15a2 2 0 0 0 1.08-1.08c.15-.37.15-.84.15-1.77s0-1.4-.15-1.77a2 2 0 0 0-1.08-1.08C19.4 15 18.93 15 18 15h-4c-.93 0-1.4 0-1.77.15a2 2 0 0 0-1.08 1.08C11 16.6 11 17.07 11 18m0 0H9.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C6 16.48 6 15.92 6 14.8V9m0 0h12c.93 0 1.4 0 1.77-.15a2 2 0 0 0 1.08-1.08C21 7.4 21 6.93 21 6s0-1.4-.15-1.77a2 2 0 0 0-1.08-1.08C19.4 3 18.93 3 18 3H6c-.93 0-1.4 0-1.77.15a2 2 0 0 0-1.08 1.08C3 4.6 3 5.07 3 6s0 1.4.15 1.77a2 2 0 0 0 1.08 1.08C4.6 9 5.07 9 6 9"
+      />
+    </svg>
+  );
+}

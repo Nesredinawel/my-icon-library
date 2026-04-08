@@ -1,0 +1,26 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function CheckDouble({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M16.7 4.29a1 1 0 0 1 .01 1.41l-6.92 7a1 1 0 0 1-1.42 0L5.29 9.6A1 1 0 1 1 6.7 8.18l2.37 2.39 6.2-6.28a1 1 0 0 1 1.42-.01m4 3a1 1 0 0 1 0 1.42l-11 11a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42L9 17.6 19.3 7.3a1 1 0 0 1 1.4 0"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+}

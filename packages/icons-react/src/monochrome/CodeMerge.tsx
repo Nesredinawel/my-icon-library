@@ -1,0 +1,29 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function CodeMerge({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M6.61 8.82a3.5 3.5 0 0 1-2.11.04v6.29a3.5 3.5 0 0 1 2 0V12a5 5 0 0 0 2.02.9c.49.1 1.05.1 1.86.1h4.76a3.5 3.5 0 0 1 0-2H10.5c-.98 0-1.32 0-1.59-.06a3 3 0 0 1-2.3-2.12"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        d="M9 5.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m0 13a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m9.5-3a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"
+      />
+    </svg>
+  );
+}

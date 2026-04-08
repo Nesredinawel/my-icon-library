@@ -1,0 +1,29 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Cube({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M21.95 7.1 13 10.2v11.5l.33-.12 6-2.12c.64-.22 1.2-.42 1.62-.78a3 3 0 0 0 .85-1.2c.2-.53.2-1.12.2-1.79V8.3q.01-.64-.05-1.2M11 21.7V10.23l-8.96-3q-.05.5-.04 1.07v7.4c0 .67 0 1.26.2 1.8a3 3 0 0 0 .85 1.19c.43.36.98.56 1.62.78l6 2.12z"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        d="M12.4 2.15a3 3 0 0 0-.8 0q-.45.07-.93.26l-6 2.12a5 5 0 0 0-1.74.9l9.06 3.01 8.97-3.12a5 5 0 0 0-1.63-.8l-6-2.11a5 5 0 0 0-.92-.26"
+      />
+    </svg>
+  );
+}

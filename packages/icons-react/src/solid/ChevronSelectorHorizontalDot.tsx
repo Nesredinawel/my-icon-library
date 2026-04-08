@@ -1,0 +1,24 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function ChevronSelectorHorizontalDot({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M9.7 7.7a1 1 0 0 0-1.4-1.4l-5 5a1 1 0 0 0 0 1.4l5 5a1 1 0 0 0 1.4-1.4L5.42 12zm6-1.4a1 1 0 1 0-1.4 1.4l4.29 4.3-4.3 4.3a1 1 0 0 0 1.42 1.4l5-5a1 1 0 0 0 0-1.4zM12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"
+      />
+    </svg>
+  );
+}

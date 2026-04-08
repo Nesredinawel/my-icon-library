@@ -1,0 +1,29 @@
+import type { BaseIconProps } from "../shared/types";
+
+export function Hotel({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}: BaseIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      width={size}
+      height={size}
+      color={color}
+      {...rest}
+    >
+      <path
+        fill="currentColor"
+        d="M3 2a1 1 0 0 0 0 2h1v16H3a1 1 0 1 0 0 2h7v-4h4v4h7a1 1 0 1 0 0-2h-1V4h1a1 1 0 1 0 0-2z"
+        opacity=".3"
+      />
+      <path
+        fill="currentColor"
+        d="M3 2h18a1 1 0 1 1 0 2H3a1 1 0 0 1 0-2m5 5a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1zm-4 3a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1zm4 1a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1zm-3 7H9a1 1 0 0 1-.8-1.6c1.8-2.4 5.8-2.4 7.6 0A1 1 0 0 1 15 18z"
+      />
+    </svg>
+  );
+}
