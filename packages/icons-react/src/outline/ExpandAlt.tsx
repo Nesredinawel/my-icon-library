@@ -25,6 +25,7 @@ export function ExpandAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m14 10 7-7m0 0h-4.5M21 3v4.5M10 14l-7 7m0 0h4.5M3 21v-4.5"
+        fill="none"
       />
     </svg>
   );

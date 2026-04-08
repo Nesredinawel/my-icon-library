@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function BracketsSquare({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function BracketsSquare({
         stroke-linejoin="round"
         stroke-width="2"
         d="M9 3H5v18h4m6 0h4V3h-4"
+        fill="none"
       />
     </svg>
   );

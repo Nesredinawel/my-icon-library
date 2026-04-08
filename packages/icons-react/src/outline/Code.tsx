@@ -25,6 +25,7 @@ export function Code({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m7 8-4 3.7L7 16m10-8 4 3.7-4 4.3M14 4l-4 16"
+        fill="none"
       />
     </svg>
   );

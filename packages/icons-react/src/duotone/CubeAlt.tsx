@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function CubeAlt({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function CubeAlt({
       <path
         fill="currentColor"
         d="M20 4H8.44L4 8h12v12l4-4.44z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function CubeAlt({
         stroke-linejoin="round"
         stroke-width="2"
         d="M20 4H8.44L4 8m16-4v11.56L16 20m4-16-4 4M4 8h12M4 8v12h12m0 0V8"
+        fill="none"
       />
     </svg>
   );

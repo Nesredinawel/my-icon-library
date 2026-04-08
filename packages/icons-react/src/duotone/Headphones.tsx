@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Headphones({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,13 +20,15 @@ export function Headphones({
       <path
         fill="currentColor"
         d="m9.07 18.32-1.7-3.62a2 2 0 0 0-2.65-.97 3 3 0 0 0-1.45 3.99l.84 1.81a3 3 0 0 0 3.99 1.45 2 2 0 0 0 .97-2.66m5.78 0 1.69-3.62a2 2 0 0 1 2.65-.97 3 3 0 0 1 1.45 3.99l-.84 1.81a3 3 0 0 1-3.99 1.45 2 2 0 0 1-.96-2.66"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
         stroke-linejoin="round"
         stroke-width="2"
         d="M3.46 14.84q.45-.72 1.26-1.1a2 2 0 0 1 2.66.96l1.69 3.62a2 2 0 0 1-.97 2.66 3 3 0 0 1-3.99-1.45l-.84-1.81a3 3 0 0 1 .19-2.88Zm0 0a8.99 8.99 0 1 1 17.05.1m0 0q-.45-.8-1.32-1.2a2 2 0 0 0-2.65.96l-1.7 3.62a2 2 0 0 0 .97 2.66 3 3 0 0 0 3.99-1.45l.84-1.81a3 3 0 0 0-.13-2.79ZM17.56 4.91 16 7a8.5 8.5 0 0 0-8 0L6.44 4.93"
+        fill="none"
       />
     </svg>
   );

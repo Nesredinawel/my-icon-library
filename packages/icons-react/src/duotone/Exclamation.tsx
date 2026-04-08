@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Exclamation({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function Exclamation({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 5v10m0 4"
+        fill="none"
       />
     </svg>
   );

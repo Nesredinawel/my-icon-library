@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function MailAlt2({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -22,8 +23,9 @@ export function MailAlt2({
         x="3"
         y="5"
         fill="currentColor"
-        opacity=".14"
         rx="2"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -31,6 +33,7 @@ export function MailAlt2({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3 8.9c1.62 1.84 5.04 3.1 9 3.1s7.38-1.26 9-3.1m-18 0v6.9c0 1.12 0 1.68.22 2.1q.3.58.87.88c.43.22.99.22 2.11.22h11.6c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .88-.87c.22-.43.22-.99.22-2.11V8.9m-18 0v-.7c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C4.52 5 5.08 5 6.2 5h11.6c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11v.7"
+        fill="none"
       />
     </svg>
   );

@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Hashtag({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -21,6 +22,7 @@ export function Hashtag({
         stroke-linecap="round"
         stroke-width="2"
         d="M10 4 7 20M17 4l-3 16M5 8h15M4 16h15"
+        fill="none"
       />
     </svg>
   );

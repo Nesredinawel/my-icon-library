@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function TextWidth({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function TextWidth({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 3v9m-3 0h6m5-6V3H4v3m0 12h16M4 18l3 3m-3-3 3-3m13 3-3 3m3-3-3-3"
+        fill="none"
       />
     </svg>
   );

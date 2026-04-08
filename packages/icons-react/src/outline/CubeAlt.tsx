@@ -25,6 +25,7 @@ export function CubeAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M20 4H8.44L4 8m16-4v11.56L16 20m4-16-4 4M4 8h12M4 8v12h12m0 0V8"
+        fill="none"
       />
     </svg>
   );

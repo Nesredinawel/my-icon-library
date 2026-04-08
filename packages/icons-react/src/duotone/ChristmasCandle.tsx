@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function ChristmasCandle({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function ChristmasCandle({
       <path
         fill="currentColor"
         d="M7 11v9c0 1.1 2.24 2 5 2s5-.9 5-2v-9c0 1.1-2.24 2-5 2s-5-.9-5-2"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

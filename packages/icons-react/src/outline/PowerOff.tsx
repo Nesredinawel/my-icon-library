@@ -25,6 +25,7 @@ export function PowerOff({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 3v9m6.36-6.36a9 9 0 1 1-12.73 0"
+        fill="none"
       />
     </svg>
   );

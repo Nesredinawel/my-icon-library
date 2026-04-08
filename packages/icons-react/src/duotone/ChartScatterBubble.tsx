@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function ChartScatterBubble({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function ChartScatterBubble({
         stroke-linejoin="round"
         stroke-width="2"
         d="M21 21H7.8c-1.68 0-2.52 0-3.16-.33a3 3 0 0 1-1.31-1.3C3 18.71 3 17.87 3 16.2V3m13 10h.01M17 8h.01"
+        fill="none"
       />
     </svg>
   );

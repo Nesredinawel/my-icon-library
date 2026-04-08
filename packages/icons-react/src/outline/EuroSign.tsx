@@ -25,6 +25,7 @@ export function EuroSign({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M19 7.11A6.4 6.4 0 0 0 13.7 4C10 4 7 7.58 7 12s3 8 6.7 8a6.4 6.4 0 0 0 5.3-3.11M5 10h9m-9 4h9"
+        fill="none"
       />
     </svg>
   );

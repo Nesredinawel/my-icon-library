@@ -25,6 +25,7 @@ export function SortAmountDown({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M13 12h8m-8-4h8m-8 8h8M6 7v10m0 0-3-3m3 3 3-3"
+        fill="none"
       />
     </svg>
   );

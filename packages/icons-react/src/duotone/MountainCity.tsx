@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function MountainCity({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function MountainCity({
       <path
         fill="currentColor"
         d="M21 21V11h-4V3h-6v9.54L16 21z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function MountainCity({
         stroke-linejoin="round"
         stroke-width="2"
         d="M11 7V3h6v8h4m0 0v10m0-10V7m-3 7h.01M18 18h.01M5.94 16l2.86-4.83c.23-.39.34-.58.49-.64a.5.5 0 0 1 .4 0c.15.06.26.25.49.64L13.05 16m-7.1 0L3 21h13l-2.95-5m-7.1 0L8 18l1.5-2h3.55"
+        fill="none"
       />
     </svg>
   );

@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Candy({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -16,12 +17,18 @@ export function Candy({
       color={color}
       {...rest}
     >
-      <path fill="currentColor" d="M7 9h10v6H7z" opacity=".14" />
+      <path
+        fill="currentColor"
+        d="M7 9h10v6H7z"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
+      />
       <path
         stroke="currentColor"
         stroke-linejoin="round"
         stroke-width="2"
         d="M7 9h10v6H7zM3 9l4 3-4 3zm18 0-4 3 4 3z"
+        fill="none"
       />
     </svg>
   );

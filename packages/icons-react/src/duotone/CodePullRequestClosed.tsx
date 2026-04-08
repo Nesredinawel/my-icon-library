@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function CodePullRequestClosed({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function CodePullRequestClosed({
       <path
         fill="currentColor"
         d="M9 5.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0m0 13a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0m11 0a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function CodePullRequestClosed({
         stroke-linejoin="round"
         stroke-width="2"
         d="M6.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5m0 0v8m0 0a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5m11 0v-4m0 4a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5M20 3l-5 5m0-5 5 5"
+        fill="none"
       />
     </svg>
   );

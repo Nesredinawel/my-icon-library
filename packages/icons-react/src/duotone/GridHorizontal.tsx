@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function GridHorizontal({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function GridHorizontal({
       <path
         fill="currentColor"
         d="M6.5 7h-3v3h3zm7 0h-3v3h3zm7 0h-3v3h3zm-14 7h-3v3h3zm7 0h-3v3h3zm7 0h-3v3h3z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function GridHorizontal({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3.5 10h3V7h-3zm0 7h3v-3h-3zm7-7h3V7h-3zm0 7h3v-3h-3zm7-7h3V7h-3zm0 7h3v-3h-3z"
+        fill="none"
       />
     </svg>
   );

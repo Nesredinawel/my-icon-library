@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function MoonStars({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function MoonStars({
       <path
         fill="currentColor"
         d="M19 16.08A8.37 8.37 0 0 1 7.92 5 8.37 8.37 0 1 0 19 16.08"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function MoonStars({
         stroke-linejoin="round"
         stroke-width="2"
         d="M13 6V3m5.5 9V7m-4-2.5h-3m9.5 5h-5m-.45 7.32q1.86-.02 3.45-.74A8.37 8.37 0 1 1 7.92 5a8.37 8.37 0 0 0 7.63 11.82"
+        fill="none"
       />
     </svg>
   );

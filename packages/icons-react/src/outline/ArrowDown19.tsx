@@ -25,6 +25,7 @@ export function ArrowDown19({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M7 3v18m0 0-4-4m4 4 4-4m5.5-12 2-2v7m-2 0h4m0 8L18 21m3-4.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"
+        fill="none"
       />
     </svg>
   );

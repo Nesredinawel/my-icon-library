@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function DocumentLayoutCenter({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function DocumentLayoutCenter({
       <path
         fill="currentColor"
         d="M9 6.6c0-.56 0-.84.1-1.05a1 1 0 0 1 .45-.44C9.76 5 10.04 5 10.6 5h2.8c.56 0 .84 0 1.05.1a1 1 0 0 1 .44.45c.11.21.11.49.11 1.05v2.8c0 .56 0 .84-.1 1.05a1 1 0 0 1-.45.44c-.21.11-.49.11-1.05.11h-2.8c-.56 0-.84 0-1.05-.1a1 1 0 0 1-.44-.45C9 10.24 9 9.96 9 9.4z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function DocumentLayoutCenter({
         stroke-linejoin="round"
         stroke-width="2"
         d="M5 7H3m2 4H3m17 4H3m12 4H3M21 7h-2m2 4h-2m-8.4 0h2.8c.56 0 .84 0 1.05-.1a1 1 0 0 0 .44-.45c.11-.21.11-.49.11-1.05V6.6c0-.56 0-.84-.1-1.05a1 1 0 0 0-.45-.44C14.24 5 13.96 5 13.4 5h-2.8c-.56 0-.84 0-1.05.1a1 1 0 0 0-.44.45C9 5.76 9 6.04 9 6.6v2.8c0 .56 0 .84.1 1.05a1 1 0 0 0 .45.44c.21.11.49.11 1.05.11"
+        fill="none"
       />
     </svg>
   );

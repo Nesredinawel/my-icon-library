@@ -25,6 +25,7 @@ export function Search({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M15.8 15.81 21 21m-3-10.5a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0"
+        fill="none"
       />
     </svg>
   );

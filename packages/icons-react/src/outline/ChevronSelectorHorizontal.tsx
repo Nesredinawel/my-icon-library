@@ -25,6 +25,7 @@ export function ChevronSelectorHorizontal({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m9 7-5 5 5 5m6-10 5 5-5 5"
+        fill="none"
       />
     </svg>
   );

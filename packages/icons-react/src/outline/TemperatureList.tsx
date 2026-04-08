@@ -25,6 +25,7 @@ export function TemperatureList({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M15 4h5m-5 4h5m-3 4h3M8 16a1 1 0 1 0 0 2 1 1 0 0 0 0-2m0 0V9m4 8a4 4 0 1 1-7-2.65V6a3 3 0 0 1 6 0v8.35A4 4 0 0 1 12 17"
+        fill="none"
       />
     </svg>
   );

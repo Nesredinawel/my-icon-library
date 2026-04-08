@@ -25,6 +25,7 @@ export function Frame({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M6 3v18M18 3v18M3 6h18M3 18h18"
+        fill="none"
       />
     </svg>
   );

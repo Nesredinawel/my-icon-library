@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Trademark({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function Trademark({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3 7h6M6 17V7m7 10V7l4 7 4-7v10"
+        fill="none"
       />
     </svg>
   );

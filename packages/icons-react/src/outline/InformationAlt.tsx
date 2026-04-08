@@ -25,6 +25,7 @@ export function InformationAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 10v10"
+        fill="none"
       />
     </svg>
   );

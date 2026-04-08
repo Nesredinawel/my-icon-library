@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function SlidersSimple({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function SlidersSimple({
       <path
         fill="currentColor"
         d="M5.5 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5m13 7a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function SlidersSimple({
         stroke-linejoin="round"
         stroke-width="2"
         d="M8 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0m0 0h13m-5 7a2.5 2.5 0 1 0 5 0 2.5 2.5 0 0 0-5 0m0 0H3"
+        fill="none"
       />
     </svg>
   );

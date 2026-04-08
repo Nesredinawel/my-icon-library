@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Aperture({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -21,7 +22,8 @@ export function Aperture({
         fill-rule="evenodd"
         d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18M10.18 9l-1.73 3 .05.09L10.18 15h-.08 3.62l1.73-3-.04-.08L13.7 9z"
         clip-rule="evenodd"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

@@ -25,6 +25,7 @@ export function Ruler({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m5.64 14.12 1.41 1.42m1.41-4.25 1.42 1.42m1.41-4.24 1.42 1.41m1.41-4.24 1.42 1.41M2.8 16.95l4.24 4.24L21.2 7.05l-4.24-4.24z"
+        fill="none"
       />
     </svg>
   );

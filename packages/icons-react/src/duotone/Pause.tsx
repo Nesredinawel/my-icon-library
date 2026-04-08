@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Pause({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function Pause({
         stroke-linejoin="round"
         stroke-width="2"
         d="M8 5v14m8-14v14"
+        fill="none"
       />
     </svg>
   );

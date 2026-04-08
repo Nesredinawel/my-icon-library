@@ -25,6 +25,7 @@ export function Underline({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M4 21h16M18 4v7a6 6 0 0 1-12 0V4M4 3h4m8 0h4"
+        fill="none"
       />
     </svg>
   );

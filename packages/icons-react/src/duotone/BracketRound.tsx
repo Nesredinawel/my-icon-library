@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function BracketRound({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -21,6 +22,7 @@ export function BracketRound({
         stroke-linecap="round"
         stroke-width="2"
         d="M13.62 3a12.96 12.96 0 0 0 0 18"
+        fill="none"
       />
     </svg>
   );

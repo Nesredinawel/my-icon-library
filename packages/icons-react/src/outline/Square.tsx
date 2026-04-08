@@ -29,6 +29,7 @@ export function Square({
         stroke-linecap="round"
         stroke-linejoin="round"
         rx="2"
+        fill="none"
       />
     </svg>
   );

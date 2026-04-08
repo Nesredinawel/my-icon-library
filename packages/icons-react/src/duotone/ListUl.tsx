@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function ListUl({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function ListUl({
         stroke-linejoin="round"
         stroke-width="2"
         d="M7 8h14M7 12h14M7 16h14M3 16"
+        fill="none"
       />
     </svg>
   );

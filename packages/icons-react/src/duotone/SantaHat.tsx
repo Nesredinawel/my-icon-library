@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function SantaHat({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function SantaHat({
       <path
         fill="currentColor"
         d="M5 18.6c0-.56 0-.84.1-1.05a1 1 0 0 1 .45-.44C5.76 17 6.04 17 6.6 17h12.8c.56 0 .84 0 1.05.1a1 1 0 0 1 .44.45c.11.21.11.49.11 1.05v.8c0 .56 0 .84-.1 1.05a1 1 0 0 1-.45.44c-.21.11-.49.11-1.05.11H6.6c-.56 0-.84 0-1.05-.1a1 1 0 0 1-.44-.45C5 20.24 5 19.96 5 19.4z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function SantaHat({
         stroke-linejoin="round"
         stroke-width="2"
         d="M20 17 16.98 6.43a4.73 4.73 0 0 0-8.4-1.45L5.36 9.5m0 0a1.49 1.49 0 0 0-2.49 1.13 1.5 1.5 0 1 0 2.5-1.13M6 17 9.5 7 5.56 9.71M6.6 21h12.8c.56 0 .84 0 1.05-.1a1 1 0 0 0 .44-.45c.11-.21.11-.49.11-1.05v-.8c0-.56 0-.84-.1-1.05a1 1 0 0 0-.45-.44c-.21-.11-.49-.11-1.05-.11H6.6c-.56 0-.84 0-1.05.1a1 1 0 0 0-.44.45C5 17.76 5 18.04 5 18.6v.8c0 .56 0 .84.1 1.05a1 1 0 0 0 .45.44c.21.11.49.11 1.05.11"
+        fill="none"
       />
     </svg>
   );

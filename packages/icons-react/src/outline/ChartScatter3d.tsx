@@ -25,6 +25,7 @@ export function ChartScatter3d({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 4v10m0 0-8 6m8-6 8 6m-3-7h.01M20 9h.01M18 5h.01"
+        fill="none"
       />
     </svg>
   );

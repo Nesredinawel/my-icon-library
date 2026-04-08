@@ -25,6 +25,7 @@ export function ClockLines({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M5.06 12A8 8 0 1 1 13 21H8m5-8V9m-2-6h4M3 15h5m-3 3h5"
+        fill="none"
       />
     </svg>
   );

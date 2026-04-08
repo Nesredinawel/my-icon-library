@@ -25,6 +25,7 @@ export function PlusMinus({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 4v10M7 9h10M7 20h10"
+        fill="none"
       />
     </svg>
   );

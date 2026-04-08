@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function CircleHalf({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function CircleHalf({
       <path
         fill="currentColor"
         d="M3 12a9 9 0 0 0 9 9V3a9 9 0 0 0-9 9"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function CircleHalf({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3 12a9 9 0 0 0 9 9V3a9 9 0 0 0-9 9"
+        fill="none"
       />
     </svg>
   );

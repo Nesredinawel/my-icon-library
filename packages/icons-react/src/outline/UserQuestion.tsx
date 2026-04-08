@@ -25,6 +25,7 @@ export function UserQuestion({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 14.07A7 7 0 0 0 4 21h10m4-3c1-1 2-1.4 2-2.5a2 2 0 0 0-3.94-.5M15 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
+        fill="none"
       />
     </svg>
   );

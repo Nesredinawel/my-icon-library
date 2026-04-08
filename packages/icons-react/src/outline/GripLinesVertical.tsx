@@ -25,6 +25,7 @@ export function GripLinesVertical({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M14 4v16M10 4v16"
+        fill="none"
       />
     </svg>
   );

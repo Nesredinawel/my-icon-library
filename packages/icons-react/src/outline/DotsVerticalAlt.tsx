@@ -25,6 +25,7 @@ export function DotsVerticalAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M14 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0m0 7a2 2 0 1 1-4 0 2 2 0 0 1 4 0m0-14a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function GraduationHatAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M22 9 12 4 2 9l10 5zm0 0v6m-3-4.5v6L12 20l-7-3.5v-6"
+        fill="none"
       />
     </svg>
   );

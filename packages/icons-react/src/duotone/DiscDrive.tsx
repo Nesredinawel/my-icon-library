@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function DiscDrive({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -21,7 +22,8 @@ export function DiscDrive({
         fill-rule="evenodd"
         d="M4.22 5.1C4 5.51 4 6.07 4 7.2V20h16V7.2c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C18.48 4 17.92 4 16.8 4H7.2c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10"
         clip-rule="evenodd"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -29,6 +31,7 @@ export function DiscDrive({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3 20h18m-1 0V7.2c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C18.48 4 17.92 4 16.8 4H7.2c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C4 5.52 4 6.08 4 7.2V20m13-8a5 5 0 1 1-10 0 5 5 0 0 1 10 0m-4.5 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"
+        fill="none"
       />
     </svg>
   );

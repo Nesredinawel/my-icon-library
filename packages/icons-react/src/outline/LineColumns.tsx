@@ -25,6 +25,7 @@ export function LineColumns({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 6h7m-7 4h7m-7 4h7m-7 4h7m4-12h7m-7 4h7m-7 4h7m-7 4h7"
+        fill="none"
       />
     </svg>
   );

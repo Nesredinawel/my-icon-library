@@ -25,6 +25,7 @@ export function Terminal({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 19h9M3 5l8 7-8 7"
+        fill="none"
       />
     </svg>
   );

@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function DiamondExclamation({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -16,13 +17,19 @@ export function DiamondExclamation({
       color={color}
       {...rest}
     >
-      <path fill="currentColor" d="m3 12 9-9 9 9-9 9z" opacity=".14" />
+      <path
+        fill="currentColor"
+        d="m3 12 9-9 9 9-9 9z"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
+      />
       <path
         stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 9v3m-9 0 9-9 9 9-9 9z"
+        fill="none"
       />
     </svg>
   );

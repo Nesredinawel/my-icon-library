@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function ExpandWide({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function ExpandWide({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3 10V5h5m-5 9v5h5m8-14h5v5m0 4v5h-5"
+        fill="none"
       />
     </svg>
   );

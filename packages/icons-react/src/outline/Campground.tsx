@@ -25,6 +25,7 @@ export function Campground({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M15 3 3 19v2h18v-2L9 3m3 12 4 6H8z"
+        fill="none"
       />
     </svg>
   );

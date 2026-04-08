@@ -25,12 +25,14 @@ export function MessageCirclePencil({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M21 12a9 9 0 0 1-9 9H3s1.56-3.74.94-5A9 9 0 1 1 21 12"
+        fill="none"
       />
       <path
         stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m8.4 13.98.09-.35.11-.2q.07-.1.24-.27L13 9a1.41 1.41 0 0 1 2 2l-4.16 4.16-.26.24-.2.11-.36.09L8 16z"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function XmarkLarge({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m4 4 16 16m0-16L4 20"
+        fill="none"
       />
     </svg>
   );

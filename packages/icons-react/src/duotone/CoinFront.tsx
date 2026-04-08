@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function CoinFront({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -21,7 +22,8 @@ export function CoinFront({
         fill-rule="evenodd"
         d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18m0-4a5 5 0 1 0 0-10 5 5 0 0 0 0 10"
         clip-rule="evenodd"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -29,6 +31,7 @@ export function CoinFront({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 10v4m9-2a9 9 0 1 1-18 0 9 9 0 0 1 18 0m-4 0a5 5 0 1 1-10 0 5 5 0 0 1 10 0"
+        fill="none"
       />
     </svg>
   );

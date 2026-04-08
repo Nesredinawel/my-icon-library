@@ -25,6 +25,7 @@ export function ChevronSelectorVerticalDot({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m7 15 5 5 5-5M7 9l5-5 5 5m-4.51 3a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"
+        fill="none"
       />
     </svg>
   );

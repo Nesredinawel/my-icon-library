@@ -25,6 +25,7 @@ export function FaceFrown({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M15.6 15.6s-1.35-1.8-3.6-1.8-3.6 1.8-3.6 1.8M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0m-5.85-2.7a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0m-5.4 0a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0"
+        fill="none"
       />
     </svg>
   );

@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function SortAmountUp({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function SortAmountUp({
         stroke-linejoin="round"
         stroke-width="2"
         d="M13 12h8m-8-4h8m-8 8h8M6 7v10M6 7l-3 3m3-3 3 3"
+        fill="none"
       />
     </svg>
   );

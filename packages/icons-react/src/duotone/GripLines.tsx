@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function GripLines({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function GripLines({
         stroke-linejoin="round"
         stroke-width="2"
         d="M4 10h16M4 14h16"
+        fill="none"
       />
     </svg>
   );

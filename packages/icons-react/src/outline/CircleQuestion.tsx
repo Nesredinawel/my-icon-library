@@ -24,6 +24,7 @@ export function CircleQuestion({
         stroke="currentColor"
         stroke-linecap="round"
         d="M11.97 12.75c1-1 2-1.4 2-2.5a2 2 0 0 0-3.94-.5m1.94 6h0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+        fill="none"
       />
     </svg>
   );

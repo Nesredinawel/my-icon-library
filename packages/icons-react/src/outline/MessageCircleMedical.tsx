@@ -25,6 +25,7 @@ export function MessageCircleMedical({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M10 12h4m-2-2v4m9-2a9 9 0 0 1-9 9H3s1.56-3.74.94-5A9 9 0 1 1 21 12"
+        fill="none"
       />
     </svg>
   );

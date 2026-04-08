@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Rss({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function Rss({
         stroke-linejoin="round"
         stroke-width="2"
         d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16M6 19a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+        fill="none"
       />
     </svg>
   );

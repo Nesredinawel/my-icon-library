@@ -25,6 +25,7 @@ export function CakeChristmas({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 5V3M3 17h18v4H3zm2-4h14v4H5zm2-4h10v4H7zm2-4h6v4H9z"
+        fill="none"
       />
     </svg>
   );

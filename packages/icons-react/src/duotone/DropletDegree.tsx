@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function DropletDegree({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function DropletDegree({
       <path
         fill="currentColor"
         d="M9 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function DropletDegree({
         stroke-linejoin="round"
         stroke-width="2"
         d="M21 14.7c0 3.48-1.96 6.3-5.5 6.3S10 18.18 10 14.7 15.5 3 15.5 3 21 11.22 21 14.7M9 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function CookieMan({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M5.62 15.42 8 14l-1.8 4.81a2.36 2.36 0 0 0 4.4 1.7L12 17l1.4 3.52a2.36 2.36 0 0 0 4.4-1.7L16 14l1.82 1.1a2.1 2.1 0 1 0 2.02-3.68l-5.07-2.53A3.99 3.99 0 0 0 12 2a4 4 0 0 0-2.8 6.86l-5.43 3.62a1.74 1.74 0 0 0 1.86 2.94"
+        fill="none"
       />
     </svg>
   );

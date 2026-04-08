@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function DiagramLeanCanvas({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function DiagramLeanCanvas({
       <path
         fill="currentColor"
         d="M6 4h-.8c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C2 5.52 2 6.08 2 7.2v9.6c0 1.12 0 1.68.22 2.1q.3.58.87.88c.43.22.99.22 2.11.22h13.6c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .88-.87c.22-.43.22-.99.22-2.11V7.2c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C20.48 4 19.92 4 18.8 4H18v10H6z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function DiagramLeanCanvas({
         stroke-linejoin="round"
         stroke-width="2"
         d="M2 14h20m-10 0v6M10 4v10m8-10v10M6 4v10m8-10v10M6 9h4m4 0h4M5.2 20h13.6c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .88-.87c.22-.43.22-.99.22-2.11V7.2c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C20.48 4 19.92 4 18.8 4H5.2c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C2 5.52 2 6.08 2 7.2v9.6c0 1.12 0 1.68.22 2.1q.3.58.87.88c.43.22.99.22 2.11.22"
+        fill="none"
       />
     </svg>
   );

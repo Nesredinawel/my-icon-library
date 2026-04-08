@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function CircleParking({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -21,7 +22,8 @@ export function CircleParking({
         fill-rule="evenodd"
         d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18m1-13H9.5v5H13a2.5 2.5 0 0 0 0-5"
         clip-rule="evenodd"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -29,6 +31,7 @@ export function CircleParking({
         stroke-linejoin="round"
         stroke-width="2"
         d="M9.5 16V8H13a2.5 2.5 0 0 1 0 5H9.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
+        fill="none"
       />
     </svg>
   );

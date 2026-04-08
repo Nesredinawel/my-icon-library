@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Dash({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function Dash({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3 12h18"
+        fill="none"
       />
     </svg>
   );

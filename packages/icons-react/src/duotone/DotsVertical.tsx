@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function DotsVertical({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function DotsVertical({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12.99 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0m0 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m0-12a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+        fill="none"
       />
     </svg>
   );

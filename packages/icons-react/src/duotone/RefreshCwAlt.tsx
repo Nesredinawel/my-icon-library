@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function RefreshCwAlt({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function RefreshCwAlt({
         stroke-linejoin="round"
         stroke-width="2"
         d="M21 12a9 9 0 0 1-15 6.7L3 16m0-4a9 9 0 0 1 15-6.7L21 8M3 21v-5m0 0h5M21 3v5m0 0h-5"
+        fill="none"
       />
     </svg>
   );

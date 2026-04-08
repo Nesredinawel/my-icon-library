@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function MessageCircleRefresh({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function MessageCircleRefresh({
       <path
         fill="currentColor"
         d="M21 12a9 9 0 0 1-9 9H3s1.56-3.74.94-5A9 9 0 1 1 21 12"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function MessageCircleRefresh({
         stroke-linejoin="round"
         stroke-width="2"
         d="M13.7 14.44a3 3 0 1 1 .83-3.24m.67-2.5v3h-3m8.8.3a9 9 0 0 1-9 9H3s1.56-3.74.94-5A9 9 0 1 1 21 12"
+        fill="none"
       />
     </svg>
   );

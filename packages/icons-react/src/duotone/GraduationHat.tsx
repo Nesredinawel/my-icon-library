@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function GraduationHat({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function GraduationHat({
       <path
         fill="currentColor"
         d="m22 9-3 1.5v6L12 20l-7-3.5v-6L2 9l10-5z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function GraduationHat({
         stroke-linejoin="round"
         stroke-width="2"
         d="M7.54 11.77 12 14l7-3.5M7.54 11.77V21m0-9.23L12 9.54m-4.46 2.23L5 10.5m14 0L22 9 12 4 2 9l3 1.5m14 0v6L12 20l-7-3.5v-6"
+        fill="none"
       />
     </svg>
   );

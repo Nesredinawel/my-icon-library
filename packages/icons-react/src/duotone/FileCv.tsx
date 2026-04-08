@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function FileCv({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function FileCv({
       <path
         fill="currentColor"
         d="M8.2 21h7.6c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .88-.87c.22-.43.22-.99.22-2.11v-7.47c0-.5 0-.74-.06-.97L18.82 9H14a1 1 0 0 1-1-1V3.18l-.36-.12C12.4 3 12.16 3 11.67 3H8.2c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C5 4.52 5 5.08 5 6.2v11.6c0 1.12 0 1.68.22 2.1q.3.58.87.88c.43.22.99.22 2.11.22"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

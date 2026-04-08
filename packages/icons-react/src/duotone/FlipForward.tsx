@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function FlipForward({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function FlipForward({
         stroke-linejoin="round"
         stroke-width="2"
         d="M21 8H7.5a4.5 4.5 0 1 0 0 9H21m0-9-3-3m3 3-3 3"
+        fill="none"
       />
     </svg>
   );

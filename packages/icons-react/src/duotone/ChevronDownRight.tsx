@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function ChevronDownRight({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function ChevronDownRight({
         stroke-linejoin="round"
         stroke-width="2"
         d="M17 7v10H7"
+        fill="none"
       />
     </svg>
   );

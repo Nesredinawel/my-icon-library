@@ -25,6 +25,7 @@ export function MessageCircleChartLines({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M16 9v6m-4-4v4m-4-2v2m13-3a9 9 0 0 1-9 9H3s1.56-3.74.94-5A9 9 0 1 1 21 12"
+        fill="none"
       />
     </svg>
   );

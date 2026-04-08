@@ -25,6 +25,7 @@ export function List({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M8 6h13M8 12h13M8 18h13M3 6.5h1v-1H3zm0 6h1v-1H3zm0 6h1v-1H3z"
+        fill="none"
       />
     </svg>
   );

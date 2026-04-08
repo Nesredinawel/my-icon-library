@@ -25,6 +25,7 @@ export function ChevronUp({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m6 15 6-6 6 6"
+        fill="none"
       />
     </svg>
   );

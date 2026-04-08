@@ -25,6 +25,7 @@ export function MailboxAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M7 6h10.2c1.68 0 2.52 0 3.16.33a3 3 0 0 1 1.31 1.3c.33.65.33 1.49.33 3.17V18H11M7 6a4 4 0 0 1 4 4v8M7 6a4 4 0 0 0-4 4v8h8m6-15h-3v9m-4 6v3h4v-3m-7-6"
+        fill="none"
       />
     </svg>
   );

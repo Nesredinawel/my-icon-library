@@ -25,6 +25,7 @@ export function ContainerStorage({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 19h18M3 5h18M4 5v14M20 5v14M8 8.5v7m8-7v7m-4-7v7"
+        fill="none"
       />
     </svg>
   );

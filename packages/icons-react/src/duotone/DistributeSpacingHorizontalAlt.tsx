@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function DistributeSpacingHorizontalAlt({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function DistributeSpacingHorizontalAlt({
       <path
         fill="currentColor"
         d="M8 7.2c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C9.52 4 10.08 4 11.2 4h1.6c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11v9.6c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22h-1.6c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C8 18.48 8 17.92 8 16.8z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function DistributeSpacingHorizontalAlt({
         stroke-linejoin="round"
         stroke-width="2"
         d="M4 4v16M20 4v16m-7.2 0h-1.6c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C8 18.48 8 17.92 8 16.8V7.2c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C9.52 4 10.08 4 11.2 4h1.6c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11v9.6c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22"
+        fill="none"
       />
     </svg>
   );

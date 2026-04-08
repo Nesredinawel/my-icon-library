@@ -25,6 +25,7 @@ export function Scythe({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3.4 6.98a16 16 0 0 1 17.7-2.2 20 20 0 0 0-15.16 5.27M3 6.5 15 21"
+        fill="none"
       />
     </svg>
   );

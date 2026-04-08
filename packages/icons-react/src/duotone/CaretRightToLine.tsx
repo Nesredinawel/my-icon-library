@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function CaretRightToLine({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function CaretRightToLine({
       <path
         fill="currentColor"
         d="M5 7.33v9.34c0 1.07 0 1.6.22 1.87a1 1 0 0 0 .78.38c.35 0 .77-.33 1.6-1l5.84-4.67c.53-.43.8-.64.9-.9a1 1 0 0 0 0-.7c-.1-.26-.37-.47-.9-.9L7.6 6.08c-.83-.67-1.25-1-1.6-1a1 1 0 0 0-.78.38C5 5.73 5 6.26 5 7.33"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function CaretRightToLine({
         stroke-linejoin="round"
         stroke-width="2"
         d="M19 20V4M5 16.67V7.33c0-1.07 0-1.6.22-1.87A1 1 0 0 1 6 5.08c.35 0 .77.33 1.6 1l5.84 4.67c.53.43.8.64.9.9a1 1 0 0 1 0 .7c-.1.26-.37.47-.9.9L7.6 17.92c-.83.67-1.25 1-1.6 1a1 1 0 0 1-.78-.38C5 18.27 5 17.74 5 16.67"
+        fill="none"
       />
     </svg>
   );

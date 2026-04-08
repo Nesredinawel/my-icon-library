@@ -25,6 +25,7 @@ export function MoveLeft({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 5h18m-11 5h11m-11 4h11M3 19h18M6 9l-3 3 3 3"
+        fill="none"
       />
     </svg>
   );

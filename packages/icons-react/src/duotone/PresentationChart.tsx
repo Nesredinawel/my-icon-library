@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function PresentationChart({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function PresentationChart({
       <path
         fill="currentColor"
         d="M5 3h14v8.8c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22H8.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C5 13.48 5 12.92 5 11.8z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function PresentationChart({
         stroke-linejoin="round"
         stroke-width="2"
         d="M8 9v2m4-4v4m4-3v3M3 3h2m16 0h-2m-7 15-5 3m5-3 5 3m-5-3v3m0-3v-3m7-12v8.8c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22H12m7-12H5m0 0v8.8c0 1.12 0 1.68.22 2.1q.3.58.87.88c.43.22.99.22 2.11.22H12"
+        fill="none"
       />
     </svg>
   );

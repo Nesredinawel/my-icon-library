@@ -25,6 +25,7 @@ export function Signal({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M4 20v-1m4 1v-4m4 4v-8m4 8V8m4 12V4"
+        fill="none"
       />
     </svg>
   );

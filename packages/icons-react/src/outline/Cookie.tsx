@@ -25,6 +25,7 @@ export function Cookie({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M21 12a9 9 0 1 1-9-9c0 2.76 1.8 5 4 5 0 2.2 2.24 4 5 4"
+        fill="none"
       />
     </svg>
   );

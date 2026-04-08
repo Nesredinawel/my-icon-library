@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function LightsHoliday({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function LightsHoliday({
       <path
         fill="currentColor"
         d="M12 13a2 2 0 0 1 1.64.86c.45.65.13 1.5-.31 2.15L12 18l-1.33-2c-.44-.66-.76-1.5-.31-2.15A2 2 0 0 1 12 13m-6.08-.53a2 2 0 0 1 1.13 1.48c.14.78-.52 1.4-1.2 1.8L3.82 17l-.36-2.36c-.12-.79-.06-1.69.62-2.08a2 2 0 0 1 1.85-.09m12.17 0a2 2 0 0 0-1.14 1.48c-.13.78.52 1.4 1.2 1.8L20.2 17l.37-2.36c.12-.79.06-1.69-.62-2.08a2 2 0 0 0-1.86-.09"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

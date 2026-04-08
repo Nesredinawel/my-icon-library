@@ -25,6 +25,7 @@ export function MessageCircleArrowUp({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m14 11-2-2m0 0-2 2m2-2v6m9-3a9 9 0 0 1-9 9H3s1.56-3.74.94-5A9 9 0 1 1 21 12"
+        fill="none"
       />
     </svg>
   );

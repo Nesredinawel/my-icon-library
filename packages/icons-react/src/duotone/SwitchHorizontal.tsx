@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function SwitchHorizontal({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function SwitchHorizontal({
         stroke-linejoin="round"
         stroke-width="2"
         d="m18 10 3-3m0 0-3-3m3 3H7m-1 7-3 3m0 0 3 3m-3-3h14"
+        fill="none"
       />
     </svg>
   );

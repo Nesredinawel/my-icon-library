@@ -25,6 +25,7 @@ export function LampDesk({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M18.2 8.8a2.5 2.5 0 1 1-3.4 3.4m3.4-3.4L21 6h-5l-2-2a2.83 2.83 0 1 0-4 4l2 2v5l2.8-2.8m3.4-3.4-3.4 3.4M9 21l-2-9 3.5-3.5M3 21h12"
+        fill="none"
       />
     </svg>
   );

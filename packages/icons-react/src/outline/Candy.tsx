@@ -24,6 +24,7 @@ export function Candy({
         stroke="currentColor"
         stroke-linejoin="round"
         d="M7 9h10v6H7zM3 9l4 3-4 3zm18 0-4 3 4 3z"
+        fill="none"
       />
     </svg>
   );

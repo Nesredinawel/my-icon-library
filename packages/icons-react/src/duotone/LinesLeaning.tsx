@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function LinesLeaning({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function LinesLeaning({
         stroke-linejoin="round"
         stroke-width="2"
         d="M18 5v14M10 5 6 19m8-14-2 14"
+        fill="none"
       />
     </svg>
   );

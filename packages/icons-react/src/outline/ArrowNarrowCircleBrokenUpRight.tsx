@@ -25,6 +25,7 @@ export function ArrowNarrowCircleBrokenUpRight({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M14 15.66V10m0 0H8.34M14 10l-8.36 8.36m4.6 2.47a9 9 0 1 0-7.07-7.07"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function TowerBroadcastSlash({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M10 10c0 1.1.9 2 2 2v9m4.24-15.24a6 6 0 0 1 1.4 6.28m1.43-9.11a10 10 0 0 1 1.57 12.11m-12.88-.8a6 6 0 0 1-.89-7.36m-1.94 10.2A10 10 0 0 1 4 4M3 3l18 18"
+        fill="none"
       />
     </svg>
   );

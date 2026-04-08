@@ -25,6 +25,7 @@ export function ForkSpoon({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M8 21V3m3 0v5a3 3 0 0 1-6 0V3m10.5 10V3m0 10c-1.93 0-3.5 1.8-3.5 4s1.57 4 3.5 4 3.5-1.8 3.5-4-1.57-4-3.5-4"
+        fill="none"
       />
     </svg>
   );

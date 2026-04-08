@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function CloudShowers({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function CloudShowers({
       <path
         fill="currentColor"
         d="M3 11.65A5.4 5.4 0 0 0 8.4 17h8.1a4.5 4.5 0 0 0 4.5-4.5 4.7 4.7 0 0 0-2.7-4.25A5.6 5.6 0 0 0 7.5 6.5C4.8 6.94 3 9.2 3 11.65"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function CloudShowers({
         stroke-linejoin="round"
         stroke-width="2"
         d="M19.33 16A4.5 4.5 0 0 0 21 12.5a4.7 4.7 0 0 0-2.7-4.25A5.6 5.6 0 0 0 7.5 6.5C4.8 6.94 3 9.2 3 11.65a5.3 5.3 0 0 0 1.65 3.85M8 18v2m0-8v2m4 5v2m4-3v2m0-8v2m-4-1v2"
+        fill="none"
       />
     </svg>
   );

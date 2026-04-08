@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function TurnOff({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -16,12 +17,20 @@ export function TurnOff({
       color={color}
       {...rest}
     >
-      <circle cx="12" cy="13" r="8" fill="currentColor" opacity=".14" />
+      <circle
+        cx="12"
+        cy="13"
+        r="8"
+        fill="currentColor"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
+      />
       <path
         stroke="currentColor"
         stroke-linecap="round"
         stroke-width="2"
         d="M16 6.07a8 8 0 1 1-8 0M12 3v10"
+        fill="none"
       />
     </svg>
   );

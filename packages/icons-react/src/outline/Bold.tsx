@@ -25,6 +25,7 @@ export function Bold({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M6 12h6.5a4.5 4.5 0 1 0 0-9H6zm0 0h7.5a4.5 4.5 0 1 1 0 9H6z"
+        fill="none"
       />
     </svg>
   );

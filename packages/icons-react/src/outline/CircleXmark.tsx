@@ -25,6 +25,7 @@ export function CircleXmark({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m9 9 6 6m0-6-6 6m12-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
+        fill="none"
       />
     </svg>
   );

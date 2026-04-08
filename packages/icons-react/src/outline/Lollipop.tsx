@@ -25,6 +25,7 @@ export function Lollipop({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m21 21-5.2-5.2m0 0A7.5 7.5 0 1 0 5.2 5.2a7.5 7.5 0 0 0 10.6 10.6m-.8-5.3a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0m-3 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"
+        fill="none"
       />
     </svg>
   );

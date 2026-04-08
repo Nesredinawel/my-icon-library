@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function TemperatureList({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function TemperatureList({
       <path
         fill="currentColor"
         d="M8 21a4 4 0 0 0 3-6.65V6a3 3 0 0 0-6 0v8.35A4 4 0 0 0 8 21"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function TemperatureList({
         stroke-linejoin="round"
         stroke-width="2"
         d="M15 4h5m-5 4h5m-3 4h3M8 16a1 1 0 1 0 0 2 1 1 0 0 0 0-2m0 0V9m4 8a4 4 0 1 1-7-2.65V6a3 3 0 0 1 6 0v8.35A4 4 0 0 1 12 17"
+        fill="none"
       />
     </svg>
   );

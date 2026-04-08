@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Cat({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Cat({
       <path
         fill="currentColor"
         d="m14 9-4.5 2L7 9.89V21h13l2-3-2-6z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -28,6 +30,7 @@ export function Cat({
         stroke-miterlimit="10"
         stroke-width="2"
         d="M14 9V3l-3 1H8L5 3v6l4.5 2zm0 0 6 3 2 6-2 3H4l-2-2 2-2-2-2 2-2m3 8V10m4 5v6l5.04-5H18m-7-9"
+        fill="none"
       />
     </svg>
   );

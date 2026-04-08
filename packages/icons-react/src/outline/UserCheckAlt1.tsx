@@ -25,6 +25,7 @@ export function UserCheckAlt1({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M14 19.29 15.8 21l4.2-4M4 21a7 7 0 0 1 11-5.75M15 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
+        fill="none"
       />
     </svg>
   );

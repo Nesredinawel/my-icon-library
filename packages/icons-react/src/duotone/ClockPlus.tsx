@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function ClockPlus({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function ClockPlus({
       <path
         fill="currentColor"
         d="M20 12.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function ClockPlus({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 16.5v-8m4 4H8m-5-7 2-2m16 2-2-2m1 9a8 8 0 1 1-16 0 8 8 0 0 1 16 0"
+        fill="none"
       />
     </svg>
   );

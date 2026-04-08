@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function UserAlt1({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function UserAlt1({
       <path
         fill="currentColor"
         d="M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8m0 3a7 7 0 0 1 7 7H5a7 7 0 0 1 7-7"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function UserAlt1({
         stroke-linejoin="round"
         stroke-width="2"
         d="M5 21a7 7 0 1 1 14 0M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
+        fill="none"
       />
     </svg>
   );

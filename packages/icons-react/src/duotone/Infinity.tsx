@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Infinity({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Infinity({
       <path
         fill="currentColor"
         d="M17.56 8.5c4.59 0 4.59 7 0 7s-6.42-7-11.47-7c-4.12 0-4.12 7 0 7 5.05 0 6.88-7 11.47-7"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Infinity({
         stroke-linejoin="round"
         stroke-width="2"
         d="M17.56 8.5c4.59 0 4.59 7 0 7s-6.42-7-11.47-7c-4.12 0-4.12 7 0 7 5.05 0 6.88-7 11.47-7"
+        fill="none"
       />
     </svg>
   );

@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function ArrowUpFromArc({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function ArrowUpFromArc({
       <path
         fill="currentColor"
         d="M12 21a9 9 0 0 0 9-9v-1H3v1a9 9 0 0 0 9 9"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function ArrowUpFromArc({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3 11v1a9 9 0 1 0 18 0v-1M8 7l4-4m0 0 4 4m-4-4v12"
+        fill="none"
       />
     </svg>
   );

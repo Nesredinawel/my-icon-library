@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function SuitcaseMedical({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function SuitcaseMedical({
       <path
         fill="currentColor"
         d="M3 11.8c0-1.68 0-2.52.33-3.16a3 3 0 0 1 1.3-1.31C5.29 7 6.13 7 7.8 7h8.4c1.68 0 2.52 0 3.16.33a3 3 0 0 1 1.31 1.3c.33.65.33 1.49.33 3.17v4.4c0 1.68 0 2.52-.33 3.16a3 3 0 0 1-1.3 1.31c-.65.33-1.49.33-3.17.33H7.8c-1.68 0-2.52 0-3.16-.33a3 3 0 0 1-1.31-1.3C3 18.71 3 17.87 3 16.2z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function SuitcaseMedical({
         stroke-linejoin="round"
         stroke-width="2"
         d="M16 7v-.8c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C14.48 3 13.92 3 12.8 3h-1.6c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C8 4.52 8 5.08 8 6.2V7M7 7v14M17 7v14m-7-7h4m-2-2v4m-4.2 5h8.4c1.68 0 2.52 0 3.16-.33a3 3 0 0 0 1.31-1.3c.33-.65.33-1.49.33-3.17v-4.4c0-1.68 0-2.52-.33-3.16a3 3 0 0 0-1.3-1.31C18.71 7 17.87 7 16.2 7H7.8c-1.68 0-2.52 0-3.16.33a3 3 0 0 0-1.31 1.3C3 9.29 3 10.13 3 11.8v4.4c0 1.68 0 2.52.33 3.16a3 3 0 0 0 1.3 1.31c.65.33 1.49.33 3.17.33"
+        fill="none"
       />
     </svg>
   );

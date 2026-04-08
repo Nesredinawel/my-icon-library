@@ -25,6 +25,7 @@ export function Dazzle({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 18v-2.2H5L12 6v2.27h7z"
+        fill="none"
       />
     </svg>
   );

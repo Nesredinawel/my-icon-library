@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function LinkSlash({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -22,8 +23,9 @@ export function LinkSlash({
         x="3"
         y="7"
         fill="currentColor"
-        opacity=".14"
         rx="5"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

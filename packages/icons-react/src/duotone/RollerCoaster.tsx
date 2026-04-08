@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function RollerCoaster({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -21,6 +22,7 @@ export function RollerCoaster({
         stroke-linecap="round"
         stroke-width="2"
         d="M2 19V8a3 3 0 0 1 5.18-2.06M6 5.17V19m16-8.5a4.5 4.5 0 0 1-7.78 3.08L7.18 5.94M22 10.5a4.5 4.5 0 0 0-8-2.83m8 2.83V19M10 9v10m4-5.66V19m4-4.03V19m0-12.97V11"
+        fill="none"
       />
     </svg>
   );

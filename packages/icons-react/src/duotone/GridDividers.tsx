@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function GridDividers({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function GridDividers({
       <path
         fill="currentColor"
         d="M6.5 7h-3v3h3zm7 0h-3v3h3zm4 0h3v3h-3zm-11 11h-3v3h3zm4 0h3v3h-3zm10 0h-3v3h3z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function GridDividers({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3 3h18M3 14h18m-10.5-4h3V7h-3zm7 0h3V7h-3zm-14 0h3V7h-3zm7 11h3v-3h-3zm7 0h3v-3h-3zm-14 0h3v-3h-3z"
+        fill="none"
       />
     </svg>
   );

@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function SquareParkingSlash({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -21,7 +22,8 @@ export function SquareParkingSlash({
         fill-rule="evenodd"
         d="M7.2 4h9.6c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11v9.6c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22H7.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C4 18.48 4 17.92 4 16.8V7.2c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C5.52 4 6.08 4 7.2 4"
         clip-rule="evenodd"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -29,6 +31,7 @@ export function SquareParkingSlash({
         stroke-linejoin="round"
         stroke-width="2"
         d="M9.6 4h7.2c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11v7.2M3 3l1.59 1.59M21 21l-1.59-1.59M4.6 4.6a2 2 0 0 0-.37.5C4 5.52 4 6.08 4 7.2v9.6c0 1.12 0 1.68.22 2.1q.3.58.87.88c.43.22.99.22 2.11.22h9.6c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .51-.37M4.6 4.6l14.8 14.8M13 13H9.5m0 0V9.5m0 3.5v3m4.2-7.9a2.5 2.5 0 0 1 1.7 1.7"
+        fill="none"
       />
     </svg>
   );

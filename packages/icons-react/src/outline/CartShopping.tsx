@@ -25,6 +25,7 @@ export function CartShopping({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M6.3 5H21l-2 7H7.38M20 16H8L6 3H3m6 17a1 1 0 1 1-2 0 1 1 0 0 1 2 0m11 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function Loop({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m18 4 3 3m0 0-3 3m3-3H7a4 4 0 0 0-4 4m3 9-3-3m0 0 3-3m-3 3h14a4 4 0 0 0 4-4"
+        fill="none"
       />
     </svg>
   );

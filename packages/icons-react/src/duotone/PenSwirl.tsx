@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function PenSwirl({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function PenSwirl({
       <path
         fill="currentColor"
         d="M20.24 6.42a2 2 0 1 0-2.83-2.83L16 5l2.83 2.83z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

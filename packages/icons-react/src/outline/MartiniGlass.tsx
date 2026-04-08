@@ -25,6 +25,7 @@ export function MartiniGlass({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 14 5 3h14zm0 0v7m-4 0h8M7.55 7h8.9"
+        fill="none"
       />
     </svg>
   );

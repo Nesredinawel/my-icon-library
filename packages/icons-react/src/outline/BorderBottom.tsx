@@ -25,6 +25,7 @@ export function BorderBottom({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M20 20H4M16 4h.01M16 12h.01M20 4h.01M20 8h.01M20 12h.01M20 16h.01"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function CircleBolt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12.5 7 9 12h6l-3.5 5m9.5-5a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
+        fill="none"
       />
     </svg>
   );

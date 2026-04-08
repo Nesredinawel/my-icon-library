@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Tally({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function Tally({
         stroke-linejoin="round"
         stroke-width="2"
         d="M6 20V4m4 16V4m4 16V4m4 16V4m3 1L3 19"
+        fill="none"
       />
     </svg>
   );

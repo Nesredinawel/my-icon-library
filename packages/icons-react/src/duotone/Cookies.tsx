@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Cookies({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Cookies({
       <path
         fill="currentColor"
         d="M15 21a6 6 0 0 0 0-12 6 6 0 0 1-6 6 6 6 0 0 0 6 6"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Cookies({
         stroke-linejoin="round"
         stroke-width="2"
         d="M9 15a6 6 0 1 0 6-6m-6 6a6 6 0 0 0 6-6m-6 6a6 6 0 1 1 6-6m2 8h.01M17 13.5h.01"
+        fill="none"
       />
     </svg>
   );

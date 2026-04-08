@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function CheckDouble({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function CheckDouble({
         stroke-linejoin="round"
         stroke-width="2"
         d="m4 14 5 5L20 8M6 8.89 9.08 12 16 5"
+        fill="none"
       />
     </svg>
   );

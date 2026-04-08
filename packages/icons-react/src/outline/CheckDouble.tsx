@@ -25,6 +25,7 @@ export function CheckDouble({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m4 14 5 5L20 8M6 8.89 9.08 12 16 5"
+        fill="none"
       />
     </svg>
   );

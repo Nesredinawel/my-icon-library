@@ -25,6 +25,7 @@ export function Cloche({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 9c2.5 0 4 1 5 3m-5-6a8 8 0 0 0-6.93 12M12 6a8 8 0 0 1 6.93 12M12 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M4.5 21h15a1.5 1.5 0 0 0 0-3h-15a1.5 1.5 0 0 0 0 3"
+        fill="none"
       />
     </svg>
   );

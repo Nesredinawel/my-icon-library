@@ -25,6 +25,7 @@ export function ExpandWide({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 10V5h5m-5 9v5h5m8-14h5v5m0 4v5h-5"
+        fill="none"
       />
     </svg>
   );

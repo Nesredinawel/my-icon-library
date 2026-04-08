@@ -25,6 +25,7 @@ export function ExclamationAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m12.01 14 .01-10"
+        fill="none"
       />
     </svg>
   );

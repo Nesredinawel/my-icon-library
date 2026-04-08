@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Vial({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Vial({
       <path
         fill="currentColor"
         d="M4.5 19.5a3.54 3.54 0 0 1 0-5L7 12h10l-7.5 7.5a3.54 3.54 0 0 1-5 0"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Vial({
         stroke-linejoin="round"
         stroke-width="2"
         d="M20 9 9.5 19.5a3.54 3.54 0 0 1-5-5L15 4m-1-1 7 7M7 12h10"
+        fill="none"
       />
     </svg>
   );

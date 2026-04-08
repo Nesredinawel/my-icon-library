@@ -25,6 +25,7 @@ export function MapLocationPin({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m9 20-6-3V4l2 1m4 15 6-3m-6 3v-6m6 3 6 3V7l-2-1m-4 11v-3m0-7.8c0 1.77-1.5 3.2-3 4.8-1.5-1.6-3-3.03-3-4.8S10.34 3 12 3s3 1.43 3 3.2"
+        fill="none"
       />
     </svg>
   );

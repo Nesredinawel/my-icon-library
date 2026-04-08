@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function ArrowNarrowCircleBrokenDownLeft({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -16,13 +17,21 @@ export function ArrowNarrowCircleBrokenDownLeft({
       color={color}
       {...rest}
     >
-      <circle cx="12" cy="12" r="9" fill="currentColor" opacity=".14" />
+      <circle
+        cx="12"
+        cy="12"
+        r="9"
+        fill="currentColor"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
+      />
       <path
         stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="2"
         d="M10 8.34V14m0 0h5.5M10 14l8.36-8.36m-4.6-2.47a9 9 0 1 0 7.07 7.07"
+        fill="none"
       />
     </svg>
   );

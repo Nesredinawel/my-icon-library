@@ -25,6 +25,7 @@ export function ArrowCircleDownRight({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M15 10.5V15m0 0h-4.5m4.5 0L9 9m12 3a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
+        fill="none"
       />
     </svg>
   );

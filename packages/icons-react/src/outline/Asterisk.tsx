@@ -25,6 +25,7 @@ export function Asterisk({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 4v16m7-13L5 17M5 7l14 10"
+        fill="none"
       />
     </svg>
   );

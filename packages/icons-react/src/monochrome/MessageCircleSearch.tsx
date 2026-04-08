@@ -28,6 +28,7 @@ export function MessageCircleSearch({
         stroke-linejoin="round"
         stroke-width="2"
         d="m15.5 15.5-1.88-1.88m0 0A3 3 0 0 0 11.5 8.5a3 3 0 1 0 2.12 5.12"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function AustralSign({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m5 21 7-18 7 18m0-6H5m14-4H5"
+        fill="none"
       />
     </svg>
   );

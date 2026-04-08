@@ -25,6 +25,7 @@ export function MessageCircleCheck({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M9 12.22 10.85 14 15 10m6 2a9 9 0 0 1-9 9H3s1.56-3.74.94-5A9 9 0 1 1 21 12"
+        fill="none"
       />
     </svg>
   );

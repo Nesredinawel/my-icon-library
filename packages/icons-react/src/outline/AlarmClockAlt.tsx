@@ -25,6 +25,7 @@ export function AlarmClockAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m3 5.5 2-2m16 2-2-2m-7 5v4l2 2m6-2a8 8 0 1 1-16 0 8 8 0 0 1 16 0"
+        fill="none"
       />
     </svg>
   );

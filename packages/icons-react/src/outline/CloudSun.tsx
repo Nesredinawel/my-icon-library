@@ -25,6 +25,7 @@ export function CloudSun({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M11.1 8.03a5 5 0 1 1 6.94 5.54M11.1 8.03A5.1 5.1 0 0 0 7 11c-2.4.38-4 2.31-4 4.41A4.7 4.7 0 0 0 7.8 20H15c2.2 0 4-1.73 4-3.86a4 4 0 0 0-.96-2.57M11.1 8.03l.52-.03c2.66 0 4.84 2 4.99 4.5q.85.36 1.44 1.07"
+        fill="none"
       />
     </svg>
   );

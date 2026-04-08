@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function HexagonCheck({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function HexagonCheck({
       <path
         fill="currentColor"
         d="m2 12 5-8.66h10L22 12l-5 8.66H7z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function HexagonCheck({
         stroke-linejoin="round"
         stroke-width="2"
         d="M8 12.33 10.46 15 16 9M2 12l5-8.66h10L22 12l-5 8.66H7z"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function CodeAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m9 8-4 3.7L9 16m6-8 4 3.7-4 4.3"
+        fill="none"
       />
     </svg>
   );

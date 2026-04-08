@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function CompressAlt1({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function CompressAlt1({
         stroke-linejoin="round"
         stroke-width="2"
         d="m15 9 6-6m-6 6h4.5M15 9V4.5M9 15l-6 6m6-6H4.5M9 15v4.5m6-4.5L9 9"
+        fill="none"
       />
     </svg>
   );

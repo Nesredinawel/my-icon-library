@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function WavePulse({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function WavePulse({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3 12h4l2 7 3-14 3 12 2-5h4"
+        fill="none"
       />
     </svg>
   );

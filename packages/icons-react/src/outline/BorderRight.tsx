@@ -25,6 +25,7 @@ export function BorderRight({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M20 4v16"
+        fill="none"
       />
     </svg>
   );

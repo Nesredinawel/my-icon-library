@@ -25,6 +25,7 @@ export function CrosshairSimple({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M21 12a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9h-4m-5 9a9 9 0 0 1-9-9m9 9v-4m-9-5a9 9 0 0 1 9-9m-9 9h4m5-9v4m0 5"
+        fill="none"
       />
     </svg>
   );

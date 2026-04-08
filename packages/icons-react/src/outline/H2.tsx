@@ -25,6 +25,7 @@ export function H2({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 6v12m7-6H3m7-6v12m4-8.77C14 7.38 15.8 6 17.5 6s3.5.92 3.5 3.23c0 3.7-7 8.77-7 8.77h7"
+        fill="none"
       />
     </svg>
   );

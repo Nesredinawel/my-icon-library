@@ -25,6 +25,7 @@ export function ArrowUpShortWide({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M7 3v18M7 3l4 4M7 3 3 7m11-4h1m-1 6h3m-3 6h5m-5 6h7"
+        fill="none"
       />
     </svg>
   );

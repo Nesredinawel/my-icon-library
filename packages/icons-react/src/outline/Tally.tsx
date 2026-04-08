@@ -25,6 +25,7 @@ export function Tally({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M6 20V4m4 16V4m4 16V4m4 16V4m3 1L3 19"
+        fill="none"
       />
     </svg>
   );

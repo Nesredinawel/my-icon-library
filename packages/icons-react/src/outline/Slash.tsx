@@ -25,6 +25,7 @@ export function Slash({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M16 3 8 21"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function CornerUpLeft({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M20 20v-2.4c0-3.36 0-5.04-.65-6.32a6 6 0 0 0-2.63-2.63C15.44 8 13.76 8 10.4 8H4m0 0 4 4M4 8l4-4"
+        fill="none"
       />
     </svg>
   );

@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function MouseAlt({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function MouseAlt({
       <path
         fill="currentColor"
         d="M6 9a6 6 0 1 1 12 0v6a6 6 0 0 1-12 0z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function MouseAlt({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 9V3m0 0a6 6 0 0 1 6 6v6a6 6 0 0 1-12 0V9a6 6 0 0 1 6-6"
+        fill="none"
       />
     </svg>
   );

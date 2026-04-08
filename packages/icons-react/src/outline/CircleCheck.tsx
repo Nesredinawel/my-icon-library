@@ -25,6 +25,7 @@ export function CircleCheck({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M8 12.33 10.46 15 16 9m5 3a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function AlignRightJustify({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 8h18M3 12h18M3 16h18m-10 4h10M3 4h18"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function Paragraph({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 10h18M3 14h9"
+        fill="none"
       />
     </svg>
   );

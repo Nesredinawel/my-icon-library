@@ -25,6 +25,7 @@ export function Bolt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m13 3-7.93 9.7c-.34.41-.51.62-.51.8q0 .24.18.39c.14.11.4.11.95.11H12l-1 7 7.93-9.7c.34-.41.51-.62.51-.8a.5.5 0 0 0-.18-.39c-.14-.11-.4-.11-.95-.11H12z"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function Sigma({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M19 6V3H5l9 9-9 9h14v-3"
+        fill="none"
       />
     </svg>
   );

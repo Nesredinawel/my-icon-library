@@ -25,6 +25,7 @@ export function HexagonCheck({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M8 12.33 10.46 15 16 9M2 12l5-8.66h10L22 12l-5 8.66H7z"
+        fill="none"
       />
     </svg>
   );

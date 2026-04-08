@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function H1({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function H1({
         stroke-linejoin="round"
         stroke-width="2"
         d="m15 9 1.63-1.63c.43-.43.65-.65.83-.66a.5.5 0 0 1 .42.17c.12.14.12.45.12 1.05V18m-3 0h6M3 6v12m7-6H4m6-6v12"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function Capsule({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m15.5 8.5-7 7m3-11 8 8a4.95 4.95 0 1 1-7 7l-8-8a4.95 4.95 0 0 1 7-7"
+        fill="none"
       />
     </svg>
   );

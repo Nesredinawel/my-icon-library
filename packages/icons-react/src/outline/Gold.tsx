@@ -25,6 +25,7 @@ export function Gold({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3.88 14h5.25l.87 5H3zm5.5-9h5.24l.88 5h-7zm5.5 9h5.24l.88 5h-7z"
+        fill="none"
       />
     </svg>
   );

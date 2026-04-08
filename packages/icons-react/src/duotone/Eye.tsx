@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Eye({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -21,7 +22,8 @@ export function Eye({
         fill-rule="evenodd"
         d="M2.46 12a10 10 0 0 1 19.08 0 10 10 0 0 1-19.08 0M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
         clip-rule="evenodd"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -29,6 +31,7 @@ export function Eye({
         stroke-linejoin="round"
         stroke-width="2"
         d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
+        fill="none"
       />
       <path
         stroke="currentColor"
@@ -36,6 +39,7 @@ export function Eye({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 5a10 10 0 0 0-9.54 7 10 10 0 0 0 19.08 0A10 10 0 0 0 12 5"
+        fill="none"
       />
     </svg>
   );

@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function FlaskRoundBlank({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function FlaskRoundBlank({
       <path
         fill="currentColor"
         d="M15 3v6.67A7 7 0 0 1 16.9 21H7.1A6.98 6.98 0 0 1 9 9.67V3z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function FlaskRoundBlank({
         stroke-linejoin="round"
         stroke-width="2"
         d="M17 3H7m8 0v6.67A7 7 0 0 1 16.9 21H7.1A6.98 6.98 0 0 1 9 9.67V3"
+        fill="none"
       />
     </svg>
   );

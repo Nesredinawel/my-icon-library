@@ -24,6 +24,7 @@ export function WifiFair({
         stroke="currentColor"
         stroke-linecap="round"
         d="M12 20h.01m3.35-3.7a5 5 0 0 0-6.72 0"
+        fill="none"
       />
     </svg>
   );

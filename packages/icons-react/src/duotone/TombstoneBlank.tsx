@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function TombstoneBlank({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function TombstoneBlank({
       <path
         fill="currentColor"
         d="M19 21V10a7 7 0 1 0-14 0v11z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function TombstoneBlank({
         stroke-linejoin="round"
         stroke-width="2"
         d="M19 21V10a7 7 0 1 0-14 0v11m-2 0h18"
+        fill="none"
       />
     </svg>
   );

@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function SlashFlip({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function SlashFlip({
         stroke-linejoin="round"
         stroke-width="2"
         d="M16 21 8 3"
+        fill="none"
       />
     </svg>
   );

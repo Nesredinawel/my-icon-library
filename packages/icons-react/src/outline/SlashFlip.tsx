@@ -25,6 +25,7 @@ export function SlashFlip({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M16 21 8 3"
+        fill="none"
       />
     </svg>
   );

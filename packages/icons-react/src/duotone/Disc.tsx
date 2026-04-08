@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Disc({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -21,7 +22,8 @@ export function Disc({
         fill-rule="evenodd"
         d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18m0-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
         clip-rule="evenodd"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -29,6 +31,7 @@ export function Disc({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"
+        fill="none"
       />
       <path
         stroke="currentColor"
@@ -36,6 +39,7 @@ export function Disc({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+        fill="none"
       />
     </svg>
   );

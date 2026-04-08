@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Xmark({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function Xmark({
         stroke-linejoin="round"
         stroke-width="2"
         d="m6 6 12 12m0-12L6 18"
+        fill="none"
       />
     </svg>
   );

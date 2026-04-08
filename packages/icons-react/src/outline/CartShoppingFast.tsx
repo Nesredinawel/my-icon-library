@@ -25,6 +25,7 @@ export function CartShoppingFast({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M7.3 5H22l-2 7H8.38M21 16H9L7 3H4m0 5H2m3 3H2m4 3H2m8 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m11 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+        fill="none"
       />
     </svg>
   );

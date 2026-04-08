@@ -24,6 +24,7 @@ export function BracketRoundRight({
         stroke="currentColor"
         stroke-linecap="round"
         d="M10 3a12.96 12.96 0 0 1 0 18"
+        fill="none"
       />
     </svg>
   );

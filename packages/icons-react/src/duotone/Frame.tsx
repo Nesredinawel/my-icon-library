@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Frame({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -16,13 +17,19 @@ export function Frame({
       color={color}
       {...rest}
     >
-      <path fill="currentColor" d="M6 6h12v12H6z" opacity=".14" />
+      <path
+        fill="currentColor"
+        d="M6 6h12v12H6z"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
+      />
       <path
         stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="2"
         d="M6 3v18M18 3v18M3 6h18M3 18h18"
+        fill="none"
       />
     </svg>
   );

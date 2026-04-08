@@ -25,6 +25,7 @@ export function FlipBackward({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 8h13.5a4.5 4.5 0 1 1 0 9H3m0-9 3-3M3 8l3 3"
+        fill="none"
       />
     </svg>
   );

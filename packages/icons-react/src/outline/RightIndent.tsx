@@ -25,6 +25,7 @@ export function RightIndent({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M21 6h-8M9 6v12m12-8h-8m8 4h-8m8 4h-8M3 10l2 2-2 2"
+        fill="none"
       />
     </svg>
   );

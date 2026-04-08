@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Signature({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Signature({
       <path
         fill="currentColor"
         d="M7 18.5c3.29-1.4 5.9-4.74 5.62-8.42l-3.56 1.35c-.74.29-1.11.43-1.39.67a2 2 0 0 0-.54.79c-.13.34-.13.74-.13 1.53z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Signature({
         stroke-linejoin="round"
         stroke-width="2"
         d="M7 7.65c1-2.24 3.5-3.43 5 0q.53 1.22.62 2.43m0 0c.28 3.68-2.33 7.01-5.62 8.42v-4.08c0-.8 0-1.19.13-1.53a2 2 0 0 1 .54-.79c.28-.24.65-.38 1.4-.67zm0 0L16 8.79l-.5 3.43H18M21 16h-6M4 16H3"
+        fill="none"
       />
     </svg>
   );

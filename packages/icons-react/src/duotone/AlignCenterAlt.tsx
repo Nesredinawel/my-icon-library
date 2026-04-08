@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function AlignCenterAlt({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function AlignCenterAlt({
         stroke-linejoin="round"
         stroke-width="2"
         d="M5 8h14M5 16h14M3 12h18"
+        fill="none"
       />
     </svg>
   );

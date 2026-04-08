@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Subscript({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function Subscript({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3 18h2l8-14h2M3 4h2l8 14h2m2-3 2-1v6m0 0h-2m2 0h2"
+        fill="none"
       />
     </svg>
   );

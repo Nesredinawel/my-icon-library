@@ -25,6 +25,7 @@ export function RefreshCcwAlt3({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M19.94 13q.06-.5.06-1A8 8 0 0 0 5.8 6.94M4.06 11Q4 11.5 4 12a8 8 0 0 0 14 5.3m-3-.3h3v.3M5.8 4v2.94m0 0V7h3M18 20v-2.7"
+        fill="none"
       />
     </svg>
   );

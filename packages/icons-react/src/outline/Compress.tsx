@@ -25,6 +25,7 @@ export function Compress({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M9 4v5H4m11-5v5h5M4 15h5v5m6 0v-5h5"
+        fill="none"
       />
     </svg>
   );

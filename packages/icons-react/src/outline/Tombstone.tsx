@@ -25,6 +25,7 @@ export function Tombstone({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 7v10m-3-7h6m4 11V10a7 7 0 1 0-14 0v11m-2 0h18"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function Command({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M10 10V7a3 3 0 1 0-3 3zm0 0v4m0-4h4m-4 4v3a3 3 0 1 1-3-3zm0 0h4m0-4h3a3 3 0 1 0-3-3zm0 0v4m0 0h3a3 3 0 1 1-3 3z"
+        fill="none"
       />
     </svg>
   );

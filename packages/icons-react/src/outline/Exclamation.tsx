@@ -25,6 +25,7 @@ export function Exclamation({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 5v10m0 4"
+        fill="none"
       />
     </svg>
   );

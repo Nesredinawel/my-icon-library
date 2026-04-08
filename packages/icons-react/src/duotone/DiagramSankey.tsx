@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function DiagramSankey({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function DiagramSankey({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3 10h5l4-6h9M3 14h18M8 14l4 6h9"
+        fill="none"
       />
     </svg>
   );

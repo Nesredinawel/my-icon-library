@@ -25,6 +25,7 @@ export function LandmarkDome({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M18 10a6 6 0 0 0-6-6m-6 6a6 6 0 0 1 6-6m0 0V3m-9 7h18M3 21h18M3 18h3m0 0h4m-4 0v-5m4 5h4m-4 0v-5m4 5h4m-4 0v-5m4 5h3m-3 0v-5"
+        fill="none"
       />
     </svg>
   );

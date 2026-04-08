@@ -25,6 +25,7 @@ export function Dash({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 12h18"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function AtSign({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M17.4 19.2A9 9 0 1 1 21 12v1.5a2.5 2.5 0 0 1-5 0V8m0 4a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
+        fill="none"
       />
     </svg>
   );

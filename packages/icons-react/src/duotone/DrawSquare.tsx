@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function DrawSquare({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function DrawSquare({
       <path
         fill="currentColor"
         d="M8 5.5A2.5 2.5 0 0 1 5.5 8v8A2.5 2.5 0 0 1 8 18.5h8a2.5 2.5 0 0 1 2.5-2.5V8A2.5 2.5 0 0 1 16 5.5z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function DrawSquare({
         stroke-linejoin="round"
         stroke-width="2"
         d="M16 18.5a2.5 2.5 0 1 0 2.5-2.5M16 18.5a2.5 2.5 0 0 1 2.5-2.5M16 18.5H8M18.5 16V8M8 18.5A2.5 2.5 0 1 1 5.5 16M8 18.5A2.5 2.5 0 0 0 5.5 16m0 0V8m0 0A2.5 2.5 0 1 1 8 5.5M5.5 8A2.5 2.5 0 0 0 8 5.5m0 0h8M18.5 8A2.5 2.5 0 0 1 16 5.5M18.5 8A2.5 2.5 0 1 0 16 5.5"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function CirclePause({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M9.5 9v6m5-6v6m6.5-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
+        fill="none"
       />
     </svg>
   );

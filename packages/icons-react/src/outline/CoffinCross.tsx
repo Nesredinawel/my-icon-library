@@ -25,6 +25,7 @@ export function CoffinCross({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 7v10m-3-7h6M9 3h6l5 5-5 13H9L4 8z"
+        fill="none"
       />
     </svg>
   );

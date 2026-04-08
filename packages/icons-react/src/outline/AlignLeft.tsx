@@ -25,6 +25,7 @@ export function AlignLeft({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 10h13M3 14h18M3 18h13M3 6h18"
+        fill="none"
       />
     </svg>
   );

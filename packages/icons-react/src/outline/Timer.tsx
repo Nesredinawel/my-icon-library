@@ -25,6 +25,7 @@ export function Timer({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M4.52 7A9 9 0 1 0 12 3v3m0 6L8 8"
+        fill="none"
       />
     </svg>
   );

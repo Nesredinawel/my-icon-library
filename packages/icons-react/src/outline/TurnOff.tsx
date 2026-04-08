@@ -24,6 +24,7 @@ export function TurnOff({
         stroke="currentColor"
         stroke-linecap="round"
         d="M16 6.07a8 8 0 1 1-8 0M12 3v10"
+        fill="none"
       />
     </svg>
   );

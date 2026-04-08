@@ -25,6 +25,7 @@ export function ChevronRightDot({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m9 6 6 6-6 6m0-6"
+        fill="none"
       />
     </svg>
   );

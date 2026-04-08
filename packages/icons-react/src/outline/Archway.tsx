@@ -25,6 +25,7 @@ export function Archway({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M21 3H3m1 0v18M20 3v18M3 21h5v-5a4 4 0 0 1 8 0v5h5M20 7H4"
+        fill="none"
       />
     </svg>
   );

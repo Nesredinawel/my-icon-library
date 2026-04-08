@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Terminal({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function Terminal({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 19h9M3 5l8 7-8 7"
+        fill="none"
       />
     </svg>
   );

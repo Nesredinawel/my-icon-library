@@ -25,6 +25,7 @@ export function Monument({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M7 21 9 5l3-2 3 2 2 16m-6-7h2m-8 7h14"
+        fill="none"
       />
     </svg>
   );

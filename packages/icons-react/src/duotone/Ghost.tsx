@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Ghost({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Ghost({
       <path
         fill="currentColor"
         d="M12 3a7 7 0 0 0-7 7v11l.82-.54a5 5 0 0 1 1.58-.86 2 2 0 0 1 1.07.11c.4.15.72.48 1.38 1.14a.2.2 0 0 0 .3 0c.45-.44.7-.68.96-.81a2 2 0 0 1 1.78 0c.26.13.51.37.96.82a.2.2 0 0 0 .3 0c.66-.67.99-1 1.38-1.15a2 2 0 0 1 1.08-.1c.4.07.8.33 1.57.85L19 21V10a7 7 0 0 0-7-7"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Ghost({
         stroke-linejoin="round"
         stroke-width="2"
         d="M5 10a7 7 0 0 1 14 0v11l-.82-.54a5 5 0 0 0-1.57-.86 2 2 0 0 0-1.08.11c-.4.15-.72.48-1.38 1.14a.2.2 0 0 1-.3 0c-.45-.44-.7-.68-.96-.81a2 2 0 0 0-1.78 0c-.26.13-.51.37-.96.82a.2.2 0 0 1-.3 0c-.66-.67-.99-1-1.38-1.15a2 2 0 0 0-1.07-.1c-.42.07-.8.33-1.58.85L5 21z"
+        fill="none"
       />
     </svg>
   );

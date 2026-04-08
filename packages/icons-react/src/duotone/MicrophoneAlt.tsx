@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function MicrophoneAlt({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -22,8 +23,9 @@ export function MicrophoneAlt({
         x="8"
         y="3"
         fill="currentColor"
-        opacity=".14"
         rx="4"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -31,6 +33,7 @@ export function MicrophoneAlt({
         stroke-linejoin="round"
         stroke-width="2"
         d="M20 12v1a8 8 0 1 1-16 0v-1m8 5a4 4 0 0 1-4-4V7a4 4 0 1 1 8 0v6a4 4 0 0 1-4 4"
+        fill="none"
       />
     </svg>
   );

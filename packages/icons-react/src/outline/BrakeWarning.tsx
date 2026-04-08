@@ -25,6 +25,7 @@ export function BrakeWarning({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 10v1.5m7.49-4.48a9 9 0 0 1 0 9.96m-15-9.96a9 9 0 0 0 0 9.96M17 12a5 5 0 1 1-10 0 5 5 0 0 1 10 0"
+        fill="none"
       />
     </svg>
   );

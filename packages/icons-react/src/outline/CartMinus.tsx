@@ -25,6 +25,7 @@ export function CartMinus({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m21 5-2 7H7.38M20 16H8L6 3H3m13 3h-5M9 20a1 1 0 1 1-2 0 1 1 0 0 1 2 0m11 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+        fill="none"
       />
     </svg>
   );

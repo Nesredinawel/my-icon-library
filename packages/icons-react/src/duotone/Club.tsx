@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Club({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Club({
       <path
         fill="currentColor"
         d="M16.96 7.4a5 5 0 0 0-9.92 0A5 5 0 1 0 12 16a5 5 0 1 0 4.96-8.6"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Club({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 16v5m0-5a5 5 0 1 1-4.96-8.6 5 5 0 0 1 9.92 0A5 5 0 1 1 12 16m-3 5h6"
+        fill="none"
       />
     </svg>
   );

@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function CodeAlt({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function CodeAlt({
         stroke-linejoin="round"
         stroke-width="2"
         d="m9 8-4 3.7L9 16m6-8 4 3.7-4 4.3"
+        fill="none"
       />
     </svg>
   );

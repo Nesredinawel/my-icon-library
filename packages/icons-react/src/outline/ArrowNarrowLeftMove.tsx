@@ -25,6 +25,7 @@ export function ArrowNarrowLeftMove({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M20 4v16M4 12h12M4 12l4-4m-4 4 4 4"
+        fill="none"
       />
     </svg>
   );

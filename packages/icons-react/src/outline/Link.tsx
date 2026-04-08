@@ -25,6 +25,7 @@ export function Link({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M14 7h2a5 5 0 0 1 0 10h-2M10 7H8a5 5 0 0 0 0 10h2m-2-5h8"
+        fill="none"
       />
     </svg>
   );

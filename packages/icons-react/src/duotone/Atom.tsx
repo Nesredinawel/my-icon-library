@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Atom({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Atom({
       <path
         fill="currentColor"
         d="M12 5.56C8.75 3.43 5.65 2.8 4.22 4.22S3.42 8.75 5.56 12c-2.13 3.25-2.77 6.35-1.34 7.78s4.53.8 7.78-1.34c3.25 2.13 6.35 2.77 7.78 1.34s.8-4.53-1.34-7.78c2.13-3.25 2.77-6.35 1.34-7.78s-4.53-.8-7.78 1.34"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

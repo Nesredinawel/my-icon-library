@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Fence({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Fence({
       <path
         fill="currentColor"
         d="M6 20H2V7l2-3 2 3zm16 0h-4V7l2-3 2 3zm-8 0h-4V7l2-3 2 3z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Fence({
         stroke-linejoin="round"
         stroke-width="2"
         d="M6 10h4m4 6h4m-4-6h4M6 16h4m0 4h4V7l-2-3-2 3zm-8 0h4V7L4 4 2 7zm16 0h4V7l-2-3-2 3z"
+        fill="none"
       />
     </svg>
   );

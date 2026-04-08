@@ -25,6 +25,7 @@ export function WavePulse({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 12h4l2 7 3-14 3 12 2-5h4"
+        fill="none"
       />
     </svg>
   );

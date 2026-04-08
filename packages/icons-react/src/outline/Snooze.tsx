@@ -25,6 +25,7 @@ export function Snooze({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 12h7l-7 9h7m0-18h4l-4 5h4m3 4h4l-4 5h4"
+        fill="none"
       />
     </svg>
   );

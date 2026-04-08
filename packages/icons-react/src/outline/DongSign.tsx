@@ -25,6 +25,7 @@ export function DongSign({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M18 20H6m10-3V3m-2 3h4m-2 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
+        fill="none"
       />
     </svg>
   );

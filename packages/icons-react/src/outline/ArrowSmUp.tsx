@@ -25,6 +25,7 @@ export function ArrowSmUp({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 6v12m0-12-5 5m5-5 5 5"
+        fill="none"
       />
     </svg>
   );

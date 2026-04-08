@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function PlaceOfWorship({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function PlaceOfWorship({
       <path
         fill="currentColor"
         d="M10 21H7v-8l2.5-2V6L12 3l2.5 3v5l2.5 2v8h-3v-4a2 2 0 1 0-4 0z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function PlaceOfWorship({
         stroke-linejoin="round"
         stroke-width="2"
         d="M4.5 14 3 15v6h4m0 0h3m-3 0v-8l2.5-2V6L12 3l2.5 3v5l2.5 2v8m-7 0h4m-4 0v-4a2 2 0 1 1 4 0v4m0 0h3m0 0h4v-6l-1.5-1"
+        fill="none"
       />
     </svg>
   );

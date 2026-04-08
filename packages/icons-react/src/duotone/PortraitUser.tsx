@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function PortraitUser({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -21,7 +22,8 @@ export function PortraitUser({
         fill-rule="evenodd"
         d="M5 6.2c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C6.52 3 7.08 3 8.2 3h7.6c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11v11.6c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88q-.34.18-.91.2a5 5 0 0 0-10 0 2 2 0 0 1-.9-.2 2 2 0 0 1-.88-.87C5 19.48 5 18.92 5 17.8zm9 4.8a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
         clip-rule="evenodd"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

@@ -25,6 +25,7 @@ export function CircleExclamationCheck({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M19.48 7a9 9 0 1 0-.77 11M16 12.29 17.8 14l4.2-4M12 8v5m0 3"
+        fill="none"
       />
     </svg>
   );

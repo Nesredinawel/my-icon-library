@@ -25,6 +25,7 @@ export function DiagramSankey({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 10h5l4-6h9M3 14h18M8 14l4 6h9"
+        fill="none"
       />
     </svg>
   );

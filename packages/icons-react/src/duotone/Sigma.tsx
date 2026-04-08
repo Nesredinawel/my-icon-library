@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Sigma({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function Sigma({
         stroke-linejoin="round"
         stroke-width="2"
         d="M19 6V3H5l9 9-9 9h14v-3"
+        fill="none"
       />
     </svg>
   );

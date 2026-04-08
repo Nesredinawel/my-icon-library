@@ -25,6 +25,7 @@ export function LineHeight({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M13 6h8m-8 6h8m-8 6h8M6 4v16M6 4 3 7m3-3 3 3M6 20l-3-3m3 3 3-3"
+        fill="none"
       />
     </svg>
   );

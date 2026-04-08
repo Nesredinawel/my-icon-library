@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Italic({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function Italic({
         stroke-linejoin="round"
         stroke-width="2"
         d="M10 3h10M4 21h10m1-18L9 21"
+        fill="none"
       />
     </svg>
   );

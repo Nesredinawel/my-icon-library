@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Link({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -22,8 +23,9 @@ export function Link({
         x="3"
         y="7"
         fill="currentColor"
-        opacity=".14"
         rx="5"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -31,6 +33,7 @@ export function Link({
         stroke-linejoin="round"
         stroke-width="2"
         d="M14 7h2a5 5 0 0 1 0 10h-2M10 7H8a5 5 0 0 0 0 10h2m-2-5h8"
+        fill="none"
       />
     </svg>
   );

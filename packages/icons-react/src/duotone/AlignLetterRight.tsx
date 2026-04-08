@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function AlignLetterRight({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function AlignLetterRight({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3 8h18M3 12h18M3 20h18m-11-4h11M10 4h11"
+        fill="none"
       />
     </svg>
   );

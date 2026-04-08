@@ -25,6 +25,7 @@ export function Check({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m4 12.61 4.92 4.89L20 6.5"
+        fill="none"
       />
     </svg>
   );

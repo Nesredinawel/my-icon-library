@@ -25,6 +25,7 @@ export function CircleHalfStroke({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 21a9 9 0 1 0 0-18m0 18a9 9 0 1 1 0-18m0 18V3"
+        fill="none"
       />
     </svg>
   );

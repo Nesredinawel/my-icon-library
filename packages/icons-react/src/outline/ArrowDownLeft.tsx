@@ -25,6 +25,7 @@ export function ArrowDownLeft({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M17 7 7 17m0 0h10M7 17V7"
+        fill="none"
       />
     </svg>
   );

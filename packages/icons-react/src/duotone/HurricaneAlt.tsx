@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function HurricaneAlt({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function HurricaneAlt({
         stroke-linejoin="round"
         stroke-width="2"
         d="M21 4H3m17 4H6m12 4H9m6 4H8m9 4h-5"
+        fill="none"
       />
     </svg>
   );

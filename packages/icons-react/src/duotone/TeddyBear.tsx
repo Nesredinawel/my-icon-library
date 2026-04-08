@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function TeddyBear({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function TeddyBear({
       <path
         fill="currentColor"
         d="m14 20.95 1.54-3.83a1.8 1.8 0 0 1 2.34-.99l.03-.13a6 6 0 0 0-1.71-5.28 5 5 0 0 1-8.4-.01A6 6 0 0 0 6.06 16l.04.13a1.8 1.8 0 0 1 2.33 1L10 20.94q1.03.06 2 .05.97.01 2-.05"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

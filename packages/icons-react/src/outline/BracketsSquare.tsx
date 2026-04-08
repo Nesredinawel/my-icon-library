@@ -25,6 +25,7 @@ export function BracketsSquare({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M9 3H5v18h4m6 0h4V3h-4"
+        fill="none"
       />
     </svg>
   );

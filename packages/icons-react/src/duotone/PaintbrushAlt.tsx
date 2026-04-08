@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function PaintbrushAlt({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function PaintbrushAlt({
       <path
         fill="currentColor"
         d="m11.5 10.5 3 3 7-7a2.12 2.12 0 1 0-3-3zm-1.16 7.25c0 1.8-1.46 3.25-3.25 3.25H2.5l.21-.1a2.4 2.4 0 0 0 1.23-2.82q-.1-.33-.08-.67a3.25 3.25 0 0 1 6.48.34"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function PaintbrushAlt({
         stroke-linejoin="round"
         stroke-width="2"
         d="m11.5 10.5 3 3m7-7-9.03 9.03a2.12 2.12 0 0 1-3-3L18.5 3.5a2.12 2.12 0 0 1 3 3M10.34 17.75c0 1.8-1.46 3.25-3.25 3.25H2.5l.21-.1a2.4 2.4 0 0 0 1.23-2.82q-.1-.34-.08-.67a3.25 3.25 0 0 1 6.48.34"
+        fill="none"
       />
     </svg>
   );

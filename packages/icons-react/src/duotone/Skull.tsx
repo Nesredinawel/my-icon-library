@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Skull({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Skull({
       <path
         fill="currentColor"
         d="M14.47 21H9.53c-.5 0-.74 0-.94-.09a1 1 0 0 1-.5-.5C8 20.2 8 19.96 8 19.47c0-1.17 0-1.76-.15-2.29a4 4 0 0 0-.94-1.66c-.38-.4-.88-.7-1.88-1.3l-1.25-.75a2 2 0 0 1-.53-.38 1 1 0 0 1-.2-.35C3 12.59 3 12.42 3 12.09V12a9 9 0 0 1 18 0v.1c0 .32 0 .49-.05.64a1 1 0 0 1-.2.35c-.1.12-.24.2-.53.38l-1.25.75c-1 .6-1.5.9-1.88 1.3a4 4 0 0 0-.94 1.66c-.15.53-.15 1.12-.15 2.29 0 .5 0 .74-.09.94a1 1 0 0 1-.5.5c-.2.09-.45.09-.94.09"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

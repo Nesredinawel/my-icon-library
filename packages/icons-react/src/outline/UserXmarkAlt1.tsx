@@ -25,6 +25,7 @@ export function UserXmarkAlt1({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m15 16 5 5m0-5-5 5M4 21a7 7 0 0 1 7-7m4-7a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
+        fill="none"
       />
     </svg>
   );

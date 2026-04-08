@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Snow({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function Snow({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 3v18m4-17-4 4-4-4m0 16 4-4 4 4M3 12h18M4 8l4 4-4 4m16 0-4-4 4-4"
+        fill="none"
       />
     </svg>
   );

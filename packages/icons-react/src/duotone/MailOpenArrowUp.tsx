@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function MailOpenArrowUp({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function MailOpenArrowUp({
       <path
         fill="currentColor"
         d="M21 11.3c0-.56 0-.96-.03-1.28l-7.2 4.8a5 5 0 0 1-1.3.72 2 2 0 0 1-.94 0q-.29-.07-.66-.3-.25-.15-.63-.42l-7.21-4.8q-.04.46-.03 1.28V18c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function ArrowDownZA({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -16,13 +17,19 @@ export function ArrowDownZA({
       color={color}
       {...rest}
     >
-      <path fill="currentColor" d="M20.57 20h-5.14L18 14z" opacity=".14" />
+      <path
+        fill="currentColor"
+        d="M20.57 20h-5.14L18 14z"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
+      />
       <path
         stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="2"
         d="M7 3v18m0 0-4-4m4 4 4-4m4.5-14h5l-5 7h5m-5.07 10h5.14M15 21l3-7 3 7"
+        fill="none"
       />
     </svg>
   );

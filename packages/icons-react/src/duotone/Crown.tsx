@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Crown({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Crown({
       <path
         fill="currentColor"
         d="m4 8 1.72 1.37c1.11.9 1.67 1.34 2.23 1.41a2 2 0 0 0 1.4-.35c.46-.32.74-.98 1.3-2.3L12 5l1.34 3.13c.57 1.32.85 1.98 1.31 2.3a2 2 0 0 0 1.4.35c.56-.07 1.12-.51 2.23-1.4L20 8l-2 12H6z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Crown({
         stroke-linejoin="round"
         stroke-width="2"
         d="m4 8 2 12h12l2-12M4 8l1.72 1.37c1.11.9 1.67 1.34 2.23 1.41a2 2 0 0 0 1.4-.35c.46-.32.74-.98 1.3-2.3L12 5M4 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2m16 0-1.72 1.37c-1.11.9-1.67 1.34-2.23 1.41a2 2 0 0 1-1.4-.35c-.46-.32-.74-.98-1.3-2.3L12 5m8 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-8-3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m8 2h.01M4 7"
+        fill="none"
       />
     </svg>
   );

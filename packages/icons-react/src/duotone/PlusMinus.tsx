@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function PlusMinus({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function PlusMinus({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 4v10M7 9h10M7 20h10"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function LinesLeaning({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M18 5v14M10 5 6 19m8-14-2 14"
+        fill="none"
       />
     </svg>
   );

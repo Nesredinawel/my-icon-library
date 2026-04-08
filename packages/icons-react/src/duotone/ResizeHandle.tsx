@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function ResizeHandle({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function ResizeHandle({
         stroke-linejoin="round"
         stroke-width="2"
         d="m21 15-6 6m6-13L8 21"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function LandmarkFlag({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 21h18M3 11h18M3 18h18M6 18v-4m4 4v-4m4 4v-4m4 4v-4m-6-7h4.84l.1-.01.05-.04.01-.11V4.16l-.01-.1-.04-.05-.11-.01H12m0 7V3"
+        fill="none"
       />
     </svg>
   );

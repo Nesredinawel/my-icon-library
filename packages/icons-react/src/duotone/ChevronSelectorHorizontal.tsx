@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function ChevronSelectorHorizontal({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function ChevronSelectorHorizontal({
         stroke-linejoin="round"
         stroke-width="2"
         d="m9 7-5 5 5 5m6-10 5 5-5 5"
+        fill="none"
       />
     </svg>
   );

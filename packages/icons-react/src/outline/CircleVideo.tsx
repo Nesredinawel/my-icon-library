@@ -25,6 +25,7 @@ export function CircleVideo({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m14 11 3-1.5v5L14 13m7-1a9 9 0 1 1-18 0 9 9 0 0 1 18 0M8 15h5a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1"
+        fill="none"
       />
     </svg>
   );

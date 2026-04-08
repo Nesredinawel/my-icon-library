@@ -25,6 +25,7 @@ export function AlignLetterRight({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 8h18M3 12h18M3 20h18m-11-4h11M10 4h11"
+        fill="none"
       />
     </svg>
   );

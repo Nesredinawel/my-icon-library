@@ -25,6 +25,7 @@ export function UserBlockAlt1({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m14.8 19.7 4.33-3.35M4 21a7 7 0 0 1 7-7m9 4a3 3 0 1 1-6 0 3 3 0 0 1 6 0M15 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
+        fill="none"
       />
     </svg>
   );

@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function BracketRoundRight({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {

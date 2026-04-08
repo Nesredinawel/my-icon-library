@@ -25,6 +25,7 @@ export function SignalWeak({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M4 20v-1"
+        fill="none"
       />
     </svg>
   );

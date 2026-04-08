@@ -25,6 +25,7 @@ export function DiamondExclamation({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 9v3m-9 0 9-9 9 9-9 9z"
+        fill="none"
       />
     </svg>
   );

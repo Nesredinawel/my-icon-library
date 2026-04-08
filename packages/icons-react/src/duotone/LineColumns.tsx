@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function LineColumns({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function LineColumns({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3 6h7m-7 4h7m-7 4h7m-7 4h7m4-12h7m-7 4h7m-7 4h7m-7 4h7"
+        fill="none"
       />
     </svg>
   );

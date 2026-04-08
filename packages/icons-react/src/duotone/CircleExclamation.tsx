@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function CircleExclamation({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,13 +20,15 @@ export function CircleExclamation({
       <path
         fill="currentColor"
         d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
         stroke-linecap="round"
         stroke-width="2"
         d="M12 8v5m0 3h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+        fill="none"
       />
     </svg>
   );

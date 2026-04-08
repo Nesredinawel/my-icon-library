@@ -25,6 +25,7 @@ export function BluetoothOn({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M7 17 17 7l-5-5v20l5-5L7 7"
+        fill="none"
       />
     </svg>
   );

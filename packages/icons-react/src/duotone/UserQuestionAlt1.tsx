@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function UserQuestionAlt1({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function UserQuestionAlt1({
       <path
         fill="currentColor"
         d="M11 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8m0 3a7 7 0 0 1 7 7H4a7 7 0 0 1 7-7"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

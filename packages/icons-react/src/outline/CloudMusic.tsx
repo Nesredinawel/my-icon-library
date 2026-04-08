@@ -25,6 +25,7 @@ export function CloudMusic({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m13 14.5 1-.5v-4l-3.57.71V15l-.93.5M8.4 19C5.42 19 3 16.6 3 13.65 3 11.2 4.8 8.94 7.5 8.5a5.6 5.6 0 0 1 10.8 1.75c1.59.7 2.7 2.4 2.7 4.25a4.5 4.5 0 0 1-4.5 4.5z"
+        fill="none"
       />
     </svg>
   );

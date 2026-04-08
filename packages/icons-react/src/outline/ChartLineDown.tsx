@@ -25,6 +25,7 @@ export function ChartLineDown({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M21 21H7.8c-1.68 0-2.52 0-3.16-.33a3 3 0 0 1-1.31-1.3C3 18.71 3 17.87 3 16.2V3m4 4 5 6 4-4 5 6"
+        fill="none"
       />
     </svg>
   );

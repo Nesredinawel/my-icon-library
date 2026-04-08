@@ -25,6 +25,7 @@ export function ArrowDownToBracket({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m8 11 4 4m0 0 4-4m-4 4V3m9 8v6.8c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22H6.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C3 19.48 3 18.9 3 17.8V11"
+        fill="none"
       />
     </svg>
   );

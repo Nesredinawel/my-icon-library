@@ -25,6 +25,7 @@ export function ClockXmark({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m3 5.5 2-2m16 2-2-2m-10 6 6 6m0-6-6 6m11-3a8 8 0 1 1-16 0 8 8 0 0 1 16 0"
+        fill="none"
       />
     </svg>
   );

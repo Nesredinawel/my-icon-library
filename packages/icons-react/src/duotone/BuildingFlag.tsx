@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function BuildingFlag({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function BuildingFlag({
       <path
         fill="currentColor"
         d="M3 4.6c0-.56 0-.84.1-1.05a1 1 0 0 1 .45-.44C3.76 3 4.04 3 4.6 3h7.8c.56 0 .84 0 1.05.1a1 1 0 0 1 .44.45c.11.21.11.49.11 1.05V21h-3.5v-3a2 2 0 1 0-4 0v3H3zM21 5h-4v5h4z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

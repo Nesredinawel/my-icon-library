@@ -11,4 +11,5 @@ export type OutlineIconProps = BaseIconProps & {
 
 export type DuotoneIconProps = BaseIconProps & {
   secondaryOpacity?: number;
+  secondaryColor?: string;
 };

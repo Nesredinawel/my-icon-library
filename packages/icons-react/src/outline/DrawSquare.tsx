@@ -25,6 +25,7 @@ export function DrawSquare({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M16 18.5a2.5 2.5 0 1 0 2.5-2.5M16 18.5a2.5 2.5 0 0 1 2.5-2.5M16 18.5H8M18.5 16V8M8 18.5A2.5 2.5 0 1 1 5.5 16M8 18.5A2.5 2.5 0 0 0 5.5 16m0 0V8m0 0A2.5 2.5 0 1 1 8 5.5M5.5 8A2.5 2.5 0 0 0 8 5.5m0 0h8M18.5 8A2.5 2.5 0 0 1 16 5.5M18.5 8A2.5 2.5 0 1 0 16 5.5"
+        fill="none"
       />
     </svg>
   );

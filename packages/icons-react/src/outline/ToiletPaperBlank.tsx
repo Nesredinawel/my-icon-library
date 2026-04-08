@@ -25,6 +25,7 @@ export function ToiletPaperBlank({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M15 10c0 3.31 1.34 6 3 6s3-2.69 3-6-1.34-6-3-6m-3 6c0-3.31 1.34-6 3-6m-3 6v4c0 1.84-.53 4.73-1 6H3c.47-1.27 1-4.16 1-6v-4c0-3.31 1.34-6 3-6h11"
+        fill="none"
       />
     </svg>
   );

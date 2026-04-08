@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function SkatesAlt({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function SkatesAlt({
       <path
         fill="currentColor"
         d="M9 17h8a2 2 0 0 0 2-2V7h-7v1.67c0 .3 0 .46-.02.6a2 2 0 0 1-1.72 1.71c-.13.02-.28.02-.6.02H9a3 3 0 1 0 0 6"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

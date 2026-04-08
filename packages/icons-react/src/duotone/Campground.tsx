@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Campground({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Campground({
       <path
         fill="currentColor"
         d="m3 19 9-12 9 12v2h-5l-4-6-4 6H3z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Campground({
         stroke-linejoin="round"
         stroke-width="2"
         d="M15 3 3 19v2h18v-2L9 3m3 12 4 6H8z"
+        fill="none"
       />
     </svg>
   );

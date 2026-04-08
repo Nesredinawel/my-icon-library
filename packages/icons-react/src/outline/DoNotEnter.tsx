@@ -25,12 +25,14 @@ export function DoNotEnter({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
+        fill="none"
       />
       <path
         stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M7 11.6c0-.56 0-.84.1-1.05a1 1 0 0 1 .45-.44C7.76 10 8.04 10 8.6 10h6.8c.56 0 .84 0 1.05.1a1 1 0 0 1 .44.45c.11.21.11.49.11 1.05v.8c0 .56 0 .84-.1 1.05a1 1 0 0 1-.45.44c-.21.11-.49.11-1.05.11H8.6c-.56 0-.84 0-1.05-.1a1 1 0 0 1-.44-.45C7 13.24 7 12.96 7 12.4z"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function CodeCommit({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M15 12a3 3 0 1 1-6 0m6 0a3 3 0 1 0-6 0m6 0h6M9 12H3"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function CompressAlt1({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m15 9 6-6m-6 6h4.5M15 9V4.5M9 15l-6 6m6-6H4.5M9 15v4.5m6-4.5L9 9"
+        fill="none"
       />
     </svg>
   );

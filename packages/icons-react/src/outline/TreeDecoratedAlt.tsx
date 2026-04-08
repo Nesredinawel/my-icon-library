@@ -25,6 +25,7 @@ export function TreeDecoratedAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M19 17H5l7-15zm0 0L8 11m8 .5L9.5 8M9 22h6m-3 0v-5"
+        fill="none"
       />
     </svg>
   );

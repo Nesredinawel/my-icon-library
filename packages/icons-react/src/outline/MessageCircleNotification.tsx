@@ -25,6 +25,7 @@ export function MessageCircleNotification({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M21 12a9 9 0 0 1-9 9H3s1.56-3.74.94-5A9 9 0 0 1 12 3m8.12.88a3 3 0 1 1-4.24 4.24 3 3 0 0 1 4.24-4.24"
+        fill="none"
       />
     </svg>
   );

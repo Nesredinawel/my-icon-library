@@ -25,6 +25,7 @@ export function Italic({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M10 3h10M4 21h10m1-18L9 21"
+        fill="none"
       />
     </svg>
   );

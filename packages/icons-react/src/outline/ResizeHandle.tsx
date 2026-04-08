@@ -25,6 +25,7 @@ export function ResizeHandle({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m21 15-6 6m6-13L8 21"
+        fill="none"
       />
     </svg>
   );

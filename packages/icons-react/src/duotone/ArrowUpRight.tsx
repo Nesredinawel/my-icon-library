@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function ArrowUpRight({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function ArrowUpRight({
         stroke-linejoin="round"
         stroke-width="2"
         d="M7 17 17 7m0 0H8m9 0v9"
+        fill="none"
       />
     </svg>
   );

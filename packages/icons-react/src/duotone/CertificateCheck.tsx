@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function CertificateCheck({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function CertificateCheck({
       <path
         fill="currentColor"
         d="m12 3 1.91 1.87 2.59-.66.72 2.57 2.57.72-.66 2.59L21 12l-1.87 1.91.66 2.59-2.57.72-.72 2.57-2.59-.66L12 21l-1.91-1.87-2.59.66-.72-2.57-2.57-.72.66-2.59L3 12l1.87-1.91-.66-2.59 2.57-.72.72-2.57 2.59.66z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function CertificateCheck({
         stroke-linejoin="round"
         stroke-width="2"
         d="m9 12 2 2 4-4m-3-7 1.91 1.87 2.59-.66.72 2.57 2.57.72-.66 2.59L21 12l-1.87 1.91.66 2.59-2.57.72-.72 2.57-2.59-.66L12 21l-1.91-1.87-2.59.66-.72-2.57-2.57-.72.66-2.59L3 12l1.87-1.91-.66-2.59 2.57-.72.72-2.57 2.59.66z"
+        fill="none"
       />
     </svg>
   );

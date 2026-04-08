@@ -25,6 +25,7 @@ export function PowerAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 7v5M8 9a5 5 0 1 0 8 0m5 3a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
+        fill="none"
       />
     </svg>
   );

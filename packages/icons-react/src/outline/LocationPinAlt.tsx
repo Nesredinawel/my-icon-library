@@ -25,6 +25,7 @@ export function LocationPinAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 21c3.5-3.6 7-6.82 7-10.8A7.1 7.1 0 0 0 12 3a7.1 7.1 0 0 0-7 7.2c0 3.98 3.5 7.2 7 10.8"
+        fill="none"
       />
     </svg>
   );

@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function ArrowNarrowBottomAlignment({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function ArrowNarrowBottomAlignment({
         stroke-linejoin="round"
         stroke-width="2"
         d="m8 12 4 4m0 0 4-4m-4 4V4M4 20h16"
+        fill="none"
       />
     </svg>
   );

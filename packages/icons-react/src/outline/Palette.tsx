@@ -25,6 +25,7 @@ export function Palette({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 21a9 9 0 1 1 9-9 3 3 0 0 1-3 3h-.6c-.37 0-.56 0-.71.02a2 2 0 0 0-1.67 1.67c-.02.15-.02.34-.02.71v.6a3 3 0 0 1-3 3m4-12.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-5-1a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-3 4a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"
+        fill="none"
       />
     </svg>
   );

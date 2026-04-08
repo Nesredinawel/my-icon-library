@@ -25,6 +25,7 @@ export function CircleNotch({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M9 3.51a9 9 0 1 0 6 0"
+        fill="none"
       />
     </svg>
   );

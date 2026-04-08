@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function LiraSign({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function LiraSign({
         stroke-linejoin="round"
         stroke-width="2"
         d="M19 13c0 4.42-4.48 8-10 8V3m6 7L5 12m10-6L5 8"
+        fill="none"
       />
     </svg>
   );

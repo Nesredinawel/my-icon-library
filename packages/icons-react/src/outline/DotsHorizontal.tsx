@@ -25,6 +25,7 @@ export function DotsHorizontal({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M18 12h.01M13 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0m6 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M7 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+        fill="none"
       />
     </svg>
   );

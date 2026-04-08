@@ -25,6 +25,7 @@ export function HorizontalRule({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M4 12h16"
+        fill="none"
       />
     </svg>
   );

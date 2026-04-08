@@ -25,6 +25,7 @@ export function ICursor({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 7v10m0-10a4 4 0 0 0-4-4H7m5 4a4 4 0 0 1 4-4h1m-5 14a4 4 0 0 1-4 4H7m5-4a4 4 0 0 0 4 4h1m-8-9h6"
+        fill="none"
       />
     </svg>
   );

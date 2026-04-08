@@ -25,6 +25,7 @@ export function MouseAlt3({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 9V7m0 14a6 6 0 0 1-6-6V9a6 6 0 1 1 12 0v6a6 6 0 0 1-6 6"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function Font({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M16 21h3.5M6 21l6-18 6 18M4.5 21H8m7-7H9"
+        fill="none"
       />
     </svg>
   );

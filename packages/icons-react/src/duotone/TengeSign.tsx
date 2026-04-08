@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function TengeSign({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function TengeSign({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 19V9M6 9h12M6 5h12"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function ClockTenThirty({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 17v-5l-2.5-1.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
+        fill="none"
       />
     </svg>
   );

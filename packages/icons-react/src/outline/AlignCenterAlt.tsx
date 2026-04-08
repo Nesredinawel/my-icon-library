@@ -25,6 +25,7 @@ export function AlignCenterAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M5 8h14M5 16h14M3 12h18"
+        fill="none"
       />
     </svg>
   );

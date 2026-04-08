@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function EyeDropper({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function EyeDropper({
       <path
         fill="currentColor"
         d="M20 8a2.83 2.83 0 1 0-4-4l-9.6 9.6c-.51.51-.77.77-.96 1.08a3 3 0 0 0-.36.86C5 15.9 5 16.25 5 17v1l-2 3 3-2h1.01c.74 0 1.1 0 1.45-.08a3 3 0 0 0 .86-.36c.3-.19.57-.45 1.09-.97z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function EyeDropper({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12.5 7.5 16 4a2.83 2.83 0 1 1 4 4l-3.5 3.5M11 6l7 7m-4 1-3.6 3.6c-.51.51-.77.77-1.08.96a3 3 0 0 1-.86.36C8.1 19 7.75 19 7 19H6l-3 2 2-3v-1.01c0-.74 0-1.1.08-1.45a3 3 0 0 1 .36-.86c.19-.3.45-.57.97-1.09L10 10"
+        fill="none"
       />
     </svg>
   );

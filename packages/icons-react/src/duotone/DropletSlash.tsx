@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function DropletSlash({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function DropletSlash({
       <path
         fill="currentColor"
         d="M19 13.8a7.1 7.1 0 0 1-7 7.2 7.1 7.1 0 0 1-7-7.2q.01-1.44.5-2.7C6.56 8.46 12 3 12 3s5.45 5.46 6.5 8.1q.49 1.26.5 2.7"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function DropletSlash({
         stroke-linejoin="round"
         stroke-width="2"
         d="m3 3 18 18M7.71 7.75a15 15 0 0 0-2.2 3.35Q5 12.36 5 13.8a7.1 7.1 0 0 0 7 7.2 7 7 0 0 0 5.8-3.17M10.38 4.7C11.31 3.7 12 3 12 3s5.45 5.46 6.5 8.1q.4 1.02.48 2.17"
+        fill="none"
       />
     </svg>
   );

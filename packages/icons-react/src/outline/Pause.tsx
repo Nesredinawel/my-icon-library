@@ -25,6 +25,7 @@ export function Pause({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M8 5v14m8-14v14"
+        fill="none"
       />
     </svg>
   );

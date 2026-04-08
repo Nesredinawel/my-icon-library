@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function UserRefreshAlt1({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function UserRefreshAlt1({
       <path
         fill="currentColor"
         d="M11 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8m4.12 4.34A7 7 0 0 0 4 21h14v-.04a3 3 0 0 1-.5-.13 3 3 0 0 1-2.38-5.5"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function UserRefreshAlt1({
         stroke-linejoin="round"
         stroke-width="2"
         d="M4 21a7 7 0 0 1 7-7m7.5 6.24a3 3 0 1 1 .83-3.24m.67-2.5v3h-3M15 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
+        fill="none"
       />
     </svg>
   );

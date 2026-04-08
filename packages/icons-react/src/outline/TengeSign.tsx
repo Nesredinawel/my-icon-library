@@ -25,6 +25,7 @@ export function TengeSign({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 19V9M6 9h12M6 5h12"
+        fill="none"
       />
     </svg>
   );

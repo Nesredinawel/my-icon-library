@@ -25,6 +25,7 @@ export function ArrowDownWideShort({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M7 3v18m0 0-4-4m4 4 4-4m3-14h7m-7 6h5m-5 6h3m-3 6h1"
+        fill="none"
       />
     </svg>
   );

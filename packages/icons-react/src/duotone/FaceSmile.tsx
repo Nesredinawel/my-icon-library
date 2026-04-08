@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function FaceSmile({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -16,13 +17,21 @@ export function FaceSmile({
       color={color}
       {...rest}
     >
-      <circle cx="12" cy="12" r="9" fill="currentColor" opacity=".14" />
+      <circle
+        cx="12"
+        cy="12"
+        r="9"
+        fill="currentColor"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
+      />
       <path
         stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="2"
         d="M8.4 13.8s1.35 1.8 3.6 1.8 3.6-1.8 3.6-1.8M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0m-5.85-2.7a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0m-5.4 0a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0"
+        fill="none"
       />
     </svg>
   );

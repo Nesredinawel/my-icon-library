@@ -24,6 +24,7 @@ export function Coffin({
         stroke="currentColor"
         stroke-linejoin="round"
         d="M9 3h6l5 5-5 13H9L4 8z"
+        fill="none"
       />
     </svg>
   );

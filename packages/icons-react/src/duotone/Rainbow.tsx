@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Rainbow({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Rainbow({
       <path
         fill="currentColor"
         d="M12 3a9 9 0 0 0-9 9v9h6v-9a3 3 0 1 1 6 0v9h6v-9a9 9 0 0 0-9-9"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Rainbow({
         stroke-linejoin="round"
         stroke-width="2"
         d="M21 21v-9a9 9 0 1 0-18 0v9m15 0v-9a6 6 0 0 0-12 0v9m9 0v-9a3 3 0 1 0-6 0v9"
+        fill="none"
       />
     </svg>
   );

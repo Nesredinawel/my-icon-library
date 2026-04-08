@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Paragraph({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function Paragraph({
         stroke-linejoin="round"
         stroke-width="2"
         d="M3 10h18M3 14h9"
+        fill="none"
       />
     </svg>
   );

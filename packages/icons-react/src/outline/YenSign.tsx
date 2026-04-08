@@ -25,6 +25,7 @@ export function YenSign({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 20v-8m0 0L7 4m5 8 5-8m-9 8h8m-8 4h8"
+        fill="none"
       />
     </svg>
   );

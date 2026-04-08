@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Flag({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Flag({
       <path
         fill="currentColor"
         d="M19 3.9v10.8s-.87.9-3.5.9-4.37-1.8-7-1.8-3.5.9-3.5.9V3.9S5.88 3 8.5 3s4.38 1.8 7 1.8 3.5-.9 3.5-.9"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Flag({
         stroke-linejoin="round"
         stroke-width="2"
         d="M5 21V3.9S5.88 3 8.5 3s4.38 1.8 7 1.8 3.5-.9 3.5-.9v10.8s-.87.9-3.5.9-4.37-1.8-7-1.8-3.5.9-3.5.9"
+        fill="none"
       />
     </svg>
   );

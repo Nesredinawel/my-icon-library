@@ -25,6 +25,7 @@ export function Voicemail({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M6 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8m0 0h12m0 0a4 4 0 1 0 0-8 4 4 0 0 0 0 8"
+        fill="none"
       />
     </svg>
   );

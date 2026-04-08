@@ -25,6 +25,7 @@ export function Plus({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M6 12h12m-6-6v12"
+        fill="none"
       />
     </svg>
   );

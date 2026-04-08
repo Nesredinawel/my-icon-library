@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function RockingHorse({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function RockingHorse({
       <path
         fill="currentColor"
         d="m3 6-.14 1.04c-.25 1.87-.37 2.8-.1 3.35A2 2 0 0 0 4.5 11.5c.6 0 1.4-.5 2.99-1.51l-1.52 9.12q1.13.65 2.38 1.1l2.03-4.46a14 14 0 0 0 5.22 0l2.03 4.45q1.25-.44 2.38-1.1l-1.43-7.17c-.1-.5-.15-.75-.23-.96a3 3 0 0 0-2.37-1.95c-.54-.08-.99.42-.99.97a2 2 0 1 1-4 0v-.15l-.01-1.02A6 6 0 0 0 2.93 3.6L2 4z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

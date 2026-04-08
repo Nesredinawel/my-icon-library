@@ -25,6 +25,7 @@ export function MenuAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M4 6h16M7 12h10m-8 6h6"
+        fill="none"
       />
     </svg>
   );

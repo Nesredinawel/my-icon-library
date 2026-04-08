@@ -25,6 +25,7 @@ export function Trademark({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3 7h6M6 17V7m7 10V7l4 7 4-7v10"
+        fill="none"
       />
     </svg>
   );

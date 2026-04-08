@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function WifiFair({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -21,6 +22,7 @@ export function WifiFair({
         stroke-linecap="round"
         stroke-width="2"
         d="M12 20h.01m3.35-3.7a5 5 0 0 0-6.72 0"
+        fill="none"
       />
     </svg>
   );

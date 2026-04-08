@@ -25,6 +25,7 @@ export function HurricaneAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M21 4H3m17 4H6m12 4H9m6 4H8m9 4h-5"
+        fill="none"
       />
     </svg>
   );

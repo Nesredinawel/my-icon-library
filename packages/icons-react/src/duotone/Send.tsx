@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Send({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Send({
       <path
         fill="currentColor"
         d="m17.92 4.05-12.3 4.2c-1.14.39-1.7.58-1.9.9a1 1 0 0 0-.06.9c.15.34.69.61 1.76 1.15l4.44 2.22q.25.12.35.2l.18.17q.07.1.19.35l2.22 4.44c.54 1.07.8 1.61 1.15 1.76.29.12.63.1.9-.07.32-.18.51-.75.9-1.89l4.2-12.3c.33-.99.5-1.48.39-1.8a1 1 0 0 0-.61-.62c-.33-.11-.82.05-1.81.4"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Send({
         stroke-linejoin="round"
         stroke-width="2"
         d="m10.3 13.7 9.8-9.8m-9.52 10.24 2.22 4.44c.54 1.07.8 1.61 1.15 1.76.29.12.63.1.9-.07.32-.18.5-.75.9-1.89l4.2-12.3c.33-.99.5-1.48.39-1.8a1 1 0 0 0-.61-.62c-.33-.11-.82.05-1.81.4l-12.3 4.2c-1.14.38-1.7.57-1.9.89a1 1 0 0 0-.06.9c.15.34.68.61 1.76 1.15l4.44 2.22q.25.12.35.2l.18.17c.06.08.1.17.19.35"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function Overline({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M4 3h16m-8 18a5 5 0 0 1-5-5v-4a5 5 0 0 1 10 0v4a5 5 0 0 1-5 5"
+        fill="none"
       />
     </svg>
   );

@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function ArrowRightFromBracket({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function ArrowRightFromBracket({
       <path
         fill="currentColor"
         d="M3 6.2c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C4.52 3 5.08 3 6.2 3H13v18H6.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C3 19.48 3 18.92 3 17.8z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function ArrowRightFromBracket({
         stroke-linejoin="round"
         stroke-width="2"
         d="m17 16 4-4m0 0-4-4m4 4H9m4 9H6.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C3 19.48 3 18.92 3 17.8V6.2c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C4.52 3 5.08 3 6.2 3H13"
+        fill="none"
       />
     </svg>
   );

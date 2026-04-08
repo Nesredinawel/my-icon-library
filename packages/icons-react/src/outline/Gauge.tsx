@@ -25,6 +25,7 @@ export function Gauge({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 13a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0 0V6m4 2h.01M18 12h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
+        fill="none"
       />
     </svg>
   );

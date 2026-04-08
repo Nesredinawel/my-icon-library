@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Angel({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Angel({
       <path
         fill="currentColor"
         d="m17 21-2.2-3.96c-.67-1.2-1.09-1.96-1.5-2.39l3.12-2.24q.57-.41 1.27-.58c1.43-.36 2.7 1 2.23 2.4l-.3.9-.18.59a4 4 0 0 0 .44 3.05L21 21zm-7.8-3.96L7 21H3l1.12-2.23.26-.56a4 4 0 0 0 0-3.09l-.3-.88c-.47-1.4.8-2.77 2.23-2.41q.7.17 1.27.58l3.12 2.24c-.41.43-.83 1.2-1.5 2.39"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Angel({
         stroke-linejoin="round"
         stroke-width="2"
         d="M7 7.66C6.37 7.18 6 6.6 6 6c0-1.66 2.69-3 6-3s6 1.34 6 3c0 .61-.37 1.18-1 1.66M21 21h-3.5m3.5 0-1.12-2.23-.26-.56a4 4 0 0 1-.18-2.5l.19-.59.3-.88c.46-1.4-.8-2.77-2.24-2.41q-.7.17-1.27.58l-3.12 2.24M21 21h-4M3 21h3.5M3 21l1.12-2.23.26-.56a4 4 0 0 0 .18-2.5l-.19-.59-.3-.88c-.46-1.4.8-2.77 2.24-2.41q.7.17 1.27.58l3.12 2.24M3 21h4m6.3-6.35c.41.43.83 1.2 1.5 2.39L17 21m-3.7-6.35a2 2 0 0 0-.47-.35 2 2 0 0 0-1.66 0q-.24.1-.47.35m0 0c-.41.43-.83 1.2-1.5 2.39L7 21m10 0H7m7-12a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
+        fill="none"
       />
     </svg>
   );

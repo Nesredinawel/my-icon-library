@@ -25,6 +25,7 @@ export function UserSearchAlt1({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M18.5 19.5 20 21M4 21a7 7 0 0 1 7-7m8 3.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0M15 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
+        fill="none"
       />
     </svg>
   );

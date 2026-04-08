@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Ruler({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Ruler({
       <path
         fill="currentColor"
         d="m2.8 16.95 4.25 4.24L21.2 7.05l-4.24-4.24z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Ruler({
         stroke-linejoin="round"
         stroke-width="2"
         d="m5.64 14.12 1.41 1.42m1.41-4.25 1.42 1.42m1.41-4.24 1.42 1.41m1.41-4.24 1.42 1.41M2.8 16.95l4.24 4.24L21.2 7.05l-4.24-4.24z"
+        fill="none"
       />
     </svg>
   );

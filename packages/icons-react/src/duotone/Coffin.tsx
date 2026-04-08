@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Coffin({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -16,12 +17,18 @@ export function Coffin({
       color={color}
       {...rest}
     >
-      <path fill="currentColor" d="M9 3h6l5 5-5 13H9L4 8z" opacity=".14" />
+      <path
+        fill="currentColor"
+        d="M9 3h6l5 5-5 13H9L4 8z"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
+      />
       <path
         stroke="currentColor"
         stroke-linejoin="round"
         stroke-width="2"
         d="M9 3h6l5 5-5 13H9L4 8z"
+        fill="none"
       />
     </svg>
   );

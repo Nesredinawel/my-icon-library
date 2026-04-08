@@ -25,6 +25,7 @@ export function Anchor({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 8.4A2.7 2.7 0 1 0 12 3a2.7 2.7 0 0 0 0 5.4m0 0V21m0 0a9 9 0 0 1-9-9h2m7 9a9 9 0 0 0 9-9h-2"
+        fill="none"
       />
     </svg>
   );

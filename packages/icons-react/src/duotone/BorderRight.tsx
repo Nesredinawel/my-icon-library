@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function BorderRight({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -16,13 +17,19 @@ export function BorderRight({
       color={color}
       {...rest}
     >
-      <path fill="currentColor" d="M4 4h16v16H4z" opacity=".14" />
+      <path
+        fill="currentColor"
+        d="M4 4h16v16H4z"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
+      />
       <path
         stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="2"
         d="M20 4v16"
+        fill="none"
       />
     </svg>
   );

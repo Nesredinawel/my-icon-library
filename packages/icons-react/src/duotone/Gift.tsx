@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Gift({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function Gift({
       <path
         fill="currentColor"
         d="M19 17.8V12h.4c.56 0 .84 0 1.05-.1a1 1 0 0 0 .44-.45c.11-.21.11-.49.11-1.05V8.6c0-.56 0-.84-.1-1.05a1 1 0 0 0-.45-.44C20.24 7 19.96 7 19.4 7H4.6c-.56 0-.84 0-1.05.1a1 1 0 0 0-.44.45C3 7.76 3 8.04 3 8.6v1.8c0 .56 0 .84.1 1.05a1 1 0 0 0 .45.44c.21.11.49.11 1.05.11H5v5.8c0 1.12 0 1.68.22 2.1q.3.58.87.88c.43.22.99.22 2.11.22h7.6c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .88-.87c.22-.43.22-.99.22-2.11"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function Gift({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 7v13m0-13H8.46a2 2 0 0 1-1.38-.59 2 2 0 0 1 0-2.82C7.44 3.2 7.94 3 8.46 3 11.21 3 12 7 12 7m0 0h3.54a2 2 0 0 0 1.38-.59 2 2 0 0 0 0-2.82A2 2 0 0 0 15.54 3C12.79 3 12 7 12 7m-7 5h14v5.8c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22H8.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C5 19.48 5 18.92 5 17.8zm-.4 0h14.8c.56 0 .84 0 1.05-.1a1 1 0 0 0 .44-.45c.11-.21.11-.49.11-1.05V8.6c0-.56 0-.84-.1-1.05a1 1 0 0 0-.45-.44C20.24 7 19.96 7 19.4 7H4.6c-.56 0-.84 0-1.05.1a1 1 0 0 0-.44.45C3 7.76 3 8.04 3 8.6v1.8c0 .56 0 .84.1 1.05a1 1 0 0 0 .45.44c.21.11.49.11 1.05.11"
+        fill="none"
       />
     </svg>
   );

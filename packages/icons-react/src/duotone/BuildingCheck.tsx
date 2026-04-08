@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function BuildingCheck({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function BuildingCheck({
       <path
         fill="currentColor"
         d="M4.1 3.55C4 3.76 4 4.04 4 4.6V21h4v-3a2 2 0 1 1 4 0v3h4V4.6c0-.56 0-.84-.1-1.05a1 1 0 0 0-.45-.44C15.24 3 14.96 3 14.4 3H5.6c-.56 0-.84 0-1.05.1a1 1 0 0 0-.44.45"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function BuildingCheck({
         stroke-linejoin="round"
         stroke-width="2"
         d="M7 7h1m-1 3h1m4 0h1m-1 3h1m-6 0h1m4-6h1M8 21v-3a2 2 0 0 1 3.5-1.32M16 15V4.6c0-.56 0-.84-.1-1.05a1 1 0 0 0-.45-.44C15.24 3 14.96 3 14.4 3H5.6c-.56 0-.84 0-1.05.1a1 1 0 0 0-.44.45C4 3.76 4 4.04 4 4.6V21h7.5m3.5-2 2 2 4-4"
+        fill="none"
       />
     </svg>
   );

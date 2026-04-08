@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function SquarePollVertical({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -22,8 +23,9 @@ export function SquarePollVertical({
         x="4"
         y="4"
         fill="currentColor"
-        opacity=".14"
         rx="2"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -31,6 +33,7 @@ export function SquarePollVertical({
         stroke-linejoin="round"
         stroke-width="2"
         d="M8 16v-5m4 5V8m4 8v-3M4 16.8V7.2c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C5.52 4 6.08 4 7.2 4h9.6c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11v9.6c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22H7.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C4 18.48 4 17.92 4 16.8"
+        fill="none"
       />
     </svg>
   );

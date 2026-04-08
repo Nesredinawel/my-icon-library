@@ -25,6 +25,7 @@ export function RefreshCcwClock({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M4 12a8 8 0 1 0 1.75-5M12 8v4l2.5 2.5M5.75 4v3h3"
+        fill="none"
       />
     </svg>
   );

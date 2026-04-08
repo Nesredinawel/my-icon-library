@@ -25,6 +25,7 @@ export function NfcSymbol({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M8 18.93A8 8 0 0 1 8 5.07L14 11m2-6a8 8 0 0 1 0 13.86L10 13"
+        fill="none"
       />
     </svg>
   );

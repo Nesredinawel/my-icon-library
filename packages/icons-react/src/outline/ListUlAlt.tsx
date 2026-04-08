@@ -25,6 +25,7 @@ export function ListUlAlt({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M8 6h13M8 12h13M8 18h13M4 6a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 6a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 6a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"
+        fill="none"
       />
     </svg>
   );

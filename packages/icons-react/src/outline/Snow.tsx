@@ -25,6 +25,7 @@ export function Snow({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 3v18m4-17-4 4-4-4m0 16 4-4 4 4M3 12h18M4 8l4 4-4 4m16 0-4-4 4-4"
+        fill="none"
       />
     </svg>
   );

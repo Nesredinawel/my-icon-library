@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function MenuAlt({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function MenuAlt({
         stroke-linejoin="round"
         stroke-width="2"
         d="M4 6h16M7 12h10m-8 6h6"
+        fill="none"
       />
     </svg>
   );

@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function EyeSlash({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -21,7 +22,8 @@ export function EyeSlash({
         fill-rule="evenodd"
         d="M12 5a10 10 0 0 0-9.54 7 10 10 0 0 0 19.08 0A10 10 0 0 0 12 5m2.12 9.12A3 3 0 0 1 9 12a3 3 0 0 1 .88-2.12z"
         clip-rule="evenodd"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -29,6 +31,7 @@ export function EyeSlash({
         stroke-linejoin="round"
         stroke-width="2"
         d="m3 3 18 18M9.84 9.91A2.99 2.99 0 0 0 12 15c.82 0 1.57-.33 2.11-.87M6.5 6.65A10 10 0 0 0 2.46 12a10 10 0 0 0 14.94 5.42M11 5.05Q11.5 5 12 5a10 10 0 0 1 9.54 7q-.42 1.35-1.19 2.5"
+        fill="none"
       />
     </svg>
   );

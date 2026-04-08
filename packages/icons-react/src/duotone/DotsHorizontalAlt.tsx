@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function DotsHorizontalAlt({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function DotsHorizontalAlt({
       <path
         fill="currentColor"
         d="M7 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0m7 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m5 2a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function DotsHorizontalAlt({
         stroke-linejoin="round"
         stroke-width="2"
         d="M14 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0m7 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0M7 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
+        fill="none"
       />
     </svg>
   );

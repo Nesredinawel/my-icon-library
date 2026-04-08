@@ -25,6 +25,7 @@ export function CircleThreeQuarters({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12 21a9 9 0 0 0 9-9h-9V3a9 9 0 0 0 0 18"
+        fill="none"
       />
     </svg>
   );

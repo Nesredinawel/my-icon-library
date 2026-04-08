@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function Overline({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -22,8 +23,9 @@ export function Overline({
         x="7"
         y="7"
         fill="currentColor"
-        opacity=".14"
         rx="5"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -31,6 +33,7 @@ export function Overline({
         stroke-linejoin="round"
         stroke-width="2"
         d="M4 3h16m-8 18a5 5 0 0 1-5-5v-4a5 5 0 0 1 10 0v4a5 5 0 0 1-5 5"
+        fill="none"
       />
     </svg>
   );

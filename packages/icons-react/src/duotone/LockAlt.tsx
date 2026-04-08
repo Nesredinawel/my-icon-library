@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function LockAlt({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function LockAlt({
       <path
         fill="currentColor"
         d="M4 14.8c0-1.68 0-2.52.33-3.16a3 3 0 0 1 1.3-1.31C6.29 10 7.13 10 8.8 10h6.4c1.68 0 2.52 0 3.16.33a3 3 0 0 1 1.31 1.3c.33.65.33 1.49.33 3.17v1.4c0 1.68 0 2.52-.33 3.16a3 3 0 0 1-1.3 1.31c-.65.33-1.49.33-3.17.33H8.8c-1.68 0-2.52 0-3.16-.33a3 3 0 0 1-1.31-1.3C4 18.71 4 17.87 4 16.2z"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function LockAlt({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 14.5v2m-5-6.47q.69-.04 1.8-.03h6.4q1.11 0 1.8.03m-10 0c-.59.03-1 .12-1.36.3a3 3 0 0 0-1.31 1.3C4 12.29 4 13.13 4 14.8v1.4c0 1.68 0 2.52.33 3.16a3 3 0 0 0 1.3 1.31c.65.33 1.49.33 3.17.33h6.4c1.68 0 2.52 0 3.16-.33a3 3 0 0 0 1.31-1.3c.33-.65.33-1.49.33-3.17v-1.4c0-1.68 0-2.52-.33-3.16a3 3 0 0 0-1.3-1.31 3 3 0 0 0-1.37-.3m-10 0V8a5 5 0 0 1 10 0v2.03"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function Icicles({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m16 4 2.5 16L21 4zm0 0h-4m4 0-2 7-2-7m0 0H8m4 0-2 10L8 4m0 0H3l2.5 7z"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function ReceiptAlt2({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M9 9h6m-6 3h6m-6 3h6M5 3v18l3-2 2 2 2-2 2 2 2-2 3 2V3l-3 2-2-2-2 2-2-2-2 2z"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function Ban({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M18.36 18.36A9 9 0 1 0 5.63 5.63m12.73 12.73A9 9 0 1 1 5.63 5.63m12.73 12.73L5.64 5.64"
+        fill="none"
       />
     </svg>
   );

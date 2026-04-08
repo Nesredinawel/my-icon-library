@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function FontCase({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function FontCase({
       <path
         fill="currentColor"
         d="M11.67 14H4.33L8 3zM19 12a3 3 0 0 0-3 3v3a3 3 0 1 0 6 0v-3a3 3 0 0 0-3-3"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function FontCase({
         stroke-linejoin="round"
         stroke-width="2"
         d="M22 12v9M2 21l2.33-7M14 21l-2.33-7m-7.34 0L8 3l3.67 11m-7.34 0h7.34M19 21a3 3 0 0 1-3-3v-3a3 3 0 1 1 6 0v3a3 3 0 0 1-3 3"
+        fill="none"
       />
     </svg>
   );

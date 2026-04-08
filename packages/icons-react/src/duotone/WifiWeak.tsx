@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function WifiWeak({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {

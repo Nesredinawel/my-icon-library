@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function HouseFire({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function HouseFire({
       <path
         fill="currentColor"
         d="M16.66 20.9a3.57 3.57 0 0 1-1.64-5.97s.3.74 1.17 1.18c0-.89.22-2.22 1.3-3.11.47.47.95.79 1.4 1.09l.11.08v-4.4l-3.43-3.8c-1.24-1.38-1.86-2.07-2.58-2.32a3 3 0 0 0-1.98 0c-.73.25-1.34.94-2.58 2.31L5 9.78v6.42c0 1.68 0 2.52.33 3.16a3 3 0 0 0 1.3 1.31c.65.33 1.49.33 3.17.33h4.4c1.14 0 1.9 0 2.46-.1"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function HouseFire({
         stroke-linejoin="round"
         stroke-width="2"
         d="M11 21H9.8c-1.68 0-2.52 0-3.16-.33a3 3 0 0 1-1.31-1.3C5 18.71 5 17.87 5 16.2V9.78M21 12l-5.43-6.04c-1.24-1.37-1.86-2.06-2.58-2.3a3 3 0 0 0-1.98 0c-.73.25-1.34.93-2.58 2.3L3 12m16.97 7.96a3.46 3.46 0 0 1-4.94 0 3.57 3.57 0 0 1 0-5.03s.28.74 1.16 1.18c0-.89.22-2.22 1.3-3.11.89.89 1.8 1.23 2.48 1.93a3.57 3.57 0 0 1 0 5.03"
+        fill="none"
       />
     </svg>
   );

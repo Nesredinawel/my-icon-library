@@ -3,6 +3,7 @@ import type { DuotoneIconProps } from "../shared/types";
 export function SignalFair({
   size = 24,
   color = "currentColor",
+  secondaryColor = color,
   secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
@@ -22,6 +23,7 @@ export function SignalFair({
         stroke-linejoin="round"
         stroke-width="2"
         d="M4 20v-1m4 1v-4"
+        fill="none"
       />
     </svg>
   );

@@ -25,6 +25,7 @@ export function CompactDisc({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M6.5 12.25a5.75 5.75 0 0 1 5.75-5.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0m-7 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
+        fill="none"
       />
     </svg>
   );

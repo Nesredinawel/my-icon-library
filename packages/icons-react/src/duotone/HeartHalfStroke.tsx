@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function HeartHalfStroke({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,7 +20,8 @@ export function HeartHalfStroke({
       <path
         fill="currentColor"
         d="M12 6v14l-.12-.02c-.1-.03-.18-.1-.34-.24-1.46-1.3-5.92-5.27-7.39-7.16a5.3 5.3 0 0 1 .8-7.4C7.25 3.28 10.2 3.9 12 6"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
@@ -27,6 +29,7 @@ export function HeartHalfStroke({
         stroke-linejoin="round"
         stroke-width="2"
         d="M12 20V6m0 0c-1.8-2.1-4.8-2.75-7.06-.82a5.33 5.33 0 0 0-.8 7.4c1.47 1.89 5.92 5.87 7.38 7.16.17.14.25.21.35.24q.12.04.25 0c.1-.03.18-.1.34-.24 1.46-1.3 5.92-5.27 7.39-7.16a5.3 5.3 0 0 0-.8-7.4C16.75 3.28 13.8 3.9 12 6"
+        fill="none"
       />
     </svg>
   );

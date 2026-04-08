@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function MoneyBillStack({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -21,7 +22,8 @@ export function MoneyBillStack({
         fill-rule="evenodd"
         d="M16 12H8c-.93 0-1.4 0-1.78-.1A3 3 0 0 1 4.1 9.78C4 9.39 4 8.93 4 8v8c0 .93 0 1.4.1 1.78a3 3 0 0 0 2.12 2.12c.39.1.85.1 1.78.1h8c.93 0 1.4 0 1.78-.1a3 3 0 0 0 2.12-2.12c.1-.39.1-.85.1-1.78V8c0 .93 0 1.4-.1 1.78a3 3 0 0 1-2.12 2.12c-.39.1-.85.1-1.78.1m-3 1h-2v6h2z"
         clip-rule="evenodd"
-        opacity=".14"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
       />
       <path
         fill="currentColor"

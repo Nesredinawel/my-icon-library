@@ -3,7 +3,8 @@ import type { DuotoneIconProps } from "../shared/types";
 export function BrakeWarning({
   size = 24,
   color = "currentColor",
-  secondaryOpacity = 0.3,
+  secondaryColor = color,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -16,13 +17,21 @@ export function BrakeWarning({
       color={color}
       {...rest}
     >
-      <circle cx="12" cy="12" r="5" fill="currentColor" opacity=".14" />
+      <circle
+        cx="12"
+        cy="12"
+        r="5"
+        fill="currentColor"
+        color={secondaryColor}
+        opacity={secondaryOpacity}
+      />
       <path
         stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="2"
         d="M19.5 7.02a9 9 0 0 1 .56 8.98M4.5 7.02a9 9 0 0 0 0 9.96M12 10v1.5m5 .5a5 5 0 1 1-10 0 5 5 0 0 1 10 0"
+        fill="none"
       />
     </svg>
   );

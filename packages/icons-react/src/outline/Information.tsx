@@ -25,6 +25,7 @@ export function Information({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M12.01 19V9m0-4"
+        fill="none"
       />
     </svg>
   );

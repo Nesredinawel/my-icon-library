@@ -25,6 +25,7 @@ export function Kerning({
         stroke-linecap="round"
         stroke-linejoin="round"
         d="m2 7 4 10 4-10m4 10 4-10 4 10m-7.2-2h6.4M8.5 21l7-18"
+        fill="none"
       />
     </svg>
   );
