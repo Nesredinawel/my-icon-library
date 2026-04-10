@@ -27,7 +27,7 @@ export function CircleDashed({
       />
       <path
         stroke="currentColor"
-        stroke-dasharray="4 4"
+        strokeDasharray="4 4"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="2"

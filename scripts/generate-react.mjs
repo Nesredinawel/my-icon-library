@@ -56,8 +56,6 @@ export interface DuotoneIconProps extends BaseIconProps {
 `;
 
   const filePath = path.join(SHARED_DIR, "types.ts");
-  // Only write if it doesn't exist or force update needed? 
-  // For build stability, we overwrite to ensure consistency.
   await writeFile(filePath, await format(typesContent));
   console.log(`[react] Generated types: ${filePath}`);
 }
@@ -95,7 +93,6 @@ function findFirstFractionalOpacity(svg) {
 /* ---------------- JSX EXTRACTION ---------------- */
 
 function extractSvgJsx(svgrCode, svgPath) {
-  // Extract just the <svg>...</svg> part from the SVGR output
   let m = svgrCode.match(/<svg\b[\s\S]*?<\/svg>/m);
   if (!m) m = svgrCode.match(/<svg\b[\s\S]*?\/>/m);
 
@@ -110,9 +107,14 @@ function extractSvgJsx(svgrCode, svgPath) {
 
 function fixKebabToCamel(svgJsx) {
   return svgJsx
+    // Specific fixes for SVG attributes often missed by transformers
     .replace(/stroke-linecap=/g, "strokeLinecap=")
     .replace(/stroke-linejoin=/g, "strokeLinejoin=")
     .replace(/stroke-width=/g, "strokeWidth=")
+    .replace(/stroke-miterlimit=/g, "strokeMiterlimit=") // Fix for current error
+    .replace(/stroke-dasharray=/g, "strokeDasharray=")
+    .replace(/stroke-dashoffset=/g, "strokeDashoffset=")
+    .replace(/stroke-opacity=/g, "strokeOpacity=")
     .replace(/fill-rule=/g, "fillRule=")
     .replace(/clip-rule=/g, "clipRule=")
     .replace(/fill-opacity=/g, "fillOpacity=")
@@ -247,7 +249,7 @@ ${signature}
 /* ---------------- MAIN ---------------- */
 
 async function run() {
-  // 1. Ensure types file exists to prevent TS errors
+  // 1. Ensure types file exists
   await ensureTypesFile();
 
   for (const style of STYLES) {
