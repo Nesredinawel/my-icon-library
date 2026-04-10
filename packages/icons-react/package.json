@@ -1,41 +1,66 @@
 {
   "name": "@nasicons/icons-react",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": false,
   "type": "module",
   "sideEffects": false,
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "peerDependencies": {
     "react": ">=17"
-  },
-  "devDependencies": {
-    "react": "^18.3.1",
-    "@types/react": "^18.3.3",
-    "typescript": "^5.9.3"
   },
   "scripts": {
     "build": "tsup && tsc -p tsconfig.build.json"
   },
   "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
     "./outline": {
       "types": "./dist/outline/index.d.ts",
       "import": "./dist/outline/index.mjs",
       "require": "./dist/outline/index.cjs"
+    },
+    "./outline/*": {
+      "types": "./dist/outline/*.d.ts",
+      "import": "./dist/outline/*.mjs",
+      "require": "./dist/outline/*.cjs"
     },
     "./solid": {
       "types": "./dist/solid/index.d.ts",
       "import": "./dist/solid/index.mjs",
       "require": "./dist/solid/index.cjs"
     },
+    "./solid/*": {
+      "types": "./dist/solid/*.d.ts",
+      "import": "./dist/solid/*.mjs",
+      "require": "./dist/solid/*.cjs"
+    },
     "./duotone": {
       "types": "./dist/duotone/index.d.ts",
       "import": "./dist/duotone/index.mjs",
       "require": "./dist/duotone/index.cjs"
     },
+    "./duotone/*": {
+      "types": "./dist/duotone/*.d.ts",
+      "import": "./dist/duotone/*.mjs",
+      "require": "./dist/duotone/*.cjs"
+    },
     "./monochrome": {
       "types": "./dist/monochrome/index.d.ts",
       "import": "./dist/monochrome/index.mjs",
       "require": "./dist/monochrome/index.cjs"
+    },
+    "./monochrome/*": {
+      "types": "./dist/monochrome/*.d.ts",
+      "import": "./dist/monochrome/*.mjs",
+      "require": "./dist/monochrome/*.cjs"
     }
   }
 }
