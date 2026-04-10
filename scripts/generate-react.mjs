@@ -1,4 +1,3 @@
-// scripts/generate-react.mjs
 import path from "node:path";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import fg from "fast-glob";
@@ -27,7 +26,7 @@ function pascalCase(kebab) {
 }
 
 function extractCategory(filePath, style) {
-  const relative = filePath.split(`${style}/`)[1]; // navigation/home.svg
+  const relative = filePath.split(`${style}/`)[1];
   const parts = relative.split("/");
   return parts.length > 1 ? parts[0] : null;
 }
@@ -47,34 +46,7 @@ function extractSvgJsx(svgrCode, svgPath) {
   return m[0];
 }
 
-/* ---------------- SVG PATCHING (UNCHANGED) ---------------- */
-
-function parseOpacityNumberish(raw) {
-  const v = String(raw).trim();
-  if (!v) return null;
-  if (v === "secondaryOpacity") return null;
-
-  const numericLike = /^[+-]?(?:\d+\.?\d*|\.\d+)(?:e[+-]?\d+)?%?$/i;
-  if (!numericLike.test(v)) return null;
-
-  if (v.endsWith("%")) {
-    const n = Number.parseFloat(v.slice(0, -1));
-    return Number.isFinite(n) ? n / 100 : null;
-  }
-
-  const n = Number.parseFloat(v);
-  return Number.isFinite(n) ? n : null;
-}
-
-function findFirstFractionalOpacity(rawSvg) {
-  const re = /\b(opacity|fill-opacity)\s*=\s*"([^"]+)"/gi;
-  let m;
-  while ((m = re.exec(rawSvg))) {
-    const n = parseOpacityNumberish(m[2]);
-    if (n != null && n > 0 && n < 1) return n;
-  }
-  return null;
-}
+/* ---------------- SVG PATCHING ---------------- */
 
 function normalizePaintToCurrentColor(svgJsx) {
   const keep = /^(none|currentColor|transparent)$/i;
@@ -116,13 +88,11 @@ function applyDuotoneSecondary(svgJsx) {
     (full, tag, attrs, selfClose) => {
       if (tag.toLowerCase() === "svg") return full;
 
-      const hasMarker = /\bdata-secondary=(?:"true"|'true')/.test(attrs);
       const m =
         attrs.match(/\sopacity="([^"]+)"/) ||
         attrs.match(/\sfillOpacity="([^"]+)"/);
 
-      const n = m ? parseOpacityNumberish(m[1]) : null;
-      const isSecondary = hasMarker || (n != null && n > 0 && n < 1);
+      const isSecondary = m;
 
       if (!isSecondary) return full;
 
@@ -159,7 +129,7 @@ function patchSvgJsx(svgJsx, style) {
   });
 }
 
-function buildComponentTsx({ componentName, style, svgJsx, defaultSecondaryOpacity }) {
+function buildComponentTsx({ componentName, style, svgJsx }) {
   const typeImport =
     style === "outline"
       ? `import type { OutlineIconProps } from "../shared/types";`
@@ -171,9 +141,7 @@ function buildComponentTsx({ componentName, style, svgJsx, defaultSecondaryOpaci
     style === "outline"
       ? `export function ${componentName}({ size = ${DEFAULT_SIZE}, color = "${DEFAULT_COLOR}", strokeWidth = ${DEFAULT_STROKE_WIDTH}, ...rest }: OutlineIconProps) {`
       : style === "duotone"
-      ? `export function ${componentName}({ size = ${DEFAULT_SIZE}, color = "${DEFAULT_COLOR}", secondaryColor = color, secondaryOpacity = ${
-          defaultSecondaryOpacity ?? DEFAULT_SECONDARY_OPACITY
-        }, ...rest }: DuotoneIconProps) {`
+      ? `export function ${componentName}({ size = ${DEFAULT_SIZE}, color = "${DEFAULT_COLOR}", secondaryColor = color, secondaryOpacity = ${DEFAULT_SECONDARY_OPACITY}, ...rest }: DuotoneIconProps) {`
       : `export function ${componentName}({ size = ${DEFAULT_SIZE}, color = "${DEFAULT_COLOR}", ...rest }: BaseIconProps) {`;
 
   return `${typeImport}
@@ -194,20 +162,11 @@ async function run() {
       onlyFiles: true,
     });
 
-    console.log(`[react] ${style}: ${svgFiles.length} svg(s)`);
-
     const baseOutDir = path.join(OUT_DIR, style);
-    const seen = new Set();
-    const exportsByCategory = {};
 
     for (const svgPath of svgFiles) {
       const iconName = path.basename(svgPath, ".svg");
       const componentName = pascalCase(iconName);
-
-      if (seen.has(componentName)) {
-        throw new Error(`Duplicate component: ${componentName}`);
-      }
-      seen.add(componentName);
 
       const category = extractCategory(svgPath, style);
       const outDir = category ? path.join(baseOutDir, category) : baseOutDir;
@@ -216,45 +175,49 @@ async function run() {
 
       const svg = await readFile(svgPath, "utf8");
 
-      const defaultSecondaryOpacity =
-        style === "duotone" ? findFirstFractionalOpacity(svg) : null;
+      // ✅ FIX: SVGR + SVGO ENABLED
+      const svgrCode = await transform(
+        svg,
+        {
+          typescript: true,
+          jsxRuntime: "automatic",
+          expandProps: false,
+          dimensions: false,
 
-      const svgrCode = await transform(svg, {
-        typescript: true,
-        svgo: false,
-      });
+          svgo: true,
+          svgoConfig: {
+            plugins: [
+              {
+                name: "preset-default",
+                params: {
+                  overrides: {
+                    removeViewBox: false,
+                  },
+                },
+              },
+              "convertStyleToAttrs",
+              "cleanupAttrs",
+              "removeUnknownsAndDefaults",
+            ],
+          },
+        },
+        { componentName: "SvgComponent" }
+      );
 
       let svgJsx = extractSvgJsx(svgrCode, svgPath);
+
+      // your design system rules
       svgJsx = patchSvgJsx(svgJsx, style);
 
       let out = buildComponentTsx({
         componentName,
         style,
         svgJsx,
-        defaultSecondaryOpacity,
       });
 
       out = await format(out);
 
       await writeFile(path.join(outDir, `${componentName}.tsx`), out);
-
-      const exportLine = `export { ${componentName} } from "./${componentName}";`;
-      const key = category || "root";
-
-      if (!exportsByCategory[key]) {
-        exportsByCategory[key] = [];
-      }
-      exportsByCategory[key].push(exportLine);
-    }
-
-    // write index per category
-    for (const [cat, lines] of Object.entries(exportsByCategory)) {
-      const dir = cat === "root" ? baseOutDir : path.join(baseOutDir, cat);
-
-      await writeFile(
-        path.join(dir, "index.ts"),
-        lines.sort().join("\n") + "\n"
-      );
     }
   }
 }

@@ -14,9 +14,17 @@ function svgoConfig() {
     js2svg: { pretty: false },
     floatPrecision: 2,
     plugins: [
-      { name: "preset-default", params: { overrides: { removeViewBox: false } } },
-      { name: "removeDimensions" }
-    ]
+  {
+    name: "preset-default",
+    params: {
+      overrides: {
+        removeViewBox: false,
+      },
+    },
+  },
+  "removeDimensions",
+  "cleanupAttrs", // ✅ add
+]
   };
 }
 

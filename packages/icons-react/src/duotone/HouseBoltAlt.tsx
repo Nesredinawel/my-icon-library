@@ -4,7 +4,7 @@ export function HouseBoltAlt({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.14,
+  secondaryOpacity = 0.3,
   ...rest
 }: DuotoneIconProps) {
   return (
