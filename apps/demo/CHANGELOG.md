@@ -1,5 +1,13 @@
 # nasicons-demo
 
+## 0.0.3
+
+### Patch Changes
+
+- Updated dependencies [4184974]
+  - @nasicons/icons-react@3.0.0
+  - @nasicons/icons-svg@3.0.0
+
 ## 0.0.2
 
 ### Patch Changes

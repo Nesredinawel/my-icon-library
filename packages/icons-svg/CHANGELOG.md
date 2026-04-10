@@ -1,5 +1,11 @@
 # @nasicons/icons-svg
 
+## 3.0.0
+
+### Major Changes
+
+- 4184974: nasicons
+
 ## 2.0.0
 
 ### Major Changes
