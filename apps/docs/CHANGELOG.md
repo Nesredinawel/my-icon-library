@@ -1,5 +1,13 @@
 # docs
 
+## 0.1.2
+
+### Patch Changes
+
+- Updated dependencies [fa06851]
+  - @nasicons/icons-react@4.0.0
+  - @nasicons/icons-svg@4.0.0
+
 ## 0.1.1
 
 ### Patch Changes

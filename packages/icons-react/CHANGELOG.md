@@ -1,5 +1,11 @@
 # @nasicons/icons-react
 
+## 4.0.0
+
+### Major Changes
+
+- fa06851: upgrade
+
 ## 3.0.0
 
 ### Major Changes
