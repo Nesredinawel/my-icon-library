@@ -17,9 +17,9 @@ export function ClockNine({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20m1 5a1 1 0 1 0-2 0v4H9a1 1 0 1 0 0 2h3a1 1 0 0 0 1-1z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -4,7 +4,7 @@ export function GridVertical({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function GridVertical({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M7 6.5h3v-3H7zm7 0h3v-3h-3zm-7 7h3v-3H7zm7 0h3v-3h-3zm-7 7h3v-3H7zm7 0h3v-3h-3z"
         fill="none"
       />

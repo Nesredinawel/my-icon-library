@@ -4,7 +4,7 @@ export function CompassDrafting({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -27,9 +27,9 @@ export function CompassDrafting({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M21 21 13.32 8.62M21 12.94a11.97 11.97 0 0 1-18 0M3 21l7.68-12.38M12 4a2.5 2.5 0 0 0-1.32 4.62M12 4a2.5 2.5 0 0 1 1.32 4.62M12 4V3m1.32 5.62a2.5 2.5 0 0 1-2.64 0"
         fill="none"
       />

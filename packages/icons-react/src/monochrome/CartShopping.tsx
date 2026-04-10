@@ -22,9 +22,9 @@ export function CartShopping({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 3a1 1 0 0 1 1-1h3a1 1 0 0 1 .99.85L8.86 15H20a1 1 0 1 1 0 2H8a1 1 0 0 1-.99-.85L5.14 4H3a1 1 0 0 1-1-1m4 17a2 2 0 1 1 4 0 2 2 0 0 1-4 0m11 0a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

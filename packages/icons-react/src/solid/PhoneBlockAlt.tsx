@@ -17,9 +17,9 @@ export function PhoneBlockAlt({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M14 6a4 4 0 1 1 8 0 4 4 0 0 1-8 0m4-2a2 2 0 0 0-1.98 2.28l1.33-1.04 1.4-1.1A2 2 0 0 0 18 4m1.98 1.72-1.4 1.1-1.33 1.04a2 2 0 0 0 2.73-2.14"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

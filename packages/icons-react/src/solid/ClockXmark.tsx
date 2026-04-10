@@ -21,9 +21,9 @@ export function ClockXmark({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 3.5a9 9 0 1 0 0 18 9 9 0 0 0 0-18M9.7 8.8a1 1 0 0 0-1.4 1.4l2.29 2.3-2.3 2.3a1 1 0 1 0 1.42 1.4L12 13.92l2.3 2.3a1 1 0 0 0 1.4-1.42l-2.29-2.29 2.3-2.3a1 1 0 0 0-1.42-1.4L12 11.08z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

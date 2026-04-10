@@ -17,9 +17,9 @@ export function WandSparkles({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M19.47 2.27a1.5 1.5 0 0 1 1.5.3l.22.2.03.04q.11.1.21.22.14.13.26.4a1.5 1.5 0 0 1-.2 1.51l-.2.24L7.35 20.9q-.26.31-.5.55-.25.26-.7.46a2 2 0 0 1-1.28.03c-.3-.09-.53-.26-.72-.41l-.54-.51-.64-.65q-.3-.28-.51-.53a2 2 0 0 1-.41-.72 2 2 0 0 1 .03-1.28q.2-.45.46-.7.24-.24.55-.5L18.82 2.7l.24-.2q.14-.12.41-.24"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

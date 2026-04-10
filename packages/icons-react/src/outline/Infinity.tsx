@@ -12,8 +12,8 @@ export function Infinity({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function Infinity({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M17.56 8.5c4.59 0 4.59 7 0 7s-6.42-7-11.47-7c-4.12 0-4.12 7 0 7 5.05 0 6.88-7 11.47-7"
         fill="none"
       />

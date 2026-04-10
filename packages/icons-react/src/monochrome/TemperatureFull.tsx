@@ -17,9 +17,9 @@ export function TemperatureFull({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8 6a4 4 0 1 1 8 0v8a4.98 4.98 0 0 1-4 8 5 5 0 0 1-4-8z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

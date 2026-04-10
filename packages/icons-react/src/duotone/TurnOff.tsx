@@ -4,7 +4,7 @@ export function TurnOff({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -27,8 +27,8 @@ export function TurnOff({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeWidth="2"
         d="M16 6.07a8 8 0 1 1-8 0M12 3v10"
         fill="none"
       />

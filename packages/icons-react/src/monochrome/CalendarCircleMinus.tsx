@@ -22,9 +22,9 @@ export function CalendarCircleMinus({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M17 10a6 6 0 1 0 0 12 6 6 0 0 0 0-12m-2 5a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

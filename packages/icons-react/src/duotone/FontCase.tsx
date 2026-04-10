@@ -4,7 +4,7 @@ export function FontCase({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function FontCase({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M22 12v9M2 21l2.33-7M14 21l-2.33-7m-7.34 0L8 3l3.67 11m-7.34 0h7.34M19 21a3 3 0 0 1-3-3v-3a3 3 0 1 1 6 0v3a3 3 0 0 1-3 3"
         fill="none"
       />

@@ -17,9 +17,9 @@ export function ContainerStorage({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M21 6H3v12h18zM9 8.5a1 1 0 0 0-2 0v7a1 1 0 1 0 2 0zm4 0a1 1 0 1 0-2 0v7a1 1 0 1 0 2 0zm3-1a1 1 0 0 1 1 1v7a1 1 0 1 1-2 0v-7a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

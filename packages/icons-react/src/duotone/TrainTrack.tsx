@@ -4,7 +4,7 @@ export function TrainTrack({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function TrainTrack({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M6 4h12M4 11h16M3 18h18M9 3 4 21m16 0L15 3"
         fill="none"
       />

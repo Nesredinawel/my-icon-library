@@ -12,8 +12,8 @@ export function Tally({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function Tally({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M6 20V4m4 16V4m4 16V4m4 16V4m3 1L3 19"
         fill="none"
       />

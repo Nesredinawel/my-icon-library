@@ -4,7 +4,7 @@ export function EyeSlashAlt({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function EyeSlashAlt({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M9.61 9.6a5 5 0 1 0 6.78 6.79M21 14a9 9 0 0 0-10.3-8.9M3 14a9 9 0 0 1 3.7-7.28M3 3l18 18"
         fill="none"
       />

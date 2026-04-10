@@ -17,9 +17,9 @@ export function FlipForwardEnergy({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5.38 7.5H7.5a1 1 0 0 1 0 2H3a1 1 0 0 1-1-1V4a1 1 0 0 1 2 0v2a9.98 9.98 0 0 1 17.94 4.88 1 1 0 0 1-1.99.22A8 8 0 0 0 5.38 7.5M2.95 12a1 1 0 0 1 1.1.89A8 8 0 0 0 18.25 17H16.5a1 1 0 1 1 0-2H21a1 1 0 0 1 1 1v4.5a1 1 0 1 1-2 0V18a9.98 9.98 0 0 1-17.94-4.89 1 1 0 0 1 .89-1.1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

@@ -12,8 +12,8 @@ export function MessageCircleRefresh({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function MessageCircleRefresh({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M13.7 14.44a3 3 0 1 1 .83-3.24m.67-2.5v3h-3m8.8.3a9 9 0 0 1-9 9H3s1.56-3.74.94-5A9 9 0 1 1 21 12"
         fill="none"
       />

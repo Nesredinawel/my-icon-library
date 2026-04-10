@@ -4,7 +4,7 @@ export function ArrowRightToArc({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function ArrowRightToArc({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M11 21h1a9 9 0 1 0 0-18h-1m0 13 4-4m0 0-4-4m4 4H3"
         fill="none"
       />

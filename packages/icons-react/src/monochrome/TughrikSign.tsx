@@ -22,9 +22,9 @@ export function TughrikSign({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M16.92 8.6a1 1 0 0 1-.52 1.32l-8 3.5a1 1 0 1 1-.8-1.84l8-3.5a1 1 0 0 1 1.32.52m0 4a1 1 0 0 1-.52 1.32l-8 3.5a1 1 0 1 1-.8-1.84l8-3.5a1 1 0 0 1 1.32.52"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

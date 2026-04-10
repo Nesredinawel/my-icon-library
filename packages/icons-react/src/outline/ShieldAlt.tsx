@@ -12,8 +12,8 @@ export function ShieldAlt({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function ShieldAlt({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M20 6h-1a9.6 9.6 0 0 1-7-3 9.6 9.6 0 0 1-7 3H4v3.17C4 14.86 7.4 19.64 12 21c4.6-1.36 8-6.14 8-11.83z"
         fill="none"
       />

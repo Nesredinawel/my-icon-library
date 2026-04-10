@@ -19,9 +19,9 @@ export function ChevronSelectorHorizontalDot({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m9 7-5 5 5 5m6-10 5 5-5 5m-2.51-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"
         fill="none"
       />

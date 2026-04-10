@@ -4,7 +4,7 @@ export function SkullCrossbones({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function SkullCrossbones({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m3 14 18 7m0-7L3 21M18 8.5C18 5.46 15.31 3 12 3S6 5.46 6 8.5c0 1 2.49 1.94 3 2.75.71 1.12 0 2.75 1 2.75h4c1 0 .29-1.63 1-2.75.51-.8 3-1.75 3-2.75"
         fill="none"
       />

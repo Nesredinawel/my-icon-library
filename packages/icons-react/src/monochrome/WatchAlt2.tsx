@@ -22,9 +22,9 @@ export function WatchAlt2({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 19a7 7 0 1 0 0-14 7 7 0 0 0 0 14m1-9.5a1 1 0 1 0-2 0V12a1 1 0 0 0 .4.8l2 1.5a1 1 0 0 0 1.2-1.6L13 11.5z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

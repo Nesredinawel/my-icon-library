@@ -4,7 +4,7 @@ export function TemperatureLow({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function TemperatureLow({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M8 16a1 1 0 1 0 0 2 1 1 0 0 0 0-2m0 0v-4m12-7a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-8 12a4 4 0 1 1-7-2.65V6a3 3 0 0 1 6 0v8.35A4 4 0 0 1 12 17"
         fill="none"
       />

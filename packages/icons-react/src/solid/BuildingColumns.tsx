@@ -17,9 +17,9 @@ export function BuildingColumns({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12.61 2.21a1 1 0 0 0-1.22 0l-9 7A1 1 0 0 0 3 11h18a1 1 0 0 0 .61-1.79L21 8.73V5a1 1 0 0 0-2 0v2.18zM12 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

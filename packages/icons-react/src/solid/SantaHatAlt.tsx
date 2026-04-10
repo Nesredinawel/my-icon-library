@@ -21,9 +21,9 @@ export function SantaHatAlt({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M19.9 6.8c.7.03 1.27.6 1.3 1.29.46.5.46 1.31 0 1.82-.03.69-.6 1.26-1.3 1.29-.5.46-1.3.46-1.81 0a1.36 1.36 0 0 1-1.29-1.3 1.36 1.36 0 0 1 0-1.82c.03-.69.6-1.26 1.29-1.29.5-.46 1.31-.46 1.82 0m-1.12 1.98q.12-.03.22-.09l.22.1.09.21-.1.22-.21.09-.22-.1-.09-.2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

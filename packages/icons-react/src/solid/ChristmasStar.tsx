@@ -21,9 +21,9 @@ export function ChristmasStar({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M14.89 5.82a3 3 0 1 1 .03-.14M11 5a1 1 0 1 1 2 0 1 1 0 0 1-2 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

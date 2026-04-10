@@ -22,9 +22,9 @@ export function FolderBlock({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M16 13a4 4 0 1 1-8 0 4 4 0 0 1 8 0m-2 0a2 2 0 0 1-2.52 1.93l2.45-2.45A2 2 0 0 1 14 13m-3.93.52 2.45-2.45a2 2 0 0 0-2.45 2.45"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

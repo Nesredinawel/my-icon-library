@@ -12,8 +12,8 @@ export function LoopVertical({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function LoopVertical({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="m4 6 3-3m0 0 3 3M7 3v14a4 4 0 0 0 4 4m9-3-3 3m0 0-3-3m3 3V7a4 4 0 0 0-4-4"
         fill="none"
       />

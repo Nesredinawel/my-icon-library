@@ -12,8 +12,8 @@ export function UserRefreshAlt1({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function UserRefreshAlt1({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M4 21a7 7 0 0 1 7-7m7.5 6.24a3 3 0 1 1 .83-3.24m.67-2.5v3h-3M15 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
         fill="none"
       />

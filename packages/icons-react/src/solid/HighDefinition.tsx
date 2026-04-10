@@ -18,9 +18,9 @@ export function HighDefinition({
       <path fill="currentColor" d="M14.5 14v-4h.5a2 2 0 1 1 0 4z" />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M4 5a2 2 0 0 0-2 2v10c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm3 4a1 1 0 1 0-2 0v6a1 1 0 1 0 2 0v-2h2v2a1 1 0 1 0 2 0V9a1 1 0 1 0-2 0v2H7zm7-1c-.83 0-1.5.67-1.5 1.5v5c0 .83.67 1.5 1.5 1.5h1a4 4 0 0 0 0-8z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

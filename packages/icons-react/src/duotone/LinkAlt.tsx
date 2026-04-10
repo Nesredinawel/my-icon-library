@@ -4,7 +4,7 @@ export function LinkAlt({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,8 +25,8 @@ export function LinkAlt({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeWidth="2"
         d="M14 12a5 5 0 0 1-5 5H7A5 5 0 0 1 7 7h.5m2.5 5a5 5 0 0 1 5-5h2a5 5 0 0 1 0 10h-.5"
         fill="none"
       />

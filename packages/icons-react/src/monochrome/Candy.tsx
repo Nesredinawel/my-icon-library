@@ -17,16 +17,16 @@ export function Candy({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6 9a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3.6 8.2A1 1 0 0 0 2 9v6a1 1 0 0 0 1.6.8L6 14v-4zM18 14v-4l2.4-1.8A1 1 0 0 1 22 9v6a1 1 0 0 1-1.6.8z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

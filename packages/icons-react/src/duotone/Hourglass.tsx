@@ -4,7 +4,7 @@ export function Hourglass({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function Hourglass({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M20 3H4m16 18H4M5 3a7.8 7.8 0 0 0 3.25 6.32l7.5 5.36A7.8 7.8 0 0 1 19 21m0-18a7.8 7.8 0 0 1-3.25 6.32l-7.5 5.36A7.8 7.8 0 0 0 5 21"
         fill="none"
       />

@@ -4,7 +4,7 @@ export function LayerGroup({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function LayerGroup({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m17.4 10 3.6 2-3.6 2m0-4L12 13l-5.4-3m10.8 0L21 8l-9-5-9 5 3.6 2m0 0L3 12l3.6 2m10.8 0 3.6 2-9 5-9-5 3.6-2m10.8 0L12 17l-5.4-3"
         fill="none"
       />

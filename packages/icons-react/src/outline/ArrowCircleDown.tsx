@@ -12,8 +12,8 @@ export function ArrowCircleDown({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function ArrowCircleDown({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="m9 13 3 3m0 0 3-3m-3 3V8m9 4a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
         fill="none"
       />

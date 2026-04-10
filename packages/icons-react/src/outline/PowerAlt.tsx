@@ -12,8 +12,8 @@ export function PowerAlt({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function PowerAlt({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M12 7v5M8 9a5 5 0 1 0 8 0m5 3a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
         fill="none"
       />

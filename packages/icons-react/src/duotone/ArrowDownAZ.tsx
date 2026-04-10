@@ -4,7 +4,7 @@ export function ArrowDownAZ({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function ArrowDownAZ({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M7 3v18m0 0-4-4m4 4 4-4m4.5-3h5l-5 7h5M15.43 9h5.14M15 10l3-7 3 7"
         fill="none"
       />

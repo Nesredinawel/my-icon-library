@@ -22,9 +22,9 @@ export function Expand({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5.57 3H9a1 1 0 1 1 0 2H5.6l-.59.02L5 5.6V9a1 1 0 0 1-2 0V5.57q0-.39.02-.7c.02-.24.06-.5.2-.78a2 2 0 0 1 .87-.87q.41-.19.77-.2.33-.02.7-.02M20 14a1 1 0 0 1 1 1v3.43q0 .39-.02.7-.01.36-.2.78a2 2 0 0 1-.87.87 2 2 0 0 1-.77.2q-.33.02-.7.02H15a1 1 0 1 1 0-2h3.4l.58-.01.01-.01.01-.58V15a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

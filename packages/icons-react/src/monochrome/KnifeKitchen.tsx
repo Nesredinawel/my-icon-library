@@ -22,9 +22,9 @@ export function KnifeKitchen({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M16.74 2.34a2.94 2.94 0 0 1 4.17 4.17l-.36.36c-.4.4-.96.63-1.53.63h-.6L17 8.91q.01.52-.08.96a3 3 0 0 1-.36.87q-.29.43-.73.85l-.06.05-.81.82a1 1 0 0 1-1.42 0L10.8 9.7a1 1 0 0 1 0-1.4z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

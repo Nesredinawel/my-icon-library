@@ -22,9 +22,9 @@ export function SchoolFlag({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12.06 1h4.93A1.1 1.1 0 0 1 18 2.16v2.83a1.1 1.1 0 0 1-1.01 1l-.15.01H13v.86l-.13-.04a3 3 0 0 0-1.87.04V2a1 1 0 0 1 1.06-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

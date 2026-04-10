@@ -22,9 +22,9 @@ export function SignsPost({
       <g fill="currentColor" opacity=".3">
         <path d="M4 3a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h15a1 1 0 0 0 .78-.38l2-2.5a1 1 0 0 0 0-1.24l-2-2.5A1 1 0 0 0 19 3z" />
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M20 11H5a1 1 0 0 0-.78.38l-2 2.5a1 1 0 0 0 0 1.24l2 2.5A1 1 0 0 0 5 18h15a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1M4.28 14.5l1.2-1.5H19v3H5.48z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
       </g>
     </svg>

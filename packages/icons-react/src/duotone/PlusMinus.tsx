@@ -19,9 +19,9 @@ export function PlusMinus({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M12 4v10M7 9h10M7 20h10"
         fill="none"
       />

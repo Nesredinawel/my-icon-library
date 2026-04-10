@@ -19,9 +19,9 @@ export function YenSign({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M12 20v-8m0 0L7 4m5 8 5-8m-9 8h8m-8 4h8"
         fill="none"
       />

@@ -21,9 +21,9 @@ export function HouseLock({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M18 14a3 3 0 0 0-3 3v.27a2 2 0 0 0-.99 1.61l-.01.6v.05l.01.59q.01.29.14.65a2 2 0 0 0 1.73 1.22l.6.01h3.05l.59-.01q.29-.01.65-.14a2 2 0 0 0 1.22-1.73l.01-.56v-.09l-.01-.59a2 2 0 0 0-.99-1.62V17a3 3 0 0 0-3-3m0 2a1 1 0 0 1 1 1h-2a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

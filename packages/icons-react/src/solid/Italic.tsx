@@ -17,9 +17,9 @@ export function Italic({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M14.98 2H10a1 1 0 1 0 0 2h3.61L8.28 20H4a1 1 0 1 0 0 2h10a1 1 0 1 0 0-2h-3.61l5.33-16H20a1 1 0 1 0 0-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

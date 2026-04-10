@@ -17,9 +17,9 @@ export function ClockDesk({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16m0 4a1 1 0 0 1 1 1v2.59l1.7 1.7a1 1 0 0 1-1.4 1.42l-2-2A1 1 0 0 1 11 10V7a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

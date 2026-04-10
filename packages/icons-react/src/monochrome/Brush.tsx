@@ -22,9 +22,9 @@ export function Brush({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 9v1.7c0 1.73 1 3.3 2.56 4.04l2.1 1c.54.25.83.83.7 1.4l-.06.3a3.78 3.78 0 1 0 7.4 0l-.06-.3c-.13-.57.16-1.15.7-1.4l2.1-1A4.5 4.5 0 0 0 21 10.7V9z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

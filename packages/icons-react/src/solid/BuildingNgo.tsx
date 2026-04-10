@@ -21,9 +21,9 @@ export function BuildingNgo({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M18 12a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1zm2-4h-1v2h1z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

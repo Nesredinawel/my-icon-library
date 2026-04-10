@@ -17,16 +17,16 @@ export function ClockTwo({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M13 7a1 1 0 1 0-2 0v5a1 1 0 0 0 1.51.86l2.5-1.5A1 1 0 0 0 14 9.64l-.99.6z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

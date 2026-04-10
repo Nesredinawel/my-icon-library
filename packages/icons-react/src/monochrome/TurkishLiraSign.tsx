@@ -22,9 +22,9 @@ export function TurkishLiraSign({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12.92 5.6a1 1 0 0 1-.53 1.32l-7 3a1 1 0 1 1-.78-1.84l7-3a1 1 0 0 1 1.3.53m0 4a1 1 0 0 1-.53 1.32l-7 3a1 1 0 1 1-.78-1.84l7-3a1 1 0 0 1 1.3.53"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

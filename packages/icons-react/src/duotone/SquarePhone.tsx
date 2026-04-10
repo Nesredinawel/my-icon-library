@@ -4,7 +4,7 @@ export function SquarePhone({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,17 +19,17 @@ export function SquarePhone({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M20 7.2c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C18.48 4 17.92 4 16.8 4H7.2c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C4 5.52 4 6.08 4 7.2v9.6c0 1.12 0 1.68.22 2.1q.3.58.87.88c.43.22.99.22 2.11.22h9.6c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .88-.87c.22-.43.22-.99.22-2.11zm-12.2.95q.01 2.39 1.03 4.2l1.6-1.96c.15-.2.19-.47.1-.7l-.58-1.44a.7.7 0 0 0-.84-.43zm5.9 5.6-1.66 1.68q1.72.85 3.91.87l.33-1.3a.7.7 0 0 0-.43-.85l-1.38-.55a.7.7 0 0 0-.77.16"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         color={secondaryColor}
         opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M8.83 12.35a9 9 0 0 1-1.03-4.2l1.31-.33c.35-.08.7.1.84.43l.57 1.43a.7.7 0 0 1-.1.71zm0 0a7.4 7.4 0 0 0 3.21 3.08m0 0q1.72.86 3.91.87l.33-1.3a.7.7 0 0 0-.43-.85l-1.38-.55a.7.7 0 0 0-.77.16zM7.2 4h9.6c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11v9.6c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22H7.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C4 18.48 4 17.92 4 16.8V7.2c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C5.52 4 6.08 4 7.2 4"
         fill="none"
       />

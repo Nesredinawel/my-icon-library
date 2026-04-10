@@ -17,9 +17,9 @@ export function EyeAlt({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6 14a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

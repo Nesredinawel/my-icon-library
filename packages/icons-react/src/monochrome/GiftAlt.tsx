@@ -22,9 +22,9 @@ export function GiftAlt({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M7.5 4a1.5 1.5 0 0 0 0 3h3.15a8 8 0 0 0-.46-1.02C9.56 4.84 8.69 4 7.5 4M11 9H7.5a3.5 3.5 0 1 1 0-7c2.3 0 3.7 1.66 4.44 3.02l.06.11.06-.11C12.81 3.66 14.2 2 16.5 2a3.5 3.5 0 1 1 0 7H13v4h9v2h-9v7h-2v-7H2v-2h9zm2.35-2q.18-.49.46-1.02C14.44 4.84 15.31 4 16.5 4a1.5 1.5 0 0 1 0 3z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

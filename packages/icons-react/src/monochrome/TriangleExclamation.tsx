@@ -17,9 +17,9 @@ export function TriangleExclamation({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M10.76 2.42a3 3 0 0 1 2.48 0c.56.26.96.72 1.29 1.21q.48.75 1.13 1.94l5.63 10.25q.63 1.1.97 1.87c.23.52.4 1.08.34 1.67a3 3 0 0 1-1.23 2.08 3 3 0 0 1-1.62.5q-.84.08-2.11.06H6.36q-1.27.01-2.1-.05a3 3 0 0 1-1.63-.51 3 3 0 0 1-1.23-2.08 3 3 0 0 1 .34-1.67q.34-.75.97-1.87L8.34 5.57Q9 4.37 9.47 3.63c.33-.49.73-.95 1.29-1.21"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

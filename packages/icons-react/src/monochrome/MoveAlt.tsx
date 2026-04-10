@@ -22,9 +22,9 @@ export function MoveAlt({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6.7 8.3a1 1 0 0 1 0 1.4L5.42 11H9a1 1 0 1 1 0 2H5.41l1.3 1.3a1 1 0 1 1-1.42 1.4l-3-3a1 1 0 0 1 0-1.4l3-3a1 1 0 0 1 1.42 0m10.6 0a1 1 0 0 1 1.4 0l3 3a1 1 0 0 1 0 1.4l-3 3a1 1 0 0 1-1.4-1.4L18.6 13H15a1 1 0 1 1 0-2h3.59l-1.3-1.3a1 1 0 0 1 0-1.4"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

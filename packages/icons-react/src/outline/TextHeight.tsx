@@ -12,8 +12,8 @@ export function TextHeight({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function TextHeight({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M7 4v16m-2 0h4m2-13V4H3v3m15-3v16m0-16-3 3m3-3 3 3m-3 13-3-3m3 3 3-3"
         fill="none"
       />

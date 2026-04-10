@@ -17,9 +17,9 @@ export function MountainCity({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M11 2a1 1 0 0 0-1 1v4.52a3.5 3.5 0 0 1 2.35 1.45c.16.22.3.47.4.62l.46.8a1 1 0 1 1 .95 1.6l3.13 5.3A1 1 0 0 1 19 18a1 1 0 0 1-.72.96l.3.51a3 3 0 0 1 .25 2.53H21a1 1 0 0 0 1-1V7a1 1 0 1 0-2 0v3h-2V3a1 1 0 0 0-1-1zm3 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2m5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

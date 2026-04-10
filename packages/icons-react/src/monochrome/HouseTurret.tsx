@@ -17,9 +17,9 @@ export function HouseTurret({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8 2h2v3a1 1 0 1 0 2 0V2h3a1 1 0 0 1 1 1v5a1 1 0 0 1-.06.35 5 5 0 0 0-3.98 1.44l-4.08 4.09A3 3 0 0 0 9 18.83V21a3 3 0 0 0 .17 1H5a1 1 0 0 1-1-1v-8.7L2.17 9.55A1 1 0 0 1 2 9V3a1 1 0 0 1 1-1h3v3a1 1 0 0 0 2 0zM7 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

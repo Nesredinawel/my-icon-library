@@ -22,9 +22,9 @@ export function ShieldKeyhole({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 7.5a3 3 0 0 0-1 5.83v2.17a1 1 0 1 0 2 0v-2.17a3 3 0 0 0-1-5.83"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -12,8 +12,8 @@ export function ArrowCircleUpLeft({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function ArrowCircleUpLeft({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M9 13.5V9m0 0h4.5M9 9l6 6m6-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
         fill="none"
       />

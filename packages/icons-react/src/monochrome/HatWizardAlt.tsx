@@ -21,9 +21,9 @@ export function HatWizardAlt({
       </g>
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="m4.47 17 .77-2h3.93a3 3 0 0 1 5.66 0h3.95l.77 2h-4.72a3 3 0 0 1-5.66 0zM11 16a1 1 0 1 1 2 0 1 1 0 0 1-2 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

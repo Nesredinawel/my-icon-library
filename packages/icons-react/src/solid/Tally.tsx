@@ -17,9 +17,9 @@ export function Tally({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6 3a1 1 0 0 1 1 1v10.62l2-1.55V4a1 1 0 0 1 2 0v7.51l2-1.55V4a1 1 0 1 1 2 0v4.4l2-1.56V4a1 1 0 1 1 2 0v1.29l1.39-1.08A1 1 0 1 1 21.6 5.8L19 7.82V20a1 1 0 1 1-2 0V9.38l-2 1.55V20a1 1 0 1 1-2 0v-7.51l-2 1.55V20a1 1 0 1 1-2 0v-4.4l-2 1.56V20a1 1 0 1 1-2 0v-1.29L3.61 19.8a1 1 0 0 1-1.21-1.6L5 16.18V4a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

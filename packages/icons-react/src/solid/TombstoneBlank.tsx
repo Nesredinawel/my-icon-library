@@ -17,9 +17,9 @@ export function TombstoneBlank({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a8 8 0 0 0-8 8v10H3a1 1 0 1 0 0 2h18a1 1 0 1 0 0-2h-1V10a8 8 0 0 0-8-8"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

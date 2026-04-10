@@ -17,9 +17,9 @@ export function DoorOpen({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M11.54 1.56a3 3 0 0 1 1.4.08 3 3 0 0 1 1.64 1.32c.25.42.34.88.38 1.35q.05.67.04 1.63V21a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6.53q0-.64.02-1.11.03-.5.22-1a3 3 0 0 1 1-1.25q.45-.3.93-.43.46-.14 1.09-.27h.03l2.64-.6q.95-.21 1.6-.3"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

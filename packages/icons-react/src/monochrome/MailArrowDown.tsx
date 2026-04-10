@@ -21,9 +21,9 @@ export function MailArrowDown({
       </g>
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M19 14a1 1 0 0 1 1 1v3.58l.3-.29a1 1 0 0 1 1.4 1.42l-2 2a1 1 0 0 1-1.4 0l-2-2a1 1 0 1 1 1.4-1.42l.3.3V15a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

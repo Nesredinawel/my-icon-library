@@ -17,9 +17,9 @@ export function Engine({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M10 5a1 1 0 0 1 1-1h6a1 1 0 1 1 0 2h-2v1h1a1 1 0 0 1 .7.3l2 2a1 1 0 0 1 .3.7v9a1 1 0 0 1-1 1h-8a1 1 0 0 1-.83-.45L7.47 17H6a1 1 0 0 1-1-1v-3H4v2a1 1 0 1 1-2 0V9a1 1 0 0 1 2 0v2h1V8a1 1 0 0 1 1-1h7V6h-2a1 1 0 0 1-1-1m-1 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m4-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0m2 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

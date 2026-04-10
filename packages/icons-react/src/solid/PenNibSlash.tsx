@@ -17,9 +17,9 @@ export function PenNibSlash({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3.71 2.3A1 1 0 0 0 2.3 3.7l.53.54L5.8 7.26a3 3 0 0 0-.69.78c-.25.42-.37.9-.5 1.46l-2.53 11 5.08-5.09A2.5 2.5 0 0 1 9.5 12a2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-3.41 2.33L3.5 21.9l11-2.54a5 5 0 0 0 1.46-.5 3 3 0 0 0 .78-.67c1.3 1.3 2.52 2.5 3.56 3.52a1 1 0 1 0 1.4-1.44 1272 1272 0 0 1-16.02-16L4.24 2.83z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

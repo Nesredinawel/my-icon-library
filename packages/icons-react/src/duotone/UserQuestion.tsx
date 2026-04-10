@@ -4,7 +4,7 @@ export function UserQuestion({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function UserQuestion({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M12 14.07A7 7 0 0 0 4 21h10m4-3c1-1 2-1.4 2-2.5a2 2 0 0 0-3.94-.5M15 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
         fill="none"
       />

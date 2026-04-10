@@ -17,16 +17,16 @@ export function MouseAlt({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a7 7 0 0 0-7 7v6a7 7 0 1 0 14 0V9a7 7 0 0 0-7-7"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M13 5a1 1 0 1 0-2 0v4a1 1 0 1 0 2 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -11,7 +11,7 @@ export default function IconGrid({
         <IconCard
           key={icon.name}
           name={icon.name}
-          style={icon.styles?.[0] ?? "outline"}
+          style={icon.styles?.[0] ?? "duotone"}
         />
       ))}
     </div>

@@ -12,8 +12,8 @@ export function WineGlass({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function WineGlass({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M12 13v8m0-8a6 6 0 0 0 6-6V3H6v4a6 6 0 0 0 6 6m-4 8h8"
         fill="none"
       />

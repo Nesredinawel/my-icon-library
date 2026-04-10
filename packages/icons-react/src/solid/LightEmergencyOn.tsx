@@ -17,9 +17,9 @@ export function LightEmergencyOn({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6 8a6 6 0 1 1 12 0v5.56c0 .4 0 .62-.06.78a1 1 0 0 1-.6.6c-.16.06-.37.06-.78.06H7.44c-.4 0-.62 0-.78-.06a1 1 0 0 1-.6-.6C6 14.18 6 13.97 6 13.56zm6-2a2 2 0 0 0-2 2 1 1 0 0 1-2 0 4 4 0 0 1 4-4 1 1 0 1 1 0 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

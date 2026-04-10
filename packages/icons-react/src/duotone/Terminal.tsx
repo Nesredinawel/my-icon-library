@@ -19,9 +19,9 @@ export function Terminal({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M12 19h9M3 5l8 7-8 7"
         fill="none"
       />

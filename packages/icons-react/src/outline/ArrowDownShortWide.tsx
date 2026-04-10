@@ -12,8 +12,8 @@ export function ArrowDownShortWide({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function ArrowDownShortWide({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M7 3v18m0 0-4-4m4 4 4-4m3 4h7m-7-6h5m-5-6h3m-3-6h1"
         fill="none"
       />

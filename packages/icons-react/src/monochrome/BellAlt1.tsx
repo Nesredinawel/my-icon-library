@@ -22,9 +22,9 @@ export function BellAlt1({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8 21a1 1 0 0 1 1-1h6a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

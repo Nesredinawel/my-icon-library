@@ -22,9 +22,9 @@ export function LineHeight({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5.3 3.3a1 1 0 0 1 1.4 0l3 3a1 1 0 0 1-1.4 1.4L7 6.42V17.6l1.3-1.3a1 1 0 0 1 1.4 1.42l-3 3a1 1 0 0 1-1.4 0l-3-3a1 1 0 1 1 1.4-1.42L5 17.6V6.4L3.7 7.7a1 1 0 0 1-1.4-1.42z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

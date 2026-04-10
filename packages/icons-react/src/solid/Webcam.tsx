@@ -18,9 +18,9 @@ export function Webcam({
       <path fill="currentColor" d="M10 10a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M4 10a8 8 0 1 1 16 0 8 8 0 0 1-16 0m8-4a4 4 0 1 0 0 8 4 4 0 0 0 0-8"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

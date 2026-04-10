@@ -17,9 +17,9 @@ export function BuildingFlag({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M4.38 2q-.36 0-.65.02A1.8 1.8 0 0 0 2.2 3.09q-.18.41-.18.77-.02.33-.02.7V21c0 .55.42 1 .93 1h11.14c.51 0 .93-.45.93-1V4.57q0-.39-.02-.7 0-.36-.18-.78a1.8 1.8 0 0 0-1.53-1.08L12.62 2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

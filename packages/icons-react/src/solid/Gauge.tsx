@@ -17,9 +17,9 @@ export function Gauge({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0m9-6a1 1 0 1 1 2 0v6.17a3 3 0 1 1-2 0zm6 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0m1 5a1 1 0 1 0 0-2 1 1 0 0 0 0 2M7 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0m1-3a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

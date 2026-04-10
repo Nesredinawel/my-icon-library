@@ -22,9 +22,9 @@ export function FolderUser({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M14 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-7.2 6a6 6 0 0 1 10.4 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

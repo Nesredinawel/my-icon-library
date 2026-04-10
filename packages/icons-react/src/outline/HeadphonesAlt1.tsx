@@ -12,8 +12,8 @@ export function HeadphonesAlt1({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function HeadphonesAlt1({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M3 17v-5a9 9 0 0 1 18 0v5M8.29 21A2.3 2.3 0 0 1 6 18.71V15.3A2.3 2.3 0 0 1 8.29 13c.94 0 1.71.77 1.71 1.71v4.58c0 .94-.77 1.71-1.71 1.71m7.42 0A2.3 2.3 0 0 0 18 18.71V15.3a2.3 2.3 0 0 0-2.29-2.3c-.94 0-1.71.77-1.71 1.71v4.58c0 .94.77 1.71 1.71 1.71"
         fill="none"
       />

@@ -19,9 +19,9 @@ export function ArrowNarrowUpMove({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m8 8 4-4m0 0 4 4m-4-4v12m-8 4h16"
         fill="none"
       />

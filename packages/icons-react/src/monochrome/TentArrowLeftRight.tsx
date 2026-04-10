@@ -17,9 +17,9 @@ export function TentArrowLeftRight({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M11.41 7.45a2 2 0 0 1 1.18 0q.4.15.66.37l.5.44 4.17 3.87q.18.16.37.4a2 2 0 0 1 .38.98l.98 5.47q.09.44.13.8a2 2 0 0 1-.97 1.95c-.3.18-.61.23-.87.25q-.36.02-.82.02H6.88q-.46 0-.82-.02a2 2 0 0 1-.87-.25 2 2 0 0 1-.88-1.05 2 2 0 0 1-.09-.9q.04-.36.13-.8l.98-5.47q.04-.23.13-.53a2 2 0 0 1 .25-.45q.18-.24.37-.4l4.17-3.87.5-.44q.25-.22.66-.37"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

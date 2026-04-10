@@ -19,9 +19,9 @@ export function GripLinesVertical({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M14 4v16M10 4v16"
         fill="none"
       />

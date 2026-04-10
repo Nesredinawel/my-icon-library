@@ -22,9 +22,9 @@ export function PhoneSignalAlt({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 4a9 9 0 0 0-6.43 2.7 1 1 0 1 1-1.43-1.4 10.97 10.97 0 0 1 15.72 0 1 1 0 0 1-1.43 1.4A9 9 0 0 0 12 4m0 4c-1.48 0-2.81.64-3.73 1.67a1 1 0 1 1-1.49-1.34 6.98 6.98 0 0 1 10.44 0 1 1 0 0 1-1.5 1.34A5 5 0 0 0 12 8"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

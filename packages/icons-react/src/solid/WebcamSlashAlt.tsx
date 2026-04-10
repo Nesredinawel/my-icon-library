@@ -21,9 +21,9 @@ export function WebcamSlashAlt({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M4.9 6.31A8 8 0 0 0 11 17.94V20H7a1 1 0 1 0 0 2h10a1 1 0 1 0 0-2h-4v-2.06q1.44-.19 2.69-.84l4.6 4.6a1 1 0 0 0 1.42-1.4l-18-18a1 1 0 0 0-1.42 1.4zm3.14 3.14 4.5 4.51q-.26.04-.54.04a4 4 0 0 1-3.96-4.55"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path fill="currentColor" d="m12.23 8.01 1.76 1.76a2 2 0 0 0-1.76-1.76" />
     </svg>

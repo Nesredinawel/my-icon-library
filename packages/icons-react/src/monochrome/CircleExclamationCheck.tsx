@@ -17,16 +17,16 @@ export function CircleExclamationCheck({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M11 22a10 10 0 0 0 9.25-6.19l-.38.36a3 3 0 0 1-4.14 0l-1.8-1.71a3 3 0 0 1 3.85-4.59l2.15-2.04.11-.1A10 10 0 1 0 11 22"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M10 8a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0zm2 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

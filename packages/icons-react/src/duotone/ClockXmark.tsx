@@ -4,7 +4,7 @@ export function ClockXmark({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function ClockXmark({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m3 5 2-2m16 2-2-2M9 9l6 6m0-6-6 6m11-3a8 8 0 1 1-16 0 8 8 0 0 1 16 0"
         fill="none"
       />

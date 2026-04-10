@@ -17,9 +17,9 @@ export function WebcamAlt({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16m0-4a4 4 0 1 0 0-8 4 4 0 0 0 0 8"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

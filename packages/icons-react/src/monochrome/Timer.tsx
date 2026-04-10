@@ -17,9 +17,9 @@ export function Timer({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M11 3a1 1 0 0 1 1-1 10 10 0 1 1-8.32 4.44 1 1 0 0 1 1.67 1.12A8 8 0 1 0 13 4.06V6a1 1 0 1 1-2 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

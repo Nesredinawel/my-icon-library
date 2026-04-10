@@ -17,9 +17,9 @@ export function Subscript({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 4a1 1 0 0 1 1-1h2a1 1 0 0 1 .87.5L9 8.98l3.13-5.48A1 1 0 0 1 13 3h2a1 1 0 1 1 0 2h-1.42l-3.43 6 3.43 6H15a1 1 0 1 1 0 2h-2a1 1 0 0 1-.87-.5L9 13.02 5.87 18.5A1 1 0 0 1 5 19H3a1 1 0 1 1 0-2h1.42l3.43-6-3.43-6H3a1 1 0 0 1-1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

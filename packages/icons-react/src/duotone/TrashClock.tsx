@@ -4,7 +4,7 @@ export function TrashClock({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function TrashClock({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M4 6h16m-4 0-.27-.81a5 5 0 0 0-.64-1.47 2 2 0 0 0-.8-.58C13.94 3 13.52 3 12.7 3h-1.38c-.83 0-1.25 0-1.6.14a2 2 0 0 0-.8.58c-.25.29-.38.68-.64 1.47L8 6m10 3V6H6v10.2c0 1.68 0 2.52.33 3.16a3 3 0 0 0 1.3 1.31c.54.27 1.2.32 2.37.33m0-11v3m4-3v.5m3 5V17h1.5m2.5 0a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
         fill="none"
       />

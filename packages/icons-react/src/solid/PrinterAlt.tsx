@@ -17,9 +17,9 @@ export function PrinterAlt({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8 2a2 2 0 0 0-2 2v1a4 4 0 0 0-4 4v3h20V9a4 4 0 0 0-4-4V4a2 2 0 0 0-2-2zm8 3V4H8v1zM5 9.5a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1m11 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m2 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

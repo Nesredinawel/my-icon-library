@@ -4,7 +4,7 @@ export function HalloweenMailAlt({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function HalloweenMailAlt({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M3 12v2l1 1m0 0 3-1 2 1m-5 0-1 1M7 6 5 5H3v4l9 4 9-4V5h-9M7 6l2 2M7 6l2-1m12 12v2h-2m2-6h-2a1 1 0 0 0-1 1 1 1 0 0 1-1 1h-.5c-.83 0-1.5.67-1.5 1.5v.5a2 2 0 0 1-2 2H3"
         fill="none"
       />

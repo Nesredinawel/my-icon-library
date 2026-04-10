@@ -17,9 +17,9 @@ export function Underline({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 3a1 1 0 0 1 1-1h4a1 1 0 0 1 0 2H7v7a5 5 0 0 0 10 0V4h-1a1 1 0 1 1 0-2h4a1 1 0 1 1 0 2h-1v7a7 7 0 1 1-14 0V4H4a1 1 0 0 1-1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

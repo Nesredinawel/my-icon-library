@@ -22,9 +22,9 @@ export function ForkKnife({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5 2a1 1 0 0 1 1 1v5a2 2 0 0 0 1 1.73V3a1 1 0 0 1 2 0v6.73A2 2 0 0 0 10 8V3a1 1 0 1 1 2 0v5a4 4 0 0 1-3 3.87V21a1 1 0 1 1-2 0v-9.13A4 4 0 0 1 4 8V3a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

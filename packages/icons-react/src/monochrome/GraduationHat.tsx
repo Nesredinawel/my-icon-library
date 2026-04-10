@@ -17,9 +17,9 @@ export function GraduationHat({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12.9 9.1a1 1 0 0 0-1.35-.45L7.1 10.88a1 1 0 0 0-.55.89V21a1 1 0 1 0 2 0v-8.61l3.9-1.96a1 1 0 0 0 .45-1.34"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

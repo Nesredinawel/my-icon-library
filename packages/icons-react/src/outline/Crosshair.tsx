@@ -12,8 +12,8 @@ export function Crosshair({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function Crosshair({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M12 3v4m0 10v4m-9-9h4m10 0h4m-2 0a7 7 0 1 1-14 0 7 7 0 0 1 14 0"
         fill="none"
       />

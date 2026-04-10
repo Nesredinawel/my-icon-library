@@ -26,9 +26,9 @@ export function LightbulbExclamationAlt({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M11 10a1 1 0 1 1 2 0v2a1 1 0 1 1-2 0zm2 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

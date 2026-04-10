@@ -17,9 +17,9 @@ export function MouseAlt1({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5 9a7 7 0 0 1 14 0v6a7 7 0 1 1-14 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

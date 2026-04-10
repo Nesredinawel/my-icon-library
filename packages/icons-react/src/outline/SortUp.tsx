@@ -12,8 +12,8 @@ export function SortUp({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function SortUp({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M7.93 9h8.14c.6 0 .9 0 1.05-.12a.5.5 0 0 0 .17-.42c-.01-.18-.23-.4-.66-.83l-4.06-4.06c-.2-.2-.3-.3-.42-.34a.5.5 0 0 0-.3 0c-.12.04-.22.14-.42.34L7.37 7.63c-.43.43-.65.65-.66.83a.5.5 0 0 0 .17.42c.14.12.45.12 1.05.12"
         fill="none"
       />

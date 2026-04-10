@@ -12,8 +12,8 @@ export function Candy({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,7 +22,7 @@ export function Candy({
     >
       <path
         stroke="currentColor"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
         d="M7 9h10v6H7zM3 9l4 3-4 3zm18 0-4 3 4 3z"
         fill="none"
       />

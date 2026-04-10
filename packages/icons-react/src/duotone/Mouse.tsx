@@ -4,7 +4,7 @@ export function Mouse({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function Mouse({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M13.36 21A5.36 5.36 0 0 1 8 15.64V5.68a2.87 2.87 0 0 1 3.57-2.79l5.07 1.27A4.4 4.4 0 0 1 20 8.46v5.9A6.64 6.64 0 0 1 13.36 21m0 0H13c-4.97 0-9-3.18-9-7.1C4 11.44 5.59 9.27 8 8m6 0v2"
         fill="none"
       />

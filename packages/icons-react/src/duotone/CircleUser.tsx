@@ -4,7 +4,7 @@ export function CircleUser({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,9 +19,9 @@ export function CircleUser({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M7.02 19.5a5 5 0 0 1 9.96 0 9 9 0 1 0-9.96 0M14 10a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         color={secondaryColor}
         opacity={secondaryOpacity}
       />

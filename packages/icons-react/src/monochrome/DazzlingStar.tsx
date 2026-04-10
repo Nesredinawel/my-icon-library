@@ -22,9 +22,9 @@ export function DazzlingStar({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 7a1 1 0 0 1 .9.58l1.01 2.15 2.24.34a1 1 0 0 1 .57 1.69l-1.65 1.68.39 2.4a1 1 0 0 1-1.47 1.04L12 15.78l-1.99 1.1a1 1 0 0 1-1.47-1.04l.4-2.4-1.66-1.68a1 1 0 0 1 .57-1.7l2.24-.33 1-2.15A1 1 0 0 1 12 7"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

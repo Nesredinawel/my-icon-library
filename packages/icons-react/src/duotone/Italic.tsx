@@ -19,9 +19,9 @@ export function Italic({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M10 3h10M4 21h10m1-18L9 21"
         fill="none"
       />

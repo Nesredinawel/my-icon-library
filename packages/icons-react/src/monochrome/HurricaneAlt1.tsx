@@ -17,9 +17,9 @@ export function HurricaneAlt1({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M11 4a6 6 0 1 0 0 12 1 1 0 1 1 0 2 8 8 0 1 1 0-16 1 1 0 1 1 0 2m0 3a1 1 0 0 1 1-1 8 8 0 1 1 0 16 1 1 0 1 1 0-2 6 6 0 0 0 0-12 1 1 0 0 1-1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

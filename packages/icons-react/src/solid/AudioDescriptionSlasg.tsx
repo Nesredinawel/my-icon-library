@@ -18,9 +18,9 @@ export function AudioDescriptionSlasg({
       <path fill="currentColor" d="m8.5 11.6.58 1.4H7.92z" />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3.7 2.3a1 1 0 0 0-1.4 1.4l.9.9a3 3 0 0 0-.87 1.04C2 6.28 2 7.12 2 8.8v6.4c0 1.68 0 2.52.33 3.16a3 3 0 0 0 1.3 1.31c.65.33 1.49.33 3.17.33h10.4l1.38-.01 1.71 1.72a1 1 0 0 0 1.42-1.42zM14.6 16l-2.09-2.09v.59c0 .83.67 1.5 1.5 1.5zM7.47 8.88 11 12.42l.91 2.2a1 1 0 1 1-1.84.76L9.92 15H7.08l-.16.38a1 1 0 0 1-1.84-.76z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

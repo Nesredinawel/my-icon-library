@@ -21,9 +21,9 @@ export function WarehouseFull({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8 11.8c0-.28 0-.42.05-.53a.5.5 0 0 1 .22-.22c.11-.05.25-.05.53-.05h6.4c.28 0 .42 0 .53.05q.15.08.22.22c.05.11.05.25.05.53v9.4c0 .28 0 .42-.05.53a.5.5 0 0 1-.22.22c-.11.05-.25.05-.53.05H8.8c-.28 0-.42 0-.53-.05a.5.5 0 0 1-.22-.22C8 21.62 8 21.48 8 21.2zm3 1.2a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zm0 4a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

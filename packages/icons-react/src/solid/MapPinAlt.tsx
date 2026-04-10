@@ -17,9 +17,9 @@ export function MapPinAlt({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5 9a7 7 0 0 1 14 0c0 2.44-1.37 4.19-2.72 5.6l-.98.98-.04.04q-.51.5-.96.97a8 8 0 0 0-1.4 1.86 1 1 0 0 1-1.8 0q-.47-.91-1.4-1.86-.45-.48-.96-.97l-.04-.04-.98-.99C6.37 13.2 5 11.44 5 9m10 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

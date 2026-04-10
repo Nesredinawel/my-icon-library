@@ -4,7 +4,7 @@ export function LetterEnglishA({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function LetterEnglishA({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m6 21 1.5-6M18 21l-1.5-6m0 0L14 5s-.5-2-2-2-2 2-2 2L7.5 15m9 0h-9"
         fill="none"
       />

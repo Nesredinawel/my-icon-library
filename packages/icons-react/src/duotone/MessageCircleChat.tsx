@@ -4,7 +4,7 @@ export function MessageCircleChat({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function MessageCircleChat({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M19.4 18q.59-1.14.6-2.5a5.5 5.5 0 1 0-5.5 5.5H21s-1-1-1.59-2.97M18.85 12q.15-.73.15-1.5A7.5 7.5 0 1 0 4.43 13C5.5 16.01 3 18 3 18h6.5"
         fill="none"
       />

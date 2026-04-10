@@ -21,9 +21,9 @@ export function Upload({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M9 15v-2H6c-.93 0-1.4 0-1.78.1a3 3 0 0 0-2.12 2.12C2 15.6 2 16.07 2 17s0 1.4.1 1.78a3 3 0 0 0 2.12 2.12c.39.1.85.1 1.78.1h12c.93 0 1.4 0 1.78-.1a3 3 0 0 0 2.12-2.12c.1-.39.1-.85.1-1.78s0-1.4-.1-1.78a3 3 0 0 0-2.12-2.12c-.39-.1-.85-.1-1.78-.1h-3v2a3 3 0 1 1-6 0m8 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

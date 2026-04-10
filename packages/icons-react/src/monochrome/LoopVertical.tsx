@@ -17,9 +17,9 @@ export function LoopVertical({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6.3 2.3a1 1 0 0 1 1.4 0l3 3a1 1 0 0 1-1.4 1.4L8 5.42V17a3 3 0 0 0 3 3 1 1 0 1 1 0 2 5 5 0 0 1-5-5V5.41l-1.3 1.3a1 1 0 0 1-1.4-1.42z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

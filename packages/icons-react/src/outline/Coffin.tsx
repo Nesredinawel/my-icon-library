@@ -12,8 +12,8 @@ export function Coffin({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,7 +22,7 @@ export function Coffin({
     >
       <path
         stroke="currentColor"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
         d="M9 3h6l5 5-5 13H9L4 8z"
         fill="none"
       />

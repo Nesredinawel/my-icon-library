@@ -22,9 +22,9 @@ export function Maximize({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 4a1 1 0 0 1 1-1h4.5a1 1 0 0 1 0 2H6.41l4.3 4.3a1 1 0 0 1-1.42 1.4L5 6.42V8.5a1 1 0 0 1-2 0zm10.3 9.3a1 1 0 0 1 1.4 0l4.3 4.29V15.5a1 1 0 1 1 2 0V20a1 1 0 0 1-1 1h-4.5a1 1 0 1 1 0-2h2.09l-4.3-4.3a1 1 0 0 1 0-1.4"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

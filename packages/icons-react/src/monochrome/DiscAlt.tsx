@@ -17,9 +17,9 @@ export function DiscAlt({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20m0-9a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
@@ -28,9 +28,9 @@ export function DiscAlt({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-2 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

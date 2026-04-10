@@ -17,16 +17,16 @@ export function ClockTenThirty({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M10.01 9.64A1 1 0 1 0 9 11.36l2.01 1.2V17a1 1 0 0 0 2 0v-5a1 1 0 0 0-.49-.86z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

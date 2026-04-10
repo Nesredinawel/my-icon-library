@@ -17,9 +17,9 @@ export function ChartNetwork({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M9.95 9.04 8.8 5.99 9 6a2 2 0 0 0 1.63-.84l1.12 3a5 5 0 0 1 4 .67l2.32-2.31a2 2 0 0 0 1.41 1.41l-2.3 2.31a5 5 0 0 1 0 5.52l2.3 2.3a2 2 0 0 0-1.41 1.42l-2.31-2.3A5 5 0 0 1 8.1 14H5.73a2 2 0 0 0 0-2.01H8.1a5 5 0 0 1 1.85-2.96M13 15a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

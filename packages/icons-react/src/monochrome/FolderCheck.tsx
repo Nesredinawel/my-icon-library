@@ -22,9 +22,9 @@ export function FolderCheck({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M15.7 11.72a1 1 0 1 0-1.4-1.44l-3.45 3.33-1.16-1.1a1 1 0 0 0-1.38 1.43l1.84 1.78a1 1 0 0 0 1.39 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

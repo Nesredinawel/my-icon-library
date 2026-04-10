@@ -17,9 +17,9 @@ export function BracketSquare({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M9 3a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2h-3v16h3a1 1 0 1 1 0 2h-4a1 1 0 0 1-1-1z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

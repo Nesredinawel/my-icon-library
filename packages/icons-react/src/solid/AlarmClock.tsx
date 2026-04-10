@@ -21,9 +21,9 @@ export function AlarmClock({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M16.32 19.32a8 8 0 0 1-8.64 0L5.71 21.3a1 1 0 0 1-1.42-1.42l1.85-1.84a8 8 0 1 1 11.72 0l1.85 1.84a1 1 0 0 1-1.42 1.42zM13 9.58a1 1 0 1 0-2 0v3q0 .42.3.71l1.44 1.42a1 1 0 1 0 1.4-1.42L13 12.16z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

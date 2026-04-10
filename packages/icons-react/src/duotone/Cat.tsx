@@ -4,7 +4,7 @@ export function Cat({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,10 +25,10 @@ export function Cat({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         stroke-miterlimit="10"
-        stroke-width="2"
+        strokeWidth="2"
         d="M14 9V3l-3 1H8L5 3v6l4.5 2zm0 0 6 3 2 6-2 3H4l-2-2 2-2-2-2 2-2m3 8V10m4 5v6l5.04-5H18m-7-9"
         fill="none"
       />

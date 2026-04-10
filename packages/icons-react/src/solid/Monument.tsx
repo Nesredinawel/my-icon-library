@@ -17,9 +17,9 @@ export function Monument({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M11.45 2.17a1 1 0 0 1 1.1 0l3 2a1 1 0 0 1 .44.7L17.9 20H19a1 1 0 1 1 0 2H5a1 1 0 1 1 0-2h1.12L8 4.88a1 1 0 0 1 .44-.71zM11 13a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

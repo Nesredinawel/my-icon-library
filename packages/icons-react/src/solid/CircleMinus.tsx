@@ -17,9 +17,9 @@ export function CircleMinus({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20M8 11a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

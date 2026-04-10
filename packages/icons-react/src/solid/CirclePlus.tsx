@@ -17,9 +17,9 @@ export function CirclePlus({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20m1-14a1 1 0 1 0-2 0v3H8a1 1 0 1 0 0 2h3v3a1 1 0 1 0 2 0v-3h3a1 1 0 1 0 0-2h-3z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

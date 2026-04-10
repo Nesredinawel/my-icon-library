@@ -22,9 +22,9 @@ export function ScaleUnbalanced({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M20.46 2.92a1 1 0 0 1-.6 1.28l-4.7 1.71-.16.05a3 3 0 0 1-2 2.87V20h7a1 1 0 1 1 0 2h-8a1 1 0 0 1-1-1V8.83a3 3 0 0 1-1.32-.92L4.82 9.68a1 1 0 0 1-.68-1.88L9 6.03V6a3 3 0 0 1 5.33-1.9l.15-.07 4.7-1.7a1 1 0 0 1 1.28.6"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

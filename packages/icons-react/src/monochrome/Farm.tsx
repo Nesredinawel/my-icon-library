@@ -17,9 +17,9 @@ export function Farm({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M15.43 4.1a1 1 0 0 0-.86 0l-4.16 2a1 1 0 0 0-.5.55l-1.85 5A1 1 0 0 0 8 12v9a1 1 0 0 0 1 1h4v-5a2 2 0 1 1 4 0v5h4a1 1 0 0 0 1-1v-9a1 1 0 0 0-.06-.35l-1.85-5a1 1 0 0 0-.5-.55z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

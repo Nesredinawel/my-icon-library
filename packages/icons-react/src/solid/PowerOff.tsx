@@ -17,9 +17,9 @@ export function PowerOff({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a1 1 0 0 1 1 1v9a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1M6.34 4.93a1 1 0 0 1 0 1.42 8 8 0 1 0 11.31 0 1 1 0 1 1 1.42-1.42 10 10 0 1 1-14.15 0 1 1 0 0 1 1.42 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

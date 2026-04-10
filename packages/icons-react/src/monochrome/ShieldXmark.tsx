@@ -22,9 +22,9 @@ export function ShieldXmark({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M10.2 8.8a1 1 0 0 0-1.4 1.4l1.79 1.8-1.8 1.8a1 1 0 1 0 1.42 1.4L12 13.42l1.8 1.8a1 1 0 0 0 1.4-1.42L13.42 12l1.8-1.8a1 1 0 0 0-1.42-1.4L12 10.58z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

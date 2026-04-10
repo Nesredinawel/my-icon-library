@@ -22,9 +22,9 @@ export function CheckDouble({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M20.7 7.3a1 1 0 0 1 0 1.4l-11 11a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.4L9 17.58l10.3-10.3a1 1 0 0 1 1.4 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

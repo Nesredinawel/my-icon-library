@@ -17,9 +17,9 @@ export function SearchAlt1({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 10a8 8 0 1 1 14.32 4.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38A8 8 0 0 1 2 10"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

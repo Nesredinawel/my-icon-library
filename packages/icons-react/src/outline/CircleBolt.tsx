@@ -12,8 +12,8 @@ export function CircleBolt({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function CircleBolt({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M12.5 7 9 12h6l-3.5 5m9.5-5a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
         fill="none"
       />

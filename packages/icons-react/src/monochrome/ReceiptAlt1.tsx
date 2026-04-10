@@ -17,9 +17,9 @@ export function ReceiptAlt1({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8.16 2h7.68q.8 0 1.36.03c.39.03.78.1 1.16.3a3 3 0 0 1 1.31 1.3c.2.39.27.78.3 1.17q.04.57.03 1.36V21a1 1 0 0 1-1.62.78l-1.88-1.5-1.88 1.5a1 1 0 0 1-1.33-.07L12 20.4l-1.3 1.3a1 1 0 0 1-1.32.07l-1.88-1.5-1.88 1.5A1 1 0 0 1 4 21V6.16q0-.8.03-1.36c.03-.39.1-.78.3-1.16a3 3 0 0 1 1.3-1.31c.39-.2.78-.27 1.17-.3Q7.37 2 8.16 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

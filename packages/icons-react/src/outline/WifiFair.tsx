@@ -12,8 +12,8 @@ export function WifiFair({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,7 +22,7 @@ export function WifiFair({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
         d="M12 20h.01m3.35-3.7a5 5 0 0 0-6.72 0"
         fill="none"
       />

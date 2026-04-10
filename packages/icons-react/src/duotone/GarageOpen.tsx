@@ -4,7 +4,7 @@ export function GarageOpen({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function GarageOpen({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M7 20H4.6c-.56 0-.84 0-1.05-.1a1 1 0 0 1-.44-.45C3 19.24 3 18.96 3 18.4V9.04c0-.38 0-.56.06-.73a1 1 0 0 1 .25-.38c.12-.12.3-.2.64-.35L12 4l8.05 3.58c.34.15.52.23.64.35q.17.16.25.38c.06.17.06.35.06.73v9.36c0 .56 0 .84-.1 1.05a1 1 0 0 1-.45.44c-.21.11-.49.11-1.05.11H17M7 20V10h10v10M7 20h10"
         fill="none"
       />

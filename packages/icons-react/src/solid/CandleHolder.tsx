@@ -21,9 +21,9 @@ export function CandleHolder({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M7 10H5a1 1 0 0 0-1 1v9H3a1 1 0 1 0 0 2h16a3 3 0 1 0-2.83-2H14v-9a1 1 0 0 0-1-1H9v4a1 1 0 1 1-2 0zm11 9a1 1 0 1 1 2 0 1 1 0 0 1-2 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

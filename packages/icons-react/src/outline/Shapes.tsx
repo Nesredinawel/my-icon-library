@@ -12,8 +12,8 @@ export function Shapes({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function Shapes({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="m8 10 4-7 4 7zm2 7.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m4-3.5h7v7h-7z"
         fill="none"
       />

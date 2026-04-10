@@ -17,9 +17,9 @@ export function Cauldron({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 9a1 1 0 0 0 0 2h1v2c0 1.4.36 2.73 1 3.88V21a1 1 0 0 0 2 0v-1.75a8 8 0 0 0 10 0V21a1 1 0 0 0 2 0v-4.12c.64-1.15 1-2.47 1-3.88v-2h1a1 1 0 1 0 0-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

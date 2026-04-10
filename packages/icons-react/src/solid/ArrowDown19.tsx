@@ -21,9 +21,9 @@ export function ArrowDown19({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M22 16.5c0 .9-.34 1.73-.91 2.36l-2.32 2.78a1 1 0 1 1-1.54-1.28l.4-.47A3.5 3.5 0 1 1 22 16.5m-2 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

@@ -21,9 +21,9 @@ export function LocationPinSlash({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M4.94 6.35A8 8 0 0 0 4 10.2c0 2.3 1.01 4.3 2.39 6.14a47 47 0 0 0 4.07 4.51l.82.85a1 1 0 0 0 1.44 0l.82-.85c.99-1 1.98-2 2.87-3.03l3.88 3.89a1 1 0 0 0 1.42-1.42l-18-18a1 1 0 0 0-1.42 1.42zm6.61 6.62-2.52-2.52a3 3 0 0 0 2.52 2.52"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -4,7 +4,7 @@ export function MicrophoneSlashAlt({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -29,9 +29,9 @@ export function MicrophoneSlashAlt({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M16 10.4V7a4 4 0 0 0-6.53-3.1M4 12v1a8 8 0 0 0 14.14 5.13M3 3l18 18m-9-4a4 4 0 0 1-4-4V8l7.28 7.29A4 4 0 0 1 12 17"
         fill="none"
       />

@@ -17,9 +17,9 @@ export function ArrowCircleRight({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0m11.7-3.7a1 1 0 1 0-1.4 1.4l1.29 1.3H8a1 1 0 1 0 0 2h5.59l-1.3 1.3a1 1 0 0 0 1.42 1.4l3-3a1 1 0 0 0 0-1.4z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

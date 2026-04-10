@@ -17,9 +17,9 @@ export function ClockPlus({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 13a9 9 0 1 1 18 0 9 9 0 0 1-18 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

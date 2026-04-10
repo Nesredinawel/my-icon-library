@@ -19,9 +19,9 @@ export function Xmark({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m6 6 12 12m0-12L6 18"
         fill="none"
       />

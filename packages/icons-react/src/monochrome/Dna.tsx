@@ -22,9 +22,9 @@ export function Dna({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5 2a1 1 0 0 1 1 1 8.4 8.4 0 0 0 6 7.96A8.3 8.3 0 0 0 18 3a1 1 0 1 1 2 0c0 3.8-2.09 7.23-5.32 9A10.4 10.4 0 0 1 20 21a1 1 0 1 1-2 0 8.4 8.4 0 0 0-6-7.96A8.3 8.3 0 0 0 6 21a1 1 0 1 1-2 0c0-3.8 2.09-7.23 5.32-9A10.4 10.4 0 0 1 4 3a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

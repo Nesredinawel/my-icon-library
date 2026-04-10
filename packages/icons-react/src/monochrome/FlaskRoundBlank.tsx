@@ -17,9 +17,9 @@ export function FlaskRoundBlank({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6 3a1 1 0 0 1 1-1h10a1 1 0 1 1 0 2h-1v5.07a8 8 0 0 1 1.6 12.64 1 1 0 0 1-.7.29H7.1a1 1 0 0 1-.7-.29A7.98 7.98 0 0 1 8 9.07V4H7a1 1 0 0 1-1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
     </svg>

@@ -4,7 +4,7 @@ export function Gauge({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,17 +19,17 @@ export function Gauge({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18m0-4a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         color={secondaryColor}
         opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M12 13a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0 0V6m4 2h.01M18 12h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
         fill="none"
       />

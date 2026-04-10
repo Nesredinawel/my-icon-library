@@ -4,7 +4,7 @@ export function UserCheckAlt1({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function UserCheckAlt1({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M14 19.29 15.8 21l4.2-4M4 21a7 7 0 0 1 11-5.75M15 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
         fill="none"
       />

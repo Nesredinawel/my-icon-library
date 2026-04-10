@@ -17,9 +17,9 @@ export function Club({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6.14 6.73a6 6 0 0 1 11.72 0A6 6 0 1 1 12 17.2 6 6 0 1 1 6.14 6.73"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

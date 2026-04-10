@@ -12,8 +12,8 @@ export function BrakeWarning({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function BrakeWarning({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M12 10v1.5m7.49-4.48a9 9 0 0 1 0 9.96m-15-9.96a9 9 0 0 0 0 9.96M17 12a5 5 0 1 1-10 0 5 5 0 0 1 10 0"
         fill="none"
       />

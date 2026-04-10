@@ -22,9 +22,9 @@ export function ShieldPlus({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M13 9a1 1 0 1 0-2 0v2H9a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0-2h-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

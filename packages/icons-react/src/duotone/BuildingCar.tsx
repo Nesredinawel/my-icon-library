@@ -4,7 +4,7 @@ export function BuildingCar({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function BuildingCar({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M5 21H3V4.6c0-.56 0-.84.1-1.05a1 1 0 0 1 .45-.44C3.76 3 4.04 3 4.6 3h8.8c.56 0 .84 0 1.05.1a1 1 0 0 1 .44.45c.11.21.11.49.11 1.05V8M6 7h1m-1 3h1m-1 3h1m4-6h1m-2 8 .27-.81c.26-.79.4-1.18.64-1.47a2 2 0 0 1 .8-.58c.35-.14.77-.14 1.6-.14h3.38c.83 0 1.25 0 1.6.14a2 2 0 0 1 .8.58c.25.29.38.68.64 1.47L20 15m1 6v-2.8c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88c-.43-.22-.99-.22-2.11-.22h-5.6c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C9 16.52 9 17.08 9 18.2V21m0-1h12m-3.01-2.5H18"
         fill="none"
       />

@@ -17,9 +17,9 @@ export function Stopwatch10({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 4.5a9 9 0 1 0 0 18 9 9 0 0 0 0-18"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
@@ -28,9 +28,9 @@ export function Stopwatch10({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M14.2 9.5a2.5 2.5 0 0 0-2.5 2.5v3a2.5 2.5 0 0 0 5 0v-3a2.5 2.5 0 0 0-2.5-2.5m-.5 2.5a.5.5 0 0 1 1 0v3a.5.5 0 1 1-1 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

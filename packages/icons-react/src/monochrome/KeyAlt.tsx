@@ -22,9 +22,9 @@ export function KeyAlt({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M22 9a7 7 0 0 1-9.53 6.53l-4-4A7 7 0 1 1 22 9m-5.5 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

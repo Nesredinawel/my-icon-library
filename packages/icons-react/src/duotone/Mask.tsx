@@ -4,7 +4,7 @@ export function Mask({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function Mask({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M8 12H7m10 0h-1m-4-3.5 3.58-1.08c.5-.15.76-.22 1.01-.25a3 3 0 0 1 .81.01c.26.04.5.12 1 .29 1.53.5 2.3.76 2.79 1.24a3 3 0 0 1 .9 1.89c.06.68-.23 1.43-.8 2.94l-.51 1.38c-.28.75-.42 1.13-.67 1.4a2 2 0 0 1-.78.55c-.35.13-.75.13-1.55.13h-1.02c-.29 0-.43 0-.56-.02l-.37-.08-.5-.24-.47-.23a9 9 0 0 0-2.12-.89 4 4 0 0 0-1.48 0 9 9 0 0 0-2.12.9l-.46.22c-.26.13-.38.2-.51.24l-.36.08c-.14.02-.28.02-.57.02H6.22c-.8 0-1.2 0-1.54-.13a2 2 0 0 1-.8-.55c-.24-.27-.38-.65-.66-1.4l-.52-1.38c-.56-1.51-.85-2.26-.79-2.94a3 3 0 0 1 .9-1.9c.5-.47 1.26-.72 2.79-1.23.5-.17.74-.25 1-.29a3 3 0 0 1 .81-.01c.25.03.5.1 1 .25z"
         fill="none"
       />

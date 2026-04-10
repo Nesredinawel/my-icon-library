@@ -17,9 +17,9 @@ export function SwitchHorizontal({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M17.3 3.3a1 1 0 0 1 1.4 0l3 3a1 1 0 0 1 0 1.4l-3 3a1 1 0 0 1-1.4-1.4L18.58 8H7a1 1 0 0 1 0-2h11.59l-1.3-1.3a1 1 0 0 1 0-1.4m-10.6 10a1 1 0 0 1 0 1.4L5.42 16H17a1 1 0 1 1 0 2H5.41l1.3 1.3a1 1 0 1 1-1.42 1.4l-3-3a1 1 0 0 1 0-1.4l3-3a1 1 0 0 1 1.42 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

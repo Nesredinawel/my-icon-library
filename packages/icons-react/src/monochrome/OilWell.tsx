@@ -22,9 +22,9 @@ export function OilWell({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M20.19 4.46a4 4 0 0 0-5.45-1.95l-.19.1a1 1 0 0 0-.46 1.3l1.6 3.6L5 12.43V10a1 1 0 1 0-2 0v10a1 1 0 1 0 0 2h18a1 1 0 0 0 0-2H5v-5.36l11.5-5.3 1.59 3.57a1 1 0 0 0 1.36.48l.43-.21a4 4 0 0 0 1.87-5.2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

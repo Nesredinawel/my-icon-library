@@ -17,9 +17,9 @@ export function ClockSevenThirty({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20m1 10a1 1 0 0 0-1.86-.51l-1.5 2.5A1 1 0 0 0 11 15.37V17a1 1 0 1 0 2 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

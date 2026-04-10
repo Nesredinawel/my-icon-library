@@ -17,9 +17,9 @@ export function Capsule({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M10.8 5.2a3.95 3.95 0 0 0-5.6 5.6l3.3 3.29 5.59-5.59zm1.4-1.4a5.95 5.95 0 1 0-8.4 8.4l8 8a5.95 5.95 0 1 0 8.4-8.4z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

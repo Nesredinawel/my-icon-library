@@ -21,9 +21,9 @@ export function MonitorMedical({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h6v2H8a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2h-3v-2h6a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3zm0 2a1 1 0 0 0-1 1v9h16V5a1 1 0 0 0-1-1z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -17,9 +17,9 @@ export function ArrowSmLeft({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M11.7 6.3a1 1 0 0 1 0 1.4L8.42 11H18a1 1 0 1 1 0 2H8.41l3.3 3.3a1 1 0 0 1-1.42 1.4l-5-5a1 1 0 0 1 0-1.4l5-5a1 1 0 0 1 1.42 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -17,9 +17,9 @@ export function BookUser({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M15.84 2H8.16q-.8 0-1.36.03c-.39.03-.78.1-1.16.3a3 3 0 0 0-1.31 1.3c-.2.39-.27.78-.3 1.17Q4 5.37 4 6.16V19a3 3 0 0 0 3 3h12a1 1 0 1 0 0-2H6.9a1 1 0 0 1 .1-2h12a1 1 0 0 0 1-1V6.16q0-.8-.03-1.36a3 3 0 0 0-.3-1.16 3 3 0 0 0-1.3-1.31c-.39-.2-.78-.27-1.18-.3Q16.65 2 15.85 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

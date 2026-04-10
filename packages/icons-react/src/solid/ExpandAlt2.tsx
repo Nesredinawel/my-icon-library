@@ -17,9 +17,9 @@ export function ExpandAlt2({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M16.5 4a1 1 0 1 1 0-2H21a1 1 0 0 1 1 1v4.5a1 1 0 1 1-2 0V5.41L5.41 20H7.5a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1v-4.5a1 1 0 1 1 2 0v2.09L18.59 4z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

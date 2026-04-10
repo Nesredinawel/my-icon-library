@@ -22,9 +22,9 @@ export function MoonStars({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8.63 4.3c.3.29.38.73.2 1.11a7.37 7.37 0 0 0 9.75 9.75 1 1 0 0 1 1.33 1.33 9.37 9.37 0 1 1-12.4-12.4 1 1 0 0 1 1.12.2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -17,9 +17,9 @@ export function MessageCircleImage({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2.08 20.6v.01A1 1 0 0 0 3 22h9a10 10 0 1 0-9.84-8.24v.01q.05.33.14.64v.01a10 10 0 0 0 .76 2.07l.02.16q.01.21-.02.55c-.05.45-.17.98-.32 1.5a20 20 0 0 1-.64 1.88zM4 12a8 8 0 0 1 15.7-2.23l-3.05-2.54a1 1 0 0 0-1.35.06l-4.34 4.35-2.8-2.4a1 1 0 0 0-1.35.05L4 12.04z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

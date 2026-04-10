@@ -17,9 +17,9 @@ export function SquareParkingSlash({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3.7 2.3a1 1 0 0 0-1.4 1.4l1 1C3 5.35 3 6.19 3 7.8v8.4c0 1.68 0 2.52.33 3.16a3 3 0 0 0 1.3 1.31c.65.33 1.49.33 3.17.33h8.4c1.62 0 2.46 0 3.1-.3l1 1a1 1 0 0 0 1.4-1.4zM12.6 14 8.5 9.91V16a1 1 0 1 0 2 0v-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

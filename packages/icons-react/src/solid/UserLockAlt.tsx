@@ -21,9 +21,9 @@ export function UserLockAlt({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M17 14a3 3 0 0 0-3 3v.27A2 2 0 0 0 13 19v1c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2v-1a2 2 0 0 0-1-1.73V17a3 3 0 0 0-3-3m-1 3a1 1 0 1 1 2 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

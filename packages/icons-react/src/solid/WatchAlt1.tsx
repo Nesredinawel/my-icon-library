@@ -21,9 +21,9 @@ export function WatchAlt1({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 12a6 6 0 1 1 12 0 6 6 0 0 1-12 0m6-3a1 1 0 0 1 1 1v1.59l1.2 1.2a1 1 0 0 1-1.4 1.42l-1.5-1.5A1 1 0 0 1 8 12v-2a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

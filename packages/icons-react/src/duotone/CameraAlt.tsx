@@ -4,7 +4,7 @@ export function CameraAlt({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,17 +19,17 @@ export function CameraAlt({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M21 7.2v9.6c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22H6.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C3 18.48 3 17.92 3 16.8v-6.6c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C4.52 7 5.08 7 6.2 7h1.47c.5 0 .74 0 .97-.06a2 2 0 0 0 .58-.23c.2-.13.37-.3.72-.65l1.12-1.12c.35-.35.52-.52.72-.65a2 2 0 0 1 .58-.23c.23-.06.48-.06.97-.06h4.47c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11M12 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         color={secondaryColor}
         opacity={secondaryOpacity}
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M3 4h5m-5 8h6.17m5.66 0H21m0-4.8v9.6c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22H6.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C3 18.48 3 17.92 3 16.8v-6.6c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C4.52 7 5.08 7 6.2 7h1.47c.5 0 .74 0 .97-.06a2 2 0 0 0 .58-.23c.2-.13.37-.3.72-.65l1.12-1.12c.35-.35.52-.52.72-.65a2 2 0 0 1 .58-.23c.23-.06.48-.06.97-.06h4.47c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11M15 13a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
         fill="none"
       />

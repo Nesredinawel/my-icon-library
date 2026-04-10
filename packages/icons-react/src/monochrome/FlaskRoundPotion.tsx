@@ -21,9 +21,9 @@ export function FlaskRoundPotion({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6 3a1 1 0 0 1 1-1h10a1 1 0 1 1 0 2h-1v5.07a8 8 0 0 1 1.6 12.64 1 1 0 0 1-.7.29H7.1a1 1 0 0 1-.7-.29A7.98 7.98 0 0 1 8 9.07V4H7a1 1 0 0 1-1-1m4 1v5.67a1 1 0 0 1-.57.9A6 6 0 0 0 7.53 20h8.94a6 6 0 0 0-1.9-9.42 1 1 0 0 1-.57-.9V4z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
     </svg>

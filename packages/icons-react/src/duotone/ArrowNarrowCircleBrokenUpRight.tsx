@@ -4,7 +4,7 @@ export function ArrowNarrowCircleBrokenUpRight({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -27,9 +27,9 @@ export function ArrowNarrowCircleBrokenUpRight({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M14 15.66V10m0 0H8.34M14 10l-8.36 8.36m4.6 2.47a9 9 0 1 0-7.07-7.07"
         fill="none"
       />

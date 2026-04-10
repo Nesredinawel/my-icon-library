@@ -19,9 +19,9 @@ export function ListUlAlt1({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M8 8h12m-9 4h9m-6 4h6m-10 0"
         fill="none"
       />

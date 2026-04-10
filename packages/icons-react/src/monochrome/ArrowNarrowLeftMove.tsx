@@ -22,9 +22,9 @@ export function ArrowNarrowLeftMove({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8.7 7.3a1 1 0 0 1 0 1.4L6.42 11H16a1 1 0 1 1 0 2H6.41l2.3 2.3a1 1 0 1 1-1.42 1.4l-4-4a1 1 0 0 1 0-1.4l4-4a1 1 0 0 1 1.42 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

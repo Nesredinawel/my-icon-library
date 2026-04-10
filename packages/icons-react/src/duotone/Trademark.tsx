@@ -19,9 +19,9 @@ export function Trademark({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M3 7h6M6 17V7m7 10V7l4 7 4-7v10"
         fill="none"
       />

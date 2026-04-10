@@ -12,8 +12,8 @@ export function WindWarning({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,7 +22,7 @@ export function WindWarning({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
         d="M11 16a5 5 0 1 1 1.58-6M8 10v1m0 3h.01M16 10h2.5a2.5 2.5 0 0 0 0-5H17m-6 8h7a3 3 0 1 1 0 6h-2"
         fill="none"
       />

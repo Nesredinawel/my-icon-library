@@ -12,8 +12,8 @@ export function RepeatAlt({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function RepeatAlt({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M10 17H8A6 6 0 0 1 8 5h8a6 6 0 0 1 0 12h-2m3 3-3-3m0 0 3-3"
         fill="none"
       />

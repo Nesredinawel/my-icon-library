@@ -17,9 +17,9 @@ export function CleaverBlood({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M16.76 2a1 1 0 0 1 .71.29l4.24 4.24a1 1 0 0 1 0 1.41l-7.5 7.5a1 1 0 0 1-1.42 0l-1.41-1.4-5.12 5.11a2.5 2.5 0 1 1-3.54-3.53L16.06 2.29a1 1 0 0 1 .7-.3m-9 11.41-3.62 3.62a.5.5 0 1 0 .7.71l3.62-3.62z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

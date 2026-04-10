@@ -19,9 +19,9 @@ export function LineHeight({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M13 6h8m-8 6h8m-8 6h8M6 4v16M6 4 3 7m3-3 3 3M6 20l-3-3m3 3 3-3"
         fill="none"
       />

@@ -17,9 +17,9 @@ export function TextWidth({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0V4h-6v7h2a1 1 0 1 1 0 2H9a1 1 0 1 1 0-2h2V4H5v2a1 1 0 0 1-2 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

@@ -19,9 +19,9 @@ export function CompressWide({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M8 5v5H3m13-5v5h5M3 14h5v5m8 0v-5h5"
         fill="none"
       />

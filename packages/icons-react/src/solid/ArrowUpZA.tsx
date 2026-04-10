@@ -17,9 +17,9 @@ export function ArrowUpZA({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6.3 2.3a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L8 5.42V21a1 1 0 1 1-2 0V5.41l-2.3 2.3a1 1 0 0 1-1.4-1.42zM18 2a1 1 0 0 1 .92.6l3 7a1 1 0 1 1-1.84.8l-.17-.4H16.1l-.17.4a1 1 0 1 1-1.84-.8l3-7A1 1 0 0 1 18 2m-1.05 6h2.1L18 5.54zm-2.45 6a1 1 0 0 1 1-1h5a1 1 0 0 1 .81 1.58L17.44 20h3.06a1 1 0 1 1 0 2h-5a1 1 0 0 1-.81-1.58L18.56 15H15.5a1 1 0 0 1-1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

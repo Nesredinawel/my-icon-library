@@ -17,9 +17,9 @@ export function MaskFace({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 5a4.3 4.3 0 0 0-2.39.72l-.66.45c-.52.34-.7.45-.87.54a3 3 0 0 1-.86.26C7.02 7 6.82 7 6.2 7H6a1 1 0 0 0-1 1v4a7 7 0 1 0 14 0V8a1 1 0 0 0-1-1h-.2c-.61 0-.82 0-1.02-.03a3 3 0 0 1-.86-.26c-.18-.09-.35-.2-.87-.54l-.66-.45A4.3 4.3 0 0 0 12 5"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

@@ -22,9 +22,9 @@ export function DongSign({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M16 2a1 1 0 0 1 1 1v14a1 1 0 1 1-2 0v-.54q-.9.53-2 .54a4 4 0 1 1 2-7.46V3a1 1 0 0 1 1-1m-1 11a2 2 0 1 0-4 0 2 2 0 0 0 4 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

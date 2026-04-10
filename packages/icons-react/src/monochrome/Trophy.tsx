@@ -17,9 +17,9 @@ export function Trophy({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8.54 2h6.92q.37 0 .67.02.34 0 .74.18c.4.2.74.52.93.93q.18.4.18.74.03.3.02.67V9a6 6 0 0 1-5 5.92V16q.59 0 1.04.13a4 4 0 0 1 2.82 2.82c.14.52.14 1.1.14 1.9V21a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-.14c0-.8 0-1.38.14-1.9A4 4 0 0 1 11 16.01v-1.1A6 6 0 0 1 6 9V4.54q0-.37.02-.67 0-.34.18-.74a2 2 0 0 1 .93-.93q.4-.18.74-.18.3-.02.67-.02"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

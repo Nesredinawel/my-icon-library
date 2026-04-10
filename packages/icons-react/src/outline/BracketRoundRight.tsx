@@ -12,8 +12,8 @@ export function BracketRoundRight({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,7 +22,7 @@ export function BracketRoundRight({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
         d="M10 3a12.96 12.96 0 0 1 0 18"
         fill="none"
       />

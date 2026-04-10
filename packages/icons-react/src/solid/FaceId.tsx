@@ -21,9 +21,9 @@ export function FaceId({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5 12a7 7 0 1 1 14 0 7 7 0 0 1-14 0m7-5a5 5 0 1 0 0 10 5 5 0 0 0 0-10"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

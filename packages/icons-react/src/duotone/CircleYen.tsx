@@ -4,7 +4,7 @@ export function CircleYen({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -27,9 +27,9 @@ export function CircleYen({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M12 18v-6m0 0L9 7m3 5 3-5m-6 6h6m-6 3h6m6-4a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
         fill="none"
       />

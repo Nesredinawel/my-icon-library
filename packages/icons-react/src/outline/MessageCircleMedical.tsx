@@ -12,8 +12,8 @@ export function MessageCircleMedical({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function MessageCircleMedical({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M10 12h4m-2-2v4m9-2a9 9 0 0 1-9 9H3s1.56-3.74.94-5A9 9 0 1 1 21 12"
         fill="none"
       />

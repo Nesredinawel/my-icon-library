@@ -17,9 +17,9 @@ export function Cookie({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 12A10 10 0 0 1 12 2a1 1 0 0 1 1 1c0 2.43 1.54 4 3 4a1 1 0 0 1 1 1c0 1.46 1.57 3 4 3a1 1 0 0 1 1 1 10 10 0 0 1-20 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

@@ -17,9 +17,9 @@ export function SpellCheck({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5.16 8.5h1.68L6 5.58zm2.24 2 .64 2.27a1 1 0 1 0 1.92-.54l-2-7.15C7.68 4.22 6.93 3.5 6 3.5c-.95 0-1.7.73-1.96 1.6q-1.02 3.56-2 7.13a1 1 0 0 0 1.92.54l.64-2.27zm3.6-6a1 1 0 0 1 1-1h3a3 3 0 0 1 2.61 4.47A3 3 0 0 1 16 13.5h-4a1 1 0 0 1-1-1zm2 5v2h3a1 1 0 1 0 0-2zm0-2h2a1 1 0 1 0 0-2h-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

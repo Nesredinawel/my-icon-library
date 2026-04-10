@@ -21,9 +21,9 @@ export function ToiletsPortable({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 19v-9h8v9a1 1 0 1 1-2 0v-1H5v1a1 1 0 1 1-2 0m7-6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3-3v9a1 1 0 1 0 2 0v-1h4v1a1 1 0 1 0 2 0v-9zm7 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

@@ -12,8 +12,8 @@ export function CircleParkingSplash({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function CircleParkingSplash({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M9.09 3.48A9 9 0 0 1 21 12q0 1.54-.48 2.91m-2.16 3.45A9 9 0 0 1 5.63 5.64M3 3l18 18M13.7 8.1a2.5 2.5 0 0 1 1.7 1.69M9.5 9.5V16"
         fill="none"
       />

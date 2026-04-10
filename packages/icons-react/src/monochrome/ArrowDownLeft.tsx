@@ -17,16 +17,16 @@ export function ArrowDownLeft({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M17.7 6.3a1 1 0 0 1 0 1.4l-10 10a1 1 0 0 1-1.4-1.4l10-10a1 1 0 0 1 1.4 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M7 6a1 1 0 0 1 1 1v9h9a1 1 0 1 1 0 2H7a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

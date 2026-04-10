@@ -17,16 +17,16 @@ export function TriangleInstrument({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a1 1 0 0 1 1 1v2.11a3 3 0 0 1 1.59 1.31l6.5 11.06A3 3 0 0 1 18.5 22h-13a3 3 0 0 1-2.59-4.52l6.5-11.06c.39-.65.96-1.09 1.59-1.3V3a1 1 0 0 1 1-1m-.86 5.44-6.5 11.05A1 1 0 0 0 5.5 20h13a1 1 0 0 0 .87-1.5l-6.5-11.06a1 1 0 0 0-1.73 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M20.7 6.3a1 1 0 0 1 0 1.4l-6 6q.3.6.3 1.3a3 3 0 1 1-1.7-2.7l6-6a1 1 0 0 1 1.4 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

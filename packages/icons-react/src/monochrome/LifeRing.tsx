@@ -22,9 +22,9 @@ export function LifeRing({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M18.33 4.26q.78.64 1.41 1.41l-4.3 4.3a4 4 0 0 1 0 4.06l4.3 4.3q-.64.79-1.41 1.41l-4.3-4.3a4 4 0 0 1-4.06 0l-4.3 4.3q-.78-.64-1.41-1.41l4.3-4.3a4 4 0 0 1 0-4.06l-4.3-4.3q.64-.78 1.41-1.41l4.3 4.3a4 4 0 0 1 4.06 0zM10 12a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

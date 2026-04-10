@@ -17,16 +17,16 @@ export function ClockFive({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M13 7a1 1 0 1 0-2 0v5q0 .3.17.55l2 3a1 1 0 0 0 1.66-1.1L13 11.7z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

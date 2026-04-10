@@ -4,7 +4,7 @@ export function GraduationHat({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function GraduationHat({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M7.54 11.77 12 14l7-3.5M7.54 11.77V21m0-9.23L12 9.54m-4.46 2.23L5 10.5m14 0L22 9 12 4 2 9l3 1.5m14 0v6L12 20l-7-3.5v-6"
         fill="none"
       />

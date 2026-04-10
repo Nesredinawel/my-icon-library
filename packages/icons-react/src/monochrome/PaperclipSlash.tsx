@@ -17,9 +17,9 @@ export function PaperclipSlash({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2.3 2.3a1 1 0 0 1 1.4 0l18 18a1 1 0 0 1-1.4 1.4l-18-18a1 1 0 0 1 0-1.4"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <g fill="currentColor" opacity=".3">
         <path d="m15.54 16.95-1.42-1.41L12 17.66A4 4 0 1 1 6.34 12l2.12-2.12-1.41-1.42-2.12 2.13a6 6 0 0 0 8.48 8.48z" />

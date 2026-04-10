@@ -17,9 +17,9 @@ export function Frame({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6 2a1 1 0 0 1 1 1v2h10V3a1 1 0 1 1 2 0v2h2a1 1 0 1 1 0 2h-2v10h2a1 1 0 1 1 0 2h-2v2a1 1 0 1 1-2 0v-2H7v2a1 1 0 1 1-2 0v-2H3a1 1 0 1 1 0-2h2V7H3a1 1 0 0 1 0-2h2V3a1 1 0 0 1 1-1m1 5v10h10V7z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

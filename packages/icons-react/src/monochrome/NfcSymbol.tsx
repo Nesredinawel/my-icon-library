@@ -22,9 +22,9 @@ export function NfcSymbol({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M7.5 4.2a1 1 0 0 1 1.2.16l6 5.93a1 1 0 1 1-1.4 1.42L7.87 6.35a7 7 0 0 0 .63 11.71 1 1 0 0 1-1 1.74 9 9 0 0 1 0-15.6"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

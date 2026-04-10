@@ -19,9 +19,9 @@ export function CodeAlt({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m9 8-4 3.7L9 16m6-8 4 3.7-4 4.3"
         fill="none"
       />

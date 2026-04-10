@@ -17,9 +17,9 @@ export function SpiderWidow({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M11.2 5.88a1.5 1.5 0 0 0-1.35.39c-.32.3-.4.72-.43.91q-.05.34-.09.8l-.25 3.04-.02.22-.28.39A3.99 3.99 0 0 0 12 18a4 4 0 0 0 3.22-6.37l-.28-.38v-.01l-.02-.22-.25-3.04-.09-.8a1.6 1.6 0 0 0-.43-.91 1.5 1.5 0 0 0-1.34-.39c-.4.08-.67.34-.81.5a1.6 1.6 0 0 0-.8-.5M12 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

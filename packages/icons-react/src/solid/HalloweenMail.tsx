@@ -21,9 +21,9 @@ export function HalloweenMail({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M14.54 14.1 17 12.46V7H7v5.46l2.45 1.64.2-.14.02-.01.11-.08c.53-.35 1-.66 1.52-.79a3 3 0 0 1 1.4 0c.52.13.99.44 1.52.8l.1.07.03.01zm-3.15-3.65a1 1 0 0 0-.44-1.34l-1-.5a1 1 0 1 0-.9 1.78l1 .5a1 1 0 0 0 1.34-.44m1.66-1.34a1 1 0 0 0 .9 1.78l1-.5a1 1 0 0 0-.9-1.78z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

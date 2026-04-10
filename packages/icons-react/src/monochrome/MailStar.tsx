@@ -22,9 +22,9 @@ export function MailStar({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M18.82 12.93a1 1 0 0 0-1.64 0l-1.21 1.77-2.06.6a1 1 0 0 0-.5 1.57l1.3 1.7-.06 2.14a1 1 0 0 0 1.33.97l2.02-.72 2.02.72a1 1 0 0 0 1.33-.97l-.06-2.14 1.3-1.7a1 1 0 0 0-.5-1.57l-2.06-.6z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

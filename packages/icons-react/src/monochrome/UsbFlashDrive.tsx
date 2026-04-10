@@ -17,9 +17,9 @@ export function UsbFlashDrive({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6.22 3.1C6 3.51 6 4.07 6 5.2v3.82Q6.46 9 7.2 9h9.6q.74 0 1.2.02V5.2c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C16.48 2 15.92 2 14.8 2H9.2c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

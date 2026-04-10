@@ -17,9 +17,9 @@ export function AlarmClockAlt({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 12.5a9 9 0 1 1 18 0 9 9 0 0 1-18 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
@@ -28,9 +28,9 @@ export function AlarmClockAlt({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M13 9a1 1 0 1 0-2 0v4q0 .42.3.7l2 2a1 1 0 0 0 1.4-1.4L13 12.58z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

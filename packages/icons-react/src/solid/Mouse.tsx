@@ -17,9 +17,9 @@ export function Mouse({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M7 5.68a3.87 3.87 0 0 1 4.81-3.76l5.07 1.27A5.4 5.4 0 0 1 21 8.46v5.9A7.64 7.64 0 0 1 13.36 22H13l-.23-.03A6.36 6.36 0 0 1 7 15.64zM15 8a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

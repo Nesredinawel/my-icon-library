@@ -22,9 +22,9 @@ export function GridCircle({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 7a4 4 0 1 1 8 0 4 4 0 0 1-8 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -12,8 +12,8 @@ export function Drum({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function Drum({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M21 10c0 2.2-4.03 4-9 4m9-4c0-2.2-4.03-4-9-4s-9 1.8-9 4m18 0v6c0 2.2-4.03 4-9 4m0-6c-4.97 0-9-1.8-9-4m9 4v6M3 10v6c0 2.2 4.03 4 9 4m-5-.67v-6m10 6v-6M12 10l8-6"
         fill="none"
       />

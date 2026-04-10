@@ -22,9 +22,9 @@ export function HatWitch({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="m4.27 17.5.77-2H9.5V15a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v.5h4.38l.8 2H14.5v.5a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1v-.5zM12.5 16h-1v1h1z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

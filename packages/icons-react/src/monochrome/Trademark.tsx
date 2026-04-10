@@ -22,9 +22,9 @@ export function Trademark({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 7a1 1 0 0 1 1-1h6a1 1 0 0 1 0 2H7v9a1 1 0 1 1-2 0V8H3a1 1 0 0 1-1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

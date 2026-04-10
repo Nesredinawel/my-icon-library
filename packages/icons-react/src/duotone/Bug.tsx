@@ -4,7 +4,7 @@ export function Bug({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function Bug({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M12 19a5 5 0 0 1-5-5m5 5a5 5 0 0 0 5-5m-5 5v-5m-5 0v-2.14c0-.8 0-1.2.11-1.52A2 2 0 0 1 8.34 9.1c.32-.1.72-.1 1.52-.1h4.28a5 5 0 0 1 1.52.11 2 2 0 0 1 1.23 1.23 5 5 0 0 1 .11 1.52V14M7 14H4m13 0h3m-3-4 2.5-2.5m-15 13L8 17m-1-7L4.5 7.5m15 13L16 17M14 6V5a2 2 0 1 0-4 0v1z"
         fill="none"
       />

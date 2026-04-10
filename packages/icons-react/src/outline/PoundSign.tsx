@@ -12,8 +12,8 @@ export function PoundSign({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,7 +22,7 @@ export function PoundSign({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
         d="M5 20h14M5 13h10m3-6.18A5 5 0 0 0 8.5 9v8a3 3 0 0 1-3 3"
         fill="none"
       />

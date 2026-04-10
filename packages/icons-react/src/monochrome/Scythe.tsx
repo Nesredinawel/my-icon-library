@@ -22,9 +22,9 @@ export function Scythe({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2.36 5.73a1 1 0 0 1 1.41.13l12 14.5a1 1 0 0 1-1.54 1.28l-12-14.5a1 1 0 0 1 .13-1.41"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

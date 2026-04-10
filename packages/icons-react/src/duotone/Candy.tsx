@@ -4,7 +4,7 @@ export function Candy({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,8 +25,8 @@ export function Candy({
       />
       <path
         stroke="currentColor"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M7 9h10v6H7zM3 9l4 3-4 3zm18 0-4 3 4 3z"
         fill="none"
       />

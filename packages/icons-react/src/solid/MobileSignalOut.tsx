@@ -17,9 +17,9 @@ export function MobileSignalOut({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M10.01 3a3 3 0 0 0 .76 2 3 3 0 0 0 0 4A3 3 0 0 0 13 14h.01a3 3 0 0 0 2-.76 3 3 0 0 0 .99.59V19a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h5.18a3 3 0 0 0-.17 1M8 18a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

@@ -22,9 +22,9 @@ export function DiagramVenn({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M9 4a8 8 0 1 0 0 16A8 8 0 0 0 9 4m-6 8a6 6 0 0 1 11.2-3H9.8q-.53.91-.72 2h5.84a6 6 0 0 1 0 2H9.08q.19 1.09.72 2h4.4a6 6 0 0 1-4.53 2.96Q9.34 18 9 18a6 6 0 0 1-6-6"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

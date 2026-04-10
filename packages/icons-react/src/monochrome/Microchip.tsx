@@ -23,9 +23,9 @@ export function Microchip({
       <path fill="currentColor" d="M10 14v-4h4v4z" />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5 11.4c0-2.24 0-3.36.44-4.22a4 4 0 0 1 1.74-1.74C8.04 5 9.16 5 11.4 5h1.2c2.24 0 3.36 0 4.22.44a4 4 0 0 1 1.74 1.74c.44.86.44 1.98.44 4.22v1.2c0 2.24 0 3.36-.44 4.22a4 4 0 0 1-1.74 1.74c-.86.44-1.98.44-4.22.44h-1.2c-2.24 0-3.36 0-4.22-.44a4 4 0 0 1-1.74-1.74C5 15.96 5 14.84 5 12.6zM8 9a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

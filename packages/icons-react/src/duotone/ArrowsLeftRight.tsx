@@ -19,9 +19,9 @@ export function ArrowsLeftRight({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M3 12h18M3 12l4-4m-4 4 4 4m14-4-4 4m4-4-4-4"
         fill="none"
       />

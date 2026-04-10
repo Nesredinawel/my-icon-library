@@ -4,7 +4,7 @@ export function CertificateCheck({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function CertificateCheck({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m9 12 2 2 4-4m-3-7 1.91 1.87 2.59-.66.72 2.57 2.57.72-.66 2.59L21 12l-1.87 1.91.66 2.59-2.57.72-.72 2.57-2.59-.66L12 21l-1.91-1.87-2.59.66-.72-2.57-2.57-.72.66-2.59L3 12l1.87-1.91-.66-2.59 2.57-.72.72-2.57 2.59.66z"
         fill="none"
       />

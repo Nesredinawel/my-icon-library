@@ -4,7 +4,7 @@ export function Font({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function Font({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M16 21h3.5M6 21l2.33-7M18 21l-2.33-7M4.5 21H8m.33-7L12 3l3.67 11m-7.34 0h7.34"
         fill="none"
       />

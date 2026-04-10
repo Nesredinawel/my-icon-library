@@ -4,7 +4,7 @@ export function Moon({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function Moon({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M3.32 11.68a9 9 0 0 0 17.36 3.35A8.99 8.99 0 0 1 8.96 3.33a9 9 0 0 0-5.64 8.35"
         fill="none"
       />

@@ -12,8 +12,8 @@ export function BorderBottom({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function BorderBottom({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M20 20H4M16 4h.01M16 12h.01M20 4h.01M20 8h.01M20 12h.01M20 16h.01"
         fill="none"
       />

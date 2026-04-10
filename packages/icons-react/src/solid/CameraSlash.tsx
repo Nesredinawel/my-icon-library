@@ -17,9 +17,9 @@ export function CameraSlash({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3.7 2.3a1 1 0 0 0-1.4 1.4l1.53 1.54-.2.09a3 3 0 0 0-1.3 1.3c-.2.39-.27.78-.3 1.17Q2 8.38 2 9.16v7.68q0 .8.03 1.36c.03.39.1.78.3 1.16a3 3 0 0 0 1.3 1.31c.39.2.78.27 1.17.3q.57.04 1.36.03h11.68q.8 0 1.36-.03.15 0 .32-.04l.77.78a1 1 0 0 0 1.42-1.42l-.4-.39q.02 0 .03-.02l-.14-.1zm11.62 14.44-1.42-1.42a3 3 0 0 1-4.22-4.22L8.26 9.68a5 5 0 0 0 7.06 7.06"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

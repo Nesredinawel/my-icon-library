@@ -22,9 +22,9 @@ export function BluetoothSignal({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M7.62 1.08a1 1 0 0 1 1.09.21l5 5a1 1 0 0 1 0 1.42L9.4 12l4.3 4.3a1 1 0 0 1 0 1.4l-5 5A1 1 0 0 1 7 22v-7.59l-3.3 3.3a1 1 0 1 1-1.4-1.42L6.58 12l-4.3-4.3A1 1 0 0 1 3.7 6.3L7 9.58V2a1 1 0 0 1 .62-.92M9 14.4l2.59 2.6L9 19.59zm0-4.8V4.4L11.59 7z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

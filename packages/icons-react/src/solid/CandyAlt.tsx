@@ -17,9 +17,9 @@ export function CandyAlt({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 8a4 4 0 0 0-4 4.08L12.08 8zm2.22.7L8.7 14.22q.44.65 1.08 1.08l5.52-5.52q-.44-.65-1.08-1.08M16 11.9 11.9 16h.1a4 4 0 0 0 4-4.09m1.72-1.7a6 6 0 0 0-11.45 0L3.6 8.2A1 1 0 0 0 2 9v6a1 1 0 0 0 1.6.8l2.68-2.01a6 6 0 0 0 11.45 0l2.67 2.01A1 1 0 0 0 22 15V9a1 1 0 0 0-1.6-.8zm.95 1.79L20 11v2zM5.33 12 4 13v-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

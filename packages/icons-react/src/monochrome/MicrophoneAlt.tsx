@@ -17,9 +17,9 @@ export function MicrophoneAlt({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M4 11a1 1 0 0 1 1 1v1a7 7 0 1 0 14 0v-1a1 1 0 1 1 2 0v1a9 9 0 1 1-18 0v-1a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path fill="currentColor" d="M7 7a5 5 0 0 1 10 0v6a5 5 0 0 1-10 0z" />

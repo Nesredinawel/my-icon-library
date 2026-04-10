@@ -4,7 +4,7 @@ export function Thumbtack({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function Thumbtack({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M8 3v5.5a7.5 7.5 0 0 0-3 6v.5h14v-.5a7.5 7.5 0 0 0-3-6V3M6 3h12m-6 7v11"
         fill="none"
       />

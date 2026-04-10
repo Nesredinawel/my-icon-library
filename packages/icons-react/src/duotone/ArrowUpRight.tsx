@@ -19,9 +19,9 @@ export function ArrowUpRight({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M7 17 17 7m0 0H8m9 0v9"
         fill="none"
       />

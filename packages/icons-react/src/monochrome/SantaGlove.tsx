@@ -22,9 +22,9 @@ export function SantaGlove({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 19a3 3 0 0 1 3-3h12a3 3 0 1 1 0 6H5a3 3 0 0 1-3-3"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

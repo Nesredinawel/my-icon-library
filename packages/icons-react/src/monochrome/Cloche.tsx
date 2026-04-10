@@ -17,9 +17,9 @@ export function Cloche({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M14.5 4.5q0 .43-.14.81A9 9 0 0 1 20.78 16H3.22A9.03 9.03 0 0 1 9.64 5.31a2.5 2.5 0 1 1 4.86-.81M12 8a1 1 0 1 0 0 2c1.12 0 1.92.22 2.54.6q.91.55 1.57 1.85a1 1 0 1 0 1.78-.9 6.3 6.3 0 0 0-2.3-2.65Q14.08 7.99 12 8"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path fill="currentColor" d="M4 18a2 2 0 1 0 0 4h16a2 2 0 1 0 0-4z" />

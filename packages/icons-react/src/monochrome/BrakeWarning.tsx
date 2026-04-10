@@ -17,9 +17,9 @@ export function BrakeWarning({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 6a6 6 0 1 0 0 12 6 6 0 0 0 0-12"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

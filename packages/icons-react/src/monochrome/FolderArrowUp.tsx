@@ -22,9 +22,9 @@ export function FolderArrowUp({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M13 12.41V16a1 1 0 1 1-2 0v-3.59l-.3.3a1 1 0 0 1-1.4-1.42l2-2a1 1 0 0 1 1.4 0l2 2a1 1 0 0 1-1.4 1.42z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

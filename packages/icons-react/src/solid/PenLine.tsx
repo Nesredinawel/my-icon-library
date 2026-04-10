@@ -17,9 +17,9 @@ export function PenLine({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 20.5c0-.55.42-1 .93-1h7.46c.51 0 .93.45.93 1s-.42 1-.93 1h-7.46c-.51 0-.93-.45-.93-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

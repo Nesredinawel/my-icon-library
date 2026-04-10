@@ -22,9 +22,9 @@ export function ArrowNarrowLeftAlignment({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12.7 7.3a1 1 0 0 1 0 1.4L10.42 11H20a1 1 0 1 1 0 2h-9.59l2.3 2.3a1 1 0 0 1-1.42 1.4l-4-4a1 1 0 0 1 0-1.4l4-4a1 1 0 0 1 1.42 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

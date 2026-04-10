@@ -4,7 +4,7 @@ export function Bat({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function Bat({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M17.01 17.77a3 3 0 0 1 4.41-2.41 10 10 0 0 0-3.45-11.38q.03.25.03.52a4.5 4.5 0 0 1-4 4.47V5l-1 2h-2l-1-2v3.97a4.5 4.5 0 0 1-3.97-5 10 10 0 0 0-3.45 11.39Q3.2 15 4 15a3 3 0 0 1 3 2.77A3 3 0 0 1 12 20a3 3 0 0 1 5-2.23"
         fill="none"
       />

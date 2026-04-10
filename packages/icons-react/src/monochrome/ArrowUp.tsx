@@ -17,16 +17,16 @@ export function ArrowUp({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 4a1 1 0 0 1 1 1v14a1 1 0 1 1-2 0V5a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M11.3 4.3a1 1 0 0 1 1.4 0l6 6a1 1 0 0 1-1.4 1.4L12 6.42l-5.3 5.3a1 1 0 0 1-1.4-1.42z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -17,9 +17,9 @@ export function Moped({
     >
       <g fill="currentColor" opacity=".3">
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M15 17.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0m3.5-1.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path d="M7.91 18h2.05a3.5 3.5 0 0 1-6.92 0h2.05a1.5 1.5 0 0 0 2.82 0M5 6a1 1 0 0 0 0 2h4a1 1 0 0 0 0-2z" />
       </g>

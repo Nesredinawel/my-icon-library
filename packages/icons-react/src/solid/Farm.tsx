@@ -21,9 +21,9 @@ export function Farm({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M15.43 4.1a1 1 0 0 0-.86 0l-4.16 2a1 1 0 0 0-.5.55l-1.85 5A1 1 0 0 0 8 12v9a1 1 0 0 0 1 1h4v-5a2 2 0 1 1 4 0v5h4a1 1 0 0 0 1-1v-9a1 1 0 0 0-.06-.35l-1.85-5a1 1 0 0 0-.5-.55zM13.5 9a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

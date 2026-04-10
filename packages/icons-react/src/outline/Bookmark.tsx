@@ -12,8 +12,8 @@ export function Bookmark({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,7 +22,7 @@ export function Bookmark({
     >
       <path
         stroke="currentColor"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
         d="M5 6.2c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C6.52 3 7.08 3 8.2 3h7.6c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11V21l-7-5-7 5z"
         fill="none"
       />

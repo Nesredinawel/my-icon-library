@@ -17,9 +17,9 @@ export function TemperatureSun({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 6a4 4 0 1 1 8 0v8a5 5 0 1 1-8 0zm3.99 3.5a1 1 0 0 1 1 1v4.77a2 2 0 1 1-2 0V10.5a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

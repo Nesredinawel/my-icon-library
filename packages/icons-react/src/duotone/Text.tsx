@@ -19,9 +19,9 @@ export function Text({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M12 3v18m-3 0h6m4-15V3H5v3"
         fill="none"
       />

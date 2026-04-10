@@ -17,9 +17,9 @@ export function Text({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M4 3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0V4h-5v16h2a1 1 0 1 1 0 2H9a1 1 0 1 1 0-2h2V4H6v2a1 1 0 0 1-2 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

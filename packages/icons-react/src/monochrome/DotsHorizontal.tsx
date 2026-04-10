@@ -22,9 +22,9 @@ export function DotsHorizontal({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M4 12a2 2 0 1 1 4 0 2 2 0 0 1-4 0m12 0a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

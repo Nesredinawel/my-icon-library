@@ -12,8 +12,8 @@ export function CircleExclamationCheck({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function CircleExclamationCheck({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M19.48 7a9 9 0 1 0-.77 11M16 12.29 17.8 14l4.2-4M12 8v5m0 3"
         fill="none"
       />

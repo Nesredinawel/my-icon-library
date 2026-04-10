@@ -21,9 +21,9 @@ export function CircleRadiation({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20M9.83 6.45a1 1 0 0 0-1.32-.32A6.8 6.8 0 0 0 5 12a1 1 0 0 0 1 1h3.17a3 3 0 0 0 .61 1.02l-1.61 2.43a1 1 0 0 0 .24 1.36A6 6 0 0 0 12 19c1.33 0 2.55-.44 3.59-1.19a1 1 0 0 0 .24-1.36l-1.61-2.43a3 3 0 0 0 .6-1.02H18a1 1 0 0 0 1-1 6.8 6.8 0 0 0-3.5-5.87 1 1 0 0 0-1.33.32l-1.73 2.58a3 3 0 0 0-.88 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

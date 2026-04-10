@@ -22,9 +22,9 @@ export function EyeDropperFull({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M15.3 3.3a3.83 3.83 0 1 1 5.4 5.4l-2.79 2.8.8.8a1 1 0 0 1-1.42 1.4l-5.5-5.5-1.5-1.5a1 1 0 1 1 1.42-1.4l.79.79z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

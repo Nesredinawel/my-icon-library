@@ -19,9 +19,9 @@ export function RefreshCcwAlt({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M3 12a9 9 0 0 0 15 6.7l3-2.7m0-4A9 9 0 0 0 6 5.3L3 8m18 13v-5m0 0h-5M3 3v5m0 0h5"
         fill="none"
       />

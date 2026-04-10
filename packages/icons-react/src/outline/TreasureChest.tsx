@@ -12,8 +12,8 @@ export function TreasureChest({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,7 +22,7 @@ export function TreasureChest({
     >
       <path
         stroke="currentColor"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
         d="M21 12.5h-7m-11 0h7m-3-8v15m10-15v15m-10.8 0h11.6c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .88-.87c.22-.43.22-.99.22-2.11v-5.4c0-2.24 0-3.36-.44-4.22a4 4 0 0 0-1.74-1.74c-.86-.44-1.98-.44-4.22-.44H9.4c-2.24 0-3.36 0-4.22.44a4 4 0 0 0-1.74 1.74C3 7.54 3 8.66 3 10.9v5.4c0 1.12 0 1.68.22 2.1q.3.58.87.88c.43.22.99.22 2.11.22Zm3.8-9h4v4h-4z"
         fill="none"
       />

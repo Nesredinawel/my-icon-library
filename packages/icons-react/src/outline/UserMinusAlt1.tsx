@@ -12,8 +12,8 @@ export function UserMinusAlt1({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function UserMinusAlt1({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M4 21a7 7 0 0 1 9-6.71M20 18h-6m1-11a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
         fill="none"
       />

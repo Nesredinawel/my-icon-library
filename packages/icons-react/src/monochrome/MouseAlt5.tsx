@@ -17,9 +17,9 @@ export function MouseAlt5({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5.56 5.8C6.36 4.6 8.49 2 12 2c3.5 0 5.64 2.6 6.44 3.8a4 4 0 0 1 .5 1.21q.07.38.06.71V15a7 7 0 1 1-14 0V7.72q-.01-.33.05-.7a3 3 0 0 1 .5-1.21z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

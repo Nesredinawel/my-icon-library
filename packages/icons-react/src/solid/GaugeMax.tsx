@@ -17,9 +17,9 @@ export function GaugeMax({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20m0 5a1 1 0 1 0 0-2 1 1 0 0 0 0 2M9 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-3 5a1 1 0 1 0 0-2 1 1 0 0 0 0 2m11-5a1 1 0 1 1-2 0 1 1 0 0 1 2 0m1.9 3.55a1 1 0 0 1-.45 1.34l-3.47 1.74.02.37a3 3 0 1 1-.92-2.16l3.47-1.73a1 1 0 0 1 1.34.44"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

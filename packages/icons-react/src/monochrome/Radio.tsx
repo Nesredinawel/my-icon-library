@@ -30,9 +30,9 @@ export function Radio({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8 11a3 3 0 1 0 0 6 3 3 0 0 0 0-6"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

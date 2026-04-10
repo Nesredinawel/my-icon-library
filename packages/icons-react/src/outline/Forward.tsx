@@ -12,8 +12,8 @@ export function Forward({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function Forward({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M4 17v-1.2c0-1.68 0-2.52.33-3.16a3 3 0 0 1 1.3-1.31C6.29 11 7.13 11 8.8 11H20m0 0-4-4m4 4-4 4"
         fill="none"
       />

@@ -17,9 +17,9 @@ export function Anchor({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8.3 5.7a3.7 3.7 0 1 1 7.4 0 3.7 3.7 0 0 1-7.4 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

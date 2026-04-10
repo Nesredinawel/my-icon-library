@@ -17,9 +17,9 @@ export function SortAmountUp({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5.3 6.3a1 1 0 0 1 1.4 0l3 3a1 1 0 0 1-1.4 1.4L7 9.42V17a1 1 0 1 1-2 0V9.41l-1.3 1.3a1 1 0 0 1-1.4-1.42zM12 8a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2h-8a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2h-8a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2h-8a1 1 0 0 1-1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

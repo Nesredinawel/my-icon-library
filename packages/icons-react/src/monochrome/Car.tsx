@@ -21,9 +21,9 @@ export function Car({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5.56 5.01a3 3 0 0 1 2.6-1.51h7.68a3 3 0 0 1 2.6 1.51l1.48 2.59.44-.37a1 1 0 1 1 1.28 1.54l-.71.6.41.71a5 5 0 0 1 .66 2.48v5.94H2v-5.94a5 5 0 0 1 .66-2.48l.41-.72-.71-.6a1 1 0 1 1 1.28-1.53l.44.37zm12.8 3.89-.72.6H6.36l-.72-.6L7.29 6a1 1 0 0 1 .87-.5h7.68a1 1 0 0 1 .87.5zM5 14a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0m11 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
     </svg>

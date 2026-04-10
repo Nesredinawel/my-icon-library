@@ -22,9 +22,9 @@ export function Tally({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M21.79 4.39a1 1 0 0 1-.18 1.4l-18 14A1 1 0 0 1 2.4 18.2l18-14a1 1 0 0 1 1.4.18"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

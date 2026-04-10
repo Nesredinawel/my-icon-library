@@ -17,9 +17,9 @@ export function ArrowUp({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M11.3 4.3a1 1 0 0 1 1.4 0l6 6a1 1 0 0 1-1.4 1.4L13 7.42V19a1 1 0 1 1-2 0V7.41l-4.3 4.3a1 1 0 0 1-1.4-1.42z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

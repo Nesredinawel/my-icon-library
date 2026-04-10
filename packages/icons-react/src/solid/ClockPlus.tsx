@@ -21,9 +21,9 @@ export function ClockPlus({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 12.5a9 9 0 1 1 18 0 9 9 0 0 1-18 0m10-4a1 1 0 1 0-2 0v3H8a1 1 0 0 0 0 2h3v3a1 1 0 1 0 2 0v-3h3a1 1 0 0 0 0-2h-3z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

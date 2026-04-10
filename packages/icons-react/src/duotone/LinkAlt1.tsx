@@ -4,7 +4,7 @@ export function LinkAlt1({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,8 +25,8 @@ export function LinkAlt1({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeWidth="2"
         d="M9.17 17.65q-.35.32-.62.48a3 3 0 0 1-3 0c-.34-.2-.67-.52-1.33-1.18s-.98-.99-1.18-1.33a3 3 0 0 1 0-3c.2-.34.52-.67 1.18-1.33l2.83-2.83c.66-.65.99-.98 1.33-1.18a3 3 0 0 1 3 0c.34.2.67.53 1.33 1.18a8 8 0 0 1 1.18 1.33 3 3 0 0 1-.48 3.62m-2.82-2.82q-.32.35-.48.62a3 3 0 0 0 0 3c.2.34.53.67 1.18 1.33.66.65.99.98 1.33 1.18a3 3 0 0 0 3 0c.34-.2.67-.53 1.33-1.18l2.83-2.83c.66-.66.99-.99 1.18-1.33a3 3 0 0 0 0-3 8 8 0 0 0-1.18-1.33 8 8 0 0 0-1.33-1.18 3 3 0 0 0-3.61.48"
         fill="none"
       />

@@ -4,7 +4,7 @@ export function FilterSlash({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function FilterSlash({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M21 21 3 3v3.34a2 2 0 0 0 .03.48q.03.15.12.29c.06.1.15.19.32.36l6.06 6.06c.17.17.26.26.32.36a1 1 0 0 1 .12.3c.03.1.03.23.03.47V21l4-4v-3M8.6 3h10.8c.56 0 .84 0 1.05.1a1 1 0 0 1 .44.45c.11.21.11.49.11 1.05v1.74c0 .24 0 .36-.03.48a1 1 0 0 1-.12.29c-.06.1-.15.19-.32.36L16.8 11.2"
         fill="none"
       />

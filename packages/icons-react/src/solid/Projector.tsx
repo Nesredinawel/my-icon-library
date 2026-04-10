@@ -21,9 +21,9 @@ export function Projector({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M19 18.4a5.5 5.5 0 1 0-6.27-8.9H5a3 3 0 0 0-3 3v3a3 3 0 0 0 2 2.83V21a1 1 0 1 0 2 0v-2.5h8.2a5.5 5.5 0 0 0 2.8.48V21a1 1 0 1 0 2 0zm-2.01-8.37a3.5 3.5 0 1 1-.98 6.94 3.5 3.5 0 0 1 .98-6.94M7 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m2 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

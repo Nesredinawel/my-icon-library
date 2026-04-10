@@ -17,9 +17,9 @@ export function ToiletPortable({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6 5v16a1 1 0 1 0 2 0v-1h8v1a1 1 0 1 0 2 0V5z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

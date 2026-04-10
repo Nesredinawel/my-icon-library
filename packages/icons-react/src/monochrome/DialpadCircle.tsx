@@ -17,9 +17,9 @@ export function DialpadCircle({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M9 5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m-7 7a3 3 0 1 1 6 0 3 3 0 0 1-6 0m14 0a3 3 0 1 1 6 0 3 3 0 0 1-6 0m-7 7a3 3 0 1 1 6 0 3 3 0 0 1-6 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

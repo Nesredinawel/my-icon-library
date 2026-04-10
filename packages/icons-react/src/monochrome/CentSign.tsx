@@ -22,9 +22,9 @@ export function CentSign({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12.86 6A5.93 5.93 0 0 0 7 12c0 3.33 2.64 6 5.86 6a5.8 5.8 0 0 0 4.38-2.02 1 1 0 0 1 1.52 1.3 7.8 7.8 0 0 1-5.9 2.72A7.93 7.93 0 0 1 5 12c0-4.4 3.5-8 7.86-8a7.8 7.8 0 0 1 5.9 2.72 1 1 0 0 1-1.52 1.3A5.8 5.8 0 0 0 12.86 6"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

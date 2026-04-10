@@ -17,9 +17,9 @@ export function HouseWater({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M13.31 2.74a4 4 0 0 0-2.63 0c-.55.2-1 .54-1.45.95q-.63.61-1.51 1.6l-5.46 6.08a1 1 0 1 0 1.48 1.33l.26-.28v3.33a5 5 0 0 1 4.5 1.33 5 5 0 0 1 7 0 5 5 0 0 1 4.5-1.33v-3.33l.26.28a1 1 0 1 0 1.48-1.33L16.28 5.3q-.88-1-1.51-1.6c-.45-.42-.9-.77-1.46-.96"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

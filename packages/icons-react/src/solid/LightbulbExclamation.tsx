@@ -17,9 +17,9 @@ export function LightbulbExclamation({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M4 10a8 8 0 0 0 2.7 6h10.6A8 8 0 1 0 4 10m7-3a1 1 0 1 1 2 0v3a1 1 0 1 1-2 0zm2 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

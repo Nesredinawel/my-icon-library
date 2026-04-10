@@ -17,9 +17,9 @@ export function WineGlass({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v4A7 7 0 1 1 5 7z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

@@ -22,9 +22,9 @@ export function WindowFlip({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 10h20V8.8c0-1.68 0-2.52-.33-3.16a3 3 0 0 0-1.3-1.31C19.71 4 18.87 4 17.2 4H6.8c-1.68 0-2.52 0-3.16.33a3 3 0 0 0-1.31 1.3C2 6.29 2 7.13 2 8.8zm16-3a1 1 0 1 0 2 0 1 1 0 0 0-2 0m-2 1a1 1 0 1 1 0-2 1 1 0 0 1 0 2m-4-1a1 1 0 1 0 2 0 1 1 0 0 0-2 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

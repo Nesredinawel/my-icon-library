@@ -12,8 +12,8 @@ export function CircleQuarter({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,15 +22,15 @@ export function CircleQuarter({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M3 10a7 7 0 0 1 7-7v7z"
         fill="none"
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M13.5 21A7.5 7.5 0 0 1 6 13.5h7.5V6a7.5 7.5 0 0 1 0 15"
         fill="none"
       />

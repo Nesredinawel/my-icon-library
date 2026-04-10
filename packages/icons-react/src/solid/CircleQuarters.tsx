@@ -17,9 +17,9 @@ export function CircleQuarters({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20M6.34 6.34a7.97 7.97 0 0 0 0 11.32L12 12l5.66 5.66a7.97 7.97 0 0 0 0-11.32L12 12z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

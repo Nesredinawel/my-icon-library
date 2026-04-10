@@ -21,9 +21,9 @@ export function PaperclipSlashAlt({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="m6 7.41-3.7-3.7a1 1 0 0 1 1.4-1.42l18 18a1 1 0 0 1-1.4 1.42l-2.97-2.96A6 6 0 0 1 6 16zm2 2V16a4 4 0 0 0 7.8 1.22l-1.14-1.14a2.67 2.67 0 0 1-5.33-.1v-5.23zm3.33 3.34v3.23a.67.67 0 0 0 1.34 0v-1.9z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

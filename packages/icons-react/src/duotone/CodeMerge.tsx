@@ -4,7 +4,7 @@ export function CodeMerge({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function CodeMerge({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M5.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5m0 0v8m0-8a4 4 0 0 0 4 4H16M5.5 16a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M16 12a2.5 2.5 0 1 0 5 0 2.5 2.5 0 0 0-5 0"
         fill="none"
       />

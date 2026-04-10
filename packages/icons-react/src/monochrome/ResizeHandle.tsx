@@ -22,9 +22,9 @@ export function ResizeHandle({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M21.7 7.3a1 1 0 0 1 0 1.4l-13 13a1 1 0 0 1-1.4-1.4l13-13a1 1 0 0 1 1.4 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

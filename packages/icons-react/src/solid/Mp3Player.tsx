@@ -21,9 +21,9 @@ export function Mp3Player({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M20 10H4v9a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3zm-5 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

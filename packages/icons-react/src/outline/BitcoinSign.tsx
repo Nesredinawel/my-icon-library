@@ -12,8 +12,8 @@ export function BitcoinSign({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function BitcoinSign({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M10 6h5a3 3 0 1 1 0 6m-5-6v6m0-6H7m3 0V3m5 9h-5m5 0a3 3 0 1 1 0 6h-5m0-6v6m0 0H7m3 0v3m3-15V3m0 18v-3"
         fill="none"
       />

@@ -12,8 +12,8 @@ export function LaptopShieldAlt({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function LaptopShieldAlt({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M21 16V7.2c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C19.48 4 18.92 4 17.8 4H13M3 16v-2m6-9.83h-.37A3.5 3.5 0 0 1 6 3c-.7.75-1.6 1.17-2.62 1.17H3V5.4C3 7.6 4.27 9.47 6 10c1.73-.53 3-2.39 3-4.6zM22 16v.8c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22H5.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C2 18.48 2 17.92 2 16.8V16h6.34a2 2 0 0 1 .48.03q.15.03.29.12c.1.06.19.15.36.32l.06.06c.17.17.26.26.36.32a1 1 0 0 0 .3.12c.1.03.23.03.47.03h2.68c.24 0 .36 0 .48-.03a1 1 0 0 0 .29-.12c.1-.06.19-.15.36-.32l.06-.06c.17-.17.26-.26.36-.32a1 1 0 0 1 .3-.12c.1-.03.23-.03.47-.03z"
         fill="none"
       />

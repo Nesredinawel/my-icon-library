@@ -4,7 +4,7 @@ export function CubeAlt1({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function CubeAlt1({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m12 21-2-1m2 1 2-1m-2 1v-2.5M6 18l-2-1v-2.5m0-5V7m0 0 2-1M4 7l2 1m4-4 2-1 2 1m4 2 2 1m0 0-2 1m2-1v2.5M12 11l-2-1m2 1 2-1m-2 1v2.5m6 4.5 2-1v-2.5"
         fill="none"
       />

@@ -17,9 +17,9 @@ export function SearchMinus({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 10.5a8.5 8.5 0 1 1 17 0 8.5 8.5 0 0 1-17 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

@@ -17,15 +17,15 @@ export function PowerBank({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M7 2a4 4 0 0 0-4 4v9a5 5 0 0 1 4-2h10a5 5 0 0 1 4 2V6a4 4 0 0 0-4-4zm4.87 2.07a1 1 0 0 1 .56 1.3l-.45 1.13h1.52a1 1 0 0 1 .93 1.37l-1 2.5a1 1 0 0 1-1.86-.74l.45-1.13H10.5a1 1 0 0 1-.93-1.37l1-2.5a1 1 0 0 1 1.3-.56"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 18a4 4 0 0 1 4-4h10a4 4 0 0 1 0 8H7a4 4 0 0 1-4-4m3 0a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2H7a1 1 0 0 1-1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

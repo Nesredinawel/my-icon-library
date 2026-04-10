@@ -17,9 +17,9 @@ export function SlashFlip({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M16.4 21.91a1 1 0 0 0 .51-1.32l-8-18a1 1 0 0 0-1.82.82l8 18a1 1 0 0 0 1.32.5"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

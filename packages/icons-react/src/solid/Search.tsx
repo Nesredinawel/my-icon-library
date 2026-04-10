@@ -17,9 +17,9 @@ export function Search({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M17.17 15.77a8.5 8.5 0 1 0-1.42 1.41l4.54 4.53a1 1 0 1 0 1.42-1.42z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

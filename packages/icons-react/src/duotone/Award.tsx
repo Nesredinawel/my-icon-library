@@ -4,7 +4,7 @@ export function Award({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -23,9 +23,9 @@ export function Award({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M13.4 3.78 12 3l-1.4.78L9 3.8l-.82 1.38L6.8 6l-.02 1.6L6 9l.78 1.4.02 1.6 1.38.82L9 14.2l1.6.02L12 15l1.4-.78 1.6-.02.82-1.38L17.2 12l.02-1.6L18 9l-.78-1.4L17.2 6l-1.38-.82L15 3.8zM12 11a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         color={secondaryColor}
         opacity={secondaryOpacity}
       />

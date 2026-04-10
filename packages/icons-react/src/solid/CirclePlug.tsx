@@ -17,9 +17,9 @@ export function CirclePlug({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-9 7.94V17h1a3 3 0 0 0 3-3v-3a1 1 0 0 0-1-1h-1V8a1 1 0 1 0-2 0v2h-2V8a1 1 0 1 0-2 0v2H8a1 1 0 0 0-1 1v3a3 3 0 0 0 3 3h1v2.94a8 8 0 0 0 2 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -12,8 +12,8 @@ export function SignalSlash({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,7 +22,7 @@ export function SignalSlash({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
         d="M20 4v10.4M16 16v4m0-12v2.4M12 12v8m-4-4v4m-4-1v1M3 3l18 18"
         fill="none"
       />

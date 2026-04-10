@@ -4,7 +4,7 @@ export function CoffinCross({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -19,9 +19,9 @@ export function CoffinCross({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M12 7v10m-3-7h6M9 3h6l5 5-5 13H9L4 8z"
         fill="none"
       />

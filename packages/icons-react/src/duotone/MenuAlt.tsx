@@ -19,9 +19,9 @@ export function MenuAlt({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M4 6h16M7 12h10m-8 6h6"
         fill="none"
       />

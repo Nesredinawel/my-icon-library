@@ -21,9 +21,9 @@ export function CircleParkingSplash({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M4.26 5.67a10 10 0 0 0 14.07 14.07l1.96 1.97a1 1 0 0 0 1.42-1.42l-18-18a1 1 0 0 0-1.42 1.42zM8.5 9.91 12.59 14H10.5v2a1 1 0 1 1-2 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -17,9 +17,9 @@ export function HatWizard({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 19.5A2.5 2.5 0 0 1 4.5 17h15a2.5 2.5 0 0 1 0 5h-15A2.5 2.5 0 0 1 2 19.5"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

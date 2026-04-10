@@ -4,7 +4,7 @@ export function Van({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function Van({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M2 12h19.93M8 17h8m-8 0a2 2 0 1 1-4 0m4 0a2 2 0 1 0-4 0m12 0a2 2 0 1 0 4 0m-4 0a2 2 0 1 1 4 0M14 5v7M8 5v7m-4 5a2 2 0 0 1-2-2V8.2c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C3.52 5 4.08 5 5.2 5h10.94c.68 0 1.02 0 1.32.1a2 2 0 0 1 .72.42c.24.21.4.5.74 1.1l2.66 4.64a4 4 0 0 1 .35.74M20 17a2 2 0 0 0 2-2v-2.15c0-.32 0-.47-.02-.63l-.05-.22"
         fill="none"
       />

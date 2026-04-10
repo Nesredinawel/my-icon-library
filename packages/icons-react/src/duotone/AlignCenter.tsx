@@ -19,9 +19,9 @@ export function AlignCenter({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M3 6h18M3 14h18m-4-4H7m10 8H7"
         fill="none"
       />

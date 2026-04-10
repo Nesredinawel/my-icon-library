@@ -4,7 +4,7 @@ export function BriefcaseAlt2({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function BriefcaseAlt2({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M16 7v-.8c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C14.48 3 13.92 3 12.8 3h-1.6c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C8 4.52 8 5.08 8 6.2V7m1 8v-3m6 3v-3M3.03 10.03C3.39 10.37 7.29 14 12 14s8.61-3.63 8.97-3.97m-17.94 0q-.04.68-.03 1.77v4.4c0 1.68 0 2.52.33 3.16a3 3 0 0 0 1.3 1.31c.65.33 1.49.33 3.17.33h8.4c1.68 0 2.52 0 3.16-.33a3 3 0 0 0 1.31-1.3c.33-.65.33-1.49.33-3.17v-4.4q0-1.08-.03-1.77m-17.94 0c.03-.6.11-1.03.3-1.4a3 3 0 0 1 1.3-1.3C5.29 7 6.13 7 7.8 7h8.4c1.68 0 2.52 0 3.16.33a3 3 0 0 1 1.31 1.3c.19.37.27.8.3 1.4"
         fill="none"
       />

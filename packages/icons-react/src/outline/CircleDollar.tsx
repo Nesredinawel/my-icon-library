@@ -12,8 +12,8 @@ export function CircleDollar({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function CircleDollar({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M15 10v-.08C15 8.86 14.14 8 13.08 8H11a2 2 0 1 0 0 4h2a2 2 0 1 1 0 4h-2.04A1.96 1.96 0 0 1 9 14.04V14m3 3.5v-11m9 5.5a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
         fill="none"
       />

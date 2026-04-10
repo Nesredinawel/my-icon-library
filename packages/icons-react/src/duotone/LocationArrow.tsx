@@ -4,7 +4,7 @@ export function LocationArrow({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function LocationArrow({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M5.36 12.05c-1.35-.48-2.03-.72-2.23-1.09a1.1 1.1 0 0 1-.02-1.02c.19-.37.85-.64 2.18-1.18L17.84 3.7c1.3-.54 1.96-.8 2.38-.66.35.11.64.4.75.75.14.42-.12 1.07-.66 2.38l-5.07 12.55c-.54 1.33-.81 2-1.18 2.18-.33.16-.7.15-1.02-.02-.37-.2-.61-.88-1.1-2.23l-1.46-4.14a2 2 0 0 0-.22-.5 1 1 0 0 0-.25-.26c-.11-.07-.24-.12-.5-.22z"
         fill="none"
       />

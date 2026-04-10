@@ -4,7 +4,7 @@ export function MountainCity({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function MountainCity({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M11 7V3h6v8h4m0 0v10m0-10V7m-3 7h.01M18 18h.01M5.94 16l2.86-4.83c.23-.39.34-.58.49-.64a.5.5 0 0 1 .4 0c.15.06.26.25.49.64L13.05 16m-7.1 0L3 21h13l-2.95-5m-7.1 0L8 18l1.5-2h3.55"
         fill="none"
       />

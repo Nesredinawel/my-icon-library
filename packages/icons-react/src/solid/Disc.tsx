@@ -18,9 +18,9 @@ export function Disc({
       <path fill="currentColor" d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-6 0a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

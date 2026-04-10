@@ -18,9 +18,9 @@ export function CandleHolder({
       <g fill="currentColor" opacity=".3">
         <path d="M9.83 2.45a1 1 0 0 0-1.66 0L6.5 4.95a2.3 2.3 0 0 0-.37 1.94 3 3 0 0 0 5.73 0 2.3 2.3 0 0 0-.37-1.95z" />
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M3 20h13.17A3 3 0 1 1 19 22H3a1 1 0 1 1 0-2m15-1a1 1 0 1 1 2 0 1 1 0 0 1-2 0"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
       </g>
       <path

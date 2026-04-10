@@ -4,7 +4,7 @@ export function BorderInner({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function BorderInner({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M16 4h.01M16 20h.01M20 4h.01M20 8h.01M20 16h.01M20 20h.01M20 12H4m8-8v16"
         fill="none"
       />

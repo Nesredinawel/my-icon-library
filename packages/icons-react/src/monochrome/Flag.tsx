@@ -22,9 +22,9 @@ export function Flag({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5 2.9a1 1 0 0 1 1 1V21a1 1 0 1 1-2 0V3.9a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

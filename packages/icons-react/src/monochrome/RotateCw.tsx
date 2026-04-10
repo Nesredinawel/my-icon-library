@@ -22,9 +22,9 @@ export function RotateCw({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M16.85 11.44a1 1 0 0 1 1.27.62l1.03 3.02 3.03-1.03a1 1 0 0 1 .64 1.9l-3.97 1.35a1 1 0 0 1-1.27-.62l-1.35-3.97a1 1 0 0 1 .62-1.27"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

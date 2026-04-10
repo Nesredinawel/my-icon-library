@@ -17,9 +17,9 @@ export function CodeCommit({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8.13 11a4 4 0 0 1 7.74 0H21a1 1 0 1 1 0 2h-5.13a4 4 0 0 1-7.74 0H3a1 1 0 1 1 0-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -12,8 +12,8 @@ export function MoonStars({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function MoonStars({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M13 6V3m5.5 9V7m-4-2.5h-3m9.5 5h-5m-.45 7.32q1.86-.02 3.45-.74A8.37 8.37 0 1 1 7.92 5a8.37 8.37 0 0 0 7.63 11.82"
         fill="none"
       />

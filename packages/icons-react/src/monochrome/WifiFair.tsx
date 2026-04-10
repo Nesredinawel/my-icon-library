@@ -17,9 +17,9 @@ export function WifiFair({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 6C8.41 6 5.14 7.35 2.67 9.56a1 1 0 1 1-1.34-1.49A16 16 0 0 1 12 4c4.1 0 7.84 1.54 10.67 4.07a1 1 0 1 1-1.34 1.5A14 14 0 0 0 12 6m0 5c-2.33 0-4.45.89-6.05 2.34a1 1 0 0 1-1.35-1.48 10.96 10.96 0 0 1 14.8 0 1 1 0 1 1-1.35 1.48A9 9 0 0 0 12 11"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

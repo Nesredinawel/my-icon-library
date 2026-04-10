@@ -19,9 +19,9 @@ export function ArrowNarrowBottomAlignment({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m8 12 4 4m0 0 4-4m-4 4V4M4 20h16"
         fill="none"
       />

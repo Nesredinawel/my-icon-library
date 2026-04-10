@@ -19,9 +19,9 @@ export function Asterisk({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M12 4v16m7-13L5 17M5 7l14 10"
         fill="none"
       />

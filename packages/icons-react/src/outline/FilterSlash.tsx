@@ -12,8 +12,8 @@ export function FilterSlash({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function FilterSlash({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M21 21 3 3v3.34a2 2 0 0 0 .03.48q.03.15.12.29c.06.1.15.19.32.36l6.06 6.06c.17.17.26.26.32.36a1 1 0 0 1 .12.3c.03.1.03.23.03.47V21l4-4v-3M8.6 3h10.8c.56 0 .84 0 1.05.1a1 1 0 0 1 .44.45c.11.21.11.49.11 1.05v1.74c0 .24 0 .36-.03.48a1 1 0 0 1-.12.29c-.06.1-.15.19-.32.36L16.8 11.2"
         fill="none"
       />

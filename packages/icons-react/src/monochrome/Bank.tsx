@@ -22,9 +22,9 @@ export function Bank({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12.86 1.8a3 3 0 0 0-1.72 0q-.54.18-.97.53-.4.3-.93.79l-6.9 6.13A1 1 0 0 0 3 11h18a1 1 0 0 0 .66-1.75l-6.9-6.13q-.53-.48-.93-.8-.42-.33-.97-.52M12 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

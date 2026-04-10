@@ -4,7 +4,7 @@ export function BellSlash({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function BellSlash({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m3 3 18 18M9.38 3.56a6.4 6.4 0 0 1 6.86 1.08A5.4 5.4 0 0 1 18 8.6c0 1.76.29 3.18.71 4.31M17 17H5.6c-1.25 0-1.88 0-2.01-.1-.15-.1-.19-.17-.2-.36-.02-.16.37-.8 1.14-2.05.8-1.3 1.47-3.2 1.47-5.89q0-1.12.45-2.14M15 18a3 3 0 1 1-6 0"
         fill="none"
       />

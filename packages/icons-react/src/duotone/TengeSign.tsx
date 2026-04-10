@@ -19,9 +19,9 @@ export function TengeSign({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M12 19V9M6 9h12M6 5h12"
         fill="none"
       />

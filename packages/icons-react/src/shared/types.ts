@@ -1,15 +1,15 @@
-import type * as React from "react";
+import type { SVGProps } from "react";
 
-export type BaseIconProps = Omit<React.SVGProps<SVGSVGElement>, "width" | "height"> & {
+export interface BaseIconProps extends SVGProps<SVGSVGElement> {
   size?: number | string;
   color?: string;
-};
+}
 
-export type OutlineIconProps = BaseIconProps & {
+export interface OutlineIconProps extends BaseIconProps {
   strokeWidth?: number | string;
-};
+}
 
-export type DuotoneIconProps = BaseIconProps & {
-  secondaryOpacity?: number;
+export interface DuotoneIconProps extends BaseIconProps {
   secondaryColor?: string;
-};
+  secondaryOpacity?: number | string;
+}

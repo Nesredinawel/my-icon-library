@@ -17,9 +17,9 @@ export function Cat({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M4.42 2.19a1 1 0 0 1 .9-.14L8.16 3h2.68l2.84-.95A1 1 0 0 1 15 3v6a1 1 0 0 1-.6.91l-4.5 2a1 1 0 0 1-.8 0l-4.5-2A1 1 0 0 1 4 9V3a1 1 0 0 1 .42-.81M8 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

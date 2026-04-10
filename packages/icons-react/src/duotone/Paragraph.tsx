@@ -19,9 +19,9 @@ export function Paragraph({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M3 10h18M3 14h9"
         fill="none"
       />

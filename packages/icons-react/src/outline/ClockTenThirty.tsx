@@ -12,8 +12,8 @@ export function ClockTenThirty({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function ClockTenThirty({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M12 17v-5l-2.5-1.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
         fill="none"
       />

@@ -19,9 +19,9 @@ export function WavePulse({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M3 12h4l2 7 3-14 3 12 2-5h4"
         fill="none"
       />

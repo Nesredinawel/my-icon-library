@@ -22,9 +22,9 @@ export function Projector({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M16.5 8a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11M13 13.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

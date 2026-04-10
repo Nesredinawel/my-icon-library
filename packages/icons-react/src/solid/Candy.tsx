@@ -17,9 +17,9 @@ export function Candy({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2.55 8.1a1 1 0 0 1 1.05.1L6 10V9a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1l2.4-1.8A1 1 0 0 1 22 9v6a1 1 0 0 1-1.6.8L18 14v1a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-1l-2.4 1.8A1 1 0 0 1 2 15V9a1 1 0 0 1 .55-.9M4 13l1.33-1L4 11zm14.67-1L20 13v-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

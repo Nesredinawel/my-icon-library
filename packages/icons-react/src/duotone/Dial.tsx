@@ -4,7 +4,7 @@ export function Dial({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -27,8 +27,8 @@ export function Dial({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeWidth="2"
         d="m12 13 2.83-2.83m0 0A3.99 3.99 0 0 0 8 13a4 4 0 1 0 6.83-2.83ZM3.5 13h.01M12 4.5h.01M20.5 13h.01M6 7h.01M18 7h.01M6 19h.01M18 19h.01M4 13a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm8.5-8.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0ZM21 13a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0ZM6.5 7a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm12 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0Zm-12 12a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm12 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0Z"
         fill="none"
       />

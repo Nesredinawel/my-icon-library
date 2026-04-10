@@ -22,9 +22,9 @@ export function Voicemail({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6m4 6a5 5 0 1 0-4 2h12a5 5 0 1 0-4-2zm8 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

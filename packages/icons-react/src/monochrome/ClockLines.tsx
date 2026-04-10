@@ -17,9 +17,9 @@ export function ClockLines({
     >
       <g fill="currentColor" opacity=".3">
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M13 4a9 9 0 1 1-5.66 16H10a2 2 0 1 0 0-4h-.27A2 2 0 0 0 8 13H4a9 9 0 0 1 9-9m0 4a1 1 0 0 0-1 1v4a1 1 0 1 0 2 0V9a1 1 0 0 0-1-1"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path d="M10 3a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2h-4a1 1 0 0 1-1-1" />
       </g>

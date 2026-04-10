@@ -12,8 +12,8 @@ export function StarHalfStroke({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function StarHalfStroke({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M12 3.2v14.17m-3.27-8.7-4.52.54c-.55.06-.82.1-.94.22a.5.5 0 0 0-.14.42c.02.18.23.36.63.74l3.35 3.09q.17.15.21.23l.07.2-.04.31-.89 4.47c-.1.54-.16.81-.08.97q.11.21.36.26c.17.03.41-.1.9-.38l3.97-2.22q.19-.11.29-.14h.2c.08.02.15.06.3.14l3.96 2.22c.49.27.73.4.9.38a.5.5 0 0 0 .36-.26c.08-.16.03-.43-.08-.97l-.89-4.47q-.05-.22-.04-.31l.07-.2q.05-.08.21-.23l3.35-3.1c.4-.37.6-.55.63-.73a.5.5 0 0 0-.14-.42c-.12-.13-.4-.16-.94-.22l-4.52-.54a1 1 0 0 1-.32-.06l-.16-.12a1 1 0 0 1-.16-.28l-1.9-4.13c-.23-.5-.35-.76-.51-.84a.5.5 0 0 0-.44 0c-.16.08-.28.33-.5.84L9.36 8.2q-.09.2-.16.28l-.16.12a1 1 0 0 1-.32.06"
         fill="none"
       />

@@ -19,9 +19,9 @@ export function AlignCenterJustify({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M3 8h18M3 12h18M3 16h18m-4 4H7M3 4h18"
         fill="none"
       />

@@ -19,9 +19,9 @@ export function HeatAlt({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M11 3s-1.14 4.5.93 9 1.57 9 1.57 9m5.43 0s.67-4.5-1.43-8S16 6 16 6M7.93 21s.67-4.5-1.43-8S5 6 5 6"
         fill="none"
       />

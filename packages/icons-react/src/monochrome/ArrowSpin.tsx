@@ -22,9 +22,9 @@ export function ArrowSpin({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3.7 5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v3a1 1 0 0 1-2 0v-.57A7 7 0 0 0 5 12a1 1 0 1 1-2 0c0-2.3.87-4.4 2.3-6h-.6a1 1 0 0 1-1-1M20 11a1 1 0 0 1 1 1c0 2.3-.87 4.4-2.3 6h.6a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1v-3a1 1 0 1 1 2 0v.57A7 7 0 0 0 19 12a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

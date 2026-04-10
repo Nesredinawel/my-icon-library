@@ -4,7 +4,7 @@ export function MessageCircleList({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function MessageCircleList({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M10 10h7m-7 4h7m4-2a9 9 0 0 1-9 9H3s1.55-3.74.93-5A9 9 0 1 1 21 12"
         fill="none"
       />

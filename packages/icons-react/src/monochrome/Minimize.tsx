@@ -22,9 +22,9 @@ export function Minimize({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3.3 3.3a1 1 0 0 1 1.4 0L9 7.58V5.5a1 1 0 0 1 2 0V10a1 1 0 0 1-1 1H5.5a1 1 0 1 1 0-2h2.09l-4.3-4.3a1 1 0 0 1 0-1.4M13 14a1 1 0 0 1 1-1h4.5a1 1 0 1 1 0 2h-2.09l4.3 4.3a1 1 0 0 1-1.42 1.4L15 16.42v2.09a1 1 0 1 1-2 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

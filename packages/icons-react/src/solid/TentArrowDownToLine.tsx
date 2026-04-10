@@ -21,9 +21,9 @@ export function TentArrowDownToLine({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M13.67 7.26a1 1 0 0 0-1.34 0l-5.5 5a1 1 0 0 0-.31.56L5.17 20H3a1 1 0 1 0 0 2h18a1 1 0 1 0 0-2h-.17l-1.35-7.18a1 1 0 0 0-.3-.56zM13 20h3.5L13 15z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

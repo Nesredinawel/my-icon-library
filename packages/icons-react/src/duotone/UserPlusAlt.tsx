@@ -4,7 +4,7 @@ export function UserPlusAlt({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function UserPlusAlt({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M20 18h-6m3-3v6m-9.32-7a6 6 0 0 0 5.32.66M10.5 21H5.6c-.56 0-.84 0-1.05-.1a1 1 0 0 1-.44-.45C4 20.24 4 19.96 4 19.4V17a3 3 0 0 1 3-3h.5M15 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
         fill="none"
       />

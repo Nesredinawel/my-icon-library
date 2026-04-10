@@ -25,9 +25,9 @@ export function MailBlock({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M19 22a4 4 0 1 0 0-8 4 4 0 0 0 0 8m0-2a2 2 0 0 0 1.93-2.52l-2.45 2.45A2 2 0 0 0 19 20m.52-3.93-2.45 2.45a2 2 0 0 1 2.45-2.45"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -4,7 +4,7 @@ export function ArrowCircleUpLeft({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -27,9 +27,9 @@ export function ArrowCircleUpLeft({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M9 13.5V9m0 0h4.5M9 9l6 6m6-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
         fill="none"
       />

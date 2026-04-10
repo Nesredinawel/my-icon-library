@@ -17,9 +17,9 @@ export function MapLocationPin({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8 6.2A4.1 4.1 0 0 1 12 2c2.27 0 4 1.94 4 4.2a5.2 5.2 0 0 1-1.13 3.05c-.51.71-1.17 1.4-1.8 2.07l-.34.36a1 1 0 0 1-1.46 0l-.34-.36a21 21 0 0 1-1.8-2.07A5.2 5.2 0 0 1 8 6.2m6-.2a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

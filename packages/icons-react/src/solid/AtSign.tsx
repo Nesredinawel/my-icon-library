@@ -17,9 +17,9 @@ export function AtSign({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 4a8 8 0 1 0 4.8 14.4A1 1 0 0 1 18 20a10 10 0 1 1 4-8v1.5a3.5 3.5 0 0 1-6.4 1.97A4.99 4.99 0 0 1 7 12a5 5 0 0 1 8-4 1 1 0 0 1 2 0v5.5a1.5 1.5 0 0 0 3 0V12a8 8 0 0 0-8-8m3 8a3 3 0 1 0-6 0 3 3 0 0 0 6 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -17,9 +17,9 @@ export function WindWarning({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12.5 15.96A5.99 5.99 0 0 1 2 12a6 6 0 0 1 11.23-2.94A2 2 0 0 0 13 10a3 3 0 0 0-.5 5.96"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

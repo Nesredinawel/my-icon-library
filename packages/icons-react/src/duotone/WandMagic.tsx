@@ -4,7 +4,7 @@ export function WandMagic({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function WandMagic({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m14 7 2.83 2.83M3.7 19.57l.56.56c.4.4.6.6.83.67a1 1 0 0 0 .61 0c.23-.07.43-.27.83-.67L20.08 6.57c.4-.4.6-.59.67-.82a1 1 0 0 0 0-.62c-.07-.22-.27-.42-.67-.82l-.56-.56c-.4-.4-.6-.6-.83-.67a1 1 0 0 0-.61 0c-.23.07-.43.27-.83.67L3.7 17.3c-.4.4-.6.6-.67.83a1 1 0 0 0 0 .61c.07.23.27.43.67.83"
         fill="none"
       />

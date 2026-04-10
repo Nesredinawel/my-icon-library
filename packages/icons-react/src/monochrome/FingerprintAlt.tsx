@@ -22,9 +22,9 @@ export function FingerprintAlt({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3.58 5.82a11.2 11.2 0 0 1 16.84 0 1 1 0 1 1-1.5 1.32 9.2 9.2 0 0 0-13.84 0 1 1 0 1 1-1.5-1.32M12 9.5A4.5 4.5 0 0 0 7.5 14c0 2.13.67 4.1 1.8 5.73a1 1 0 0 1-1.63 1.14A12 12 0 0 1 5.5 14a6.5 6.5 0 1 1 13 0 1 1 0 1 1-2 0A4.5 4.5 0 0 0 12 9.5m0 3.5a1 1 0 0 1 1 1 4.5 4.5 0 0 0 4.6 4.49h.14a1 1 0 0 1 .1 1.99h-.03l-.31.02A6.5 6.5 0 0 1 11 14a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

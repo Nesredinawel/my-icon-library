@@ -12,8 +12,8 @@ export function MenorahAlt1({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function MenorahAlt1({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M12 21V7m9-1V5M3 6V5m9-1V3m5 3V5M7 6V5m14 4A9 9 0 1 1 3 9m14 0A5 5 0 0 1 7 9m1 12h8"
         fill="none"
       />

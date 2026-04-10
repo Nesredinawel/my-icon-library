@@ -22,9 +22,9 @@ export function MailOpenArrowUp({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M11.33 2.44a3 3 0 0 1 1.34 0c.5.11.95.4 1.46.71l6 3.77c.45.29.85.54 1.15.89a3 3 0 0 1 .38.55l-8.44 5.62c-.7.48-.86.56-.99.59a1 1 0 0 1-.46 0 4 4 0 0 1-1-.59L2.35 8.36a3 3 0 0 1 .38-.55c.3-.35.7-.6 1.15-.89l6-3.77c.51-.32.96-.6 1.46-.71M12 6a1 1 0 0 1 .7.3l2 2a1 1 0 0 1-1.4 1.4l-.3-.29V12a1 1 0 1 1-2 0V9.41l-.3.3a1 1 0 0 1-1.4-1.42l2-2A1 1 0 0 1 12 6"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

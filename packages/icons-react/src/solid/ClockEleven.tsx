@@ -17,9 +17,9 @@ export function ClockEleven({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20m1 5a1 1 0 0 0-2 0v1.63a1 1 0 0 0-1.36 1.38l1.5 2.5A1 1 0 0 0 13 12z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

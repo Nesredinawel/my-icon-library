@@ -17,9 +17,9 @@ export function GhostSmile({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a8 8 0 0 0-8 8v11a1 1 0 0 0 1.55.83l.82-.54.86-.56q.28-.14.34-.14a1 1 0 0 1 .54.05c.05.02.13.06.3.21q.25.21.74.71a1.2 1.2 0 0 0 1.7 0c.49-.48.62-.58.7-.63a1 1 0 0 1 .9 0c.08.05.21.15.7.63a1.2 1.2 0 0 0 1.7 0q.49-.5.74-.71.24-.2.3-.2a1 1 0 0 1 .54-.06q.06-.01.34.14l.86.56.82.54A1 1 0 0 0 20 21V10a8 8 0 0 0-8-8"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

@@ -17,9 +17,9 @@ export function CircleNotch({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M9.94 3.18a1 1 0 0 1-.6 1.27 8 8 0 1 0 5.33 0 1 1 0 1 1 .66-1.88 10 10 0 1 1-6.66 0 1 1 0 0 1 1.27.6"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

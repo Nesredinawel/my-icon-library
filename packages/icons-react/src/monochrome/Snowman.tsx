@@ -17,9 +17,9 @@ export function Snowman({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M7 7a5 5 0 1 1 9.33 2.5A6.99 6.99 0 0 1 12 22 7 7 0 0 1 7.67 9.5 5 5 0 0 1 7 7"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

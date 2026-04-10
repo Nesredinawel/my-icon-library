@@ -22,9 +22,9 @@ export function TurnOff({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8.87 5.57a1 1 0 0 1-.37 1.37 7 7 0 1 0 7 0 1 1 0 0 1 1-1.74 9 9 0 1 1-9 0 1 1 0 0 1 1.37.37"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -17,16 +17,16 @@ export function HashtagLock({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8.99 3.16A1 1 0 1 0 7 2.84L6.15 8H4a1 1 0 0 0 0 2h1.82l-.67 4H3a1 1 0 1 0 0 2h1.82l-.8 4.84a1 1 0 1 0 1.97.32L6.85 16h3.97l-.8 4.84a1 1 0 1 0 1.97.32l1-5.98v-.03l.86-5.15H16a1 1 0 1 0 0-2h-1.82l.8-4.84a1 1 0 1 0-1.97-.32L12.15 8H8.18zM7.18 14l.67-4h3.97l-.67 4z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M18 14a3 3 0 0 0-3 3v.27a2 2 0 0 0-.99 1.61l-.01.6v.05l.01.59q.01.29.14.65a2 2 0 0 0 1.73 1.22l.6.01h3.05l.59-.01q.29-.01.65-.14a2 2 0 0 0 1.22-1.73l.01-.6v-.05l-.01-.59a2 2 0 0 0-.99-1.62V17a3 3 0 0 0-3-3m0 2a1 1 0 0 1 1 1h-2a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

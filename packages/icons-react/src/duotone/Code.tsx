@@ -19,9 +19,9 @@ export function Code({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m7 8-4 3.7L7 16m10-8 4 3.7-4 4.3M14 4l-4 16"
         fill="none"
       />

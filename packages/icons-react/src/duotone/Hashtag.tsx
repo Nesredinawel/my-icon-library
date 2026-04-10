@@ -19,8 +19,8 @@ export function Hashtag({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeWidth="2"
         d="M10 4 7 20M17 4l-3 16M5 8h15M4 16h15"
         fill="none"
       />

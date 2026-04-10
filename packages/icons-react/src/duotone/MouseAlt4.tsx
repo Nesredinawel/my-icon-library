@@ -4,7 +4,7 @@ export function MouseAlt4({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function MouseAlt4({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M12 3v6m0-6C9.02 3 7.15 5.22 6.39 6.35a2 2 0 0 0-.36.84c-.03.17-.03.3-.03.57V15a6 6 0 0 0 12 0V7.76c0-.26 0-.4-.03-.57a2 2 0 0 0-.36-.84C16.85 5.22 14.98 3 12 3M6 9h12"
         fill="none"
       />

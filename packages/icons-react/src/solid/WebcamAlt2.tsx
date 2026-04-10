@@ -21,9 +21,9 @@ export function WebcamAlt2({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 13a6 6 0 0 1 6-6h6a6 6 0 0 1 1 11.92V20h1a1 1 0 1 1 0 2H7a1 1 0 1 1 0-2h1v-1.08A6 6 0 0 1 3 13m7 6v1h4v-1zm6-6a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

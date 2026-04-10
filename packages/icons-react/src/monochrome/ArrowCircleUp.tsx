@@ -17,16 +17,16 @@ export function ArrowCircleUp({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="m15.7 10.3-3-3a1 1 0 0 0-1.4 0l-3 3a1 1 0 1 0 1.4 1.4l1.3-1.29V16a1 1 0 1 0 2 0v-5.59l1.3 1.3a1 1 0 0 0 1.4-1.42"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

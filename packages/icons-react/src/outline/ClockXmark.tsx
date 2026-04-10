@@ -12,8 +12,8 @@ export function ClockXmark({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function ClockXmark({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="m3 5.5 2-2m16 2-2-2m-10 6 6 6m0-6-6 6m11-3a8 8 0 1 1-16 0 8 8 0 0 1 16 0"
         fill="none"
       />

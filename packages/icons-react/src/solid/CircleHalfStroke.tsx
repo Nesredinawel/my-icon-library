@@ -17,9 +17,9 @@ export function CircleHalfStroke({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20m8-10a8 8 0 0 1-8 8V4a8 8 0 0 1 8 8"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -22,9 +22,9 @@ export function Coins({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 6a3 3 0 0 1 3-3h6a3 3 0 0 1 2.24 5 3 3 0 0 1 0 4 3 3 0 0 1 0 4A3 3 0 0 1 11 21H5a3 3 0 0 1-2.24-5 3 3 0 0 1 0-4 3 3 0 0 1 0-4A3 3 0 0 1 2 6m3 1a1 1 0 0 1 0-2h6a1 1 0 1 1 0 2zm6 2H5a1 1 0 0 0 0 2h6a1 1 0 1 0 0-2m0 4H5a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2m0 4H5a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

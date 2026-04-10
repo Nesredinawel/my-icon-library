@@ -22,9 +22,9 @@ export function BitcoinSign({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M15 19a4 4 0 0 0 2.65-7A3.99 3.99 0 0 0 15 5H9v14zm-4-8V7h4a2 2 0 1 1 0 4zm0 6v-4h4a2 2 0 1 1 0 4z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

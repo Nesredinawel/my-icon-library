@@ -21,9 +21,9 @@ export function MailSearch({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M14 16.5a3.5 3.5 0 1 1 6.58 1.66l1.13 1.13a1 1 0 1 1-1.42 1.42l-1.12-1.13q-.76.41-1.67.42a3.5 3.5 0 0 1-3.5-3.5m3.5-1.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

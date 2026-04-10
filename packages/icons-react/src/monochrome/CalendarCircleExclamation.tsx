@@ -22,9 +22,9 @@ export function CalendarCircleExclamation({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M17 10a6 6 0 1 0 0 12 6 6 0 0 0 0-12m0 2.5a1 1 0 0 1 1 1V16a1 1 0 1 1-2 0v-2.5a1 1 0 0 1 1-1m1 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

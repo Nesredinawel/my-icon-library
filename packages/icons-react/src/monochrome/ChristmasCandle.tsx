@@ -21,9 +21,9 @@ export function ChristmasCandle({
       </g>
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12.83 1.45a1 1 0 0 0-1.66 0L9.84 3.44c-.26.38-.52.87-.64 1.42a2.3 2.3 0 0 0 .33 1.85 3 3 0 0 0 4.94 0c.42-.62.45-1.3.33-1.85a4 4 0 0 0-.64-1.42zm-1.33 3.1.5-.75.5.75q.28.42.34.73c.04.19 0 .25-.02.29a1 1 0 0 1-1.64 0c-.03-.04-.06-.1-.02-.3q.06-.3.34-.72"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

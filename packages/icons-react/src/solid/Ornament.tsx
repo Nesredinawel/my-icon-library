@@ -17,9 +17,9 @@ export function Ornament({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M14.5 4.5q0 .26-.05.5H16a1 1 0 0 1 1 1v1.75A8 8 0 0 1 19.75 12H4.25A8 8 0 0 1 7 7.75V6a1 1 0 0 1 1-1h1.55A2.5 2.5 0 0 1 12 2a2.5 2.5 0 0 1 2.5 2.5m-3 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

@@ -17,9 +17,9 @@ export function BuildingExclamation({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6.57 2q-.39 0-.7.02c-.24.02-.5.06-.78.2a2 2 0 0 0-.87.87q-.19.41-.2.77-.03.33-.02.7V21a1 1 0 0 0 1 1h11.17a3 3 0 0 1-.17-1v-6a3 3 0 0 1 2-2.83v-7.6q0-.39-.02-.7-.01-.36-.2-.78a2 2 0 0 0-.87-.87 2 2 0 0 0-.77-.2Q15.8 2 15.44 2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

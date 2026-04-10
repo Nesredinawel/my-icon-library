@@ -21,9 +21,9 @@ export function Compass({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-5.03-3.78a1 1 0 0 0-1.2-1.2l-6.5 1.5a1 1 0 0 0-.74.76l-1.5 6.5a1 1 0 0 0 1.2 1.2l6.5-1.5a1 1 0 0 0 .74-.76z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

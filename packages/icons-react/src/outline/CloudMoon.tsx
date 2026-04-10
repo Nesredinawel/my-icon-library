@@ -12,8 +12,8 @@ export function CloudMoon({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function CloudMoon({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M21 15.5a6.5 6.5 0 0 1 0-12A6.5 6.5 0 0 0 12.5 7M6.9 21A3.86 3.86 0 0 1 3 17.18c0-1.75 1.3-3.37 3.25-3.68A4.1 4.1 0 0 1 10 11a4.03 4.03 0 0 1 4.05 3.75A3.3 3.3 0 0 1 16 17.78 3.23 3.23 0 0 1 12.75 21z"
         fill="none"
       />

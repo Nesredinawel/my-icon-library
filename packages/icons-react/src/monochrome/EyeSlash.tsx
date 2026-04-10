@@ -22,9 +22,9 @@ export function EyeSlash({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2.3 2.3a1 1 0 0 1 1.4 0l18 18a1 1 0 0 1-1.4 1.4l-6.27-6.25q-.91.54-2.03.55a4 4 0 0 1-3.45-6.03L2.3 3.7a1 1 0 0 1 0-1.42"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

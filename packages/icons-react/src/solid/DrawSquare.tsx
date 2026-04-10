@@ -17,9 +17,9 @@ export function DrawSquare({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 5.5a3.5 3.5 0 0 1 6.86-1h6.28a3.5 3.5 0 1 1 4.36 4.36v6.28a3.5 3.5 0 1 1-4.36 4.36H8.86a3.5 3.5 0 1 1-4.36-4.36V8.86A3.5 3.5 0 0 1 2 5.5m4.5 3.36v6.28a3.5 3.5 0 0 1 2.36 2.36h6.28a3.5 3.5 0 0 1 2.36-2.36V8.86a3.5 3.5 0 0 1-2.36-2.36H8.86A3.5 3.5 0 0 1 6.5 8.86"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

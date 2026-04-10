@@ -17,9 +17,9 @@ export function TextHeight({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 4a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0V5H8v14h1a1 1 0 1 1 0 2H5a1 1 0 1 1 0-2h1V5H4v2a1 1 0 0 1-2 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

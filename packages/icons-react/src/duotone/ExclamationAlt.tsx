@@ -19,9 +19,9 @@ export function ExclamationAlt({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m12.01 14 .01-10"
         fill="none"
       />

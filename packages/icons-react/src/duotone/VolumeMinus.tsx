@@ -4,7 +4,7 @@ export function VolumeMinus({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function VolumeMinus({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M16 12h6M4.6 9h.9c.55 0 .83 0 1.08-.07a2 2 0 0 0 .63-.3c.22-.15.4-.36.75-.78l2.63-3.15c.43-.53.65-.79.84-.81a.5.5 0 0 1 .44.16c.13.14.13.48.13 1.16v13.58c0 .68 0 1.02-.13 1.16a.5.5 0 0 1-.44.16c-.2-.02-.4-.28-.84-.8l-2.63-3.16a5 5 0 0 0-.75-.79 2 2 0 0 0-.63-.3C6.33 15 6.05 15 5.5 15h-.9c-.56 0-.84 0-1.05-.1a1 1 0 0 1-.44-.45C3 14.24 3 13.96 3 13.4v-2.8c0-.56 0-.84.1-1.05a1 1 0 0 1 .45-.44C3.76 9 4.04 9 4.6 9"
         fill="none"
       />

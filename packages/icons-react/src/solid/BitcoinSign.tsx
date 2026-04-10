@@ -17,9 +17,9 @@ export function BitcoinSign({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M10 2a1 1 0 0 1 1 1v2h1V3a1 1 0 1 1 2 0v2h1a4 4 0 0 1 2.65 7A3.99 3.99 0 0 1 15 19h-1v2a1 1 0 1 1-2 0v-2h-1v2a1 1 0 1 1-2 0v-2H7a1 1 0 1 1 0-2h2V7H7a1 1 0 0 1 0-2h2V3a1 1 0 0 1 1-1m1 5v4h4a2 2 0 1 0 0-4zm4 6h-4v4h4a2 2 0 1 0 0-4"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

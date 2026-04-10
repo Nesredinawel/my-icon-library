@@ -17,9 +17,9 @@ export function Vial({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M13.33 2.3a1 1 0 0 1 1.41 0l7 7a1 1 0 1 1-1.41 1.4l-.3-.29-9.79 9.8a4.54 4.54 0 0 1-6.41-6.42L13.63 4l-.3-.3a1 1 0 0 1 0-1.4m1.7 3.11L9.46 11h7.17l2-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

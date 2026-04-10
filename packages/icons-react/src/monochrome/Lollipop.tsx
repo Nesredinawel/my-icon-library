@@ -22,14 +22,14 @@ export function Lollipop({
       <g fill="currentColor" opacity=".3">
         <path d="M8 10.5a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0" />
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M10.5 5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11M7 10.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M10.5 2a8.5 8.5 0 1 0 0 17 8.5 8.5 0 0 0 0-17M4 10.5a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
       </g>
     </svg>

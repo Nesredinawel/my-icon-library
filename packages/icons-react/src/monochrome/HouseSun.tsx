@@ -17,9 +17,9 @@ export function HouseSun({
     >
       <g fill="currentColor" opacity=".3">
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M8 2a1 1 0 0 1 1 1v.42a1 1 0 0 1-2 0V3a1 1 0 0 1 1-1M3.54 3.54a1 1 0 0 1 1.42 0l.41.42a1 1 0 1 1-1.41 1.41l-.42-.41a1 1 0 0 1 0-1.42m8.92 0a1 1 0 0 1 0 1.42l-.42.41a1 1 0 1 1-1.41-1.41l.41-.42a1 1 0 0 1 1.42 0M2 8a1 1 0 0 1 1-1h.42a1 1 0 0 1 0 2H3a1 1 0 0 1-1-1m3.37 2.63a1 1 0 0 1 0 1.41l-.41.42a1 1 0 0 1-1.42-1.42l.42-.41a1 1 0 0 1 1.41 0"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path d="m10.7 6.7-4 4a3 3 0 1 1 4-4" />
       </g>

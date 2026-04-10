@@ -17,9 +17,9 @@ export function ChevronUpLeft({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8 8h9a1 1 0 1 0 0-2H7a1 1 0 0 0-1 1v10a1 1 0 1 0 2 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
     </svg>

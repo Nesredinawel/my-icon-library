@@ -17,9 +17,9 @@ export function CandleStand({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M9.5 2a1 1 0 0 1 .83.45L12 4.95c.28.42.62 1.14.36 1.94a3 3 0 0 1-5.72 0A2.3 2.3 0 0 1 7 4.94l1.67-2.5A1 1 0 0 1 9.5 2M19 15a1 1 0 0 0-1 1v5a1 1 0 0 1-1 1H3a1 1 0 1 1 0-2h13v-4a3 3 0 1 1 6 0 1 1 0 1 1-2 0 1 1 0 0 0-1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

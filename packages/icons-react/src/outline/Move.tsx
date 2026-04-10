@@ -12,8 +12,8 @@ export function Move({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function Move({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M12 3v18m0-18L9 6m3-3 3 3m-3 15 3-3m-3 3-3-3m-6-6h18M3 12l3 3m-3-3 3-3m15 3-3-3m3 3-3 3"
         fill="none"
       />

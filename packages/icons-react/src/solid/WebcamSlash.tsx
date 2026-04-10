@@ -17,9 +17,9 @@ export function WebcamSlash({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3.7 2.3a1 1 0 0 0-1.4 1.4l3.2 3.2Q5 8.13 5 9.5a7 7 0 0 0 9.6 6.5l1.5 1.51a9 9 0 0 1-11.32-2.63l-1.81 2.54q-.41.57-.68 1c-.17.3-.36.69-.35 1.15a2 2 0 0 0 .78 1.51c.37.29.8.36 1.13.39q.5.04 1.22.03h13.86q.66 0 1.13-.02l.23.23a1 1 0 0 0 1.42-1.42zm8.38 11.2L8 9.42v.08a4 4 0 0 0 4.08 4"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

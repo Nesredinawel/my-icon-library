@@ -17,9 +17,9 @@ export function Hospital({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6 6.8c0-1.68 0-2.52.33-3.16a3 3 0 0 1 1.3-1.31C8.29 2 9.13 2 10.8 2h2.4c1.68 0 2.52 0 3.16.33a3 3 0 0 1 1.31 1.3c.33.65.33 1.49.33 3.17V22h-4v-4a2 2 0 1 0-4 0v4H6zm7-.8a1 1 0 1 0-2 0v1h-1a1 1 0 0 0 0 2h1v1a1 1 0 1 0 2 0V9h1a1 1 0 1 0 0-2h-1z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

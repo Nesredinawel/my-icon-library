@@ -22,9 +22,9 @@ export function ChartLine({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M21.64 6.23a1 1 0 0 1 .13 1.41l-5 6a1 1 0 0 1-1.48.07l-3.22-3.23-4.3 5.16a1 1 0 1 1-1.54-1.28l5-6a1 1 0 0 1 1.48-.07l3.22 3.23 4.3-5.16a1 1 0 0 1 1.41-.13"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

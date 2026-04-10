@@ -12,8 +12,8 @@ export function Droplet({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function Droplet({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M19 13.8a7.1 7.1 0 0 1-7 7.2 7.1 7.1 0 0 1-7-7.2q.01-1.44.5-2.7C6.56 8.46 12 3 12 3s5.45 5.46 6.5 8.1q.49 1.26.5 2.7"
         fill="none"
       />

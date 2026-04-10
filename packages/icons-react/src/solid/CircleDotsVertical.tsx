@@ -17,9 +17,9 @@ export function CircleDotsVertical({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20m1.25-5.3a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0m0-4.8a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0M12 5.95a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -17,9 +17,9 @@ export function SlidersSimple({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 8.5a3.5 3.5 0 0 1 6.86-1H21a1 1 0 1 1 0 2H8.86A3.5 3.5 0 0 1 2 8.5m13.14 6a3.5 3.5 0 1 1 0 2H3a1 1 0 1 1 0-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -4,7 +4,7 @@ export function AirpodsAlt({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function AirpodsAlt({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M6 6v1m12-1v1m.38 3.27c1.93 0 2.62-1.8 2.62-3.74A3.5 3.5 0 0 0 17.5 3 3.5 3.5 0 0 0 14 6.53V21h3.5v-9.93c0-.28 0-.42.05-.52a.5.5 0 0 1 .22-.22c.11-.06.25-.06.53-.06zm-12.75 0C3.69 10.27 3 8.47 3 6.53A3.5 3.5 0 0 1 6.5 3C8.43 3 10 4.58 10 6.53V21H6.5v-9.93c0-.28 0-.42-.05-.52a.5.5 0 0 0-.22-.22c-.11-.06-.25-.06-.53-.06z"
         fill="none"
       />

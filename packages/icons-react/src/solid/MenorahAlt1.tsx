@@ -17,9 +17,9 @@ export function MenorahAlt1({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1M3 4a1 1 0 0 1 1 1v1a1 1 0 0 1-2 0V5a1 1 0 0 1 1-1m4 0a1 1 0 0 1 1 1v1a1 1 0 0 1-2 0V5a1 1 0 0 1 1-1m10 0a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V5a1 1 0 0 1 1-1m4 0a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V5a1 1 0 0 1 1-1m-9 2a1 1 0 0 1 1 1v5.87A4 4 0 0 0 16 9a1 1 0 1 1 2 0 6 6 0 0 1-5 5.92v2.02A8 8 0 0 0 20 9a1 1 0 1 1 2 0 10 10 0 0 1-9 9.95V20h3a1 1 0 1 1 0 2H8a1 1 0 1 1 0-2h3v-1.05A10 10 0 0 1 2 9a1 1 0 0 1 2 0 8 8 0 0 0 7 7.94v-2.02A6 6 0 0 1 6 9a1 1 0 0 1 2 0 4 4 0 0 0 3 3.87V7a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

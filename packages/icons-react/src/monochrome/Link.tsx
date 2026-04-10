@@ -22,9 +22,9 @@ export function Link({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 12a6 6 0 0 1 6-6h2a1 1 0 1 1 0 2H8a4 4 0 1 0 0 8h2a1 1 0 1 1 0 2H8a6 6 0 0 1-6-6m11-5a1 1 0 0 1 1-1h2a6 6 0 0 1 0 12h-2a1 1 0 1 1 0-2h2a4 4 0 0 0 0-8h-2a1 1 0 0 1-1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

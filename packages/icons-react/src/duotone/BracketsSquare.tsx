@@ -19,9 +19,9 @@ export function BracketsSquare({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M9 3H5v18h4m6 0h4V3h-4"
         fill="none"
       />

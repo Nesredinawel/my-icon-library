@@ -17,16 +17,16 @@ export function Motorcycle({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M1 16.5a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0M5.5 14a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5m8.5 2.5a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0m4.5-2.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 4a1 1 0 0 1 1-1h2a1 1 0 0 1 .96.73L16.32 5H18a1 1 0 1 1 2 0v2a1 1 0 1 1-2 0h-1.12l2.58 9.23a1 1 0 1 1-1.92.54l-1.46-5.21A5.5 5.5 0 0 0 13 16.5a1 1 0 1 1-2 0A5.5 5.5 0 0 0 5.5 11H2a1 1 0 1 1 0-2h3.5c1.23 0 2.38.3 3.4.82l5.51-4.2-.17-.62H13a1 1 0 0 1-1-1m3 3.69-4.38 3.33q.81.76 1.38 1.74c.8-1.4 2.04-2.5 3.53-3.15z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

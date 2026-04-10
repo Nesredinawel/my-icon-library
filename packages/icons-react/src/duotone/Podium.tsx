@@ -4,7 +4,7 @@ export function Podium({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function Podium({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m18 14-2 7H8l-2-7m-2-4h16M6 9c0-2.2 1.34-4 3-4m0 0c0 1.1.9 2 2 2h3a2 2 0 1 0 0-4h-3a2 2 0 0 0-2 2"
         fill="none"
       />

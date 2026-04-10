@@ -22,9 +22,9 @@ export function RollerCoaster({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5 6a2 2 0 0 0-2 2v11a1 1 0 1 1-2 0V8a4 4 0 0 1 6.91-2.74l7.04 7.64a3.5 3.5 0 1 0-.17-4.6 1 1 0 0 1-1.56-1.26A5.5 5.5 0 0 1 23 10.5V19a1 1 0 1 1-2 0v-4.26a5.5 5.5 0 0 1-7.51-.48L6.44 6.62A2 2 0 0 0 5 6"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -19,9 +19,9 @@ export function ArrowDownRight({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m7 7 10 10m0 0V7m0 10H7"
         fill="none"
       />

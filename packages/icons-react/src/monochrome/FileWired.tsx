@@ -22,9 +22,9 @@ export function FileWired({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M9 2a2 2 0 0 0-2 2v8c0 1.1.9 2 2 2h6a2 2 0 0 0 2-2V6.41a1 1 0 0 0-.3-.7l-3.4-3.42a1 1 0 0 0-.71-.29zm3 1.5v3c0 .28.22.5.5.5h3z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -19,9 +19,9 @@ export function ArrowDownWideShort({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M7 3v18m0 0-4-4m4 4 4-4m3-14h7m-7 6h5m-5 6h3m-3 6h1"
         fill="none"
       />

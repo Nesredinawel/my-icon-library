@@ -17,9 +17,9 @@ export function Briefcase({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M13 2h-2C8.82 2 7 3.82 7 6q-.72 0-1.25.04c-.56.05-1.08.15-1.57.4a4 4 0 0 0-1.77 1.8l4.9 3.93c.52.41.67.53.83.61a2 2 0 0 0 .51.18c.18.04.37.04 1.03.04h4.64c.66 0 .85 0 1.03-.04a2 2 0 0 0 .5-.18c.17-.08.32-.2.84-.61l4.9-3.93-.03-.06a4 4 0 0 0-1.74-1.74c-.49-.25-1-.35-1.57-.4Q17.71 6 17 6a4 4 0 0 0-4-4m2 4H9c0-1.1.9-2 2-2h2a2 2 0 0 1 2 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

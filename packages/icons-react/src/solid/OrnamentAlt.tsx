@@ -25,9 +25,9 @@ export function OrnamentAlt({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M4.66 7.8A9 9 0 0 1 9 4.5V4a3 3 0 1 1 6 0v.51a9 9 0 0 1 4.34 3.28 9.97 9.97 0 0 1-14.68 0M11 4a1 1 0 1 1 2 0v.05a9 9 0 0 0-2 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

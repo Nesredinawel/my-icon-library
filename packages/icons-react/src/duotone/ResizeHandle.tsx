@@ -19,9 +19,9 @@ export function ResizeHandle({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m21 15-6 6m6-13L8 21"
         fill="none"
       />

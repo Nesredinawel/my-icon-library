@@ -19,9 +19,9 @@ export function Check({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m4 12.61 4.92 4.89L20 6.5"
         fill="none"
       />

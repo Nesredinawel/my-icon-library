@@ -22,9 +22,9 @@ export function ArrowSquareDownRight({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M9.7 8.3a1 1 0 0 0-1.4 1.4l4.29 4.3H10.5a1 1 0 1 0 0 2H15a1 1 0 0 0 1-1v-4.5a1 1 0 1 0-2 0v2.09z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

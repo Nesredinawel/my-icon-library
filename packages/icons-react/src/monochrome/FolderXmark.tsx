@@ -22,9 +22,9 @@ export function FolderXmark({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M10.7 10.3a1 1 0 1 0-1.4 1.4l1.29 1.3-1.3 1.3a1 1 0 1 0 1.42 1.4L12 14.42l1.3 1.3a1 1 0 0 0 1.4-1.42L13.42 13l1.3-1.3a1 1 0 0 0-1.42-1.4L12 11.58z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

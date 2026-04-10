@@ -17,9 +17,9 @@ export function Scrubber({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0m10 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

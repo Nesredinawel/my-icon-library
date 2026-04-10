@@ -17,9 +17,9 @@ export function EyeSlash({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3.7 2.3a1 1 0 0 0-1.4 1.4l2.76 2.77A11 11 0 0 0 1.5 11.7a1 1 0 0 0 0 .6 11 11 0 0 0 15.75 6.37l3.04 3.04a1 1 0 0 0 1.42-1.42zm10.33 13.15-1.51-1.52a2 2 0 0 1-2.45-2.45L8.55 9.97Q8.01 10.88 8 12a4 4 0 0 0 6.03 3.45"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

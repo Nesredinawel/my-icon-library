@@ -17,9 +17,9 @@ export function StaffSnake({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M17 4H6a3 3 0 1 0 3 3V6h8a2 2 0 1 1 0 4h-7a3 3 0 1 0 0 6h5a1 1 0 1 1 0 2h-5a1 1 0 1 0 0 2h5a3 3 0 1 0 0-6h-5a1 1 0 1 1 0-2h7a4 4 0 0 0 0-8M6 6h1v1a1 1 0 1 1-1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

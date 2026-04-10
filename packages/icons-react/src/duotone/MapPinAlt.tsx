@@ -4,7 +4,7 @@ export function MapPinAlt({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function MapPinAlt({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M5.7 15c-1.67.64-2.7 1.52-2.7 2.5 0 1.93 4.03 3.5 9 3.5s9-1.57 9-3.5c0-.98-1.03-1.86-2.7-2.5M18 9c0 4.06-4.5 6-6 9-1.5-3-6-4.94-6-9a6 6 0 1 1 12 0m-5 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
         fill="none"
       />

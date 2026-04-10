@@ -4,7 +4,7 @@ export function Gem({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function Gem({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M3.11 9H20.9M7.05 3.05 12 9l4.96-5.95m3.73 5.48-3.45-5.17a1 1 0 0 0-.19-.25l-.17-.09q-.09-.02-.3-.02H7.42q-.23 0-.3.02l-.18.1q-.07.05-.19.24L3.31 8.53c-.1.17-.17.25-.19.34l.01.25c.03.09.09.17.21.33l8.02 10.7c.22.29.33.43.46.48a.5.5 0 0 0 .36 0c.13-.05.24-.2.46-.48l8.02-10.7c.12-.16.18-.24.2-.33l.02-.25c-.02-.09-.08-.17-.2-.34"
         fill="none"
       />

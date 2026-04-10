@@ -17,9 +17,9 @@ export function LaptopSearch({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M5.5 2a3.5 3.5 0 1 0 1.67 6.58l.62.63a1 1 0 0 0 1.42-1.42l-.63-.62Q8.99 6.4 9 5.5A3.5 3.5 0 0 0 5.5 2M4 5.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

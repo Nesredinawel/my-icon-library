@@ -17,9 +17,9 @@ export function RulerTraingle({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2.62 2.08a1 1 0 0 1 1.09.21L6 4.6l-.7.7a1 1 0 0 0 1.4 1.42L7.42 6 9 7.59l-.7.7a1 1 0 0 0 1.4 1.42l.71-.71L12 10.59l-.7.7a1 1 0 0 0 1.4 1.42l.71-.71L15 13.59l-.7.7a1 1 0 0 0 1.4 1.42l.71-.71L18 16.59l-.7.7a1 1 0 0 0 1.4 1.42l.71-.71 2.3 2.3A1 1 0 0 1 21 22H3a1 1 0 0 1-1-1V3a1 1 0 0 1 .62-.92M6 12v6h6z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

@@ -22,9 +22,9 @@ export function SnowAlt1({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a1 1 0 0 1 1 1v7.27l6.3-3.64a1 1 0 1 1 1 1.74L14 12l6.3 3.63a1 1 0 1 1-1 1.74L13 13.73V21a1 1 0 0 1-2 0v-7.27l-6.3 3.64a1 1 0 1 1-1-1.74L10 12 3.7 8.37a1 1 0 1 1 1-1.74l6.3 3.64V3a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

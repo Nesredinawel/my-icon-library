@@ -22,9 +22,9 @@ export function CompressAlt2({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M21.7 2.3a1 1 0 0 1 0 1.4L15.42 10h2.09a1 1 0 1 1 0 2H13a1 1 0 0 1-1-1V6.5a1 1 0 1 1 2 0v2.09l6.3-6.3a1 1 0 0 1 1.4 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

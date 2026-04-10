@@ -21,9 +21,9 @@ export function Engine({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M16 7H6a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h1.46l1.7 2.55A1 1 0 0 0 10 20h8a1 1 0 0 0 1-1v-9a1 1 0 0 0-.3-.7l-2-2A1 1 0 0 0 16 7m-6 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0m2 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2m4-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
     </svg>

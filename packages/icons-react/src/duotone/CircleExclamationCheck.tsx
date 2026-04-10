@@ -4,7 +4,7 @@ export function CircleExclamationCheck({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function CircleExclamationCheck({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M19.48 7a9 9 0 1 0-.77 11M16 12.29 17.8 14l4.2-4M12 8v5m0 3"
         fill="none"
       />

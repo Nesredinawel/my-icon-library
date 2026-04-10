@@ -17,9 +17,9 @@ export function H1({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 5a1 1 0 0 1 1 1v5h5V6a1 1 0 0 1 2 0v12a1 1 0 1 1-2 0v-5H4v5a1 1 0 1 1-2 0V6a1 1 0 0 1 1-1m14 3.41-1.3 1.3a1 1 0 0 1-1.4-1.42l1.65-1.66q.3-.3.55-.51a1.47 1.47 0 0 1 2.14.11c.28.33.32.72.34.91q.02.34.02.75V17h2a1 1 0 1 1 0 2h-6a1 1 0 1 1 0-2h2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -21,9 +21,9 @@ export function AlarmPlus({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 20.59c1.6 0 3.07-.46 4.32-1.27l1.97 1.98a1 1 0 0 0 1.42-1.42l-1.85-1.84a8 8 0 1 0-11.72 0l-1.85 1.84a1 1 0 0 0 1.42 1.42l1.97-1.98A8 8 0 0 0 12 20.6m1-11.1a1 1 0 1 0-2 0v2H9a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0-2h-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

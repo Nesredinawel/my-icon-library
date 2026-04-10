@@ -17,9 +17,9 @@ export function CoffinOpen({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 2a1 1 0 0 0-.78.38l-4 5a1 1 0 0 0-.18.91l4 13A1 1 0 0 0 12 22h6a1 1 0 0 0 .96-.7l4-13a1 1 0 0 0-.18-.92l-4-5A1 1 0 0 0 18 2zm4 4a1 1 0 1 0-2 0v2h-2a1 1 0 1 0 0 2h2v6a1 1 0 1 0 2 0v-6h2a1 1 0 1 0 0-2h-2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

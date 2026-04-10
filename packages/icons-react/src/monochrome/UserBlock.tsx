@@ -17,9 +17,9 @@ export function UserBlock({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M17 14a4 4 0 1 0 0 8 4 4 0 0 0 0-8m-2 4a2 2 0 0 1 2.75-1.85l-2.73 2.13zm1.25 1.85 2.73-2.12.02.27a2 2 0 0 1-2.75 1.85"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

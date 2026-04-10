@@ -19,9 +19,9 @@ export function ChevronLeftDouble({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m18 17-5-5 5-5m-7 10-5-5 5-5"
         fill="none"
       />

@@ -12,8 +12,8 @@ export function Filter({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function Filter({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M3 4.6c0-.56 0-.84.1-1.05a1 1 0 0 1 .45-.44C3.76 3 4.04 3 4.6 3h14.8c.56 0 .84 0 1.05.1a1 1 0 0 1 .44.45c.11.21.11.49.11 1.05v1.74c0 .24 0 .36-.03.48a1 1 0 0 1-.12.29c-.06.1-.15.19-.32.36l-6.06 6.06c-.17.17-.26.26-.32.36a1 1 0 0 0-.12.3c-.03.1-.03.23-.03.47V17l-4 4v-6.34c0-.24 0-.36-.03-.48a1 1 0 0 0-.12-.29c-.06-.1-.15-.19-.32-.36L3.47 7.47a2 2 0 0 1-.32-.36 1 1 0 0 1-.12-.3q-.04-.13-.03-.47z"
         fill="none"
       />

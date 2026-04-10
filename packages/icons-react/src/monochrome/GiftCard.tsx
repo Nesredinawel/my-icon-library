@@ -22,9 +22,9 @@ export function GiftCard({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M7.5 9h2.88l-1.27 2.55a1 1 0 1 0 1.78.9L12 10.24l1.1 2.2a1 1 0 1 0 1.8-.89L13.61 9h2.88a3.5 3.5 0 1 0 0-7c-2.3 0-3.7 1.66-4.44 3.02l-.06.11-.06-.11C11.19 3.66 9.8 2 7.5 2a3.5 3.5 0 1 0 0 7M6.44 4.44A1.5 1.5 0 0 1 7.5 4c1.2 0 2.06.84 2.69 1.98q.28.53.46 1.02H7.5a1.5 1.5 0 0 1-1.06-2.56M16.5 7h-3.15q.18-.49.46-1.02C14.44 4.84 15.31 4 16.5 4a1.5 1.5 0 0 1 0 3"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path fill="currentColor" d="M2 17.2v.8h20v-2H2z" />
     </svg>

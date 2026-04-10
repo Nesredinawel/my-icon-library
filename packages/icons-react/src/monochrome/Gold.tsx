@@ -22,9 +22,9 @@ export function Gold({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2.89 13.83a1 1 0 0 1 .98-.83h5.26a1 1 0 0 1 .98.83l.88 5A1 1 0 0 1 10 20H3a1 1 0 0 1-.99-1.17zm11 0a1 1 0 0 1 .98-.83h5.26a1 1 0 0 1 .98.83l.88 5A1 1 0 0 1 21 20h-7a1 1 0 0 1-.98-1.17z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

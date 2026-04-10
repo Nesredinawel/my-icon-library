@@ -12,8 +12,8 @@ export function MouseAlt2({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,7 +22,7 @@ export function MouseAlt2({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
         d="M12 7v2m5.33 7.01.48-7.2.02-.2a5 5 0 0 0-2.35-4.5 6 6 0 0 0-7.39.32 5 5 0 0 0-1.92 4.18l.02.2.48 7.2a5.34 5.34 0 0 0 10.66 0Z"
         fill="none"
       />

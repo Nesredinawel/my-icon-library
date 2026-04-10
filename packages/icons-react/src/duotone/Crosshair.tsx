@@ -4,7 +4,7 @@ export function Crosshair({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -27,9 +27,9 @@ export function Crosshair({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M12 3v4m0 10v4m-9-9h4m10 0h4m-2 0a7 7 0 1 1-14 0 7 7 0 0 1 14 0"
         fill="none"
       />

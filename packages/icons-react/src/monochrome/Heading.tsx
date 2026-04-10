@@ -17,9 +17,9 @@ export function Heading({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 3a1 1 0 0 1 1-1h4a1 1 0 0 1 0 2H7v7h10V4h-1a1 1 0 1 1 0-2h4a1 1 0 1 1 0 2h-1v16h1a1 1 0 1 1 0 2h-4a1 1 0 1 1 0-2h1v-7H7v7h1a1 1 0 1 1 0 2H4a1 1 0 1 1 0-2h1V4H4a1 1 0 0 1-1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
     </svg>

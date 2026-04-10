@@ -19,9 +19,9 @@ export function AlignLeft({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M3 10h13M3 14h18M3 18h13M3 6h18"
         fill="none"
       />

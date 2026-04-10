@@ -12,8 +12,8 @@ export function Tent({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function Tent({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="m12 4-6.7 6.26c-.3.27-.45.41-.56.57a2 2 0 0 0-.25.46c-.07.19-.1.38-.17.78l-1.01 6.07c-.1.64-.16.96-.07 1.2a1 1 0 0 0 .44.53c.23.13.56.13 1.2.13H12m0-16 6.7 6.26c.3.27.45.41.56.57q.16.21.25.46c.07.19.1.38.17.78l1 6.07c.12.64.17.96.08 1.2a1 1 0 0 1-.44.53c-.23.13-.56.13-1.2.13H17M12 4v8m5 8h-5m5 0-5-8m0 8v-8"
         fill="none"
       />

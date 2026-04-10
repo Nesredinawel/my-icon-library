@@ -22,9 +22,9 @@ export function ListCheck({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M8.7 3.29a1 1 0 0 1 .01 1.41L5.25 8.2a1 1 0 0 1-1.42 0L2.29 6.65a1 1 0 1 1 1.42-1.4l.83.83L7.29 3.3a1 1 0 0 1 1.41-.01m0 6a1 1 0 0 1 .01 1.41l-3.46 3.5a1 1 0 0 1-1.42 0l-1.54-1.55a1 1 0 1 1 1.42-1.4l.83.83L7.29 9.3a1 1 0 0 1 1.41-.01M3 18a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

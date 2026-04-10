@@ -21,9 +21,9 @@ export function CruzeiroSign({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M13.62 4C9.45 4 6 7.54 6 12s3.45 8 7.62 8c1.79 0 3.43-.65 4.74-1.74a1 1 0 1 1 1.28 1.53A9.4 9.4 0 0 1 13.62 22C8.26 22 4 17.48 4 12S8.26 2 13.62 2c2.28 0 4.38.83 6.02 2.2a1 1 0 1 1-1.28 1.54A7.4 7.4 0 0 0 13.62 4"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
     </svg>

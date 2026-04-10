@@ -22,9 +22,9 @@ export function PaintbrushAlt({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2.49 20.45a1.9 1.9 0 0 0 .97-2.23 2 2 0 0 1-.1-.87A3.75 3.75 0 1 1 7.1 21.5H2.5a.5.5 0 0 1-.22-.95z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

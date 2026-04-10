@@ -4,7 +4,7 @@ export function ArrowSpin({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -27,9 +27,9 @@ export function ArrowSpin({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M12 20a8 8 0 0 1-6.25-3M12 4a8 8 0 0 1 6.93 4M4 12a8 8 0 0 1 3-6.25M20 12a8 8 0 0 1-3.7 6.74M19.3 5v3h-3M8 16.3H5v3M16.3 16v3h3M4.7 5h3v3"
         fill="none"
       />

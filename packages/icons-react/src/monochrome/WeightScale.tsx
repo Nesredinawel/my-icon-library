@@ -26,9 +26,9 @@ export function WeightScale({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M18 8A6 6 0 1 1 6 8a6 6 0 0 1 12 0m-2 0a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

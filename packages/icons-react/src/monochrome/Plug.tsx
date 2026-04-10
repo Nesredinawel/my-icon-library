@@ -22,9 +22,9 @@ export function Plug({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M4 9a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2h-1v2a6 6 0 0 1-5 5.92V21a1 1 0 1 1-2 0v-3.08A6 6 0 0 1 6 12v-2H5a1 1 0 0 1-1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

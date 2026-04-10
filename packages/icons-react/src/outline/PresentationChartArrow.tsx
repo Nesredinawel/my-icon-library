@@ -12,8 +12,8 @@ export function PresentationChartArrow({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function PresentationChartArrow({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M5 3v13h14V3M3 16h18m-9.5 4a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1m0 0v-4M8 11V8l4 3 4-4m0 0h-3m3 0v3M3 3h18"
         fill="none"
       />

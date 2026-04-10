@@ -22,9 +22,9 @@ export function ColonSign({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M13.22 2.02a1 1 0 0 1 .76 1.2l-4 18a1 1 0 0 1-1.96-.44l4-18a1 1 0 0 1 1.2-.76m4 0a1 1 0 0 1 .76 1.2l-4 18a1 1 0 0 1-1.96-.44l4-18a1 1 0 0 1 1.2-.76"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

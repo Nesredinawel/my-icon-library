@@ -18,9 +18,9 @@ export function Handshake({
       <g fill="currentColor" opacity=".3">
         <path d="M12 5.42c2-2 5 0 7 2v8h-1.83a2 2 0 0 0-.52-1.35l-.15-.15-3.5-3.5-1 1-.16.15A2 2 0 0 1 9 11.42l-.15-.15A2 2 0 0 1 9 8.42z" />
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M2 19.42a1 1 0 0 1-1-1V7.39a1 1 0 0 1 1-.97h2a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1zm1-1.02a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
       </g>
       <path
@@ -29,9 +29,9 @@ export function Handshake({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M20 19.42a1 1 0 0 1-1-1V7.39a1 1 0 0 1 1-.97h2a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1zm1-1.02a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

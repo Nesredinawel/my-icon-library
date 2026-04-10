@@ -19,9 +19,9 @@ export function HurricaneAlt({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M21 4H3m17 4H6m12 4H9m6 4H8m9 4h-5"
         fill="none"
       />

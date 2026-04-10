@@ -21,9 +21,9 @@ export function ToiletPortable({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6 7v14a1 1 0 1 0 2 0v-1h8v1a1 1 0 1 0 2 0V7zm9 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -12,8 +12,8 @@ export function Paintbrush({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function Paintbrush({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="m11.8 10.8 8.66-7.34a.77.77 0 0 1 1.08 1.08l-7.33 8.67m-2.42-2.42-2.2 1.87a1.95 1.95 0 1 0 2.75 2.75l1.87-2.2m-2.42-2.42 2.42 2.42m-3.87 4.54c0 1.8-1.46 3.25-3.25 3.25H2.5l.21-.1a2.4 2.4 0 0 0 1.23-2.82q-.1-.33-.08-.67a3.25 3.25 0 0 1 6.48.34"
         fill="none"
       />

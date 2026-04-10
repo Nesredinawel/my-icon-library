@@ -17,9 +17,9 @@ export function CircleDollarToSlot({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M20 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

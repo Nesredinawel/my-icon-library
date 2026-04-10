@@ -4,7 +4,7 @@ export function Stocking({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -25,9 +25,9 @@ export function Stocking({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M18 7v6.9a5.3 5.3 0 0 1-2.7 4.6l-4.1 2.28a3.67 3.67 0 0 1-3.6-6.4L10 13V7M9 3h10v4H9z"
         fill="none"
       />

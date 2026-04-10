@@ -12,8 +12,8 @@ export function HeartHalf({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function HeartHalf({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M12 6v14q-.08 0-.13-.02c-.1-.03-.18-.1-.35-.24-1.46-1.3-5.91-5.27-7.38-7.16a5.33 5.33 0 0 1 .8-7.4C7.19 3.25 10.2 3.9 12 6"
         fill="none"
       />

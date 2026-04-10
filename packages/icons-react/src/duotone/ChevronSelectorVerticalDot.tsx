@@ -19,9 +19,9 @@ export function ChevronSelectorVerticalDot({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="m7 15 5 5 5-5M7 9l5-5 5 5m-4.51 3a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"
         fill="none"
       />

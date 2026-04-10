@@ -21,9 +21,9 @@ export function ClockSnooze({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 3.5a9 9 0 1 0 0 18 9 9 0 0 0 0-18m-3 7a1 1 0 0 0 1 1h1.59l-2.3 2.3a1 1 0 0 0 .71 1.7h4a1 1 0 1 0 0-2h-1.59l2.3-2.3A1 1 0 0 0 14 9.5h-4a1 1 0 0 0-1 1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -22,9 +22,9 @@ export function GridSearch({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M16.5 13a3.5 3.5 0 1 0 1.67 6.58l1.12 1.13a1 1 0 0 0 1.42-1.42l-1.13-1.12q.41-.76.42-1.67a3.5 3.5 0 0 0-3.5-3.5M15 16.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

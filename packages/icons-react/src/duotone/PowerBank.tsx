@@ -4,7 +4,7 @@ export function PowerBank({
   size = 24,
   color = "currentColor",
   secondaryColor = color,
-  secondaryOpacity = 0.3,
+  secondaryOpacity = 0.14,
   ...rest
 }: DuotoneIconProps) {
   return (
@@ -29,9 +29,9 @@ export function PowerBank({
       />
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
         d="M20 18V7.8c0-1.68 0-2.52-.33-3.16a3 3 0 0 0-1.3-1.31C17.71 3 16.87 3 15.2 3H8.8c-1.68 0-2.52 0-3.16.33a3 3 0 0 0-1.31 1.3C4 5.29 4 6.13 4 7.8V18m16 0a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3m16 0a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3m7.5-11.5-1 2.5h3l-1 2.5M7 18h2"
         fill="none"
       />

@@ -17,9 +17,9 @@ export function ChevronDown({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 16a1 1 0 0 0 .7-.3l6-6a1 1 0 0 0-1.4-1.4L12 13.58l-5.3-5.3A1 1 0 0 0 5.3 9.7l6 6a1 1 0 0 0 .7.29"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
     </svg>

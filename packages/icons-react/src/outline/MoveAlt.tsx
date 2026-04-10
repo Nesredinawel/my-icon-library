@@ -12,8 +12,8 @@ export function MoveAlt({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function MoveAlt({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M12 3v6m0-6L9 6m3-3 3 3m-3 9v6m0 0 3-3m-3 3-3-3m-6-6h6m-6 0 3 3m-3-3 3-3m9 3h6m0 0-3-3m3 3-3 3"
         fill="none"
       />

@@ -21,9 +21,9 @@ export function BluetoothSlash({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="m17 18.41 3.3 3.3a1 1 0 0 0 1.4-1.42l-18-18a1 1 0 0 0-1.4 1.42L10.58 12l-4.3 4.3a1 1 0 1 0 1.42 1.4l3.3-3.28V22a1 1 0 0 0 1.7.7zM15.59 17 13 14.41v5.18z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

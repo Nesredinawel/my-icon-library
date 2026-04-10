@@ -17,9 +17,9 @@ export function Loader({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M19.07 4.93a1 1 0 0 1 0 1.41l-2.12 2.12a1 1 0 1 1-1.41-1.41l2.12-2.12a1 1 0 0 1 1.41 0M17 12a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1m-1.46 3.54a1 1 0 0 1 1.4 0l2.13 2.12a1 1 0 0 1-1.41 1.41l-2.12-2.12a1 1 0 0 1 0-1.41M12 17a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0v-3a1 1 0 0 1 1-1"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

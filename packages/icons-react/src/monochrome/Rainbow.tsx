@@ -22,9 +22,9 @@ export function Rainbow({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 4a8 8 0 0 0-8 8v9a1 1 0 1 1-2 0v-9a10 10 0 1 1 20 0v9a1 1 0 1 1-2 0v-9a8 8 0 0 0-8-8m0 6a2 2 0 0 0-2 2v9a1 1 0 1 1-2 0v-9a4 4 0 1 1 8 0v9a1 1 0 1 1-2 0v-9a2 2 0 0 0-2-2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

@@ -17,9 +17,9 @@ export function TeddyBear({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M4 5a3 3 0 0 0 2 2.83V8a6 6 0 1 0 12-.17 3 3 0 1 0-3.03-5.04 6 6 0 0 0-5.94 0A3 3 0 0 0 4 5m6 2a1 1 0 0 0 0 2h.01a1 1 0 1 0 0-2zm4 0a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2zm-2.17 4.5h.33a1 1 0 0 0 .17-1.99 4 4 0 0 0-.66 0 1 1 0 0 0 .16 2"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="currentColor"

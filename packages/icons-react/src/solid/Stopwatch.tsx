@@ -17,9 +17,9 @@ export function Stopwatch({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M9 2a1 1 0 0 0 0 2h2v2.06a8 8 0 1 0 7.32 3.03l1.39-1.38a1 1 0 0 0-1.42-1.42l-1.38 1.39A8 8 0 0 0 13 6.06V4h2a1 1 0 1 0 0-2zm4 9a1 1 0 1 0-2 0v3a1 1 0 1 0 2 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

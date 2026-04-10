@@ -17,9 +17,9 @@ export function Spider({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M9.85 6.27a1.5 1.5 0 0 1 1.34-.39c.4.08.67.34.81.5.14-.16.41-.42.8-.5.5-.1 1 .05 1.35.39.32.3.4.72.43.91q.05.34.09.8V8l.25 3 .02.23.04.06.24.33A3.99 3.99 0 0 1 12 18a4 4 0 0 1-3.22-6.37l.28-.4.02-.21.25-3v-.04q.04-.46.09-.8c.03-.19.1-.6.43-.91"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

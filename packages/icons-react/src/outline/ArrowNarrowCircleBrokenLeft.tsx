@@ -12,8 +12,8 @@ export function ArrowNarrowCircleBrokenLeft({
       viewBox="0 0 24 24"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       width={size}
       height={size}
       color={color}
@@ -22,8 +22,8 @@ export function ArrowNarrowCircleBrokenLeft({
     >
       <path
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="m13 8-4 4m0 0 4 4m-4-4h12m-1.52-5a9 9 0 1 0 0 10"
         fill="none"
       />

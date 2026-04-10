@@ -21,9 +21,9 @@ export function BitcoinCircle({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0m8.5-5.5a1 1 0 1 0-2 0V7H8a1 1 0 0 0 0 2h.5v6H8a1 1 0 1 0 0 2h.5v.5a1 1 0 1 0 2 0V17h1v.5a1 1 0 1 0 2 0V17a3 3 0 0 0 2.24-5 3 3 0 0 0-2.24-5v-.5a1 1 0 1 0-2 0V7h-1z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

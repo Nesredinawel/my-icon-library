@@ -17,9 +17,9 @@ export function ArrowRotateRight24({
     >
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 4a8 8 0 1 0 0 16 8.06 8.06 0 0 0 8-7.11 1 1 0 1 1 2 .22A10.06 10.06 0 0 1 12 22a10 10 0 0 1 0-20c3.09 0 5.8 1.37 7.6 3.55a1 1 0 0 1 1.87.7l-.5 2A1 1 0 0 1 20 9h-2a1 1 0 1 1 0-2h.2A7.8 7.8 0 0 0 12 4"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".3"
       />
       <path

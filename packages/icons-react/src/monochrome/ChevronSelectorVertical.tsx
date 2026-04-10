@@ -22,9 +22,9 @@ export function ChevronSelectorVertical({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M6.3 14.3a1 1 0 0 1 1.4 0l4.3 4.29 4.3-4.3a1 1 0 0 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 0 1 0-1.42"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

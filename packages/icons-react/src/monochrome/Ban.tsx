@@ -22,9 +22,9 @@ export function Ban({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );

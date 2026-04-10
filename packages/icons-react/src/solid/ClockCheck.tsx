@@ -21,9 +21,9 @@ export function ClockCheck({
       />
       <path
         fill="currentColor"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M3 12.5a9 9 0 1 1 18 0 9 9 0 0 1-18 0m12.7-1.3a1 1 0 0 0-1.4-1.4L11 13.08l-1.3-1.3a1 1 0 0 0-1.4 1.42l2 2a1 1 0 0 0 1.4 0z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );
