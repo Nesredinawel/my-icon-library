@@ -77,11 +77,11 @@ importers:
   apps/docs:
     dependencies:
       '@nasicons/icons-react':
-        specifier: ^4.0.0
-        version: 4.0.0(react@19.2.4)
+        specifier: ^5.0.0
+        version: 5.0.0(react@19.2.4)
       '@nasicons/icons-svg':
-        specifier: ^4.0.0
-        version: 4.0.0
+        specifier: ^5.0.0
+        version: 5.0.0
       next:
         specifier: 16.2.3
         version: 16.2.3(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -822,16 +822,16 @@ packages:
     peerDependencies:
       react: '>=17'
 
-  '@nasicons/icons-react@4.0.0':
-    resolution: {integrity: sha512-WAYYAgi9PuG9ci5qy/BGR3Z/Zu5W2KKaATeIC1M1X654tJ7MKc4A+mq57aSKwHrgZ9gCV9TaDDyeQYTTaAJCwg==}
+  '@nasicons/icons-react@5.0.0':
+    resolution: {integrity: sha512-DJEJ3Zctd5IYk7GYpsjXjNRokt6rLprIii6v+2OkDPQj7gpXOhIc39KIGPvsGv3aiOc26I5y1DNCD4CG77JMtw==}
     peerDependencies:
       react: '>=17'
 
   '@nasicons/icons-svg@2.0.0':
     resolution: {integrity: sha512-426xYVkRHOCbMPUrHMJivXnQewoiYPSJCL+YH9vHPIR6wXhHOzZXCOJvSLL9hS9N5XEj7oF0Ca1qEUh1orlcLg==}
 
-  '@nasicons/icons-svg@4.0.0':
-    resolution: {integrity: sha512-BM6Xn1KsEaqErvt7EOvUqHGaT6SswarhBOSwZjsOWPYQbeY96hoKD3pREdE0rbYEaJkSrsSCRFevAOJp9zm1wg==}
+  '@nasicons/icons-svg@5.0.0':
+    resolution: {integrity: sha512-i+b9RQuYbKX58vEHf89EJ/TutAQtpNosH/oOYFgAttiDplMzUpTAcYD/gs51ZCtXFMOja6CAYLe85HkpW7EmAA==}
 
   '@next/env@16.2.3':
     resolution: {integrity: sha512-ZWXyj4uNu4GCWQw9cjRxWlbD+33mcDszIo9iQxFnBX3Wmgq9ulaSJcl6VhuWx5pCWqqD+9W6Wfz7N0lM5lYPMA==}
@@ -3795,13 +3795,13 @@ snapshots:
     dependencies:
       react: 19.2.4
 
-  '@nasicons/icons-react@4.0.0(react@19.2.4)':
+  '@nasicons/icons-react@5.0.0(react@19.2.4)':
     dependencies:
       react: 19.2.4
 
   '@nasicons/icons-svg@2.0.0': {}
 
-  '@nasicons/icons-svg@4.0.0': {}
+  '@nasicons/icons-svg@5.0.0': {}
 
   '@next/env@16.2.3': {}
 
