@@ -1,5 +1,11 @@
 # @nasicons/icons-svg
 
+## 5.0.0
+
+### Major Changes
+
+- daca961: upgrade
+
 ## 4.0.0
 
 ### Major Changes

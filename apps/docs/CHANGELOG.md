@@ -1,5 +1,13 @@
 # docs
 
+## 0.1.3
+
+### Patch Changes
+
+- Updated dependencies [daca961]
+  - @nasicons/icons-react@5.0.0
+  - @nasicons/icons-svg@5.0.0
+
 ## 0.1.2
 
 ### Patch Changes
