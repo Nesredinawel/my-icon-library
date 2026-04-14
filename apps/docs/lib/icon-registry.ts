@@ -1,7 +1,7 @@
-import * as outline from "@ nasicon/icons-react/outline";
-import * as solid from "@ nasicon/icons-react/solid";
-import * as duotone from "@ nasicon/icons-react/duotone";
-import * as monochrome from "@ nasicon/icons-react/monochrome";
+import * as outline from "@nasicon/icons-react/outline";
+import * as solid from "@nasicon/icons-react/solid";
+import * as duotone from "@nasicon/icons-react/duotone";
+import * as monochrome from "@nasicon/icons-react/monochrome";
 
 import { normalizeIconName } from "./icon-normalize";
 import type { IconComponent } from "./icon-types";

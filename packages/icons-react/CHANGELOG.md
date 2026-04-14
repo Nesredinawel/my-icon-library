@@ -1,4 +1,4 @@
-# @ nasicon/icons-react
+# @nasicon/icons-react
 
 ## 1.0.0
 

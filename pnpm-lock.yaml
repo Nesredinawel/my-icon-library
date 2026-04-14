@@ -8,7 +8,7 @@ importers:
 
   .:
     dependencies:
-      '@ nasicon/icons-react':
+      '@nasicon/icons-react':
         specifier: ^2.0.0
         version: 2.0.0(react@19.2.4)
       '@ nasicon/icons-svg':
@@ -45,7 +45,7 @@ importers:
 
   apps/demo:
     dependencies:
-      '@ nasicon/icons-react':
+      '@nasicon/icons-react':
         specifier: workspace:*
         version: link:../../packages/icons-react
       '@ nasicon/icons-svg':
@@ -76,7 +76,7 @@ importers:
 
   apps/docs:
     dependencies:
-      '@ nasicon/icons-react':
+      '@nasicon/icons-react':
         specifier: ^5.0.0
         version: 5.0.0(react@19.2.4)
       '@ nasicon/icons-svg':
@@ -817,12 +817,12 @@ packages:
   '@napi-rs/wasm-runtime@0.2.12':
     resolution: {integrity: sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ==}
 
-  '@ nasicon/icons-react@2.0.0':
+  '@nasicon/icons-react@2.0.0':
     resolution: {integrity: sha512-boDXiez8GpV8c3eyG0hntLNrH2FjCGanWZd30F9T6JtY5xYwH4ck/J1seTxjogm0e/Mo1G1mHVCwbR0F6FMaog==}
     peerDependencies:
       react: '>=17'
 
-  '@ nasicon/icons-react@5.0.0':
+  '@nasicon/icons-react@5.0.0':
     resolution: {integrity: sha512-DJEJ3Zctd5IYk7GYpsjXjNRokt6rLprIii6v+2OkDPQj7gpXOhIc39KIGPvsGv3aiOc26I5y1DNCD4CG77JMtw==}
     peerDependencies:
       react: '>=17'
@@ -3791,11 +3791,11 @@ snapshots:
       '@tybys/wasm-util': 0.10.1
     optional: true
 
-  '@ nasicon/icons-react@2.0.0(react@19.2.4)':
+  '@nasicon/icons-react@2.0.0(react@19.2.4)':
     dependencies:
       react: 19.2.4
 
-  '@ nasicon/icons-react@5.0.0(react@19.2.4)':
+  '@nasicon/icons-react@5.0.0(react@19.2.4)':
     dependencies:
       react: 19.2.4
 
