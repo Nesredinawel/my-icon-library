@@ -1,20 +1,17 @@
 {
-  "name": "@nasicons/icons-svg",
-  "version": "5.0.0",
+  "name": "nasicons-svg",
+  "version": "1.0.0",
   "private": false,
   "sideEffects": false,
   "files": [
     "src"
   ],
-  "main": "./src/index.js",
-  "types": "./src/index.d.ts",
   "exports": {
-    ".": "./src/index.js",
     "./metadata": "./src/metadata.json",
-    "./outline/*": "./src/outline/*.svg",
-    "./solid/*": "./src/solid/*.svg",
-    "./duotone/*": "./src/duotone/*.svg",
-    "./monochrome/*": "./src/monochrome/*.svg"
-  },
-  "license": "MIT"
+    "./categories": "./src/categories.json",
+    "./outline/*.svg": "./src/outline/*.svg",
+    "./solid/*.svg": "./src/solid/*.svg",
+    "./duotone/*.svg": "./src/duotone/*.svg",
+    "./monochrome/*.svg": "./src/monochrome/*.svg"
+  }
 }

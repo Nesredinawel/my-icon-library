@@ -1,5 +1,11 @@
 # @nasicons/icons-svg
 
+## 1.0.0
+
+### Major Changes
+
+- first version
+
 ## 5.0.0
 
 ### Major Changes
