@@ -1,18 +1,21 @@
-import IconCard from "./IconCard";
+"use client";
 
-export default function IconGrid({
-  icons,
+import { IconCard } from "./IconCard";
+import type { IconStyle } from "@/lib/icon-types";
+
+export function IconGrid({
+  names,
+  style,
+  color
 }: {
-  icons: any[];
+  names: string[];
+  style: IconStyle;
+  color: string;
 }) {
   return (
-    <div className="grid">
-      {icons.map((icon) => (
-        <IconCard
-          key={icon.name}
-          name={icon.name}
-          style={icon.styles?.[0] ?? "duotone"}
-        />
+    <div className="grid gap-3 [grid-template-columns:repeat(auto-fill,minmax(220px,1fr))]">
+      {names.map((name) => (
+        <IconCard key={`${style}:${name}`} name={name} style={style} color={color} />
       ))}
     </div>
   );

@@ -1,10 +1,8 @@
 import type { NextConfig } from "next";
-import path from "node:path";
 
 const nextConfig: NextConfig = {
-  turbopack: {
-    root: path.resolve("../../"),
-  },
+  reactStrictMode: true,
+  transpilePackages: ["nasicon-react", "nasicon-svg"]
 };
 
 export default nextConfig;

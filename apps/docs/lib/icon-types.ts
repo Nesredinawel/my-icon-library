@@ -1,16 +1,11 @@
-import type { ComponentType, SVGProps } from "react";
+export type IconStyle = "outline" | "solid" | "duotone" | "monochrome";
 
-export type IconComponent = ComponentType<SVGProps<SVGSVGElement>>;
-
-export type IconStyle =
-  | "outline"
-  | "solid"
-  | "duotone"
-  | "monochrome";
-
-export interface IconMeta {
-  name: string;
+export type IconMetaItem = {
+  styles: IconStyle[];
   category: string;
   tags: string[];
-  styles: IconStyle[];
-}
+  animated: boolean;
+};
+
+export type IconsMeta = Record<string, IconMetaItem>;
+export type CategoriesIndex = Record<string, string[]>;
