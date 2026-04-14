@@ -9,7 +9,7 @@ export function IconPreview({
   name,
   style,
   size = 28,
-  color = "#111827",
+  color = "currentColor",
   strokeWidth = 1.5,
   secondaryOpacity = 0.3
 }: {
@@ -23,7 +23,7 @@ export function IconPreview({
   const key = toPascalCase(name);
   const Comp = ICONS_BY_STYLE[style]?.[key] as React.ComponentType<any> | undefined;
 
-  if (!Comp) return <span className="text-xs text-slate-400">Missing</span>;
+  if (!Comp) return <span className="text-xs text-muted">Missing</span>;
 
   const common = { size, color, "aria-label": `${name} ${style}` };
 

@@ -1,5 +1,64 @@
 @import "tailwindcss";
 
-:root {
-  color-scheme: light;
+/* subtle dot grid */
+.dot-grid {
+  background-image: radial-gradient(rgba(11, 18, 32, 0.09) 1px, transparent 1px);
+  background-size: 26px 26px;
+}
+
+/* glass panel */
+.glass {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+}
+
+/* fade mask for icon showcase */
+.fade-mask-y {
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 12%,
+    black 88%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 12%,
+    black 88%,
+    transparent 100%
+  );
+}
+
+/* slow float */
+@keyframes slowFloat {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+.slow-float {
+  animation: slowFloat 7s ease-in-out infinite;
+}
+
+/* sheen */
+@keyframes sheen {
+  0% { transform: translateX(-120%); opacity: 0; }
+  20% { opacity: 0.6; }
+  50% { opacity: 0.2; }
+  100% { transform: translateX(120%); opacity: 0; }
+}
+.sheen {
+  position: relative;
+  overflow: hidden;
+}
+.sheen::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-120%);
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.35), transparent);
+  animation: sheen 6s ease-in-out infinite;
+  pointer-events: none;
 }
