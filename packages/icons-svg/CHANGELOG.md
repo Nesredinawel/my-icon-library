@@ -1,4 +1,4 @@
-# @nasicons/icons-svg
+# @ nasicon/icons-svg
 
 ## 1.0.0
 
@@ -22,14 +22,14 @@
 
 ### Major Changes
 
-- 4184974: nasicons
+- 4184974:  nasicon
 
 ## 2.0.0
 
 ### Major Changes
 
 - An empty message aborts the editor.
-  nasicons
+   nasicon
   ===
 
 ## 1.0.0

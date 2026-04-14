@@ -1,4 +1,4 @@
-import metadata from "@nasicons/icons-svg/metadata";
+import metadata from "@ nasicon/icons-svg/metadata";
 
 import type { IconMeta } from "../lib/icon-types";
 

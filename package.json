@@ -9,9 +9,9 @@
     "icons:meta": "node scripts/build-metadata.mjs",
     "icons:react": "node scripts/generate-react.mjs",
 
-    "build": "pnpm icons:optimize && pnpm meta:seed && pnpm meta:auto && pnpm icons:meta && pnpm icons:react && pnpm --filter nasicons-react build",
+    "build": "pnpm icons:optimize && pnpm meta:seed && pnpm meta:auto && pnpm icons:meta && pnpm icons:react && pnpm --filter  nasicon-react build",
 
-    "demo:dev": "pnpm --filter nasicons-demo dev",
+    "demo:dev": "pnpm --filter  nasicon-demo dev",
     "demo": "pnpm build && pnpm demo:dev",
 
     "changeset": "changeset",

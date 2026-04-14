@@ -8,10 +8,10 @@ importers:
 
   .:
     dependencies:
-      '@nasicons/icons-react':
+      '@ nasicon/icons-react':
         specifier: ^2.0.0
         version: 2.0.0(react@19.2.4)
-      '@nasicons/icons-svg':
+      '@ nasicon/icons-svg':
         specifier: ^2.0.0
         version: 2.0.0
     devDependencies:
@@ -45,10 +45,10 @@ importers:
 
   apps/demo:
     dependencies:
-      '@nasicons/icons-react':
+      '@ nasicon/icons-react':
         specifier: workspace:*
         version: link:../../packages/icons-react
-      '@nasicons/icons-svg':
+      '@ nasicon/icons-svg':
         specifier: workspace:*
         version: link:../../packages/icons-svg
       react:
@@ -76,10 +76,10 @@ importers:
 
   apps/docs:
     dependencies:
-      '@nasicons/icons-react':
+      '@ nasicon/icons-react':
         specifier: ^5.0.0
         version: 5.0.0(react@19.2.4)
-      '@nasicons/icons-svg':
+      '@ nasicon/icons-svg':
         specifier: ^5.0.0
         version: 5.0.0
       next:
@@ -817,20 +817,20 @@ packages:
   '@napi-rs/wasm-runtime@0.2.12':
     resolution: {integrity: sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ==}
 
-  '@nasicons/icons-react@2.0.0':
+  '@ nasicon/icons-react@2.0.0':
     resolution: {integrity: sha512-boDXiez8GpV8c3eyG0hntLNrH2FjCGanWZd30F9T6JtY5xYwH4ck/J1seTxjogm0e/Mo1G1mHVCwbR0F6FMaog==}
     peerDependencies:
       react: '>=17'
 
-  '@nasicons/icons-react@5.0.0':
+  '@ nasicon/icons-react@5.0.0':
     resolution: {integrity: sha512-DJEJ3Zctd5IYk7GYpsjXjNRokt6rLprIii6v+2OkDPQj7gpXOhIc39KIGPvsGv3aiOc26I5y1DNCD4CG77JMtw==}
     peerDependencies:
       react: '>=17'
 
-  '@nasicons/icons-svg@2.0.0':
+  '@ nasicon/icons-svg@2.0.0':
     resolution: {integrity: sha512-426xYVkRHOCbMPUrHMJivXnQewoiYPSJCL+YH9vHPIR6wXhHOzZXCOJvSLL9hS9N5XEj7oF0Ca1qEUh1orlcLg==}
 
-  '@nasicons/icons-svg@5.0.0':
+  '@ nasicon/icons-svg@5.0.0':
     resolution: {integrity: sha512-i+b9RQuYbKX58vEHf89EJ/TutAQtpNosH/oOYFgAttiDplMzUpTAcYD/gs51ZCtXFMOja6CAYLe85HkpW7EmAA==}
 
   '@next/env@16.2.3':
@@ -3791,17 +3791,17 @@ snapshots:
       '@tybys/wasm-util': 0.10.1
     optional: true
 
-  '@nasicons/icons-react@2.0.0(react@19.2.4)':
+  '@ nasicon/icons-react@2.0.0(react@19.2.4)':
     dependencies:
       react: 19.2.4
 
-  '@nasicons/icons-react@5.0.0(react@19.2.4)':
+  '@ nasicon/icons-react@5.0.0(react@19.2.4)':
     dependencies:
       react: 19.2.4
 
-  '@nasicons/icons-svg@2.0.0': {}
+  '@ nasicon/icons-svg@2.0.0': {}
 
-  '@nasicons/icons-svg@5.0.0': {}
+  '@ nasicon/icons-svg@5.0.0': {}
 
   '@next/env@16.2.3': {}
 
