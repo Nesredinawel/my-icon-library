@@ -8,23 +8,24 @@ const STYLES = ["outline", "solid", "duotone", "monochrome"];
 const SRC_ROOT = "svgs";
 const OUT_ROOT = path.resolve("packages/icons-svg/src");
 
+// scripts/optimize-svgs.mjs (only the svgoConfig() part shown)
 function svgoConfig() {
   return {
     multipass: true,
     js2svg: { pretty: false },
     floatPrecision: 2,
     plugins: [
-  {
-    name: "preset-default",
-    params: {
-      overrides: {
-        removeViewBox: false,
+      {
+        name: "preset-default",
+        params: {
+          overrides: {
+            removeViewBox: false
+          }
+        }
       },
-    },
-  },
-  "removeDimensions",
-  "cleanupAttrs", // ✅ add
-]
+      { name: "removeDimensions" }
+      // NOTE: cleanupAttrs is already inside preset-default
+    ]
   };
 }
 

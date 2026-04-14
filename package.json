@@ -6,6 +6,8 @@
     "icons:optimize": "node scripts/optimize-svgs.mjs",
     "icons:meta": "node scripts/build-metadata.mjs",
     "icons:react": "node scripts/generate-react.mjs",
+    "meta:seed": "node scripts/gen-icons-meta.mjs",
+    "meta:auto": "node scripts/meta-auto-categorize.mjs",
     "build:packages": "pnpm --filter \"./packages/icons-react\" build",
     "build": "pnpm icons:optimize && pnpm icons:meta && pnpm icons:react && pnpm build:packages",
     "demo:dev": "pnpm --filter nasicons-demo dev",

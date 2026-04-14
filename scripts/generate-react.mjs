@@ -24,7 +24,6 @@ function pascalCase(name) {
     .filter(Boolean)
     .map((p) => p.charAt(0).toUpperCase() + p.slice(1))
     .join("");
-
   return /^\d/.test(s) ? `Icon${s}` : s;
 }
 
@@ -33,7 +32,7 @@ async function format(code) {
   return prettier.format(code, { ...(config ?? {}), parser: "typescript" });
 }
 
-/* ---------------- TYPES GENERATION ---------------- */
+/* ---------------- TYPES ---------------- */
 
 async function ensureTypesFile() {
   await mkdir(SHARED_DIR, { recursive: true });
@@ -56,16 +55,16 @@ export interface DuotoneIconProps extends BaseIconProps {
 `;
 
   const filePath = path.join(SHARED_DIR, "types.ts");
-  await writeFile(filePath, await format(typesContent));
-  console.log(`[react] Generated types: ${filePath}`);
+  await writeFile(filePath, await format(typesContent), "utf8");
 }
 
-/* ---------------- FIX: OPACITY ---------------- */
+/* ---------------- OPACITY DETECTION ---------------- */
 
 function parseOpacityNumberish(raw) {
   const v = String(raw).trim();
   if (!v) return null;
 
+  // number or percent
   const numericLike = /^[+-]?(?:\d+\.?\d*|\.\d+)(?:e[+-]?\d+)?%?$/i;
   if (!numericLike.test(v)) return null;
 
@@ -79,15 +78,18 @@ function parseOpacityNumberish(raw) {
 }
 
 function findFirstFractionalOpacity(svg) {
+  // checks raw SVG (before SVGR): opacity="0.3" fill-opacity="0.3"
   const re = /\b(opacity|fill-opacity)="([^"]+)"/gi;
   let m;
-
   while ((m = re.exec(svg))) {
     const val = parseOpacityNumberish(m[2]);
     if (val != null && val > 0 && val < 1) return val;
   }
-
   return null;
+}
+
+function isNear(n, target, tol = 0.03) {
+  return Math.abs(n - target) <= tol;
 }
 
 /* ---------------- JSX EXTRACTION ---------------- */
@@ -95,23 +97,18 @@ function findFirstFractionalOpacity(svg) {
 function extractSvgJsx(svgrCode, svgPath) {
   let m = svgrCode.match(/<svg\b[\s\S]*?<\/svg>/m);
   if (!m) m = svgrCode.match(/<svg\b[\s\S]*?\/>/m);
-
-  if (!m) {
-    throw new Error(`[react] could not extract <svg> JSX from: ${svgPath}`);
-  }
-
+  if (!m) throw new Error(`[react] could not extract <svg> JSX from: ${svgPath}`);
   return m[0];
 }
 
-/* ---------------- FIX: SVG ATTRIBUTES ---------------- */
+/* ---------------- ATTR FIXES ---------------- */
 
 function fixKebabToCamel(svgJsx) {
   return svgJsx
-    // Specific fixes for SVG attributes often missed by transformers
     .replace(/stroke-linecap=/g, "strokeLinecap=")
     .replace(/stroke-linejoin=/g, "strokeLinejoin=")
     .replace(/stroke-width=/g, "strokeWidth=")
-    .replace(/stroke-miterlimit=/g, "strokeMiterlimit=") // Fix for current error
+    .replace(/stroke-miterlimit=/g, "strokeMiterlimit=")
     .replace(/stroke-dasharray=/g, "strokeDasharray=")
     .replace(/stroke-dashoffset=/g, "strokeDashoffset=")
     .replace(/stroke-opacity=/g, "strokeOpacity=")
@@ -120,8 +117,6 @@ function fixKebabToCamel(svgJsx) {
     .replace(/fill-opacity=/g, "fillOpacity=")
     .replace(/clip-path=/g, "clipPath=");
 }
-
-/* ---------------- SVG PATCHING ---------------- */
 
 function normalizePaintToCurrentColor(svgJsx) {
   const keep = /^(none|currentColor|transparent)$/i;
@@ -143,42 +138,61 @@ function normalizePaintToCurrentColor(svgJsx) {
 }
 
 function ensureStrokedShapesHaveFillNone(svgJsx) {
-  const fillLike = new Set([
-    "path",
-    "rect",
-    "circle",
-    "ellipse",
-    "polygon",
-    "polyline",
-  ]);
-
+  const fillLike = new Set(["path", "rect", "circle", "ellipse", "polygon", "polyline"]);
   return svgJsx.replace(
     /<(?!\/)([A-Za-z][\w:-]*)\b([^>]*?)(\s*\/?)>/g,
     (full, tag, attrs, selfClose) => {
       if (!fillLike.has(tag.toLowerCase())) return full;
       if (!/\sstroke=/.test(attrs)) return full;
       if (/\sfill=/.test(attrs)) return full;
-
       return `<${tag}${attrs} fill="none"${selfClose}>`;
     }
   );
 }
 
-function applyDuotoneSecondary(svgJsx) {
+/**
+ * Duotone rule:
+ * - find elements with opacity/fillOpacity near the target (defaultSecondaryOpacity)
+ * - replace that opacity with {secondaryOpacity}
+ * - set color={secondaryColor} on that element so its currentColor becomes secondaryColor
+ */
+function applyDuotoneSecondary(svgJsx, targetOpacity) {
+  // match both:
+  // opacity="0.3"   fillOpacity="0.3"
+  // opacity={0.3}   fillOpacity={0.3}
+  const getOpacityFromAttrs = (attrs) => {
+    const m1 = attrs.match(/\sopacity="([^"]+)"/);
+    const m2 = attrs.match(/\sfillOpacity="([^"]+)"/);
+    const m3 = attrs.match(/\sopacity=\{([^}]+)\}/);
+    const m4 = attrs.match(/\sfillOpacity=\{([^}]+)\}/);
+
+    const raw = (m1?.[1] ?? m2?.[1] ?? m3?.[1] ?? m4?.[1]) ?? null;
+    if (raw == null) return null;
+
+    const n = parseOpacityNumberish(raw);
+    return n;
+  };
+
   return svgJsx.replace(
     /<(?!\/)([A-Za-z][\w:-]*)\b([^>]*?)(\s*\/?)>/g,
     (full, tag, attrs, selfClose) => {
       if (tag.toLowerCase() === "svg") return full;
 
-      const m =
-        attrs.match(/\sopacity="([^"]+)"/) ||
-        attrs.match(/\sfillOpacity="([^"]+)"/);
+      const n = getOpacityFromAttrs(attrs);
+      if (n == null) return full;
+      if (!isNear(n, targetOpacity, 0.03)) return full;
 
-      if (!m) return full;
-
+      // Remove original opacity props
       let newAttrs = attrs
         .replace(/\s(opacity|fillOpacity)="[^"]*"/g, "")
-        .replace(/\scolor="[^"]*"/g, "");
+        .replace(/\s(opacity|fillOpacity)=\{[^}]*\}/g, "");
+
+      // Ensure we don't add duplicate color/opacity props
+      newAttrs = newAttrs
+        .replace(/\scolor=\{[^}]*\}/g, "")
+        .replace(/\scolor="[^"]*"/g, "")
+        .replace(/\sopacity=\{[^}]*\}/g, "")
+        .replace(/\sopacity="[^"]*"/g, "");
 
       newAttrs += ` color={secondaryColor} opacity={secondaryOpacity}`;
 
@@ -189,13 +203,14 @@ function applyDuotoneSecondary(svgJsx) {
 
 /* ---------------- PATCH PIPELINE ---------------- */
 
-function patchSvgJsx(svgJsx, style) {
-  svgJsx = fixKebabToCamel(svgJsx); // MUST BE FIRST
+function patchSvgJsx(svgJsx, style, defaultSecondaryOpacity) {
+  svgJsx = fixKebabToCamel(svgJsx);
   svgJsx = normalizePaintToCurrentColor(svgJsx);
   svgJsx = ensureStrokedShapesHaveFillNone(svgJsx);
 
   if (style === "duotone") {
-    svgJsx = applyDuotoneSecondary(svgJsx);
+    const target = defaultSecondaryOpacity ?? DEFAULT_SECONDARY_OPACITY;
+    svgJsx = applyDuotoneSecondary(svgJsx, target);
   }
 
   const inject =
@@ -214,27 +229,22 @@ function patchSvgJsx(svgJsx, style) {
 
 /* ---------------- COMPONENT ---------------- */
 
-function buildComponentTsx({
-  componentName,
-  style,
-  svgJsx,
-  defaultSecondaryOpacity,
-}) {
+function buildComponentTsx({ componentName, style, svgJsx, defaultSecondaryOpacity }) {
   const typeImport =
     style === "outline"
       ? `import type { OutlineIconProps } from "../shared/types";`
       : style === "duotone"
-      ? `import type { DuotoneIconProps } from "../shared/types";`
-      : `import type { BaseIconProps } from "../shared/types";`;
+        ? `import type { DuotoneIconProps } from "../shared/types";`
+        : `import type { BaseIconProps } from "../shared/types";`;
 
   const signature =
     style === "outline"
       ? `export function ${componentName}({ size = ${DEFAULT_SIZE}, color = "${DEFAULT_COLOR}", strokeWidth = ${DEFAULT_STROKE_WIDTH}, ...rest }: OutlineIconProps) {`
       : style === "duotone"
-      ? `export function ${componentName}({ size = ${DEFAULT_SIZE}, color = "${DEFAULT_COLOR}", secondaryColor = color, secondaryOpacity = ${
-          defaultSecondaryOpacity ?? DEFAULT_SECONDARY_OPACITY
-        }, ...rest }: DuotoneIconProps) {`
-      : `export function ${componentName}({ size = ${DEFAULT_SIZE}, color = "${DEFAULT_COLOR}", ...rest }: BaseIconProps) {`;
+        ? `export function ${componentName}({ size = ${DEFAULT_SIZE}, color = "${DEFAULT_COLOR}", secondaryColor = color, secondaryOpacity = ${
+            defaultSecondaryOpacity ?? DEFAULT_SECONDARY_OPACITY
+          }, ...rest }: DuotoneIconProps) {`
+        : `export function ${componentName}({ size = ${DEFAULT_SIZE}, color = "${DEFAULT_COLOR}", ...rest }: BaseIconProps) {`;
 
   return `${typeImport}
 
@@ -249,14 +259,10 @@ ${signature}
 /* ---------------- MAIN ---------------- */
 
 async function run() {
-  // 1. Ensure types file exists
   await ensureTypesFile();
 
   for (const style of STYLES) {
-    const svgFiles = await fg(`${SVG_GLOB_ROOT}/${style}/**/*.svg`, {
-      onlyFiles: true,
-    });
-
+    const svgFiles = await fg(`${SVG_GLOB_ROOT}/${style}/**/*.svg`, { onlyFiles: true });
     console.log(`[react] ${style}: ${svgFiles.length} svg(s)`);
 
     const baseOutDir = path.join(OUT_DIR, style);
@@ -270,47 +276,42 @@ async function run() {
       const componentName = pascalCase(iconName);
 
       if (seen.has(componentName)) {
-        console.warn(`[react] Warning: Duplicate icon name detected: ${componentName}`);
-        continue;
+        throw new Error(`[react] Duplicate component name "${componentName}" in style "${style}". Fix filenames.`);
       }
       seen.add(componentName);
 
       const svg = await readFile(svgPath, "utf8");
+      const defaultSecondaryOpacity = style === "duotone" ? findFirstFractionalOpacity(svg) : null;
 
-      const defaultSecondaryOpacity =
-        style === "duotone" ? findFirstFractionalOpacity(svg) : null;
-
-      const svgrCode = await transform(svg, {
-        typescript: true,
-        jsxRuntime: "automatic",
-        icon: true,
-        svgo: false,
-      });
+      const svgrCode = await transform(
+        svg,
+        {
+          typescript: true,
+          jsxRuntime: "automatic",
+          svgo: false,
+          expandProps: false,
+          dimensions: false
+        },
+        { componentName: `Svg${componentName}` }
+      );
 
       let svgJsx = extractSvgJsx(svgrCode, svgPath);
-      svgJsx = patchSvgJsx(svgJsx, style);
+      svgJsx = patchSvgJsx(svgJsx, style, defaultSecondaryOpacity);
 
       let out = buildComponentTsx({
         componentName,
         style,
         svgJsx,
-        defaultSecondaryOpacity,
+        defaultSecondaryOpacity
       });
 
       out = await format(out);
 
-      await writeFile(
-        path.join(baseOutDir, `${componentName}.tsx`),
-        out
-      );
-
+      await writeFile(path.join(baseOutDir, `${componentName}.tsx`), out, "utf8");
       exports.push(`export { ${componentName} } from "./${componentName}";`);
     }
 
-    await writeFile(
-      path.join(baseOutDir, "index.ts"),
-      exports.sort().join("\n") + "\n"
-    );
+    await writeFile(path.join(baseOutDir, "index.ts"), exports.sort().join("\n") + "\n", "utf8");
   }
 }
 
