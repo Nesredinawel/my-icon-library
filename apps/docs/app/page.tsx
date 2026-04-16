@@ -58,8 +58,8 @@ export default function HomePage() {
   // Build a curated set from categories
   const coreIconsAuto = [
     ...safe(interfaceIcons, 100).slice(0, 10),
-    ...safe(arrowsIcons, 6).slice(0, 6),
-    ...safe(filesIcons, 6).slice(0, 6),
+    ...safe(arrowsIcons, 6).slice(0, 3),
+    ...safe(filesIcons, 6).slice(0, 2),
     ...safe(securityIcons, 4).slice(0, 4)
   ];
 
@@ -110,12 +110,12 @@ export default function HomePage() {
 
       <NasiconCoreCard
         icons={finalCoreIcons}
-        secondaryOpacity={0.3}
+        secondaryOpacity={0.1}
         minHeight={520}          // NEW (replaces height)
         iconSize={32}
         tileSize={84}
         strokeWidth={1.5}
-        defaultStyle="solid"
+        defaultStyle="outline"
       />
 
       <QualitySection developerCardIcon={developerCardIcon} features={qualityFeatures} />
