@@ -22,7 +22,7 @@ export function AppHeader() {
 
         <Link
           href="/icons"
-          className="rounded-lg bg-indigo-600 px-3 py-2 text-xs font-semibold text-white hover:bg-indigo-500"
+          className="rounded-xl bg-[#A1FF49] px-5 py-2 text-sm font-semibold text-slate-900 hover:brightness-95"
         >
           Get Started
         </Link>

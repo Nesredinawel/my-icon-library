@@ -7,7 +7,7 @@ export function TagPills({ tags }: { tags: string[] }) {
           className={[
             "rounded-full px-3 py-1 text-[11px] font-medium",
             i === 0
-              ? "bg-indigo-100 text-indigo-700"
+              ? "bg-[#A1FF49]/25 text-slate-900"
               : "bg-slate-100 text-slate-600"
           ].join(" ")}
         >
