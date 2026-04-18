@@ -39,7 +39,7 @@ export function Hero({
 
           {/* SEARCH */}
           <div className="mx-auto mt-10 max-w-xl">
-            <div className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 shadow-sm backdrop-blur">
+            <div className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 ">
               <div className="text-slate-500">
                 <IconPreview name={searchIconName} style="outline" size={18} />
               </div>

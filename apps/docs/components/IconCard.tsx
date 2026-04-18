@@ -1,85 +1,39 @@
 "use client";
 
-import Link from "next/link";
-import { CopyButton } from "./CopyButton";
-import { IconPreview } from "./IconPreview";
 import type { IconStyle } from "@/lib/icon-types";
-import { toPascalCase } from "@/lib/icon-utils";
-
-async function fetchSvg(style: IconStyle, name: string) {
-  const res = await fetch(`/api/svg?style=${style}&name=${encodeURIComponent(name)}`);
-  if (!res.ok) return "";
-  return await res.text();
-}
+import { IconPreview } from "@/components/IconPreview";
 
 export function IconCard({
   name,
   style,
-  color
+  color,
+  onOpen
 }: {
   name: string;
   style: IconStyle;
   color: string;
+  onOpen: (name: string) => void;
 }) {
-  const componentName = toPascalCase(name);
-
-  const reactImport = `import { ${componentName} } from "nasicon-react/${style}";`;
-  const reactUsage =
-    style === "duotone"
-      ? `<${componentName} size={24} secondaryOpacity={0.3} />`
-      : style === "outline"
-        ? `<${componentName} size={24} strokeWidth={1.5} />`
-        : `<${componentName} size={24} />`;
-
-  return (
-    <div className="rounded-xl border bg-white p-3">
-      <div className="mb-2 flex items-center justify-between">
-        <Link href={`/icons/${name}`} className="text-xs font-semibold hover:underline">
-          {name}
-        </Link>
-        <span className="text-[11px] text-slate-500">{style}</span>
-      </div>
-
-      <div className="grid place-items-center rounded-lg border bg-slate-50" style={{ height: 88 }}>
-        <IconPreview name={name} style={style} color={color} />
-      </div>
-
-      <div className="mt-3 flex gap-2">
-        <CopyButton label="Copy React" text={`${reactImport}\n\n${reactUsage}`} />
-        <CopyButton
-          label="Copy SVG"
-          text={`(loading...)`}
-        />
-        <CopySvgButton name={name} style={style} />
-      </div>
-    </div>
-  );
-}
-
-function CopySvgButton({ name, style }: { name: string; style: IconStyle }) {
-  return (
-    <CopyButtonAsync
-      label="Copy SVG"
-      load={async () => {
-        const svg = await fetchSvg(style, name);
-        return svg || "";
-      }}
-    />
-  );
-}
-
-function CopyButtonAsync({ label, load }: { label: string; load: () => Promise<string> }) {
-  // simple wrapper to avoid prefetching 1700 SVGs
   return (
     <button
       type="button"
-      className="rounded-lg border px-2 py-1 text-xs hover:bg-slate-50"
-      onClick={async () => {
-        const text = await load();
-        await navigator.clipboard.writeText(text);
-      }}
+      onClick={() => onOpen(name)}
+      className="group rounded-2xl border border-slate-200/70 bg-white p-3 text-left shadow-sm transition hover:shadow-[0_18px_70px_rgba(15,23,42,0.08)]"
     >
-      {label}
+      <div className="flex items-center justify-between gap-2">
+        <div className="text-xs font-semibold text-slate-900">{name}</div>
+        <span className="rounded-full border border-slate-200 bg-slate-50 px-2 py-0.5 text-[10px] font-semibold text-slate-600">
+          {style}
+        </span>
+      </div>
+
+      <div className="mt-3 grid place-items-center rounded-2xl bg-slate-50 ring-1 ring-slate-200/70 transition group-hover:bg-white">
+        <div className="py-8">
+          <IconPreview name={name} style={style} color={color} size={34} />
+        </div>
+      </div>
+
+      <div className="mt-3 text-[11px] text-slate-500">Tap to view variations & download.</div>
     </button>
   );
 }
