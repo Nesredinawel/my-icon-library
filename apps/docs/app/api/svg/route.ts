@@ -2,7 +2,6 @@ import { NextResponse } from "next/server";
 import path from "node:path";
 import { readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
-import { createRequire } from "node:module";
 import type { IconStyle } from "@/lib/icon-types";
 
 export const runtime = "nodejs";
@@ -46,50 +45,36 @@ export async function GET(req: Request) {
     );
   }
 
-  try {
-    // ✅ Resolve actual package location safely
-    const require = createRequire(import.meta.url);
-    const packageRoot = path.dirname(
-      require.resolve("nasicon-svg/package.json")
-    );
+  const svgPath = path.join(
+    process.cwd(),
+    "public",
+    "icons",
+    style,
+    `${name}.svg`
+  );
 
-    // ✅ Correct folder = src
-    const svgPath = path.join(
-      packageRoot,
-      "src",
-      style,
-      `${name}.svg`
-    );
-
-    if (!existsSync(svgPath)) {
-      return NextResponse.json(
-        { error: `SVG not found: ${name} (${style})` },
-        { status: 404 }
-      );
-    }
-
-    const svg = await readFile(svgPath, "utf8");
-
-    const headers = new Headers();
-    headers.set("Content-Type", "image/svg+xml; charset=utf-8");
-    headers.set("Cache-Control", "public, max-age=86400");
-
-    if (download) {
-      headers.set(
-        "Content-Disposition",
-        `attachment; filename="${name}-${style}.svg"`
-      );
-    }
-
-    return new NextResponse(svg, {
-      status: 200,
-      headers
-    });
-
-  } catch (error) {
+  if (!existsSync(svgPath)) {
     return NextResponse.json(
-      { error: "SVG not found" },
+      { error: `SVG not found: ${name} (${style})` },
       { status: 404 }
     );
   }
+
+  const svg = await readFile(svgPath, "utf8");
+
+  const headers = new Headers();
+  headers.set("Content-Type", "image/svg+xml; charset=utf-8");
+  headers.set("Cache-Control", "public, max-age=86400");
+
+  if (download) {
+    headers.set(
+      "Content-Disposition",
+      `attachment; filename="${name}-${style}.svg"`
+    );
+  }
+
+  return new NextResponse(svg, {
+    status: 200,
+    headers
+  });
 }
