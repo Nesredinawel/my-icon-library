@@ -47,16 +47,16 @@ export async function GET(req: Request) {
   }
 
   try {
-    // ✅ Resolve actual installed package path
+    // ✅ Resolve actual package location safely
     const require = createRequire(import.meta.url);
     const packageRoot = path.dirname(
       require.resolve("nasicon-svg/package.json")
     );
 
-    // ✅ Build correct dist path
+    // ✅ Correct folder = src
     const svgPath = path.join(
       packageRoot,
-      "dist",
+      "src",
       style,
       `${name}.svg`
     );
@@ -85,6 +85,7 @@ export async function GET(req: Request) {
       status: 200,
       headers
     });
+
   } catch (error) {
     return NextResponse.json(
       { error: "SVG not found" },
