@@ -2,11 +2,17 @@ import { NextResponse } from "next/server";
 import path from "node:path";
 import { readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
+import { createRequire } from "node:module";
 import type { IconStyle } from "@/lib/icon-types";
 
 export const runtime = "nodejs";
 
-const VALID_STYLES: IconStyle[] = ["outline", "solid", "duotone", "monochrome"];
+const VALID_STYLES: IconStyle[] = [
+  "outline",
+  "solid",
+  "duotone",
+  "monochrome"
+];
 
 function isSafeName(s: string) {
   return /^[a-z0-9-]+$/.test(s);
@@ -20,23 +26,37 @@ export async function GET(req: Request) {
   const download = url.searchParams.get("download") === "1";
 
   if (!style || !name) {
-    return NextResponse.json({ error: "Missing style or name" }, { status: 400 });
+    return NextResponse.json(
+      { error: "Missing style or name" },
+      { status: 400 }
+    );
   }
 
   if (!VALID_STYLES.includes(style)) {
-    return NextResponse.json({ error: "Invalid style" }, { status: 400 });
+    return NextResponse.json(
+      { error: "Invalid style" },
+      { status: 400 }
+    );
   }
 
   if (!isSafeName(name)) {
-    return NextResponse.json({ error: "Invalid name" }, { status: 400 });
+    return NextResponse.json(
+      { error: "Invalid name" },
+      { status: 400 }
+    );
   }
 
   try {
+    // ✅ Resolve actual installed package path
+    const require = createRequire(import.meta.url);
+    const packageRoot = path.dirname(
+      require.resolve("nasicon-svg/package.json")
+    );
+
+    // ✅ Build correct dist path
     const svgPath = path.join(
-      process.cwd(),
-      "node_modules",
-      "nasicon-svg",
-      "src",
+      packageRoot,
+      "dist",
       style,
       `${name}.svg`
     );
@@ -61,8 +81,14 @@ export async function GET(req: Request) {
       );
     }
 
-    return new NextResponse(svg, { status: 200, headers });
-  } catch (e) {
-    return NextResponse.json({ error: "SVG not found" }, { status: 404 });
+    return new NextResponse(svg, {
+      status: 200,
+      headers
+    });
+  } catch (error) {
+    return NextResponse.json(
+      { error: "SVG not found" },
+      { status: 404 }
+    );
   }
 }
