@@ -8,23 +8,20 @@
     "meta:auto": "node scripts/meta-auto-categorize.mjs",
     "icons:meta": "node scripts/build-metadata.mjs",
     "icons:react": "node scripts/generate-react.mjs",
-
     "build": "pnpm icons:optimize && pnpm meta:seed && pnpm meta:auto && pnpm icons:meta && pnpm icons:react && pnpm --filter nasicon-react build",
-
     "demo:dev": "pnpm --filter  nasicon-demo dev",
     "demo": "pnpm build && pnpm demo:dev",
-
     "changeset": "changeset",
     "publish-packages": "pnpm build && changeset publish",
     "version-packages": "changeset version",
     "release": "pnpm changeset && pnpm version-packages && pnpm publish-packages",
-
     "format": "prettier --write .",
     "check": "prettier --check ."
   },
   "devDependencies": {
     "@changesets/cli": "^2.30.0",
     "@svgr/core": "^8.1.0",
+    "eslint": "^9.39.4",
     "fast-glob": "^3.3.2",
     "prettier": "^3.3.3",
     "svgo": "^3.3.2",
