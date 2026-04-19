@@ -1,31 +1,40 @@
+"use client";
+
 import Link from "next/link";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function AppHeader() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-white/75 backdrop-blur">
-      <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-        <Link href="/" className="text-sm font-semibold tracking-tight text-slate-900">
+    <header className="sticky top-0 z-50 w-full border-b border-[rgb(var(--border))]
+                      bg-[rgb(var(--bg-elev))]/80 backdrop-blur">
+      <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+        
+        <Link
+          href="/"
+          className="text-sm font-semibold tracking-tight text-[rgb(var(--fg))]"
+        >
           nasicon
         </Link>
 
-        <div className="hidden items-center gap-6 text-xs text-slate-600 md:flex">
-          <Link className="hover:text-slate-900" href="/icons">
+        <div className="flex items-center gap-4">
+          <Link
+            href="/icons"
+            className="text-sm text-[rgb(var(--fg-muted))] hover:text-[rgb(var(--fg))]"
+          >
             Icons
           </Link>
-          <Link className="hover:text-slate-900" href="/docs">
-            Installation
-          </Link>
-          <a className="hover:text-slate-900" href="#about">
-            About
-          </a>
-        </div>
 
-        <Link
-          href="/icons"
-          className="rounded-xl bg-[#A1FF49] px-5 py-2 text-sm font-semibold text-slate-900 hover:brightness-95"
-        >
-          Get Started
-        </Link>
+          <ThemeToggle />
+
+          <Link
+            href="/icons"
+            className="rounded-xl bg-[rgb(var(--accent))]
+                       px-4 py-2 text-sm font-semibold text-slate-900
+                       hover:brightness-95 transition"
+          >
+            Get Started
+          </Link>
+        </div>
       </nav>
     </header>
   );

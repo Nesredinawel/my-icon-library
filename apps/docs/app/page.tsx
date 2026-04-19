@@ -7,8 +7,14 @@ import { QualitySection } from "@/components/landing/QualitySection";
 import { IntegrationSection } from "@/components/landing/IntegrationSection";
 import { Footer } from "@/components/landing/Footer";
 import { NasiconCoreCard } from "@/components/landing/NasiconCoreCard";
+import { SiteBackground } from "@/components/SiteBackground";
 
-const REQUIRED_STYLES: IconStyle[] = ["outline", "solid", "duotone", "monochrome"];
+const REQUIRED_STYLES: IconStyle[] = [
+  "outline",
+  "solid",
+  "duotone",
+  "monochrome"
+];
 
 function pick(meta: IconsMeta, categories: CategoriesIndex, cat: string, count: number) {
   const list = categories[cat] ?? [];
@@ -50,12 +56,11 @@ export default function HomePage() {
   const arrowsIcons = pick(meta, categories, "Arrows", 30);
   const filesIcons = pick(meta, categories, "Files", 30);
 
-  const safe = (arr: string[], n: number) => (arr.length >= n ? arr : fallback(meta, n));
+  const safe = (arr: string[], n: number) =>
+    arr.length >= n ? arr : fallback(meta, n);
 
-  // Use an icon that exists (prefer Interface)
   const searchIcon = safe(interfaceIcons, 1)[0];
 
-  // Build a curated set from categories
   const coreIconsAuto = [
     ...safe(interfaceIcons, 100).slice(0, 10),
     ...safe(arrowsIcons, 6).slice(0, 3),
@@ -63,7 +68,6 @@ export default function HomePage() {
     ...safe(securityIcons, 4).slice(0, 4)
   ];
 
-  // Optional: add custom icons; they will be filtered if missing
   const customIcons = [
     "arrow-left",
     "calendar",
@@ -75,14 +79,14 @@ export default function HomePage() {
     "lock"
   ];
 
-  // 1) de-duplicate + ensure exists in meta
-  const merged = filterExisting(meta, Array.from(new Set([...coreIconsAuto, ...customIcons])));
+  const merged = filterExisting(
+    meta,
+    Array.from(new Set([...coreIconsAuto, ...customIcons]))
+  );
 
-  // 2) IMPORTANT: ensure each icon exists in all 4 styles so style switching never shows Missing
   const coreIcons = filterByAllStyles(meta, merged, REQUIRED_STYLES);
-
-  // If filtering becomes too strict, fallback to any available icons (still existing)
-  const finalCoreIcons = coreIcons.length >= 12 ? coreIcons : merged;
+  const finalCoreIcons =
+    coreIcons.length >= 12 ? coreIcons : merged;
 
   const qualityFeatures = [
     {
@@ -98,29 +102,44 @@ export default function HomePage() {
     {
       icon: safe(interfaceIcons, 1)[0],
       title: "Customizable Styles",
-      desc: "Adjust strokeWidth and duotone secondaryOpacity with predictable props."
+      desc:
+        "Adjust strokeWidth and duotone secondaryOpacity with predictable props."
     }
   ];
 
   const developerCardIcon = safe(devIcons, 1)[0];
 
   return (
-    <div>
-      <Hero iconCount={iconCount} searchIconName={searchIcon} />
+    <div className="relative">
 
-      <NasiconCoreCard
-        icons={finalCoreIcons}
-        secondaryOpacity={0.1}
-        minHeight={520}          // NEW (replaces height)
-        iconSize={32}
-        tileSize={84}
-        strokeWidth={1.5}
-        defaultStyle="outline"
-      />
+      {/* ✅ Page-Specific Background */}
+      <SiteBackground variant="grid" glowOpacity={0.8} />
 
-      <QualitySection developerCardIcon={developerCardIcon} features={qualityFeatures} />
-      <IntegrationSection />
-      <Footer />
+      {/* ✅ Content Layer */}
+      <div className="relative bg-[rgb(var(--bg))] text-[rgb(var(--fg))] transition-colors duration-300">
+
+        <Hero iconCount={iconCount} searchIconName={searchIcon} />
+
+        <NasiconCoreCard
+          icons={finalCoreIcons}
+          secondaryOpacity={0.1}
+          minHeight={520}
+          iconSize={32}
+          tileSize={84}
+          strokeWidth={1.5}
+          defaultStyle="outline"
+        />
+
+        <QualitySection
+          developerCardIcon={developerCardIcon}
+          features={qualityFeatures}
+        />
+
+        <IntegrationSection />
+
+        <Footer />
+
+      </div>
     </div>
   );
 }

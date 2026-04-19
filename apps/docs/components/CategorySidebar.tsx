@@ -12,37 +12,61 @@ export function CategorySidebar({
   onSelect: (name: string | null) => void;
 }) {
   return (
-    <aside className="w-full md:w-64">
-      <div className="sticky top-4 rounded-xl border bg-white p-3">
-        <div className="mb-2 flex items-center justify-between">
-          <div className="text-sm font-semibold">Categories</div>
-          <button
-            type="button"
-            className="text-xs text-slate-500 hover:text-slate-900"
-            onClick={() => onSelect(null)}
-          >
-            Clear
-          </button>
-        </div>
+    <aside
+      className="
+        rounded-3xl
+        border border-[rgb(var(--border))]/60
+        bg-[rgb(var(--bg-elev))]/60 backdrop-blur-2xl
+        p-5
+        shadow-[0_20px_60px_rgba(0,0,0,0.06)]
+        max-h-[calc(100vh-6rem)]
+      "
+    >
+      <div className="mb-5 flex items-center justify-between">
+        <h3 className="text-sm font-semibold tracking-tight text-[rgb(var(--fg))]">
+          Categories
+        </h3>
 
-        <div className="max-h-[70vh] overflow-auto pr-1">
-          {categories.map((c) => (
+        <button
+          type="button"
+          onClick={() => onSelect(null)}
+          className="text-xs text-[rgb(var(--fg-muted))] hover:text-[rgb(var(--fg))] transition"
+        >
+          Reset
+        </button>
+      </div>
+
+      <div className="space-y-1 overflow-y-auto no-scrollbar max-h-[calc(100vh-10rem)] pr-1">
+        {categories.map((c) => {
+          const active = activeCategory === c.name;
+
+          return (
             <button
               key={c.name}
               type="button"
               onClick={() => onSelect(c.name)}
               className={cn(
-                "mb-1 flex w-full items-center justify-between rounded-lg px-2 py-1.5 text-left text-sm",
-                activeCategory === c.name ? "bg-slate-900 text-white" : "hover:bg-slate-50"
+                "group flex w-full items-center justify-between rounded-xl px-3 py-2 text-sm transition-all duration-200",
+                active
+                  ? "bg-[rgb(var(--fg))] text-[rgb(var(--bg))]"
+                  : "text-[rgb(var(--fg-muted))] hover:bg-[rgb(var(--bg))]/60 hover:text-[rgb(var(--fg))]"
               )}
             >
-              <span>{c.name}</span>
-              <span className={cn("text-xs", activeCategory === c.name ? "text-white/80" : "text-slate-500")}>
+              <span className="truncate">{c.name}</span>
+
+              <span
+                className={cn(
+                  "text-xs transition",
+                  active
+                    ? "text-[rgb(var(--bg))]/70"
+                    : "text-[rgb(var(--fg-muted))]"
+                )}
+              >
                 {c.count}
               </span>
             </button>
-          ))}
-        </div>
+          );
+        })}
       </div>
     </aside>
   );

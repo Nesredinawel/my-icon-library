@@ -1,23 +1,56 @@
 "use client";
 
 import * as React from "react";
+import { cn } from "@/lib/icon-utils";
 
-export function CopyButton({ text, label }: { text: string; label: string }) {
+export function CopyButton({
+  text,
+  label,
+  className
+}: {
+  text: string;
+  label: string;
+  className?: string;
+}) {
   const [copied, setCopied] = React.useState(false);
 
-  async function onCopy() {
-    await navigator.clipboard.writeText(text);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 900);
+  async function handleCopy() {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1200);
+    } catch (e) {
+      console.error("Copy failed:", e);
+    }
   }
 
   return (
     <button
       type="button"
-      onClick={onCopy}
-      className="rounded-xl border border-border bg-white px-4 py-3 text-xs font-semibold hover:bg-surface2"
+      onClick={handleCopy}
+      className={cn(
+        `
+        inline-flex items-center justify-center
+        rounded-xl
+        border border-[rgb(var(--border))]
+        bg-[rgb(var(--bg-elev))]
+        px-4 py-3
+        text-xs font-medium
+        text-[rgb(var(--fg))]
+        transition-colors duration-200
+        hover:bg-[rgb(var(--bg))]/60
+        active:scale-[0.98]
+        `,
+        className
+      )}
     >
-      {copied ? "Copied" : label}
+      {copied ? (
+        <span className="text-[rgb(var(--accent))] transition-colors">
+          Copied ✓
+        </span>
+      ) : (
+        label
+      )}
     </button>
   );
 }

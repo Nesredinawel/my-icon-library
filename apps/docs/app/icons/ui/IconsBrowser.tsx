@@ -3,8 +3,8 @@
 import * as React from "react";
 import { CategorySidebar } from "@/components/CategorySidebar";
 import { IconGrid } from "@/components/IconGrid";
-import { StyleTabs } from "@/components/StyleTabs";
 import type { CategoriesIndex, IconsMeta, IconStyle } from "@/lib/icon-types";
+import { IconControls } from "@/components/IconControls";
 
 export default function IconsBrowser({
   categories,
@@ -15,7 +15,7 @@ export default function IconsBrowser({
 }) {
   const [query, setQuery] = React.useState("");
   const [style, setStyle] = React.useState<IconStyle>("outline");
-  const [color, setColor] = React.useState("#111827");
+  const [color, setColor] = React.useState("#a1ff49");
   const [activeCategory, setActiveCategory] = React.useState<string | null>(null);
 
   const categoryList = React.useMemo(() => {
@@ -28,12 +28,9 @@ export default function IconsBrowser({
 
   const filtered = React.useMemo(() => {
     const q = query.trim().toLowerCase();
-
     let names = allNames;
 
     if (activeCategory) names = categories[activeCategory] ?? [];
-
-    // optional: only show icons that have the selected style available
     names = names.filter((n) => meta[n]?.styles?.includes(style));
 
     if (!q) return names;
@@ -46,49 +43,42 @@ export default function IconsBrowser({
   }, [query, allNames, activeCategory, categories, meta, style]);
 
   return (
-    <div className="grid gap-4 md:grid-cols-[260px_1fr]">
-      <CategorySidebar
-        categories={categoryList}
-        activeCategory={activeCategory}
-        onSelect={setActiveCategory}
-      />
+  <div className="h-screen flex overflow-hidden">
 
-      <div className="space-y-4">
-        <div className="rounded-2xl border bg-white p-4">
-          <div className="flex flex-wrap items-end gap-3">
-            <label className="grid gap-1 text-sm">
-              Search
-              <input
-                className="w-[280px] rounded-lg border px-3 py-2"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder="search name or tags…"
-              />
-            </label>
+    {/* Sidebar */}
+    <aside className="hidden md:block w-[280px] shrink-0 ">
+      <div className="h-full overflow-y-auto no-scrollbar pt-6 px-4">
+        <CategorySidebar
+          categories={categoryList}
+          activeCategory={activeCategory}
+          onSelect={setActiveCategory}
+        />
+      </div>
+    </aside>
 
-            <div className="grid gap-1 text-sm">
-              Style
-              <StyleTabs value={style} onChange={setStyle} />
-            </div>
+    {/* Main Area */}
+    <div className="flex flex-1 flex-col overflow-hidden">
 
-            <label className="grid gap-1 text-sm">
-              Color
-              <input
-                className="h-[38px] w-[86px] rounded-lg border px-2 py-1"
-                type="color"
-                value={color}
-                onChange={(e) => setColor(e.target.value)}
-              />
-            </label>
+      {/* Controls (fixed) */}
+      <div className="shrink-0 px-6 pt-6">
+        <IconControls
+          query={query}
+          onQueryChange={setQuery}
+          style={style}
+          onStyleChange={setStyle}
+          color={color}
+          onColorChange={setColor}
+          count={filtered.length}
+        />
+      </div>
 
-            <div className="ml-auto text-sm text-slate-500">
-              Showing <b className="text-slate-900">{filtered.length}</b>
-            </div>
-          </div>
-        </div>
-
+      {/* ✅ ONLY GRID SCROLLS */}
+      <div className="flex-1 overflow-y-auto px-6 pb-10 no-scrollbar py-10">
         <IconGrid names={filtered} style={style} color={color} />
       </div>
+
     </div>
-  );
+
+  </div>
+);
 }

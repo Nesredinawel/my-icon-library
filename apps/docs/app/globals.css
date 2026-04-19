@@ -1,20 +1,101 @@
 @import "tailwindcss";
 
-/* subtle dot grid */
+/* ================================================
+   THEME VARIABLES
+   ================================================ */
+
+:root {
+  --bg: 248 250 252;          /* slate-50 */
+  --bg-elev: 255 255 255;     /* white */
+  --fg: 15 23 42;             /* slate-900 */
+  --fg-muted: 100 116 139;    /* slate-500 */
+  --border: 226 232 240;      /* slate-200 */
+  --accent: 161 255 73;       /* #A1FF49 */
+  --accent-soft: 161 255 73 / 0.15;
+
+  /* Glass specific */
+  --glass-bg: 255 255 255 / 0.72;
+  --glass-border: 255 255 255 / 0.55;
+
+  /* Dot grid */
+  --dot-color: 11 18 32 / 0.09;
+}
+
+.dark {
+  --bg: 2 6 23;               /* slate-950 */
+  --bg-elev: 15 23 42;        /* slate-900 */
+  --fg: 241 245 249;          /* slate-100 */
+  --fg-muted: 148 163 184;    /* slate-400 */
+  --border: 30 41 59;         /* slate-800 */
+  --accent: 161 255 73;
+  --accent-soft: 161 255 73 / 0.15;
+
+  /* Glass specific - dark mode */
+  --glass-bg: 15 23 42 / 0.72;
+  --glass-border: 30 41 59 / 0.55;
+
+  /* Dot grid - dark mode */
+  --dot-color: 241 245 249 / 0.06;
+}
+
+/* ================================================
+   BASE STYLES
+   ================================================ */
+
+html,
+body {
+  background-color: rgb(var(--bg));
+  color: rgb(var(--fg));
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+/* Selection */
+::selection {
+  background: rgb(var(--accent));
+  color: rgb(var(--fg));
+}
+
+/* ================================================
+   SCROLLBAR
+   ================================================ */
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ================================================
+   DOT GRID (Theme-aware)
+   ================================================ */
+
 .dot-grid {
-  background-image: radial-gradient(rgba(11, 18, 32, 0.09) 1px, transparent 1px);
+  background-image: radial-gradient(
+    rgb(var(--dot-color)) 1px,
+    transparent 1px
+  );
   background-size: 26px 26px;
 }
 
-/* glass panel */
+/* ================================================
+   GLASS PANEL (Theme-aware)
+   ================================================ */
+
 .glass {
-  background: rgba(255, 255, 255, 0.72);
+  background: rgb(var(--glass-bg));
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
-  border: 1px solid rgba(255, 255, 255, 0.55);
+  border: 1px solid rgb(var(--glass-border));
+  transition: background 300ms ease, border-color 300ms ease;
 }
 
-/* fade mask for icon showcase */
+/* ================================================
+   FADE MASK (For Icon Showcase)
+   ================================================ */
+
 .fade-mask-y {
   -webkit-mask-image: linear-gradient(
     to bottom,
@@ -32,33 +113,135 @@
   );
 }
 
-/* slow float */
-@keyframes slowFloat {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0px); }
+.fade-mask-x {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 12%,
+    black 88%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 12%,
+    black 88%,
+    transparent 100%
+  );
 }
+
+/* ================================================
+   ANIMATIONS
+   ================================================ */
+
+/* Slow float */
+@keyframes slowFloat {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 .slow-float {
   animation: slowFloat 7s ease-in-out infinite;
 }
 
-/* sheen */
+/* Sheen (Theme-aware) */
 @keyframes sheen {
-  0% { transform: translateX(-120%); opacity: 0; }
-  20% { opacity: 0.6; }
-  50% { opacity: 0.2; }
-  100% { transform: translateX(120%); opacity: 0; }
+  0% {
+    transform: translateX(-120%);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateX(120%);
+    opacity: 0;
+  }
 }
+
 .sheen {
   position: relative;
   overflow: hidden;
 }
+
 .sheen::after {
   content: "";
   position: absolute;
   inset: 0;
   transform: translateX(-120%);
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.35), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgb(var(--fg) / 0.1),
+    transparent
+  );
   animation: sheen 6s ease-in-out infinite;
   pointer-events: none;
+}
+
+/* ================================================
+   FOCUS RING (Theme-aware accent)
+   ================================================ */
+
+.focus-ring {
+  outline: none;
+}
+
+.focus-ring:focus-visible {
+  box-shadow: 0 0 0 3px rgb(var(--accent-soft));
+}
+
+/* ================================================
+   THEME TRANSITION UTILITY
+   ================================================ */
+
+.theme-transition {
+  transition:
+    background-color 300ms ease,
+    border-color 300ms ease,
+    color 300ms ease,
+    fill 300ms ease,
+    stroke 300ms ease;
+}
+
+/* ================================================
+   SURFACE UTILITIES (Optional)
+   ================================================ */
+
+.surface-base {
+  background-color: rgb(var(--bg));
+}
+
+.surface-elevated {
+  background-color: rgb(var(--bg-elev));
+}
+
+.text-primary {
+  color: rgb(var(--fg));
+}
+
+.text-muted {
+  color: rgb(var(--fg-muted));
+}
+
+.border-default {
+  border-color: rgb(var(--border));
+}
+
+.accent-bg {
+  background-color: rgb(var(--accent));
+}
+
+.accent-text {
+  color: rgb(var(--accent));
 }

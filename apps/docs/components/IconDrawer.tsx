@@ -22,26 +22,6 @@ function styleLabel(s: IconStyle) {
   }
 }
 
-async function fetchSvg(style: IconStyle, name: string) {
-  const res = await fetch(`/api/svg?style=${style}&name=${encodeURIComponent(name)}`);
-  if (!res.ok) return "";
-  return await res.text();
-}
-
-async function downloadTextFile(filename: string, content: string, mime = "image/svg+xml") {
-  const blob = new Blob([content], { type: mime });
-  const url = URL.createObjectURL(blob);
-
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = filename;
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-
-  URL.revokeObjectURL(url);
-}
-
 export function IconDrawer({
   open,
   name,
@@ -59,28 +39,31 @@ export function IconDrawer({
 
   const [style, setStyle] = React.useState<IconStyle>("outline");
   const [secondaryOpacity, setSecondaryOpacity] = React.useState(0.3);
+  const [downloading, setDownloading] = React.useState(false);
 
-  // Keep previous name for exit animation
+  /* ---------- Open / Close Animation ---------- */
+
   React.useEffect(() => {
     if (open && name) {
       setCurrentName(name);
       setRender(true);
-      // next tick => animate in
       requestAnimationFrame(() => setActive(true));
       setStyle("outline");
       setSecondaryOpacity(0.3);
     }
+
     if (!open) {
       setActive(false);
       const t = setTimeout(() => {
         setRender(false);
         setCurrentName(null);
-      }, 220);
+      }, 300);
       return () => clearTimeout(t);
     }
   }, [open, name]);
 
-  // ESC close
+  /* ---------- ESC Close ---------- */
+
   React.useEffect(() => {
     if (!render) return;
     const onKeyDown = (e: KeyboardEvent) => {
@@ -90,7 +73,8 @@ export function IconDrawer({
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [render, onClose]);
 
-  // Lock body scroll when open
+  /* ---------- Scroll Lock ---------- */
+
   React.useEffect(() => {
     if (!render) return;
     const prev = document.body.style.overflow;
@@ -105,234 +89,230 @@ export function IconDrawer({
   const componentName = toPascalCase(currentName);
 
   const reactImport = `import { ${componentName} } from "nasicon-react/${style}";`;
+
   const reactUsage =
     style === "duotone"
       ? `<${componentName} size={24} secondaryOpacity={${secondaryOpacity}} />`
       : style === "outline"
-        ? `<${componentName} size={24} strokeWidth={1.5} />`
-        : `<${componentName} size={24} />`;
+      ? `<${componentName} size={24} strokeWidth={1.5} />`
+      : `<${componentName} size={24} />`;
 
-  const terminalCode = `$ pnpm add nasicon-react nasicon-svg
-
-// ${styleLabel(style)} usage
+  const usageCode = `// ${styleLabel(style)} usage
 ${reactImport}
 
 export function Example() {
   return ${reactUsage}
-}
-`;
+}`;
 
-  const requestClose = () => onClose();
+  /* ---------- Download SVG ---------- */
+
+  async function handleDownload() {
+    try {
+      setDownloading(true);
+
+      const url = `/api/svg?style=${style}&name=${encodeURIComponent(
+        currentName!
+      )}&download=1`;
+
+      const a = document.createElement("a");
+      a.href = url;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+
+      await new Promise((r) => setTimeout(r, 700));
+    } finally {
+      setDownloading(false);
+    }
+  }
 
   return (
     <div className="fixed inset-0 z-[80]">
-      {/* overlay */}
+
+      {/* Overlay */}
       <button
-        type="button"
-        aria-label="Close"
-        onClick={requestClose}
-        className={[
-          "absolute inset-0 bg-slate-900/40 backdrop-blur-[2px] transition-opacity duration-200",
-          active ? "opacity-100" : "opacity-0"
-        ].join(" ")}
+        onClick={onClose}
+        className={`absolute inset-0 
+          bg-[rgb(var(--fg))]/30 backdrop-blur-sm
+          transition-opacity duration-300
+          ${active ? "opacity-100" : "opacity-0"}
+        `}
       />
 
-      {/* panel: bottom sheet on mobile, right drawer on desktop */}
+      {/* Drawer Panel */}
       <div
-        role="dialog"
-        aria-modal="true"
-        className={[
-          // position
-          "absolute inset-x-0 bottom-0 md:inset-y-0 md:right-0 md:left-auto",
-          // size
-          "w-full md:w-[520px]",
-          "h-[86vh] md:h-full",
-          // look
-          "bg-white border-t md:border-t-0 md:border-l border-slate-200 shadow-2xl",
-          "rounded-t-3xl md:rounded-none",
-          // animation
-          "transition-transform duration-200 ease-out",
-          active ? "translate-y-0 md:translate-x-0" : "translate-y-full md:translate-x-full"
-        ].join(" ")}
+        className={`
+          absolute inset-x-0 bottom-0
+          md:right-0 md:left-auto md:inset-y-0
+          w-full md:w-[520px]
+          h-[86vh] md:h-full
+          bg-[rgb(var(--bg-elev))]
+          border-t md:border-l border-[rgb(var(--border))]
+          shadow-2xl
+          rounded-t-3xl md:rounded-none
+          transition-transform duration-300 ease-out
+          ${active ? "translate-y-0 md:translate-x-0" : "translate-y-full md:translate-x-full"}
+        `}
       >
-        {/* header */}
-        <div className="flex items-center justify-between border-b border-slate-200 px-5 py-4">
+        {/* Header */}
+        <div className="flex items-center justify-between border-b border-[rgb(var(--border))] px-6 py-5">
           <div className="flex items-center gap-3">
-            <div className="grid h-10 w-10 place-items-center rounded-2xl bg-slate-50 ring-1 ring-slate-200/70">
-              <IconPreview name={currentName} style={style} color={color} size={22} secondaryOpacity={secondaryOpacity} />
+            <div className="grid h-10 w-10 place-items-center rounded-xl bg-[rgb(var(--bg))]">
+              <IconPreview
+                name={currentName}
+                style={style}
+                color={color}
+                size={22}
+                secondaryOpacity={secondaryOpacity}
+              />
             </div>
+
             <div>
-              <div className="text-[11px] text-slate-500">Icon</div>
-              <div className="text-sm font-semibold text-slate-900">{currentName}</div>
+              <div className="text-xs text-[rgb(var(--fg-muted))]">
+                Icon
+              </div>
+              <div className="text-sm font-semibold text-[rgb(var(--fg))]">
+                {currentName}
+              </div>
             </div>
           </div>
 
           <button
-            type="button"
-            onClick={requestClose}
-            className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-xs font-semibold hover:bg-slate-50"
+            onClick={onClose}
+            className="text-xs font-semibold px-3 py-2 rounded-lg
+                       border border-[rgb(var(--border))]
+                       text-[rgb(var(--fg))]
+                       hover:bg-[rgb(var(--bg))]/60
+                       transition"
           >
             Close
           </button>
         </div>
 
-        {/* content */}
-        <div className="h-full overflow-auto px-5 py-5 pb-28 space-y-6">
-          {/* Variations */}
-          <div className="rounded-2xl border border-slate-200 bg-white p-4">
-            <div className="flex items-start justify-between gap-3">
-              <div>
-                <div className="text-sm font-semibold text-slate-900">Variations</div>
-                <div className="mt-1 text-xs text-slate-500">
-                  Tap a style to preview and get code.
-                </div>
-              </div>
+        {/* Content */}
+        <div className="p-6 space-y-8 overflow-auto h-full pb-24">
 
-              <div className="flex flex-wrap justify-end gap-2">
-                {STYLES.map((s) => {
-                  const isActive = s === style;
-                  return (
-                    <button
-                      key={s}
-                      type="button"
-                      onClick={() => setStyle(s)}
-                      className={[
-                        "rounded-full px-3 py-1 text-[11px] font-semibold ring-1 transition",
-                        isActive
-                          ? "bg-slate-900 text-white ring-slate-900"
-                          : "bg-white text-slate-700 ring-slate-200 hover:bg-slate-50"
-                      ].join(" ")}
-                      aria-pressed={isActive}
-                    >
-                      {styleLabel(s)}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-
-            <div className="mt-4 grid gap-4 md:grid-cols-2">
-              {/* main preview */}
-              <div className="rounded-2xl bg-slate-50 ring-1 ring-slate-200/70 p-6 grid place-items-center">
-                <IconPreview
-                  name={currentName}
-                  style={style}
-                  color={color}
-                  size={72}
-                  strokeWidth={1.5}
-                  secondaryOpacity={secondaryOpacity}
-                />
-              </div>
-
-              {/* mini grid */}
-              <div className="grid grid-cols-2 gap-3">
-                {STYLES.map((s) => {
-                  const selected = s === style;
-                  return (
-                    <button
-                      key={`mini-${s}`}
-                      type="button"
-                      onClick={() => setStyle(s)}
-                      className={[
-                        "rounded-2xl ring-1 p-3 grid place-items-center transition",
-                        selected ? "bg-white ring-slate-900/15" : "bg-slate-50 ring-slate-200/70 hover:bg-white"
-                      ].join(" ")}
-                    >
-                      <IconPreview
-                        name={currentName}
-                        style={s}
-                        color={color}
-                        size={30}
-                        strokeWidth={1.5}
-                        secondaryOpacity={secondaryOpacity}
-                      />
-                      <div className="mt-2 text-[10px] font-semibold text-slate-600">
-                        {styleLabel(s)}
-                      </div>
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-
-            {style === "duotone" && (
-              <div className="mt-5 flex items-center justify-between gap-3">
-                <div className="text-xs font-semibold text-slate-700">secondaryOpacity</div>
-                <div className="flex items-center gap-3">
-                  <input
-                    className="w-44"
-                    type="range"
-                    min={0}
-                    max={1}
-                    step={0.05}
-                    value={secondaryOpacity}
-                    onChange={(e) => setSecondaryOpacity(Number(e.target.value))}
-                  />
-                  <div className="w-12 text-right text-xs font-mono text-slate-700">
-                    {secondaryOpacity.toFixed(2)}
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
-
-          {/* Terminal showcase */}
-          <TerminalBlock code={terminalCode} />
-
-          {/* Actions */}
-          <div className="rounded-2xl border border-slate-200 bg-white p-4">
-            <div className="text-sm font-semibold text-slate-900">Actions</div>
-            <div className="mt-3 flex flex-wrap gap-2">
-              <CopyButton label="Copy React" text={`${reactImport}\n\n${reactUsage}`} />
-
-              <DownloadSvgButton
+          {/* Preview + Style Selection */}
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid place-items-center rounded-2xl bg-[rgb(var(--bg))] p-6">
+              <IconPreview
                 name={currentName}
                 style={style}
-                onDownload={async () => {
-                  const svg = await fetchSvg(style, currentName);
-                  if (!svg) return;
-                  await downloadTextFile(`${currentName}-${style}.svg`, svg, "image/svg+xml");
-                }}
+                color={color}
+                size={72}
+                secondaryOpacity={secondaryOpacity}
               />
             </div>
 
-            <div className="mt-3 text-[11px] text-slate-500">
-              Download uses <code className="rounded bg-slate-50 px-1">/api/svg</code> and saves a local <code className="rounded bg-slate-50 px-1">.svg</code> file.
+            <div className="grid grid-cols-2 gap-4">
+              {STYLES.map((s) => (
+                <button
+                  key={s}
+                  onClick={() => setStyle(s)}
+                  className={`
+                    rounded-xl p-4 transition-all
+                    border border-[rgb(var(--border))]
+                    ${
+                      style === s
+                        ? "bg-[rgb(var(--bg-elev))] ring-1 ring-[rgb(var(--accent))]/40"
+                        : "bg-[rgb(var(--bg))] hover:bg-[rgb(var(--bg-elev))]"
+                    }
+                  `}
+                >
+                  <IconPreview
+                    name={currentName}
+                    style={s}
+                    color={color}
+                    size={28}
+                  />
+                  <div className="text-[10px] mt-2 text-[rgb(var(--fg-muted))]">
+                    {styleLabel(s)}
+                  </div>
+                </button>
+              ))}
             </div>
           </div>
-        </div>
 
-        {/* bottom hint bar */}
-        <div className="absolute bottom-0 left-0 right-0 border-t border-slate-200 bg-white px-5 py-3 text-xs text-slate-500">
-          Tip: press <span className="rounded border bg-slate-50 px-1">Esc</span> to close
+          {/* Duotone Slider */}
+          {style === "duotone" && (
+            <div className="flex justify-between items-center">
+              <span className="text-xs font-medium text-[rgb(var(--fg-muted))]">
+                secondaryOpacity
+              </span>
+              <input
+                type="range"
+                min={0}
+                max={1}
+                step={0.05}
+                value={secondaryOpacity}
+                onChange={(e) =>
+                  setSecondaryOpacity(Number(e.target.value))
+                }
+                className="accent-[rgb(var(--accent))]"
+              />
+            </div>
+          )}
+
+          {/* Terminal Code */}
+          <TerminalBlock usageCode={usageCode} />
+
+          {/* Actions */}
+          <div className="flex gap-3">
+
+            {/* Copy */}
+            <CopyButton
+              label="Copy React"
+              text={`${reactImport}\n${reactUsage}`}
+            />
+
+            {/* Download */}
+            <button
+              onClick={handleDownload}
+              disabled={downloading}
+              className="
+                inline-flex items-center justify-center gap-2
+                px-4 py-3 text-xs font-semibold
+                rounded-xl
+                bg-[rgb(var(--accent))]
+                text-slate-900
+                transition-all duration-200
+                hover:brightness-95
+                active:scale-[0.98]
+                disabled:opacity-70 disabled:cursor-not-allowed
+              "
+            >
+              {downloading ? (
+                <>
+                  <svg
+                    className="h-4 w-4 animate-spin"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="currentColor"
+                      strokeWidth="4"
+                      className="opacity-25"
+                    />
+                    <path
+                      d="M22 12a10 10 0 0 1-10 10"
+                      stroke="currentColor"
+                      strokeWidth="4"
+                      className="opacity-75"
+                    />
+                  </svg>
+                  Downloading...
+                </>
+              ) : (
+                "Download SVG"
+              )}
+            </button>
+          </div>
+
         </div>
       </div>
     </div>
-  );
-}
-
-function DownloadSvgButton({
-  name,
-  style
-}: {
-  name: string;
-  style: IconStyle;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={() => {
-        const url = `/api/svg?style=${style}&name=${encodeURIComponent(name)}&download=1`;
-
-        const a = document.createElement("a");
-        a.href = url;
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
-      }}
-      className="rounded-xl px-4 py-3 text-xs font-semibold transition bg-[#A1FF49] text-slate-900 hover:brightness-95"
-    >
-      Download SVG ({style})
-    </button>
   );
 }
