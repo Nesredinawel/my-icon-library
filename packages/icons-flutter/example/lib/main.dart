@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: OutlineHome(
+          child: OutlineHouseBolt(
             size: 48,
             color: Colors.blue,
           ),
