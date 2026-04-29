@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style LaptopExclamation icon.
+///
+/// Example:
+/// ```dart
+/// SolidLaptopExclamation(size: 24, color: Colors.blue);
+/// ```
+class SolidLaptopExclamation extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidLaptopExclamation.
+  const SolidLaptopExclamation({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M6 3a1 1 0 1 0-2 0v3a1 1 0 0 0 2 0zM5 8a1 1 0 0 0 0 2h.01a1 1 0 1 0 0-2zm3-5v2h9.8c.58 0 .95 0 1.23.02.27.03.37.06.42.09a1 1 0 0 1 .44.44c.03.05.06.15.09.42.02.28.02.65.02 1.23V15h2V7.16q0-.8-.03-1.36a3 3 0 0 0-.3-1.16 3 3 0 0 0-1.3-1.31c-.39-.2-.78-.27-1.18-.3Q18.65 3 17.85 3zM2 9v6h2v-3.17A3 3 0 0 1 2 9m-1 8a1 1 0 0 1 1-1h20a1 1 0 0 1 1 1v.03q0 .66-.02 1.13-.02.5-.2.99a3 3 0 0 1-1.63 1.62q-.5.2-.99.2-.47.04-1.13.03H4.97q-.66 0-1.13-.02a3 3 0 0 1-.99-.2 3 3 0 0 1-1.62-1.63 3 3 0 0 1-.2-.99Q.98 17.7 1 17.03z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

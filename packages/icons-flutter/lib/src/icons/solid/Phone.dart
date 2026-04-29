@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Phone icon.
+///
+/// Example:
+/// ```dart
+/// SolidPhone(size: 24, color: Colors.blue);
+/// ```
 class SolidPhone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidPhone.
   const SolidPhone({
     super.key,
     this.size = 24,

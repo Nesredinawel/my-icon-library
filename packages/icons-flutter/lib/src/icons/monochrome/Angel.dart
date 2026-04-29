@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Angel icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeAngel(size: 24, color: Colors.blue);
+/// ```
 class MonochromeAngel extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeAngel.
   const MonochromeAngel({
     super.key,
     this.size = 24,

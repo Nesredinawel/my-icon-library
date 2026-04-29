@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Farm icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneFarm(size: 24, color: Colors.blue);
+/// ```
 class DuotoneFarm extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneFarm.
   const DuotoneFarm({
     super.key,
     this.size = 24,

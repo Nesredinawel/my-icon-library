@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Mistletoe icon.
+///
+/// Example:
+/// ```dart
+/// SolidMistletoe(size: 24, color: Colors.blue);
+/// ```
 class SolidMistletoe extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMistletoe.
   const SolidMistletoe({
     super.key,
     this.size = 24,

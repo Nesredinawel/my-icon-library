@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Voicemail icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneVoicemail(size: 24, color: Colors.blue);
+/// ```
 class DuotoneVoicemail extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneVoicemail.
   const DuotoneVoicemail({
     super.key,
     this.size = 24,

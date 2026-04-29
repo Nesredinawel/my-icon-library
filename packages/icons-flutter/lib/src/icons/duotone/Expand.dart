@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Expand icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneExpand(size: 24, color: Colors.blue);
+/// ```
 class DuotoneExpand extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneExpand.
   const DuotoneExpand({
     super.key,
     this.size = 24,

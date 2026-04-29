@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Rocket icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneRocket(size: 24, color: Colors.blue);
+/// ```
 class DuotoneRocket extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneRocket.
   const DuotoneRocket({
     super.key,
     this.size = 24,

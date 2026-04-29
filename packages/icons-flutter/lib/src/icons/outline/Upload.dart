@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Upload icon.
+///
+/// Example:
+/// ```dart
+/// OutlineUpload(size: 24, color: Colors.blue);
+/// ```
 class OutlineUpload extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineUpload.
   const OutlineUpload({
     super.key,
     this.size = 24,

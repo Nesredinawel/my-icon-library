@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Cctv icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCctv(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCctv extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCctv.
   const MonochromeCctv({
     super.key,
     this.size = 24,

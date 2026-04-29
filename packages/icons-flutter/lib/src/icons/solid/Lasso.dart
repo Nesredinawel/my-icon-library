@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Lasso icon.
+///
+/// Example:
+/// ```dart
+/// SolidLasso(size: 24, color: Colors.blue);
+/// ```
 class SolidLasso extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidLasso.
   const SolidLasso({
     super.key,
     this.size = 24,

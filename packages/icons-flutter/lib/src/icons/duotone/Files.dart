@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Files icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneFiles(size: 24, color: Colors.blue);
+/// ```
 class DuotoneFiles extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneFiles.
   const DuotoneFiles({
     super.key,
     this.size = 24,

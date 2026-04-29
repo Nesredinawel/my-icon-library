@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Diamond icon.
+///
+/// Example:
+/// ```dart
+/// SolidDiamond(size: 24, color: Colors.blue);
+/// ```
 class SolidDiamond extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidDiamond.
   const SolidDiamond({
     super.key,
     this.size = 24,

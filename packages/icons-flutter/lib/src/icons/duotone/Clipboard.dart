@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Clipboard icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneClipboard(size: 24, color: Colors.blue);
+/// ```
 class DuotoneClipboard extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneClipboard.
   const DuotoneClipboard({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Move icon.
+///
+/// Example:
+/// ```dart
+/// SolidMove(size: 24, color: Colors.blue);
+/// ```
 class SolidMove extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMove.
   const SolidMove({
     super.key,
     this.size = 24,

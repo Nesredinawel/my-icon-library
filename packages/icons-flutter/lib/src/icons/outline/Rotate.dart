@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Rotate icon.
+///
+/// Example:
+/// ```dart
+/// OutlineRotate(size: 24, color: Colors.blue);
+/// ```
 class OutlineRotate extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineRotate.
   const OutlineRotate({
     super.key,
     this.size = 24,

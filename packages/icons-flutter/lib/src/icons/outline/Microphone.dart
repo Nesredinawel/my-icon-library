@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Microphone icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMicrophone(size: 24, color: Colors.blue);
+/// ```
 class OutlineMicrophone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMicrophone.
   const OutlineMicrophone({
     super.key,
     this.size = 24,

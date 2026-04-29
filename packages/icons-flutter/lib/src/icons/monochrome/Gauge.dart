@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Gauge icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeGauge(size: 24, color: Colors.blue);
+/// ```
 class MonochromeGauge extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeGauge.
   const MonochromeGauge({
     super.key,
     this.size = 24,

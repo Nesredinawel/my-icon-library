@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Tally icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneTally(size: 24, color: Colors.blue);
+/// ```
 class DuotoneTally extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneTally.
   const DuotoneTally({
     super.key,
     this.size = 24,

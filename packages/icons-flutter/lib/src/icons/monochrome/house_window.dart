@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style HouseWindow icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeHouseWindow(size: 24, color: Colors.blue);
+/// ```
+class MonochromeHouseWindow extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeHouseWindow.
+  const MonochromeHouseWindow({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M10.68 2.7a4 4 0 0 1 2.63 0c.56.2 1.01.54 1.46.95q.63.61 1.51 1.6l5.46 6.08a1 1 0 0 1-1.48 1.33l-.26-.28v3.86q.01 1.2-.04 2a4 4 0 0 1-.4 1.57 4 4 0 0 1-1.74 1.75c-.49.25-1 .35-1.57.4q-.8.05-2 .04h-4.5q-1.2.01-2-.05a4 4 0 0 1-1.57-.39 4 4 0 0 1-1.74-1.75c-.25-.48-.35-1-.4-1.56Q4 17.45 4 16.24v-3.86l-.26.28a1 1 0 1 1-1.48-1.33l5.46-6.07q.88-1 1.5-1.6.65-.64 1.46-.96" clip-rule="evenodd" opacity=".3"/><path fill="currentColor" fill-rule="evenodd" d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

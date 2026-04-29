@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Move icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMove(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMove extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMove.
   const DuotoneMove({
     super.key,
     this.size = 24,

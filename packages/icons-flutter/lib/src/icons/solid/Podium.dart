@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Podium icon.
+///
+/// Example:
+/// ```dart
+/// SolidPodium(size: 24, color: Colors.blue);
+/// ```
 class SolidPodium extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidPodium.
   const SolidPodium({
     super.key,
     this.size = 24,

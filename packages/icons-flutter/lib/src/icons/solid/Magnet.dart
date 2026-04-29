@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Magnet icon.
+///
+/// Example:
+/// ```dart
+/// SolidMagnet(size: 24, color: Colors.blue);
+/// ```
 class SolidMagnet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMagnet.
   const SolidMagnet({
     super.key,
     this.size = 24,

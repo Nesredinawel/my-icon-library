@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Infinity icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneInfinity(size: 24, color: Colors.blue);
+/// ```
 class DuotoneInfinity extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneInfinity.
   const DuotoneInfinity({
     super.key,
     this.size = 24,

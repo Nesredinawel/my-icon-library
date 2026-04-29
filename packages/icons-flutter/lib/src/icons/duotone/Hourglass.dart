@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Hourglass icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneHourglass(size: 24, color: Colors.blue);
+/// ```
 class DuotoneHourglass extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneHourglass.
   const DuotoneHourglass({
     super.key,
     this.size = 24,

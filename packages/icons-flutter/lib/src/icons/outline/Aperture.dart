@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Aperture icon.
+///
+/// Example:
+/// ```dart
+/// OutlineAperture(size: 24, color: Colors.blue);
+/// ```
 class OutlineAperture extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineAperture.
   const OutlineAperture({
     super.key,
     this.size = 24,

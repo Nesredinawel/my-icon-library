@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Pause icon.
+///
+/// Example:
+/// ```dart
+/// OutlinePause(size: 24, color: Colors.blue);
+/// ```
 class OutlinePause extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlinePause.
   const OutlinePause({
     super.key,
     this.size = 24,

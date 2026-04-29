@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Play icon.
+///
+/// Example:
+/// ```dart
+/// MonochromePlay(size: 24, color: Colors.blue);
+/// ```
 class MonochromePlay extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromePlay.
   const MonochromePlay({
     super.key,
     this.size = 24,

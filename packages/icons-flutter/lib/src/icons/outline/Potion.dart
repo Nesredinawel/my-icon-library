@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Potion icon.
+///
+/// Example:
+/// ```dart
+/// OutlinePotion(size: 24, color: Colors.blue);
+/// ```
 class OutlinePotion extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlinePotion.
   const OutlinePotion({
     super.key,
     this.size = 24,

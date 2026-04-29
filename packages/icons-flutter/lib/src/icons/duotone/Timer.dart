@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Timer icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneTimer(size: 24, color: Colors.blue);
+/// ```
 class DuotoneTimer extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneTimer.
   const DuotoneTimer({
     super.key,
     this.size = 24,

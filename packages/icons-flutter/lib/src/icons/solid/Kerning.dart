@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Kerning icon.
+///
+/// Example:
+/// ```dart
+/// SolidKerning(size: 24, color: Colors.blue);
+/// ```
 class SolidKerning extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidKerning.
   const SolidKerning({
     super.key,
     this.size = 24,

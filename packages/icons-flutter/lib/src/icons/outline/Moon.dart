@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Moon icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMoon(size: 24, color: Colors.blue);
+/// ```
 class OutlineMoon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMoon.
   const OutlineMoon({
     super.key,
     this.size = 24,

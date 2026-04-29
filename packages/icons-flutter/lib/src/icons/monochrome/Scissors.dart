@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Scissors icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeScissors(size: 24, color: Colors.blue);
+/// ```
 class MonochromeScissors extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeScissors.
   const MonochromeScissors({
     super.key,
     this.size = 24,

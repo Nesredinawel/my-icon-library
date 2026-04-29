@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Sigma icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSigma(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSigma extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSigma.
   const DuotoneSigma({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Drum icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneDrum(size: 24, color: Colors.blue);
+/// ```
 class DuotoneDrum extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneDrum.
   const DuotoneDrum({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Printer icon.
+///
+/// Example:
+/// ```dart
+/// DuotonePrinter(size: 24, color: Colors.blue);
+/// ```
 class DuotonePrinter extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotonePrinter.
   const DuotonePrinter({
     super.key,
     this.size = 24,

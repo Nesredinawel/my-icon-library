@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Hospitals icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeHospitals(size: 24, color: Colors.blue);
+/// ```
 class MonochromeHospitals extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeHospitals.
   const MonochromeHospitals({
     super.key,
     this.size = 24,

@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style SnowmanHead icon.
+///
+/// Example:
+/// ```dart
+/// SolidSnowmanHead(size: 24, color: Colors.blue);
+/// ```
+class SolidSnowmanHead extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidSnowmanHead.
+  const SolidSnowmanHead({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M9 13a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2zm6 0a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2zm-2 3a1 1 0 1 0-2 0v1a1 1 0 1 0 2 0z"/><path fill="currentColor" fill-rule="evenodd" d="M7.57 2q-.39 0-.7.02c-.24.02-.5.06-.78.2a2 2 0 0 0-.87.87q-.19.41-.2.77-.02.33-.02.7V7H4a1 1 0 0 0-.95 1.32l.32.95c.21.64.4 1.21.77 1.65a3 3 0 0 0 1.09.82 8 8 0 0 0 1.17 9.97 1 1 0 0 0 .7.29h9.8a1 1 0 0 0 .7-.29 8 8 0 0 0 1.17-9.97 3 3 0 0 0 1.09-.82c.37-.44.56-1 .77-1.65l.32-.95A1 1 0 0 0 20 7h-1V4.57q0-.39-.02-.7-.01-.36-.2-.78a2 2 0 0 0-.87-.87 2 2 0 0 0-.77-.2Q16.8 2 16.44 2zm8.9 10H7.53a5.97 5.97 0 0 0 0 8h8.94a5.97 5.97 0 0 0 0-8m2.14-3H5.39c.15.44.21.56.28.64a1 1 0 0 0 .4.3c.14.04.32.06 1.24.06h9.38c.92 0 1.1-.02 1.23-.07a1 1 0 0 0 .4-.29c.08-.08.14-.2.29-.64" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

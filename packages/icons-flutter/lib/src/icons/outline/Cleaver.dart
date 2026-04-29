@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Cleaver icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCleaver(size: 24, color: Colors.blue);
+/// ```
 class OutlineCleaver extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCleaver.
   const OutlineCleaver({
     super.key,
     this.size = 24,

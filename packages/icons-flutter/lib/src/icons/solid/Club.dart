@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Club icon.
+///
+/// Example:
+/// ```dart
+/// SolidClub(size: 24, color: Colors.blue);
+/// ```
 class SolidClub extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidClub.
   const SolidClub({
     super.key,
     this.size = 24,

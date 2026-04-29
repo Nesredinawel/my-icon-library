@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Camcorder icon.
+///
+/// Example:
+/// ```dart
+/// SolidCamcorder(size: 24, color: Colors.blue);
+/// ```
 class SolidCamcorder extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCamcorder.
   const SolidCamcorder({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Command icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCommand(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCommand extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCommand.
   const DuotoneCommand({
     super.key,
     this.size = 24,

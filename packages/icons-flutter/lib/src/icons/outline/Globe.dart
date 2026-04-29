@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Globe icon.
+///
+/// Example:
+/// ```dart
+/// OutlineGlobe(size: 24, color: Colors.blue);
+/// ```
 class OutlineGlobe extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineGlobe.
   const OutlineGlobe({
     super.key,
     this.size = 24,

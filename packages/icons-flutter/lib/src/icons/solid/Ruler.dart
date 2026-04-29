@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Ruler icon.
+///
+/// Example:
+/// ```dart
+/// SolidRuler(size: 24, color: Colors.blue);
+/// ```
 class SolidRuler extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidRuler.
   const SolidRuler({
     super.key,
     this.size = 24,

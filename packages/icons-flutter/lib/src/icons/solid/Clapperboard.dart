@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Clapperboard icon.
+///
+/// Example:
+/// ```dart
+/// SolidClapperboard(size: 24, color: Colors.blue);
+/// ```
 class SolidClapperboard extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidClapperboard.
   const SolidClapperboard({
     super.key,
     this.size = 24,

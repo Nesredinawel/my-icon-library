@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Wifi icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneWifi(size: 24, color: Colors.blue);
+/// ```
 class DuotoneWifi extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneWifi.
   const DuotoneWifi({
     super.key,
     this.size = 24,

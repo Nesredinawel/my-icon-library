@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Exclamation icon.
+///
+/// Example:
+/// ```dart
+/// OutlineExclamation(size: 24, color: Colors.blue);
+/// ```
 class OutlineExclamation extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineExclamation.
   const OutlineExclamation({
     super.key,
     this.size = 24,

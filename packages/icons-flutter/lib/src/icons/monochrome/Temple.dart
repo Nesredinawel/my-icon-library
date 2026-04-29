@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Temple icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeTemple(size: 24, color: Colors.blue);
+/// ```
 class MonochromeTemple extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeTemple.
   const MonochromeTemple({
     super.key,
     this.size = 24,

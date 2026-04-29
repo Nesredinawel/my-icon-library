@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Minus icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMinus(size: 24, color: Colors.blue);
+/// ```
 class OutlineMinus extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMinus.
   const OutlineMinus({
     super.key,
     this.size = 24,

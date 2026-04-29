@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Gem icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneGem(size: 24, color: Colors.blue);
+/// ```
 class DuotoneGem extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneGem.
   const DuotoneGem({
     super.key,
     this.size = 24,

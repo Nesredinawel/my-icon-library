@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Signal icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSignal(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSignal extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSignal.
   const MonochromeSignal({
     super.key,
     this.size = 24,

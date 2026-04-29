@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Users icon.
+///
+/// Example:
+/// ```dart
+/// OutlineUsers(size: 24, color: Colors.blue);
+/// ```
 class OutlineUsers extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineUsers.
   const OutlineUsers({
     super.key,
     this.size = 24,

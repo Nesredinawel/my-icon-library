@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Figma icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneFigma(size: 24, color: Colors.blue);
+/// ```
 class DuotoneFigma extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneFigma.
   const DuotoneFigma({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Trademark icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTrademark(size: 24, color: Colors.blue);
+/// ```
 class OutlineTrademark extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineTrademark.
   const OutlineTrademark({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Heat icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneHeat(size: 24, color: Colors.blue);
+/// ```
 class DuotoneHeat extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneHeat.
   const DuotoneHeat({
     super.key,
     this.size = 24,

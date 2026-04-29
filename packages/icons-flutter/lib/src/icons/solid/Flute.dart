@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Flute icon.
+///
+/// Example:
+/// ```dart
+/// SolidFlute(size: 24, color: Colors.blue);
+/// ```
 class SolidFlute extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidFlute.
   const SolidFlute({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Train icon.
+///
+/// Example:
+/// ```dart
+/// SolidTrain(size: 24, color: Colors.blue);
+/// ```
 class SolidTrain extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidTrain.
   const SolidTrain({
     super.key,
     this.size = 24,

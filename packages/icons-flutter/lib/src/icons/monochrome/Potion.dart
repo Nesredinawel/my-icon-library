@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Potion icon.
+///
+/// Example:
+/// ```dart
+/// MonochromePotion(size: 24, color: Colors.blue);
+/// ```
 class MonochromePotion extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromePotion.
   const MonochromePotion({
     super.key,
     this.size = 24,

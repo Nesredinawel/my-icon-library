@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Minus icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMinus(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMinus extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMinus.
   const MonochromeMinus({
     super.key,
     this.size = 24,

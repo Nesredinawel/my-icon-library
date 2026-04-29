@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Tombstone icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeTombstone(size: 24, color: Colors.blue);
+/// ```
 class MonochromeTombstone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeTombstone.
   const MonochromeTombstone({
     super.key,
     this.size = 24,

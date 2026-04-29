@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Capsule icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCapsule(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCapsule extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCapsule.
   const DuotoneCapsule({
     super.key,
     this.size = 24,

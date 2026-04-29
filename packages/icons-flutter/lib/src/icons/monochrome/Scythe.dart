@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Scythe icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeScythe(size: 24, color: Colors.blue);
+/// ```
 class MonochromeScythe extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeScythe.
   const MonochromeScythe({
     super.key,
     this.size = 24,

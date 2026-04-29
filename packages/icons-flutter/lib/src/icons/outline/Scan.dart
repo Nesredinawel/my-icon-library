@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Scan icon.
+///
+/// Example:
+/// ```dart
+/// OutlineScan(size: 24, color: Colors.blue);
+/// ```
 class OutlineScan extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineScan.
   const OutlineScan({
     super.key,
     this.size = 24,

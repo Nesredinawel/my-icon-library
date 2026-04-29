@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Bed icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBed(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBed extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBed.
   const MonochromeBed({
     super.key,
     this.size = 24,

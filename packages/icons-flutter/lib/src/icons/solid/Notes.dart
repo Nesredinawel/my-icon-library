@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Notes icon.
+///
+/// Example:
+/// ```dart
+/// SolidNotes(size: 24, color: Colors.blue);
+/// ```
 class SolidNotes extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidNotes.
   const SolidNotes({
     super.key,
     this.size = 24,

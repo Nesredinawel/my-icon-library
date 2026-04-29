@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Tags icon.
+///
+/// Example:
+/// ```dart
+/// SolidTags(size: 24, color: Colors.blue);
+/// ```
 class SolidTags extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidTags.
   const SolidTags({
     super.key,
     this.size = 24,

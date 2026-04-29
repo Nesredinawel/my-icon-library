@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Bolt icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBolt(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBolt extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBolt.
   const DuotoneBolt({
     super.key,
     this.size = 24,

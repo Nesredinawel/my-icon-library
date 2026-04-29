@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Overline icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneOverline(size: 24, color: Colors.blue);
+/// ```
 class DuotoneOverline extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneOverline.
   const DuotoneOverline({
     super.key,
     this.size = 24,

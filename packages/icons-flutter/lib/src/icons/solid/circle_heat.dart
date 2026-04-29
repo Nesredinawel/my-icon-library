@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style CircleHeat icon.
+///
+/// Example:
+/// ```dart
+/// SolidCircleHeat(size: 24, color: Colors.blue);
+/// ```
+class SolidCircleHeat extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidCircleHeat.
+  const SolidCircleHeat({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0m10.32-2.55c-.6.24-1.38.55-2.32.55a5.5 5.5 0 0 1-2.45-.6 1 1 0 0 1 .9-1.8c.47.23 1.02.4 1.55.4s.99-.17 1.63-.43l.05-.02C12.28 7.31 13.06 7 14 7a5.5 5.5 0 0 1 2.22.5l.23.1a1 1 0 0 1-.9 1.8l-.12-.06-.37-.14Q14.55 9.02 14 9c-.53 0-.99.17-1.63.43zM6 12a1 1 0 0 1 1-1h10a1 1 0 1 1 0 2H7a1 1 0 0 1-1-1m6.32 4.45c-.6.24-1.38.55-2.32.55a5.5 5.5 0 0 1-2.45-.6 1 1 0 0 1 .9-1.8c.47.23 1.02.4 1.55.4s.99-.17 1.63-.43l.05-.02c.6-.24 1.38-.55 2.32-.55a5.5 5.5 0 0 1 2.22.5l.23.1a1 1 0 0 1-.9 1.8l-.12-.06-.37-.14A4 4 0 0 0 14 16c-.53 0-.99.17-1.63.43z" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

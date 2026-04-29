@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style DiagramProject icon.
+///
+/// Example:
+/// ```dart
+/// OutlineDiagramProject(size: 24, color: Colors.blue);
+/// ```
+class OutlineDiagramProject extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlineDiagramProject.
+  const OutlineDiagramProject({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M8 6.5h8M7.7 8.7l4.58 6.6M4.6 9h1.8c.56 0 .84 0 1.05-.1a1 1 0 0 0 .44-.45C8 8.24 8 7.96 8 7.4V5.6c0-.56 0-.84-.1-1.05a1 1 0 0 0-.45-.44C7.24 4 6.96 4 6.4 4H4.6c-.56 0-.84 0-1.05.1a1 1 0 0 0-.44.45C3 4.76 3 5.04 3 5.6v1.8c0 .56 0 .84.1 1.05a1 1 0 0 0 .45.44C3.76 9 4.04 9 4.6 9m9 11h1.8c.56 0 .84 0 1.05-.1a1 1 0 0 0 .44-.45c.11-.21.11-.49.11-1.05v-1.8c0-.56 0-.84-.1-1.05a1 1 0 0 0-.45-.44c-.21-.11-.49-.11-1.05-.11h-1.8c-.56 0-.84 0-1.05.1a1 1 0 0 0-.44.45c-.11.21-.11.49-.11 1.05v1.8c0 .56 0 .84.1 1.05a1 1 0 0 0 .45.44c.21.11.49.11 1.05.11m4-11h1.8c.56 0 .84 0 1.05-.1a1 1 0 0 0 .44-.45c.11-.21.11-.49.11-1.05V5.6c0-.56 0-.84-.1-1.05a1 1 0 0 0-.45-.44C20.24 4 19.96 4 19.4 4h-1.8c-.56 0-.84 0-1.05.1a1 1 0 0 0-.44.45C16 4.76 16 5.04 16 5.6v1.8c0 .56 0 .84.1 1.05a1 1 0 0 0 .45.44c.21.11.49.11 1.05.11"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

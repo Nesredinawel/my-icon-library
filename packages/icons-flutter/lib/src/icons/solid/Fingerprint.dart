@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Fingerprint icon.
+///
+/// Example:
+/// ```dart
+/// SolidFingerprint(size: 24, color: Colors.blue);
+/// ```
 class SolidFingerprint extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidFingerprint.
   const SolidFingerprint({
     super.key,
     this.size = 24,

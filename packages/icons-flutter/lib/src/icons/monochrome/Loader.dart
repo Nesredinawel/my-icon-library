@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Loader icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeLoader(size: 24, color: Colors.blue);
+/// ```
 class MonochromeLoader extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeLoader.
   const MonochromeLoader({
     super.key,
     this.size = 24,

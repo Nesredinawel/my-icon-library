@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style BluetoothSignal icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBluetoothSignal(size: 24, color: Colors.blue);
+/// ```
+class OutlineBluetoothSignal extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlineBluetoothSignal.
+  const OutlineBluetoothSignal({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M19.53 6.5a11 11 0 0 1 0 11M16.33 9a7 7 0 0 1 0 6M3 17l5-5m0 0 5-5-5-5zm0 0v10l5-5zm0 0L3 7"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

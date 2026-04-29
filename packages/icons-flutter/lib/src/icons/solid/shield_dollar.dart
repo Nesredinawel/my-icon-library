@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style ShieldDollar icon.
+///
+/// Example:
+/// ```dart
+/// SolidShieldDollar(size: 24, color: Colors.blue);
+/// ```
+class SolidShieldDollar extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidShieldDollar.
+  const SolidShieldDollar({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M11.71 2.09a2 2 0 0 1 1.16.17l.04.01 5.5 2.06c.61.23 1.16.44 1.57.8a3 3 0 0 1 .82 1.19c.2.52.2 1.1.2 1.76V12c0 2.65-1.61 4.82-3.29 6.38a22 22 0 0 1-4.6 3.19l-.04.02q-.26.15-.69.26c-.23.05-.52.05-.76 0-.3-.05-.51-.17-.69-.26l-.03-.02a22 22 0 0 1-4.61-3.2C4.6 16.83 3 14.66 3 12V8.08c0-.66 0-1.24.2-1.76a3 3 0 0 1 .82-1.18c.41-.37.96-.58 1.57-.8l5.5-2.07.04-.01q.25-.1.58-.17M13 7.5a1 1 0 1 0-2 0v.44q-.56.09-1.07.42C9.36 8.76 9 9.38 9 10.2c0 .92.5 1.56 1.15 1.91.59.32 1.28.4 1.85.4q.69.01.92.14l.05.04h.01v.02l.02.12-.06.05q-.2.14-.82.23h-.29c-.58 0-.93 0-1.7-.1a1 1 0 1 0-.25 2l1.12.1v.4a1 1 0 1 0 2 0v-.53q.54-.12 1-.4c.56-.36 1-.94 1-1.76q0-.65-.33-1.2-.34-.51-.84-.75c-.6-.3-1.29-.36-1.83-.36q-.65-.01-.9-.16l-.07-.04-.02-.02v-.01L11 10.2l.02-.14.05-.04q.11-.1.56-.13H12c.72 0 1.4 0 1.75.1a1 1 0 0 0 .48-1.95 6 6 0 0 0-1.24-.14z" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

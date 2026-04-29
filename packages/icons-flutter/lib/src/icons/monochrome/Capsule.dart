@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Capsule icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCapsule(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCapsule extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCapsule.
   const MonochromeCapsule({
     super.key,
     this.size = 24,

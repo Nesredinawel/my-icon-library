@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Disc icon.
+///
+/// Example:
+/// ```dart
+/// SolidDisc(size: 24, color: Colors.blue);
+/// ```
 class SolidDisc extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidDisc.
   const SolidDisc({
     super.key,
     this.size = 24,

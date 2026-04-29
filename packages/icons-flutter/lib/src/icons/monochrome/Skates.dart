@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Skates icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSkates(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSkates extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSkates.
   const MonochromeSkates({
     super.key,
     this.size = 24,

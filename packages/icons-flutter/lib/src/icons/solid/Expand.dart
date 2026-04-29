@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Expand icon.
+///
+/// Example:
+/// ```dart
+/// SolidExpand(size: 24, color: Colors.blue);
+/// ```
 class SolidExpand extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidExpand.
   const SolidExpand({
     super.key,
     this.size = 24,

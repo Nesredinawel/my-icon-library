@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Bug icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBug(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBug extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBug.
   const MonochromeBug({
     super.key,
     this.size = 24,

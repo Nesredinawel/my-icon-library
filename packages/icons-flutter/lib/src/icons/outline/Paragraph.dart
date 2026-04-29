@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Paragraph icon.
+///
+/// Example:
+/// ```dart
+/// OutlineParagraph(size: 24, color: Colors.blue);
+/// ```
 class OutlineParagraph extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineParagraph.
   const OutlineParagraph({
     super.key,
     this.size = 24,

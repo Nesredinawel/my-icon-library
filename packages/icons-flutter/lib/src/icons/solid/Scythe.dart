@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Scythe icon.
+///
+/// Example:
+/// ```dart
+/// SolidScythe(size: 24, color: Colors.blue);
+/// ```
 class SolidScythe extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidScythe.
   const SolidScythe({
     super.key,
     this.size = 24,

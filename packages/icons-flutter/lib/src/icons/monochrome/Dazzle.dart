@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Dazzle icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeDazzle(size: 24, color: Colors.blue);
+/// ```
 class MonochromeDazzle extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeDazzle.
   const MonochromeDazzle({
     super.key,
     this.size = 24,

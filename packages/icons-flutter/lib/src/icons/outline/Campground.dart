@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Campground icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCampground(size: 24, color: Colors.blue);
+/// ```
 class OutlineCampground extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCampground.
   const OutlineCampground({
     super.key,
     this.size = 24,

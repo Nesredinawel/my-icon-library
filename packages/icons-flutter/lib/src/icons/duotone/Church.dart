@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Church icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneChurch(size: 24, color: Colors.blue);
+/// ```
 class DuotoneChurch extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneChurch.
   const DuotoneChurch({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Crop icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCrop(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCrop extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCrop.
   const MonochromeCrop({
     super.key,
     this.size = 24,

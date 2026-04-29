@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Thumbtack icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeThumbtack(size: 24, color: Colors.blue);
+/// ```
 class MonochromeThumbtack extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeThumbtack.
   const MonochromeThumbtack({
     super.key,
     this.size = 24,

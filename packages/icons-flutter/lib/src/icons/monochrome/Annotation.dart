@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Annotation icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeAnnotation(size: 24, color: Colors.blue);
+/// ```
 class MonochromeAnnotation extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeAnnotation.
   const MonochromeAnnotation({
     super.key,
     this.size = 24,

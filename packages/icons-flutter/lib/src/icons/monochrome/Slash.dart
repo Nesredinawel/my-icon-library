@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Slash icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSlash(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSlash extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSlash.
   const MonochromeSlash({
     super.key,
     this.size = 24,

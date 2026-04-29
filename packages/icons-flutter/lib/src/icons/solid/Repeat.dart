@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Repeat icon.
+///
+/// Example:
+/// ```dart
+/// SolidRepeat(size: 24, color: Colors.blue);
+/// ```
 class SolidRepeat extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidRepeat.
   const SolidRepeat({
     super.key,
     this.size = 24,

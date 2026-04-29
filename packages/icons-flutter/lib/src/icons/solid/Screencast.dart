@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Screencast icon.
+///
+/// Example:
+/// ```dart
+/// SolidScreencast(size: 24, color: Colors.blue);
+/// ```
 class SolidScreencast extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidScreencast.
   const SolidScreencast({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Folder icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneFolder(size: 24, color: Colors.blue);
+/// ```
 class DuotoneFolder extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneFolder.
   const DuotoneFolder({
     super.key,
     this.size = 24,

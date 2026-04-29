@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Disc icon.
+///
+/// Example:
+/// ```dart
+/// OutlineDisc(size: 24, color: Colors.blue);
+/// ```
 class OutlineDisc extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineDisc.
   const OutlineDisc({
     super.key,
     this.size = 24,

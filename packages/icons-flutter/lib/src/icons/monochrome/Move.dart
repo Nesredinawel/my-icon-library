@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Move icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMove(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMove extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMove.
   const MonochromeMove({
     super.key,
     this.size = 24,

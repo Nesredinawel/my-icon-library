@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Cloche icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCloche(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCloche extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCloche.
   const MonochromeCloche({
     super.key,
     this.size = 24,

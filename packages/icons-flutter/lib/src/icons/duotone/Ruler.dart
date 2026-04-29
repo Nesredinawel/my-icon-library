@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Ruler icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneRuler(size: 24, color: Colors.blue);
+/// ```
 class DuotoneRuler extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneRuler.
   const DuotoneRuler({
     super.key,
     this.size = 24,

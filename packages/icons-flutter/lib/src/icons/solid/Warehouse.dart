@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Warehouse icon.
+///
+/// Example:
+/// ```dart
+/// SolidWarehouse(size: 24, color: Colors.blue);
+/// ```
 class SolidWarehouse extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidWarehouse.
   const SolidWarehouse({
     super.key,
     this.size = 24,

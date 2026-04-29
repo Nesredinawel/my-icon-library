@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Scrubber icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeScrubber(size: 24, color: Colors.blue);
+/// ```
 class MonochromeScrubber extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeScrubber.
   const MonochromeScrubber({
     super.key,
     this.size = 24,

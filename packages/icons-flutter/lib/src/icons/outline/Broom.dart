@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Broom icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBroom(size: 24, color: Colors.blue);
+/// ```
 class OutlineBroom extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineBroom.
   const OutlineBroom({
     super.key,
     this.size = 24,

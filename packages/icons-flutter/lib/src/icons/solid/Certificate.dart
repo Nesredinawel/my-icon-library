@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Certificate icon.
+///
+/// Example:
+/// ```dart
+/// SolidCertificate(size: 24, color: Colors.blue);
+/// ```
 class SolidCertificate extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCertificate.
   const SolidCertificate({
     super.key,
     this.size = 24,

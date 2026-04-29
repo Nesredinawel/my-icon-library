@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Pentagon icon.
+///
+/// Example:
+/// ```dart
+/// DuotonePentagon(size: 24, color: Colors.blue);
+/// ```
 class DuotonePentagon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotonePentagon.
   const DuotonePentagon({
     super.key,
     this.size = 24,

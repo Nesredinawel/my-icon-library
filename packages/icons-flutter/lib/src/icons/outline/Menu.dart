@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Menu icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMenu(size: 24, color: Colors.blue);
+/// ```
 class OutlineMenu extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMenu.
   const OutlineMenu({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Kerning icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeKerning(size: 24, color: Colors.blue);
+/// ```
 class MonochromeKerning extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeKerning.
   const MonochromeKerning({
     super.key,
     this.size = 24,

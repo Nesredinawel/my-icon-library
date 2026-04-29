@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Font icon.
+///
+/// Example:
+/// ```dart
+/// OutlineFont(size: 24, color: Colors.blue);
+/// ```
 class OutlineFont extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineFont.
   const OutlineFont({
     super.key,
     this.size = 24,

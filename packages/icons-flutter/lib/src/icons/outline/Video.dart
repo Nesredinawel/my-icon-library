@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Video icon.
+///
+/// Example:
+/// ```dart
+/// OutlineVideo(size: 24, color: Colors.blue);
+/// ```
 class OutlineVideo extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineVideo.
   const OutlineVideo({
     super.key,
     this.size = 24,

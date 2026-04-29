@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Coin icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCoin(size: 24, color: Colors.blue);
+/// ```
 class OutlineCoin extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCoin.
   const OutlineCoin({
     super.key,
     this.size = 24,

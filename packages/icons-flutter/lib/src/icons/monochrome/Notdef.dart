@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Notdef icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeNotdef(size: 24, color: Colors.blue);
+/// ```
 class MonochromeNotdef extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeNotdef.
   const MonochromeNotdef({
     super.key,
     this.size = 24,

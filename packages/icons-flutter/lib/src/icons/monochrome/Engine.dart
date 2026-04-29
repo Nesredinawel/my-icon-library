@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Engine icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeEngine(size: 24, color: Colors.blue);
+/// ```
 class MonochromeEngine extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeEngine.
   const MonochromeEngine({
     super.key,
     this.size = 24,

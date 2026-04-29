@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Overline icon.
+///
+/// Example:
+/// ```dart
+/// OutlineOverline(size: 24, color: Colors.blue);
+/// ```
 class OutlineOverline extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineOverline.
   const OutlineOverline({
     super.key,
     this.size = 24,

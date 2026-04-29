@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Lollipop icon.
+///
+/// Example:
+/// ```dart
+/// SolidLollipop(size: 24, color: Colors.blue);
+/// ```
 class SolidLollipop extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidLollipop.
   const SolidLollipop({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Clock icon.
+///
+/// Example:
+/// ```dart
+/// OutlineClock(size: 24, color: Colors.blue);
+/// ```
 class OutlineClock extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineClock.
   const OutlineClock({
     super.key,
     this.size = 24,

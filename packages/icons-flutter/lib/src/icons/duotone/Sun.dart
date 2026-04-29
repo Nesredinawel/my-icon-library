@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Sun icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSun(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSun extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSun.
   const DuotoneSun({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Tags icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneTags(size: 24, color: Colors.blue);
+/// ```
 class DuotoneTags extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneTags.
   const DuotoneTags({
     super.key,
     this.size = 24,

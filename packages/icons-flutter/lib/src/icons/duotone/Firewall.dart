@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Firewall icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneFirewall(size: 24, color: Colors.blue);
+/// ```
 class DuotoneFirewall extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneFirewall.
   const DuotoneFirewall({
     super.key,
     this.size = 24,

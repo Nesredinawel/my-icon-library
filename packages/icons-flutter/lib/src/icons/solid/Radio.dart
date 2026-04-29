@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Radio icon.
+///
+/// Example:
+/// ```dart
+/// SolidRadio(size: 24, color: Colors.blue);
+/// ```
 class SolidRadio extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidRadio.
   const SolidRadio({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Calculator icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCalculator(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCalculator extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCalculator.
   const MonochromeCalculator({
     super.key,
     this.size = 24,

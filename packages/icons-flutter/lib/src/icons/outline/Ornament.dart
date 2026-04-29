@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Ornament icon.
+///
+/// Example:
+/// ```dart
+/// OutlineOrnament(size: 24, color: Colors.blue);
+/// ```
 class OutlineOrnament extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineOrnament.
   const OutlineOrnament({
     super.key,
     this.size = 24,

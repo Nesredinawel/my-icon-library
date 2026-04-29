@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Car icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCar(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCar extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCar.
   const DuotoneCar({
     super.key,
     this.size = 24,

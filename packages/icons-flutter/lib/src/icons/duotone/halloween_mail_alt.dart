@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Duotone style HalloweenMailAlt icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneHalloweenMailAlt(size: 24, color: Colors.blue);
+/// ```
+class DuotoneHalloweenMailAlt extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a DuotoneHalloweenMailAlt.
+  const DuotoneHalloweenMailAlt({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M3 14V9l9 4 9-4v4h-2a1 1 0 0 0-1 1 1 1 0 0 1-1 1h-.5c-.83 0-1.5.67-1.5 1.5v.5a2 2 0 0 1-2 2H3v-3l1-1z" opacity=".14"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12v2l1 1m0 0 3-1 2 1m-5 0-1 1M7 6 5 5H3v4l9 4 9-4V5h-9M7 6l2 2M7 6l2-1m12 12v2h-2m2-6h-2a1 1 0 0 0-1 1 1 1 0 0 1-1 1h-.5c-.83 0-1.5.67-1.5 1.5v.5a2 2 0 0 1-2 2H3"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

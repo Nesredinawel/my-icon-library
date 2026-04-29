@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Plug icon.
+///
+/// Example:
+/// ```dart
+/// OutlinePlug(size: 24, color: Colors.blue);
+/// ```
 class OutlinePlug extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlinePlug.
   const OutlinePlug({
     super.key,
     this.size = 24,

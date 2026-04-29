@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Rhombus icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneRhombus(size: 24, color: Colors.blue);
+/// ```
 class DuotoneRhombus extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneRhombus.
   const DuotoneRhombus({
     super.key,
     this.size = 24,

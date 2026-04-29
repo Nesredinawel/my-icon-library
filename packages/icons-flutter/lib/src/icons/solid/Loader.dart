@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Loader icon.
+///
+/// Example:
+/// ```dart
+/// SolidLoader(size: 24, color: Colors.blue);
+/// ```
 class SolidLoader extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidLoader.
   const SolidLoader({
     super.key,
     this.size = 24,

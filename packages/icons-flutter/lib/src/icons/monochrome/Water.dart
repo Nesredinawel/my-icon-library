@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Water icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeWater(size: 24, color: Colors.blue);
+/// ```
 class MonochromeWater extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeWater.
   const MonochromeWater({
     super.key,
     this.size = 24,

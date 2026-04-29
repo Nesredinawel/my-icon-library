@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Airpods icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneAirpods(size: 24, color: Colors.blue);
+/// ```
 class DuotoneAirpods extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneAirpods.
   const DuotoneAirpods({
     super.key,
     this.size = 24,

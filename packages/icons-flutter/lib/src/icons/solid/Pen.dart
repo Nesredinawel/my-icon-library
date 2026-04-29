@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Pen icon.
+///
+/// Example:
+/// ```dart
+/// SolidPen(size: 24, color: Colors.blue);
+/// ```
 class SolidPen extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidPen.
   const SolidPen({
     super.key,
     this.size = 24,

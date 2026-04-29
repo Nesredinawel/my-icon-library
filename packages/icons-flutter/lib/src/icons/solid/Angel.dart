@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Angel icon.
+///
+/// Example:
+/// ```dart
+/// SolidAngel(size: 24, color: Colors.blue);
+/// ```
 class SolidAngel extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidAngel.
   const SolidAngel({
     super.key,
     this.size = 24,

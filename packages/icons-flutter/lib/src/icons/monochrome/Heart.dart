@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Heart icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeHeart(size: 24, color: Colors.blue);
+/// ```
 class MonochromeHeart extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeHeart.
   const MonochromeHeart({
     super.key,
     this.size = 24,

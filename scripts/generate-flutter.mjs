@@ -1,5 +1,5 @@
 import path from "node:path";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile, rm } from "node:fs/promises";
 import fg from "fast-glob";
 
 const STYLES = ["outline", "solid", "duotone", "monochrome"];
@@ -8,9 +8,7 @@ const SVG_ROOT = "packages/icons-svg/src";
 const FLUTTER_ROOT = "packages/icons-flutter/lib";
 const ICONS_OUT = path.join(FLUTTER_ROOT, "src/icons");
 
-/* ---------------------------------- */
-/* Helpers */
-/* ---------------------------------- */
+/* ---------------- Helpers ---------------- */
 
 function pascalCase(name) {
   return name
@@ -20,20 +18,27 @@ function pascalCase(name) {
     .join("");
 }
 
-// Escape Dart multi-line string safely
-function escapeDartString(str) {
+function toSnakeCase(str) {
   return str
-    .replace(/\\/g, "\\\\")   // escape backslashes
-    .replace(/\$/g, "\\$")    // escape $ (dart interpolation)
-    .replace(/'''/g, "\\'\\'\\'"); // prevent breaking triple quotes
+    .replace(/([a-z0-9])([A-Z])/g, "$1_$2")
+    .replace(/[\s-]+/g, "_")
+    .toLowerCase();
 }
 
-/* ---------------------------------- */
-/* Main Generator */
-/* ---------------------------------- */
+function escapeDartString(str) {
+  return str
+    .replace(/\\/g, "\\\\")
+    .replace(/\$/g, "\\$")
+    .replace(/'''/g, "\\'\\'\\'");
+}
+
+/* ---------------- Main ---------------- */
 
 async function run() {
   console.log("🚀 Generating Flutter icons...\n");
+
+  // ✅ REMOVE OLD FILES FIRST
+  await rm(ICONS_OUT, { recursive: true, force: true });
 
   for (const style of STYLES) {
     const svgFiles = await fg(`${SVG_ROOT}/${style}/*.svg`, {
@@ -49,7 +54,9 @@ async function run() {
 
     for (const file of svgFiles) {
       const rawName = path.basename(file, ".svg");
-      const iconName = pascalCase(rawName);
+
+      const iconName = pascalCase(rawName);      // AddressBook
+      const fileName = toSnakeCase(iconName);    // address_book
       const className = `${pascalCase(style)}${iconName}`;
 
       const svgRaw = await readFile(file, "utf8");
@@ -59,10 +66,20 @@ async function run() {
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// ${pascalCase(style)} style ${iconName} icon.
+///
+/// Example:
+/// \`\`\`dart
+/// ${className}(size: 24, color: Colors.blue);
+/// \`\`\`
 class ${className} extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a ${className}.
   const ${className}({
     super.key,
     this.size = 24,
@@ -82,13 +99,14 @@ ${svg}
 }
 `;
 
-      const filePath = path.join(styleOutDir, `${iconName}.dart`);
+      // ✅ WRITE snake_case filename
+      const filePath = path.join(styleOutDir, `${fileName}.dart`);
       await writeFile(filePath, dartCode.trim() + "\n", "utf8");
 
-      exports.push(`export 'icons/${style}/${iconName}.dart';`);
+      // ✅ EXPORT snake_case filename
+      exports.push(`export 'icons/${style}/${fileName}.dart';`);
     }
 
-    // Create style export file (outline.dart, solid.dart, etc.)
     const styleExportPath = path.join(
       FLUTTER_ROOT,
       "src",

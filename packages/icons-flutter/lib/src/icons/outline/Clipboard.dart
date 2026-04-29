@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Clipboard icon.
+///
+/// Example:
+/// ```dart
+/// OutlineClipboard(size: 24, color: Colors.blue);
+/// ```
 class OutlineClipboard extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineClipboard.
   const OutlineClipboard({
     super.key,
     this.size = 24,

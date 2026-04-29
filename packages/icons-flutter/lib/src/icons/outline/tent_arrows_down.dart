@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style TentArrowsDown icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTentArrowsDown(size: 24, color: Colors.blue);
+/// ```
+class OutlineTentArrowsDown extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlineTentArrowsDown.
+  const OutlineTentArrowsDown({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M6 3v6m0 0L4 7m2 2 2-2m10-4v6m0 0-2-2m2 2 2-2m-8 2-4.74 4.3c-.28.27-.42.4-.54.54a2 2 0 0 0-.24.43c-.08.18-.12.36-.2.74l-.87 4.05c-.14.67-.2 1-.12 1.26a1 1 0 0 0 .44.54c.23.14.57.14 1.25.14h10.04c.68 0 1.02 0 1.25-.14a1 1 0 0 0 .44-.54c.09-.26.02-.6-.12-1.26l-.87-4.05a4 4 0 0 0-.2-.74 2 2 0 0 0-.24-.43c-.12-.15-.26-.27-.54-.53zm0 0v12m0-6 4 6"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

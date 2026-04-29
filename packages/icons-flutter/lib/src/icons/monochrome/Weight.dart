@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Weight icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeWeight(size: 24, color: Colors.blue);
+/// ```
 class MonochromeWeight extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeWeight.
   const MonochromeWeight({
     super.key,
     this.size = 24,

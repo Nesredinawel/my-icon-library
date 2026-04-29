@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Castle icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCastle(size: 24, color: Colors.blue);
+/// ```
 class OutlineCastle extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCastle.
   const OutlineCastle({
     super.key,
     this.size = 24,

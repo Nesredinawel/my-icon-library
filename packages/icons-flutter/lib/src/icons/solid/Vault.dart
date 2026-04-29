@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Vault icon.
+///
+/// Example:
+/// ```dart
+/// SolidVault(size: 24, color: Colors.blue);
+/// ```
 class SolidVault extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidVault.
   const SolidVault({
     super.key,
     this.size = 24,

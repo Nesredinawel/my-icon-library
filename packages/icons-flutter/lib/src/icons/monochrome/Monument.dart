@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Monument icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMonument(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMonument extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMonument.
   const MonochromeMonument({
     super.key,
     this.size = 24,

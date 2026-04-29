@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Podium icon.
+///
+/// Example:
+/// ```dart
+/// DuotonePodium(size: 24, color: Colors.blue);
+/// ```
 class DuotonePodium extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotonePodium.
   const DuotonePodium({
     super.key,
     this.size = 24,

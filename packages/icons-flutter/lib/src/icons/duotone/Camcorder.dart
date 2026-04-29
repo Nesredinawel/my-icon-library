@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Camcorder icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCamcorder(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCamcorder extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCamcorder.
   const DuotoneCamcorder({
     super.key,
     this.size = 24,

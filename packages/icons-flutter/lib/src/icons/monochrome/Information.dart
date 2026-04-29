@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Information icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeInformation(size: 24, color: Colors.blue);
+/// ```
 class MonochromeInformation extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeInformation.
   const MonochromeInformation({
     super.key,
     this.size = 24,

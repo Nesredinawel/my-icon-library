@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Circuit icon.
+///
+/// Example:
+/// ```dart
+/// SolidCircuit(size: 24, color: Colors.blue);
+/// ```
 class SolidCircuit extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCircuit.
   const SolidCircuit({
     super.key,
     this.size = 24,

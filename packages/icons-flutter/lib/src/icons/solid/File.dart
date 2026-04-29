@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style File icon.
+///
+/// Example:
+/// ```dart
+/// SolidFile(size: 24, color: Colors.blue);
+/// ```
 class SolidFile extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidFile.
   const SolidFile({
     super.key,
     this.size = 24,

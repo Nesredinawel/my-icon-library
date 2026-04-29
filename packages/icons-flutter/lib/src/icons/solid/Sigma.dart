@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Sigma icon.
+///
+/// Example:
+/// ```dart
+/// SolidSigma(size: 24, color: Colors.blue);
+/// ```
 class SolidSigma extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSigma.
   const SolidSigma({
     super.key,
     this.size = 24,

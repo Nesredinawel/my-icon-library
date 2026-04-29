@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Sliders icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSliders(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSliders extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSliders.
   const MonochromeSliders({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Sitemap icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSitemap(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSitemap extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSitemap.
   const MonochromeSitemap({
     super.key,
     this.size = 24,

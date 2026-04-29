@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Thermometer icon.
+///
+/// Example:
+/// ```dart
+/// SolidThermometer(size: 24, color: Colors.blue);
+/// ```
 class SolidThermometer extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidThermometer.
   const SolidThermometer({
     super.key,
     this.size = 24,

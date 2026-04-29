@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Podium icon.
+///
+/// Example:
+/// ```dart
+/// OutlinePodium(size: 24, color: Colors.blue);
+/// ```
 class OutlinePodium extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlinePodium.
   const OutlinePodium({
     super.key,
     this.size = 24,

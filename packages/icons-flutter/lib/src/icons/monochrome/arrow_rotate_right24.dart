@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style ArrowRotateRight24 icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeArrowRotateRight24(size: 24, color: Colors.blue);
+/// ```
+class MonochromeArrowRotateRight24 extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeArrowRotateRight24.
+  const MonochromeArrowRotateRight24({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M12 4a8 8 0 1 0 0 16 8.06 8.06 0 0 0 8-7.11 1 1 0 1 1 2 .22A10.06 10.06 0 0 1 12 22a10 10 0 0 1 0-20c3.09 0 5.8 1.37 7.6 3.55a1 1 0 0 1 1.87.7l-.5 2A1 1 0 0 1 20 9h-2a1 1 0 1 1 0-2h.2A7.8 7.8 0 0 0 12 4" clip-rule="evenodd" opacity=".3"/><path fill="currentColor" d="M6 10.5a2.5 2.5 0 0 1 5 0v.5c0 .33-.11.62-.22.83q-.18.34-.4.6-.24.3-.53.57H10a1 1 0 1 1 0 2H7a1 1 0 0 1-.56-1.83c.22-.15.93-.65 1.58-1.2q.5-.45.8-.8c.2-.23.18-.38.18-.67a.5.5 0 0 0-1 0v.5a1 1 0 1 1-2 0zM13 8a1 1 0 0 1 1 1v2h1v-1a1 1 0 1 1 2 0v4a1 1 0 1 1-2 0v-1h-2a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

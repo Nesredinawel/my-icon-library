@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Tally icon.
+///
+/// Example:
+/// ```dart
+/// SolidTally(size: 24, color: Colors.blue);
+/// ```
 class SolidTally extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidTally.
   const SolidTally({
     super.key,
     this.size = 24,

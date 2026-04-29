@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Crown icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCrown(size: 24, color: Colors.blue);
+/// ```
 class OutlineCrown extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCrown.
   const OutlineCrown({
     super.key,
     this.size = 24,

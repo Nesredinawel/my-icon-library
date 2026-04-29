@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Stocking icon.
+///
+/// Example:
+/// ```dart
+/// SolidStocking(size: 24, color: Colors.blue);
+/// ```
 class SolidStocking extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidStocking.
   const SolidStocking({
     super.key,
     this.size = 24,

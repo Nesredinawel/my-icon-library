@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Bookmark icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBookmark(size: 24, color: Colors.blue);
+/// ```
 class OutlineBookmark extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineBookmark.
   const OutlineBookmark({
     super.key,
     this.size = 24,

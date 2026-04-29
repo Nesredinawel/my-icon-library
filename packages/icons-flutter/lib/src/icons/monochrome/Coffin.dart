@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Coffin icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCoffin(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCoffin extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCoffin.
   const MonochromeCoffin({
     super.key,
     this.size = 24,

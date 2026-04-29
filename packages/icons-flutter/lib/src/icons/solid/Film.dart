@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Film icon.
+///
+/// Example:
+/// ```dart
+/// SolidFilm(size: 24, color: Colors.blue);
+/// ```
 class SolidFilm extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidFilm.
   const SolidFilm({
     super.key,
     this.size = 24,

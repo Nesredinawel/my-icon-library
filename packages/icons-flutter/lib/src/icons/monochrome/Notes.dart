@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Notes icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeNotes(size: 24, color: Colors.blue);
+/// ```
 class MonochromeNotes extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeNotes.
   const MonochromeNotes({
     super.key,
     this.size = 24,

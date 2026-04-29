@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Rhombus icon.
+///
+/// Example:
+/// ```dart
+/// SolidRhombus(size: 24, color: Colors.blue);
+/// ```
 class SolidRhombus extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidRhombus.
   const SolidRhombus({
     super.key,
     this.size = 24,

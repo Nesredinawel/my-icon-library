@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Drone icon.
+///
+/// Example:
+/// ```dart
+/// OutlineDrone(size: 24, color: Colors.blue);
+/// ```
 class OutlineDrone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineDrone.
   const OutlineDrone({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Circuit icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCircuit(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCircuit extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCircuit.
   const DuotoneCircuit({
     super.key,
     this.size = 24,

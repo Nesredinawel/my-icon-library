@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Drone icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeDrone(size: 24, color: Colors.blue);
+/// ```
 class MonochromeDrone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeDrone.
   const MonochromeDrone({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Van icon.
+///
+/// Example:
+/// ```dart
+/// SolidVan(size: 24, color: Colors.blue);
+/// ```
 class SolidVan extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidVan.
   const SolidVan({
     super.key,
     this.size = 24,

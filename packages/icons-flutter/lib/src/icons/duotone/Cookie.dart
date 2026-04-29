@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Cookie icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCookie(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCookie extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCookie.
   const DuotoneCookie({
     super.key,
     this.size = 24,

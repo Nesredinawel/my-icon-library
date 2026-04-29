@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Badge icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBadge(size: 24, color: Colors.blue);
+/// ```
 class OutlineBadge extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineBadge.
   const OutlineBadge({
     super.key,
     this.size = 24,

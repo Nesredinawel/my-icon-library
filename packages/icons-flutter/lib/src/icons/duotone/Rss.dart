@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Rss icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneRss(size: 24, color: Colors.blue);
+/// ```
 class DuotoneRss extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneRss.
   const DuotoneRss({
     super.key,
     this.size = 24,

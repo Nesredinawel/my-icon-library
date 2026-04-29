@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style ImageCircle icon.
+///
+/// Example:
+/// ```dart
+/// SolidImageCircle(size: 24, color: Colors.blue);
+/// ```
+class SolidImageCircle extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidImageCircle.
+  const SolidImageCircle({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M15 11.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/><path fill="currentColor" fill-rule="evenodd" d="M22 12a10 10 0 0 1-4.38 8.27l-.01.01-.02.01A10 10 0 1 1 22 12M4 12a8 8 0 1 1 15.17 3.55l-.23-.21-.02-.02q-.54-.49-.94-.82-.44-.35-.99-.54a3 3 0 0 0-1.75 0q-.56.19-.98.54l-.61.52-.9-.82-.95-.82c-.3-.23-.6-.43-.99-.54a3 3 0 0 0-1.74 0q-.56.18-.99.54-.4.33-.94.82l-.02.02-2.02 1.83A8 8 0 0 1 4 12" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

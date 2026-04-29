@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Modem icon.
+///
+/// Example:
+/// ```dart
+/// SolidModem(size: 24, color: Colors.blue);
+/// ```
 class SolidModem extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidModem.
   const SolidModem({
     super.key,
     this.size = 24,

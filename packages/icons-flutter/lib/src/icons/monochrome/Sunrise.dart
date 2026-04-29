@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Sunrise icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSunrise(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSunrise extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSunrise.
   const MonochromeSunrise({
     super.key,
     this.size = 24,

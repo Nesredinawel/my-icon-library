@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Crosshair icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCrosshair(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCrosshair extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCrosshair.
   const DuotoneCrosshair({
     super.key,
     this.size = 24,

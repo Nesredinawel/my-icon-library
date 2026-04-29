@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Fence icon.
+///
+/// Example:
+/// ```dart
+/// SolidFence(size: 24, color: Colors.blue);
+/// ```
 class SolidFence extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidFence.
   const SolidFence({
     super.key,
     this.size = 24,

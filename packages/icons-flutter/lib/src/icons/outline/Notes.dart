@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Notes icon.
+///
+/// Example:
+/// ```dart
+/// OutlineNotes(size: 24, color: Colors.blue);
+/// ```
 class OutlineNotes extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineNotes.
   const OutlineNotes({
     super.key,
     this.size = 24,

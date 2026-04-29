@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Aperture icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeAperture(size: 24, color: Colors.blue);
+/// ```
 class MonochromeAperture extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeAperture.
   const MonochromeAperture({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style City icon.
+///
+/// Example:
+/// ```dart
+/// SolidCity(size: 24, color: Colors.blue);
+/// ```
 class SolidCity extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCity.
   const SolidCity({
     super.key,
     this.size = 24,

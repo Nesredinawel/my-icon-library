@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Church icon.
+///
+/// Example:
+/// ```dart
+/// SolidChurch(size: 24, color: Colors.blue);
+/// ```
 class SolidChurch extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidChurch.
   const SolidChurch({
     super.key,
     this.size = 24,

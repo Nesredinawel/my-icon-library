@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Droplet icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneDroplet(size: 24, color: Colors.blue);
+/// ```
 class DuotoneDroplet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneDroplet.
   const DuotoneDroplet({
     super.key,
     this.size = 24,

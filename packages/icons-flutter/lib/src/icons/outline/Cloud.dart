@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Cloud icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCloud(size: 24, color: Colors.blue);
+/// ```
 class OutlineCloud extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCloud.
   const OutlineCloud({
     super.key,
     this.size = 24,

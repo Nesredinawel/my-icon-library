@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Menu icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMenu(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMenu extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMenu.
   const DuotoneMenu({
     super.key,
     this.size = 24,

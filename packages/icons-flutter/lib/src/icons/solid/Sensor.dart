@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Sensor icon.
+///
+/// Example:
+/// ```dart
+/// SolidSensor(size: 24, color: Colors.blue);
+/// ```
 class SolidSensor extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSensor.
   const SolidSensor({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Bones icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBones(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBones extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBones.
   const MonochromeBones({
     super.key,
     this.size = 24,

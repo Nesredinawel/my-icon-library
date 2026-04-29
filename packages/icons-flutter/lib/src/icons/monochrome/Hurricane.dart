@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Hurricane icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeHurricane(size: 24, color: Colors.blue);
+/// ```
 class MonochromeHurricane extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeHurricane.
   const MonochromeHurricane({
     super.key,
     this.size = 24,

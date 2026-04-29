@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Map icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMap(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMap extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMap.
   const DuotoneMap({
     super.key,
     this.size = 24,

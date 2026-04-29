@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Check icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCheck(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCheck extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCheck.
   const MonochromeCheck({
     super.key,
     this.size = 24,

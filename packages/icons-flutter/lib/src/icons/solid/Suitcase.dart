@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Suitcase icon.
+///
+/// Example:
+/// ```dart
+/// SolidSuitcase(size: 24, color: Colors.blue);
+/// ```
 class SolidSuitcase extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSuitcase.
   const SolidSuitcase({
     super.key,
     this.size = 24,

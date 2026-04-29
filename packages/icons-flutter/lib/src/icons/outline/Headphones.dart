@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Headphones icon.
+///
+/// Example:
+/// ```dart
+/// OutlineHeadphones(size: 24, color: Colors.blue);
+/// ```
 class OutlineHeadphones extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineHeadphones.
   const OutlineHeadphones({
     super.key,
     this.size = 24,

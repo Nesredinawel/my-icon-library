@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Water icon.
+///
+/// Example:
+/// ```dart
+/// SolidWater(size: 24, color: Colors.blue);
+/// ```
 class SolidWater extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidWater.
   const SolidWater({
     super.key,
     this.size = 24,

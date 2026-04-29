@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Vial icon.
+///
+/// Example:
+/// ```dart
+/// SolidVial(size: 24, color: Colors.blue);
+/// ```
 class SolidVial extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidVial.
   const SolidVial({
     super.key,
     this.size = 24,

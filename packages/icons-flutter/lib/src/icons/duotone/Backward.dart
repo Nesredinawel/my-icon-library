@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Backward icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBackward(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBackward extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBackward.
   const DuotoneBackward({
     super.key,
     this.size = 24,

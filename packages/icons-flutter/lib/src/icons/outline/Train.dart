@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Train icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTrain(size: 24, color: Colors.blue);
+/// ```
 class OutlineTrain extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineTrain.
   const OutlineTrain({
     super.key,
     this.size = 24,

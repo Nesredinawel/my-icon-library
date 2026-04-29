@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Signature icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSignature(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSignature extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSignature.
   const DuotoneSignature({
     super.key,
     this.size = 24,

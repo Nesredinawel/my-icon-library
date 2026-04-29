@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Microphone icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMicrophone(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMicrophone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMicrophone.
   const MonochromeMicrophone({
     super.key,
     this.size = 24,

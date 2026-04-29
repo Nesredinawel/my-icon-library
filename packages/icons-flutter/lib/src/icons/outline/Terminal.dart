@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Terminal icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTerminal(size: 24, color: Colors.blue);
+/// ```
 class OutlineTerminal extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineTerminal.
   const OutlineTerminal({
     super.key,
     this.size = 24,

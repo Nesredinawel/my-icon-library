@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style CloudSun icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCloudSun(size: 24, color: Colors.blue);
+/// ```
+class OutlineCloudSun extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlineCloudSun.
+  const OutlineCloudSun({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M11.1 8.03a5 5 0 1 1 6.94 5.54M11.1 8.03A5.1 5.1 0 0 0 7 11c-2.4.38-4 2.31-4 4.41A4.7 4.7 0 0 0 7.8 20H15c2.2 0 4-1.73 4-3.86a4 4 0 0 0-.96-2.57M11.1 8.03l.52-.03c2.66 0 4.84 2 4.99 4.5q.85.36 1.44 1.07"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

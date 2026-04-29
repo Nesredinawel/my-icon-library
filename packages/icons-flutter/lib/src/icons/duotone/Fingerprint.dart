@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Fingerprint icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneFingerprint(size: 24, color: Colors.blue);
+/// ```
 class DuotoneFingerprint extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneFingerprint.
   const DuotoneFingerprint({
     super.key,
     this.size = 24,

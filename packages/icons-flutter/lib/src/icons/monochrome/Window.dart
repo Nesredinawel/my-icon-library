@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Window icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeWindow(size: 24, color: Colors.blue);
+/// ```
 class MonochromeWindow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeWindow.
   const MonochromeWindow({
     super.key,
     this.size = 24,

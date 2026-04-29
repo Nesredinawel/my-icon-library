@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Reply icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeReply(size: 24, color: Colors.blue);
+/// ```
 class MonochromeReply extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeReply.
   const MonochromeReply({
     super.key,
     this.size = 24,

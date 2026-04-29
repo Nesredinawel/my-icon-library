@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Ban icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBan(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBan extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBan.
   const MonochromeBan({
     super.key,
     this.size = 24,

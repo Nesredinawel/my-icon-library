@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Check icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCheck(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCheck extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCheck.
   const DuotoneCheck({
     super.key,
     this.size = 24,

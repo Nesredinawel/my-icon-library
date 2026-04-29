@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Mouse icon.
+///
+/// Example:
+/// ```dart
+/// SolidMouse(size: 24, color: Colors.blue);
+/// ```
 class SolidMouse extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMouse.
   const SolidMouse({
     super.key,
     this.size = 24,

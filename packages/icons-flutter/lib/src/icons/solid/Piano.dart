@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Piano icon.
+///
+/// Example:
+/// ```dart
+/// SolidPiano(size: 24, color: Colors.blue);
+/// ```
 class SolidPiano extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidPiano.
   const SolidPiano({
     super.key,
     this.size = 24,

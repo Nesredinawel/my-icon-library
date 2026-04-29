@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Gift icon.
+///
+/// Example:
+/// ```dart
+/// SolidGift(size: 24, color: Colors.blue);
+/// ```
 class SolidGift extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidGift.
   const SolidGift({
     super.key,
     this.size = 24,

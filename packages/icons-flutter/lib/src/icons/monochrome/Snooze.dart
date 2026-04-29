@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Snooze icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSnooze(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSnooze extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSnooze.
   const MonochromeSnooze({
     super.key,
     this.size = 24,

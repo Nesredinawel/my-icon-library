@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Snow icon.
+///
+/// Example:
+/// ```dart
+/// SolidSnow(size: 24, color: Colors.blue);
+/// ```
 class SolidSnow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSnow.
   const SolidSnow({
     super.key,
     this.size = 24,

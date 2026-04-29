@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style BookUser icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBookUser(size: 24, color: Colors.blue);
+/// ```
+class MonochromeBookUser extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeBookUser.
+  const MonochromeBookUser({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M15.84 2H8.16q-.8 0-1.36.03c-.39.03-.78.1-1.16.3a3 3 0 0 0-1.31 1.3c-.2.39-.27.78-.3 1.17Q4 5.37 4 6.16V19a3 3 0 0 0 3 3h12a1 1 0 1 0 0-2H6.9a1 1 0 0 1 .1-2h12a1 1 0 0 0 1-1V6.16q0-.8-.03-1.36a3 3 0 0 0-.3-1.16 3 3 0 0 0-1.3-1.31c-.39-.2-.78-.27-1.18-.3Q16.65 2 15.85 2" clip-rule="evenodd" opacity=".3"/><path fill="currentColor" d="M10 7.5a2 2 0 1 1 4 0 2 2 0 0 1-4 0m2 3a4 4 0 0 0-3.35 1.81c-.18.28-.27.42-.25.76.01.22.21.6.4.73.26.2.52.2 1.04.2h4.32c.52 0 .78 0 1.05-.2.18-.14.38-.5.4-.73.01-.34-.08-.48-.26-.76A4 4 0 0 0 12 10.5M7 18a1 1 0 1 0 0 2h11v-2z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Lock icon.
+///
+/// Example:
+/// ```dart
+/// SolidLock(size: 24, color: Colors.blue);
+/// ```
 class SolidLock extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidLock.
   const SolidLock({
     super.key,
     this.size = 24,

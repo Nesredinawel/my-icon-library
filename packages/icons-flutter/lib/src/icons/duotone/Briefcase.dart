@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Briefcase icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBriefcase(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBriefcase extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBriefcase.
   const DuotoneBriefcase({
     super.key,
     this.size = 24,

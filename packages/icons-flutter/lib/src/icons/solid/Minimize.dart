@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Minimize icon.
+///
+/// Example:
+/// ```dart
+/// SolidMinimize(size: 24, color: Colors.blue);
+/// ```
 class SolidMinimize extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMinimize.
   const SolidMinimize({
     super.key,
     this.size = 24,

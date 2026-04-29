@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Upload icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneUpload(size: 24, color: Colors.blue);
+/// ```
 class DuotoneUpload extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneUpload.
   const DuotoneUpload({
     super.key,
     this.size = 24,

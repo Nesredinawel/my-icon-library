@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Temple icon.
+///
+/// Example:
+/// ```dart
+/// SolidTemple(size: 24, color: Colors.blue);
+/// ```
 class SolidTemple extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidTemple.
   const SolidTemple({
     super.key,
     this.size = 24,

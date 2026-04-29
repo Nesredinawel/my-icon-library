@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Mail icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMail(size: 24, color: Colors.blue);
+/// ```
 class OutlineMail extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMail.
   const OutlineMail({
     super.key,
     this.size = 24,

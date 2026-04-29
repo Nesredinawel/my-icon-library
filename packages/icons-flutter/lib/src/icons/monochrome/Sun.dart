@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Sun icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSun(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSun extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSun.
   const MonochromeSun({
     super.key,
     this.size = 24,

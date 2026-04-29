@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Bones icon.
+///
+/// Example:
+/// ```dart
+/// SolidBones(size: 24, color: Colors.blue);
+/// ```
 class SolidBones extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidBones.
   const SolidBones({
     super.key,
     this.size = 24,

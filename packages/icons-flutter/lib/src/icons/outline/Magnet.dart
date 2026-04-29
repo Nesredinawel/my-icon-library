@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Magnet icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMagnet(size: 24, color: Colors.blue);
+/// ```
 class OutlineMagnet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMagnet.
   const OutlineMagnet({
     super.key,
     this.size = 24,

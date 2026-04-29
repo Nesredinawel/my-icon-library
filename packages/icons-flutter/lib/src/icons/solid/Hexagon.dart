@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Hexagon icon.
+///
+/// Example:
+/// ```dart
+/// SolidHexagon(size: 24, color: Colors.blue);
+/// ```
 class SolidHexagon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidHexagon.
   const SolidHexagon({
     super.key,
     this.size = 24,

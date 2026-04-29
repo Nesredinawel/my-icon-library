@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Microphone icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMicrophone(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMicrophone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMicrophone.
   const DuotoneMicrophone({
     super.key,
     this.size = 24,

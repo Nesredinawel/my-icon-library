@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Sleigh icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSleigh(size: 24, color: Colors.blue);
+/// ```
 class OutlineSleigh extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSleigh.
   const OutlineSleigh({
     super.key,
     this.size = 24,

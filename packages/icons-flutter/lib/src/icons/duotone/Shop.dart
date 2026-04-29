@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Shop icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneShop(size: 24, color: Colors.blue);
+/// ```
 class DuotoneShop extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneShop.
   const DuotoneShop({
     super.key,
     this.size = 24,

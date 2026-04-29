@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Square icon.
+///
+/// Example:
+/// ```dart
+/// SolidSquare(size: 24, color: Colors.blue);
+/// ```
 class SolidSquare extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSquare.
   const SolidSquare({
     super.key,
     this.size = 24,

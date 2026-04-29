@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Text icon.
+///
+/// Example:
+/// ```dart
+/// SolidText(size: 24, color: Colors.blue);
+/// ```
 class SolidText extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidText.
   const SolidText({
     super.key,
     this.size = 24,

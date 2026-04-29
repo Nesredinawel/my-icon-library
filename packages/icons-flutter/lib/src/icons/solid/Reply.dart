@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Reply icon.
+///
+/// Example:
+/// ```dart
+/// SolidReply(size: 24, color: Colors.blue);
+/// ```
 class SolidReply extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidReply.
   const SolidReply({
     super.key,
     this.size = 24,

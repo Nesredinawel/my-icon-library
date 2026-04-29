@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Maximize icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMaximize(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMaximize extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMaximize.
   const DuotoneMaximize({
     super.key,
     this.size = 24,

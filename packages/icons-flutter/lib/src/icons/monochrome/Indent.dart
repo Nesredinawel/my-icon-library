@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Indent icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeIndent(size: 24, color: Colors.blue);
+/// ```
 class MonochromeIndent extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeIndent.
   const MonochromeIndent({
     super.key,
     this.size = 24,

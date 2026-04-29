@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Frankenstein icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeFrankenstein(size: 24, color: Colors.blue);
+/// ```
 class MonochromeFrankenstein extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeFrankenstein.
   const MonochromeFrankenstein({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Shuffle icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneShuffle(size: 24, color: Colors.blue);
+/// ```
 class DuotoneShuffle extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneShuffle.
   const DuotoneShuffle({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Van icon.
+///
+/// Example:
+/// ```dart
+/// OutlineVan(size: 24, color: Colors.blue);
+/// ```
 class OutlineVan extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineVan.
   const OutlineVan({
     super.key,
     this.size = 24,

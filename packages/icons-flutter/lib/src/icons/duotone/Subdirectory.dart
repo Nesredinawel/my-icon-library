@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Subdirectory icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSubdirectory(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSubdirectory extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSubdirectory.
   const DuotoneSubdirectory({
     super.key,
     this.size = 24,

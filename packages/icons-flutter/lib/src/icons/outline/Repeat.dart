@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Repeat icon.
+///
+/// Example:
+/// ```dart
+/// OutlineRepeat(size: 24, color: Colors.blue);
+/// ```
 class OutlineRepeat extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineRepeat.
   const OutlineRepeat({
     super.key,
     this.size = 24,

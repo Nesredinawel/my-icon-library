@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Snowman icon.
+///
+/// Example:
+/// ```dart
+/// SolidSnowman(size: 24, color: Colors.blue);
+/// ```
 class SolidSnowman extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSnowman.
   const SolidSnowman({
     super.key,
     this.size = 24,

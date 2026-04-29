@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Send icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSend(size: 24, color: Colors.blue);
+/// ```
 class OutlineSend extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSend.
   const OutlineSend({
     super.key,
     this.size = 24,

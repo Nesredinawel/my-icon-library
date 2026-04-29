@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Table icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTable(size: 24, color: Colors.blue);
+/// ```
 class OutlineTable extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineTable.
   const OutlineTable({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Subscript icon.
+///
+/// Example:
+/// ```dart
+/// SolidSubscript(size: 24, color: Colors.blue);
+/// ```
 class SolidSubscript extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSubscript.
   const SolidSubscript({
     super.key,
     this.size = 24,

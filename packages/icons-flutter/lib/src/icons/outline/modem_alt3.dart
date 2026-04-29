@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style ModemAlt3 icon.
+///
+/// Example:
+/// ```dart
+/// OutlineModemAlt3(size: 24, color: Colors.blue);
+/// ```
+class OutlineModemAlt3 extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlineModemAlt3.
+  const OutlineModemAlt3({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M17 11v2m-4-8c.75-1 2.62-2 4-2s3 .67 4 2m-6 3c.38-.5 1.31-1 2-1s1.5.33 2 1M6.2 13h11.6c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11v1.6c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22H6.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C3 19.48 3 18.92 3 17.8v-1.6c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C4.52 13 5.08 13 6.2 13"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

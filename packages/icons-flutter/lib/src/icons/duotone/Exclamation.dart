@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Exclamation icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneExclamation(size: 24, color: Colors.blue);
+/// ```
 class DuotoneExclamation extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneExclamation.
   const DuotoneExclamation({
     super.key,
     this.size = 24,

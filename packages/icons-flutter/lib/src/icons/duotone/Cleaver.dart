@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Cleaver icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCleaver(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCleaver extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCleaver.
   const DuotoneCleaver({
     super.key,
     this.size = 24,

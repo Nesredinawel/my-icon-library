@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Snooze icon.
+///
+/// Example:
+/// ```dart
+/// SolidSnooze(size: 24, color: Colors.blue);
+/// ```
 class SolidSnooze extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSnooze.
   const SolidSnooze({
     super.key,
     this.size = 24,

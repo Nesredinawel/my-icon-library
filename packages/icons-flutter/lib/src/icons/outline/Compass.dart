@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Compass icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCompass(size: 24, color: Colors.blue);
+/// ```
 class OutlineCompass extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCompass.
   const OutlineCompass({
     super.key,
     this.size = 24,

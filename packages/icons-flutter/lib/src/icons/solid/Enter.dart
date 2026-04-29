@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Enter icon.
+///
+/// Example:
+/// ```dart
+/// SolidEnter(size: 24, color: Colors.blue);
+/// ```
 class SolidEnter extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidEnter.
   const SolidEnter({
     super.key,
     this.size = 24,

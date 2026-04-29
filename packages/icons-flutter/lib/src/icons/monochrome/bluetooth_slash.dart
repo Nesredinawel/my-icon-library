@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style BluetoothSlash icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBluetoothSlash(size: 24, color: Colors.blue);
+/// ```
+class MonochromeBluetoothSlash extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeBluetoothSlash.
+  const MonochromeBluetoothSlash({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="m14.82 10.59 2.89-2.88a1 1 0 0 0 0-1.42l-5-5A1 1 0 0 0 11 2v4.77l2 2V4.4L15.59 7 13.4 9.18zM17 18.41 15.59 17 13 19.59V14.4L10.59 12l-4.3 4.3a1 1 0 1 0 1.42 1.4L11 14.42V22a1 1 0 0 0 1.7.7z" opacity=".3"/><path fill="currentColor" fill-rule="evenodd" d="M2.3 2.3a1 1 0 0 1 1.4 0l18 18a1 1 0 0 1-1.4 1.4l-18-18a1 1 0 0 1 0-1.4" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

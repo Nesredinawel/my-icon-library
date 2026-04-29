@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Cube icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCube(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCube extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCube.
   const DuotoneCube({
     super.key,
     this.size = 24,

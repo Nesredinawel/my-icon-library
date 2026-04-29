@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Hurricane icon.
+///
+/// Example:
+/// ```dart
+/// SolidHurricane(size: 24, color: Colors.blue);
+/// ```
 class SolidHurricane extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidHurricane.
   const SolidHurricane({
     super.key,
     this.size = 24,

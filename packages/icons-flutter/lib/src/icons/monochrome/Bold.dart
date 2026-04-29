@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Bold icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBold(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBold extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBold.
   const MonochromeBold({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Sleigh icon.
+///
+/// Example:
+/// ```dart
+/// SolidSleigh(size: 24, color: Colors.blue);
+/// ```
 class SolidSleigh extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSleigh.
   const SolidSleigh({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Lock icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneLock(size: 24, color: Colors.blue);
+/// ```
 class DuotoneLock extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneLock.
   const DuotoneLock({
     super.key,
     this.size = 24,

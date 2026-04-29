@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Hotel icon.
+///
+/// Example:
+/// ```dart
+/// SolidHotel(size: 24, color: Colors.blue);
+/// ```
 class SolidHotel extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidHotel.
   const SolidHotel({
     super.key,
     this.size = 24,

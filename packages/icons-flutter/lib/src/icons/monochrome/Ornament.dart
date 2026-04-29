@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Ornament icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeOrnament(size: 24, color: Colors.blue);
+/// ```
 class MonochromeOrnament extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeOrnament.
   const MonochromeOrnament({
     super.key,
     this.size = 24,

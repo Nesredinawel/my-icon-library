@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Sitemap icon.
+///
+/// Example:
+/// ```dart
+/// SolidSitemap(size: 24, color: Colors.blue);
+/// ```
 class SolidSitemap extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSitemap.
   const SolidSitemap({
     super.key,
     this.size = 24,

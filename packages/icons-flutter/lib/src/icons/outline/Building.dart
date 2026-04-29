@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Building icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBuilding(size: 24, color: Colors.blue);
+/// ```
 class OutlineBuilding extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineBuilding.
   const OutlineBuilding({
     super.key,
     this.size = 24,

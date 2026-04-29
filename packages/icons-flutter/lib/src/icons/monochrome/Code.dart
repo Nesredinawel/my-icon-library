@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Code icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCode(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCode extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCode.
   const MonochromeCode({
     super.key,
     this.size = 24,

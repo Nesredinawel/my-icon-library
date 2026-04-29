@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Globe icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeGlobe(size: 24, color: Colors.blue);
+/// ```
 class MonochromeGlobe extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeGlobe.
   const MonochromeGlobe({
     super.key,
     this.size = 24,

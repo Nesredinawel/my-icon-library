@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Stocking icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneStocking(size: 24, color: Colors.blue);
+/// ```
 class DuotoneStocking extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneStocking.
   const DuotoneStocking({
     super.key,
     this.size = 24,

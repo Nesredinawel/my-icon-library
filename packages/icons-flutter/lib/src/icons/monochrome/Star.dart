@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Star icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeStar(size: 24, color: Colors.blue);
+/// ```
 class MonochromeStar extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeStar.
   const MonochromeStar({
     super.key,
     this.size = 24,

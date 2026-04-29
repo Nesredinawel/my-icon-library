@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Signal icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSignal(size: 24, color: Colors.blue);
+/// ```
 class OutlineSignal extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSignal.
   const OutlineSignal({
     super.key,
     this.size = 24,

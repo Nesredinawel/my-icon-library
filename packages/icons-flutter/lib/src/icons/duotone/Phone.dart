@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Phone icon.
+///
+/// Example:
+/// ```dart
+/// DuotonePhone(size: 24, color: Colors.blue);
+/// ```
 class DuotonePhone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotonePhone.
   const DuotonePhone({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Scan icon.
+///
+/// Example:
+/// ```dart
+/// SolidScan(size: 24, color: Colors.blue);
+/// ```
 class SolidScan extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidScan.
   const SolidScan({
     super.key,
     this.size = 24,

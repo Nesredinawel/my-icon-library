@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Question icon.
+///
+/// Example:
+/// ```dart
+/// SolidQuestion(size: 24, color: Colors.blue);
+/// ```
 class SolidQuestion extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidQuestion.
   const SolidQuestion({
     super.key,
     this.size = 24,

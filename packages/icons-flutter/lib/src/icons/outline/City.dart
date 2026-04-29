@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style City icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCity(size: 24, color: Colors.blue);
+/// ```
 class OutlineCity extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCity.
   const OutlineCity({
     super.key,
     this.size = 24,

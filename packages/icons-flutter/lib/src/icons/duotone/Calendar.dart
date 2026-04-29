@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Calendar icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCalendar(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCalendar extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCalendar.
   const DuotoneCalendar({
     super.key,
     this.size = 24,

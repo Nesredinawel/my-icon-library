@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Figma icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeFigma(size: 24, color: Colors.blue);
+/// ```
 class MonochromeFigma extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeFigma.
   const MonochromeFigma({
     super.key,
     this.size = 24,

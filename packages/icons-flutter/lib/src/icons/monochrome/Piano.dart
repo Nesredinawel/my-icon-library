@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Piano icon.
+///
+/// Example:
+/// ```dart
+/// MonochromePiano(size: 24, color: Colors.blue);
+/// ```
 class MonochromePiano extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromePiano.
   const MonochromePiano({
     super.key,
     this.size = 24,

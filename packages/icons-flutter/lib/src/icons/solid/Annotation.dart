@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Annotation icon.
+///
+/// Example:
+/// ```dart
+/// SolidAnnotation(size: 24, color: Colors.blue);
+/// ```
 class SolidAnnotation extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidAnnotation.
   const SolidAnnotation({
     super.key,
     this.size = 24,

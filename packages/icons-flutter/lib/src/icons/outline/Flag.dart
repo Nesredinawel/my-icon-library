@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Flag icon.
+///
+/// Example:
+/// ```dart
+/// OutlineFlag(size: 24, color: Colors.blue);
+/// ```
 class OutlineFlag extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineFlag.
   const OutlineFlag({
     super.key,
     this.size = 24,

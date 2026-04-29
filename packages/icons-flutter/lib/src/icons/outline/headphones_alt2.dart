@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style HeadphonesAlt2 icon.
+///
+/// Example:
+/// ```dart
+/// OutlineHeadphonesAlt2(size: 24, color: Colors.blue);
+/// ```
+class OutlineHeadphonesAlt2 extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlineHeadphonesAlt2.
+  const OutlineHeadphonesAlt2({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" d="M3 11.3a9 9 0 1 1 18 0m-18 0h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2m-2-6v5a1 1 0 0 0 1 1h1m16-6h-2a2 2 0 0 0-2 2v2c0 1.1.9 2 2 2h1a1 1 0 0 0 1-1zm-16 6v1c0 1.1.9 2 2 2h2m0 0c0 .83.67 1.5 1.5 1.5h1a1.5 1.5 0 0 0 0-3h-1c-.83 0-1.5.67-1.5 1.5Z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Shield icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeShield(size: 24, color: Colors.blue);
+/// ```
 class MonochromeShield extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeShield.
   const MonochromeShield({
     super.key,
     this.size = 24,

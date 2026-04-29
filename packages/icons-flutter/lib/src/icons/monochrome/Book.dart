@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Book icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBook(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBook extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBook.
   const MonochromeBook({
     super.key,
     this.size = 24,

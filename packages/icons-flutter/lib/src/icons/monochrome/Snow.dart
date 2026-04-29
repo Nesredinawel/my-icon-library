@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Snow icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSnow(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSnow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSnow.
   const MonochromeSnow({
     super.key,
     this.size = 24,

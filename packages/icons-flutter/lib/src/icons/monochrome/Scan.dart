@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Scan icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeScan(size: 24, color: Colors.blue);
+/// ```
 class MonochromeScan extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeScan.
   const MonochromeScan({
     super.key,
     this.size = 24,

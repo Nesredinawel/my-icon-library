@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Swatchbook icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSwatchbook(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSwatchbook extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSwatchbook.
   const MonochromeSwatchbook({
     super.key,
     this.size = 24,

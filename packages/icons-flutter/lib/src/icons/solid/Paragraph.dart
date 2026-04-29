@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Paragraph icon.
+///
+/// Example:
+/// ```dart
+/// SolidParagraph(size: 24, color: Colors.blue);
+/// ```
 class SolidParagraph extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidParagraph.
   const SolidParagraph({
     super.key,
     this.size = 24,

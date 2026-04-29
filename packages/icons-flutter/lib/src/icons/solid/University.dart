@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style University icon.
+///
+/// Example:
+/// ```dart
+/// SolidUniversity(size: 24, color: Colors.blue);
+/// ```
 class SolidUniversity extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidUniversity.
   const SolidUniversity({
     super.key,
     this.size = 24,

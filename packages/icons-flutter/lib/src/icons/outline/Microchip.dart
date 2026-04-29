@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Microchip icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMicrochip(size: 24, color: Colors.blue);
+/// ```
 class OutlineMicrochip extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMicrochip.
   const OutlineMicrochip({
     super.key,
     this.size = 24,

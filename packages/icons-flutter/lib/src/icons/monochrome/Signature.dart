@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Signature icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSignature(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSignature extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSignature.
   const MonochromeSignature({
     super.key,
     this.size = 24,

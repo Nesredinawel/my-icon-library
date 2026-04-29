@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Industry icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeIndustry(size: 24, color: Colors.blue);
+/// ```
 class MonochromeIndustry extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeIndustry.
   const MonochromeIndustry({
     super.key,
     this.size = 24,

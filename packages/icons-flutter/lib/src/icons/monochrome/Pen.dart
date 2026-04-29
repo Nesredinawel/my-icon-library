@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Pen icon.
+///
+/// Example:
+/// ```dart
+/// MonochromePen(size: 24, color: Colors.blue);
+/// ```
 class MonochromePen extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromePen.
   const MonochromePen({
     super.key,
     this.size = 24,

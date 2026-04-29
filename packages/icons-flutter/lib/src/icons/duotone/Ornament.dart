@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Ornament icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneOrnament(size: 24, color: Colors.blue);
+/// ```
 class DuotoneOrnament extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneOrnament.
   const DuotoneOrnament({
     super.key,
     this.size = 24,

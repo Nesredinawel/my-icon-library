@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Airplay icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneAirplay(size: 24, color: Colors.blue);
+/// ```
 class DuotoneAirplay extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneAirplay.
   const DuotoneAirplay({
     super.key,
     this.size = 24,

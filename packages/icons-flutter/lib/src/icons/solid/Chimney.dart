@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Chimney icon.
+///
+/// Example:
+/// ```dart
+/// SolidChimney(size: 24, color: Colors.blue);
+/// ```
 class SolidChimney extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidChimney.
   const SolidChimney({
     super.key,
     this.size = 24,

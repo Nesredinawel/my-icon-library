@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style MailLock icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMailLock(size: 24, color: Colors.blue);
+/// ```
+class OutlineMailLock extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlineMailLock.
+  const OutlineMailLock({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path fill="currentColor" d="M11 20a1 1 0 1 0 0-2zm9-9a1 1 0 1 0 2 0zM3.22 17.9l.89-.45zm.87.88.46-.89zM19.91 5.22l.45-.9zm.87.87-.89.46zM4.1 5.22l-.45-.9zm-.87.87-.9-.45zm12.33 5.54.55.84zm5.61-2.54a1 1 0 1 0-1.1-1.66l.55.83zM3.7 7.27a1 1 0 0 0-1.1 1.66l.55-.83zm4.75 4.36L9 10.8zm4.48 1.45.23.98zm-1.86 0-.24.98zM6.2 5v1h11.6V4H6.2zM3 15.8h1V8.2H2v7.6zm8 3.2v-1H6.2v2H11zM21 8.2h-1V11h2V8.2zM3 15.8H2q0 .81.03 1.4c.03.39.1.78.3 1.16l.89-.45.89-.46a1 1 0 0 1-.09-.42A17 17 0 0 1 4 15.8zM6.2 19v-1c-.58 0-.95 0-1.23-.02a1 1 0 0 1-.42-.09l-.46.9-.45.88c.38.2.77.27 1.16.3q.59.04 1.4.03zm-2.98-1.1-.9.46a3 3 0 0 0 1.32 1.31l.45-.89.46-.89a1 1 0 0 1-.44-.44zM17.8 5v1c.58 0 .95 0 1.23.02.27.03.37.06.42.09l.46-.9.45-.88a3 3 0 0 0-1.16-.3Q18.6 4 17.8 4zM21 8.2h1q0-.81-.03-1.4a3 3 0 0 0-.3-1.16l-.89.45-.89.46c.03.05.06.15.09.42.02.28.02.65.02 1.23zm-1.1-2.98-.45.89a1 1 0 0 1 .44.44l.9-.46.88-.45a3 3 0 0 0-1.3-1.31zM6.2 5V4q-.81 0-1.4.03c-.39.03-.78.1-1.16.3l.45.89.46.89c.05-.03.15-.06.42-.09A17 17 0 0 1 6.2 6zM3 8.2h1c0-.58 0-.95.02-1.23.03-.27.06-.37.09-.42l-.9-.46-.88-.45c-.2.38-.27.77-.3 1.16Q2 7.4 2 8.2zm1.1-2.98-.46-.9a3 3 0 0 0-1.31 1.32l.89.45.89.46a1 1 0 0 1 .44-.44zm11.45 6.41.55.84 5.06-3.38-.55-.83-.56-.83L15 10.8zM3.15 8.1l-.56.83 5.3 3.54.56-.84.55-.83-5.3-3.53zm12.4 3.53L15 10.8c-1.35.9-1.82 1.2-2.3 1.31l.23.97.23.98c.91-.22 1.73-.78 2.94-1.6zm-7.1 0-.55.84c1.21.8 2.03 1.37 2.93 1.59l.24-.98.23-.97c-.48-.11-.95-.41-2.3-1.3zm4.48 1.45-.23-.97a3 3 0 0 1-1.4 0l-.23.97-.24.98a5 5 0 0 0 2.33 0zM16 17v1h4v-2h-4zm5 1h-1v1h2v-1zm-1 2v-1h-4v2h4zm-5-1h1v-1h-2v1zm1 1v-1h-2c0 1.1.9 2 2 2zm5-1h-1v2a2 2 0 0 0 2-2zm-1-2v1h2a2 2 0 0 0-2-2zm-4 0v-1a2 2 0 0 0-2 2h2zm0 0h1v-1h-2v1zm4-1h-1v1h2v-1zm-2-2v1a1 1 0 0 1 1 1h2a3 3 0 0 0-3-3zm-2 2h1a1 1 0 0 1 1-1v-2a3 3 0 0 0-3 3z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

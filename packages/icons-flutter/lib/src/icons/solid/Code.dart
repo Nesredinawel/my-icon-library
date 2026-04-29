@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Code icon.
+///
+/// Example:
+/// ```dart
+/// SolidCode(size: 24, color: Colors.blue);
+/// ```
 class SolidCode extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCode.
   const SolidCode({
     super.key,
     this.size = 24,

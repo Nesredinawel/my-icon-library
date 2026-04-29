@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Drone icon.
+///
+/// Example:
+/// ```dart
+/// SolidDrone(size: 24, color: Colors.blue);
+/// ```
 class SolidDrone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidDrone.
   const SolidDrone({
     super.key,
     this.size = 24,

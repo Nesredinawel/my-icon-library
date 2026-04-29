@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Browser icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBrowser(size: 24, color: Colors.blue);
+/// ```
 class OutlineBrowser extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineBrowser.
   const OutlineBrowser({
     super.key,
     this.size = 24,

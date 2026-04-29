@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Backward icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBackward(size: 24, color: Colors.blue);
+/// ```
 class OutlineBackward extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineBackward.
   const OutlineBackward({
     super.key,
     this.size = 24,

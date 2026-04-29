@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Keyboard icon.
+///
+/// Example:
+/// ```dart
+/// OutlineKeyboard(size: 24, color: Colors.blue);
+/// ```
 class OutlineKeyboard extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineKeyboard.
   const OutlineKeyboard({
     super.key,
     this.size = 24,

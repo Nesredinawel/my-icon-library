@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Inbox icon.
+///
+/// Example:
+/// ```dart
+/// SolidInbox(size: 24, color: Colors.blue);
+/// ```
 class SolidInbox extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidInbox.
   const SolidInbox({
     super.key,
     this.size = 24,

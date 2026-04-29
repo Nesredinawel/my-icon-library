@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Fireplace icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneFireplace(size: 24, color: Colors.blue);
+/// ```
 class DuotoneFireplace extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneFireplace.
   const DuotoneFireplace({
     super.key,
     this.size = 24,

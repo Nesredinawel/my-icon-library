@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Mask icon.
+///
+/// Example:
+/// ```dart
+/// SolidMask(size: 24, color: Colors.blue);
+/// ```
 class SolidMask extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMask.
   const SolidMask({
     super.key,
     this.size = 24,

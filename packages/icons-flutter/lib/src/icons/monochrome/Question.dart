@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Question icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeQuestion(size: 24, color: Colors.blue);
+/// ```
 class MonochromeQuestion extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeQuestion.
   const MonochromeQuestion({
     super.key,
     this.size = 24,

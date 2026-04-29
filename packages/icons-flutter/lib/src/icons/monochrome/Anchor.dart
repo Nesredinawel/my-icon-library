@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Anchor icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeAnchor(size: 24, color: Colors.blue);
+/// ```
 class MonochromeAnchor extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeAnchor.
   const MonochromeAnchor({
     super.key,
     this.size = 24,

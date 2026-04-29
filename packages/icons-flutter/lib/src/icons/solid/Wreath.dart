@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Wreath icon.
+///
+/// Example:
+/// ```dart
+/// SolidWreath(size: 24, color: Colors.blue);
+/// ```
 class SolidWreath extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidWreath.
   const SolidWreath({
     super.key,
     this.size = 24,

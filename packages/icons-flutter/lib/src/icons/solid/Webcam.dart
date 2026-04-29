@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Webcam icon.
+///
+/// Example:
+/// ```dart
+/// SolidWebcam(size: 24, color: Colors.blue);
+/// ```
 class SolidWebcam extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidWebcam.
   const SolidWebcam({
     super.key,
     this.size = 24,

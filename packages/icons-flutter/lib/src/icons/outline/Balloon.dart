@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Balloon icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBalloon(size: 24, color: Colors.blue);
+/// ```
 class OutlineBalloon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineBalloon.
   const OutlineBalloon({
     super.key,
     this.size = 24,

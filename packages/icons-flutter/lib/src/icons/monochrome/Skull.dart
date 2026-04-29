@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Skull icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSkull(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSkull extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSkull.
   const MonochromeSkull({
     super.key,
     this.size = 24,

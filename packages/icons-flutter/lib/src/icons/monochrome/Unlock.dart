@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Unlock icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeUnlock(size: 24, color: Colors.blue);
+/// ```
 class MonochromeUnlock extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeUnlock.
   const MonochromeUnlock({
     super.key,
     this.size = 24,

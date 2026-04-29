@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Water icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneWater(size: 24, color: Colors.blue);
+/// ```
 class DuotoneWater extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneWater.
   const DuotoneWater({
     super.key,
     this.size = 24,

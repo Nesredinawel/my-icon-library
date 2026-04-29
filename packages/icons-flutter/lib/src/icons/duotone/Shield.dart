@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Shield icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneShield(size: 24, color: Colors.blue);
+/// ```
 class DuotoneShield extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneShield.
   const DuotoneShield({
     super.key,
     this.size = 24,

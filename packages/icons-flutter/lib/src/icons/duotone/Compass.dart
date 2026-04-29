@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Compass icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCompass(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCompass extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCompass.
   const DuotoneCompass({
     super.key,
     this.size = 24,

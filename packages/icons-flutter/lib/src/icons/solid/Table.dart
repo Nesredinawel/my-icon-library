@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Table icon.
+///
+/// Example:
+/// ```dart
+/// SolidTable(size: 24, color: Colors.blue);
+/// ```
 class SolidTable extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidTable.
   const SolidTable({
     super.key,
     this.size = 24,

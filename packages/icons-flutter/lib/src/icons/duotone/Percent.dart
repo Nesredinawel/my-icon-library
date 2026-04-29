@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Percent icon.
+///
+/// Example:
+/// ```dart
+/// DuotonePercent(size: 24, color: Colors.blue);
+/// ```
 class DuotonePercent extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotonePercent.
   const DuotonePercent({
     super.key,
     this.size = 24,

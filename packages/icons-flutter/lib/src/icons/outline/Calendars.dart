@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Calendars icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCalendars(size: 24, color: Colors.blue);
+/// ```
 class OutlineCalendars extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCalendars.
   const OutlineCalendars({
     super.key,
     this.size = 24,

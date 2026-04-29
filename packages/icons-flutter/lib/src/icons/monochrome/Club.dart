@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Club icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeClub(size: 24, color: Colors.blue);
+/// ```
 class MonochromeClub extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeClub.
   const MonochromeClub({
     super.key,
     this.size = 24,

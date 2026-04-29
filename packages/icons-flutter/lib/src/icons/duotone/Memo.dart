@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Memo icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMemo(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMemo extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMemo.
   const DuotoneMemo({
     super.key,
     this.size = 24,

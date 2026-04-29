@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Forward icon.
+///
+/// Example:
+/// ```dart
+/// SolidForward(size: 24, color: Colors.blue);
+/// ```
 class SolidForward extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidForward.
   const SolidForward({
     super.key,
     this.size = 24,

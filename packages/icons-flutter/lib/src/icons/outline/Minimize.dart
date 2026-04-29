@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Minimize icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMinimize(size: 24, color: Colors.blue);
+/// ```
 class OutlineMinimize extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMinimize.
   const OutlineMinimize({
     super.key,
     this.size = 24,

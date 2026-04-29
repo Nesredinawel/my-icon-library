@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Rainbow icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneRainbow(size: 24, color: Colors.blue);
+/// ```
 class DuotoneRainbow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneRainbow.
   const DuotoneRainbow({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Tombstone icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTombstone(size: 24, color: Colors.blue);
+/// ```
 class OutlineTombstone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineTombstone.
   const OutlineTombstone({
     super.key,
     this.size = 24,

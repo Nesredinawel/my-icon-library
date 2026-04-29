@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Farm icon.
+///
+/// Example:
+/// ```dart
+/// SolidFarm(size: 24, color: Colors.blue);
+/// ```
 class SolidFarm extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidFarm.
   const SolidFarm({
     super.key,
     this.size = 24,

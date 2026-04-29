@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Cleaver icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCleaver(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCleaver extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCleaver.
   const MonochromeCleaver({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Reciept icon.
+///
+/// Example:
+/// ```dart
+/// OutlineReciept(size: 24, color: Colors.blue);
+/// ```
 class OutlineReciept extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineReciept.
   const OutlineReciept({
     super.key,
     this.size = 24,

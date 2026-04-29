@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Maximize icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMaximize(size: 24, color: Colors.blue);
+/// ```
 class OutlineMaximize extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMaximize.
   const OutlineMaximize({
     super.key,
     this.size = 24,

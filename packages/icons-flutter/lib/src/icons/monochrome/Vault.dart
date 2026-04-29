@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Vault icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeVault(size: 24, color: Colors.blue);
+/// ```
 class MonochromeVault extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeVault.
   const MonochromeVault({
     super.key,
     this.size = 24,

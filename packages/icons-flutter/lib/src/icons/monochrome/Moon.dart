@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Moon icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMoon(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMoon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMoon.
   const MonochromeMoon({
     super.key,
     this.size = 24,

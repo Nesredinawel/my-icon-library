@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Drum icon.
+///
+/// Example:
+/// ```dart
+/// SolidDrum(size: 24, color: Colors.blue);
+/// ```
 class SolidDrum extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidDrum.
   const SolidDrum({
     super.key,
     this.size = 24,

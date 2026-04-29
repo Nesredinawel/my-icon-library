@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Gold icon.
+///
+/// Example:
+/// ```dart
+/// OutlineGold(size: 24, color: Colors.blue);
+/// ```
 class OutlineGold extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineGold.
   const OutlineGold({
     super.key,
     this.size = 24,

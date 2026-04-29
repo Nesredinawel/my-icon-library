@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Crop icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCrop(size: 24, color: Colors.blue);
+/// ```
 class OutlineCrop extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCrop.
   const OutlineCrop({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Percent icon.
+///
+/// Example:
+/// ```dart
+/// MonochromePercent(size: 24, color: Colors.blue);
+/// ```
 class MonochromePercent extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromePercent.
   const MonochromePercent({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Subdirectory icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSubdirectory(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSubdirectory extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSubdirectory.
   const MonochromeSubdirectory({
     super.key,
     this.size = 24,

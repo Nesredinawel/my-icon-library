@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style ShieldSlash icon.
+///
+/// Example:
+/// ```dart
+/// SolidShieldSlash(size: 24, color: Colors.blue);
+/// ```
+class SolidShieldSlash extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidShieldSlash.
+  const SolidShieldSlash({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M3.7 2.3a1 1 0 0 0-1.4 1.4l1.56 1.58a3 3 0 0 0-.66 1.04C3 6.84 3 7.42 3 8.08V12c0 2.65 1.61 4.82 3.29 6.38a22 22 0 0 0 4.6 3.19l.04.02q.26.15.69.26c.24.05.53.05.76 0 .3-.05.51-.17.69-.26l.03-.02a22 22 0 0 0 4.22-2.84l2.97 2.98a1 1 0 0 0 1.42-1.42zM21 12c0 1.37-.43 2.61-1.08 3.7L7.74 3.54l3.35-1.26.04-.01q.25-.1.58-.17a2 2 0 0 1 1.16.17l.04.01 5.5 2.06c.61.23 1.16.44 1.57.8a3 3 0 0 1 .82 1.19c.2.52.2 1.1.2 1.76z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

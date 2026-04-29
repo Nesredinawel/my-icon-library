@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Percent icon.
+///
+/// Example:
+/// ```dart
+/// SolidPercent(size: 24, color: Colors.blue);
+/// ```
 class SolidPercent extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidPercent.
   const SolidPercent({
     super.key,
     this.size = 24,

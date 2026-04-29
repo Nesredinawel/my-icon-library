@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Vial icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneVial(size: 24, color: Colors.blue);
+/// ```
 class DuotoneVial extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneVial.
   const DuotoneVial({
     super.key,
     this.size = 24,

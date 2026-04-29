@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Airpods icon.
+///
+/// Example:
+/// ```dart
+/// SolidAirpods(size: 24, color: Colors.blue);
+/// ```
 class SolidAirpods extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidAirpods.
   const SolidAirpods({
     super.key,
     this.size = 24,

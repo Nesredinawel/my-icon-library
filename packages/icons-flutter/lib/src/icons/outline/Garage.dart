@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Garage icon.
+///
+/// Example:
+/// ```dart
+/// OutlineGarage(size: 24, color: Colors.blue);
+/// ```
 class OutlineGarage extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineGarage.
   const OutlineGarage({
     super.key,
     this.size = 24,

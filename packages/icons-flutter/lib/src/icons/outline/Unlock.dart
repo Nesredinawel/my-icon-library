@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Unlock icon.
+///
+/// Example:
+/// ```dart
+/// OutlineUnlock(size: 24, color: Colors.blue);
+/// ```
 class OutlineUnlock extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineUnlock.
   const OutlineUnlock({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style School icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSchool(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSchool extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSchool.
   const MonochromeSchool({
     super.key,
     this.size = 24,

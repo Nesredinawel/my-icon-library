@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Strikethrough icon.
+///
+/// Example:
+/// ```dart
+/// SolidStrikethrough(size: 24, color: Colors.blue);
+/// ```
 class SolidStrikethrough extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidStrikethrough.
   const SolidStrikethrough({
     super.key,
     this.size = 24,

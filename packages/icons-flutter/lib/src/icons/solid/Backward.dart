@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Backward icon.
+///
+/// Example:
+/// ```dart
+/// SolidBackward(size: 24, color: Colors.blue);
+/// ```
 class SolidBackward extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidBackward.
   const SolidBackward({
     super.key,
     this.size = 24,

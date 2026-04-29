@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Bed icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBed(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBed extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBed.
   const DuotoneBed({
     super.key,
     this.size = 24,

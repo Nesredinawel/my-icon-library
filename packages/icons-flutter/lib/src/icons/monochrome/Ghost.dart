@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Ghost icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeGhost(size: 24, color: Colors.blue);
+/// ```
 class MonochromeGhost extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeGhost.
   const MonochromeGhost({
     super.key,
     this.size = 24,

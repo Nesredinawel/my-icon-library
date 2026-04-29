@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Duotone style SearchPlus icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSearchPlus(size: 24, color: Colors.blue);
+/// ```
+class DuotoneSearchPlus extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a DuotoneSearchPlus.
+  const DuotoneSearchPlus({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><circle cx="10.5" cy="10.5" r="7.5" fill="currentColor" opacity=".14"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.8 15.8 21 21M10.5 7.5v6m-3-3h6m4.5 0a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

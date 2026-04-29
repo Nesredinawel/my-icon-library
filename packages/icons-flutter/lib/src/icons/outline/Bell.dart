@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Bell icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBell(size: 24, color: Colors.blue);
+/// ```
 class OutlineBell extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineBell.
   const OutlineBell({
     super.key,
     this.size = 24,

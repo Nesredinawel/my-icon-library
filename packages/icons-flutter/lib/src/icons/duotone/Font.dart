@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Font icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneFont(size: 24, color: Colors.blue);
+/// ```
 class DuotoneFont extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneFont.
   const DuotoneFont({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Shop icon.
+///
+/// Example:
+/// ```dart
+/// SolidShop(size: 24, color: Colors.blue);
+/// ```
 class SolidShop extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidShop.
   const SolidShop({
     super.key,
     this.size = 24,

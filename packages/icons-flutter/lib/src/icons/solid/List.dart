@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style List icon.
+///
+/// Example:
+/// ```dart
+/// SolidList(size: 24, color: Colors.blue);
+/// ```
 class SolidList extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidList.
   const SolidList({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Sort icon.
+///
+/// Example:
+/// ```dart
+/// SolidSort(size: 24, color: Colors.blue);
+/// ```
 class SolidSort extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSort.
   const SolidSort({
     super.key,
     this.size = 24,

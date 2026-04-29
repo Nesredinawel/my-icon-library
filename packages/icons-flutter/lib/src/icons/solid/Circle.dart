@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Circle icon.
+///
+/// Example:
+/// ```dart
+/// SolidCircle(size: 24, color: Colors.blue);
+/// ```
 class SolidCircle extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCircle.
   const SolidCircle({
     super.key,
     this.size = 24,

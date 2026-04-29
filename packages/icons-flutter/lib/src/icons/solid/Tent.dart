@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Tent icon.
+///
+/// Example:
+/// ```dart
+/// SolidTent(size: 24, color: Colors.blue);
+/// ```
 class SolidTent extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidTent.
   const SolidTent({
     super.key,
     this.size = 24,

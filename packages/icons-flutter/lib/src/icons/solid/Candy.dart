@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Candy icon.
+///
+/// Example:
+/// ```dart
+/// SolidCandy(size: 24, color: Colors.blue);
+/// ```
 class SolidCandy extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCandy.
   const SolidCandy({
     super.key,
     this.size = 24,

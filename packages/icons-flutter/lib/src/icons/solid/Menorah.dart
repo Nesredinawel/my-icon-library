@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Menorah icon.
+///
+/// Example:
+/// ```dart
+/// SolidMenorah(size: 24, color: Colors.blue);
+/// ```
 class SolidMenorah extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMenorah.
   const SolidMenorah({
     super.key,
     this.size = 24,

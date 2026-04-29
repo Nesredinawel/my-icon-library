@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Medal icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMedal(size: 24, color: Colors.blue);
+/// ```
 class OutlineMedal extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMedal.
   const OutlineMedal({
     super.key,
     this.size = 24,

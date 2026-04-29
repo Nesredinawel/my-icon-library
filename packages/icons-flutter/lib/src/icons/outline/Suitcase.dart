@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Suitcase icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSuitcase(size: 24, color: Colors.blue);
+/// ```
 class OutlineSuitcase extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSuitcase.
   const OutlineSuitcase({
     super.key,
     this.size = 24,

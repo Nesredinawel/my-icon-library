@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Rss icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeRss(size: 24, color: Colors.blue);
+/// ```
 class MonochromeRss extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeRss.
   const MonochromeRss({
     super.key,
     this.size = 24,

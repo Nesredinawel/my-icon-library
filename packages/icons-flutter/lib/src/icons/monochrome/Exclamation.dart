@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Exclamation icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeExclamation(size: 24, color: Colors.blue);
+/// ```
 class MonochromeExclamation extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeExclamation.
   const MonochromeExclamation({
     super.key,
     this.size = 24,

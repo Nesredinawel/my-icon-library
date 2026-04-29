@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Laptop icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeLaptop(size: 24, color: Colors.blue);
+/// ```
 class MonochromeLaptop extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeLaptop.
   const MonochromeLaptop({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Truck icon.
+///
+/// Example:
+/// ```dart
+/// SolidTruck(size: 24, color: Colors.blue);
+/// ```
 class SolidTruck extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidTruck.
   const SolidTruck({
     super.key,
     this.size = 24,

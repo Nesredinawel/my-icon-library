@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Bold icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBold(size: 24, color: Colors.blue);
+/// ```
 class OutlineBold extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineBold.
   const OutlineBold({
     super.key,
     this.size = 24,

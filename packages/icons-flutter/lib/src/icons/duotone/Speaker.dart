@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Speaker icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSpeaker(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSpeaker extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSpeaker.
   const DuotoneSpeaker({
     super.key,
     this.size = 24,

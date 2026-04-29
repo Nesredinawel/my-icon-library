@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Fingerprint icon.
+///
+/// Example:
+/// ```dart
+/// OutlineFingerprint(size: 24, color: Colors.blue);
+/// ```
 class OutlineFingerprint extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineFingerprint.
   const OutlineFingerprint({
     super.key,
     this.size = 24,

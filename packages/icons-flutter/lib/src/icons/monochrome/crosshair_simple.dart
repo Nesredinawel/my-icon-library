@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style CrosshairSimple icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCrosshairSimple(size: 24, color: Colors.blue);
+/// ```
+class MonochromeCrosshairSimple extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeCrosshairSimple.
+  const MonochromeCrosshairSimple({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0" clip-rule="evenodd" opacity=".3"/><path fill="currentColor" d="M13 4.06V7a1 1 0 1 1-2 0V4.06a8 8 0 0 1 2 0M19.94 11a8 8 0 0 1 0 2H17a1 1 0 1 1 0-2zM13 19.94V17a1 1 0 1 0-2 0v2.94a8 8 0 0 0 2 0M4.06 13H7a1 1 0 1 0 0-2H4.06a8 8 0 0 0 0 2M12 11a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

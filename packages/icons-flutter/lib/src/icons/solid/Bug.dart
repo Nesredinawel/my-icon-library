@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Bug icon.
+///
+/// Example:
+/// ```dart
+/// SolidBug(size: 24, color: Colors.blue);
+/// ```
 class SolidBug extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidBug.
   const SolidBug({
     super.key,
     this.size = 24,

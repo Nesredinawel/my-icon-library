@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style CircleDashed icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCircleDashed(size: 24, color: Colors.blue);
+/// ```
+class MonochromeCircleDashed extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeCircleDashed.
+  const MonochromeCircleDashed({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M16.17 3.96a1 1 0 0 1 1.39-.27q1.65 1.1 2.76 2.75a1 1 0 0 1-1.67 1.12 8 8 0 0 0-2.2-2.21 1 1 0 0 1-.28-1.39m-8.34 0a1 1 0 0 1-.27 1.39 8 8 0 0 0-2.21 2.2 1 1 0 0 1-1.67-1.1 10 10 0 0 1 2.76-2.76 1 1 0 0 1 1.39.27m12.21 12.21a1 1 0 0 1 .28 1.39 10 10 0 0 1-2.76 2.76 1 1 0 1 1-1.12-1.67 8 8 0 0 0 2.21-2.2 1 1 0 0 1 1.39-.28m-16.08 0a1 1 0 0 1 1.39.27 8 8 0 0 0 2.2 2.21 1 1 0 1 1-1.1 1.67 10 10 0 0 1-2.77-2.76 1 1 0 0 1 .28-1.39" opacity=".3"/><path fill="currentColor" fill-rule="evenodd" d="M10.05 2.19a10 10 0 0 1 3.9 0 1 1 0 1 1-.39 1.96 8 8 0 0 0-3.12 0 1 1 0 1 1-.39-1.96M3.37 9.26a1 1 0 0 1 .78 1.18 8 8 0 0 0 0 3.12 1 1 0 1 1-1.96.39 10 10 0 0 1 0-3.9 1 1 0 0 1 1.18-.79m17.26 0a1 1 0 0 1 1.18.79 10 10 0 0 1 0 3.9 1 1 0 0 1-1.96-.39 8 8 0 0 0 0-3.12 1 1 0 0 1 .78-1.18M9.26 20.63a1 1 0 0 1 1.18-.78 8 8 0 0 0 3.12 0 1 1 0 1 1 .39 1.96 10 10 0 0 1-3.9 0 1 1 0 0 1-.79-1.18" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

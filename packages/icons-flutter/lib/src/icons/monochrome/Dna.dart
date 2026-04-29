@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Dna icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeDna(size: 24, color: Colors.blue);
+/// ```
 class MonochromeDna extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeDna.
   const MonochromeDna({
     super.key,
     this.size = 24,

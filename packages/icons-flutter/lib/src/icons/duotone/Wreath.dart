@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Wreath icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneWreath(size: 24, color: Colors.blue);
+/// ```
 class DuotoneWreath extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneWreath.
   const DuotoneWreath({
     super.key,
     this.size = 24,

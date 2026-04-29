@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Ghost icon.
+///
+/// Example:
+/// ```dart
+/// SolidGhost(size: 24, color: Colors.blue);
+/// ```
 class SolidGhost extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidGhost.
   const SolidGhost({
     super.key,
     this.size = 24,

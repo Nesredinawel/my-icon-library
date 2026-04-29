@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Thermometer icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeThermometer(size: 24, color: Colors.blue);
+/// ```
 class MonochromeThermometer extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeThermometer.
   const MonochromeThermometer({
     super.key,
     this.size = 24,

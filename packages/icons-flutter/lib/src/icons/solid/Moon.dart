@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Moon icon.
+///
+/// Example:
+/// ```dart
+/// SolidMoon(size: 24, color: Colors.blue);
+/// ```
 class SolidMoon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMoon.
   const SolidMoon({
     super.key,
     this.size = 24,

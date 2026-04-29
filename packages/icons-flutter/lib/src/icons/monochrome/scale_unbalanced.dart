@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style ScaleUnbalanced icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeScaleUnbalanced(size: 24, color: Colors.blue);
+/// ```
+class MonochromeScaleUnbalanced extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeScaleUnbalanced.
+  const MonochromeScaleUnbalanced({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M18 8c.36 0 .7.2.87.51l2.8 4.97q.13.22.22.47a2 2 0 0 1 .07.95c-.3 2.03-2.1 3.1-3.96 3.1a4.1 4.1 0 0 1-3.93-3.03 2 2 0 0 1 .04-1q.11-.31.21-.47l2.8-4.99A1 1 0 0 1 18 8M6 12c.36 0 .7.2.87.51l2.8 4.97q.13.22.22.47a2 2 0 0 1 .07.95C9.66 20.93 7.86 22 6 22a4.1 4.1 0 0 1-3.93-3.03 2 2 0 0 1 .25-1.48l2.8-4.98A1 1 0 0 1 6 12" opacity=".3"/><path fill="currentColor" fill-rule="evenodd" d="M20.46 2.92a1 1 0 0 1-.6 1.28l-4.7 1.71-.16.05a3 3 0 0 1-2 2.87V20h7a1 1 0 1 1 0 2h-8a1 1 0 0 1-1-1V8.83a3 3 0 0 1-1.32-.92L4.82 9.68a1 1 0 0 1-.68-1.88L9 6.03V6a3 3 0 0 1 5.33-1.9l.15-.07 4.7-1.7a1 1 0 0 1 1.28.6" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

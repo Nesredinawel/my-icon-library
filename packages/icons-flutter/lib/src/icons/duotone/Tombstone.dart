@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Tombstone icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneTombstone(size: 24, color: Colors.blue);
+/// ```
 class DuotoneTombstone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneTombstone.
   const DuotoneTombstone({
     super.key,
     this.size = 24,

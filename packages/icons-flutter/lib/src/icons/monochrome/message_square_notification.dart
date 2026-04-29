@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style MessageSquareNotification icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMessageSquareNotification(size: 24, color: Colors.blue);
+/// ```
+class MonochromeMessageSquareNotification extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeMessageSquareNotification.
+  const MonochromeMessageSquareNotification({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M12 6a6 6 0 0 1-10 4.47v4.37q0 .8.03 1.36c.03.39.1.78.3 1.16a3 3 0 0 0 1.3 1.31c.39.2.78.27 1.17.3q.57.04 1.36.03h10.08l.43.01.18.04.38.18 3.32 1.66A1 1 0 0 0 22 20V7.16q0-.8-.03-1.36a3 3 0 0 0-.3-1.16 3 3 0 0 0-1.3-1.31c-.39-.2-.78-.27-1.18-.3Q18.65 3 17.85 3H11.2c.5.88.8 1.9.8 3" opacity=".3"/><path fill="currentColor" d="M6 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

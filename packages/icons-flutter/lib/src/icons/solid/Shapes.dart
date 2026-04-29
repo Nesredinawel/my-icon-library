@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Shapes icon.
+///
+/// Example:
+/// ```dart
+/// SolidShapes(size: 24, color: Colors.blue);
+/// ```
 class SolidShapes extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidShapes.
   const SolidShapes({
     super.key,
     this.size = 24,

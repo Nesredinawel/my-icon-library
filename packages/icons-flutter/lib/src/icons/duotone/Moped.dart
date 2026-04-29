@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Moped icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMoped(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMoped extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMoped.
   const DuotoneMoped({
     super.key,
     this.size = 24,

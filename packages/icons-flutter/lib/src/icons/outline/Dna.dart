@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Dna icon.
+///
+/// Example:
+/// ```dart
+/// OutlineDna(size: 24, color: Colors.blue);
+/// ```
 class OutlineDna extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineDna.
   const OutlineDna({
     super.key,
     this.size = 24,

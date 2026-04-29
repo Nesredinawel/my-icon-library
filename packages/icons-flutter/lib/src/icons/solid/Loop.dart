@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Loop icon.
+///
+/// Example:
+/// ```dart
+/// SolidLoop(size: 24, color: Colors.blue);
+/// ```
 class SolidLoop extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidLoop.
   const SolidLoop({
     super.key,
     this.size = 24,

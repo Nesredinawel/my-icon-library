@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Balloon icon.
+///
+/// Example:
+/// ```dart
+/// SolidBalloon(size: 24, color: Colors.blue);
+/// ```
 class SolidBalloon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidBalloon.
   const SolidBalloon({
     super.key,
     this.size = 24,

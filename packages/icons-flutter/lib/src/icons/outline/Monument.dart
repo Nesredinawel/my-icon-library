@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Monument icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMonument(size: 24, color: Colors.blue);
+/// ```
 class OutlineMonument extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMonument.
   const OutlineMonument({
     super.key,
     this.size = 24,

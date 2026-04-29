@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Bed icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBed(size: 24, color: Colors.blue);
+/// ```
 class OutlineBed extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineBed.
   const OutlineBed({
     super.key,
     this.size = 24,

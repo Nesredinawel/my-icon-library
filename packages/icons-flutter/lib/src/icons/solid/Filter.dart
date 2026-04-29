@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Filter icon.
+///
+/// Example:
+/// ```dart
+/// SolidFilter(size: 24, color: Colors.blue);
+/// ```
 class SolidFilter extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidFilter.
   const SolidFilter({
     super.key,
     this.size = 24,

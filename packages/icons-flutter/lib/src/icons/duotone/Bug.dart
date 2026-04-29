@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Bug icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBug(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBug extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBug.
   const DuotoneBug({
     super.key,
     this.size = 24,

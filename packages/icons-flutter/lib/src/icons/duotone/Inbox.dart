@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Inbox icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneInbox(size: 24, color: Colors.blue);
+/// ```
 class DuotoneInbox extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneInbox.
   const DuotoneInbox({
     super.key,
     this.size = 24,

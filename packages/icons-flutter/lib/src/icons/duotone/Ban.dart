@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Ban icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBan(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBan extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBan.
   const DuotoneBan({
     super.key,
     this.size = 24,

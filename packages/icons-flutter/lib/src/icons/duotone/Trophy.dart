@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Trophy icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneTrophy(size: 24, color: Colors.blue);
+/// ```
 class DuotoneTrophy extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneTrophy.
   const DuotoneTrophy({
     super.key,
     this.size = 24,

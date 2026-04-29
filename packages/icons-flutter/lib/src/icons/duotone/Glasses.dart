@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Glasses icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneGlasses(size: 24, color: Colors.blue);
+/// ```
 class DuotoneGlasses extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneGlasses.
   const DuotoneGlasses({
     super.key,
     this.size = 24,

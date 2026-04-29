@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Suitcase icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSuitcase(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSuitcase extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSuitcase.
   const MonochromeSuitcase({
     super.key,
     this.size = 24,

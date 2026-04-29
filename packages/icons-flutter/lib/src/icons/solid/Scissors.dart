@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Scissors icon.
+///
+/// Example:
+/// ```dart
+/// SolidScissors(size: 24, color: Colors.blue);
+/// ```
 class SolidScissors extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidScissors.
   const SolidScissors({
     super.key,
     this.size = 24,

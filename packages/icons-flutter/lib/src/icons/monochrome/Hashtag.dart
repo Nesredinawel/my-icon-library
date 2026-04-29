@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Hashtag icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeHashtag(size: 24, color: Colors.blue);
+/// ```
 class MonochromeHashtag extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeHashtag.
   const MonochromeHashtag({
     super.key,
     this.size = 24,

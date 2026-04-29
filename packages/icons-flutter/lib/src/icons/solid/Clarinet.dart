@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Clarinet icon.
+///
+/// Example:
+/// ```dart
+/// SolidClarinet(size: 24, color: Colors.blue);
+/// ```
 class SolidClarinet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidClarinet.
   const SolidClarinet({
     super.key,
     this.size = 24,

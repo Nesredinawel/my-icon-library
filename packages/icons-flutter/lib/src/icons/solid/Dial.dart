@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Dial icon.
+///
+/// Example:
+/// ```dart
+/// SolidDial(size: 24, color: Colors.blue);
+/// ```
 class SolidDial extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidDial.
   const SolidDial({
     super.key,
     this.size = 24,

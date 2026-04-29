@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Palette icon.
+///
+/// Example:
+/// ```dart
+/// OutlinePalette(size: 24, color: Colors.blue);
+/// ```
 class OutlinePalette extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlinePalette.
   const OutlinePalette({
     super.key,
     this.size = 24,

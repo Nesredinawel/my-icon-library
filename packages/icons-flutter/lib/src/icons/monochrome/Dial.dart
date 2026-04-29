@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Dial icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeDial(size: 24, color: Colors.blue);
+/// ```
 class MonochromeDial extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeDial.
   const MonochromeDial({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Table icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeTable(size: 24, color: Colors.blue);
+/// ```
 class MonochromeTable extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeTable.
   const MonochromeTable({
     super.key,
     this.size = 24,

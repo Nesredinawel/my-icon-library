@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Pentagon icon.
+///
+/// Example:
+/// ```dart
+/// MonochromePentagon(size: 24, color: Colors.blue);
+/// ```
 class MonochromePentagon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromePentagon.
   const MonochromePentagon({
     super.key,
     this.size = 24,

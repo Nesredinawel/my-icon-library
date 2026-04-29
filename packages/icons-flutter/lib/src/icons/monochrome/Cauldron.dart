@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Cauldron icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCauldron(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCauldron extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCauldron.
   const MonochromeCauldron({
     super.key,
     this.size = 24,

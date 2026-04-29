@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Microchip icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMicrochip(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMicrochip extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMicrochip.
   const DuotoneMicrochip({
     super.key,
     this.size = 24,

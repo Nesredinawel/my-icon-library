@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Subdirectory icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSubdirectory(size: 24, color: Colors.blue);
+/// ```
 class OutlineSubdirectory extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSubdirectory.
   const OutlineSubdirectory({
     super.key,
     this.size = 24,

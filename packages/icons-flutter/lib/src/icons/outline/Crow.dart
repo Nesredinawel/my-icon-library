@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Crow icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCrow(size: 24, color: Colors.blue);
+/// ```
 class OutlineCrow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCrow.
   const OutlineCrow({
     super.key,
     this.size = 24,

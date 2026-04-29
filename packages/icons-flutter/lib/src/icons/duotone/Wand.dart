@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Wand icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneWand(size: 24, color: Colors.blue);
+/// ```
 class DuotoneWand extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneWand.
   const DuotoneWand({
     super.key,
     this.size = 24,

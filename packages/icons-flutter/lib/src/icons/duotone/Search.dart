@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Search icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSearch(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSearch extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSearch.
   const DuotoneSearch({
     super.key,
     this.size = 24,

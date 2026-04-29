@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Paperclip icon.
+///
+/// Example:
+/// ```dart
+/// DuotonePaperclip(size: 24, color: Colors.blue);
+/// ```
 class DuotonePaperclip extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotonePaperclip.
   const DuotonePaperclip({
     super.key,
     this.size = 24,

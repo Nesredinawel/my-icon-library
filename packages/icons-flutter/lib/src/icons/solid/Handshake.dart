@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Handshake icon.
+///
+/// Example:
+/// ```dart
+/// SolidHandshake(size: 24, color: Colors.blue);
+/// ```
 class SolidHandshake extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidHandshake.
   const SolidHandshake({
     super.key,
     this.size = 24,

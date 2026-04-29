@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Frame icon.
+///
+/// Example:
+/// ```dart
+/// OutlineFrame(size: 24, color: Colors.blue);
+/// ```
 class OutlineFrame extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineFrame.
   const OutlineFrame({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Tablet icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTablet(size: 24, color: Colors.blue);
+/// ```
 class OutlineTablet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineTablet.
   const OutlineTablet({
     super.key,
     this.size = 24,

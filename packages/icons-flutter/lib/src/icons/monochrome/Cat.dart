@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Cat icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCat(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCat extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCat.
   const MonochromeCat({
     super.key,
     this.size = 24,

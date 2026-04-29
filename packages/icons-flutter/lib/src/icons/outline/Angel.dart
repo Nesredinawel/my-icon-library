@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Angel icon.
+///
+/// Example:
+/// ```dart
+/// OutlineAngel(size: 24, color: Colors.blue);
+/// ```
 class OutlineAngel extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineAngel.
   const OutlineAngel({
     super.key,
     this.size = 24,

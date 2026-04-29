@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Rhombus icon.
+///
+/// Example:
+/// ```dart
+/// OutlineRhombus(size: 24, color: Colors.blue);
+/// ```
 class OutlineRhombus extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineRhombus.
   const OutlineRhombus({
     super.key,
     this.size = 24,

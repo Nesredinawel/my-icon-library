@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Paragraph icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneParagraph(size: 24, color: Colors.blue);
+/// ```
 class DuotoneParagraph extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneParagraph.
   const DuotoneParagraph({
     super.key,
     this.size = 24,

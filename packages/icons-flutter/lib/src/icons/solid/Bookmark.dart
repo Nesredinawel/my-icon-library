@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Bookmark icon.
+///
+/// Example:
+/// ```dart
+/// SolidBookmark(size: 24, color: Colors.blue);
+/// ```
 class SolidBookmark extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidBookmark.
   const SolidBookmark({
     super.key,
     this.size = 24,

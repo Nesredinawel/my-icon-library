@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Monitor icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMonitor(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMonitor extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMonitor.
   const DuotoneMonitor({
     super.key,
     this.size = 24,

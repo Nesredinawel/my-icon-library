@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Underline icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneUnderline(size: 24, color: Colors.blue);
+/// ```
 class DuotoneUnderline extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneUnderline.
   const DuotoneUnderline({
     super.key,
     this.size = 24,

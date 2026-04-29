@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Cube icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCube(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCube extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCube.
   const MonochromeCube({
     super.key,
     this.size = 24,

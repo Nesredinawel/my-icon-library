@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Signal icon.
+///
+/// Example:
+/// ```dart
+/// SolidSignal(size: 24, color: Colors.blue);
+/// ```
 class SolidSignal extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSignal.
   const SolidSignal({
     super.key,
     this.size = 24,

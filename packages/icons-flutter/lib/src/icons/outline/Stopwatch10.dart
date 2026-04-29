@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Stopwatch10 icon.
+///
+/// Example:
+/// ```dart
+/// OutlineStopwatch10(size: 24, color: Colors.blue);
+/// ```
 class OutlineStopwatch10 extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineStopwatch10.
   const OutlineStopwatch10({
     super.key,
     this.size = 24,

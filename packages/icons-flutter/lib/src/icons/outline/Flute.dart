@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Flute icon.
+///
+/// Example:
+/// ```dart
+/// OutlineFlute(size: 24, color: Colors.blue);
+/// ```
 class OutlineFlute extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineFlute.
   const OutlineFlute({
     super.key,
     this.size = 24,

@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style CircleMicrophone icon.
+///
+/// Example:
+/// ```dart
+/// SolidCircleMicrophone(size: 24, color: Colors.blue);
+/// ```
+class SolidCircleMicrophone extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidCircleMicrophone.
+  const SolidCircleMicrophone({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M7 10a1 1 0 0 1 1 1v2a4 4 0 0 0 8 0v-2a1 1 0 1 1 2 0v2a6 6 0 0 1-12 0v-2a1 1 0 0 1 1-1m5-5a2 2 0 0 0-2 2v6a2 2 0 1 0 4 0V7a2 2 0 0 0-2-2" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

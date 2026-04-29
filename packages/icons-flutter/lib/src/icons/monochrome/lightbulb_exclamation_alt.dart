@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style LightbulbExclamationAlt icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeLightbulbExclamationAlt(size: 24, color: Colors.blue);
+/// ```
+class MonochromeLightbulbExclamationAlt extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeLightbulbExclamationAlt.
+  const MonochromeLightbulbExclamationAlt({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M12 6a6 6 0 1 0 0 12 6 6 0 0 0 0-12" opacity=".3"/><path fill="currentColor" d="M12 2a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1m0 17c-1.07 0-2.1-.24-3-.67V19a3 3 0 1 0 6 0v-.67c-.9.43-1.93.67-3 .67m-7-7a1 1 0 0 0-1-1H3a1 1 0 1 0 0 2h1a1 1 0 0 0 1-1m-.07-7.07a1 1 0 0 1 1.41 0l.71.7a1 1 0 0 1-1.41 1.42l-.71-.7a1 1 0 0 1 0-1.42m14.14 1.41a1 1 0 0 0-1.41-1.41l-.71.7a1 1 0 0 0 1.41 1.42zM19 12a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2h-1a1 1 0 0 1-1-1"/><path fill="currentColor" fill-rule="evenodd" d="M11 10a1 1 0 1 1 2 0v2a1 1 0 1 1-2 0zm2 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Maximize icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMaximize(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMaximize extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMaximize.
   const MonochromeMaximize({
     super.key,
     this.size = 24,

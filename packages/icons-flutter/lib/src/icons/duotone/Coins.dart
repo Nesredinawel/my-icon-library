@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Coins icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCoins(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCoins extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCoins.
   const DuotoneCoins({
     super.key,
     this.size = 24,

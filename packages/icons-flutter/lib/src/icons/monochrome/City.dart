@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style City icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCity(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCity extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCity.
   const MonochromeCity({
     super.key,
     this.size = 24,

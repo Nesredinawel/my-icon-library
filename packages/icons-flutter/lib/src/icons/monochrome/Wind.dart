@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Wind icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeWind(size: 24, color: Colors.blue);
+/// ```
 class MonochromeWind extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeWind.
   const MonochromeWind({
     super.key,
     this.size = 24,

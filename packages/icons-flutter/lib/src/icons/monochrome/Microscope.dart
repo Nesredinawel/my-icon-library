@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Microscope icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMicroscope(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMicroscope extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMicroscope.
   const MonochromeMicroscope({
     super.key,
     this.size = 24,

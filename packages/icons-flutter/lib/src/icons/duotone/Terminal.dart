@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Terminal icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneTerminal(size: 24, color: Colors.blue);
+/// ```
 class DuotoneTerminal extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneTerminal.
   const DuotoneTerminal({
     super.key,
     this.size = 24,

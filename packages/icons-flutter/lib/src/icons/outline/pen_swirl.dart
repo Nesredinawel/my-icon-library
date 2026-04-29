@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style PenSwirl icon.
+///
+/// Example:
+/// ```dart
+/// OutlinePenSwirl(size: 24, color: Colors.blue);
+/// ```
+class OutlinePenSwirl extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlinePenSwirl.
+  const OutlinePenSwirl({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path fill="currentColor" d="M12 22a1 1 0 1 0 0-2zm.45-17.99a1 1 0 0 0 .1-2l-.05 1zm-.69 5.23-.7-.71zm5.65-5.65.7.7zM9 15l-.99-.14a1 1 0 0 0 1.19 1.12zm.05-.33-1-.14zm.44.23-.2-.98zm3.31-1.18-.57-.82zm-1.24.67.37.93zm-1.38-3.41-.83-.56zm-.69 1.38-.94-.33zm7.22-8.07a1 1 0 1 0-1.42 1.42L16 5zm1.41 4.25a1 1 0 1 0 1.42-1.42l-.71.7zM16 16a1 1 0 1 0 0 2zm5.88-5.2a1 1 0 0 0-1.96.4l.98-.2zM12 21v-1a8 8 0 0 1-8-8H2a10 10 0 0 0 10 10zm-9-9h1a8 8 0 0 1 8-8V2A10 10 0 0 0 2 12zm9-9v1l.45.01.05-1 .05-1L12 2zm-.24 6.24.71.7 5.65-5.64-.7-.71-.72-.7-5.64 5.64zm8.48-2.82-.7-.71-5.87 5.86.7.7.71.72 5.87-5.87zM9 15l.99.14.05-.33-1-.14-.98-.14-.05.33zm.49-.1-.2-.98-.49.1.2.98.2.98.49-.1zm4.89-2.62-.71-.7c-.79.78-1.1 1.08-1.44 1.32l.57.82.57.82c.53-.36.98-.82 1.71-1.55zm-4.9 2.62.2.98c1.03-.2 1.66-.33 2.25-.56l-.37-.93-.36-.93c-.4.15-.82.24-1.91.46zm3.32-1.18-.57-.82a5 5 0 0 1-1.03.56l.36.93.37.93a7 7 0 0 0 1.44-.78zm-1.04-4.48-.7-.71c-.82.81-1.32 1.3-1.71 1.89l.83.56.83.56c.26-.39.6-.73 1.46-1.6zm-2.71 5.43.99.14c.17-1.21.24-1.69.4-2.13l-.95-.32-.94-.33c-.23.66-.33 1.36-.5 2.5zm1.13-3.7-.83-.55a7 7 0 0 0-.8 1.6l.94.34.94.32a5 5 0 0 1 .58-1.14zM20.24 3.6l-.7.7a1 1 0 0 1 0 1.42l.7.7.7.71a3 3 0 0 0 0-4.24zm0 0 .7-.7a3 3 0 0 0-4.24 0l.71.7.7.7a1 1 0 0 1 1.42 0zM16 5l-.7.7 2.82 2.84.7-.71.72-.7-2.83-2.84zm5 7h-1a4 4 0 0 1-4 4v2a6 6 0 0 0 6-6zm-.1-1-.98.2q.08.38.08.8h2q0-.62-.12-1.2z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

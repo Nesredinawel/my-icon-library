@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Aperture icon.
+///
+/// Example:
+/// ```dart
+/// SolidAperture(size: 24, color: Colors.blue);
+/// ```
 class SolidAperture extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidAperture.
   const SolidAperture({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Gauge icon.
+///
+/// Example:
+/// ```dart
+/// SolidGauge(size: 24, color: Colors.blue);
+/// ```
 class SolidGauge extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidGauge.
   const SolidGauge({
     super.key,
     this.size = 24,

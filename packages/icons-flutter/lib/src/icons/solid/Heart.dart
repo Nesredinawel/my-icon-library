@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Heart icon.
+///
+/// Example:
+/// ```dart
+/// SolidHeart(size: 24, color: Colors.blue);
+/// ```
 class SolidHeart extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidHeart.
   const SolidHeart({
     super.key,
     this.size = 24,

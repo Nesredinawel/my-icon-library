@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Infinity icon.
+///
+/// Example:
+/// ```dart
+/// SolidInfinity(size: 24, color: Colors.blue);
+/// ```
 class SolidInfinity extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidInfinity.
   const SolidInfinity({
     super.key,
     this.size = 24,

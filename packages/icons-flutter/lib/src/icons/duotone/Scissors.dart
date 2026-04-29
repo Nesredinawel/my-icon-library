@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Scissors icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneScissors(size: 24, color: Colors.blue);
+/// ```
 class DuotoneScissors extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneScissors.
   const DuotoneScissors({
     super.key,
     this.size = 24,

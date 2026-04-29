@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Expand icon.
+///
+/// Example:
+/// ```dart
+/// OutlineExpand(size: 24, color: Colors.blue);
+/// ```
 class OutlineExpand extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineExpand.
   const OutlineExpand({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Handshake icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneHandshake(size: 24, color: Colors.blue);
+/// ```
 class DuotoneHandshake extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneHandshake.
   const DuotoneHandshake({
     super.key,
     this.size = 24,

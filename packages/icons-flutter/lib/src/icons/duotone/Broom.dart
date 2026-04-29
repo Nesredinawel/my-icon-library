@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Broom icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBroom(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBroom extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBroom.
   const DuotoneBroom({
     super.key,
     this.size = 24,

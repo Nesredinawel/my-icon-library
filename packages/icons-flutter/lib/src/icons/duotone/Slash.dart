@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Slash icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSlash(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSlash extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSlash.
   const DuotoneSlash({
     super.key,
     this.size = 24,

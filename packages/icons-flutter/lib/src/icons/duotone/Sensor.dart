@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Sensor icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSensor(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSensor extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSensor.
   const DuotoneSensor({
     super.key,
     this.size = 24,

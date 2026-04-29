@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Wifi icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeWifi(size: 24, color: Colors.blue);
+/// ```
 class MonochromeWifi extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeWifi.
   const MonochromeWifi({
     super.key,
     this.size = 24,

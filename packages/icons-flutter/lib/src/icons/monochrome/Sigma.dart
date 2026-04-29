@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Sigma icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSigma(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSigma extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSigma.
   const MonochromeSigma({
     super.key,
     this.size = 24,

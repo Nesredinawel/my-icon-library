@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Mailbox icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMailbox(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMailbox extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMailbox.
   const MonochromeMailbox({
     super.key,
     this.size = 24,

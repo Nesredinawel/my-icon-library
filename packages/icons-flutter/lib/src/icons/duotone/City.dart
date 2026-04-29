@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style City icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCity(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCity extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCity.
   const DuotoneCity({
     super.key,
     this.size = 24,

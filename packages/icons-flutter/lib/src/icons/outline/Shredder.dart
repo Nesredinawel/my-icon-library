@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Shredder icon.
+///
+/// Example:
+/// ```dart
+/// OutlineShredder(size: 24, color: Colors.blue);
+/// ```
 class OutlineShredder extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineShredder.
   const OutlineShredder({
     super.key,
     this.size = 24,

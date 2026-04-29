@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Cloud icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCloud(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCloud extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCloud.
   const DuotoneCloud({
     super.key,
     this.size = 24,

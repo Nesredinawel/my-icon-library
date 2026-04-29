@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Gem icon.
+///
+/// Example:
+/// ```dart
+/// SolidGem(size: 24, color: Colors.blue);
+/// ```
 class SolidGem extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidGem.
   const SolidGem({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Bank icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBank(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBank extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBank.
   const MonochromeBank({
     super.key,
     this.size = 24,

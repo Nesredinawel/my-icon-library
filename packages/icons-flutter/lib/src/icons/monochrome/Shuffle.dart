@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Shuffle icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeShuffle(size: 24, color: Colors.blue);
+/// ```
 class MonochromeShuffle extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeShuffle.
   const MonochromeShuffle({
     super.key,
     this.size = 24,

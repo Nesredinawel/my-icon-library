@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Sliders icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSliders(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSliders extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSliders.
   const DuotoneSliders({
     super.key,
     this.size = 24,

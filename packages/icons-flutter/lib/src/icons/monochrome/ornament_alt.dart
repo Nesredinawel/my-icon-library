@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style OrnamentAlt icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeOrnamentAlt(size: 24, color: Colors.blue);
+/// ```
+class MonochromeOrnamentAlt extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeOrnamentAlt.
+  const MonochromeOrnamentAlt({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><g fill="currentColor" opacity=".3"><path d="M3.05 14a9 9 0 0 0 17.9 0 11.97 11.97 0 0 1-17.9 0"/><path d="M20.35 9.62q.24.6.4 1.24a10 10 0 0 1-17.5 0q.16-.64.4-1.24a11.96 11.96 0 0 0 16.7 0"/><path d="M4.66 7.8a9 9 0 0 1 14.68 0 9.97 9.97 0 0 1-14.68 0"/></g><path fill="currentColor" d="M12 3a1 1 0 0 0-1 1v.05q-1.04.13-2 .46V4a3 3 0 1 1 6 0v.51a9 9 0 0 0-2-.46V4a1 1 0 0 0-1-1m8.03 5.94q.17.33.32.68a11.96 11.96 0 0 1-16.7 0q.4-.97 1.01-1.83a9.97 9.97 0 0 0 14.68 0 9 9 0 0 1 .7 1.15"/><path fill="currentColor" d="M12 18c3.55 0 6.75-1.55 8.95-4a9 9 0 0 0-.2-3.14 10 10 0 0 1-17.5 0 9 9 0 0 0-.2 3.14c2.2 2.45 5.4 4 8.95 4"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

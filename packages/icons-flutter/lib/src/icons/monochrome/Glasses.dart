@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Glasses icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeGlasses(size: 24, color: Colors.blue);
+/// ```
 class MonochromeGlasses extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeGlasses.
   const MonochromeGlasses({
     super.key,
     this.size = 24,

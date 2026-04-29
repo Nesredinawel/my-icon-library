@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Anchor icon.
+///
+/// Example:
+/// ```dart
+/// OutlineAnchor(size: 24, color: Colors.blue);
+/// ```
 class OutlineAnchor extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineAnchor.
   const OutlineAnchor({
     super.key,
     this.size = 24,

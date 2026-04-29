@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Van icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeVan(size: 24, color: Colors.blue);
+/// ```
 class MonochromeVan extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeVan.
   const MonochromeVan({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Sitemap icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSitemap(size: 24, color: Colors.blue);
+/// ```
 class OutlineSitemap extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSitemap.
   const OutlineSitemap({
     super.key,
     this.size = 24,

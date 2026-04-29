@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Send icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSend(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSend extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSend.
   const MonochromeSend({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Key icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeKey(size: 24, color: Colors.blue);
+/// ```
 class MonochromeKey extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeKey.
   const MonochromeKey({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Industry icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneIndustry(size: 24, color: Colors.blue);
+/// ```
 class DuotoneIndustry extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneIndustry.
   const DuotoneIndustry({
     super.key,
     this.size = 24,

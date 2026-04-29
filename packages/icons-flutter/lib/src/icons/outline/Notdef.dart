@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Notdef icon.
+///
+/// Example:
+/// ```dart
+/// OutlineNotdef(size: 24, color: Colors.blue);
+/// ```
 class OutlineNotdef extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineNotdef.
   const OutlineNotdef({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Scribble icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeScribble(size: 24, color: Colors.blue);
+/// ```
 class MonochromeScribble extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeScribble.
   const MonochromeScribble({
     super.key,
     this.size = 24,

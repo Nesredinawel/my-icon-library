@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style LinkAlt1 icon.
+///
+/// Example:
+/// ```dart
+/// SolidLinkAlt1(size: 24, color: Colors.blue);
+/// ```
+class SolidLinkAlt1 extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidLinkAlt1.
+  const SolidLinkAlt1({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M17.95 6.73a2 2 0 0 0-2 0c-.1.06-.21.15-.43.35a1 1 0 1 1-1.37-1.46q.38-.36.8-.62a4 4 0 0 1 4 0c.46.27.88.68 1.44 1.25l.1.1.1.1c.56.55.97.97 1.24 1.43a4 4 0 0 1 0 4c-.27.46-.68.88-1.25 1.44l-.1.1-2.82 2.82-.1.1a8 8 0 0 1-1.44 1.25 4 4 0 0 1-4 0 8 8 0 0 1-1.44-1.25l-.1-.1-.1-.1a8 8 0 0 1-1.24-1.43 4 4 0 0 1 .62-4.8 1 1 0 1 1 1.46 1.37q-.29.3-.34.43a2 2 0 0 0 0 2c.11.2.32.42 1.02 1.12s.92.9 1.12 1.02a2 2 0 0 0 2 0c.2-.11.42-.32 1.12-1.02L19.07 12c.7-.7.91-.92 1.03-1.12a2 2 0 0 0 0-2c-.12-.2-.33-.42-1.03-1.12s-.92-.91-1.12-1.03m-7.07 1.42a2 2 0 0 0-2 0c-.2.11-.42.32-1.12 1.02L4.93 12c-.7.7-.91.92-1.03 1.12a2 2 0 0 0 0 2c.12.2.33.42 1.03 1.12s.92.91 1.12 1.03a2 2 0 0 0 2 0c.1-.06.21-.14.43-.35a1 1 0 1 1 1.37 1.46 4 4 0 0 1-4.8.62 8 8 0 0 1-1.44-1.25l-.1-.1-.1-.09a8 8 0 0 1-1.24-1.44 4 4 0 0 1 0-4 8 8 0 0 1 1.35-1.53l2.82-2.83.1-.1a8 8 0 0 1 1.44-1.25 4 4 0 0 1 4 0c.46.27.88.69 1.44 1.25l.1.1.1.1c.55.56.97.97 1.24 1.43a4 4 0 0 1-.62 4.8 1 1 0 1 1-1.46-1.36q.29-.31.35-.44a2 2 0 0 0 0-2c-.12-.2-.33-.41-1.03-1.12-.7-.7-.92-.9-1.12-1.02" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

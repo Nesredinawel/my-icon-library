@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Expand icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeExpand(size: 24, color: Colors.blue);
+/// ```
 class MonochromeExpand extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeExpand.
   const MonochromeExpand({
     super.key,
     this.size = 24,

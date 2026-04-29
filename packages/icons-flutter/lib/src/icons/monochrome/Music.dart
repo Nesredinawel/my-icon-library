@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Music icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMusic(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMusic extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMusic.
   const MonochromeMusic({
     super.key,
     this.size = 24,

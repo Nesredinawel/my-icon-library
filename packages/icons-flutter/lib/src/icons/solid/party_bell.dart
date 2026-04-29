@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style PartyBell icon.
+///
+/// Example:
+/// ```dart
+/// SolidPartyBell(size: 24, color: Colors.blue);
+/// ```
+class SolidPartyBell extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidPartyBell.
+  const SolidPartyBell({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M5.54 5.54a7 7 0 0 1 9.9 0 1 1 0 0 1 0 1.41l-8.49 8.49a1 1 0 0 1-1.41 0 7 7 0 0 1 0-9.9M19.67 6a1 1 0 0 1 .99 1v.02a1 1 0 0 1-2-.02 1 1 0 0 1 1-1M15.6 9.66a1 1 0 0 1 1.4-.24c.51.37.92.6 1.33.7.38.11.83.13 1.46-.07a1 1 0 1 1 .59 1.91q-1.43.43-2.58.1c-.76-.2-1.4-.6-1.96-1a1 1 0 0 1-.23-1.4m-1.64 2a1 1 0 0 1 1.03.97c.04 1.33.53 2.14 1 2.38q.45.21 1.24.26l.33.03q.26 0 .44.03.4.02.83.14c.57.19 1.13.56 1.54 1.18q.62.92.62 2.36a1 1 0 1 1-2-.02c0-.64-.14-1.02-.28-1.23a1 1 0 0 0-.5-.39l-.38-.05-.35-.03-.4-.02a5 5 0 0 1-2-.48c-1.45-.74-2.04-2.5-2.09-4.1a1 1 0 0 1 .97-1.03m-3.62 3.24a1 1 0 0 1 1.41-.02A5.4 5.4 0 0 1 13.5 19a1 1 0 0 1-2 0 3.4 3.4 0 0 0-1.13-2.69 1 1 0 0 1-.02-1.41M7.65 18a1 1 0 0 1 1 1v.02a1 1 0 1 1-2-.02 1 1 0 0 1 1-1m8.36 1a1 1 0 0 1 .99 1v.02a1 1 0 1 1-2-.02 1 1 0 0 1 1-1" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

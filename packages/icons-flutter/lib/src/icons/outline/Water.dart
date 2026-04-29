@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Water icon.
+///
+/// Example:
+/// ```dart
+/// OutlineWater(size: 24, color: Colors.blue);
+/// ```
 class OutlineWater extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineWater.
   const OutlineWater({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Link icon.
+///
+/// Example:
+/// ```dart
+/// OutlineLink(size: 24, color: Colors.blue);
+/// ```
 class OutlineLink extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineLink.
   const OutlineLink({
     super.key,
     this.size = 24,

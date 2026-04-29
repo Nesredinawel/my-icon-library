@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Tags icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTags(size: 24, color: Colors.blue);
+/// ```
 class OutlineTags extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineTags.
   const OutlineTags({
     super.key,
     this.size = 24,

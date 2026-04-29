@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Pencil icon.
+///
+/// Example:
+/// ```dart
+/// DuotonePencil(size: 24, color: Colors.blue);
+/// ```
 class DuotonePencil extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotonePencil.
   const DuotonePencil({
     super.key,
     this.size = 24,

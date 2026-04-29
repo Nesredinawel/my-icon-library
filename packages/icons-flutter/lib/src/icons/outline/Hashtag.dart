@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Hashtag icon.
+///
+/// Example:
+/// ```dart
+/// OutlineHashtag(size: 24, color: Colors.blue);
+/// ```
 class OutlineHashtag extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineHashtag.
   const OutlineHashtag({
     super.key,
     this.size = 24,

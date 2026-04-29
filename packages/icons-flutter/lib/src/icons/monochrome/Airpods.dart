@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Airpods icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeAirpods(size: 24, color: Colors.blue);
+/// ```
 class MonochromeAirpods extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeAirpods.
   const MonochromeAirpods({
     super.key,
     this.size = 24,

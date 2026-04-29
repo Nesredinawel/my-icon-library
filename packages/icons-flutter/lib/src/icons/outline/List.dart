@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style List icon.
+///
+/// Example:
+/// ```dart
+/// OutlineList(size: 24, color: Colors.blue);
+/// ```
 class OutlineList extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineList.
   const OutlineList({
     super.key,
     this.size = 24,

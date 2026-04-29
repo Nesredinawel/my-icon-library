@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Sun icon.
+///
+/// Example:
+/// ```dart
+/// SolidSun(size: 24, color: Colors.blue);
+/// ```
 class SolidSun extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSun.
   const SolidSun({
     super.key,
     this.size = 24,

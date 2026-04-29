@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Subscript icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSubscript(size: 24, color: Colors.blue);
+/// ```
 class OutlineSubscript extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSubscript.
   const OutlineSubscript({
     super.key,
     this.size = 24,

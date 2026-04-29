@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Club icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneClub(size: 24, color: Colors.blue);
+/// ```
 class DuotoneClub extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneClub.
   const DuotoneClub({
     super.key,
     this.size = 24,

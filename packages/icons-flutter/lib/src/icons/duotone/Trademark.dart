@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Trademark icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneTrademark(size: 24, color: Colors.blue);
+/// ```
 class DuotoneTrademark extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneTrademark.
   const DuotoneTrademark({
     super.key,
     this.size = 24,

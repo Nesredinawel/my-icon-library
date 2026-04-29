@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Bandage icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBandage(size: 24, color: Colors.blue);
+/// ```
 class OutlineBandage extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineBandage.
   const OutlineBandage({
     super.key,
     this.size = 24,

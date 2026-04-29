@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Seal icon.
+///
+/// Example:
+/// ```dart
+/// SolidSeal(size: 24, color: Colors.blue);
+/// ```
 class SolidSeal extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSeal.
   const SolidSeal({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Hotel icon.
+///
+/// Example:
+/// ```dart
+/// OutlineHotel(size: 24, color: Colors.blue);
+/// ```
 class OutlineHotel extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineHotel.
   const OutlineHotel({
     super.key,
     this.size = 24,

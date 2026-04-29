@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Church icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeChurch(size: 24, color: Colors.blue);
+/// ```
 class MonochromeChurch extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeChurch.
   const MonochromeChurch({
     super.key,
     this.size = 24,

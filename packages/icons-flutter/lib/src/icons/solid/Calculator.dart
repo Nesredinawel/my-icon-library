@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Calculator icon.
+///
+/// Example:
+/// ```dart
+/// SolidCalculator(size: 24, color: Colors.blue);
+/// ```
 class SolidCalculator extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCalculator.
   const SolidCalculator({
     super.key,
     this.size = 24,

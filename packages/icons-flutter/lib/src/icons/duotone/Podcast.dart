@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Podcast icon.
+///
+/// Example:
+/// ```dart
+/// DuotonePodcast(size: 24, color: Colors.blue);
+/// ```
 class DuotonePodcast extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotonePodcast.
   const DuotonePodcast({
     super.key,
     this.size = 24,

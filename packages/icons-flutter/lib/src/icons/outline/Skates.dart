@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Skates icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSkates(size: 24, color: Colors.blue);
+/// ```
 class OutlineSkates extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSkates.
   const OutlineSkates({
     super.key,
     this.size = 24,

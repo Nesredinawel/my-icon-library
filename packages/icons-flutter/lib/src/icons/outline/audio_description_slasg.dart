@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style AudioDescriptionSlasg icon.
+///
+/// Example:
+/// ```dart
+/// OutlineAudioDescriptionSlasg(size: 24, color: Colors.blue);
+/// ```
+class OutlineAudioDescriptionSlasg extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlineAudioDescriptionSlasg.
+  const OutlineAudioDescriptionSlasg({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M6.42 14 8.5 9l2.08 5m-4.16 0L6 15m.42-1h4.16m0 0 .42 1m4 0h-1a.5.5 0 0 1-.5-.5v-1M19 19H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2m5.6 0H19a2 2 0 0 1 2 2v8.4M14.6 9h.4a3 3 0 0 1 2.98 3.38M3 3l10.5 10.5M21 21l-7.5-7.5"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Circle icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCircle(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCircle extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCircle.
   const DuotoneCircle({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Rss icon.
+///
+/// Example:
+/// ```dart
+/// SolidRss(size: 24, color: Colors.blue);
+/// ```
 class SolidRss extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidRss.
   const SolidRss({
     super.key,
     this.size = 24,

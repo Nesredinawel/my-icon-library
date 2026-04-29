@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style MoneyCheckDollarPen icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMoneyCheckDollarPen(size: 24, color: Colors.blue);
+/// ```
+class MonochromeMoneyCheckDollarPen extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeMoneyCheckDollarPen.
+  const MonochromeMoneyCheckDollarPen({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M6.16 4h11.68q.8 0 1.36.03c.39.03.78.1 1.16.3a3 3 0 0 1 1.31 1.3c.2.39.27.78.3 1.17q.04.57.03 1.36v4.14a3.4 3.4 0 0 0-3.8.7l-.02.02L18 13h-4a1 1 0 1 0 0 2h2.21l-2.04 2.06q-.59.55-1.01 1.13A6 6 0 0 0 12.3 20H6.16q-.8 0-1.36-.03a3 3 0 0 1-1.16-.3 3 3 0 0 1-1.31-1.3c-.2-.39-.27-.78-.3-1.18Q2 16.65 2 15.85V8.16q0-.8.03-1.36c.03-.39.1-.78.3-1.16a3 3 0 0 1 1.3-1.31c.39-.2.78-.27 1.17-.3Q5.37 4 6.16 4M9 8.5a1 1 0 0 0-2 0v.06q-.14 0-.27.04-.55.09-1.03.45c-.67.54-.7 1.33-.7 1.78v.04c0 .19 0 .47.05.73.07.33.24.7.62.97.32.23.7.32 1.04.36Q7.24 13 8 13q.69 0 1 .04v.36l-.08.02q-.24.07-.92.08H6a1 1 0 1 0 0 2h1a1 1 0 0 0 2 0v-.06a2.5 2.5 0 0 0 1.45-.62c.56-.55.55-1.29.55-1.6v-.1c0-.2 0-.48-.05-.74a1.5 1.5 0 0 0-.63-.98 2.3 2.3 0 0 0-1.04-.35Q8.76 11 8 11a8 8 0 0 1-1-.04l.01-.37.12-.03q.25-.05.87-.06h2a1 1 0 1 0 0-2zm5 .5a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2z" clip-rule="evenodd" opacity=".3"/><path fill="currentColor" d="M21.6 14.41a1.4 1.4 0 0 0-1.99 0l-3.94 3.98c-.46.46-.7.7-.88.96q-.25.35-.41.74c-.13.3-.2.62-.35 1.26l-.02.06c-.08.34.22.65.56.58.68-.14 1.02-.2 1.34-.33q.42-.16.8-.43c.28-.2.53-.44 1.02-.94l3.86-3.89a1.4 1.4 0 0 0 0-1.99"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

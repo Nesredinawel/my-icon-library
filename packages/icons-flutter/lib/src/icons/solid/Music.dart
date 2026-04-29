@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Music icon.
+///
+/// Example:
+/// ```dart
+/// SolidMusic(size: 24, color: Colors.blue);
+/// ```
 class SolidMusic extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMusic.
   const SolidMusic({
     super.key,
     this.size = 24,

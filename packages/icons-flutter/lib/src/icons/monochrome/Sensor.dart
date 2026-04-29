@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Sensor icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSensor(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSensor extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSensor.
   const MonochromeSensor({
     super.key,
     this.size = 24,

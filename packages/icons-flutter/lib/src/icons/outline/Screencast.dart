@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Screencast icon.
+///
+/// Example:
+/// ```dart
+/// OutlineScreencast(size: 24, color: Colors.blue);
+/// ```
 class OutlineScreencast extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineScreencast.
   const OutlineScreencast({
     super.key,
     this.size = 24,

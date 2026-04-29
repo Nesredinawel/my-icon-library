@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Star icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneStar(size: 24, color: Colors.blue);
+/// ```
 class DuotoneStar extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneStar.
   const DuotoneStar({
     super.key,
     this.size = 24,

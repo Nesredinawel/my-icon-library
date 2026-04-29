@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Certificate icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCertificate(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCertificate extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCertificate.
   const DuotoneCertificate({
     super.key,
     this.size = 24,

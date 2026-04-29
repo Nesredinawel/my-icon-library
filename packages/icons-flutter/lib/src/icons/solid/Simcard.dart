@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Simcard icon.
+///
+/// Example:
+/// ```dart
+/// SolidSimcard(size: 24, color: Colors.blue);
+/// ```
 class SolidSimcard extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSimcard.
   const SolidSimcard({
     super.key,
     this.size = 24,

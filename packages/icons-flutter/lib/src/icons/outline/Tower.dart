@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Tower icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTower(size: 24, color: Colors.blue);
+/// ```
 class OutlineTower extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineTower.
   const OutlineTower({
     super.key,
     this.size = 24,

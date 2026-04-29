@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Radiation icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeRadiation(size: 24, color: Colors.blue);
+/// ```
 class MonochromeRadiation extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeRadiation.
   const MonochromeRadiation({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Webcam icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneWebcam(size: 24, color: Colors.blue);
+/// ```
 class DuotoneWebcam extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneWebcam.
   const DuotoneWebcam({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Balloon icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBalloon(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBalloon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBalloon.
   const DuotoneBalloon({
     super.key,
     this.size = 24,

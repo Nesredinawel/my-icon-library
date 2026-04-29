@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Ruler icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeRuler(size: 24, color: Colors.blue);
+/// ```
 class MonochromeRuler extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeRuler.
   const MonochromeRuler({
     super.key,
     this.size = 24,

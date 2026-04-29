@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Heat icon.
+///
+/// Example:
+/// ```dart
+/// SolidHeat(size: 24, color: Colors.blue);
+/// ```
 class SolidHeat extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidHeat.
   const SolidHeat({
     super.key,
     this.size = 24,

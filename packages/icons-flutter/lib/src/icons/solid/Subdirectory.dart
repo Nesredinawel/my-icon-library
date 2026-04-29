@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Subdirectory icon.
+///
+/// Example:
+/// ```dart
+/// SolidSubdirectory(size: 24, color: Colors.blue);
+/// ```
 class SolidSubdirectory extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSubdirectory.
   const SolidSubdirectory({
     super.key,
     this.size = 24,

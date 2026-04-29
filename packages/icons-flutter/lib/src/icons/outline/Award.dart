@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Award icon.
+///
+/// Example:
+/// ```dart
+/// OutlineAward(size: 24, color: Colors.blue);
+/// ```
 class OutlineAward extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineAward.
   const OutlineAward({
     super.key,
     this.size = 24,

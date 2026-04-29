@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Square icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSquare(size: 24, color: Colors.blue);
+/// ```
 class OutlineSquare extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSquare.
   const OutlineSquare({
     super.key,
     this.size = 24,

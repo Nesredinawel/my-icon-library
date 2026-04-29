@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style H2 icon.
+///
+/// Example:
+/// ```dart
+/// SolidH2(size: 24, color: Colors.blue);
+/// ```
 class SolidH2 extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidH2.
   const SolidH2({
     super.key,
     this.size = 24,

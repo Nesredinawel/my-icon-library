@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Umbrella icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeUmbrella(size: 24, color: Colors.blue);
+/// ```
 class MonochromeUmbrella extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeUmbrella.
   const MonochromeUmbrella({
     super.key,
     this.size = 24,

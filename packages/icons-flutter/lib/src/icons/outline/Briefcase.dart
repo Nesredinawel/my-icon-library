@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Briefcase icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBriefcase(size: 24, color: Colors.blue);
+/// ```
 class OutlineBriefcase extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineBriefcase.
   const OutlineBriefcase({
     super.key,
     this.size = 24,

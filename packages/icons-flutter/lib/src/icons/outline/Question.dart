@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Question icon.
+///
+/// Example:
+/// ```dart
+/// OutlineQuestion(size: 24, color: Colors.blue);
+/// ```
 class OutlineQuestion extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineQuestion.
   const OutlineQuestion({
     super.key,
     this.size = 24,

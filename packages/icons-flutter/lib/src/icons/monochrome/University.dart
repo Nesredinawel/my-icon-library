@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style University icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeUniversity(size: 24, color: Colors.blue);
+/// ```
 class MonochromeUniversity extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeUniversity.
   const MonochromeUniversity({
     super.key,
     this.size = 24,

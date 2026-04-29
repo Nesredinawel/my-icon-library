@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style TowerBroadcastSlash icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTowerBroadcastSlash(size: 24, color: Colors.blue);
+/// ```
+class OutlineTowerBroadcastSlash extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlineTowerBroadcastSlash.
+  const OutlineTowerBroadcastSlash({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M10 10c0 1.1.9 2 2 2v9m4.24-15.24a6 6 0 0 1 1.4 6.28m1.43-9.11a10 10 0 0 1 1.57 12.11m-12.88-.8a6 6 0 0 1-.89-7.36m-1.94 10.2A10 10 0 0 1 4 4M3 3l18 18"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

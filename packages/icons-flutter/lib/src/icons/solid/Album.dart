@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Album icon.
+///
+/// Example:
+/// ```dart
+/// SolidAlbum(size: 24, color: Colors.blue);
+/// ```
 class SolidAlbum extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidAlbum.
   const SolidAlbum({
     super.key,
     this.size = 24,

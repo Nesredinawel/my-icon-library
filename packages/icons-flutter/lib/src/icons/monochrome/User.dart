@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style User icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeUser(size: 24, color: Colors.blue);
+/// ```
 class MonochromeUser extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeUser.
   const MonochromeUser({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Xmark icon.
+///
+/// Example:
+/// ```dart
+/// OutlineXmark(size: 24, color: Colors.blue);
+/// ```
 class OutlineXmark extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineXmark.
   const OutlineXmark({
     super.key,
     this.size = 24,

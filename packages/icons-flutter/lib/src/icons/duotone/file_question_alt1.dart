@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Duotone style FileQuestionAlt1 icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneFileQuestionAlt1(size: 24, color: Colors.blue);
+/// ```
+class DuotoneFileQuestionAlt1 extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a DuotoneFileQuestionAlt1.
+  const DuotoneFileQuestionAlt1({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M8.2 3H13v4.4c0 .56 0 .84.1 1.05a1 1 0 0 0 .45.44c.21.11.49.11 1.05.11H19v8.8c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22H8.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C5 19.48 5 18.92 5 17.8V6.2c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C6.52 3 7.08 3 8.2 3" opacity=".14"/><path fill="currentColor" d="m13 3 .7-.7A1 1 0 0 0 13 2zm1 19a1 1 0 1 0 0-2zm5-13h1a1 1 0 0 0-.3-.7zm-1 1a1 1 0 1 0 2 0zM5.22 19.9l-.9.46zm.87.88.46-.89zm0-17.56-.45-.9zm-.87.87-.9-.45zm7.89 4.36L14 8zm.44.44L14 8zm3.68 8.9a1 1 0 0 0 1.41 1.42l-.7-.71zm-2.2-2.54a1 1 0 1 0 1.94.5L16 15.5zm2.9 4.75a1 1 0 1 0 0 2zm.02 2a1 1 0 1 0 0-2zM13 3V2H8.2v2H13zM5 6.2H4v11.6h2V6.2zM8.2 21v1H14v-2H8.2zM19 9l.7-.7-6-6-.7.7-.7.7 6 6zm0 1h1V9h-2v1zM5 17.8H4q0 .81.03 1.4c.03.39.1.78.3 1.16l.89-.45.89-.46a1 1 0 0 1-.09-.42A17 17 0 0 1 6 17.8zM8.2 21v-1c-.58 0-.95 0-1.23-.02a1 1 0 0 1-.42-.09l-.46.9-.45.88c.38.2.77.27 1.16.3q.59.04 1.4.03zm-2.98-1.1-.9.46a3 3 0 0 0 1.32 1.31l.45-.89.46-.89a1 1 0 0 1-.44-.44zM8.2 3V2q-.81 0-1.4.03c-.39.03-.78.1-1.16.3l.45.89.46.89c.05-.03.15-.06.42-.09A17 17 0 0 1 8.2 4zM5 6.2h1c0-.58 0-.95.02-1.23.03-.27.06-.37.09-.42l-.9-.46-.88-.45c-.2.38-.27.77-.3 1.16Q4 5.4 4 6.2zm1.1-2.98-.46-.9a3 3 0 0 0-1.31 1.32l.89.45.89.46a1 1 0 0 1 .44-.44zM13 3h-1v4.4h2V3zm1.6 6v1H19V8h-4.4zM13 7.4h-1q0 .4.02.74.01.36.2.77l.89-.46L14 8c.03.06.02.08.01-.02L14 7.4zM14.6 9V8l-.58-.01Q13.9 7.97 14 8l-.45.9-.46.88a2 2 0 0 0 .77.2q.34.02.74.02zm-1.5-.55-.88.46q.3.57.87.87l.46-.89L14 8zM19.95 16h-1c0 .17-.05.3-.32.57q-.23.21-.59.5-.37.3-.8.72l.7.71.71.7.67-.59c.22-.18.48-.39.7-.6a2.7 2.7 0 0 0 .93-2.01zm-2-2v1a1 1 0 0 1 1 1h2a3 3 0 0 0-3-3zM16 15.5l.97.25a1 1 0 0 1 .97-.75v-2a3 3 0 0 0-2.9 2.25zm1.94 5.5v1zv-1z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Droplets icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeDroplets(size: 24, color: Colors.blue);
+/// ```
 class MonochromeDroplets extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeDroplets.
   const MonochromeDroplets({
     super.key,
     this.size = 24,

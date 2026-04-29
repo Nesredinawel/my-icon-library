@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Vihara icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneVihara(size: 24, color: Colors.blue);
+/// ```
 class DuotoneVihara extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneVihara.
   const DuotoneVihara({
     super.key,
     this.size = 24,

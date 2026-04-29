@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Tower icon.
+///
+/// Example:
+/// ```dart
+/// SolidTower(size: 24, color: Colors.blue);
+/// ```
 class SolidTower extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidTower.
   const SolidTower({
     super.key,
     this.size = 24,

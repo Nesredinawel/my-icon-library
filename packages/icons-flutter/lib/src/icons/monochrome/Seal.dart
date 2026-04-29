@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Seal icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSeal(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSeal extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSeal.
   const MonochromeSeal({
     super.key,
     this.size = 24,

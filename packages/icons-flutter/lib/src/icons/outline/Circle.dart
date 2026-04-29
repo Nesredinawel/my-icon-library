@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Circle icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCircle(size: 24, color: Colors.blue);
+/// ```
 class OutlineCircle extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCircle.
   const OutlineCircle({
     super.key,
     this.size = 24,

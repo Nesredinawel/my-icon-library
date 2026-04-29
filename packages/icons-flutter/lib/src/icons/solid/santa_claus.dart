@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style SantaClaus icon.
+///
+/// Example:
+/// ```dart
+/// SolidSantaClaus(size: 24, color: Colors.blue);
+/// ```
+class SolidSantaClaus extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidSantaClaus.
+  const SolidSantaClaus({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M10 11.5a1 1 0 0 0 0 2h.01a1 1 0 1 0 0-2zm4 0a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2z"/><path fill="currentColor" fill-rule="evenodd" d="M4 8.5c0 .81.38 1.53.98 1.99a7 7 0 0 0-.59.6 5 5 0 0 0-1.29 3.39q.06 2.04 2.06 4.14c1.34 1.38 3.4 2.81 6.4 4.28a1 1 0 0 0 .88 0c3-1.47 5.06-2.9 6.4-4.28 1.35-1.4 2-2.79 2.06-4.14a5 5 0 0 0-1.3-3.4 7 7 0 0 0-.58-.6A2.5 2.5 0 0 0 17.5 6h-.07q-.43-.5-.61-.93a1 1 0 0 1-.13-.5l.13-.02h.26a2 2 0 1 0 1.04-2.35A10.5 10.5 0 0 0 13.85.66a6.8 6.8 0 0 0-4.38 1 8 8 0 0 0-3.32 4.36A2.5 2.5 0 0 0 4 8.5M7 8h-.5a.5.5 0 0 0 0 1h11a.5.5 0 1 0 0-1zm1.04 3h7.92c.3.36.67.98.88 1.68.28.92.18 1.57-.2 1.96q-.44.44-1.24.34a5 5 0 0 1-1.78-.68h-.02l-.6-.35a2 2 0 0 0-1-.29 2 2 0 0 0-1 .3l-.6.33-.02.01a5 5 0 0 1-1.78.68q-.8.1-1.24-.34c-.38-.39-.48-1.04-.2-1.96.2-.7.59-1.32.88-1.68m8.6-6.4.02-.02zm-5.2 12.5a1 1 0 1 0-.89 1.8h.02l.24.12a3 3 0 0 0 2.38 0l.24-.12h.02a1 1 0 1 0-.9-1.8l-.15.08a1 1 0 0 1-.8 0z" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

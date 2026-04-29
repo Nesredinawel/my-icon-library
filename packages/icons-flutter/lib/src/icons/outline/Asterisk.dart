@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Asterisk icon.
+///
+/// Example:
+/// ```dart
+/// OutlineAsterisk(size: 24, color: Colors.blue);
+/// ```
 class OutlineAsterisk extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineAsterisk.
   const OutlineAsterisk({
     super.key,
     this.size = 24,

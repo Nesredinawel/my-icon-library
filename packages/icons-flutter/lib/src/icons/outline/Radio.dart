@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Radio icon.
+///
+/// Example:
+/// ```dart
+/// OutlineRadio(size: 24, color: Colors.blue);
+/// ```
 class OutlineRadio extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineRadio.
   const OutlineRadio({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Check icon.
+///
+/// Example:
+/// ```dart
+/// SolidCheck(size: 24, color: Colors.blue);
+/// ```
 class SolidCheck extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCheck.
   const SolidCheck({
     super.key,
     this.size = 24,

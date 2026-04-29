@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Radiation icon.
+///
+/// Example:
+/// ```dart
+/// OutlineRadiation(size: 24, color: Colors.blue);
+/// ```
 class OutlineRadiation extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineRadiation.
   const OutlineRadiation({
     super.key,
     this.size = 24,

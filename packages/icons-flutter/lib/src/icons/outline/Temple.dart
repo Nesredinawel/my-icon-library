@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Temple icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTemple(size: 24, color: Colors.blue);
+/// ```
 class OutlineTemple extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineTemple.
   const OutlineTemple({
     super.key,
     this.size = 24,

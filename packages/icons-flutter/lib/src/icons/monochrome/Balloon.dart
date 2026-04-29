@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Balloon icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBalloon(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBalloon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBalloon.
   const MonochromeBalloon({
     super.key,
     this.size = 24,

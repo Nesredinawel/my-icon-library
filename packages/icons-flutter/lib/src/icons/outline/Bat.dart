@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Bat icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBat(size: 24, color: Colors.blue);
+/// ```
 class OutlineBat extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineBat.
   const OutlineBat({
     super.key,
     this.size = 24,

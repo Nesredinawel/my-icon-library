@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Command icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCommand(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCommand extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCommand.
   const MonochromeCommand({
     super.key,
     this.size = 24,

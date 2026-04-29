@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Ghost icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneGhost(size: 24, color: Colors.blue);
+/// ```
 class DuotoneGhost extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneGhost.
   const DuotoneGhost({
     super.key,
     this.size = 24,

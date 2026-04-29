@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Browser icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBrowser(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBrowser extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBrowser.
   const DuotoneBrowser({
     super.key,
     this.size = 24,

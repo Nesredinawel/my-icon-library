@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Projector icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeProjector(size: 24, color: Colors.blue);
+/// ```
 class MonochromeProjector extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeProjector.
   const MonochromeProjector({
     super.key,
     this.size = 24,

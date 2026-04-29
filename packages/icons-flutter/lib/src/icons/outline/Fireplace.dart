@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Fireplace icon.
+///
+/// Example:
+/// ```dart
+/// OutlineFireplace(size: 24, color: Colors.blue);
+/// ```
 class OutlineFireplace extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineFireplace.
   const OutlineFireplace({
     super.key,
     this.size = 24,

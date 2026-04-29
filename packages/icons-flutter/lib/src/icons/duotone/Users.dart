@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Users icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneUsers(size: 24, color: Colors.blue);
+/// ```
 class DuotoneUsers extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneUsers.
   const DuotoneUsers({
     super.key,
     this.size = 24,

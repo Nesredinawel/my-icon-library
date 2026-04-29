@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Window icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneWindow(size: 24, color: Colors.blue);
+/// ```
 class DuotoneWindow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneWindow.
   const DuotoneWindow({
     super.key,
     this.size = 24,

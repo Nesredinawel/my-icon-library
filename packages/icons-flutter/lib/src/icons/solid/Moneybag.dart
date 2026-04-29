@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Moneybag icon.
+///
+/// Example:
+/// ```dart
+/// SolidMoneybag(size: 24, color: Colors.blue);
+/// ```
 class SolidMoneybag extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMoneybag.
   const SolidMoneybag({
     super.key,
     this.size = 24,

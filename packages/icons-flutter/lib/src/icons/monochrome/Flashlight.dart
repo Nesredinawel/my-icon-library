@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Flashlight icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeFlashlight(size: 24, color: Colors.blue);
+/// ```
 class MonochromeFlashlight extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeFlashlight.
   const MonochromeFlashlight({
     super.key,
     this.size = 24,

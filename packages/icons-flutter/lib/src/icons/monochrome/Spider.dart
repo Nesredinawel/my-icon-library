@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Spider icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSpider(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSpider extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSpider.
   const MonochromeSpider({
     super.key,
     this.size = 24,

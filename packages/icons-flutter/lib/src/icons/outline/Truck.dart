@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Truck icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTruck(size: 24, color: Colors.blue);
+/// ```
 class OutlineTruck extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineTruck.
   const OutlineTruck({
     super.key,
     this.size = 24,

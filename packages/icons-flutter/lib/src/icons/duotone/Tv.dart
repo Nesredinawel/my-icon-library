@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Tv icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneTv(size: 24, color: Colors.blue);
+/// ```
 class DuotoneTv extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneTv.
   const DuotoneTv({
     super.key,
     this.size = 24,

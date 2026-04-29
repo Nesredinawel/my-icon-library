@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Warehouse icon.
+///
+/// Example:
+/// ```dart
+/// OutlineWarehouse(size: 24, color: Colors.blue);
+/// ```
 class OutlineWarehouse extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineWarehouse.
   const OutlineWarehouse({
     super.key,
     this.size = 24,

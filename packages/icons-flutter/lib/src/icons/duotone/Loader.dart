@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Loader icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneLoader(size: 24, color: Colors.blue);
+/// ```
 class DuotoneLoader extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneLoader.
   const DuotoneLoader({
     super.key,
     this.size = 24,

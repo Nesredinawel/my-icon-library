@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Skull icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSkull(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSkull extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSkull.
   const DuotoneSkull({
     super.key,
     this.size = 24,

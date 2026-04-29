@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Vihara icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeVihara(size: 24, color: Colors.blue);
+/// ```
 class MonochromeVihara extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeVihara.
   const MonochromeVihara({
     super.key,
     this.size = 24,

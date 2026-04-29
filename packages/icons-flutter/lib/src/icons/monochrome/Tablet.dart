@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Tablet icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeTablet(size: 24, color: Colors.blue);
+/// ```
 class MonochromeTablet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeTablet.
   const MonochromeTablet({
     super.key,
     this.size = 24,

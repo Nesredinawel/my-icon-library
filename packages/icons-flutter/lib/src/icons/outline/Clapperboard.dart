@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Clapperboard icon.
+///
+/// Example:
+/// ```dart
+/// OutlineClapperboard(size: 24, color: Colors.blue);
+/// ```
 class OutlineClapperboard extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineClapperboard.
   const OutlineClapperboard({
     super.key,
     this.size = 24,

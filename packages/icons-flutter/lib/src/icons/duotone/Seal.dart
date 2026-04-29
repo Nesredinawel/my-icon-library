@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Seal icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSeal(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSeal extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSeal.
   const DuotoneSeal({
     super.key,
     this.size = 24,

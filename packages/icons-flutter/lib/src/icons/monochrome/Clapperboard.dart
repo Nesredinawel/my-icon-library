@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Clapperboard icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeClapperboard(size: 24, color: Colors.blue);
+/// ```
 class MonochromeClapperboard extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeClapperboard.
   const MonochromeClapperboard({
     super.key,
     this.size = 24,

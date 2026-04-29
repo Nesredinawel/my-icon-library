@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Calendar icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCalendar(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCalendar extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCalendar.
   const MonochromeCalendar({
     super.key,
     this.size = 24,

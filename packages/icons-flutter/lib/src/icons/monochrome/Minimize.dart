@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Minimize icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMinimize(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMinimize extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMinimize.
   const MonochromeMinimize({
     super.key,
     this.size = 24,

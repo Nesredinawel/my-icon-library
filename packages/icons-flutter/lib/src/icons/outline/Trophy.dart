@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Trophy icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTrophy(size: 24, color: Colors.blue);
+/// ```
 class OutlineTrophy extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineTrophy.
   const OutlineTrophy({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Radiation icon.
+///
+/// Example:
+/// ```dart
+/// SolidRadiation(size: 24, color: Colors.blue);
+/// ```
 class SolidRadiation extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidRadiation.
   const SolidRadiation({
     super.key,
     this.size = 24,

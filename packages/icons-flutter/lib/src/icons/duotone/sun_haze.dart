@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Duotone style SunHaze icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSunHaze(size: 24, color: Colors.blue);
+/// ```
+class DuotoneSunHaze extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a DuotoneSunHaze.
+  const DuotoneSunHaze({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="m3 11 2.82-1.2c.24-.11.36-.16.44-.25a.5.5 0 0 0 .12-.27 1 1 0 0 0-.11-.48l-.62-1.84c-.2-.63-.31-.95-.24-1.17q.11-.28.4-.4c.2-.08.53.01 1.17.2l1.67.5c.48.15.72.22.94.19a1 1 0 0 0 .51-.24c.17-.14.27-.37.47-.83l.45-1c.31-.7.47-1.05.68-1.16q.3-.15.6 0c.21.1.37.46.68 1.15l.45 1.01c.2.46.3.69.47.83a1 1 0 0 0 .51.24c.22.03.46-.04.94-.18l1.67-.5c.64-.2.96-.3 1.17-.21q.29.12.4.4c.07.22-.03.54-.24 1.17l-.62 1.84c-.08.25-.12.37-.1.48q.01.16.11.27c.08.09.2.14.44.24L21 11h-7a2 2 0 0 0-4 0z" opacity=".14"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m3 11 2.82-1.2c.24-.11.36-.16.44-.25a.5.5 0 0 0 .12-.27 1 1 0 0 0-.11-.48l-.62-1.84c-.2-.63-.31-.95-.24-1.17q.11-.28.4-.4c.2-.08.53.01 1.17.2l1.67.5c.48.15.72.22.94.19a1 1 0 0 0 .51-.24c.17-.14.27-.37.47-.83l.45-1c.31-.7.47-1.05.68-1.16q.3-.15.6 0c.21.1.37.46.68 1.15l.45 1.01c.2.46.3.69.47.83a1 1 0 0 0 .51.24c.22.03.46-.04.94-.18l1.67-.5c.64-.2.96-.3 1.17-.21q.29.12.4.4c.07.22-.03.54-.24 1.17l-.62 1.84c-.08.25-.12.37-.1.48q.01.16.11.27c.08.09.2.14.44.24L21 11m-11 0a2 2 0 1 1 4 0m-1 10h8m-4-6h4M5 15h8M3 18h16M5 21h4"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

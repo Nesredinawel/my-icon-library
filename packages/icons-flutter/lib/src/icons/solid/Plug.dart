@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Plug icon.
+///
+/// Example:
+/// ```dart
+/// SolidPlug(size: 24, color: Colors.blue);
+/// ```
 class SolidPlug extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidPlug.
   const SolidPlug({
     super.key,
     this.size = 24,

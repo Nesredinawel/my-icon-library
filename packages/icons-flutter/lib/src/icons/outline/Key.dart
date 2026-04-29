@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Key icon.
+///
+/// Example:
+/// ```dart
+/// OutlineKey(size: 24, color: Colors.blue);
+/// ```
 class OutlineKey extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineKey.
   const OutlineKey({
     super.key,
     this.size = 24,

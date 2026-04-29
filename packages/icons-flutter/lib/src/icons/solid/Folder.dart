@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Folder icon.
+///
+/// Example:
+/// ```dart
+/// SolidFolder(size: 24, color: Colors.blue);
+/// ```
 class SolidFolder extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidFolder.
   const SolidFolder({
     super.key,
     this.size = 24,

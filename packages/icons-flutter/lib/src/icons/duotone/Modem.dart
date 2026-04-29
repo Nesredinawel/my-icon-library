@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Modem icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneModem(size: 24, color: Colors.blue);
+/// ```
 class DuotoneModem extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneModem.
   const DuotoneModem({
     super.key,
     this.size = 24,

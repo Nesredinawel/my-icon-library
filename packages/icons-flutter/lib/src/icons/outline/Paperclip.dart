@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Paperclip icon.
+///
+/// Example:
+/// ```dart
+/// OutlinePaperclip(size: 24, color: Colors.blue);
+/// ```
 class OutlinePaperclip extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlinePaperclip.
   const OutlinePaperclip({
     super.key,
     this.size = 24,

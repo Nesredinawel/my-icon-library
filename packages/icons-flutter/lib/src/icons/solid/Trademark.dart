@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Trademark icon.
+///
+/// Example:
+/// ```dart
+/// SolidTrademark(size: 24, color: Colors.blue);
+/// ```
 class SolidTrademark extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidTrademark.
   const SolidTrademark({
     super.key,
     this.size = 24,

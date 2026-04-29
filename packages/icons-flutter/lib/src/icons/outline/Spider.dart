@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Spider icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSpider(size: 24, color: Colors.blue);
+/// ```
 class OutlineSpider extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSpider.
   const OutlineSpider({
     super.key,
     this.size = 24,

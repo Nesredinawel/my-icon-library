@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Calculator icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCalculator(size: 24, color: Colors.blue);
+/// ```
 class OutlineCalculator extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCalculator.
   const OutlineCalculator({
     super.key,
     this.size = 24,

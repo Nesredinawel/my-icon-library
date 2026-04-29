@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Film icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeFilm(size: 24, color: Colors.blue);
+/// ```
 class MonochromeFilm extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeFilm.
   const MonochromeFilm({
     super.key,
     this.size = 24,

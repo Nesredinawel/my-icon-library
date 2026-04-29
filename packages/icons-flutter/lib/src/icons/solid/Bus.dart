@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Bus icon.
+///
+/// Example:
+/// ```dart
+/// SolidBus(size: 24, color: Colors.blue);
+/// ```
 class SolidBus extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidBus.
   const SolidBus({
     super.key,
     this.size = 24,

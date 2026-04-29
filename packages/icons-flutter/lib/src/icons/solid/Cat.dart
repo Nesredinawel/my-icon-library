@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Cat icon.
+///
+/// Example:
+/// ```dart
+/// SolidCat(size: 24, color: Colors.blue);
+/// ```
 class SolidCat extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCat.
   const SolidCat({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Capsule icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCapsule(size: 24, color: Colors.blue);
+/// ```
 class OutlineCapsule extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCapsule.
   const OutlineCapsule({
     super.key,
     this.size = 24,

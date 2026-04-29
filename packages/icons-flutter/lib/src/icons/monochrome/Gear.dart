@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Gear icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeGear(size: 24, color: Colors.blue);
+/// ```
 class MonochromeGear extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeGear.
   const MonochromeGear({
     super.key,
     this.size = 24,

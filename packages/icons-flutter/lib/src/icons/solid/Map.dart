@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Map icon.
+///
+/// Example:
+/// ```dart
+/// SolidMap(size: 24, color: Colors.blue);
+/// ```
 class SolidMap extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMap.
   const SolidMap({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Projector icon.
+///
+/// Example:
+/// ```dart
+/// OutlineProjector(size: 24, color: Colors.blue);
+/// ```
 class OutlineProjector extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineProjector.
   const OutlineProjector({
     super.key,
     this.size = 24,

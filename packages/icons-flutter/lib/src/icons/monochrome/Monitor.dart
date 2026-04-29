@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Monitor icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMonitor(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMonitor extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMonitor.
   const MonochromeMonitor({
     super.key,
     this.size = 24,

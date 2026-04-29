@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Timer icon.
+///
+/// Example:
+/// ```dart
+/// SolidTimer(size: 24, color: Colors.blue);
+/// ```
 class SolidTimer extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidTimer.
   const SolidTimer({
     super.key,
     this.size = 24,

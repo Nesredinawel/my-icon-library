@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Scarecrow icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneScarecrow(size: 24, color: Colors.blue);
+/// ```
 class DuotoneScarecrow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneScarecrow.
   const DuotoneScarecrow({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Cookies icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCookies(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCookies extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCookies.
   const MonochromeCookies({
     super.key,
     this.size = 24,

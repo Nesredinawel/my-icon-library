@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Mistletoe icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMistletoe(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMistletoe extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMistletoe.
   const DuotoneMistletoe({
     super.key,
     this.size = 24,

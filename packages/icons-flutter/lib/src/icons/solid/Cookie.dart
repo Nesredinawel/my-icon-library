@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Cookie icon.
+///
+/// Example:
+/// ```dart
+/// SolidCookie(size: 24, color: Colors.blue);
+/// ```
 class SolidCookie extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCookie.
   const SolidCookie({
     super.key,
     this.size = 24,

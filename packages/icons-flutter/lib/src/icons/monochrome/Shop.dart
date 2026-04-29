@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Shop icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeShop(size: 24, color: Colors.blue);
+/// ```
 class MonochromeShop extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeShop.
   const MonochromeShop({
     super.key,
     this.size = 24,

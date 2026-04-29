@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Slash icon.
+///
+/// Example:
+/// ```dart
+/// SolidSlash(size: 24, color: Colors.blue);
+/// ```
 class SolidSlash extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSlash.
   const SolidSlash({
     super.key,
     this.size = 24,

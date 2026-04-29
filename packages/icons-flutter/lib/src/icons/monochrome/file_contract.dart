@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style FileContract icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeFileContract(size: 24, color: Colors.blue);
+/// ```
+class MonochromeFileContract extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeFileContract.
+  const MonochromeFileContract({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M8.8 2H14l6 6v9.2c0 1.68 0 2.52-.33 3.16a3 3 0 0 1-1.3 1.31c-.65.33-1.49.33-3.17.33H8.8c-1.68 0-2.52 0-3.16-.33a3 3 0 0 1-1.31-1.3C4 19.71 4 18.87 4 17.2V6.8c0-1.68 0-2.52.33-3.16a3 3 0 0 1 1.3-1.31C6.29 2 7.13 2 8.8 2" clip-rule="evenodd" opacity=".3"/><path fill="currentColor" d="M14 2v5.2c0 .28 0 .42.05.53q.08.15.22.22c.11.05.25.05.53.05H20zM7 6a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1m0 3a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1m2.79 4.02a1 1 0 0 1 1.04.43L12 15.2l.17-.25a1 1 0 0 1 1.66 0l.7 1.05H16a1 1 0 0 1 0 2h-2a1 1 0 0 1-.83-.45L13 17.3l-.17.25a1 1 0 0 1-1.66 0l-.6-.9-.08.51a1 1 0 0 1-.99.84H8a1 1 0 1 1 0-2h.65l.36-2.16a1 1 0 0 1 .78-.82"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

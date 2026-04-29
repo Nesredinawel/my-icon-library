@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Moped icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMoped(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMoped extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMoped.
   const MonochromeMoped({
     super.key,
     this.size = 24,

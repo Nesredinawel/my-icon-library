@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Scribble icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneScribble(size: 24, color: Colors.blue);
+/// ```
 class DuotoneScribble extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneScribble.
   const DuotoneScribble({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Gift icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneGift(size: 24, color: Colors.blue);
+/// ```
 class DuotoneGift extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneGift.
   const DuotoneGift({
     super.key,
     this.size = 24,

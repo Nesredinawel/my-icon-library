@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Duotone style CandleHolder icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCandleHolder(size: 24, color: Colors.blue);
+/// ```
+class DuotoneCandleHolder extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a DuotoneCandleHolder.
+  const DuotoneCandleHolder({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M5 11h8v10H5z" opacity=".14"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 0H3m5-10v3m-3-3h8v10H5zm4-3a2 2 0 0 0 1.9-1.4c.13-.38-.02-.78-.24-1.1L9 3 7.34 5.5c-.22.32-.37.72-.25 1.1A2 2 0 0 0 9 8"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

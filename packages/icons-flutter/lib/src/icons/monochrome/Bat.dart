@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Bat icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBat(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBat extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBat.
   const MonochromeBat({
     super.key,
     this.size = 24,

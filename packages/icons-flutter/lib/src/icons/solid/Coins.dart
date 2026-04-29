@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Coins icon.
+///
+/// Example:
+/// ```dart
+/// SolidCoins(size: 24, color: Colors.blue);
+/// ```
 class SolidCoins extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCoins.
   const SolidCoins({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Clarinet icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeClarinet(size: 24, color: Colors.blue);
+/// ```
 class MonochromeClarinet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeClarinet.
   const MonochromeClarinet({
     super.key,
     this.size = 24,

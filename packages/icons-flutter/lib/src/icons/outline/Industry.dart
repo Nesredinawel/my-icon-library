@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Industry icon.
+///
+/// Example:
+/// ```dart
+/// OutlineIndustry(size: 24, color: Colors.blue);
+/// ```
 class OutlineIndustry extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineIndustry.
   const OutlineIndustry({
     super.key,
     this.size = 24,

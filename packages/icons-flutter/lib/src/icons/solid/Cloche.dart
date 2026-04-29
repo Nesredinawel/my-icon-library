@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Cloche icon.
+///
+/// Example:
+/// ```dart
+/// SolidCloche(size: 24, color: Colors.blue);
+/// ```
 class SolidCloche extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCloche.
   const SolidCloche({
     super.key,
     this.size = 24,

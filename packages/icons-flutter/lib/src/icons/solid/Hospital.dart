@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Hospital icon.
+///
+/// Example:
+/// ```dart
+/// SolidHospital(size: 24, color: Colors.blue);
+/// ```
 class SolidHospital extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidHospital.
   const SolidHospital({
     super.key,
     this.size = 24,

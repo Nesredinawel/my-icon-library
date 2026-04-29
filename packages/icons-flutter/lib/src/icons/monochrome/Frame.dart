@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Frame icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeFrame(size: 24, color: Colors.blue);
+/// ```
 class MonochromeFrame extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeFrame.
   const MonochromeFrame({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Superscript icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSuperscript(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSuperscript extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSuperscript.
   const DuotoneSuperscript({
     super.key,
     this.size = 24,

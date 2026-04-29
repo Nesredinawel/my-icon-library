@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Rocket icon.
+///
+/// Example:
+/// ```dart
+/// OutlineRocket(size: 24, color: Colors.blue);
+/// ```
 class OutlineRocket extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineRocket.
   const OutlineRocket({
     super.key,
     this.size = 24,

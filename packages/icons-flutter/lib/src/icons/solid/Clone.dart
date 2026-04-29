@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Clone icon.
+///
+/// Example:
+/// ```dart
+/// SolidClone(size: 24, color: Colors.blue);
+/// ```
 class SolidClone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidClone.
   const SolidClone({
     super.key,
     this.size = 24,

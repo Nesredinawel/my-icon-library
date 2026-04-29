@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Disc icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeDisc(size: 24, color: Colors.blue);
+/// ```
 class MonochromeDisc extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeDisc.
   const MonochromeDisc({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Indent icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneIndent(size: 24, color: Colors.blue);
+/// ```
 class DuotoneIndent extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneIndent.
   const DuotoneIndent({
     super.key,
     this.size = 24,

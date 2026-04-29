@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Bones icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBones(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBones extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBones.
   const DuotoneBones({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Users icon.
+///
+/// Example:
+/// ```dart
+/// SolidUsers(size: 24, color: Colors.blue);
+/// ```
 class SolidUsers extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidUsers.
   const SolidUsers({
     super.key,
     this.size = 24,

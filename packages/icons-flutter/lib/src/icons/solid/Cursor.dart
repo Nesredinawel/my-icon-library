@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Cursor icon.
+///
+/// Example:
+/// ```dart
+/// SolidCursor(size: 24, color: Colors.blue);
+/// ```
 class SolidCursor extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCursor.
   const SolidCursor({
     super.key,
     this.size = 24,

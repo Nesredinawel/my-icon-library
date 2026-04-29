@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Icicles icon.
+///
+/// Example:
+/// ```dart
+/// OutlineIcicles(size: 24, color: Colors.blue);
+/// ```
 class OutlineIcicles extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineIcicles.
   const OutlineIcicles({
     super.key,
     this.size = 24,

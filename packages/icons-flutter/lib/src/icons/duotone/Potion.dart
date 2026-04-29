@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Potion icon.
+///
+/// Example:
+/// ```dart
+/// DuotonePotion(size: 24, color: Colors.blue);
+/// ```
 class DuotonePotion extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotonePotion.
   const DuotonePotion({
     super.key,
     this.size = 24,

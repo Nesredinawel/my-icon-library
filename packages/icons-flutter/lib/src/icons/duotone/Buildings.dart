@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Buildings icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBuildings(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBuildings extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBuildings.
   const DuotoneBuildings({
     super.key,
     this.size = 24,

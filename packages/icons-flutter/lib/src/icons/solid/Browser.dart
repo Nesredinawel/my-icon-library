@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Browser icon.
+///
+/// Example:
+/// ```dart
+/// SolidBrowser(size: 24, color: Colors.blue);
+/// ```
 class SolidBrowser extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidBrowser.
   const SolidBrowser({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Speaker icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSpeaker(size: 24, color: Colors.blue);
+/// ```
 class OutlineSpeaker extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSpeaker.
   const OutlineSpeaker({
     super.key,
     this.size = 24,

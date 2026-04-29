@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Gold icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeGold(size: 24, color: Colors.blue);
+/// ```
 class MonochromeGold extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeGold.
   const MonochromeGold({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Rainbow icon.
+///
+/// Example:
+/// ```dart
+/// OutlineRainbow(size: 24, color: Colors.blue);
+/// ```
 class OutlineRainbow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineRainbow.
   const OutlineRainbow({
     super.key,
     this.size = 24,

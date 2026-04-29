@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Question icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneQuestion(size: 24, color: Colors.blue);
+/// ```
 class DuotoneQuestion extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneQuestion.
   const DuotoneQuestion({
     super.key,
     this.size = 24,

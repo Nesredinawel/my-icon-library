@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Scarecrow icon.
+///
+/// Example:
+/// ```dart
+/// OutlineScarecrow(size: 24, color: Colors.blue);
+/// ```
 class OutlineScarecrow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineScarecrow.
   const OutlineScarecrow({
     super.key,
     this.size = 24,

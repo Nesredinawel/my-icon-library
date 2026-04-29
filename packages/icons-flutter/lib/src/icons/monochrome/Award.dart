@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Award icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeAward(size: 24, color: Colors.blue);
+/// ```
 class MonochromeAward extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeAward.
   const MonochromeAward({
     super.key,
     this.size = 24,

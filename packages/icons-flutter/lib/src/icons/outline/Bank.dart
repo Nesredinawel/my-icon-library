@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Bank icon.
+///
+/// Example:
+/// ```dart
+/// OutlineBank(size: 24, color: Colors.blue);
+/// ```
 class OutlineBank extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineBank.
   const OutlineBank({
     super.key,
     this.size = 24,

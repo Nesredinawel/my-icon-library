@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Printer icon.
+///
+/// Example:
+/// ```dart
+/// MonochromePrinter(size: 24, color: Colors.blue);
+/// ```
 class MonochromePrinter extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromePrinter.
   const MonochromePrinter({
     super.key,
     this.size = 24,

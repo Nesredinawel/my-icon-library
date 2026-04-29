@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Hourglass icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeHourglass(size: 24, color: Colors.blue);
+/// ```
 class MonochromeHourglass extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeHourglass.
   const MonochromeHourglass({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Server icon.
+///
+/// Example:
+/// ```dart
+/// SolidServer(size: 24, color: Colors.blue);
+/// ```
 class SolidServer extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidServer.
   const SolidServer({
     super.key,
     this.size = 24,

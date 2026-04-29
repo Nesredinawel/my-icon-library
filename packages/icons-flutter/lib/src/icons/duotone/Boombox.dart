@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Boombox icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBoombox(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBoombox extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBoombox.
   const DuotoneBoombox({
     super.key,
     this.size = 24,

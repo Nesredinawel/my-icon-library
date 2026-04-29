@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Check icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCheck(size: 24, color: Colors.blue);
+/// ```
 class OutlineCheck extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCheck.
   const OutlineCheck({
     super.key,
     this.size = 24,

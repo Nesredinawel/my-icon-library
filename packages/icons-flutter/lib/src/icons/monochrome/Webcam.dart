@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Webcam icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeWebcam(size: 24, color: Colors.blue);
+/// ```
 class MonochromeWebcam extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeWebcam.
   const MonochromeWebcam({
     super.key,
     this.size = 24,

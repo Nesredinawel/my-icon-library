@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style ArrowNarrowCircleBrokenUpLeft icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeArrowNarrowCircleBrokenUpLeft(size: 24, color: Colors.blue);
+/// ```
+class MonochromeArrowNarrowCircleBrokenUpLeft extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeArrowNarrowCircleBrokenUpLeft.
+  const MonochromeArrowNarrowCircleBrokenUpLeft({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0" opacity=".3"/><path fill="currentColor" d="M18.33 19.74 11 12.41v3.25a1 1 0 0 1-2 0V10a1 1 0 0 1 1-1h5.66a1 1 0 0 1 0 2H12.4l7.33 7.33q-.64.78-1.41 1.41"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

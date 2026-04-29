@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Book icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBook(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBook extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBook.
   const DuotoneBook({
     super.key,
     this.size = 24,

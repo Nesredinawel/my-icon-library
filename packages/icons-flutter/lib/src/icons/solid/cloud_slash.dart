@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style CloudSlash icon.
+///
+/// Example:
+/// ```dart
+/// SolidCloudSlash(size: 24, color: Colors.blue);
+/// ```
+class SolidCloudSlash extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidCloudSlash.
+  const SolidCloudSlash({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M3.7 2.3a1 1 0 0 0-1.4 1.4l4.04 4.06A6.2 6.2 0 0 0 2 13.65 6.4 6.4 0 0 0 8.4 20h8.1q.95 0 1.79-.3l2 2a1 1 0 0 0 1.42-1.4zM22 14.5q-.02 1.44-.66 2.62L9.22 5.01a6.6 6.6 0 0 1 10.02 4.6A5.7 5.7 0 0 1 22 14.5"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Cauldron icon.
+///
+/// Example:
+/// ```dart
+/// SolidCauldron(size: 24, color: Colors.blue);
+/// ```
 class SolidCauldron extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCauldron.
   const SolidCauldron({
     super.key,
     this.size = 24,

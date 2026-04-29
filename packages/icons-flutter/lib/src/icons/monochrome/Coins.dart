@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Coins icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCoins(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCoins extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCoins.
   const MonochromeCoins({
     super.key,
     this.size = 24,

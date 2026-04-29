@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Heading icon.
+///
+/// Example:
+/// ```dart
+/// OutlineHeading(size: 24, color: Colors.blue);
+/// ```
 class OutlineHeading extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineHeading.
   const OutlineHeading({
     super.key,
     this.size = 24,

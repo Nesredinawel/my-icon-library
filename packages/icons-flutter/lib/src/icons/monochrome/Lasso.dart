@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Lasso icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeLasso(size: 24, color: Colors.blue);
+/// ```
 class MonochromeLasso extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeLasso.
   const MonochromeLasso({
     super.key,
     this.size = 24,

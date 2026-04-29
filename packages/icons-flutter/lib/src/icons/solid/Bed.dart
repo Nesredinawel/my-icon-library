@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Bed icon.
+///
+/// Example:
+/// ```dart
+/// SolidBed(size: 24, color: Colors.blue);
+/// ```
 class SolidBed extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidBed.
   const SolidBed({
     super.key,
     this.size = 24,

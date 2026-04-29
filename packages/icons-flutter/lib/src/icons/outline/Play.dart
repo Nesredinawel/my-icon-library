@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Play icon.
+///
+/// Example:
+/// ```dart
+/// OutlinePlay(size: 24, color: Colors.blue);
+/// ```
 class OutlinePlay extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlinePlay.
   const OutlinePlay({
     super.key,
     this.size = 24,

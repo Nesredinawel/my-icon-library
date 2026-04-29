@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Cctv icon.
+///
+/// Example:
+/// ```dart
+/// SolidCctv(size: 24, color: Colors.blue);
+/// ```
 class SolidCctv extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCctv.
   const SolidCctv({
     super.key,
     this.size = 24,

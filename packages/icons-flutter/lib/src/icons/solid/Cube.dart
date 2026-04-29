@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Cube icon.
+///
+/// Example:
+/// ```dart
+/// SolidCube(size: 24, color: Colors.blue);
+/// ```
 class SolidCube extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCube.
   const SolidCube({
     super.key,
     this.size = 24,

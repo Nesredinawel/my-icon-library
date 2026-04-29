@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Drum icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeDrum(size: 24, color: Colors.blue);
+/// ```
 class MonochromeDrum extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeDrum.
   const MonochromeDrum({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Warehouse icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeWarehouse(size: 24, color: Colors.blue);
+/// ```
 class MonochromeWarehouse extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeWarehouse.
   const MonochromeWarehouse({
     super.key,
     this.size = 24,

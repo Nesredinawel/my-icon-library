@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Rocket icon.
+///
+/// Example:
+/// ```dart
+/// SolidRocket(size: 24, color: Colors.blue);
+/// ```
 class SolidRocket extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidRocket.
   const SolidRocket({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Dazzle icon.
+///
+/// Example:
+/// ```dart
+/// OutlineDazzle(size: 24, color: Colors.blue);
+/// ```
 class OutlineDazzle extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineDazzle.
   const OutlineDazzle({
     super.key,
     this.size = 24,

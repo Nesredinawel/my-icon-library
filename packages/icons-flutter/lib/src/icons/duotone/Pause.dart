@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Pause icon.
+///
+/// Example:
+/// ```dart
+/// DuotonePause(size: 24, color: Colors.blue);
+/// ```
 class DuotonePause extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotonePause.
   const DuotonePause({
     super.key,
     this.size = 24,

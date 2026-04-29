@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Sparkles icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSparkles(size: 24, color: Colors.blue);
+/// ```
 class OutlineSparkles extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSparkles.
   const OutlineSparkles({
     super.key,
     this.size = 24,

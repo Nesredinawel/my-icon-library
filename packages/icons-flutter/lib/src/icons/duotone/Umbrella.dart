@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Umbrella icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneUmbrella(size: 24, color: Colors.blue);
+/// ```
 class DuotoneUmbrella extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneUmbrella.
   const DuotoneUmbrella({
     super.key,
     this.size = 24,

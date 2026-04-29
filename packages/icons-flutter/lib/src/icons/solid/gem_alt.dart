@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style GemAlt icon.
+///
+/// Example:
+/// ```dart
+/// SolidGemAlt(size: 24, color: Colors.blue);
+/// ```
+class SolidGemAlt extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidGemAlt.
+  const SolidGemAlt({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M10.85 2H7.87c-.1 0-.32 0-.53.06a2 2 0 0 0-.5.25c-.17.13-.3.3-.36.39L2.53 7.95q0 .02-.03.05h4.92zm-3.57 8H2.5l.03.05 2.59 3.44 5.46 7.28q.14.2.3.38l.01.01.06-.16zm2.11 0h5.22L12 17.84zm4.89-2H9.72L12 4.02zm2.44 2-3.67 11 .06.16.01-.01q.16-.18.3-.38l8.05-10.72q0-.02.03-.05zm4.78-2h-4.92l-3.43-6h2.98a1.5 1.5 0 0 1 1.4.7l3.94 5.25q0 .02.03.05"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

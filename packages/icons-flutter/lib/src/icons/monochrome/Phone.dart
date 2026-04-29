@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Phone icon.
+///
+/// Example:
+/// ```dart
+/// MonochromePhone(size: 24, color: Colors.blue);
+/// ```
 class MonochromePhone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromePhone.
   const MonochromePhone({
     super.key,
     this.size = 24,

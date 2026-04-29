@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style HouseChimneyUser icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeHouseChimneyUser(size: 24, color: Colors.blue);
+/// ```
+class MonochromeHouseChimneyUser extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeHouseChimneyUser.
+  const MonochromeHouseChimneyUser({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M4 12.38v3.86q-.01 1.2.04 2.01c.05.56.15 1.08.4 1.57a4 4 0 0 0 1.74 1.74c.49.25 1 .35 1.57.4q.8.05 2 .04h4.5q1.2.01 2-.04a4 4 0 0 0 1.57-.4 4 4 0 0 0 1.74-1.74c.25-.49.35-1 .4-1.57q.05-.8.04-2v-3.87l-5.18-5.75c-.63-.7-1.06-1.17-1.42-1.51a2 2 0 0 0-.74-.52 2 2 0 0 0-1.32 0 2 2 0 0 0-.74.52c-.37.34-.8.81-1.43 1.51z" opacity=".3"/><path fill="currentColor" d="M13.31 2.7a4 4 0 0 0-2.63 0c-.55.2-1 .54-1.45.96q-.63.6-1.51 1.6l-5.46 6.07a1 1 0 0 0 1.48 1.34l5.43-6.04c.63-.7 1.06-1.17 1.43-1.51.35-.33.57-.46.74-.52a2 2 0 0 1 1.32 0c.17.06.39.19.74.52.36.34.8.81 1.42 1.51l5.44 6.04a1 1 0 0 0 1.48-1.34L20 9.4V5a1 1 0 1 0-2 0v2.17l-1.72-1.9q-.88-1-1.51-1.61c-.45-.42-.9-.76-1.46-.95"/><path fill="currentColor" d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6m4.9 4.78a2 2 0 0 0 .52-.37 6 6 0 0 0-10.84 0 2 2 0 0 0 .51.37c.43.22.99.22 2.11.22h5.6c1.12 0 1.68 0 2.1-.22"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

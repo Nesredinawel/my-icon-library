@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Stocking icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeStocking(size: 24, color: Colors.blue);
+/// ```
 class MonochromeStocking extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeStocking.
   const MonochromeStocking({
     super.key,
     this.size = 24,

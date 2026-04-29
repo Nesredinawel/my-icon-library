@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Image icon.
+///
+/// Example:
+/// ```dart
+/// SolidImage(size: 24, color: Colors.blue);
+/// ```
 class SolidImage extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidImage.
   const SolidImage({
     super.key,
     this.size = 24,

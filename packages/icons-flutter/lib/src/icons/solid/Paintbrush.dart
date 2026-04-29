@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Paintbrush icon.
+///
+/// Example:
+/// ```dart
+/// SolidPaintbrush(size: 24, color: Colors.blue);
+/// ```
 class SolidPaintbrush extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidPaintbrush.
   const SolidPaintbrush({
     super.key,
     this.size = 24,

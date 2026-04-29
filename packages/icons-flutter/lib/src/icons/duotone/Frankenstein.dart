@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Frankenstein icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneFrankenstein(size: 24, color: Colors.blue);
+/// ```
 class DuotoneFrankenstein extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneFrankenstein.
   const DuotoneFrankenstein({
     super.key,
     this.size = 24,

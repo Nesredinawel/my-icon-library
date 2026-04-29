@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Airplay icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeAirplay(size: 24, color: Colors.blue);
+/// ```
 class MonochromeAirplay extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeAirplay.
   const MonochromeAirplay({
     super.key,
     this.size = 24,

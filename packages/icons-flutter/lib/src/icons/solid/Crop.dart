@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Crop icon.
+///
+/// Example:
+/// ```dart
+/// SolidCrop(size: 24, color: Colors.blue);
+/// ```
 class SolidCrop extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCrop.
   const SolidCrop({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Eclipse icon.
+///
+/// Example:
+/// ```dart
+/// SolidEclipse(size: 24, color: Colors.blue);
+/// ```
 class SolidEclipse extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidEclipse.
   const SolidEclipse({
     super.key,
     this.size = 24,

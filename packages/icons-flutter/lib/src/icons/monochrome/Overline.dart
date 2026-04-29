@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Overline icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeOverline(size: 24, color: Colors.blue);
+/// ```
 class MonochromeOverline extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeOverline.
   const MonochromeOverline({
     super.key,
     this.size = 24,

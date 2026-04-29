@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Wallet icon.
+///
+/// Example:
+/// ```dart
+/// OutlineWallet(size: 24, color: Colors.blue);
+/// ```
 class OutlineWallet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineWallet.
   const OutlineWallet({
     super.key,
     this.size = 24,

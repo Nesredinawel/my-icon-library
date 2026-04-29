@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Heat icon.
+///
+/// Example:
+/// ```dart
+/// OutlineHeat(size: 24, color: Colors.blue);
+/// ```
 class OutlineHeat extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineHeat.
   const OutlineHeat({
     super.key,
     this.size = 24,

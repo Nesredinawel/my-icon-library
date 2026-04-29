@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style LaptopDollar icon.
+///
+/// Example:
+/// ```dart
+/// SolidLaptopDollar(size: 24, color: Colors.blue);
+/// ```
+class SolidLaptopDollar extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidLaptopDollar.
+  const SolidLaptopDollar({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M7.16 2h8.98l-.34.21A4 4 0 0 0 14.33 4H7.2a17 17 0 0 0-1.23.02c-.27.03-.37.06-.42.09a1 1 0 0 0-.44.44c-.03.05-.06.15-.09.42A17 17 0 0 0 5 6.2v5.6c0 .58 0 .95.02 1.23.03.27.06.37.09.42a1 1 0 0 0 .44.44c.05.03.15.06.42.09.28.02.65.02 1.23.02h9.6c.58 0 .95 0 1.23-.02l.32-.05a3 3 0 0 0 2.61-.66q-.03.56-.29 1.1a3 3 0 0 1-.65.85c.44.46.74 1.06 1.13 1.85l.6 1.2q.28.54.45.95c.1.28.22.66.16 1.07a2 2 0 0 1-.83 1.35c-.35.24-.73.3-1.03.33q-.45.04-1.05.03H4.55q-.6 0-1.05-.03c-.3-.02-.68-.09-1.03-.33a2 2 0 0 1-.83-1.35 2 2 0 0 1 .16-1.07q.17-.42.44-.95l.6-1.2c.4-.79.7-1.39 1.14-1.85a3 3 0 0 1-.65-.86 3 3 0 0 1-.3-1.16A18 18 0 0 1 3 11.84V6.16q0-.8.03-1.36c.03-.39.1-.78.3-1.16a3 3 0 0 1 1.3-1.31c.39-.2.78-.27 1.17-.3Q6.37 2 7.16 2M10 17a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2z" clip-rule="evenodd"/><path fill="currentColor" d="M20 3a1 1 0 1 0-2 0v.44q-.56.09-1.07.42c-.57.4-.93 1.02-.93 1.83 0 .92.5 1.56 1.15 1.91.59.32 1.28.4 1.85.4q.69.01.92.14l.06.04v.02l.02.12-.06.05q-.2.14-.82.23h-.29c-.58 0-.93 0-1.7-.1a1 1 0 1 0-.25 2l1.12.1v.4a1 1 0 1 0 2 0v-.53q.54-.13 1-.4c.56-.36 1-.94 1-1.76q0-.65-.33-1.2-.34-.52-.84-.75C20.23 6.06 19.54 6 19 6q-.65-.01-.9-.16l-.07-.04-.02-.02v-.01L18 5.69l.02-.14.05-.04q.11-.1.56-.13H19c.72 0 1.4 0 1.75.1a1 1 0 0 0 .48-1.95 6 6 0 0 0-1.24-.14z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

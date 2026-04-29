@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Screencast icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneScreencast(size: 24, color: Colors.blue);
+/// ```
 class DuotoneScreencast extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneScreencast.
   const DuotoneScreencast({
     super.key,
     this.size = 24,

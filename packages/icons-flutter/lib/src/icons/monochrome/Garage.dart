@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Garage icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeGarage(size: 24, color: Colors.blue);
+/// ```
 class MonochromeGarage extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeGarage.
   const MonochromeGarage({
     super.key,
     this.size = 24,

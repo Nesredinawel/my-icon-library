@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Sort icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSort(size: 24, color: Colors.blue);
+/// ```
 class OutlineSort extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSort.
   const OutlineSort({
     super.key,
     this.size = 24,

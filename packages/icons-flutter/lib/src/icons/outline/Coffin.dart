@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Coffin icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCoffin(size: 24, color: Colors.blue);
+/// ```
 class OutlineCoffin extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCoffin.
   const OutlineCoffin({
     super.key,
     this.size = 24,

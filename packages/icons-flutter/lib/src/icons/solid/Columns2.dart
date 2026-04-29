@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Columns2 icon.
+///
+/// Example:
+/// ```dart
+/// SolidColumns2(size: 24, color: Colors.blue);
+/// ```
 class SolidColumns2 extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidColumns2.
   const SolidColumns2({
     super.key,
     this.size = 24,

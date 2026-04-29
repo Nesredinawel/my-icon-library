@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Clone icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeClone(size: 24, color: Colors.blue);
+/// ```
 class MonochromeClone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeClone.
   const MonochromeClone({
     super.key,
     this.size = 24,

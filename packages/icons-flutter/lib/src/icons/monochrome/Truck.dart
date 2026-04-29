@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Truck icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeTruck(size: 24, color: Colors.blue);
+/// ```
 class MonochromeTruck extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeTruck.
   const MonochromeTruck({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Paintbrush icon.
+///
+/// Example:
+/// ```dart
+/// MonochromePaintbrush(size: 24, color: Colors.blue);
+/// ```
 class MonochromePaintbrush extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromePaintbrush.
   const MonochromePaintbrush({
     super.key,
     this.size = 24,

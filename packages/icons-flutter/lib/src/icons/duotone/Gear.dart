@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Gear icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneGear(size: 24, color: Colors.blue);
+/// ```
 class DuotoneGear extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneGear.
   const DuotoneGear({
     super.key,
     this.size = 24,

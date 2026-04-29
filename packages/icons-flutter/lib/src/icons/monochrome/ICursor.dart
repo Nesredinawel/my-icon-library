@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style ICursor icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeICursor(size: 24, color: Colors.blue);
+/// ```
 class MonochromeICursor extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeICursor.
   const MonochromeICursor({
     super.key,
     this.size = 24,

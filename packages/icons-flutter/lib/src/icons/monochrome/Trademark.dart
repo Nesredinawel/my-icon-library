@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Trademark icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeTrademark(size: 24, color: Colors.blue);
+/// ```
 class MonochromeTrademark extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeTrademark.
   const MonochromeTrademark({
     super.key,
     this.size = 24,

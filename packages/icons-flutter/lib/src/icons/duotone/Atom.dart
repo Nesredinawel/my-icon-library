@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Atom icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneAtom(size: 24, color: Colors.blue);
+/// ```
 class DuotoneAtom extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneAtom.
   const DuotoneAtom({
     super.key,
     this.size = 24,

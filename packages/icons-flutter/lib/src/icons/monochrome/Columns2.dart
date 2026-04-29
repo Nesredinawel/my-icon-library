@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Columns2 icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeColumns2(size: 24, color: Colors.blue);
+/// ```
 class MonochromeColumns2 extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeColumns2.
   const MonochromeColumns2({
     super.key,
     this.size = 24,

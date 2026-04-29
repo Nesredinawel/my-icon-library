@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Tv icon.
+///
+/// Example:
+/// ```dart
+/// SolidTv(size: 24, color: Colors.blue);
+/// ```
 class SolidTv extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidTv.
   const SolidTv({
     super.key,
     this.size = 24,

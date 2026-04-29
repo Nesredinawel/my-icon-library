@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Code icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCode(size: 24, color: Colors.blue);
+/// ```
 class OutlineCode extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCode.
   const OutlineCode({
     super.key,
     this.size = 24,

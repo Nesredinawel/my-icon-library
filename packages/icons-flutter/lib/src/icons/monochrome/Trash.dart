@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Trash icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeTrash(size: 24, color: Colors.blue);
+/// ```
 class MonochromeTrash extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeTrash.
   const MonochromeTrash({
     super.key,
     this.size = 24,

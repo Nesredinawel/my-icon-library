@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Italic icon.
+///
+/// Example:
+/// ```dart
+/// OutlineItalic(size: 24, color: Colors.blue);
+/// ```
 class OutlineItalic extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineItalic.
   const OutlineItalic({
     super.key,
     this.size = 24,

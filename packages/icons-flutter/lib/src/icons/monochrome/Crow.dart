@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Crow icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCrow(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCrow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCrow.
   const MonochromeCrow({
     super.key,
     this.size = 24,

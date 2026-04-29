@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Scrubber icon.
+///
+/// Example:
+/// ```dart
+/// OutlineScrubber(size: 24, color: Colors.blue);
+/// ```
 class OutlineScrubber extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineScrubber.
   const OutlineScrubber({
     super.key,
     this.size = 24,

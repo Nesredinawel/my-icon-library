@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Figma icon.
+///
+/// Example:
+/// ```dart
+/// SolidFigma(size: 24, color: Colors.blue);
+/// ```
 class SolidFigma extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidFigma.
   const SolidFigma({
     super.key,
     this.size = 24,

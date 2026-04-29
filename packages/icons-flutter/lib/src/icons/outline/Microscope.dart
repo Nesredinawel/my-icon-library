@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Microscope icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMicroscope(size: 24, color: Colors.blue);
+/// ```
 class OutlineMicroscope extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMicroscope.
   const OutlineMicroscope({
     super.key,
     this.size = 24,

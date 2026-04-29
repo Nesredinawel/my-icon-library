@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Compass icon.
+///
+/// Example:
+/// ```dart
+/// SolidCompass(size: 24, color: Colors.blue);
+/// ```
 class SolidCompass extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCompass.
   const SolidCompass({
     super.key,
     this.size = 24,

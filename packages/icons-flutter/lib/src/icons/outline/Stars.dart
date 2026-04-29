@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Stars icon.
+///
+/// Example:
+/// ```dart
+/// OutlineStars(size: 24, color: Colors.blue);
+/// ```
 class OutlineStars extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineStars.
   const OutlineStars({
     super.key,
     this.size = 24,

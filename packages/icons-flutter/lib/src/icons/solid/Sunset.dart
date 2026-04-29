@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Sunset icon.
+///
+/// Example:
+/// ```dart
+/// SolidSunset(size: 24, color: Colors.blue);
+/// ```
 class SolidSunset extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSunset.
   const SolidSunset({
     super.key,
     this.size = 24,

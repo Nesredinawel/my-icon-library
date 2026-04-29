@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Command icon.
+///
+/// Example:
+/// ```dart
+/// SolidCommand(size: 24, color: Colors.blue);
+/// ```
 class SolidCommand extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCommand.
   const SolidCommand({
     super.key,
     this.size = 24,

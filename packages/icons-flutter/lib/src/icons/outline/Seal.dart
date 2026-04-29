@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Seal icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSeal(size: 24, color: Colors.blue);
+/// ```
 class OutlineSeal extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSeal.
   const OutlineSeal({
     super.key,
     this.size = 24,

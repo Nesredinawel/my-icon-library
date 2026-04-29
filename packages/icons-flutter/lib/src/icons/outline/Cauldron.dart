@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Cauldron icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCauldron(size: 24, color: Colors.blue);
+/// ```
 class OutlineCauldron extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCauldron.
   const OutlineCauldron({
     super.key,
     this.size = 24,

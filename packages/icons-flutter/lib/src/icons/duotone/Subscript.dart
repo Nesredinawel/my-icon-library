@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Subscript icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSubscript(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSubscript extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSubscript.
   const DuotoneSubscript({
     super.key,
     this.size = 24,

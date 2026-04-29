@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Garage icon.
+///
+/// Example:
+/// ```dart
+/// SolidGarage(size: 24, color: Colors.blue);
+/// ```
 class SolidGarage extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidGarage.
   const SolidGarage({
     super.key,
     this.size = 24,

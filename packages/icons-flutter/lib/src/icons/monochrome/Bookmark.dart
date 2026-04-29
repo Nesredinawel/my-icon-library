@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Bookmark icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBookmark(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBookmark extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBookmark.
   const MonochromeBookmark({
     super.key,
     this.size = 24,

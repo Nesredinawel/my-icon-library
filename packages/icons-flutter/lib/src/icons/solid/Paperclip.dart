@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Paperclip icon.
+///
+/// Example:
+/// ```dart
+/// SolidPaperclip(size: 24, color: Colors.blue);
+/// ```
 class SolidPaperclip extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidPaperclip.
   const SolidPaperclip({
     super.key,
     this.size = 24,

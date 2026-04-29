@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Download icon.
+///
+/// Example:
+/// ```dart
+/// SolidDownload(size: 24, color: Colors.blue);
+/// ```
 class SolidDownload extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidDownload.
   const SolidDownload({
     super.key,
     this.size = 24,

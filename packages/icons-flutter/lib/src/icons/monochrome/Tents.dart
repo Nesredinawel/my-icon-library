@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Tents icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeTents(size: 24, color: Colors.blue);
+/// ```
 class MonochromeTents extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeTents.
   const MonochromeTents({
     super.key,
     this.size = 24,

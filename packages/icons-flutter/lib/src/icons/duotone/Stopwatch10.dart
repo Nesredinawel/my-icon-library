@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Stopwatch10 icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneStopwatch10(size: 24, color: Colors.blue);
+/// ```
 class DuotoneStopwatch10 extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneStopwatch10.
   const DuotoneStopwatch10({
     super.key,
     this.size = 24,

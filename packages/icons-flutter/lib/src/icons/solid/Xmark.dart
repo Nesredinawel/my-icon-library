@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Xmark icon.
+///
+/// Example:
+/// ```dart
+/// SolidXmark(size: 24, color: Colors.blue);
+/// ```
 class SolidXmark extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidXmark.
   const SolidXmark({
     super.key,
     this.size = 24,

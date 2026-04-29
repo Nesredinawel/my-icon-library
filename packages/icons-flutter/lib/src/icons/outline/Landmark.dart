@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Landmark icon.
+///
+/// Example:
+/// ```dart
+/// OutlineLandmark(size: 24, color: Colors.blue);
+/// ```
 class OutlineLandmark extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineLandmark.
   const OutlineLandmark({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Cleaver icon.
+///
+/// Example:
+/// ```dart
+/// SolidCleaver(size: 24, color: Colors.blue);
+/// ```
 class SolidCleaver extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCleaver.
   const SolidCleaver({
     super.key,
     this.size = 24,

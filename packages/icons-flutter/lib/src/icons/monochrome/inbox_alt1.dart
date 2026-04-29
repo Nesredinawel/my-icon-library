@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style InboxAlt1 icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeInboxAlt1(size: 24, color: Colors.blue);
+/// ```
+class MonochromeInboxAlt1 extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeInboxAlt1.
+  const MonochromeInboxAlt1({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M19.52 6.27 21.65 11h-4.57q-.5-.01-.95.08a3 3 0 0 0-.87.36q-.43.29-.85.73l-.18.19c-.38.38-.46.45-.54.5a1 1 0 0 1-.29.11c-.08.02-.19.03-.73.03h-1.34c-.54 0-.65 0-.74-.03a1 1 0 0 1-.28-.12 4 4 0 0 1-.54-.5l-.18-.18c-.3-.29-.55-.54-.85-.73A3 3 0 0 0 6.92 11H2.35l2.13-4.73c.4-.88.7-1.54 1.18-2.05a4 4 0 0 1 1.53-.99A7 7 0 0 1 9.54 3h4.92a7 7 0 0 1 2.35.23 4 4 0 0 1 1.53 1c.49.5.78 1.16 1.18 2.04" opacity=".3"/><path fill="currentColor" d="m2.35 11-.26.59A1 1 0 0 0 2 12v3.84q0 .8.03 1.36c.03.39.1.78.3 1.16a3 3 0 0 0 1.3 1.31c.39.2.78.27 1.17.3q.57.04 1.36.03h11.68q.8 0 1.36-.03c.39-.03.78-.1 1.16-.3a3 3 0 0 0 1.31-1.3c.2-.39.27-.78.3-1.18q.04-.55.03-1.35V12a1 1 0 0 0-.09-.41l-.26-.59h-4.57q-.5-.01-.95.08a3 3 0 0 0-.87.36q-.43.29-.85.73l-.18.19a4 4 0 0 1-.54.5 1 1 0 0 1-.29.11c-.08.02-.19.03-.73.03h-1.34c-.54 0-.65 0-.73-.03a1 1 0 0 1-.3-.12 4 4 0 0 1-.53-.5l-.18-.18a5 5 0 0 0-.85-.73A3 3 0 0 0 6.92 11z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

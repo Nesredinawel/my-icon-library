@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Memo icon.
+///
+/// Example:
+/// ```dart
+/// SolidMemo(size: 24, color: Colors.blue);
+/// ```
 class SolidMemo extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMemo.
   const SolidMemo({
     super.key,
     this.size = 24,

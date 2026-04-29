@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Clone icon.
+///
+/// Example:
+/// ```dart
+/// OutlineClone(size: 24, color: Colors.blue);
+/// ```
 class OutlineClone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineClone.
   const OutlineClone({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Mouse icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMouse(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMouse extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMouse.
   const MonochromeMouse({
     super.key,
     this.size = 24,

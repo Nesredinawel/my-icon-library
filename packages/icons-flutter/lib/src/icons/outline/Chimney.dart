@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Chimney icon.
+///
+/// Example:
+/// ```dart
+/// OutlineChimney(size: 24, color: Colors.blue);
+/// ```
 class OutlineChimney extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineChimney.
   const OutlineChimney({
     super.key,
     this.size = 24,

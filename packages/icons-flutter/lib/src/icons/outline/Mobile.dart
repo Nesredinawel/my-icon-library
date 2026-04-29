@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Mobile icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMobile(size: 24, color: Colors.blue);
+/// ```
 class OutlineMobile extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMobile.
   const OutlineMobile({
     super.key,
     this.size = 24,

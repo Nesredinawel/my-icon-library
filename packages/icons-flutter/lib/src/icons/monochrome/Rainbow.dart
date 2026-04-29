@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Rainbow icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeRainbow(size: 24, color: Colors.blue);
+/// ```
 class MonochromeRainbow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeRainbow.
   const MonochromeRainbow({
     super.key,
     this.size = 24,

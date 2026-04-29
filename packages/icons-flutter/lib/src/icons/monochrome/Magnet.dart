@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Magnet icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMagnet(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMagnet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMagnet.
   const MonochromeMagnet({
     super.key,
     this.size = 24,

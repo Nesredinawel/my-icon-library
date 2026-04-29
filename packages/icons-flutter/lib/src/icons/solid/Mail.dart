@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Mail icon.
+///
+/// Example:
+/// ```dart
+/// SolidMail(size: 24, color: Colors.blue);
+/// ```
 class SolidMail extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMail.
   const SolidMail({
     super.key,
     this.size = 24,

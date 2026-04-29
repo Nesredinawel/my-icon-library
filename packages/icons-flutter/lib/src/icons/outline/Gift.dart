@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Gift icon.
+///
+/// Example:
+/// ```dart
+/// OutlineGift(size: 24, color: Colors.blue);
+/// ```
 class OutlineGift extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineGift.
   const OutlineGift({
     super.key,
     this.size = 24,

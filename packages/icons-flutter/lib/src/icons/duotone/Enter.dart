@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Enter icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneEnter(size: 24, color: Colors.blue);
+/// ```
 class DuotoneEnter extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneEnter.
   const DuotoneEnter({
     super.key,
     this.size = 24,

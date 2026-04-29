@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Voicemail icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeVoicemail(size: 24, color: Colors.blue);
+/// ```
 class MonochromeVoicemail extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeVoicemail.
   const MonochromeVoicemail({
     super.key,
     this.size = 24,

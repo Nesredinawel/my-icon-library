@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Tally icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTally(size: 24, color: Colors.blue);
+/// ```
 class OutlineTally extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineTally.
   const OutlineTally({
     super.key,
     this.size = 24,

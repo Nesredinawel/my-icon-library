@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style WandMagicSparkles icon.
+///
+/// Example:
+/// ```dart
+/// OutlineWandMagicSparkles(size: 24, color: Colors.blue);
+/// ```
+class OutlineWandMagicSparkles extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlineWandMagicSparkles.
+  const OutlineWandMagicSparkles({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M5 7v4m5-9v4m8 10v4M3 9h4m1-5h4m4 14h4M14 7l2.83 2.83m2.69-6.08.56.56c.4.4.6.6.67.82a1 1 0 0 1 0 .62c-.07.23-.27.43-.67.82L6.53 20.13c-.4.4-.6.6-.83.67a1 1 0 0 1-.61 0c-.23-.07-.43-.27-.83-.67l-.56-.56c-.4-.4-.6-.6-.67-.83a1 1 0 0 1 0-.61c.07-.23.27-.43.67-.83L17.25 3.75c.4-.4.6-.6.83-.67a1 1 0 0 1 .61 0c.23.07.43.27.83.67"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

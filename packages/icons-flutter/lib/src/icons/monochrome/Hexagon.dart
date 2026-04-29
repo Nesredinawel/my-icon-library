@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Hexagon icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeHexagon(size: 24, color: Colors.blue);
+/// ```
 class MonochromeHexagon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeHexagon.
   const MonochromeHexagon({
     super.key,
     this.size = 24,

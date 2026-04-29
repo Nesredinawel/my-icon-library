@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Grid icon.
+///
+/// Example:
+/// ```dart
+/// SolidGrid(size: 24, color: Colors.blue);
+/// ```
 class SolidGrid extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidGrid.
   const SolidGrid({
     super.key,
     this.size = 24,

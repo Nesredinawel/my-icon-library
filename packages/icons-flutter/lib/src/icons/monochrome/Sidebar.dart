@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Sidebar icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSidebar(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSidebar extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSidebar.
   const MonochromeSidebar({
     super.key,
     this.size = 24,

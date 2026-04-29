@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Ghost icon.
+///
+/// Example:
+/// ```dart
+/// OutlineGhost(size: 24, color: Colors.blue);
+/// ```
 class OutlineGhost extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineGhost.
   const OutlineGhost({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Mail icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMail(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMail extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMail.
   const DuotoneMail({
     super.key,
     this.size = 24,

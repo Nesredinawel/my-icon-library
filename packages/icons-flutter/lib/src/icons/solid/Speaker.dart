@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Speaker icon.
+///
+/// Example:
+/// ```dart
+/// SolidSpeaker(size: 24, color: Colors.blue);
+/// ```
 class SolidSpeaker extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSpeaker.
   const SolidSpeaker({
     super.key,
     this.size = 24,

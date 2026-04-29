@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Window icon.
+///
+/// Example:
+/// ```dart
+/// SolidWindow(size: 24, color: Colors.blue);
+/// ```
 class SolidWindow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidWindow.
   const SolidWindow({
     super.key,
     this.size = 24,

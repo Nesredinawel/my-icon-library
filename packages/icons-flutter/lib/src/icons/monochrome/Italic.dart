@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Italic icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeItalic(size: 24, color: Colors.blue);
+/// ```
 class MonochromeItalic extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeItalic.
   const MonochromeItalic({
     super.key,
     this.size = 24,

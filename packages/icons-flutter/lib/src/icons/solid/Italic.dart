@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Italic icon.
+///
+/// Example:
+/// ```dart
+/// SolidItalic(size: 24, color: Colors.blue);
+/// ```
 class SolidItalic extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidItalic.
   const SolidItalic({
     super.key,
     this.size = 24,

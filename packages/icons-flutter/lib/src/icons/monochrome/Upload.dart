@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Upload icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeUpload(size: 24, color: Colors.blue);
+/// ```
 class MonochromeUpload extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeUpload.
   const MonochromeUpload({
     super.key,
     this.size = 24,

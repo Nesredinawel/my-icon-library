@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Broom icon.
+///
+/// Example:
+/// ```dart
+/// SolidBroom(size: 24, color: Colors.blue);
+/// ```
 class SolidBroom extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidBroom.
   const SolidBroom({
     super.key,
     this.size = 24,

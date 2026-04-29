@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Wifi icon.
+///
+/// Example:
+/// ```dart
+/// SolidWifi(size: 24, color: Colors.blue);
+/// ```
 class SolidWifi extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidWifi.
   const SolidWifi({
     super.key,
     this.size = 24,

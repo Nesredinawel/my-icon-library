@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Clouds icon.
+///
+/// Example:
+/// ```dart
+/// SolidClouds(size: 24, color: Colors.blue);
+/// ```
 class SolidClouds extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidClouds.
   const SolidClouds({
     super.key,
     this.size = 24,

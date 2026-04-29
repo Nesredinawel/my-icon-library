@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Star icon.
+///
+/// Example:
+/// ```dart
+/// SolidStar(size: 24, color: Colors.blue);
+/// ```
 class SolidStar extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidStar.
   const SolidStar({
     super.key,
     this.size = 24,

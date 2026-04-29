@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Strikethrough icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeStrikethrough(size: 24, color: Colors.blue);
+/// ```
 class MonochromeStrikethrough extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeStrikethrough.
   const MonochromeStrikethrough({
     super.key,
     this.size = 24,

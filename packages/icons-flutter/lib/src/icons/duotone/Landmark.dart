@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Landmark icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneLandmark(size: 24, color: Colors.blue);
+/// ```
 class DuotoneLandmark extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneLandmark.
   const DuotoneLandmark({
     super.key,
     this.size = 24,

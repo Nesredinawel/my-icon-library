@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Fireplace icon.
+///
+/// Example:
+/// ```dart
+/// SolidFireplace(size: 24, color: Colors.blue);
+/// ```
 class SolidFireplace extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidFireplace.
   const SolidFireplace({
     super.key,
     this.size = 24,

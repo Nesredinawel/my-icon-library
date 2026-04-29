@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Heading icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneHeading(size: 24, color: Colors.blue);
+/// ```
 class DuotoneHeading extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneHeading.
   const DuotoneHeading({
     super.key,
     this.size = 24,

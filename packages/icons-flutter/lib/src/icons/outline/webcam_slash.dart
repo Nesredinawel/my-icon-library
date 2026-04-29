@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style WebcamSlash icon.
+///
+/// Example:
+/// ```dart
+/// OutlineWebcamSlash(size: 24, color: Colors.blue);
+/// ```
+class OutlineWebcamSlash extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlineWebcamSlash.
+  const OutlineWebcamSlash({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M15.7 15.94A7 7 0 0 1 6.12 6.2m12.2 6.8A7 7 0 0 0 9 3.67M3.01 3l18 18M11.5 7.04Q11.74 7 12 7a3 3 0 0 1 2.96 3.5M20 21H6.96c-2.22 0-3.32 0-3.87-.45a2 2 0 0 1-.74-1.6c.02-.71.74-1.55 2.18-3.23L6 14"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Anchor icon.
+///
+/// Example:
+/// ```dart
+/// SolidAnchor(size: 24, color: Colors.blue);
+/// ```
 class SolidAnchor extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidAnchor.
   const SolidAnchor({
     super.key,
     this.size = 24,

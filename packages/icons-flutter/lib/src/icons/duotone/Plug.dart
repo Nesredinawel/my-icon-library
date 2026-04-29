@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Plug icon.
+///
+/// Example:
+/// ```dart
+/// DuotonePlug(size: 24, color: Colors.blue);
+/// ```
 class DuotonePlug extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotonePlug.
   const DuotonePlug({
     super.key,
     this.size = 24,

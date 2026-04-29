@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Glasses icon.
+///
+/// Example:
+/// ```dart
+/// SolidGlasses(size: 24, color: Colors.blue);
+/// ```
 class SolidGlasses extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidGlasses.
   const SolidGlasses({
     super.key,
     this.size = 24,

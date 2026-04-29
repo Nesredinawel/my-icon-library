@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Cat icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCat(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCat extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCat.
   const DuotoneCat({
     super.key,
     this.size = 24,

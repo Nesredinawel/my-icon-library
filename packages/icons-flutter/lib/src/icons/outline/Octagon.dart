@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Octagon icon.
+///
+/// Example:
+/// ```dart
+/// OutlineOctagon(size: 24, color: Colors.blue);
+/// ```
 class OutlineOctagon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineOctagon.
   const OutlineOctagon({
     super.key,
     this.size = 24,

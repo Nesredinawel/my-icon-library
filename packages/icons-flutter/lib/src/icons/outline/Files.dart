@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Files icon.
+///
+/// Example:
+/// ```dart
+/// OutlineFiles(size: 24, color: Colors.blue);
+/// ```
 class OutlineFiles extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineFiles.
   const OutlineFiles({
     super.key,
     this.size = 24,

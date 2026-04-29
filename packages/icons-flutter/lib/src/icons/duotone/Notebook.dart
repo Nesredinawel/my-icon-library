@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Notebook icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneNotebook(size: 24, color: Colors.blue);
+/// ```
 class DuotoneNotebook extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneNotebook.
   const DuotoneNotebook({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Route icon.
+///
+/// Example:
+/// ```dart
+/// SolidRoute(size: 24, color: Colors.blue);
+/// ```
 class SolidRoute extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidRoute.
   const SolidRoute({
     super.key,
     this.size = 24,

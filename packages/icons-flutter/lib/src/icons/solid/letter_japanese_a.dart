@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style LetterJapaneseA icon.
+///
+/// Example:
+/// ```dart
+/// SolidLetterJapaneseA(size: 24, color: Colors.blue);
+/// ```
+class SolidLetterJapaneseA extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidLetterJapaneseA.
+  const SolidLetterJapaneseA({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M12.5 3.25a1 1 0 1 0-1.94-.5l-.07.28-.44 1.78C8.98 4.93 8.06 5 7.53 5a1 1 0 0 0 0 2c.5 0 1.24-.05 2.1-.14a23 23 0 0 0-.25 4.78C6.7 12.81 5.02 14 4.07 15.14A4 4 0 0 0 3 17.68c0 .85.35 1.55.83 2.03.63.64 1.45.8 1.98.82a4 4 0 0 0 1-.06 10 10 0 0 0 3.7-1.45l.05.2a1 1 0 1 0 1.94-.46l-.24-1.07q.57-.54 1.07-1.11a14 14 0 0 0 2.81-4.96c.7-.03 1.36.05 1.88.23.66.23 1 .58 1.12 1 .13.44.08 1.24-.65 2.52-.73 1.26-2.07 2.88-4.28 4.88a1 1 0 0 0 1.34 1.48c2.3-2.07 3.8-3.85 4.67-5.37.87-1.5 1.18-2.89.84-4.07a3.6 3.6 0 0 0-2.38-2.33 7 7 0 0 0-2.16-.35q.01-.4-.05-.77a1 1 0 0 0-1.97.3q.04.25 0 .7-.4.08-.78.2-1.27.4-2.36.8a22 22 0 0 1 .35-4.23 63 63 0 0 0 4.02-.64 1 1 0 0 0-.39-1.96 68 68 0 0 1-3.17.52l.27-1.04zm-.68 12.03-.03.03q-.2-1.28-.31-2.37 1.05-.4 2.35-.83a13 13 0 0 1-2 3.17M5.6 16.42c.63-.76 1.84-1.67 3.95-2.66q.17 1.45.5 3.17a8.5 8.5 0 0 1-3.75 1.6q-.15.02-.38.01-.5-.03-.66-.22A1 1 0 0 1 5 17.7c0-.27.1-.7.6-1.28" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Sidebar icon.
+///
+/// Example:
+/// ```dart
+/// SolidSidebar(size: 24, color: Colors.blue);
+/// ```
 class SolidSidebar extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSidebar.
   const SolidSidebar({
     super.key,
     this.size = 24,

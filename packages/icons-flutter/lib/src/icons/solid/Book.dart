@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Book icon.
+///
+/// Example:
+/// ```dart
+/// SolidBook(size: 24, color: Colors.blue);
+/// ```
 class SolidBook extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidBook.
   const SolidBook({
     super.key,
     this.size = 24,

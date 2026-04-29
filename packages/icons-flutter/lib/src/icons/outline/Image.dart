@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Image icon.
+///
+/// Example:
+/// ```dart
+/// OutlineImage(size: 24, color: Colors.blue);
+/// ```
 class OutlineImage extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineImage.
   const OutlineImage({
     super.key,
     this.size = 24,

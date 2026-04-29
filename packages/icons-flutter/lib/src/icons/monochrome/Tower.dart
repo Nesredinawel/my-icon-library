@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Tower icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeTower(size: 24, color: Colors.blue);
+/// ```
 class MonochromeTower extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeTower.
   const MonochromeTower({
     super.key,
     this.size = 24,

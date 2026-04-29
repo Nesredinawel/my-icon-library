@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Speaker icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSpeaker(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSpeaker extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSpeaker.
   const MonochromeSpeaker({
     super.key,
     this.size = 24,

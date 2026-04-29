@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Mask icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMask(size: 24, color: Colors.blue);
+/// ```
 class OutlineMask extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMask.
   const OutlineMask({
     super.key,
     this.size = 24,

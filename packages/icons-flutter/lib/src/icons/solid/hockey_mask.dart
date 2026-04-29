@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style HockeyMask icon.
+///
+/// Example:
+/// ```dart
+/// SolidHockeyMask(size: 24, color: Colors.blue);
+/// ```
+class SolidHockeyMask extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidHockeyMask.
+  const SolidHockeyMask({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M12 22.98a7 7 0 0 1-1.95-.28c-.9-.25-1.73-.76-3.06-1.57L6.77 21a10 10 0 0 1-1.53-1.06A5 5 0 0 1 4 18.06a9 9 0 0 1-.38-1.82l-.57-3.86q-.05-.3-.05-.62V10a9 9 0 0 1 18 0v1.76q0 .31-.05.62l-.57 3.86a9 9 0 0 1-.38 1.82 5 5 0 0 1-1.24 1.88c-.4.36-.86.65-1.53 1.06l-.22.13c-1.33.8-2.17 1.32-3.06 1.57a7 7 0 0 1-1.95.28M7.67 8C6.75 8 6 8.75 6 9.67A2.33 2.33 0 0 0 8.33 12h.34A2.33 2.33 0 0 0 11 9.67C11 8.75 10.25 8 9.33 8zm7 0C13.75 8 13 8.75 13 9.67A2.33 2.33 0 0 0 15.33 12h.34A2.33 2.33 0 0 0 18 9.67C18 8.75 17.25 8 16.33 8zM10 16a1 1 0 1 0 0-2 1 1 0 0 0 0 2m1 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3-3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m1 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

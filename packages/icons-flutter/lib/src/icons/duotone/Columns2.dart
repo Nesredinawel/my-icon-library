@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Columns2 icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneColumns2(size: 24, color: Colors.blue);
+/// ```
 class DuotoneColumns2 extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneColumns2.
   const DuotoneColumns2({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Moon icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMoon(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMoon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMoon.
   const DuotoneMoon({
     super.key,
     this.size = 24,

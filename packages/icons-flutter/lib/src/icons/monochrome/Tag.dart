@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Tag icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeTag(size: 24, color: Colors.blue);
+/// ```
 class MonochromeTag extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeTag.
   const MonochromeTag({
     super.key,
     this.size = 24,

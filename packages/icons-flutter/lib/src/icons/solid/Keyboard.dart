@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Keyboard icon.
+///
+/// Example:
+/// ```dart
+/// SolidKeyboard(size: 24, color: Colors.blue);
+/// ```
 class SolidKeyboard extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidKeyboard.
   const SolidKeyboard({
     super.key,
     this.size = 24,

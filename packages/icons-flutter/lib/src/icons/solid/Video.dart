@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Video icon.
+///
+/// Example:
+/// ```dart
+/// SolidVideo(size: 24, color: Colors.blue);
+/// ```
 class SolidVideo extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidVideo.
   const SolidVideo({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Sunset icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSunset(size: 24, color: Colors.blue);
+/// ```
 class OutlineSunset extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSunset.
   const OutlineSunset({
     super.key,
     this.size = 24,

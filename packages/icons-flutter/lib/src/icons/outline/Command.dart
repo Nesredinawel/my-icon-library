@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Command icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCommand(size: 24, color: Colors.blue);
+/// ```
 class OutlineCommand extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCommand.
   const OutlineCommand({
     super.key,
     this.size = 24,

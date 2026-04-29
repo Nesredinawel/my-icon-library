@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Video icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeVideo(size: 24, color: Colors.blue);
+/// ```
 class MonochromeVideo extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeVideo.
   const MonochromeVideo({
     super.key,
     this.size = 24,

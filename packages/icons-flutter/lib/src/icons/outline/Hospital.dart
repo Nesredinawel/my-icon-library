@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Hospital icon.
+///
+/// Example:
+/// ```dart
+/// OutlineHospital(size: 24, color: Colors.blue);
+/// ```
 class OutlineHospital extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineHospital.
   const OutlineHospital({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Indent icon.
+///
+/// Example:
+/// ```dart
+/// SolidIndent(size: 24, color: Colors.blue);
+/// ```
 class SolidIndent extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidIndent.
   const SolidIndent({
     super.key,
     this.size = 24,

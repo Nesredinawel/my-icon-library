@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Hospital icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneHospital(size: 24, color: Colors.blue);
+/// ```
 class DuotoneHospital extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneHospital.
   const DuotoneHospital({
     super.key,
     this.size = 24,

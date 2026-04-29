@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Cctv icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCctv(size: 24, color: Colors.blue);
+/// ```
 class OutlineCctv extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCctv.
   const OutlineCctv({
     super.key,
     this.size = 24,

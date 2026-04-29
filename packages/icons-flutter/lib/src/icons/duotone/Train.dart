@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Train icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneTrain(size: 24, color: Colors.blue);
+/// ```
 class DuotoneTrain extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneTrain.
   const DuotoneTrain({
     super.key,
     this.size = 24,

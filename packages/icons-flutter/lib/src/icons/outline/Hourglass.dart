@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Hourglass icon.
+///
+/// Example:
+/// ```dart
+/// OutlineHourglass(size: 24, color: Colors.blue);
+/// ```
 class OutlineHourglass extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineHourglass.
   const OutlineHourglass({
     super.key,
     this.size = 24,

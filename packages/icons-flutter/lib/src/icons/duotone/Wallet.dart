@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Wallet icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneWallet(size: 24, color: Colors.blue);
+/// ```
 class DuotoneWallet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneWallet.
   const DuotoneWallet({
     super.key,
     this.size = 24,

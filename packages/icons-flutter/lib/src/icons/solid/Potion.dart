@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Potion icon.
+///
+/// Example:
+/// ```dart
+/// SolidPotion(size: 24, color: Colors.blue);
+/// ```
 class SolidPotion extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidPotion.
   const SolidPotion({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Laptop icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneLaptop(size: 24, color: Colors.blue);
+/// ```
 class DuotoneLaptop extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneLaptop.
   const DuotoneLaptop({
     super.key,
     this.size = 24,

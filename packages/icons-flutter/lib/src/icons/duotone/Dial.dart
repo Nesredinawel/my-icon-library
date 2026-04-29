@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Dial icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneDial(size: 24, color: Colors.blue);
+/// ```
 class DuotoneDial extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneDial.
   const DuotoneDial({
     super.key,
     this.size = 24,

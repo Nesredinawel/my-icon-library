@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Tablet icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneTablet(size: 24, color: Colors.blue);
+/// ```
 class DuotoneTablet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneTablet.
   const DuotoneTablet({
     super.key,
     this.size = 24,

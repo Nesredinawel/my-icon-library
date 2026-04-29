@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style H1 icon.
+///
+/// Example:
+/// ```dart
+/// OutlineH1(size: 24, color: Colors.blue);
+/// ```
 class OutlineH1 extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineH1.
   const OutlineH1({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style List icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneList(size: 24, color: Colors.blue);
+/// ```
 class DuotoneList extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneList.
   const DuotoneList({
     super.key,
     this.size = 24,

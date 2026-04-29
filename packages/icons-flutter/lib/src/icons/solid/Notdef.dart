@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Notdef icon.
+///
+/// Example:
+/// ```dart
+/// SolidNotdef(size: 24, color: Colors.blue);
+/// ```
 class SolidNotdef extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidNotdef.
   const SolidNotdef({
     super.key,
     this.size = 24,

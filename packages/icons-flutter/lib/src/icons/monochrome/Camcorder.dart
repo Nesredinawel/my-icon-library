@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Camcorder icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCamcorder(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCamcorder extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCamcorder.
   const MonochromeCamcorder({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Repeat icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeRepeat(size: 24, color: Colors.blue);
+/// ```
 class MonochromeRepeat extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeRepeat.
   const MonochromeRepeat({
     super.key,
     this.size = 24,

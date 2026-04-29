@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Engine icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneEngine(size: 24, color: Colors.blue);
+/// ```
 class DuotoneEngine extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneEngine.
   const DuotoneEngine({
     super.key,
     this.size = 24,

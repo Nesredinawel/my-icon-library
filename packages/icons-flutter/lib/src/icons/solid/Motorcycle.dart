@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Motorcycle icon.
+///
+/// Example:
+/// ```dart
+/// SolidMotorcycle(size: 24, color: Colors.blue);
+/// ```
 class SolidMotorcycle extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMotorcycle.
   const SolidMotorcycle({
     super.key,
     this.size = 24,

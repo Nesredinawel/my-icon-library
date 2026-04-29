@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Columns2 icon.
+///
+/// Example:
+/// ```dart
+/// OutlineColumns2(size: 24, color: Colors.blue);
+/// ```
 class OutlineColumns2 extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineColumns2.
   const OutlineColumns2({
     super.key,
     this.size = 24,

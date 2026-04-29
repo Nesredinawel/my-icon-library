@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Clouds icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeClouds(size: 24, color: Colors.blue);
+/// ```
 class MonochromeClouds extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeClouds.
   const MonochromeClouds({
     super.key,
     this.size = 24,

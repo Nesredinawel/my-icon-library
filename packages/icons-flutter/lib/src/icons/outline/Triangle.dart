@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Triangle icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTriangle(size: 24, color: Colors.blue);
+/// ```
 class OutlineTriangle extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineTriangle.
   const OutlineTriangle({
     super.key,
     this.size = 24,

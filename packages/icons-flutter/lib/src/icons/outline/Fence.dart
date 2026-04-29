@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Fence icon.
+///
+/// Example:
+/// ```dart
+/// OutlineFence(size: 24, color: Colors.blue);
+/// ```
 class OutlineFence extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineFence.
   const OutlineFence({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Pause icon.
+///
+/// Example:
+/// ```dart
+/// SolidPause(size: 24, color: Colors.blue);
+/// ```
 class SolidPause extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidPause.
   const SolidPause({
     super.key,
     this.size = 24,

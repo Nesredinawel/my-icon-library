@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Voicemail icon.
+///
+/// Example:
+/// ```dart
+/// OutlineVoicemail(size: 24, color: Colors.blue);
+/// ```
 class OutlineVoicemail extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineVoicemail.
   const OutlineVoicemail({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Flag icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneFlag(size: 24, color: Colors.blue);
+/// ```
 class DuotoneFlag extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneFlag.
   const DuotoneFlag({
     super.key,
     this.size = 24,

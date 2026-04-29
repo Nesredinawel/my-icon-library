@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Headphones icon.
+///
+/// Example:
+/// ```dart
+/// SolidHeadphones(size: 24, color: Colors.blue);
+/// ```
 class SolidHeadphones extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidHeadphones.
   const SolidHeadphones({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Truck icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneTruck(size: 24, color: Colors.blue);
+/// ```
 class DuotoneTruck extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneTruck.
   const DuotoneTruck({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Globe icon.
+///
+/// Example:
+/// ```dart
+/// SolidGlobe(size: 24, color: Colors.blue);
+/// ```
 class SolidGlobe extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidGlobe.
   const SolidGlobe({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Radio icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneRadio(size: 24, color: Colors.blue);
+/// ```
 class DuotoneRadio extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneRadio.
   const DuotoneRadio({
     super.key,
     this.size = 24,

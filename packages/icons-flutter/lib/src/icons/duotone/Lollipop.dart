@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Lollipop icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneLollipop(size: 24, color: Colors.blue);
+/// ```
 class DuotoneLollipop extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneLollipop.
   const DuotoneLollipop({
     super.key,
     this.size = 24,

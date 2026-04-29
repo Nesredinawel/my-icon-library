@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Monument icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMonument(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMonument extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMonument.
   const DuotoneMonument({
     super.key,
     this.size = 24,

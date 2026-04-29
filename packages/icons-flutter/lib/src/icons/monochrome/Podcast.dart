@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Podcast icon.
+///
+/// Example:
+/// ```dart
+/// MonochromePodcast(size: 24, color: Colors.blue);
+/// ```
 class MonochromePodcast extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromePodcast.
   const MonochromePodcast({
     super.key,
     this.size = 24,

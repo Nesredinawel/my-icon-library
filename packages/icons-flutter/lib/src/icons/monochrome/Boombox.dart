@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Boombox icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBoombox(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBoombox extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBoombox.
   const MonochromeBoombox({
     super.key,
     this.size = 24,

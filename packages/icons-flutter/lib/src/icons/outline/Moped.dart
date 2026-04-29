@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Moped icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMoped(size: 24, color: Colors.blue);
+/// ```
 class OutlineMoped extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMoped.
   const OutlineMoped({
     super.key,
     this.size = 24,

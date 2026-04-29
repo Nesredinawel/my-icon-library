@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Wallet icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeWallet(size: 24, color: Colors.blue);
+/// ```
 class MonochromeWallet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeWallet.
   const MonochromeWallet({
     super.key,
     this.size = 24,

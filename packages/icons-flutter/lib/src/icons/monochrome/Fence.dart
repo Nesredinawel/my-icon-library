@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Fence icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeFence(size: 24, color: Colors.blue);
+/// ```
 class MonochromeFence extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeFence.
   const MonochromeFence({
     super.key,
     this.size = 24,

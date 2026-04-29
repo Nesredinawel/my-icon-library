@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Atom icon.
+///
+/// Example:
+/// ```dart
+/// OutlineAtom(size: 24, color: Colors.blue);
+/// ```
 class OutlineAtom extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineAtom.
   const OutlineAtom({
     super.key,
     this.size = 24,

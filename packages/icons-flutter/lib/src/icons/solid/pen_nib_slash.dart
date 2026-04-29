@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style PenNibSlash icon.
+///
+/// Example:
+/// ```dart
+/// SolidPenNibSlash(size: 24, color: Colors.blue);
+/// ```
+class SolidPenNibSlash extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidPenNibSlash.
+  const SolidPenNibSlash({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M3.71 2.3A1 1 0 0 0 2.3 3.7l.53.54L5.8 7.26a3 3 0 0 0-.69.78c-.25.42-.37.9-.5 1.46l-2.53 11 5.08-5.09A2.5 2.5 0 0 1 9.5 12a2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-3.41 2.33L3.5 21.9l11-2.54a5 5 0 0 0 1.46-.5 3 3 0 0 0 .78-.67c1.3 1.3 2.52 2.5 3.56 3.52a1 1 0 1 0 1.4-1.44 1272 1272 0 0 1-16.02-16L4.24 2.83z" clip-rule="evenodd"/><path fill="currentColor" d="M20.6 9.82 19.4 11 13 4.59l1.18-1.19.52-.49c.17-.14.4-.3.68-.4a2 2 0 0 1 1.24 0c.29.1.51.26.68.4q.25.21.52.5l2.78 2.77.49.52q.23.26.4.68a2 2 0 0 1 0 1.24q-.17.42-.4.68-.21.25-.5.52M18.18 14l.31-1.1-7.4-7.4-1.09.32z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

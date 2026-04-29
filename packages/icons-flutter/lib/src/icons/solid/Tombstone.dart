@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Tombstone icon.
+///
+/// Example:
+/// ```dart
+/// SolidTombstone(size: 24, color: Colors.blue);
+/// ```
 class SolidTombstone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidTombstone.
   const SolidTombstone({
     super.key,
     this.size = 24,

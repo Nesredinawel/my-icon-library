@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Ornament icon.
+///
+/// Example:
+/// ```dart
+/// SolidOrnament(size: 24, color: Colors.blue);
+/// ```
 class SolidOrnament extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidOrnament.
   const SolidOrnament({
     super.key,
     this.size = 24,

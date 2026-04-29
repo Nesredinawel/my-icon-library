@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Clarinet icon.
+///
+/// Example:
+/// ```dart
+/// OutlineClarinet(size: 24, color: Colors.blue);
+/// ```
 class OutlineClarinet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineClarinet.
   const OutlineClarinet({
     super.key,
     this.size = 24,

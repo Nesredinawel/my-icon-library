@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Clarinet icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneClarinet(size: 24, color: Colors.blue);
+/// ```
 class DuotoneClarinet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneClarinet.
   const DuotoneClarinet({
     super.key,
     this.size = 24,

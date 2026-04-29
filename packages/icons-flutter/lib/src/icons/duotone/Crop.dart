@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Crop icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCrop(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCrop extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCrop.
   const DuotoneCrop({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Droplet icon.
+///
+/// Example:
+/// ```dart
+/// OutlineDroplet(size: 24, color: Colors.blue);
+/// ```
 class OutlineDroplet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineDroplet.
   const OutlineDroplet({
     super.key,
     this.size = 24,

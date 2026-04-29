@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Percent icon.
+///
+/// Example:
+/// ```dart
+/// OutlinePercent(size: 24, color: Colors.blue);
+/// ```
 class OutlinePercent extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlinePercent.
   const OutlinePercent({
     super.key,
     this.size = 24,

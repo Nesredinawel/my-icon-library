@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Xmark icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneXmark(size: 24, color: Colors.blue);
+/// ```
 class DuotoneXmark extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneXmark.
   const DuotoneXmark({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Shredder icon.
+///
+/// Example:
+/// ```dart
+/// SolidShredder(size: 24, color: Colors.blue);
+/// ```
 class SolidShredder extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidShredder.
   const SolidShredder({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Grid icon.
+///
+/// Example:
+/// ```dart
+/// OutlineGrid(size: 24, color: Colors.blue);
+/// ```
 class OutlineGrid extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineGrid.
   const OutlineGrid({
     super.key,
     this.size = 24,

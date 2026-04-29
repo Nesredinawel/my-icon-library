@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Weight icon.
+///
+/// Example:
+/// ```dart
+/// SolidWeight(size: 24, color: Colors.blue);
+/// ```
 class SolidWeight extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidWeight.
   const SolidWeight({
     super.key,
     this.size = 24,

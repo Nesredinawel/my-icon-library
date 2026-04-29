@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Snooze icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSnooze(size: 24, color: Colors.blue);
+/// ```
 class OutlineSnooze extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSnooze.
   const OutlineSnooze({
     super.key,
     this.size = 24,

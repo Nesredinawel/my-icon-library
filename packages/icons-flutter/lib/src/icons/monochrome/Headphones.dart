@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Headphones icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeHeadphones(size: 24, color: Colors.blue);
+/// ```
 class MonochromeHeadphones extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeHeadphones.
   const MonochromeHeadphones({
     super.key,
     this.size = 24,

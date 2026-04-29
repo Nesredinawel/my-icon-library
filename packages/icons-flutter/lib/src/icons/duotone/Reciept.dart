@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Reciept icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneReciept(size: 24, color: Colors.blue);
+/// ```
 class DuotoneReciept extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneReciept.
   const DuotoneReciept({
     super.key,
     this.size = 24,

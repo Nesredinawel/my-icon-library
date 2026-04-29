@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Upload icon.
+///
+/// Example:
+/// ```dart
+/// SolidUpload(size: 24, color: Colors.blue);
+/// ```
 class SolidUpload extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidUpload.
   const SolidUpload({
     super.key,
     this.size = 24,

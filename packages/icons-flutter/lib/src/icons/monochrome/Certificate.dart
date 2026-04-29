@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Certificate icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCertificate(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCertificate extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCertificate.
   const MonochromeCertificate({
     super.key,
     this.size = 24,

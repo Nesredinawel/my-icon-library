@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Moneybag icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMoneybag(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMoneybag extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMoneybag.
   const MonochromeMoneybag({
     super.key,
     this.size = 24,

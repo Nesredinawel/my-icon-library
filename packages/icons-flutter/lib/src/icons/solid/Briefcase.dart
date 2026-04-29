@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Briefcase icon.
+///
+/// Example:
+/// ```dart
+/// SolidBriefcase(size: 24, color: Colors.blue);
+/// ```
 class SolidBriefcase extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidBriefcase.
   const SolidBriefcase({
     super.key,
     this.size = 24,

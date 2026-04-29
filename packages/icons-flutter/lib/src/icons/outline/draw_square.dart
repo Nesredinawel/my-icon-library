@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style DrawSquare icon.
+///
+/// Example:
+/// ```dart
+/// OutlineDrawSquare(size: 24, color: Colors.blue);
+/// ```
+class OutlineDrawSquare extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlineDrawSquare.
+  const OutlineDrawSquare({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M16 18.5a2.5 2.5 0 1 0 2.5-2.5M16 18.5a2.5 2.5 0 0 1 2.5-2.5M16 18.5H8M18.5 16V8M8 18.5A2.5 2.5 0 1 1 5.5 16M8 18.5A2.5 2.5 0 0 0 5.5 16m0 0V8m0 0A2.5 2.5 0 1 1 8 5.5M5.5 8A2.5 2.5 0 0 0 8 5.5m0 0h8M18.5 8A2.5 2.5 0 0 1 16 5.5M18.5 8A2.5 2.5 0 1 0 16 5.5"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

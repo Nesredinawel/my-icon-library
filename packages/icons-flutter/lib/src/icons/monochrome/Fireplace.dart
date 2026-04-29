@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Fireplace icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeFireplace(size: 24, color: Colors.blue);
+/// ```
 class MonochromeFireplace extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeFireplace.
   const MonochromeFireplace({
     super.key,
     this.size = 24,

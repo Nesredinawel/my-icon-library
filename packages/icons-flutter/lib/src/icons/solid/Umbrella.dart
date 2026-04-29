@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Umbrella icon.
+///
+/// Example:
+/// ```dart
+/// SolidUmbrella(size: 24, color: Colors.blue);
+/// ```
 class SolidUmbrella extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidUmbrella.
   const SolidUmbrella({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Monument icon.
+///
+/// Example:
+/// ```dart
+/// SolidMonument(size: 24, color: Colors.blue);
+/// ```
 class SolidMonument extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMonument.
   const SolidMonument({
     super.key,
     this.size = 24,

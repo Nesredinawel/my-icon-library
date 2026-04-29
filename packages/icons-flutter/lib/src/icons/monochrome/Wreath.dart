@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Wreath icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeWreath(size: 24, color: Colors.blue);
+/// ```
 class MonochromeWreath extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeWreath.
   const MonochromeWreath({
     super.key,
     this.size = 24,

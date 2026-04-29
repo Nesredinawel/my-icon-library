@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style H2 icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneH2(size: 24, color: Colors.blue);
+/// ```
 class DuotoneH2 extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneH2.
   const DuotoneH2({
     super.key,
     this.size = 24,

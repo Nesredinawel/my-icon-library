@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Duotone style PhoneSignal icon.
+///
+/// Example:
+/// ```dart
+/// DuotonePhoneSignal(size: 24, color: Colors.blue);
+/// ```
+class DuotonePhoneSignal extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a DuotonePhoneSignal.
+  const DuotonePhoneSignal({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M20.62 16.65a12.2 12.2 0 0 0-17.65.36c-.29.31-.43.47-.5.7-.05.18-.04.41.02.6.07.21.24.38.58.72l1.18 1.2c.28.29.43.43.6.5a1 1 0 0 0 .47.1c.19-.02.37-.1.74-.27l1.96-.9c.42-.2.64-.3.78-.46a1 1 0 0 0 .23-.5c.04-.2-.02-.43-.13-.88l-.23-.95a9.5 9.5 0 0 1 6.67.03l-.24.95c-.12.45-.17.68-.14.89a1 1 0 0 0 .23.49c.14.16.35.26.78.46l1.95.92c.37.17.55.26.73.27a1 1 0 0 0 .48-.08c.17-.07.31-.22.6-.5l1.2-1.19c.34-.33.5-.5.58-.72.06-.18.07-.42.02-.6-.06-.22-.2-.38-.49-.7q-.2-.23-.42-.44" opacity=".14"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.86 6a9.97 9.97 0 0 1 14.28 0m-2.67 3a6 6 0 0 0-8.94 0m-4.14 7.57a12.2 12.2 0 0 1 17.65.53c.28.31.43.47.49.7.05.17.04.41-.02.6-.08.21-.25.38-.58.72l-1.2 1.18c-.29.28-.43.43-.6.5a1 1 0 0 1-.48.08c-.18-.01-.36-.1-.73-.27l-1.95-.92c-.43-.2-.64-.3-.78-.46a1 1 0 0 1-.23-.5c-.03-.2.02-.43.14-.88l.24-.95a9.5 9.5 0 0 0-6.67-.03l.23.95c.11.45.17.68.13.89a1 1 0 0 1-.23.49c-.14.16-.36.25-.78.45l-1.96.9c-.37.17-.55.26-.74.27a1 1 0 0 1-.47-.08 2 2 0 0 1-.6-.51l-1.19-1.2c-.33-.34-.5-.5-.57-.73a1 1 0 0 1-.02-.6c.07-.22.21-.37.5-.69z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Marker icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMarker(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMarker extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMarker.
   const MonochromeMarker({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Asterisk icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeAsterisk(size: 24, color: Colors.blue);
+/// ```
 class MonochromeAsterisk extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeAsterisk.
   const MonochromeAsterisk({
     super.key,
     this.size = 24,

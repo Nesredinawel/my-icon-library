@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Triangle icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneTriangle(size: 24, color: Colors.blue);
+/// ```
 class DuotoneTriangle extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneTriangle.
   const DuotoneTriangle({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Menorah icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMenorah(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMenorah extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMenorah.
   const MonochromeMenorah({
     super.key,
     this.size = 24,

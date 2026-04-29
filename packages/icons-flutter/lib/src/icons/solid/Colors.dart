@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Colors icon.
+///
+/// Example:
+/// ```dart
+/// SolidColors(size: 24, color: Colors.blue);
+/// ```
 class SolidColors extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidColors.
   const SolidColors({
     super.key,
     this.size = 24,

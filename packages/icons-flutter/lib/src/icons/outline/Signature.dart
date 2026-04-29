@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Signature icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSignature(size: 24, color: Colors.blue);
+/// ```
 class OutlineSignature extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSignature.
   const OutlineSignature({
     super.key,
     this.size = 24,

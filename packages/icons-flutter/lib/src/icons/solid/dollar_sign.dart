@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style DollarSign icon.
+///
+/// Example:
+/// ```dart
+/// SolidDollarSign(size: 24, color: Colors.blue);
+/// ```
+class SolidDollarSign extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidDollarSign.
+  const SolidDollarSign({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M12 2a1 1 0 0 1 1 1v1h1.65C17.05 4 19 5.95 19 8.35v.15a1 1 0 1 1-2 0v-.15C17 7.05 15.95 6 14.65 6H13v5h1.5a4.5 4.5 0 1 1 0 9H13v1a1 1 0 1 1-2 0v-1H9.43A4.43 4.43 0 0 1 5 15.57v-.07a1 1 0 1 1 2 0v.07A2.43 2.43 0 0 0 9.43 18H11v-5H9.5a4.5 4.5 0 1 1 0-9H11V3a1 1 0 0 1 1-1m-1 4H9.5a2.5 2.5 0 0 0 0 5H11zm2 7v5h1.5a2.5 2.5 0 0 0 0-5z" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Hurricane icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneHurricane(size: 24, color: Colors.blue);
+/// ```
 class DuotoneHurricane extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneHurricane.
   const DuotoneHurricane({
     super.key,
     this.size = 24,

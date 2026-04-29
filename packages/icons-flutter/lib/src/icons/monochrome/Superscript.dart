@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Superscript icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSuperscript(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSuperscript extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSuperscript.
   const MonochromeSuperscript({
     super.key,
     this.size = 24,

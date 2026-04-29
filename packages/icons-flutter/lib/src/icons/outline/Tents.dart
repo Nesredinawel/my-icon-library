@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Tents icon.
+///
+/// Example:
+/// ```dart
+/// OutlineTents(size: 24, color: Colors.blue);
+/// ```
 class OutlineTents extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineTents.
   const OutlineTents({
     super.key,
     this.size = 24,

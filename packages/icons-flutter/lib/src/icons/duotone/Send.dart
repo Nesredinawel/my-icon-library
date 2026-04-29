@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Send icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSend(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSend extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSend.
   const DuotoneSend({
     super.key,
     this.size = 24,

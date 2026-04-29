@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style RotateCcw icon.
+///
+/// Example:
+/// ```dart
+/// SolidRotateCcw(size: 24, color: Colors.blue);
+/// ```
+class SolidRotateCcw extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidRotateCcw.
+  const SolidRotateCcw({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M12.5 4.5a7.5 7.5 0 0 0-7.25 9.41l.63-1.85a1 1 0 1 1 1.9.65l-1.36 3.97a1 1 0 0 1-1.27.62l-3.97-1.35a1 1 0 0 1 .64-1.9l1.53.53a9.5 9.5 0 1 1 9.15 6.92 1 1 0 1 1 0-2 7.5 7.5 0 0 0 0-15" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

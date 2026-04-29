@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Bolt icon.
+///
+/// Example:
+/// ```dart
+/// SolidBolt(size: 24, color: Colors.blue);
+/// ```
 class SolidBolt extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidBolt.
   const SolidBolt({
     super.key,
     this.size = 24,

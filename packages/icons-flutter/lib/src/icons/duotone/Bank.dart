@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Bank icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBank(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBank extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBank.
   const DuotoneBank({
     super.key,
     this.size = 24,

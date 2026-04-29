@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Compress icon.
+///
+/// Example:
+/// ```dart
+/// SolidCompress(size: 24, color: Colors.blue);
+/// ```
 class SolidCompress extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCompress.
   const SolidCompress({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Airplay icon.
+///
+/// Example:
+/// ```dart
+/// SolidAirplay(size: 24, color: Colors.blue);
+/// ```
 class SolidAirplay extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidAirplay.
   const SolidAirplay({
     super.key,
     this.size = 24,

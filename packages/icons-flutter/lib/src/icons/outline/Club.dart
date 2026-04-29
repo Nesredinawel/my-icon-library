@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Club icon.
+///
+/// Example:
+/// ```dart
+/// OutlineClub(size: 24, color: Colors.blue);
+/// ```
 class OutlineClub extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineClub.
   const OutlineClub({
     super.key,
     this.size = 24,

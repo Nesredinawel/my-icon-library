@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style PhoneIntercom icon.
+///
+/// Example:
+/// ```dart
+/// OutlinePhoneIntercom(size: 24, color: Colors.blue);
+/// ```
+class OutlinePhoneIntercom extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlinePhoneIntercom.
+  const OutlinePhoneIntercom({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M18 13h-2m2-5h-8m8 8h-2m-5.8 4h7.6c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .88-.87c.22-.43.22-.99.22-2.11V7.2c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C19.48 4 18.92 4 17.8 4h-7.6c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C7 5.52 7 6.08 7 7.2v9.6c0 1.12 0 1.68.22 2.1q.3.58.87.88c.43.22.99.22 2.11.22m2.8-5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0M5 20a2 2 0 0 1-2-2V6a2 2 0 1 1 4 0v12a2 2 0 0 1-2 2"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

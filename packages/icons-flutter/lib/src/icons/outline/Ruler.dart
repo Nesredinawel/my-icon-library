@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Ruler icon.
+///
+/// Example:
+/// ```dart
+/// OutlineRuler(size: 24, color: Colors.blue);
+/// ```
 class OutlineRuler extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineRuler.
   const OutlineRuler({
     super.key,
     this.size = 24,

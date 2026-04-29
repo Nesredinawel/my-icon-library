@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Search icon.
+///
+/// Example:
+/// ```dart
+/// SolidSearch(size: 24, color: Colors.blue);
+/// ```
 class SolidSearch extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSearch.
   const SolidSearch({
     super.key,
     this.size = 24,

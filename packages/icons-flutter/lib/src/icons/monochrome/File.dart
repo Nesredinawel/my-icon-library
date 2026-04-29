@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style File icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeFile(size: 24, color: Colors.blue);
+/// ```
 class MonochromeFile extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeFile.
   const MonochromeFile({
     super.key,
     this.size = 24,

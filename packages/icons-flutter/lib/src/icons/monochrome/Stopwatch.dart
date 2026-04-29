@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Stopwatch icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeStopwatch(size: 24, color: Colors.blue);
+/// ```
 class MonochromeStopwatch extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeStopwatch.
   const MonochromeStopwatch({
     super.key,
     this.size = 24,

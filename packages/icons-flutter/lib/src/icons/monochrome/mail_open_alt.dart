@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Monochrome style MailOpenAlt icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMailOpenAlt(size: 24, color: Colors.blue);
+/// ```
+class MonochromeMailOpenAlt extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a MonochromeMailOpenAlt.
+  const MonochromeMailOpenAlt({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M16.57 14.16 22 10.54v6.3q0 .8-.03 1.36t-.26 1.1zm-1.7 1.13-.65.43c-.53.36-1 .67-1.52.8a3 3 0 0 1-1.4 0 5 5 0 0 1-1.52-.8l-.65-.43L3.7 20.7q.53.23 1.1.26.56.04 1.35.03h11.68q.8 0 1.36-.03t1.1-.26zM2.3 19.3l5.13-5.14L2 10.54v6.3q0 .8.03 1.36t.26 1.1" opacity=".3"/><path fill="currentColor" d="M11.33 2.44a3 3 0 0 1 1.34 0c.5.11.95.4 1.46.71l6 3.77c.45.29.85.54 1.15.89a3 3 0 0 1 .38.55l-8.44 5.62c-.7.48-.86.56-.99.59a1 1 0 0 1-.46 0 4 4 0 0 1-1-.59L2.35 8.36a3 3 0 0 1 .38-.55c.3-.35.7-.6 1.15-.89l6-3.77c.51-.32.96-.6 1.46-.71"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

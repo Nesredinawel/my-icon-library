@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Wifi icon.
+///
+/// Example:
+/// ```dart
+/// OutlineWifi(size: 24, color: Colors.blue);
+/// ```
 class OutlineWifi extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineWifi.
   const OutlineWifi({
     super.key,
     this.size = 24,

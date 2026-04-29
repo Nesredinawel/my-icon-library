@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Coffin icon.
+///
+/// Example:
+/// ```dart
+/// SolidCoffin(size: 24, color: Colors.blue);
+/// ```
 class SolidCoffin extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidCoffin.
   const SolidCoffin({
     super.key,
     this.size = 24,

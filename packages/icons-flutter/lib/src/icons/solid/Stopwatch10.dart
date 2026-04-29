@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Stopwatch10 icon.
+///
+/// Example:
+/// ```dart
+/// SolidStopwatch10(size: 24, color: Colors.blue);
+/// ```
 class SolidStopwatch10 extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidStopwatch10.
   const SolidStopwatch10({
     super.key,
     this.size = 24,

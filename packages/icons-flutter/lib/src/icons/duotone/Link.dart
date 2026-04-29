@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Link icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneLink(size: 24, color: Colors.blue);
+/// ```
 class DuotoneLink extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneLink.
   const DuotoneLink({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Coffin icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCoffin(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCoffin extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCoffin.
   const DuotoneCoffin({
     super.key,
     this.size = 24,

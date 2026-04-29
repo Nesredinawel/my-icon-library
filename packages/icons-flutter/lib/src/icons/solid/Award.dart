@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Award icon.
+///
+/// Example:
+/// ```dart
+/// SolidAward(size: 24, color: Colors.blue);
+/// ```
 class SolidAward extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidAward.
   const SolidAward({
     super.key,
     this.size = 24,

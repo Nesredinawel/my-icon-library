@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Pen icon.
+///
+/// Example:
+/// ```dart
+/// OutlinePen(size: 24, color: Colors.blue);
+/// ```
 class OutlinePen extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlinePen.
   const OutlinePen({
     super.key,
     this.size = 24,

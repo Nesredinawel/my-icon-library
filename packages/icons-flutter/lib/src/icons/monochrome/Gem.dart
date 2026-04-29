@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Gem icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeGem(size: 24, color: Colors.blue);
+/// ```
 class MonochromeGem extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeGem.
   const MonochromeGem({
     super.key,
     this.size = 24,

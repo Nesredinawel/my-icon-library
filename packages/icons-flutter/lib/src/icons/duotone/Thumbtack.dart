@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Thumbtack icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneThumbtack(size: 24, color: Colors.blue);
+/// ```
 class DuotoneThumbtack extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneThumbtack.
   const DuotoneThumbtack({
     super.key,
     this.size = 24,

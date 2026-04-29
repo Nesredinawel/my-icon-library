@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Paintbrush icon.
+///
+/// Example:
+/// ```dart
+/// OutlinePaintbrush(size: 24, color: Colors.blue);
+/// ```
 class OutlinePaintbrush extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlinePaintbrush.
   const OutlinePaintbrush({
     super.key,
     this.size = 24,

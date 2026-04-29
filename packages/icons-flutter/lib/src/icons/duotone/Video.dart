@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Video icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneVideo(size: 24, color: Colors.blue);
+/// ```
 class DuotoneVideo extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneVideo.
   const DuotoneVideo({
     super.key,
     this.size = 24,

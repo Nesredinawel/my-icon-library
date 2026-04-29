@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Mouse icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMouse(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMouse extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMouse.
   const DuotoneMouse({
     super.key,
     this.size = 24,

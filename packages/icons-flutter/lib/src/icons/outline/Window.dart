@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Window icon.
+///
+/// Example:
+/// ```dart
+/// OutlineWindow(size: 24, color: Colors.blue);
+/// ```
 class OutlineWindow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineWindow.
   const OutlineWindow({
     super.key,
     this.size = 24,

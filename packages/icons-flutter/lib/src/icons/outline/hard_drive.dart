@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Outline style HardDrive icon.
+///
+/// Example:
+/// ```dart
+/// OutlineHardDrive(size: 24, color: Colors.blue);
+/// ```
+class OutlineHardDrive extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a OutlineHardDrive.
+  const OutlineHardDrive({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m20.5 11-1.76-3.4c-.49-.94-.73-1.41-1.09-1.76a3 3 0 0 0-1.11-.68c-.47-.16-1-.16-2.07-.16H9.53c-1.06 0-1.6 0-2.07.16a3 3 0 0 0-1.11.68c-.36.35-.6.82-1.09 1.76L3.5 11m17 0c.2.39.27.54.34.75a3 3 0 0 1 .13.55c.03.21.03.43.03.86v1.04c0 1.68 0 2.52-.33 3.16a3 3 0 0 1-1.3 1.31c-.65.33-1.49.33-3.17.33H7.8c-1.68 0-2.52 0-3.16-.33a3 3 0 0 1-1.31-1.3C3 16.71 3 15.87 3 14.2v-1.04c0-.43 0-.65.03-.86a3 3 0 0 1 .13-.55c.07-.2.14-.36.34-.75m17 0h-17M15 15h2"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

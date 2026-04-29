@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Pencil icon.
+///
+/// Example:
+/// ```dart
+/// MonochromePencil(size: 24, color: Colors.blue);
+/// ```
 class MonochromePencil extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromePencil.
   const MonochromePencil({
     super.key,
     this.size = 24,

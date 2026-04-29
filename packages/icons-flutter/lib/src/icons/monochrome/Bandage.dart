@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Bandage icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBandage(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBandage extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBandage.
   const MonochromeBandage({
     super.key,
     this.size = 24,

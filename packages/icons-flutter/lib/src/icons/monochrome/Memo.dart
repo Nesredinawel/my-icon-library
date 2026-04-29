@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Memo icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMemo(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMemo extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMemo.
   const MonochromeMemo({
     super.key,
     this.size = 24,

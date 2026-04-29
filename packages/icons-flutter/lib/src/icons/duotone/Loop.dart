@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Loop icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneLoop(size: 24, color: Colors.blue);
+/// ```
 class DuotoneLoop extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneLoop.
   const DuotoneLoop({
     super.key,
     this.size = 24,

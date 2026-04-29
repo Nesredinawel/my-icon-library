@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Spider icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSpider(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSpider extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSpider.
   const DuotoneSpider({
     super.key,
     this.size = 24,

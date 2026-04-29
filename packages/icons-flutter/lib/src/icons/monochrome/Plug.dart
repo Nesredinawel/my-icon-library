@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Plug icon.
+///
+/// Example:
+/// ```dart
+/// MonochromePlug(size: 24, color: Colors.blue);
+/// ```
 class MonochromePlug extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromePlug.
   const MonochromePlug({
     super.key,
     this.size = 24,

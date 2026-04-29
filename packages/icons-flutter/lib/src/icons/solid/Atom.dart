@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Atom icon.
+///
+/// Example:
+/// ```dart
+/// SolidAtom(size: 24, color: Colors.blue);
+/// ```
 class SolidAtom extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidAtom.
   const SolidAtom({
     super.key,
     this.size = 24,

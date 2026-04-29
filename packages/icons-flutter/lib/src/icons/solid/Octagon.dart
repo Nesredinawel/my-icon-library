@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Octagon icon.
+///
+/// Example:
+/// ```dart
+/// SolidOctagon(size: 24, color: Colors.blue);
+/// ```
 class SolidOctagon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidOctagon.
   const SolidOctagon({
     super.key,
     this.size = 24,

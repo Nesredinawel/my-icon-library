@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Rainbow icon.
+///
+/// Example:
+/// ```dart
+/// SolidRainbow(size: 24, color: Colors.blue);
+/// ```
 class SolidRainbow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidRainbow.
   const SolidRainbow({
     super.key,
     this.size = 24,

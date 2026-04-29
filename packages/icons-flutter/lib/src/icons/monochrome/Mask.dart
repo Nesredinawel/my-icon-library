@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Mask icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMask(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMask extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMask.
   const MonochromeMask({
     super.key,
     this.size = 24,

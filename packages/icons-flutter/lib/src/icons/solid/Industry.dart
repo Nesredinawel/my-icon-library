@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Industry icon.
+///
+/// Example:
+/// ```dart
+/// SolidIndustry(size: 24, color: Colors.blue);
+/// ```
 class SolidIndustry extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidIndustry.
   const SolidIndustry({
     super.key,
     this.size = 24,

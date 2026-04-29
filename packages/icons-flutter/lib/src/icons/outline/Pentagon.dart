@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Pentagon icon.
+///
+/// Example:
+/// ```dart
+/// OutlinePentagon(size: 24, color: Colors.blue);
+/// ```
 class OutlinePentagon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlinePentagon.
   const OutlinePentagon({
     super.key,
     this.size = 24,

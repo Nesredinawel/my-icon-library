@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Tablet icon.
+///
+/// Example:
+/// ```dart
+/// SolidTablet(size: 24, color: Colors.blue);
+/// ```
 class SolidTablet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidTablet.
   const SolidTablet({
     super.key,
     this.size = 24,

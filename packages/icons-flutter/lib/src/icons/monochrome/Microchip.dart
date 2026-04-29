@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Microchip icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeMicrochip(size: 24, color: Colors.blue);
+/// ```
 class MonochromeMicrochip extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeMicrochip.
   const MonochromeMicrochip({
     super.key,
     this.size = 24,

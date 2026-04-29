@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Spider icon.
+///
+/// Example:
+/// ```dart
+/// SolidSpider(size: 24, color: Colors.blue);
+/// ```
 class SolidSpider extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidSpider.
   const SolidSpider({
     super.key,
     this.size = 24,

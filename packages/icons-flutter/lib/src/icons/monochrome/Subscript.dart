@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Subscript icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSubscript(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSubscript extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSubscript.
   const MonochromeSubscript({
     super.key,
     this.size = 24,

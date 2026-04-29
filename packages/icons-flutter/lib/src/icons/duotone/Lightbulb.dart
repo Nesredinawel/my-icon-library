@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Lightbulb icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneLightbulb(size: 24, color: Colors.blue);
+/// ```
 class DuotoneLightbulb extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneLightbulb.
   const DuotoneLightbulb({
     super.key,
     this.size = 24,

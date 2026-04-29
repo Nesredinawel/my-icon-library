@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Modem icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeModem(size: 24, color: Colors.blue);
+/// ```
 class MonochromeModem extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeModem.
   const MonochromeModem({
     super.key,
     this.size = 24,

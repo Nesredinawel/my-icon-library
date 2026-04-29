@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Droplet icon.
+///
+/// Example:
+/// ```dart
+/// SolidDroplet(size: 24, color: Colors.blue);
+/// ```
 class SolidDroplet extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidDroplet.
   const SolidDroplet({
     super.key,
     this.size = 24,

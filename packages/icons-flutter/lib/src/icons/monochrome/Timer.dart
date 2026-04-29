@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Timer icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeTimer(size: 24, color: Colors.blue);
+/// ```
 class MonochromeTimer extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeTimer.
   const MonochromeTimer({
     super.key,
     this.size = 24,

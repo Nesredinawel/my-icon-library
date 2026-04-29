@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Lasso icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneLasso(size: 24, color: Colors.blue);
+/// ```
 class DuotoneLasso extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneLasso.
   const DuotoneLasso({
     super.key,
     this.size = 24,

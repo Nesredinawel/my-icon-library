@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style School icon.
+///
+/// Example:
+/// ```dart
+/// OutlineSchool(size: 24, color: Colors.blue);
+/// ```
 class OutlineSchool extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineSchool.
   const OutlineSchool({
     super.key,
     this.size = 24,

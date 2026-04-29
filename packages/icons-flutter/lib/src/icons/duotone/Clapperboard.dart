@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Clapperboard icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneClapperboard(size: 24, color: Colors.blue);
+/// ```
 class DuotoneClapperboard extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneClapperboard.
   const DuotoneClapperboard({
     super.key,
     this.size = 24,

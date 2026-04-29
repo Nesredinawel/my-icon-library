@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Sort icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSort(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSort extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSort.
   const DuotoneSort({
     super.key,
     this.size = 24,

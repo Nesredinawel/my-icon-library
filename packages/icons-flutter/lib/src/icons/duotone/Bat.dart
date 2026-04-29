@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Bat icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBat(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBat extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBat.
   const DuotoneBat({
     super.key,
     this.size = 24,

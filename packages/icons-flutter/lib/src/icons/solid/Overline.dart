@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Overline icon.
+///
+/// Example:
+/// ```dart
+/// SolidOverline(size: 24, color: Colors.blue);
+/// ```
 class SolidOverline extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidOverline.
   const SolidOverline({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Podcast icon.
+///
+/// Example:
+/// ```dart
+/// SolidPodcast(size: 24, color: Colors.blue);
+/// ```
 class SolidPodcast extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidPodcast.
   const SolidPodcast({
     super.key,
     this.size = 24,

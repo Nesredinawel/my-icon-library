@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Shop icon.
+///
+/// Example:
+/// ```dart
+/// OutlineShop(size: 24, color: Colors.blue);
+/// ```
 class OutlineShop extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineShop.
   const OutlineShop({
     super.key,
     this.size = 24,

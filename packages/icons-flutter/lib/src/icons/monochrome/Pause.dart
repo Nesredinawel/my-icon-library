@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Pause icon.
+///
+/// Example:
+/// ```dart
+/// MonochromePause(size: 24, color: Colors.blue);
+/// ```
 class MonochromePause extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromePause.
   const MonochromePause({
     super.key,
     this.size = 24,

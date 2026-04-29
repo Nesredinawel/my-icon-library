@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Cloche icon.
+///
+/// Example:
+/// ```dart
+/// OutlineCloche(size: 24, color: Colors.blue);
+/// ```
 class OutlineCloche extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineCloche.
   const OutlineCloche({
     super.key,
     this.size = 24,

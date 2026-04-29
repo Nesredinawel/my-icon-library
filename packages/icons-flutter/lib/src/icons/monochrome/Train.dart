@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Train icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeTrain(size: 24, color: Colors.blue);
+/// ```
 class MonochromeTrain extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeTrain.
   const MonochromeTrain({
     super.key,
     this.size = 24,

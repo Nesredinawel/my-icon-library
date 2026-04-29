@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Hourglass icon.
+///
+/// Example:
+/// ```dart
+/// SolidHourglass(size: 24, color: Colors.blue);
+/// ```
 class SolidHourglass extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidHourglass.
   const SolidHourglass({
     super.key,
     this.size = 24,

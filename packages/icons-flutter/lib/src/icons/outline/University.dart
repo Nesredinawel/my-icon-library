@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style University icon.
+///
+/// Example:
+/// ```dart
+/// OutlineUniversity(size: 24, color: Colors.blue);
+/// ```
 class OutlineUniversity extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineUniversity.
   const OutlineUniversity({
     super.key,
     this.size = 24,

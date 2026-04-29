@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Medal icon.
+///
+/// Example:
+/// ```dart
+/// SolidMedal(size: 24, color: Colors.blue);
+/// ```
 class SolidMedal extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMedal.
   const SolidMedal({
     super.key,
     this.size = 24,

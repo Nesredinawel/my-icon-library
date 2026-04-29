@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Shredder icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneShredder(size: 24, color: Colors.blue);
+/// ```
 class DuotoneShredder extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneShredder.
   const DuotoneShredder({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Album icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeAlbum(size: 24, color: Colors.blue);
+/// ```
 class MonochromeAlbum extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeAlbum.
   const MonochromeAlbum({
     super.key,
     this.size = 24,

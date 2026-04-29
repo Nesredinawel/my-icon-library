@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Icicles icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneIcicles(size: 24, color: Colors.blue);
+/// ```
 class DuotoneIcicles extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneIcicles.
   const DuotoneIcicles({
     super.key,
     this.size = 24,

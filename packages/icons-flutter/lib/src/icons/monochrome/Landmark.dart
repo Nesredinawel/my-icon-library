@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Landmark icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeLandmark(size: 24, color: Colors.blue);
+/// ```
 class MonochromeLandmark extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeLandmark.
   const MonochromeLandmark({
     super.key,
     this.size = 24,

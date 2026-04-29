@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Sitemap icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSitemap(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSitemap extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSitemap.
   const DuotoneSitemap({
     super.key,
     this.size = 24,

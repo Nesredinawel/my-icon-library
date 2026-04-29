@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Music icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneMusic(size: 24, color: Colors.blue);
+/// ```
 class DuotoneMusic extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneMusic.
   const DuotoneMusic({
     super.key,
     this.size = 24,

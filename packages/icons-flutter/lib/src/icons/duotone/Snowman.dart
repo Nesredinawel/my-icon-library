@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Snowman icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneSnowman(size: 24, color: Colors.blue);
+/// ```
 class DuotoneSnowman extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneSnowman.
   const DuotoneSnowman({
     super.key,
     this.size = 24,

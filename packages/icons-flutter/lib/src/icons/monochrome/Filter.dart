@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Filter icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeFilter(size: 24, color: Colors.blue);
+/// ```
 class MonochromeFilter extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeFilter.
   const MonochromeFilter({
     super.key,
     this.size = 24,

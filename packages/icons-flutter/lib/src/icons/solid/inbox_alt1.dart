@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+/// Solid style InboxAlt1 icon.
+///
+/// Example:
+/// ```dart
+/// SolidInboxAlt1(size: 24, color: Colors.blue);
+/// ```
+class SolidInboxAlt1 extends StatelessWidget {
+  /// Icon size (width & height).
+  final double size;
+
+  /// Icon color.
+  final Color? color;
+
+  /// Creates a SolidInboxAlt1.
+  const SolidInboxAlt1({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M9.54 3h4.92a7 7 0 0 1 2.35.23 4 4 0 0 1 1.53 1c.49.5.78 1.16 1.18 2.04l.07.15 2.32 5.17A1 1 0 0 1 22 12v3.84q0 .8-.03 1.36c-.03.39-.1.78-.3 1.16a3 3 0 0 1-1.3 1.31c-.39.2-.78.27-1.18.3q-.55.04-1.35.03H6.16q-.8 0-1.36-.03a3 3 0 0 1-1.16-.3 3 3 0 0 1-1.31-1.3c-.2-.39-.27-.78-.3-1.17A18 18 0 0 1 2 15.84V12a1 1 0 0 1 .09-.41L4.4 6.42l.07-.15c.4-.88.7-1.54 1.18-2.05a4 4 0 0 1 1.53-.99A7 7 0 0 1 9.54 3m.16 2c-1.2 0-1.55.01-1.84.12a2 2 0 0 0-.76.5c-.21.21-.37.53-.86 1.62L4.54 11h2.22q.6-.02 1.11.08.46.12.87.36.43.29.85.73l.05.06.13.13c.38.38.46.45.54.5a1 1 0 0 0 .29.11c.08.02.19.03.73.03h1.34c.54 0 .65 0 .73-.03a1 1 0 0 0 .3-.12c.07-.04.15-.11.53-.5l.13-.12.05-.06c.3-.29.55-.54.85-.73a3 3 0 0 1 .87-.36c.35-.08.7-.08 1.11-.08h2.21l-1.69-3.76c-.5-1.1-.65-1.4-.86-1.63a2 2 0 0 0-.76-.5c-.3-.1-.64-.11-1.84-.11z" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

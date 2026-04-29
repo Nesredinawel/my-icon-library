@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Monitor icon.
+///
+/// Example:
+/// ```dart
+/// SolidMonitor(size: 24, color: Colors.blue);
+/// ```
 class SolidMonitor extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMonitor.
   const SolidMonitor({
     super.key,
     this.size = 24,

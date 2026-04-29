@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Clipboard icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeClipboard(size: 24, color: Colors.blue);
+/// ```
 class MonochromeClipboard extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeClipboard.
   const MonochromeClipboard({
     super.key,
     this.size = 24,

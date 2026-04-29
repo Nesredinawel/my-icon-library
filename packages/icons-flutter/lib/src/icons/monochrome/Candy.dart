@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Candy icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeCandy(size: 24, color: Colors.blue);
+/// ```
 class MonochromeCandy extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeCandy.
   const MonochromeCandy({
     super.key,
     this.size = 24,

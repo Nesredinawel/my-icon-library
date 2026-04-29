@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Information icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneInformation(size: 24, color: Colors.blue);
+/// ```
 class DuotoneInformation extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneInformation.
   const DuotoneInformation({
     super.key,
     this.size = 24,

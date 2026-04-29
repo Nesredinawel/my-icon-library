@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Crow icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCrow(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCrow extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCrow.
   const DuotoneCrow({
     super.key,
     this.size = 24,

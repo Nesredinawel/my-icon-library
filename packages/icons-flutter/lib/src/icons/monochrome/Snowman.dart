@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Snowman icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeSnowman(size: 24, color: Colors.blue);
+/// ```
 class MonochromeSnowman extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeSnowman.
   const MonochromeSnowman({
     super.key,
     this.size = 24,

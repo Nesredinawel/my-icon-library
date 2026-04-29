@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Trophy icon.
+///
+/// Example:
+/// ```dart
+/// SolidTrophy(size: 24, color: Colors.blue);
+/// ```
 class SolidTrophy extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidTrophy.
   const SolidTrophy({
     super.key,
     this.size = 24,

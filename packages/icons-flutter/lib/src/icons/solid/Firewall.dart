@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Firewall icon.
+///
+/// Example:
+/// ```dart
+/// SolidFirewall(size: 24, color: Colors.blue);
+/// ```
 class SolidFirewall extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidFirewall.
   const SolidFirewall({
     super.key,
     this.size = 24,

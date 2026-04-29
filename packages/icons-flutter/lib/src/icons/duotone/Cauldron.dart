@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Cauldron icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCauldron(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCauldron extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCauldron.
   const DuotoneCauldron({
     super.key,
     this.size = 24,

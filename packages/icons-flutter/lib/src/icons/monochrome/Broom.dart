@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Broom icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBroom(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBroom extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBroom.
   const MonochromeBroom({
     super.key,
     this.size = 24,

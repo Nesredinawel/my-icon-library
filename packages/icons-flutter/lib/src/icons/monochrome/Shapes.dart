@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Shapes icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeShapes(size: 24, color: Colors.blue);
+/// ```
 class MonochromeShapes extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeShapes.
   const MonochromeShapes({
     super.key,
     this.size = 24,

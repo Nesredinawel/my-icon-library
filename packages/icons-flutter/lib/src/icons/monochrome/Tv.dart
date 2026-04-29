@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Tv icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeTv(size: 24, color: Colors.blue);
+/// ```
 class MonochromeTv extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeTv.
   const MonochromeTv({
     super.key,
     this.size = 24,

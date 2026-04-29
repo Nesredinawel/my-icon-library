@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Underline icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeUnderline(size: 24, color: Colors.blue);
+/// ```
 class MonochromeUnderline extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeUnderline.
   const MonochromeUnderline({
     super.key,
     this.size = 24,

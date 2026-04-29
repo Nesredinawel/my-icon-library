@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Palette icon.
+///
+/// Example:
+/// ```dart
+/// MonochromePalette(size: 24, color: Colors.blue);
+/// ```
 class MonochromePalette extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromePalette.
   const MonochromePalette({
     super.key,
     this.size = 24,

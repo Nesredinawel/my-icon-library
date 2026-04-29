@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Mistletoe icon.
+///
+/// Example:
+/// ```dart
+/// OutlineMistletoe(size: 24, color: Colors.blue);
+/// ```
 class OutlineMistletoe extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineMistletoe.
   const OutlineMistletoe({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Clone icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneClone(size: 24, color: Colors.blue);
+/// ```
 class DuotoneClone extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneClone.
   const DuotoneClone({
     super.key,
     this.size = 24,

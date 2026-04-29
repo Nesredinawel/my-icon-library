@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Octagon icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneOctagon(size: 24, color: Colors.blue);
+/// ```
 class DuotoneOctagon extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneOctagon.
   const DuotoneOctagon({
     super.key,
     this.size = 24,

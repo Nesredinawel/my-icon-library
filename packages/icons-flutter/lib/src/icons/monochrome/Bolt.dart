@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Bolt icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBolt(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBolt extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBolt.
   const MonochromeBolt({
     super.key,
     this.size = 24,

@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Reciept icon.
+///
+/// Example:
+/// ```dart
+/// SolidReciept(size: 24, color: Colors.blue);
+/// ```
 class SolidReciept extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidReciept.
   const SolidReciept({
     super.key,
     this.size = 24,

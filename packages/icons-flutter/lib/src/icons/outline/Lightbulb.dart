@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Lightbulb icon.
+///
+/// Example:
+/// ```dart
+/// OutlineLightbulb(size: 24, color: Colors.blue);
+/// ```
 class OutlineLightbulb extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineLightbulb.
   const OutlineLightbulb({
     super.key,
     this.size = 24,

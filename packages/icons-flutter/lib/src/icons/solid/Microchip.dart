@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Microchip icon.
+///
+/// Example:
+/// ```dart
+/// SolidMicrochip(size: 24, color: Colors.blue);
+/// ```
 class SolidMicrochip extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidMicrochip.
   const SolidMicrochip({
     super.key,
     this.size = 24,

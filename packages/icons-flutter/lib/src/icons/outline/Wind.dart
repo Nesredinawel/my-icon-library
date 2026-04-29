@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Wind icon.
+///
+/// Example:
+/// ```dart
+/// OutlineWind(size: 24, color: Colors.blue);
+/// ```
 class OutlineWind extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineWind.
   const OutlineWind({
     super.key,
     this.size = 24,

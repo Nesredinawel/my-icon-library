@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Gauge icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneGauge(size: 24, color: Colors.blue);
+/// ```
 class DuotoneGauge extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneGauge.
   const DuotoneGauge({
     super.key,
     this.size = 24,

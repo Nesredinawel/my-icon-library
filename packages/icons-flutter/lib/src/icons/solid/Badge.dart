@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Solid style Badge icon.
+///
+/// Example:
+/// ```dart
+/// SolidBadge(size: 24, color: Colors.blue);
+/// ```
 class SolidBadge extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a SolidBadge.
   const SolidBadge({
     super.key,
     this.size = 24,

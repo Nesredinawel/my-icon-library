@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style University icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneUniversity(size: 24, color: Colors.blue);
+/// ```
 class DuotoneUniversity extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneUniversity.
   const DuotoneUniversity({
     super.key,
     this.size = 24,

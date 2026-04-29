@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Monochrome style Badge icon.
+///
+/// Example:
+/// ```dart
+/// MonochromeBadge(size: 24, color: Colors.blue);
+/// ```
 class MonochromeBadge extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a MonochromeBadge.
   const MonochromeBadge({
     super.key,
     this.size = 24,

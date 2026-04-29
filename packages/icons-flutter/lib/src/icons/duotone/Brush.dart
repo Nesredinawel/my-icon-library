@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Brush icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneBrush(size: 24, color: Colors.blue);
+/// ```
 class DuotoneBrush extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneBrush.
   const DuotoneBrush({
     super.key,
     this.size = 24,

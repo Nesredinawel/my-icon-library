@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Compress icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneCompress(size: 24, color: Colors.blue);
+/// ```
 class DuotoneCompress extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneCompress.
   const DuotoneCompress({
     super.key,
     this.size = 24,

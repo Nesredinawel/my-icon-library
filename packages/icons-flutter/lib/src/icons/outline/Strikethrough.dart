@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Outline style Strikethrough icon.
+///
+/// Example:
+/// ```dart
+/// OutlineStrikethrough(size: 24, color: Colors.blue);
+/// ```
 class OutlineStrikethrough extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a OutlineStrikethrough.
   const OutlineStrikethrough({
     super.key,
     this.size = 24,

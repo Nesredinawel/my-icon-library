@@ -1,10 +1,20 @@
 import 'package:flutter/widgets.dart';
 import '../../base_icon.dart';
 
+/// Duotone style Album icon.
+///
+/// Example:
+/// ```dart
+/// DuotoneAlbum(size: 24, color: Colors.blue);
+/// ```
 class DuotoneAlbum extends StatelessWidget {
+  /// Icon size (width & height).
   final double size;
+
+  /// Icon color.
   final Color? color;
 
+  /// Creates a DuotoneAlbum.
   const DuotoneAlbum({
     super.key,
     this.size = 24,
