@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidCctv extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidCctv({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M6 2.75a2 2 0 0 1 1.16-.33c.3 0 .55.1.75.18q.3.13.6.3l7.97 4.15q.53.26.9.5c.25.16.56.4.75.76a2 2 0 0 1 .13 1.57c-.13.4-.4.67-.62.87l-4.08 3.1c-.22.16-.5.37-.82.48a2 2 0 0 1-.88.07c-.34-.04-.65-.2-.9-.32l-.06-.04-1.11-.55-1.24 3.4-.03.07c-.1.3-.23.66-.48.94a2 2 0 0 1-.8.56c-.35.14-.74.13-1.04.13H4.23v1a1 1 0 1 1-2 0v-4a1 1 0 1 1 2 0v1h2.3v-.01l.14-.38L8 12.59l-3.71-1.86-.66-.34c-.2-.13-.44-.3-.62-.56a2 2 0 0 1-.37-1.23c.02-.32.12-.59.22-.8q.15-.3.36-.66l1.9-3.26q.18-.31.36-.58.19-.28.54-.55m11.53 13.12-2.08-1.04 4.9-3.78.41.22q.34.18.64.58a2 2 0 0 1 .34 1.29c-.02.33-.15.6-.27.82q-.17.3-.41.67l-.25.37-.36.52q-.19.25-.54.49a2 2 0 0 1-1.8.13z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

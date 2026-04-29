@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidSnowAlt1 extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidSnowAlt1({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M12 2a1 1 0 0 1 1 1v1.59l1.3-1.3a1 1 0 1 1 1.4 1.42L13 7.4v2.86l2.47-1.43 1-3.7a1 1 0 0 1 1.93.52l-.48 1.77 1.38-.8a1 1 0 0 1 1 1.74l-1.38.79 1.77.47a1 1 0 0 1-.52 1.93l-3.7-.99L14 12l2.47 1.43 3.7-1a1 1 0 1 1 .52 1.94l-1.77.47 1.37.8a1 1 0 1 1-1 1.73l-1.37-.8.47 1.77a1 1 0 0 1-1.93.52l-.99-3.7L13 13.73v2.86l2.7 2.7a1 1 0 1 1-1.4 1.42L13 19.4V21a1 1 0 1 1-2 0v-1.59l-1.3 1.3a1 1 0 0 1-1.4-1.42l2.7-2.7v-2.86l-2.47 1.43-1 3.7a1 1 0 0 1-1.92-.52l.47-1.77-1.37.8a1 1 0 1 1-1-1.74l1.37-.79-1.77-.47a1 1 0 1 1 .52-1.93l3.7.99L10 12l-2.47-1.43-3.7 1a1 1 0 0 1-.52-1.94l1.77-.47-1.37-.8a1 1 0 1 1 1-1.73l1.37.8-.47-1.77a1 1 0 0 1 1.93-.52l.99 3.7L11 10.27V7.4L8.3 4.7a1 1 0 0 1 1.4-1.42L11 4.6V3a1 1 0 0 1 1-1" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

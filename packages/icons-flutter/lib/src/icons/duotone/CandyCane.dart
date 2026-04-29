@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class DuotoneCandyCane extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const DuotoneCandyCane({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="m3.98 16.81 11.8-7.07c.7-.43.93-1.35.5-2.05v-.02a1.5 1.5 0 0 0-2.05-.47l-1.29.8-2.12-3.39 1.28-.8a5.5 5.5 0 0 1 5.82 9.33L6.2 20.44a2.13 2.13 0 1 1-2.22-3.63" opacity=".14"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m14.1 15.52 3.82-2.38q.22-.13.4-.27m-4.22 2.65-4.25 2.65m4.25-2.65-3.8-2.32m-.45 4.97L6.2 20.44a2.13 2.13 0 1 1-2.22-3.63l11.8-7.07c.7-.43.93-1.35.5-2.05M9.85 18.17l-3.8-2.32m12.28-2.98a5.5 5.5 0 0 0-6.23-9.05l-1.28.8L12.94 8l1.29-.8a1.5 1.5 0 0 1 2.05.49m2.05 5.18-3.8-2.32m1.75-2.86 4.14.95M16 7.34V3.17"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

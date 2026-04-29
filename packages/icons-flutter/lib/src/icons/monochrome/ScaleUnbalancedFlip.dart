@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeScaleUnbalancedFlip extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeScaleUnbalancedFlip({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M6.01 8a1 1 0 0 0-.87.51l-2.8 4.97q-.13.22-.21.47a2 2 0 0 0-.08.95c.3 2.03 2.1 3.1 3.96 3.1a4.1 4.1 0 0 0 3.93-3.03 2 2 0 0 0-.25-1.48L6.9 8.52A1 1 0 0 0 6 8m12.01 4a1 1 0 0 0-.87.51l-2.8 4.97q-.13.22-.21.47c-.05.15-.1.36-.1.52q0 .28.02.43c.3 2.03 2.1 3.1 3.96 3.1a4.1 4.1 0 0 0 3.93-3.03 2 2 0 0 0-.25-1.48l-2.8-4.98A1 1 0 0 0 18 12" opacity=".3"/><path fill="currentColor" fill-rule="evenodd" d="M3.54 2.92a1 1 0 0 1 1.28-.6l4.7 1.71.15.08A3 3 0 0 1 15 6v.03l4.86 1.77a1 1 0 0 1-.69 1.88L14.32 7.9a3 3 0 0 1-1.32.92V21a1 1 0 0 1-1 1H4a1 1 0 1 1 0-2h7V8.83a3 3 0 0 1-2-2.87l-.16-.05-4.7-1.7a1 1 0 0 1-.6-1.29" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

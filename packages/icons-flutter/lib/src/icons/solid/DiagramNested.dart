@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidDiagramNested extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidDiagramNested({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M5.57 3h1.86q.39 0 .7.02c.24.02.5.06.78.2q.57.3.87.87a2 2 0 0 1 .2.77q.02.33.02.7v1.87q0 .39-.02.7-.01.36-.2.78a2 2 0 0 1-.87.87 2 2 0 0 1-.77.2q-.3.03-.64.02v1.1c0 1.14 0 1.93.05 2.55.05.6.14.95.28 1.21a3 3 0 0 0 1.3 1.31c.27.14.62.23 1.22.28.62.05 1.41.05 2.55.05H14q0-.35.02-.64.01-.36.2-.77a2 2 0 0 1 .87-.87 2 2 0 0 1 .77-.2q.33-.02.7-.02h1.87q.39 0 .7.02.36.01.78.2.57.3.87.87a2 2 0 0 1 .2.77q.02.33.02.7v1.87q0 .39-.02.7-.01.36-.2.78a2 2 0 0 1-.87.87 2 2 0 0 1-.77.2q-.33.02-.7.02h-1.87q-.39 0-.7-.02-.36-.01-.78-.2a2 2 0 0 1-.87-.87 2 2 0 0 1-.2-.77L14 18.5h-1.14q-1.62.02-2.67-.06a5 5 0 0 1-1.96-.49 5 5 0 0 1-2.19-2.18c-.3-.6-.42-1.23-.48-1.96q-.07-1.04-.06-2.67V10q-.35 0-.64-.02-.36-.01-.77-.2a2 2 0 0 1-.87-.87 2 2 0 0 1-.2-.77q-.03-.33-.02-.7V5.56q0-.39.02-.7c.02-.24.06-.5.2-.78a2 2 0 0 1 .87-.87 2 2 0 0 1 .77-.2z" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

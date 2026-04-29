@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineImageSquareXmark extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineImageSquareXmark({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m14.26 15.94-1.71-1.7c-.8-.79-1.19-1.18-1.64-1.33a2 2 0 0 0-1.23 0c-.46.15-.85.54-1.64 1.32l-4 4.03m10.22-2.32.35-.34c.8-.8 1.2-1.2 1.67-1.35a2 2 0 0 1 1.24.02c.46.16.86.56 1.64 1.38l.84.85m-5.74-.56 3.96 4.02M12 4H7.2c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C4 5.52 4 6.08 4 7.2v9.6c0 .65 0 1.1.04 1.46m0 0a1.9 1.9 0 0 0 1.05 1.52c.43.22.99.22 2.11.22h9.6c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .88-.87c.22-.43.22-.99.22-2.11V12m-4-9 2.5 2.5m0 0L21 8m-2.5-2.5L21 3m-2.5 2.5L16 8"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

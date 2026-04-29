@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidFaceFrown extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidFaceFrown({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20M7.85 9.3a1.45 1.45 0 1 1 2.9 0 1.45 1.45 0 0 1-2.9 0m5.4 0a1.45 1.45 0 1 1 2.9 0 1.45 1.45 0 0 1-2.9 0M12 12.8c-1.4 0-2.5.56-3.23 1.1a6 6 0 0 0-1.14 1.06l-.02.02V15H7.6a1 1 0 1 0 1.63 1.17q.04-.07.14-.16.2-.21.57-.5c.51-.37 1.21-.71 2.06-.71s1.55.34 2.06.7a4 4 0 0 1 .74.7 1 1 0 0 0 1.6-1.2l-.01-.02-.02-.02-.3-.33q-.29-.32-.84-.74A5.5 5.5 0 0 0 12 12.8" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

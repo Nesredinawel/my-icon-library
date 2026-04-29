@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeVirusCovid19 extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeVirusCovid19({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M10.5 2a1 1 0 0 0 0 2h.5v1.07A7 7 0 0 0 7.8 6.4l-.75-.75.35-.36A1 1 0 1 0 6 3.87L3.87 5.99A1 1 0 1 0 5.28 7.4l.36-.35.75.76c-.68.91-1.15 2-1.32 3.19H4v-.5a1 1 0 0 0-2 0v3a1 1 0 1 0 2 0V13h1.07a7 7 0 0 0 1.32 3.2l-.75.75-.36-.35A1 1 0 0 0 3.87 18l2.12 2.12a1 1 0 1 0 1.41-1.41l-.35-.36.76-.75c.91.68 2 1.15 3.19 1.32V20h-.5a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2H13v-1.07a7 7 0 0 0 3.2-1.32l.75.75-.35.36a1 1 0 0 0 1.4 1.41l2.12-2.12a1 1 0 1 0-1.41-1.41l-.36.35-.75-.76c.68-.91 1.15-2 1.32-3.19H20v.5a1 1 0 1 0 2 0v-3a1 1 0 1 0-2 0v.5h-1.07a7 7 0 0 0-1.32-3.2l.75-.75.36.35A1 1 0 1 0 20.13 6l-2.12-2.12a1 1 0 1 0-1.41 1.41l.35.36-.76.75c-.91-.68-2-1.15-3.19-1.32V4h.5a1 1 0 1 0 0-2z" clip-rule="evenodd" opacity=".3"/><path fill="currentColor" d="M10.5 13.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M14 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

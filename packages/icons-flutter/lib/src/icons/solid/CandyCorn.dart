@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidCandyCorn extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidCandyCorn({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="m11.12 6-.02-.1a3 3 0 0 1-.12-1.54 3 3 0 0 1 1.28-1.87c.46-.3.98-.4 1.49-.44q.75-.06 1.86-.05h1.78q1.11-.01 1.86.05c.52.04 1.03.14 1.49.44a3 3 0 0 1 1.28 1.87A3 3 0 0 1 21.88 6zm9.26 4h-7.76l-.77-2h9.3zm-3.88 7c-.71 0-1.36-.44-1.61-1.1l-1.5-3.9h6.22l-1.5 3.9c-.25.66-.9 1.1-1.61 1.1M7.57 7c-.71 0-1.35.44-1.61 1.1L4.46 12h6.22l-1.5-3.9c-.25-.66-.9-1.1-1.6-1.1M3.7 14l-.78 2h9.3l-.77-2zm-1.5 4-.03.1c-.14.49-.23 1-.12 1.54a3 3 0 0 0 1.29 1.87c.45.3.97.4 1.48.44q.75.06 1.87.05h1.77q1.12.01 1.86-.05a3 3 0 0 0 1.49-.44 3 3 0 0 0 1.28-1.87 3 3 0 0 0-.14-1.64z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

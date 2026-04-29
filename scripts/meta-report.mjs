@@ -1,3 +1,4 @@
+//scripts/meta-report.mjs
 import fs from "node:fs";
 
 const meta = JSON.parse(fs.readFileSync("packages/icons-svg/src/metadata.json", "utf8"));

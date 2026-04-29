@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidTrainSubway extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidTrainSubway({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M8.16 2h7.68q.8 0 1.36.03c.39.03.78.1 1.16.3a3 3 0 0 1 1.31 1.3c.2.39.27.78.3 1.17q.04.57.03 1.36v8.68q0 .8-.03 1.36c-.03.39-.1.78-.3 1.16a2.9 2.9 0 0 1-2.3 1.6l1.34 1.33a1 1 0 0 1-1.42 1.42L14.6 19H9.4l-2.7 2.7a1 1 0 0 1-1.42-1.4l1.34-1.35a2.9 2.9 0 0 1-2.6-2.75A18 18 0 0 1 4 14.84V6.16q0-.8.03-1.36c.03-.39.1-.78.3-1.16a3 3 0 0 1 1.3-1.31c.39-.2.78-.27 1.17-.3Q7.37 2 8.16 2M11 10H6V6.2c0-.58 0-.95.02-1.23.03-.27.06-.37.09-.42a1 1 0 0 1 .44-.44c.05-.03.15-.06.42-.09A17 17 0 0 1 8.2 4H11zm2 0h5V6.2c0-.58 0-.95-.02-1.23a1 1 0 0 0-.09-.42 1 1 0 0 0-.44-.44 1 1 0 0 0-.42-.09A17 17 0 0 0 15.8 4H13zm-5 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0m9 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

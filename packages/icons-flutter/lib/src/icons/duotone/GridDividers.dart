@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class DuotoneGridDividers extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const DuotoneGridDividers({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M6.5 7h-3v3h3zm7 0h-3v3h3zm4 0h3v3h-3zm-11 11h-3v3h3zm4 0h3v3h-3zm10 0h-3v3h3z" opacity=".14"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h18M3 14h18m-10.5-4h3V7h-3zm7 0h3V7h-3zm-14 0h3V7h-3zm7 11h3v-3h-3zm7 0h3v-3h-3zm-14 0h3v-3h-3z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

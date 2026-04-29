@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class DuotoneCertificate extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const DuotoneCertificate({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="m12 3 1.91 1.87 2.59-.66.72 2.57 2.57.72-.66 2.59L21 12l-1.87 1.91.66 2.59-2.57.72-.72 2.57-2.59-.66L12 21l-1.91-1.87-2.59.66-.72-2.57-2.57-.72.66-2.59L3 12l1.87-1.91-.66-2.59 2.57-.72.72-2.57 2.59.66z" opacity=".14"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m12 3 1.91 1.87 2.59-.66.72 2.57 2.57.72-.66 2.59L21 12l-1.87 1.91.66 2.59-2.57.72-.72 2.57-2.59-.66L12 21l-1.91-1.87-2.59.66-.72-2.57-2.57-.72.66-2.59L3 12l1.87-1.91-.66-2.59 2.57-.72.72-2.57 2.59.66z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

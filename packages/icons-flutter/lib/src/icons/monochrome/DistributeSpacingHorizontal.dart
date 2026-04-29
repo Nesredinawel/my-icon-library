@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeDistributeSpacingHorizontal extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeDistributeSpacingHorizontal({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M8.22 6.1C8 6.51 8 7.07 8 8.2v7.6c0 1.12 0 1.68.22 2.1q.3.58.87.88c.43.22.99.22 2.11.22h1.6c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .88-.87c.22-.43.22-.99.22-2.11V8.2c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C14.48 5 13.92 5 12.8 5h-1.6c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87" opacity=".3"/><path fill="currentColor" d="M5 3a1 1 0 0 0-2 0v18a1 1 0 1 0 2 0zm16 0a1 1 0 1 0-2 0v18a1 1 0 1 0 2 0z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineAngel extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineAngel({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M7 7.66C6.37 7.18 6 6.6 6 6c0-1.66 2.69-3 6-3s6 1.34 6 3c0 .61-.37 1.18-1 1.66M21 21h-3.5m3.5 0-1.12-2.23-.26-.56a4 4 0 0 1-.18-2.5l.19-.59.3-.88c.46-1.4-.8-2.77-2.24-2.41q-.7.17-1.27.58l-3.12 2.24M21 21h-4M3 21h3.5M3 21l1.12-2.23.26-.56a4 4 0 0 0 .18-2.5l-.19-.59-.3-.88c-.46-1.4.8-2.77 2.24-2.41q.7.17 1.27.58l3.12 2.24M3 21h4m6.3-6.35c.41.43.83 1.2 1.5 2.39L17 21m-3.7-6.35a2 2 0 0 0-.47-.35 2 2 0 0 0-1.66 0q-.24.1-.47.35m0 0c-.41.43-.83 1.2-1.5 2.39L7 21m10 0H7m7-12a2 2 0 1 1-4 0 2 2 0 0 1 4 0"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

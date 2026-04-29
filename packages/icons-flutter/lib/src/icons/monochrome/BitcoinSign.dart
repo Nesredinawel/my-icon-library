@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeBitcoinSign extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeBitcoinSign({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M10 2a1 1 0 0 0-1 1v2H7a1 1 0 0 0 0 2h2V5h2V3a1 1 0 0 0-1-1m3 0a1 1 0 0 0-1 1v2h2V3a1 1 0 0 0-1-1m-2 17v2a1 1 0 1 1-2 0v-2zm-2 0H7a1 1 0 1 1 0-2h2zm5 2v-2h-2v2a1 1 0 1 0 2 0" opacity=".3"/><path fill="currentColor" fill-rule="evenodd" d="M15 19a4 4 0 0 0 2.65-7A3.99 3.99 0 0 0 15 5H9v14zm-4-8V7h4a2 2 0 1 1 0 4zm0 6v-4h4a2 2 0 1 1 0 4z" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

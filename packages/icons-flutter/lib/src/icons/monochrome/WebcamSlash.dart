@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeWebcamSlash extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeWebcamSlash({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M6.53 5.13a7 7 0 0 0 9.84 9.84l-2.14-2.15q-.97.66-2.23.68a4 4 0 0 1-3.32-6.23zm9.03 6.2q.43-.83.44-1.83a4 4 0 0 0-5.83-3.56L8 3.76a7 7 0 0 1 9.75 9.75z" opacity=".3"/><path fill="currentColor" d="M3.7 2.3a1 1 0 0 0-1.4 1.4l13.8 13.81a9 9 0 0 1-11.32-2.63l-1.81 2.54q-.41.57-.68 1c-.17.3-.36.69-.35 1.15a2 2 0 0 0 .78 1.51c.37.29.8.36 1.13.39q.5.04 1.22.03h13.86q.66 0 1.13-.02l.23.23a1 1 0 0 0 1.42-1.42zm10.28 7.45-2.23-2.23.25-.02a2 2 0 0 1 1.98 2.25"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

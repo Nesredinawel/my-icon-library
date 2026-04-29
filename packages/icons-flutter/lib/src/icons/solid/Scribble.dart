@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidScribble extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidScribble({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M7.62 2.97a3.4 3.4 0 0 1 4.8.03 3.4 3.4 0 0 1 .02 4.8L4.4 15.84a1.4 1.4 0 0 0 .03 1.97 1.4 1.4 0 0 0 1.97.03l8.04-8.04a3.4 3.4 0 0 1 4.8.03 3.4 3.4 0 0 1 .03 4.8l-3.02 3.01a1 1 0 0 0-.32.74q0 .4.34.85c.48.63 1.16.84 1.6.67l.13-.07.35-.21a29 29 0 0 0 1.97-1.36l.07-.05.02-.02a1 1 0 0 1 1.18 1.62l-.03.02-.07.05a65 65 0 0 1-2.07 1.43c-.27.17-.6.37-.85.46-1.55.59-3.1-.27-3.9-1.33a3.5 3.5 0 0 1-.74-2.02c-.01-.78.27-1.55.9-2.2l3.03-3.01a1.4 1.4 0 0 0-.03-1.97 1.4 1.4 0 0 0-1.97-.03L7.8 19.26a3.4 3.4 0 0 1-4.8-.03 3.4 3.4 0 0 1-.03-4.8l8.05-8.05A1.4 1.4 0 0 0 11 4.42a1.4 1.4 0 0 0-1.97-.04l-4.7 4.7a1 1 0 0 1-1.4-1.42z" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

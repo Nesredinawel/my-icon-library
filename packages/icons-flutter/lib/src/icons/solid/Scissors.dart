@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidScissors extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidScissors({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M6 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4M2 6a4 4 0 1 1 7.46 2l2.87 2.64 8-7.38a1 1 0 0 1 1.35 1.48L9.46 16q.53.9.54 2a4 4 0 1 1-1.94-3.43L10.85 12 8.06 9.43Q7.15 9.99 6 10a4 4 0 0 1-4-4m12.26 7.79a1 1 0 0 1 1.42-.06l6 5.53a1 1 0 1 1-1.36 1.48l-6-5.54a1 1 0 0 1-.06-1.41M6 16a2 2 0 1 0 0 4 2 2 0 0 0 0-4" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

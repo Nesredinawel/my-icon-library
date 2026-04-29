@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidHalloweenCalendar extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidHalloweenCalendar({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M8 3a1 1 0 1 0-2 0v1q-.69 0-1.2.03c-.39.03-.78.1-1.16.3a3 3 0 0 0-1.31 1.3c-.2.39-.27.78-.3 1.17Q2 7.37 2 8.16v9.68q0 .8.03 1.36c.03.39.1.78.3 1.16a3 3 0 0 0 1.3 1.31c.39.2.78.27 1.17.3q.57.04 1.36.03h11.68q.8 0 1.36-.03c.39-.03.78-.1 1.16-.3a3 3 0 0 0 1.31-1.3c.2-.39.27-.78.3-1.18q.04-.55.03-1.35V8.16q0-.8-.03-1.36a3 3 0 0 0-.3-1.16 3 3 0 0 0-1.3-1.31c-.39-.2-.78-.27-1.18-.3Q18.7 4 18 4V3a1 1 0 1 0-2 0v1H8zm2.5 9.42a1 1 0 0 0 0-1.41L7.26 7.75a1 1 0 0 0-1.41 0c-1.26 1.25-.9 3.23.27 4.4 1.16 1.16 3.14 1.53 4.4.27m3.14-.06a1 1 0 0 1 0-1.42L16.7 7.9a1 1 0 0 1 1.42 0c1.2 1.2.85 3.1-.25 4.2s-3 1.46-4.2.26m-7.2 2.8a1 1 0 0 1 1.4.29l.44.66.66-.44a1 1 0 0 1 1.4.28l.31.48.64-.64a1 1 0 0 1 1.42 0l.63.64.33-.48a1 1 0 0 1 1.38-.28l.67.44.45-.66a1 1 0 1 1 1.66 1.1l-1 1.5a1 1 0 0 1-1.39.28l-.66-.44-.45.66a1 1 0 0 1-1.54.16l-.79-.8-.8.8a1 1 0 0 1-1.53-.16l-.45-.66-.67.44a1 1 0 0 1-1.38-.28l-1-1.5a1 1 0 0 1 .27-1.38" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineMusicNote extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineMusicNote({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M12.5 8.9v9.6m0-9.6V5.57c0-.21 0-.31.03-.4l.15-.2q.09-.08.37-.16l4.4-1.47c.35-.12.53-.18.67-.14q.2.04.3.22c.08.12.08.3.08.68v3.31q0 .3-.03.4l-.15.2q-.09.08-.37.16l-4.4 1.47c-.35.12-.53.18-.67.14a.5.5 0 0 1-.3-.21c-.08-.13-.08-.31-.08-.69m0 9.6c0 1.38-1.57 2.5-3.5 2.5s-3.5-1.12-3.5-2.5S7.07 16 9 16s3.5 1.12 3.5 2.5"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

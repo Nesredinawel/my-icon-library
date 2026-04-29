@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidMouseAlt4 extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidMouseAlt4({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M11 2.07C8.08 2.5 6.28 4.72 5.56 5.8a4 4 0 0 0-.5 1.21q-.07.38-.06.71V8h6zM5 10v5a7 7 0 1 0 14 0v-5zm14-2h-6V2.07c2.92.43 4.72 2.65 5.44 3.73a3 3 0 0 1 .51 1.21q.06.38.05.71z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

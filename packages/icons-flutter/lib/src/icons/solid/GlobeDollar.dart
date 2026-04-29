@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidGlobeDollar extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidGlobeDollar({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M12.67 2.25a1 1 0 0 0-1.34 0A13.6 13.6 0 0 0 7.03 11h9.94q-.04-.57-.13-1.12a13.6 13.6 0 0 0-4.17-7.63M15.35 13h-8.3c.26 2.73 1.48 5.69 4.21 8.67a1 1 0 0 0 1.48 0q.69-.75 1.26-1.52V20q.01-.91.47-1.61-.46-.86-.47-1.89V16c0-1.2.52-2.27 1.35-3m3.62-2h2.98a10 10 0 0 0-6.12-8.24A15.5 15.5 0 0 1 18.97 11M8.17 2.76A10 10 0 0 0 2.05 11h2.98q.04-.74.16-1.45a15.5 15.5 0 0 1 2.98-6.79M2.05 13h3a16 16 0 0 0 3.32 8.32A10 10 0 0 1 2.05 13M19 13a1 1 0 0 0-1 1 2 2 0 0 0-2 2v.5c0 1.1.9 2 2 2h1.75a.25.25 0 1 1 0 .5H17a1 1 0 1 0 0 2h1a1 1 0 1 0 2 0 2 2 0 0 0 2-2v-.5a2 2 0 0 0-2-2h-1.75a.25.25 0 1 1 0-.5H21a1 1 0 1 0 0-2h-1a1 1 0 0 0-1-1"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromePhoneCallAlt1 extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromePhoneCallAlt1({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="m7.22 11.82-.86 1.05a14.3 14.3 0 0 0 5.26 5.06l.86-.84 1.77-1.76c.33-.32.65-.65 1.06-.84a2.5 2.5 0 0 1 1.13-.23c.45.01.87.19 1.3.36l.79.3q.9.33 1.77.74.39.19.74.52c.33.35.56.8.64 1.26q.07.5 0 .9-.2 1.04-.49 2.05l-.22.85A1 1 0 0 1 20 22a19 19 0 0 1-8.66-1.95c-3-1.51-5.45-3.85-7.06-6.77A19 19 0 0 1 2 4a1 1 0 0 1 .76-.97l2-.5q.5-.13.89-.2c.28-.05.58-.08.9-.01q.73.13 1.27.64.34.36.52.74.44.92.78 1.9l.33.84c.15.37.3.75.33 1.15q.04.53-.14 1.02c-.14.38-.39.7-.64 1.01q-.87 1.12-1.78 2.2" opacity=".3"/><path fill="currentColor" d="M13.11 2a1 1 0 0 0-.22 2 8 8 0 0 1 7.07 7.05 1 1 0 0 0 1.98-.22A10 10 0 0 0 13.11 2"/><path fill="currentColor" d="M13.2 6.02a1 1 0 0 0-.4 1.96 4 4 0 0 1 3.17 3.16 1 1 0 0 0 1.96-.38 6 6 0 0 0-4.74-4.74"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

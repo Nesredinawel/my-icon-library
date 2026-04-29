@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeInboxAlt2 extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeInboxAlt2({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M22 12V8.16q0-.8-.03-1.36a3 3 0 0 0-.3-1.16 3 3 0 0 0-1.3-1.31c-.39-.2-.78-.27-1.18-.3A18 18 0 0 0 17.85 4H6.16q-.8 0-1.36.03c-.39.03-.78.1-1.16.3a3 3 0 0 0-1.31 1.3c-.2.39-.27.78-.3 1.17Q2 7.37 2 8.16V12h4.89q.3-.01.66.06a2 2 0 0 1 1.09.67l.04.03.59.6c.38.38.46.45.54.5a1 1 0 0 0 .29.11c.08.02.19.03.73.03h2.34c.54 0 .65 0 .73-.03a1 1 0 0 0 .3-.12c.07-.04.15-.11.53-.5l.6-.59.03-.03q.2-.22.5-.44a2 2 0 0 1 1.25-.29z" opacity=".3"/><path fill="currentColor" d="M2 12v3.84q0 .8.03 1.36c.03.39.1.78.3 1.16a3 3 0 0 0 1.3 1.31c.39.2.78.27 1.17.3q.57.04 1.36.03h11.68q.8 0 1.36-.03c.39-.03.78-.1 1.16-.3a3 3 0 0 0 1.31-1.3c.2-.39.27-.78.3-1.18q.04-.55.03-1.35v-3.81L17.11 12q-.3-.01-.66.06a2 2 0 0 0-.58.23q-.3.21-.51.44l-.04.03-.59.6c-.38.38-.46.45-.54.5a1 1 0 0 1-.29.11c-.08.02-.19.03-.73.03h-2.34c-.54 0-.65 0-.73-.03a1 1 0 0 1-.3-.12 4 4 0 0 1-.53-.5l-.6-.59-.03-.03q-.2-.22-.5-.44a2 2 0 0 0-.59-.23q-.35-.07-.71-.06z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

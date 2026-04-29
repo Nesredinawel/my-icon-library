@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeSipderWeb extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeSipderWeb({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="m9.07 4.66 1.07 1.94q1.86.3 3.72 0l1.07-1.94q.66-.14 1.3-.33.15.72.38 1.43L15.6 7.59A13 13 0 0 0 17.48 11h2.08q.44.52.95 1-.5.48-.95 1h-2.08a13 13 0 0 0-1.89 3.4l1.02 1.84q-.22.7-.38 1.43-.64-.2-1.3-.33l-1.07-1.94q-1.86-.3-3.72 0l-1.07 1.94q-.66.14-1.3.33-.15-.72-.38-1.43l1.02-1.83A13 13 0 0 0 6.52 13H4.44q-.44-.52-.95-1 .5-.48.95-1h2.08q1.2-1.56 1.89-3.4L7.39 5.75a15 15 0 0 0 .38-1.43q.64.2 1.3.33M8.95 11q.37-.6.68-1.2l.67 1.2zm0 2h1.35l-.67 1.2q-.3-.6-.68-1.2M12 14.06l.67 1.2h-1.34zm2.37.15L13.7 13h1.35q-.37.6-.68 1.2m0-4.42q.3.63.68 1.21H13.7zm-1.7-1.06L12 9.94l-.67-1.2z" clip-rule="evenodd" opacity=".3"/><path fill="currentColor" fill-rule="evenodd" d="M17.48 2.12a1 1 0 0 1 .5.7l.05.27.15.8a13 13 0 0 0 4.48 7.36 1 1 0 0 1 0 1.5l-.6.54a13 13 0 0 0-4.03 7.62l-.05.27a1 1 0 0 1-1.35.75 12.5 12.5 0 0 0-9.26 0 1 1 0 0 1-1.35-.75l-.05-.27-.15-.8a13 13 0 0 0-4.48-7.36 1 1 0 0 1 0-1.5c.32-.28.47-.4.6-.54A13 13 0 0 0 5.97 3.1l.05-.27a1 1 0 0 1 1.35-.75 12.5 12.5 0 0 0 9.26 0 1 1 0 0 1 .85.05m-9.71 2.2A15 15 0 0 1 3.49 12a15 15 0 0 1 4.28 7.67c2.76-.84 5.7-.84 8.46 0A15 15 0 0 1 20.51 12a15 15 0 0 1-4.28-7.67c-2.76.84-5.7.84-8.46 0" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeCloudSlash extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeCloudSlash({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M6.34 7.76A6.2 6.2 0 0 0 2 13.65 6.4 6.4 0 0 0 8.4 20h8.1q.95 0 1.79-.3zm15 9.36q.64-1.18.66-2.62c0-2.02-1.1-3.91-2.76-4.9A6.6 6.6 0 0 0 9.22 5z" opacity=".3"/><path fill="currentColor" fill-rule="evenodd" d="M2.3 2.3a1 1 0 0 1 1.4 0l18 18a1 1 0 0 1-1.4 1.4l-18-18a1 1 0 0 1 0-1.4" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

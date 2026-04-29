@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidAirplay extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidAirplay({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M17.84 3H6.16q-.8 0-1.36.03c-.39.03-.78.1-1.16.3a3 3 0 0 0-1.31 1.3c-.2.39-.27.78-.3 1.17Q2 6.37 2 7.16v6.87q0 .66.02 1.13.02.5.2.99a3 3 0 0 0 1.63 1.62q.5.2.99.2l.5.03c.16-.35.34-.58.42-.7.18-.24.42-.5.58-.68l2.9-3.24.01-.02c.07-.08.22-.25.38-.4a3.4 3.4 0 0 1 4.75 0l.37.4.01.02 2.9 3.24c.16.18.4.44.58.69.08.1.26.34.42.69l.5-.02q.5-.02.99-.2a3 3 0 0 0 1.62-1.63q.2-.5.2-.99.04-.47.03-1.13V7.16q0-.8-.03-1.36a3 3 0 0 0-.3-1.16 3 3 0 0 0-1.3-1.31c-.39-.2-.78-.27-1.18-.3Q18.65 3 17.85 3"/><path fill="currentColor" d="M12.49 14.09a1.4 1.4 0 0 0-1.49.32l-.26.28-2.9 3.25-.48.56c-.12.16-.33.47-.36.87-.03.44.13.9.47 1.23.33.3.73.36.92.38q.32.03.71.02h5.8q.39 0 .7-.02c.2-.02.6-.07.93-.38.34-.33.5-.8.47-1.23-.03-.4-.24-.7-.36-.87q-.2-.26-.48-.56l-2.9-3.25q-.12-.15-.26-.28c-.1-.1-.27-.24-.51-.32"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeBullseyeArrow extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeBullseyeArrow({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><g fill="currentColor" opacity=".3"><path d="M12.97 3.44a3 3 0 0 0-.57.57L12 4a8 8 0 1 0 8 7.91q.45-.26.75-.69l1-1.41Q22 10.87 22 12a10 10 0 1 1-7.46-9.68z"/><path d="m18 12.2-1.78-.18-.23.23a4 4 0 1 1-4.24-4.24l.35-.36L11.96 6A6 6 0 1 0 18 12.2"/></g><path fill="currentColor" d="M17.9 3.17a.5.5 0 0 0-.76-.25l-3 2.15a.5.5 0 0 0-.21.45l.25 2.9-2.89 2.87a1 1 0 0 0 1.42 1.42l2.77-2.78 3.18.33a.5.5 0 0 0 .46-.2l2.15-3a.5.5 0 0 0-.25-.77l-2.34-.78z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

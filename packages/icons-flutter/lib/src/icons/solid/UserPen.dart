@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidUserPen extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidUserPen({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M11 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10m0 11a8 8 0 0 0-8 8 1 1 0 0 0 1 1h6.04a3 3 0 0 1-.01-.85c.03-.21.09-.45.12-.61l.07-.3q.18-.81.44-1.5a6 6 0 0 1 .65-1.16q.44-.58 1.04-1.16l2.46-2.46A8 8 0 0 0 11 13m7.01.5a1.76 1.76 0 1 1 2.49 2.49l-4.07 4.16a8 8 0 0 1-1.06.97 4 4 0 0 1-.83.45c-.34.13-.69.2-1.4.34l-.1.01c-.4.08-.6.13-.75.06a.5.5 0 0 1-.27-.28c-.05-.14 0-.34.09-.74l.03-.15c.16-.66.24-.99.37-1.3a4 4 0 0 1 .43-.77c.19-.27.43-.5.9-.99z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidBuildingUser extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidBuildingUser({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M4.57 2q-.39 0-.7.02c-.24.02-.5.06-.78.2a2 2 0 0 0-.87.87 2 2 0 0 0-.2.77Q2 4.2 2 4.56V21a1 1 0 0 0 1 1h8.87a4 4 0 0 1-.37-1.6 5.4 5.4 0 0 1 2.4-4.49A4.48 4.48 0 0 1 16 9.33V4.57q0-.39-.02-.7-.01-.36-.2-.78a2 2 0 0 0-.87-.87 2 2 0 0 0-.77-.2Q13.8 2 13.44 2zM5 6a1 1 0 0 1 1-1h1a1 1 0 0 1 0 2H6a1 1 0 0 1-1-1m5 0a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2h-1a1 1 0 0 1-1-1M5 9a1 1 0 0 1 1-1h1a1 1 0 0 1 0 2H6a1 1 0 0 1-1-1m5 0a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2h-1a1 1 0 0 1-1-1m-5 3a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1m5 0a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2h-1a1 1 0 0 1-1-1m-1 3a2 2 0 0 0-2 2v3h4v-3a2 2 0 0 0-2-2" clip-rule="evenodd"/><path fill="currentColor" d="M15.2 13.5a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0m-1.4 5.55A3 3 0 0 1 16.64 17h2.12a3 3 0 0 1 2.85 2.05l.2.6.14.48c.04.17.09.44.01.74q-.15.57-.65.9c-.26.16-.52.2-.7.22l-.49.01h-4.84l-.5-.01a1.5 1.5 0 0 1-.7-.23 1.5 1.5 0 0 1-.64-.9c-.08-.3-.03-.56.01-.73l.14-.47z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

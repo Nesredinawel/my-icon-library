@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromePhoneIntercom extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromePhoneIntercom({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M7 6.2c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C8.52 3 9.08 3 10.2 3h8.6c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11v11.6c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22h-8.6c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C7 19.48 7 18.92 7 17.8z" clip-rule="evenodd" opacity=".3"/><path fill="currentColor" d="M2 5a2 2 0 1 1 4 0v14a2 2 0 1 1-4 0zm7 2.6c0-.56 0-.84.1-1.05a1 1 0 0 1 .45-.44C9.76 6 10.04 6 10.6 6h7.8c.56 0 .84 0 1.05.1a1 1 0 0 1 .44.45c.11.21.11.49.11 1.05v1.8c0 .56 0 .84-.1 1.05a1 1 0 0 1-.45.44c-.21.11-.49.11-1.05.11h-7.8c-.56 0-.84 0-1.05-.1a1 1 0 0 1-.44-.45C9 10.24 9 9.96 9 9.4zm5 7.9a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0m1-1.5a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1m0 3a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

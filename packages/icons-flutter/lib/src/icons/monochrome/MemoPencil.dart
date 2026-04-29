@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeMemoPencil extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeMemoPencil({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><g fill="currentColor" opacity=".3"><path fill-rule="evenodd" d="M7.16 2h9.68q.8 0 1.36.03c.39.03.78.1 1.16.3a3 3 0 0 1 1.31 1.3c.2.39.27.78.3 1.17q.04.57.03 1.36v2.58a3.8 3.8 0 0 0-2.96 1.09l-6.61 6.6c-.4.4-.76.76-1.05 1.17a6 6 0 0 0-.64 1.16c-.24.55-.37 1.17-.46 1.56l-.18.84c-.02.17-.05.48.01.84H7.16q-.8 0-1.36-.03a3 3 0 0 1-1.16-.3 3 3 0 0 1-1.31-1.3c-.2-.39-.27-.78-.3-1.18Q3 18.65 3 17.85V6.16q0-.8.03-1.36c.03-.39.1-.78.3-1.16a3 3 0 0 1 1.3-1.31c.39-.2.78-.27 1.17-.3Q6.37 2 7.16 2" clip-rule="evenodd"/><path d="M21 17.5v.34q0 .8-.03 1.36c-.03.39-.1.78-.3 1.16a3 3 0 0 1-1.3 1.31c-.39.2-.78.27-1.18.3q-.55.04-1.35.03h-.35z"/></g><path fill="currentColor" d="M6 7a1 1 0 0 1 1-1h7a1 1 0 1 1 0 2H7a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h5a1 1 0 1 1 0 2H7a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2H7a1 1 0 0 1-1-1m13.45-3.76a1.76 1.76 0 0 1 2.5 2.5l-6.45 6.43c-.51.51-.77.77-1.06.97a4 4 0 0 1-.83.44c-.33.13-.69.2-1.4.34l-.1.02c-.4.08-.6.12-.74.06a.5.5 0 0 1-.27-.28c-.06-.14-.01-.35.08-.75l.04-.14c.15-.66.23-1 .36-1.3a4 4 0 0 1 .43-.77c.2-.27.43-.51.91-1z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

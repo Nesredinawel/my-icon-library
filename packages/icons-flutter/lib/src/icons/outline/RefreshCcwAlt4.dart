@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineRefreshCcwAlt4 extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineRefreshCcwAlt4({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M5.4 5.9 8.5 9h-6V3zm0 0A9 9 0 0 1 20.94 11m-2.34 7.1 2.9 2.9v-6h-6zm0 0A9 9 0 0 1 3.06 13"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

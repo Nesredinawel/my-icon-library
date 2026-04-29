@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidCube extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidCube({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M12.4 2.15a3 3 0 0 0-.8 0q-.45.07-.93.26l-6 2.12a5 5 0 0 0-1.74.9l9.06 3.01 8.97-3.12c-.44-.37-1-.57-1.63-.8l-6-2.11q-.48-.19-.92-.26m9.54 4.95L13 10.2v11.5l.33-.12 6-2.12c.64-.22 1.2-.42 1.62-.78a3 3 0 0 0 .85-1.2c.2-.53.2-1.12.2-1.79V8.3q.01-.64-.05-1.2M11 21.7V10.23l-8.96-3q-.05.5-.04 1.07v7.4c0 .67 0 1.26.2 1.8a3 3 0 0 0 .85 1.19c.43.36.98.56 1.62.78l6 2.12z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

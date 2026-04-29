@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineMedal extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineMedal({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linejoin="round" d="m15.92 12.9 3.34-4.01c.27-.33.41-.5.5-.68a2 2 0 0 0 .2-.52c.04-.2.04-.42.04-.85V6.2c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C18.48 3 17.92 3 16.8 3H7.2c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C4 4.52 4 5.08 4 6.2v.64c0 .43 0 .65.04.85a2 2 0 0 0 .2.52c.09.19.23.35.5.68l3.34 4m5.32-1.7 5.97-7.65M10.6 11.2 4.64 3.53M6.56 6h10.9M17 16a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

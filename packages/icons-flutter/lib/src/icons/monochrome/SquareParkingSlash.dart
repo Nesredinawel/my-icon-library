@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeSquareParkingSlash extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeSquareParkingSlash({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><g fill="currentColor" opacity=".3"><path d="M3.3 4.7C3 5.35 3 6.19 3 7.8v8.4c0 1.68 0 2.52.33 3.16a3 3 0 0 0 1.3 1.31c.65.33 1.49.33 3.17.33h8.4c1.62 0 2.46 0 3.1-.3L12.58 14H10.5v2a1 1 0 1 1-2 0V9.91zm9.93 4.32 1.25 1.25a1.5 1.5 0 0 0-1.25-1.25"/><path d="M16.18 11.97A3.5 3.5 0 0 0 13 7h-1.79l-4-4h8.99c1.68 0 2.52 0 3.16.33a3 3 0 0 1 1.31 1.3c.33.65.33 1.49.33 3.17v8.99z"/></g><path fill="currentColor" fill-rule="evenodd" d="M2.3 2.3a1 1 0 0 1 1.4 0l18 18a1 1 0 0 1-1.4 1.4l-18-18a1 1 0 0 1 0-1.4" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

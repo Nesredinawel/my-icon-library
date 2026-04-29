@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidMicrophoneSlash extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidMicrophoneSlash({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M16 9h-2.79L8.14 3.93A4 4 0 0 1 16 5h-3a1 1 0 1 0 0 2h3zm-8 .41V12a4 4 0 0 0 6.03 3.45l1.45 1.44A6 6 0 0 1 6 12v-1.99a1 1 0 0 0-2 0v2a8 8 0 0 0 7 7.94V21H8a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2h-3v-1.06a8 8 0 0 0 3.9-1.62l3.4 3.39a1 1 0 0 0 1.4-1.42l-18-18a1 1 0 0 0-1.4 1.42zm9.8 4.17 1.56 1.56q.63-1.45.64-3.14v-2a1 1 0 1 0-2 0v2a6 6 0 0 1-.2 1.58M16 11.79l-.79-.79H16z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineMessageCircleSearch extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineMessageCircleSearch({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m15.5 15.5-1.88-1.88m0 0A3 3 0 0 0 11.5 8.5a3 3 0 1 0 2.12 5.12M21 12a9 9 0 0 1-9 9H3s1.56-3.74.94-5A9 9 0 1 1 21 12"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

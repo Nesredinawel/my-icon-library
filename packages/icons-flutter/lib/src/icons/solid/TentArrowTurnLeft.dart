@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidTentArrowTurnLeft extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidTentArrowTurnLeft({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M8.7 2.7a1 1 0 0 0-1.4-1.4l-3 3a1 1 0 0 0 0 1.4l3 3a1 1 0 0 0 1.4-1.4L7.42 6h8.39c.58 0 .95 0 1.23.02.27.03.37.06.42.09a1 1 0 0 1 .44.44c.03.05.06.15.09.42.02.28.02.65.02 1.23V9a1 1 0 1 0 2 0v-.84q0-.8-.03-1.36a3 3 0 0 0-.3-1.16 3 3 0 0 0-1.3-1.31c-.39-.2-.78-.27-1.18-.3A18 18 0 0 0 15.85 4H7.4z"/><path fill="currentColor" fill-rule="evenodd" d="M11.4 9.08q.6-.15 1.2 0 .42.12.68.32.25.17.51.4l4.29 3.43q.19.14.38.36a2 2 0 0 1 .4.87l1 4.85.13.72c.02.23.02.5-.1.8q-.26.6-.9.93c-.3.16-.62.2-.89.22q-.37.02-.84.02H6.74q-.46 0-.84-.02a2 2 0 0 1-.89-.22 2 2 0 0 1-.9-.93 1.6 1.6 0 0 1-.1-.8l.13-.72 1-4.85q.04-.21.15-.47.09-.21.25-.4.19-.22.38-.36l4.29-3.44.5-.39q.26-.2.68-.32M12 20v-5l3.5 5z" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

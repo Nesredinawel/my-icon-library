@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineTrashClock extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineTrashClock({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M10 10v3M4 6h16m-4 0-.27-.81a5 5 0 0 0-.64-1.47 2 2 0 0 0-.8-.58C13.94 3 13.52 3 12.7 3h-1.38c-.83 0-1.25 0-1.6.14a2 2 0 0 0-.8.58c-.25.29-.38.68-.64 1.47L8 6m2 15H9a3 3 0 0 1-3-3V6m12 0v3m-4 1v.5m3 5V17h1.5m2.5 0a4 4 0 1 1-8 0 4 4 0 0 1 8 0"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

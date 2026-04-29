@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineRadio extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineRadio({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M19 4H9c-.93 0-1.4 0-1.78.1A3 3 0 0 0 5.1 6.22c-.1.39-.1.87-.1 1.8m0 0Q5.46 8 6.2 8h11.6c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11v5.6c0 1.12 0 1.68-.22 2.1a2 2 0 0 1-.87.88c-.43.22-.99.22-2.11.22H6.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C3 18.48 3 17.92 3 16.8v-5.6c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88q.34-.18.91-.2M14 12h4m-4 4h4m-8-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

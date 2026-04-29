@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeRotate extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeRotate({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M12 5a7 7 0 0 0-6.95 7.88 1 1 0 1 1-1.98.24 9 9 0 0 1 15.9-6.81 1 1 0 0 1-1.54 1.27A7 7 0 0 0 12 5m7.81 5a1 1 0 0 1 1.12.88q.07.54.07 1.12a9 9 0 0 1-15.75 5.95 1 1 0 0 1 1.5-1.32 7 7 0 0 0 12.2-5.5A1 1 0 0 1 19.8 10" clip-rule="evenodd" opacity=".3"/><path fill="currentColor" fill-rule="evenodd" d="M18.2 3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2h2V4a1 1 0 0 1 1-1M5 17a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2H7v2a1 1 0 1 1-2 0z" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidFiles extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidFiles({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M15 2h-2.2c-1.68 0-2.52 0-3.16.33a3 3 0 0 0-1.31 1.3C8 4.29 8 5.13 8 6.8v6.4c0 1.68 0 2.52.33 3.16a3 3 0 0 0 1.3 1.31c.65.33 1.49.33 3.17.33h2.4c1.68 0 2.52 0 3.16-.33a3 3 0 0 0 1.31-1.3c.33-.65.33-1.49.33-3.17V7zm-1 5.5v-4L18.5 8h-4a.5.5 0 0 1-.5-.5" clip-rule="evenodd"/><path fill="currentColor" d="M6 6.73v-.55l-.36.15a3 3 0 0 0-1.31 1.3C4 8.29 4 9.13 4 10.8v6.4c0 1.68 0 2.52.33 3.16a3 3 0 0 0 1.3 1.31c.65.33 1.49.33 3.17.33h2.4c1.68 0 2.52 0 3.16-.33A3 3 0 0 0 15.82 20h-3.09q-1.18.01-2.06-.05a5 5 0 0 1-1.94-.5 5 5 0 0 1-2.19-2.18 5 5 0 0 1-.5-1.94Q6 14.45 6 13.27z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

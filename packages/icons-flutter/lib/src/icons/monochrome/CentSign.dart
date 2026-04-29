@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeCentSign extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeCentSign({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M14 3a1 1 0 1 0-2 0v1.05a8 8 0 0 1 2 .03zm-2 16.95a8 8 0 0 0 2-.03V21a1 1 0 1 1-2 0z" opacity=".3"/><path fill="currentColor" fill-rule="evenodd" d="M12.86 6A5.93 5.93 0 0 0 7 12c0 3.33 2.64 6 5.86 6a5.8 5.8 0 0 0 4.38-2.02 1 1 0 0 1 1.52 1.3 7.8 7.8 0 0 1-5.9 2.72A7.93 7.93 0 0 1 5 12c0-4.4 3.5-8 7.86-8a7.8 7.8 0 0 1 5.9 2.72 1 1 0 0 1-1.52 1.3A5.8 5.8 0 0 0 12.86 6" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

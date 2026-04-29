@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineChartUserSquare extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineChartUserSquare({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M14 16h3.8c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .88-.87c.22-.43.22-.99.22-2.11V6.2c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C19.48 3 18.92 3 17.8 3H9.2c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87C6.02 4.5 6 5.01 6 6m12 0-5 5-3-3m8-2v3m0-3h-3m-6 6a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-2 5c.93 0 1.4 0 1.78.1a3 3 0 0 1 2.12 2.12c.1.39.1.85.1 1.78H3c0-.93 0-1.4.1-1.78a3 3 0 0 1 2.12-2.12c.39-.1.85-.1 1.78-.1"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

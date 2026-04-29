@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeMailShield extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeMailShield({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M6.16 4h11.68q.8 0 1.36.03c.39.03.78.1 1.16.3a3 3 0 0 1 1.52 1.88L15 10.81c-1.35.89-1.82 1.19-2.3 1.3a3 3 0 0 1-1.4 0c-.48-.11-.95-.41-2.3-1.3L2.12 6.2q.07-.3.2-.57a3 3 0 0 1 1.32-1.31c.38-.2.77-.27 1.16-.3Q5.37 4 6.16 4m9.79 8.57L22 8.54v4.67q-.47-.15-.97-.13h-.2l-.05-.02-.18-.14a2.87 2.87 0 0 0-4.2 0l-.18.14-.05.02h-.2q-.54-.02-1.04.16zm-1.9 1.16q-.44.21-.88.32a5 5 0 0 1-2.34 0c-.86-.2-1.65-.73-2.78-1.48L2 8.54v7.3q0 .8.03 1.36c.03.39.1.78.3 1.16a3 3 0 0 0 1.3 1.31c.39.2.78.27 1.17.3q.57.04 1.36.03h7.43a8 8 0 0 1-.59-2.98v-1.06a2.9 2.9 0 0 1 1.05-2.23" opacity=".3"/><path fill="currentColor" d="M19.14 14.28a.87.87 0 0 0-1.28 0c-.47.51-1.07.8-1.7.8h-.24a1 1 0 0 0-.64.24 1 1 0 0 0-.28.64v1.06c0 2.28 1.3 4.34 3.24 4.94q.26.07.52 0c1.94-.6 3.24-2.66 3.24-4.94v-1.06a1 1 0 0 0-.28-.64 1 1 0 0 0-.64-.24h-.25c-.62 0-1.22-.29-1.7-.8"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

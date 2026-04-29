@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineMarker extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineMarker({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m7 7 1.74-1.74c.79-.79 1.19-1.18 1.64-1.33a2 2 0 0 1 1.24 0c.45.15.85.54 1.64 1.33L14 6m-4 4 4 4m-4.5 4.5L20 8a2.82 2.82 0 0 0-4-4L5.5 14.5C3.72 16.28 2.65 20.65 3 21s4.66-.66 6.5-2.5"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

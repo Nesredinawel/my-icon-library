@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "icons:optimize": "node scripts/optimize-svgs.mjs",
+    "build:flutter": "node scripts/generate-flutter.mjs",
     "meta:seed": "node scripts/gen-icons-meta.mjs",
     "meta:auto": "node scripts/meta-auto-categorize.mjs",
     "icons:meta": "node scripts/build-metadata.mjs",

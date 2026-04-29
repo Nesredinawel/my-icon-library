@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeGlobe extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeGlobe({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0" opacity=".3"/><path fill="currentColor" fill-rule="evenodd" d="M4.06 11h2.97q.04-.57.14-1.12c.35-2.14 1.24-4 2.26-5.46A8 8 0 0 0 4.06 11M12 4.4A11.6 11.6 0 0 0 9.04 11h5.92q-.03-.4-.1-.8A11.6 11.6 0 0 0 12 4.4m2.94 8.6H9.06A12.5 12.5 0 0 0 12 19.47c1.86-2.3 2.7-4.48 2.94-6.47m-5.31 6.64A14 14 0 0 1 7.05 13H4.06a8 8 0 0 0 5.57 6.64m4.74 0A14 14 0 0 0 16.95 13h2.99a8 8 0 0 1-5.57 6.64M19.94 11h-2.97q-.04-.57-.13-1.12c-.36-2.14-1.25-4-2.27-5.46A8 8 0 0 1 19.94 11" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

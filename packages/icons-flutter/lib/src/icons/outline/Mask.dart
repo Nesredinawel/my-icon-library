@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineMask extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineMask({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M8 12H7m10 0h-1m-4-3.5 3.58-1.08c.5-.15.76-.22 1.01-.25a3 3 0 0 1 .81.01c.26.04.5.12 1 .29 1.53.5 2.3.76 2.78 1.24a3 3 0 0 1 .9 1.89c.07.68-.22 1.43-.78 2.94l-.52 1.38c-.28.75-.42 1.13-.67 1.4a2 2 0 0 1-.78.55c-.35.13-.75.13-1.55.13h-1.02c-.29 0-.43 0-.57-.02l-.36-.08-.5-.24-.47-.23a9 9 0 0 0-2.12-.89 4 4 0 0 0-1.48 0 9 9 0 0 0-2.12.9l-.46.22c-.26.13-.38.2-.51.24l-.36.08c-.14.02-.28.02-.57.02H6.22c-.8 0-1.2 0-1.55-.13a2 2 0 0 1-.78-.55 5 5 0 0 1-.67-1.4l-.52-1.38c-.56-1.51-.85-2.26-.79-2.94a3 3 0 0 1 .9-1.9c.5-.47 1.26-.72 2.79-1.23.5-.17.74-.25 1-.29a3 3 0 0 1 .8-.01c.26.03.51.1 1.02.25z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

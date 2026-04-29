@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidSend extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidSend({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M18.83 2.72c.33-.08.78-.16 1.23 0a2 2 0 0 1 1.22 1.22c.16.45.08.9 0 1.22q-.13.52-.37 1.2l-4.23 12.39q-.27.8-.5 1.34c-.14.33-.37.78-.82 1.04a2 2 0 0 1-1.8.13c-.48-.2-.77-.62-.96-.93a67 67 0 0 1-2.55-4.96L16.2 9.2a1 1 0 0 0-1.42-1.42l-6.16 6.17a61 61 0 0 1-4.96-2.56c-.3-.19-.72-.48-.93-.96a2 2 0 0 1 .13-1.8c.26-.45.71-.68 1.04-.83q.53-.21 1.34-.49l12.38-4.23q.7-.25 1.2-.37"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

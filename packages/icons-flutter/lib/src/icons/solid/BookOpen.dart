@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidBookOpen extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidBookOpen({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M5.2 3h3.1c1.12 0 1.68 0 2.1.22q.58.3.88.87c.22.43.22.99.22 2.11V21l-2.2-1.46c-.3-.2-.44-.3-.6-.37a2 2 0 0 0-.45-.14C8.07 19 7.89 19 7.53 19H5.2c-1.12 0-1.68 0-2.1-.22a2 2 0 0 1-.88-.87C2 17.48 2 16.92 2 15.8V6.2c0-1.12 0-1.68.22-2.1a2 2 0 0 1 .87-.88C3.52 3 4.08 3 5.2 3m13.6 0h-3.1c-1.12 0-1.68 0-2.1.22a2 2 0 0 0-.88.87c-.22.43-.22.99-.22 2.11V21l2.2-1.46c.3-.2.44-.3.6-.37a2 2 0 0 1 .45-.14c.18-.03.36-.03.72-.03h2.33c1.12 0 1.68 0 2.1-.22a2 2 0 0 0 .88-.87c.22-.43.22-.99.22-2.11V6.2c0-1.12 0-1.68-.22-2.1a2 2 0 0 0-.87-.88C20.48 3 19.92 3 18.8 3"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

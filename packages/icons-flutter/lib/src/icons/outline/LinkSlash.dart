@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineLinkSlash extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineLinkSlash({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path fill="currentColor" d="M14 6a1 1 0 1 0 0 2zm-4 12a1 1 0 1 0 0-2zm4-2a1 1 0 1 0 0 2zm-6-5a1 1 0 1 0 0 2zM3.7 2.3a1 1 0 0 0-1.4 1.4L3 3zm16.6 19.4a1 1 0 0 0 1.4-1.4l-.7.7zm-.89-7.61a1 1 0 1 0 1.7 1.05l-.85-.53zM12 13a1 1 0 1 0 0-2zM7.08 7.08l.71-.7zM8 17v-1a4 4 0 0 1-4-4H2a6 6 0 0 0 6 6zm8-10v1a4 4 0 0 1 4 4h2a6 6 0 0 0-6-6zm-2 0v1h2V6h-2zm-4 10v-1H8v2h2zm6 0v-1h-2v2h2zm5-5h-1q-.02 1.16-.59 2.09l.85.52.86.53c.56-.92.88-2 .88-3.14zM8 12v1h4v-2H8zM3 3l-.7.7 4.08 4.1.7-.72.71-.7-4.08-4.09zm4.08 4.08L6.9 6.1A6 6 0 0 0 2 12h2a4 4 0 0 1 3.27-3.93zm0 0-.7.71 9.83 9.83.7-.7.71-.71L7.8 6.38zm9.84 9.84-.71.7 4.08 4.09L21 21l.7-.7-4.08-4.1zm0 0-.19-.99q-.35.07-.73.07v2q.56 0 1.1-.1z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

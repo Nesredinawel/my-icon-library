@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineGear extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineGear({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M12.9 3.06C12.7 3 12.47 3 12 3s-.7 0-.9.06q-.46.14-.77.52a3 3 0 0 0-.39.81c-.25.62-.94.94-1.57.73l-.57-.19c-.4-.13-.61-.2-.8-.21a1.5 1.5 0 0 0-.84.2c-.18.1-.33.25-.63.55-.32.32-.48.48-.58.66a1.5 1.5 0 0 0-.18.89c.02.2.1.41.27.84.27.66.01 1.4-.6 1.77l-.27.17c-.43.26-.64.38-.8.56a2 2 0 0 0-.3.53c-.07.23-.07.48-.07.98 0 .59 0 .89.1 1.14q.12.34.4.58c.2.19.46.3 1 .51.57.23.85.84.66 1.41l-.21.65c-.15.45-.23.67-.23.89q-.01.4.18.76c.1.19.27.36.6.69s.5.5.7.6q.35.2.75.18c.22 0 .44-.08.9-.23l.52-.17c.63-.21 1.32.1 1.57.73.18.43.26.65.4.81q.29.38.76.52c.2.06.43.06.9.06s.7 0 .9-.06q.46-.14.77-.52c.13-.16.21-.38.39-.81.25-.62.94-.94 1.57-.73l.53.17c.45.15.67.23.89.23q.4.02.76-.18c.19-.1.36-.27.69-.6s.5-.5.6-.7q.2-.35.18-.75c0-.22-.08-.44-.23-.9l-.21-.64c-.2-.57.1-1.18.65-1.4a3 3 0 0 0 1.02-.52q.27-.25.4-.58c.09-.25.09-.55.09-1.14 0-.5 0-.75-.07-.98a2 2 0 0 0-.3-.53c-.16-.18-.37-.3-.8-.56l-.27-.17a1.45 1.45 0 0 1-.6-1.77c.17-.43.25-.64.27-.84a1.5 1.5 0 0 0-.18-.89 3 3 0 0 0-.58-.66c-.3-.3-.46-.46-.63-.55a1.5 1.5 0 0 0-.83-.2c-.2.01-.4.08-.8.21l-.58.2c-.63.2-1.32-.12-1.57-.74a3 3 0 0 0-.4-.81 1.5 1.5 0 0 0-.76-.52"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

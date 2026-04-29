@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeEyeSlash extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeEyeSlash({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M12.22 8a4 4 0 0 1 3.77 3.78l4.37 4.37a11 11 0 0 0 2.14-3.85 1 1 0 0 0 0-.6A11 11 0 0 0 8.7 4.5zM1.5 11.7c.66-2.08 1.9-3.89 3.56-5.23l3.5 3.5Q8 10.88 8 12a4 4 0 0 0 6.03 3.45l3.22 3.22A11 11 0 0 1 1.5 12.3a1 1 0 0 1 0-.6" opacity=".3"/><path fill="currentColor" fill-rule="evenodd" d="M2.3 2.3a1 1 0 0 1 1.4 0l18 18a1 1 0 0 1-1.4 1.4l-6.27-6.25q-.91.54-2.03.55a4 4 0 0 1-3.45-6.03L2.3 3.7a1 1 0 0 1 0-1.42" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

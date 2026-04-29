@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidHalloweenMail extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidHalloweenMail({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M13.11 2.1a4 4 0 0 0-2.22 0q-.69.2-1.27.66-.56.42-1.35 1.1L6.93 5h10.14l-1.34-1.14q-.79-.68-1.35-1.1-.58-.46-1.27-.66M19 6.64v4.49l2.64-1.76a4 4 0 0 0-.35-.61 7 7 0 0 0-1.25-1.23zm3 4.89-3.4 2.27-.1.07-2.2 1.47 5.48 3.92q.14-.48.18-1 .05-.81.04-2.02zm-1.3 9.42-6.73-4.81-.03-.02-.73-.52c-.7-.46-.85-.54-.98-.57a1 1 0 0 0-.46 0c-.14.03-.28.1-.98.57l-.73.51-.03.03-6.73 4.8a4 4 0 0 0 .88.62c.49.25 1 .35 1.57.4q.8.05 2 .04h8.5q1.2.01 2-.04a4 4 0 0 0 1.57-.4 4 4 0 0 0 .88-.61M2.22 19.26l5.49-3.92-2.23-1.48-.07-.05L2 11.53v4.71q-.01 1.2.04 2.01.04.53.18 1.01m.14-9.89L5 11.13v-4.5l-1.04.9c-.54.45-.95.8-1.25 1.23a4 4 0 0 0-.35.61"/><path fill="currentColor" fill-rule="evenodd" d="M14.54 14.1 17 12.46V7H7v5.46l2.45 1.64.2-.14.02-.01.11-.08c.53-.35 1-.66 1.52-.79a3 3 0 0 1 1.4 0c.52.13.99.44 1.52.8l.1.07.03.01zm-3.15-3.65a1 1 0 0 0-.44-1.34l-1-.5a1 1 0 1 0-.9 1.78l1 .5a1 1 0 0 0 1.34-.44m1.66-1.34a1 1 0 0 0 .9 1.78l1-.5a1 1 0 0 0-.9-1.78z" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

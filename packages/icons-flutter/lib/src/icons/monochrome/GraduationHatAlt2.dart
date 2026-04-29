@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeGraduationHatAlt2 extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeGraduationHatAlt2({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M11.52 3.62a1 1 0 0 1 .96 0l10 5.5a1 1 0 0 1 0 1.76L19 12.79v-.29a2 2 0 0 0-.22-.84 3 3 0 0 0-1.1-1.04 7 7 0 0 0-1.55-.61A16 16 0 0 0 12 9.5c-1.54 0-2.99.18-4.13.5q-.88.25-1.54.62a3 3 0 0 0-1.2 1.23q-.12.3-.13.65v.3l-2-1.1V16a1 1 0 1 1-2 0v-6c0-.36.2-.7.52-.88zm4.41 13.41q.71.25.97.47-.27.21-.97.47a13 13 0 0 1-3.93.53 13 13 0 0 1-3.93-.53q-.71-.25-.97-.47.27-.21.97-.47A13 13 0 0 1 12 16.5a13 13 0 0 1 3.93.53"/><path fill="currentColor" fill-rule="evenodd" d="M19 12.5v5a2 2 0 0 1-.85 1.56q-.66.5-1.6.8c-1.2.4-2.82.64-4.55.64s-3.35-.23-4.56-.64a5 5 0 0 1-1.59-.8A2 2 0 0 1 5 17.5v-5a2 2 0 0 1 .22-.84c.25-.47.68-.8 1.1-1.04q.68-.37 1.55-.61A16 16 0 0 1 12 9.5c1.54 0 2.99.18 4.13.5q.88.25 1.54.62a3 3 0 0 1 1.2 1.23q.12.3.13.65m-3.07 4.53q.71.25.97.47-.27.21-.97.47a13 13 0 0 1-3.93.53 13 13 0 0 1-3.93-.53q-.71-.25-.97-.47.27-.21.97-.47A13 13 0 0 1 12 16.5a13 13 0 0 1 3.93.53" clip-rule="evenodd" opacity=".3"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

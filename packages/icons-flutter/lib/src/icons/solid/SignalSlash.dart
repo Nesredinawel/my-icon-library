@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidSignalSlash extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidSignalSlash({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M3.7 2.3a1 1 0 0 0-1.4 1.4l8.7 8.71V20a1 1 0 1 0 2 0v-5.59l2 2V20a1 1 0 1 0 2 0v-1.59l3.3 3.3a1 1 0 0 0 1.4-1.42zM19 14.79V4a1 1 0 1 1 2 0v12.79zm-4-4 2 2V8a1 1 0 1 0-2 0z"/><path fill="currentColor" d="M9 16a1 1 0 1 0-2 0v4a1 1 0 1 0 2 0zm-5 2a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

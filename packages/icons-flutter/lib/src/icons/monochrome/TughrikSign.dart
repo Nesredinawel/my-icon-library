@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeTughrikSign extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeTughrikSign({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M5 3a1 1 0 0 0 0 2h6v5.1l2-.88V5h6a1 1 0 1 0 0-2zm8 8.4-2 .88v1.82l2-.88zm0 4-2 .88V20a1 1 0 1 0 2 0z" opacity=".3"/><path fill="currentColor" fill-rule="evenodd" d="M16.92 8.6a1 1 0 0 1-.52 1.32l-8 3.5a1 1 0 1 1-.8-1.84l8-3.5a1 1 0 0 1 1.32.52m0 4a1 1 0 0 1-.52 1.32l-8 3.5a1 1 0 1 1-.8-1.84l8-3.5a1 1 0 0 1 1.32.52" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

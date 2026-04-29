@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class MonochromeH2 extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const MonochromeH2({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M14 10.23a1 1 0 0 0 1-1c0-.58.28-1.13.77-1.55a2.8 2.8 0 0 1 3.5-.14c.41.32.73.83.73 1.7q0 .95-.93 2.37a23 23 0 0 1-5.66 5.58A1 1 0 0 0 14 19h7a1 1 0 1 0 0-2h-4.18q.67-.59 1.38-1.29c.9-.89 1.83-1.93 2.54-3A6.6 6.6 0 0 0 22 9.23a4 4 0 0 0-1.5-3.27 4.9 4.9 0 0 0-6.04.21A4 4 0 0 0 13 9.23a1 1 0 0 0 1 1" opacity=".3"/><path fill="currentColor" d="M4 6a1 1 0 0 0-2 0v12a1 1 0 1 0 2 0v-5h5v5a1 1 0 1 0 2 0V6a1 1 0 1 0-2 0v5H4z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

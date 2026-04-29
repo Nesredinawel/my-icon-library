@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidDrawingTablet extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidDrawingTablet({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M2.33 4.64C2 5.28 2 6.12 2 7.8v8.4c0 1.68 0 2.52.33 3.16a3 3 0 0 0 1.3 1.31c.65.33 1.49.33 3.17.33h9.02l-4.13-3.61c-.31-.27-.7-.62-1-1.05a4 4 0 0 1-.56-1.24c-.13-.5-.13-1.03-.13-1.44V12a1 1 0 0 1 1-1h1.9c.34 0 .77 0 1.2.1a4 4 0 0 1 1.08.4c.39.2.71.5.97.73l5.84 5.1.01-1.13V7.8c0-1.68 0-2.52-.33-3.16a3 3 0 0 0-1.3-1.31C19.71 3 18.87 3 17.2 3H6.8c-1.68 0-2.52 0-3.16.33a3 3 0 0 0-1.31 1.3M6 8a1 1 0 0 0-1 1v6a1 1 0 1 0 2 0V9a1 1 0 0 0-1-1" clip-rule="evenodd"/><path fill="currentColor" d="M12 13.55c0 .53 0 .8.06 1.05a2 2 0 0 0 .29.62c.14.2.34.38.74.74l5.92 5.17a1.41 1.41 0 0 0 1.85-2.12l-5.96-5.22c-.33-.3-.5-.44-.69-.54a2 2 0 0 0-.53-.2c-.21-.05-.44-.05-.88-.05h-.3a.5.5 0 0 0-.5.5z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

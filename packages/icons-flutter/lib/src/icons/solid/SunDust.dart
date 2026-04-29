@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidSunDust extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidSunDust({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M12.43 2.51a2.4 2.4 0 0 0-2.86 0c-.33.25-.55.61-.7.92q-.25.49-.58 1.23l-.01.04-.15.33h-.01l-.35-.09h-.04q-.79-.22-1.32-.33a3 3 0 0 0-1.15-.02 2.4 2.4 0 0 0-1.79 2.24c-.01.41.14.8.28 1.12l.6 1.22.03.03.16.32v.01l-.3.22-.02.02q-.66.49-1.08.83c-.26.23-.56.52-.73.9-.44.96-.18 2.1.63 2.79.32.26.72.39 1.05.48l1.33.28h.04l.35.08h.01v.41q-.05.82-.03 1.36c.01.34.05.76.24 1.13.29.56.78.97 1.36 1.17l4.25-4.25q-.31.05-.64.05a4 4 0 1 1 3.95-3.36l2.93-2.93.37-.76c.14-.32.29-.7.28-1.12a2.4 2.4 0 0 0-1.79-2.24 3 3 0 0 0-1.15.02q-.54.12-1.32.32l-.04.01-.35.1-.01-.01-.15-.33-.02-.04q-.31-.75-.57-1.23c-.16-.3-.37-.67-.7-.92"/><path fill="currentColor" d="M9 11a2 2 0 1 1 4 0 2 2 0 0 1-4 0m13 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-2.5 2.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0M17 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-5 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0m5 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2m1-6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-2.5 2.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-5 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

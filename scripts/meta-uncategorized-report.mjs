@@ -1,3 +1,4 @@
+//scripts/meta-uncategorized-report.mjs
 import fs from "node:fs";
 
 const meta = JSON.parse(fs.readFileSync("data/icons.meta.json", "utf8"));

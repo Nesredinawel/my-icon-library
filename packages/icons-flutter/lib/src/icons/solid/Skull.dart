@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidSkull extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidSkull({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M12 2A10 10 0 0 0 2 12v.16c0 .26 0 .58.1.88a2 2 0 0 0 .4.71c.2.24.48.4.7.54l.06.03 1.25.75c1.05.63 1.41.86 1.67 1.14a3 3 0 0 1 .7 1.24c.11.37.12.79.12 2.02v.03l.01.62q.01.3.16.7a2 2 0 0 0 1.7 1.17l.63.01h5l.62-.01q.3-.01.7-.16a2 2 0 0 0 1.17-1.7l.01-.63v-.03c0-1.23 0-1.65.11-2.02a3 3 0 0 1 .7-1.24c.27-.28.63-.5 1.68-1.14l1.25-.75.06-.03c.22-.13.5-.3.7-.54a2 2 0 0 0 .4-.7c.1-.31.1-.63.1-.89V12A10 10 0 0 0 12 2M9 8a2 2 0 1 0 0 4 2 2 0 0 0 0-4m6 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

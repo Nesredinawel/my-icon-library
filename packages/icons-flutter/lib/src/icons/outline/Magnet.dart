@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineMagnet extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineMagnet({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" d="M5 7V5a2 2 0 1 1 4 0v2M5 7h4M5 7v7a7 7 0 1 0 14 0V7M9 7v7a3 3 0 1 0 6 0V7m0 0V5a2 2 0 1 1 4 0v2m-4 0h4"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

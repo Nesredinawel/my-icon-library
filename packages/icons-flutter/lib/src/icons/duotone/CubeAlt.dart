@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class DuotoneCubeAlt extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const DuotoneCubeAlt({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" d="M20 4H8.44L4 8h12v12l4-4.44z" opacity=".14"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 4H8.44L4 8m16-4v11.56L16 20m4-16-4 4M4 8h12M4 8v12h12m0 0V8"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

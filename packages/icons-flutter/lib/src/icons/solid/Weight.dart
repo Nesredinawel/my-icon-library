@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class SolidWeight extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const SolidWeight({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M13.5 2h-3q-.76 0-1.3.03a3 3 0 0 0-1.1.25A3 3 0 0 0 6.47 4.2q-.11.4-.09.8l-.59.03q-.7.03-1.32.27A4 4 0 0 0 2.3 7.47q-.24.62-.27 1.32Q2 9.46 2 10.47v5.77q-.01 1.2.04 2.01c.05.56.15 1.08.4 1.57a4 4 0 0 0 1.74 1.74c.49.25 1 .35 1.57.4q.8.05 2 .04h8.5q1.2.01 2-.04a4 4 0 0 0 1.57-.4 4 4 0 0 0 1.74-1.74c.25-.49.35-1 .4-1.57q.05-.8.04-2v-5.78q0-1-.03-1.68-.03-.7-.27-1.32a4 4 0 0 0-2.17-2.17 4 4 0 0 0-1.32-.27l-.6-.02q.03-.4-.08-.8a3 3 0 0 0-1.63-1.93 3 3 0 0 0-1.1-.25q-.54-.04-1.3-.03m-.55 4.31L12.39 8h1.07c.88 0 1.06-.02 1.19-.06a1 1 0 0 0 .53-.45 19 19 0 0 0 .43-2.35c.02-.26 0-.36 0-.4a1 1 0 0 0-.55-.65 1 1 0 0 0-.4-.07L13.45 4h-2.92c-.55 0-.92 0-1.2.02-.26.02-.36.05-.4.07a1 1 0 0 0-.54.64c-.02.05-.03.15 0 .42a19 19 0 0 0 .42 2.34q.18.32.53.45c.11.04.27.06.93.06l.77-2.31a1 1 0 1 1 1.9.62M10 16a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2z" clip-rule="evenodd"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}

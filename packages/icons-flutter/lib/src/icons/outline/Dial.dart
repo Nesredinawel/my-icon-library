@@ -1,0 +1,24 @@
+import 'package:flutter/widgets.dart';
+import '../../base_icon.dart';
+
+class OutlineDial extends StatelessWidget {
+  final double size;
+  final Color? color;
+
+  const OutlineDial({
+    super.key,
+    this.size = 24,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return NasIcon(
+      svg: '''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" stroke-linecap="round" d="m12 13 2.83-2.83m0 0A3.99 3.99 0 0 0 8 13a4 4 0 1 0 6.83-2.83ZM3.5 13h.01M12 4.5h.01M20.5 13h.01M6 7h.01M18 7h.01M6 19h.01M18 19h.01M4 13a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm8.5-8.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0ZM21 13a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0ZM6.5 7a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm12 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0Zm-12 12a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm12 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0Z"/></svg>
+''',
+      size: size,
+      color: color,
+    );
+  }
+}
