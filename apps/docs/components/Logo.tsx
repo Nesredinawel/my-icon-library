@@ -13,7 +13,7 @@ export function Logo({ isShowText = true, className }: LogoProps) {
   return (
     <Link
       href="/"
-      className={cn("flex items-center gap-2", className)}
+      className={cn("flex items-end ", className)}
     >
       <Image
         src="/logo.png"
@@ -25,8 +25,8 @@ export function Logo({ isShowText = true, className }: LogoProps) {
       />
 
       {isShowText && (
-        <span className="hidden sm:inline text-sm font-semibold tracking-tight text-[rgb(var(--fg))]">
-          nasicon
+        <span className="hidden sm:inline text-xl font-bold ">
+          asicon
         </span>
       )}
     </Link>

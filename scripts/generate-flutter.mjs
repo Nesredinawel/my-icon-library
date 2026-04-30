@@ -1,3 +1,4 @@
+//generate-flutter.mjs
 import path from "node:path";
 import { mkdir, readFile, writeFile, rm } from "node:fs/promises";
 import fg from "fast-glob";
