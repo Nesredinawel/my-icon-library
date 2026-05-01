@@ -1,17 +1,17 @@
 export function TagPills({ tags }: { tags: string[] }) {
   return (
-    <div className="flex flex-wrap items-center justify-center gap-2">
-      {tags.map((t, i) => (
+    <div className="flex flex-wrap items-center gap-2">
+      {tags.map((tag, index) => (
         <span
-          key={t}
+          key={tag}
           className={[
-            "rounded-full px-3 py-1 text-[11px] font-medium",
-            i === 0
-              ? "bg-[#A1FF49]/25 text-slate-900"
-              : "bg-slate-100 text-slate-600"
+            "rounded-full border px-3 py-1.5 text-[11px] font-semibold",
+            index === 0
+              ? "border-[rgb(var(--accent))]/40 bg-[rgb(var(--accent))]/20 text-[rgb(var(--fg))]"
+              : "border-[rgb(var(--border))]/70 bg-[rgb(var(--bg-elev))]/72 text-[rgb(var(--fg-muted))]"
           ].join(" ")}
         >
-          #{t}
+          {tag}
         </span>
       ))}
     </div>

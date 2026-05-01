@@ -1,7 +1,6 @@
 import { IconPreview } from "@/components/IconPreview";
 
 export function QualitySection({
-  imageAlt = "Preview image placeholder",
   developerCardIcon,
   features
 }: {
@@ -10,95 +9,41 @@ export function QualitySection({
   features: Array<{ icon: string; title: string; desc: string }>;
 }) {
   return (
-    <section className="py-20 bg-[rgb(var(--bg))] text-[rgb(var(--fg))] transition-colors duration-300">
-      <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 md:grid-cols-2">
-
-        {/* LEFT VISUAL */}
-        <div className="relative">
-
-          {/* Image container */}
-          <div
-            className="
-              overflow-hidden
-              rounded-3xl
-              border border-[rgb(var(--border))]/60
-              bg-[rgb(var(--bg-elev))]
-              shadow-[0_10px_40px_rgba(0,0,0,0.05)]
-              transition
-            "
-          >
-            <div
-              className="
-                h-[360px] w-full
-                bg-gradient-to-br
-                from-[rgb(var(--fg))]/5
-                to-transparent
-              "
-            />
-            <span className="sr-only">{imageAlt}</span>
+    <section className="px-4 py-14 text-[rgb(var(--fg))] md:px-6">
+      <div className="mx-auto max-w-7xl">
+        <div className="mb-8 max-w-2xl">
+          <div className="text-[10px] font-semibold uppercase tracking-wider text-[rgb(var(--accent))]">
+            Why it works
           </div>
-
-          {/* Floating Card */}
-          <div
-            className="
-              absolute -bottom-6 left-6 w-[290px]
-              rounded-2xl
-              border border-[rgb(var(--border))]/60
-              bg-[rgb(var(--bg-elev))]/80 backdrop-blur
-              p-5
-              shadow-[0_10px_40px_rgba(0,0,0,0.08)]
-              transition
-            "
-          >
-            <div className="flex items-center gap-2 text-xs font-semibold text-[rgb(var(--fg))]">
-              <span
-                className="
-                  grid h-7 w-7 place-items-center
-                  rounded-lg
-                  bg-[rgb(var(--accent))]/15
-                  text-[rgb(var(--accent))]
-                "
-              >
-                <IconPreview name={developerCardIcon} style="outline" size={16} />
-              </span>
-              Developer First
-            </div>
-
-            <p className="mt-3 text-xs leading-relaxed text-[rgb(var(--fg-muted))]">
-              Copy SVG, JSX, or import from React components. Integration takes seconds.
-            </p>
-          </div>
+          <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-5xl">
+            Built like a product system, not a folder of files.
+          </h2>
         </div>
 
-        {/* RIGHT CONTENT */}
-        <div>
-          <div className="text-[10px] font-semibold uppercase tracking-wider text-[rgb(var(--accent))]">
-            Built for builders
+        <div className="grid gap-4 md:grid-cols-4">
+          <div className="rounded-[1.5rem] border border-[rgb(var(--border))]/70 bg-[rgb(var(--fg))] p-6 text-[rgb(var(--bg))] shadow-[0_24px_90px_rgba(2,6,23,0.16)] md:col-span-2">
+            <div className="grid h-12 w-12 place-items-center rounded-2xl bg-[rgb(var(--accent))] text-slate-950">
+              <IconPreview name={developerCardIcon} style="outline" size={20} />
+            </div>
+            <h3 className="mt-8 max-w-md text-2xl font-semibold tracking-tight">
+              Copy SVG, import React, or use Flutter widgets from the same icon language.
+            </h3>
+            <p className="mt-3 max-w-lg text-sm leading-relaxed text-[rgb(var(--bg))]/70">
+              The library keeps names, categories, and visual proportions
+              predictable so teams can move faster without visual drift.
+            </p>
           </div>
 
-          <h3 className="mt-3 text-3xl font-semibold tracking-tight text-[rgb(var(--fg))]">
-            The quality you expect.
-            <br />
-            The speed you need.
-          </h3>
-
-          <div className="mt-8 space-y-6">
-            {features.map((f) => (
-              <FeatureItem
-                key={f.title}
-                icon={f.icon}
-                title={f.title}
-                desc={f.desc}
-              />
-            ))}
-          </div>
+          {features.map((feature) => (
+            <FeatureTile key={feature.title} {...feature} />
+          ))}
         </div>
       </div>
     </section>
   );
 }
 
-function FeatureItem({
+function FeatureTile({
   icon,
   title,
   desc
@@ -108,30 +53,14 @@ function FeatureItem({
   desc: string;
 }) {
   return (
-    <div className="flex gap-4">
-      <div
-        className="
-          mt-0.5
-          grid h-10 w-10 place-items-center
-          rounded-xl
-          border border-[rgb(var(--border))]/60
-          bg-[rgb(var(--bg-elev))]
-          text-[rgb(var(--accent))]
-          transition
-        "
-      >
-        <IconPreview name={icon} style="outline" size={16} />
+    <div className="rounded-[1.5rem] border border-[rgb(var(--border))]/70 bg-[rgb(var(--bg-elev))]/76 p-6 shadow-[0_18px_60px_rgba(2,6,23,0.05)]">
+      <div className="grid h-11 w-11 place-items-center rounded-2xl border border-[rgb(var(--border))]/70 bg-[rgb(var(--bg))]/62">
+        <IconPreview name={icon} style="outline" size={18} />
       </div>
-
-      <div>
-        <div className="text-sm font-semibold text-[rgb(var(--fg))]">
-          {title}
-        </div>
-
-        <div className="mt-1 text-xs leading-relaxed text-[rgb(var(--fg-muted))]">
-          {desc}
-        </div>
-      </div>
+      <div className="mt-6 text-sm font-semibold">{title}</div>
+      <p className="mt-2 text-xs leading-relaxed text-[rgb(var(--fg-muted))]">
+        {desc}
+      </p>
     </div>
   );
 }

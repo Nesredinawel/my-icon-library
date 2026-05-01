@@ -1,156 +1,188 @@
-export default function DocsPage() {
-  return (
-    <div className="mx-auto max-w-5xl space-y-12 px-6 md:px-16 lg:px-28 py-12">
+import { TerminalBlock } from "@/components/TerminalBlock";
 
-      {/* Header */}
-      <header className="rounded-3xl border border-slate-200/60 bg-white/70 backdrop-blur px-8 py-10 shadow-sm">
-        <h1 className="text-3xl font-bold tracking-tight text-slate-900">
-          Nasicon Documentation
-        </h1>
-        <p className="mt-3 text-sm text-slate-600 leading-relaxed">
-          Install, use, customize, and download icons in your React or design workflow.
-        </p>
-      </header>
-
-      {/* Installation */}
-      <section className="rounded-3xl border border-slate-200/60 bg-white p-7 shadow-sm">
-        <h2 className="text-sm font-semibold text-slate-900">
-          Installation
-        </h2>
-
-        <p className="mt-2 text-sm text-slate-600">
-          Install both the React components and SVG source package.
-        </p>
-
-        <pre className="mt-5 overflow-auto rounded-2xl bg-slate-950 p-5 text-xs text-slate-100 leading-relaxed">
-{`# pnpm (recommended)
-pnpm add nasicon-react nasicon-svg
-
-# npm
-npm i nasicon-react nasicon-svg
-
-# yarn
-yarn add nasicon-react nasicon-svg`}
-        </pre>
-      </section>
-
-      {/* Usage */}
-      <section className="rounded-3xl border border-slate-200/60 bg-white p-7 shadow-sm">
-        <h2 className="text-sm font-semibold text-slate-900">
-          React Usage
-        </h2>
-
-        <p className="mt-2 text-sm text-slate-600">
-          Import icons by style and use them as components.
-        </p>
-
-        <pre className="mt-5 overflow-auto rounded-2xl bg-slate-950 p-5 text-xs text-slate-100 leading-relaxed">
-{`import { AddressCard } from "nasicon-react/outline";
+const reactUsage = `# React usage
+import { AddressCard } from "nasicon-react/outline";
+import { Heart } from "nasicon-react/duotone";
 
 export function Example() {
   return (
-    <AddressCard
-      size={24}
-      strokeWidth={1.5}
-    />
+    <div className="flex items-center gap-3">
+      <AddressCard size={24} color="#0f172a" strokeWidth={1.5} />
+      <Heart size={24} color="#ef4444" secondaryOpacity={0.18} />
+    </div>
   );
-}`}
+}`;
+
+const flutterUsage = `# pubspec.yaml alternative
+dependencies:
+  nasicon_flutter: ^1.0.3
+
+# Flutter usage
+import 'package:flutter/material.dart';
+import 'package:nasicon_flutter/nasicon_flutter.dart';
+
+class Example extends StatelessWidget {
+  const Example({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Row(
+      children: [
+        OutlineAddressCard(size: 24, color: Color(0xFF0F172A)),
+        SizedBox(width: 12),
+        DuotoneHeart(size: 24, color: Color(0xFFEF4444)),
+      ],
+    );
+  }
+}`;
+
+const svgUsage = `# Import metadata
+import metadata from "nasicon-svg/metadata";
+import categories from "nasicon-svg/categories";
+
+# Import raw SVG files when your bundler supports SVG imports
+import addressCard from "nasicon-svg/outline/address-card.svg";`;
+
+const packages = [
+  {
+    name: "nasicon-react",
+    version: "1.0.0",
+    description: "Tree-shakable React components exported by style."
+  },
+  {
+    name: "nasicon-svg",
+    version: "1.0.0",
+    description: "Optimized SVG files plus metadata and category indexes."
+  },
+  {
+    name: "nasicon_flutter",
+    version: "1.0.3",
+    description: "Flutter widgets rendered from SVG with size and color props."
+  }
+];
+
+const styles = ["outline", "solid", "duotone", "monochrome"];
+
+export default function DocsPage() {
+  return (
+    <div className="mx-auto max-w-5xl space-y-8 px-6 py-12 md:px-16 lg:px-28">
+      <header className="rounded-2xl border border-slate-200/70 bg-white/80 px-8 py-10 shadow-sm backdrop-blur">
+        <p className="text-xs font-semibold uppercase tracking-wide text-lime-700">
+          Installation guide
+        </p>
+        <h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-950">
+          Nasicon Documentation
+        </h1>
+        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-600">
+          Install Nasicon for React, raw SVG workflows, or Flutter. The current
+          library ships four icon styles: outline, solid, duotone, and monochrome.
+        </p>
+      </header>
+
+      <section className="rounded-2xl border border-slate-200/70 bg-white p-7 shadow-sm">
+        <h2 className="text-base font-semibold text-slate-950">
+          Packages
+        </h2>
+        <div className="mt-5 grid gap-3 md:grid-cols-3">
+          {packages.map((pkg) => (
+            <div key={pkg.name} className="rounded-xl border border-slate-200 bg-slate-50 p-4">
+              <div className="font-mono text-sm font-semibold text-slate-950">
+                {pkg.name}
+              </div>
+              <div className="mt-1 text-xs font-semibold text-lime-700">
+                v{pkg.version}
+              </div>
+              <p className="mt-3 text-sm leading-relaxed text-slate-600">
+                {pkg.description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="rounded-2xl border border-slate-200/70 bg-white p-7 shadow-sm">
+        <h2 className="text-base font-semibold text-slate-950">
+          React Installation
+        </h2>
+        <p className="mt-2 text-sm leading-relaxed text-slate-600">
+          Install both packages when your app needs React components and access
+          to SVG metadata, categories, or raw SVG files.
+        </p>
+        <div className="mt-5">
+          <TerminalBlock title="React" usageCode={reactUsage} platform="react" />
+        </div>
+      </section>
+
+      <section className="rounded-2xl border border-slate-200/70 bg-white p-7 shadow-sm">
+        <h2 className="text-base font-semibold text-slate-950">
+          Flutter Installation
+        </h2>
+        <p className="mt-2 text-sm leading-relaxed text-slate-600">
+          Add the Flutter package from pub and import the main library. Every
+          generated widget is prefixed by style, such as <b>OutlineAddressCard</b>
+          or <b>DuotoneHeart</b>.
+        </p>
+        <div className="mt-5">
+          <TerminalBlock title="Flutter" usageCode={flutterUsage} platform="flutter" />
+        </div>
+      </section>
+
+      <section className="rounded-2xl border border-slate-200/70 bg-white p-7 shadow-sm">
+        <h2 className="text-base font-semibold text-slate-950">
+          SVG Package
+        </h2>
+        <p className="mt-2 text-sm leading-relaxed text-slate-600">
+          Use <b>nasicon-svg</b> for design tooling, custom build pipelines, icon
+          search data, and direct SVG imports.
+        </p>
+        <pre className="mt-5 overflow-auto rounded-2xl bg-slate-950 p-5 text-xs leading-relaxed text-slate-100">
+          <code>{svgUsage}</code>
         </pre>
+      </section>
 
-        <p className="mt-4 text-xs text-slate-500">
-          Supports standard SVG props like <b>className</b>, <b>onClick</b>, and <b>aria-label</b>.
+      <section className="rounded-2xl border border-slate-200/70 bg-white p-7 shadow-sm">
+        <h2 className="text-base font-semibold text-slate-950">
+          Styles And Props
+        </h2>
+        <div className="mt-5 flex flex-wrap gap-2">
+          {styles.map((style) => (
+            <span
+              key={style}
+              className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-700"
+            >
+              {style}
+            </span>
+          ))}
+        </div>
+        <div className="mt-5 grid gap-3 text-sm text-slate-600 md:grid-cols-2">
+          <div className="rounded-xl bg-slate-50 p-4">
+            <div className="font-semibold text-slate-950">React props</div>
+            <p className="mt-1">
+              All icons support <b>size</b>, <b>color</b>, and standard SVG props.
+              Outline adds <b>strokeWidth</b>. Duotone adds <b>secondaryColor</b>
+              and <b>secondaryOpacity</b>.
+            </p>
+          </div>
+          <div className="rounded-xl bg-slate-50 p-4">
+            <div className="font-semibold text-slate-950">Flutter props</div>
+            <p className="mt-1">
+              Flutter widgets support <b>size</b> as a double and optional
+              <b> color</b>. The package uses <b>flutter_svg</b> internally.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="rounded-2xl border border-slate-200/70 bg-white p-7 shadow-sm">
+        <h2 className="text-base font-semibold text-slate-950">
+          Download SVGs
+        </h2>
+        <p className="mt-2 text-sm leading-relaxed text-slate-600">
+          Open any icon in the browser, choose a style, preview it, and download
+          the optimized SVG from the drawer. The exported files are ready for
+          Figma, design systems, and production UI.
         </p>
       </section>
-
-      {/* API */}
-      <section className="rounded-3xl border border-slate-200/60 bg-white p-7 shadow-sm">
-        <h2 className="text-sm font-semibold text-slate-900">
-          API Reference
-        </h2>
-
-        <div className="mt-5 grid gap-3 text-sm text-slate-600">
-
-          <div className="rounded-2xl bg-slate-50 p-4">
-            <div className="font-semibold text-slate-900">size</div>
-            <div>number | string (default: 24)</div>
-          </div>
-
-          <div className="rounded-2xl bg-slate-50 p-4">
-            <div className="font-semibold text-slate-900">color</div>
-            <div>string (default: currentColor)</div>
-          </div>
-
-          <div className="rounded-2xl bg-slate-50 p-4">
-            <div className="font-semibold text-slate-900">strokeWidth</div>
-            <div>only for outline icons</div>
-          </div>
-
-          <div className="rounded-2xl bg-slate-50 p-4">
-            <div className="font-semibold text-slate-900">secondaryOpacity</div>
-            <div>duotone icon control</div>
-          </div>
-
-          <div className="rounded-2xl bg-slate-50 p-4">
-            <div className="font-semibold text-slate-900">secondaryColor</div>
-            <div>optional duotone enhancement</div>
-          </div>
-
-        </div>
-      </section>
-
-      {/* SVG Download */}
-      <section className="rounded-3xl border border-slate-200/60 bg-white p-7 shadow-sm">
-        <h2 className="text-sm font-semibold text-slate-900">
-          SVG Download System
-        </h2>
-
-        <p className="mt-2 text-sm text-slate-600">
-          Every icon can be downloaded as a raw SVG via API or directly from the UI drawer.
-        </p>
-
-       
-
-        {/* UI Download */}
-        <div className="mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-5">
-          <h3 className="text-sm font-semibold text-slate-900">
-            UI Download (Recommended)
-          </h3>
-
-          <p className="mt-1 text-sm text-slate-600">
-            Open any icon → customize style → click <b>Download SVG</b> inside the drawer.
-          </p>
-
-          <ul className="mt-3 list-disc pl-5 text-sm text-slate-600 space-y-1">
-            <li>Choose style (outline / solid / duotone / monochrome)</li>
-            <li>Preview instantly in the drawer</li>
-            <li>Click “Download SVG” CTA</li>
-            <li>Exports clean production-ready SVG</li>
-          </ul>
-        </div>
-
-        {/* Browser */}
-        <div className="mt-6">
-          <div className="text-sm font-semibold text-slate-900">
-            Browser Download
-          </div>
-
-         
-        </div>
-
-        {/* React */}
-        <div className="mt-6">
-          <div className="text-sm font-semibold text-slate-900">
-            React Download Helper
-          </div>
-
-        </div>
-
-        {/* Note */}
-        <div className="mt-6 rounded-2xl bg-[#A1FF49]/10 p-4 text-sm text-slate-700">
-          💡 Tip: SVGs are optimized for Figma, design systems, and production UI usage.
-        </div>
-      </section>
-
     </div>
   );
 }

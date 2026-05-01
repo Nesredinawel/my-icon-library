@@ -15,6 +15,7 @@ const ThemeContext = React.createContext<ThemeContextType | null>(null);
 function applyTheme(theme: Theme) {
   const root = document.documentElement;
 
+  // 🚀 instant class switch (no layout thrash)
   if (theme === "dark") {
     root.classList.add("dark");
     root.classList.remove("light");
@@ -35,20 +36,30 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setThemeState] = React.useState<Theme>("light");
   const [mounted, setMounted] = React.useState(false);
 
-  // Initial load
   React.useEffect(() => {
     const stored = localStorage.getItem("theme") as Theme | null;
     const initial = stored ?? getSystemTheme();
 
-    setThemeState(initial);
+    // 🚀 apply BEFORE paint feel
     applyTheme(initial);
+    setThemeState(initial);
+
     setMounted(true);
   }, []);
 
   const setTheme = React.useCallback((newTheme: Theme) => {
-    localStorage.setItem("theme", newTheme);
+    // 🚀 apply immediately (UI first)
     applyTheme(newTheme);
-    setThemeState(newTheme);
+
+    // 🚀 non-blocking storage
+    requestIdleCallback(() => {
+      localStorage.setItem("theme", newTheme);
+    });
+
+    // 🚀 low-priority React update
+    React.startTransition(() => {
+      setThemeState(newTheme);
+    });
   }, []);
 
   const toggleTheme = React.useCallback(() => {

@@ -2,134 +2,103 @@
 
 import * as React from "react";
 import type { IconStyle } from "@/lib/icon-types";
-import { NasiconIconTile } from "./NasiconIconTile";
+import { IconPreview } from "@/components/IconPreview";
 
 const STYLES: Array<{ key: IconStyle; label: string }> = [
   { key: "outline", label: "Outline" },
   { key: "solid", label: "Solid" },
   { key: "duotone", label: "Duotone" },
-  { key: "monochrome", label: "Monochrome" }
+  { key: "monochrome", label: "Mono" }
 ];
 
 export function NasiconCoreCard({
   icons,
-  secondaryOpacity = 0.3,
-
-  // Use minHeight instead of fixed height so the grid can grow (no scroll)
-  minHeight = 460,
-
-  tileSize = 84,
-  iconSize = 32,
+  secondaryOpacity = 0.18,
+  iconSize = 24,
   strokeWidth = 1.5,
-
-  defaultStyle = "solid",
-  className = ""
+  defaultStyle = "outline"
 }: {
   icons: string[];
-
   secondaryOpacity?: number;
-
   minHeight?: number;
-
   tileSize?: number;
   iconSize?: number;
   strokeWidth?: number;
-
   defaultStyle?: IconStyle;
   className?: string;
 }) {
   const [style, setStyle] = React.useState<IconStyle>(defaultStyle);
+  const visibleIcons = icons.slice(0, 18);
 
   return (
-    <section className="py-16">
-      <div className="mx-auto max-w-6xl px-4">
-        <div
-          className={`relative w-full overflow-hidden rounded-3xl border border-slate-900/10 bg-gradient-to-br from-slate-900 to-slate-800 p-8 text-white shadow-[0_24px_90px_rgba(2,6,23,0.28)] ${className}`}
-          style={{ minHeight }}
-        >
-          {/* texture */}
-          <div className="pointer-events-none absolute inset-0 opacity-20 [background:radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.22)_1px,transparent_0)] [background-size:20px_20px]" />
-          {/* green glow */}
-          <div className="pointer-events-none absolute -right-24 -top-24 h-[380px] w-[380px] rounded-full bg-[#A1FF49]/20 blur-[110px]" />
-          {/* secondary cool glow */}
-          <div className="pointer-events-none absolute left-[-160px] bottom-[-200px] h-[420px] w-[420px] rounded-full bg-cyan-300/15 blur-[120px]" />
-
-          <div className="relative flex h-full flex-col">
-            <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
-              <div>
-                <div className="inline-flex w-fit items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-[11px] font-semibold tracking-wide ring-1 ring-white/15">
-                  <span className="h-1.5 w-1.5 rounded-full bg-[#A1FF49]" />
-                  NASICON CORE
-                </div>
-
-                <div className="mt-3 text-2xl font-semibold tracking-tight">
-                  Multi-style consistency
-                </div>
-
-                <p className="mt-2 max-w-xl text-sm text-white/80">
-                  Same names, same proportions — swap styles without redesigning your UI.
-                  Duotone includes <b>secondaryOpacity</b> for depth control.
-                </p>
+    <section className="px-4 py-14 md:px-6">
+      <div className="mx-auto max-w-7xl">
+        <div className="grid overflow-hidden rounded-[2rem] border border-[rgb(var(--border))]/70 bg-[rgb(var(--bg-elev))]/78 shadow-[0_24px_90px_rgba(2,6,23,0.08)] md:grid-cols-[0.85fr_1.15fr]">
+          <div className="flex flex-col justify-between border-b border-[rgb(var(--border))]/70 p-6 md:border-b-0 md:border-r md:p-8">
+            <div>
+              <div className="text-[10px] font-semibold uppercase tracking-wider text-[rgb(var(--accent))]">
+                Core system
               </div>
-
-              {/* CLICKABLE STYLE BADGES */}
-              <div className="flex flex-wrap gap-2">
-                {STYLES.map((s) => {
-                  const active = s.key === style;
-                  return (
-                    <button
-                      key={s.key}
-                      type="button"
-                      onClick={() => setStyle(s.key)}
-                      className={[
-                        "rounded-full px-3 py-1 text-[11px] font-semibold ring-1 transition",
-                        active
-                          ? "bg-white/15 text-white ring-white/20"
-                          : "bg-white/10 text-white/80 ring-white/10 hover:bg-white/15 hover:text-white"
-                      ].join(" ")}
-                      aria-pressed={active}
-                    >
-                      {s.label}
-                    </button>
-                  );
-                })}
-              </div>
+              <h2 className="mt-3 max-w-md text-3xl font-semibold tracking-tight text-[rgb(var(--fg))] md:text-5xl">
+                Same icon. Different voice.
+              </h2>
+              <p className="mt-4 max-w-md text-sm leading-relaxed text-[rgb(var(--fg-muted))]">
+                Switch styles without changing names or proportions. One naming
+                system powers product UI, marketing screens, docs, and apps.
+              </p>
             </div>
 
-            {/* icon grid (NO SCROLL, clean wrap) */}
-            <div className="mt-8">
-              <div className="flex flex-wrap justify-center" style={{ gap: 22 }}>
-                {icons.map((name) => (
-                  <NasiconIconTile
-                    key={`${style}:${name}`}
+            <div className="mt-8 flex flex-wrap gap-2">
+              {STYLES.map((item) => {
+                const active = item.key === style;
+                return (
+                  <button
+                    key={item.key}
+                    type="button"
+                    onClick={() => setStyle(item.key)}
+                    className={[
+                      "rounded-full px-3 py-2 text-xs font-semibold transition",
+                      active
+                        ? "bg-[rgb(var(--fg))] text-[rgb(var(--bg))]"
+                        : "border border-[rgb(var(--border))]/70 text-[rgb(var(--fg-muted))] hover:text-[rgb(var(--fg))]"
+                    ].join(" ")}
+                    aria-pressed={active}
+                  >
+                    {item.label}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="relative bg-slate-950 p-5 text-white md:p-8">
+            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_70%_20%,rgba(161,255,73,0.18),transparent_30%)]" />
+            <div className="relative grid grid-cols-3 gap-3 sm:grid-cols-6">
+              {visibleIcons.map((name, index) => (
+                <div
+                  key={`${style}-${name}`}
+                  className={[
+                    "grid aspect-square place-items-center rounded-2xl ring-1 ring-white/10",
+                    index % 5 === 0 ? "bg-[#A1FF49]/16" : "bg-white/[0.075]"
+                  ].join(" ")}
+                >
+                  <IconPreview
                     name={name}
-                    sizePx={tileSize}
-                    iconSize={iconSize}
-                    variant="dark"
                     style={style}
-                    secondaryOpacity={secondaryOpacity}
+                    size={iconSize}
+                    color="white"
                     strokeWidth={strokeWidth}
+                    secondaryOpacity={secondaryOpacity}
                   />
-                ))}
-              </div>
+                </div>
+              ))}
             </div>
 
-            {/* footer */}
-            <div className="mt-auto pt-8 flex items-center justify-between text-xs text-white/80">
-              <span className="flex items-center gap-2">
-                <span className="h-1.5 w-1.5 rounded-full bg-[#A1FF49]" />
-                Metadata included (categories + tags)
+            <div className="relative mt-6 flex items-center justify-between gap-4 text-xs text-white/65">
+              <span>metadata, categories, tags included</span>
+              <span className="rounded-full bg-white/10 px-3 py-1 font-mono ring-1 ring-white/10">
+                {style}
               </span>
-
-              {style === "duotone" ? (
-                <span className="rounded-full bg-white/10 px-3 py-1 font-mono text-[11px] ring-1 ring-white/15">
-                  secondaryOpacity: {secondaryOpacity.toFixed(2)}
-                </span>
-              ) : (
-                <span className="rounded-full bg-white/10 px-3 py-1 font-mono text-[11px] ring-1 ring-white/15">
-                  style: {style}
-                </span>
-              )}
             </div>
           </div>
         </div>

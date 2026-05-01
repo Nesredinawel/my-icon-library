@@ -12,28 +12,21 @@ export function ThemeToggle() {
     <button
       onClick={toggleTheme}
       className="
-        flex items-center gap-2
+        flex items-center justify-center
         rounded-xl
         border border-[rgb(var(--border))]
         bg-[rgb(var(--bg-elev))]/70 backdrop-blur
-        px-2 py-2
-        text-sm font-medium
+        p-2
         text-[rgb(var(--fg))]
         hover:bg-[rgb(var(--bg-elev))]
-        transition-all
+        transition-colors duration-150
+        will-change-transform
+        active:scale-95
       "
     >
-      {isDark ? (
-
-          <Moon size={18} />
-       
-  
-      ) : (
-    
-          <Sun size={18} />
-         
-      
-      )}
+      <span className="transition-transform duration-200 ease-out">
+        {isDark ? <Moon size={18} /> : <Sun size={18} />}
+      </span>
     </button>
   );
 }

@@ -4,47 +4,52 @@ import * as React from "react";
 import type { IconStyle } from "@/lib/icon-types";
 import { IconCard } from "./IconCard";
 import { IconDrawer } from "./IconDrawer";
-import { useTheme } from "@/lib/theme";
 
-export function IconGrid({
-  names,
-  style,
-  color
-}: {
+type Props = {
   names: string[];
   style: IconStyle;
   color: string;
-}) {
-  const [openName, setOpenName] = React.useState<string | null>(null);
-  const { theme } = useTheme();
+};
 
-  const variant = theme === "dark" ? "dark" : "light";
+const MemoIconCard = React.memo(
+  IconCard,
+  (prev, next) =>
+    prev.name === next.name &&
+    prev.style === next.style &&
+    prev.color === next.color
+);
+
+export const IconGrid = React.memo(function IconGrid({
+  names,
+  style,
+  color
+}: Props) {
+  const [openName, setOpenName] = React.useState<string | null>(null);
 
   return (
     <>
-      <div
-        className="
-          grid
-          gap-4 sm:gap-5 md:gap-6
-          grid-cols-2
-          sm:grid-cols-3
-          md:grid-cols-4
-          lg:grid-cols-5
-          xl:grid-cols-6
-          2xl:grid-cols-7
-        "
-      >
-        {names.map((name) => (
-          <IconCard
-            key={`${style}:${name}`}
-            name={name}
-            style={style}
-            color={color}
-            onOpen={setOpenName}
-            variant={variant}
-          />
-        ))}
-      </div>
+      {names.length > 0 ? (
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
+          {names.map((name) => (
+            <MemoIconCard
+              key={`${style}:${name}`}
+              name={name}
+              style={style}
+              color={color}
+              onOpen={setOpenName}
+            />
+          ))}
+        </div>
+      ) : (
+        <div className="flex min-h-[320px] flex-col items-center justify-center rounded-xl border border-dashed border-[rgb(var(--border))]/80 bg-[rgb(var(--bg))]/45 p-8 text-center">
+          <div className="text-sm font-semibold text-[rgb(var(--fg))]">
+            No icons found
+          </div>
+          <p className="mt-2 max-w-sm text-xs leading-relaxed text-[rgb(var(--fg-muted))]">
+            Try a different search term, category, or style filter.
+          </p>
+        </div>
+      )}
 
       <IconDrawer
         open={Boolean(openName)}
@@ -54,4 +59,4 @@ export function IconGrid({
       />
     </>
   );
-}
+});

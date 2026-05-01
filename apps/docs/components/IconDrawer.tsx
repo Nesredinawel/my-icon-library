@@ -1,22 +1,17 @@
 "use client";
 
 import * as React from "react";
+import { createPortal } from "react-dom";
 import type { IconStyle } from "@/lib/icon-types";
 import { toPascalCase } from "@/lib/icon-utils";
 import { IconPreview } from "@/components/IconPreview";
-import { TerminalBlock } from "@/components/TerminalBlock";
 import { CopyButton } from "@/components/CopyButton";
 
 const STYLES: IconStyle[] = ["outline", "solid", "duotone", "monochrome"];
 type Platform = "react" | "flutter";
 
-function styleLabel(s: IconStyle) {
-  switch (s) {
-    case "outline": return "Outline";
-    case "solid": return "Solid";
-    case "duotone": return "Duotone";
-    case "monochrome": return "Monochrome";
-  }
+function styleLabel(style: IconStyle) {
+  return style.charAt(0).toUpperCase() + style.slice(1);
 }
 
 export function IconDrawer({
@@ -33,13 +28,15 @@ export function IconDrawer({
   const [render, setRender] = React.useState(false);
   const [active, setActive] = React.useState(false);
   const [currentName, setCurrentName] = React.useState<string | null>(null);
-
   const [style, setStyle] = React.useState<IconStyle>("outline");
   const [platform, setPlatform] = React.useState<Platform>("react");
   const [secondaryOpacity, setSecondaryOpacity] = React.useState(0.3);
   const [downloading, setDownloading] = React.useState(false);
+  const [portalRoot, setPortalRoot] = React.useState<HTMLElement | null>(null);
 
-  /* ---------- Open / Close ---------- */
+  React.useEffect(() => {
+    setPortalRoot(document.body);
+  }, []);
 
   React.useEffect(() => {
     if (open && name) {
@@ -53,243 +50,280 @@ export function IconDrawer({
 
     if (!open) {
       setActive(false);
-      const t = setTimeout(() => {
+      const timeout = setTimeout(() => {
         setRender(false);
         setCurrentName(null);
-      }, 300);
-      return () => clearTimeout(t);
+      }, 260);
+      return () => clearTimeout(timeout);
     }
   }, [open, name]);
 
-  /* ---------- ESC Close ---------- */
-
   React.useEffect(() => {
     if (!render) return;
-    const handler = (e: KeyboardEvent) => {
-      if (e.key === "Escape") onClose();
+    const handler = (event: KeyboardEvent) => {
+      if (event.key === "Escape") onClose();
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
   }, [render, onClose]);
 
-  /* ---------- Scroll Lock ---------- */
-
   React.useEffect(() => {
     if (!render) return;
-    const prev = document.body.style.overflow;
+    const previous = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     return () => {
-      document.body.style.overflow = prev;
+      document.body.style.overflow = previous;
     };
   }, [render]);
 
-  if (!render || !currentName) return null;
+  if (!render || !currentName || !portalRoot) return null;
 
   const componentName = toPascalCase(currentName);
-
-  /* ---------- React Code ---------- */
-
-  const reactImport = `import { ${componentName} } from "nasicon-react/${style}";`;
+  const flutterComponent = `${toPascalCase(style)}${componentName}`;
 
   const reactUsage =
     style === "duotone"
-      ? `<${componentName} size={24} secondaryOpacity={${secondaryOpacity}} />`
+      ? `<${componentName} size={24} color="${color}" secondaryOpacity={${secondaryOpacity.toFixed(2)}} />`
       : style === "outline"
-        ? `<${componentName} size={24} strokeWidth={1.5} />`
-        : `<${componentName} size={24} />`;
+        ? `<${componentName} size={24} color="${color}" strokeWidth={1.5} />`
+        : `<${componentName} size={24} color="${color}" />`;
 
-  const reactCode = `// ${styleLabel(style)} usage
-${reactImport}
+  const reactCode = `import { ${componentName} } from "nasicon-react/${style}";
 
 export function Example() {
   return ${reactUsage};
 }`;
 
-  /* ---------- Flutter Code ---------- */
+  const flutterCode = `import 'package:flutter/material.dart';
+import 'package:nasicon_flutter/nasicon_flutter.dart';
 
-  const flutterCode = `import 'package:nasicon_flutter/nasicon.dart';
+class Example extends StatelessWidget {
+  const Example({super.key});
 
-${toPascalCase(style)}${componentName}(
-  size: 24,
-  color: Colors.blue,
-);`;
+  @override
+  Widget build(BuildContext context) {
+    return const ${flutterComponent}(
+      size: 24,
+      color: Color(0xFF${color.replace("#", "").toUpperCase()}),
+    );
+  }
+}`;
 
-  const activeCode =
-    platform === "react"
-      ? reactCode
-      : flutterCode;
-
-  /* ---------- Download SVG ---------- */
+  const activeCode = platform === "react" ? reactCode : flutterCode;
 
   async function handleDownload() {
     try {
+      if (!currentName) return;
       setDownloading(true);
+      const url = `/api/svg?style=${style}&name=${encodeURIComponent(currentName)}&download=1`;
 
-      const url = `/api/svg?style=${style}&name=${encodeURIComponent(
-        currentName!
-      )}&download=1`;
+      const link = document.createElement("a");
+      link.href = url;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
 
-      const a = document.createElement("a");
-      a.href = url;
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-
-      await new Promise((r) => setTimeout(r, 600));
+      await new Promise((resolve) => setTimeout(resolve, 600));
     } finally {
       setDownloading(false);
     }
   }
 
-  return (
+  const drawer = (
     <div className="fixed inset-0 z-[80]">
-
-      {/* Overlay */}
       <button
+        type="button"
+        aria-label="Close icon details"
         onClick={onClose}
-        className={`absolute inset-0 
-          bg-[rgb(var(--fg))]/30 backdrop-blur-sm
-          transition-opacity duration-300
-          ${active ? "opacity-100" : "opacity-0"}
-        `}
+        className={[
+          "absolute inset-0 bg-slate-950/45 backdrop-blur-sm transition-opacity duration-300",
+          active ? "opacity-100" : "opacity-0"
+        ].join(" ")}
       />
 
-      {/* Drawer */}
-      <div
-        className={`
-          absolute inset-x-0 bottom-0
-          md:right-0 md:left-auto md:inset-y-0
-          w-full md:w-[520px]
-          h-[86vh] md:h-full
-          bg-[rgb(var(--bg-elev))]
-          border-t md:border-l border-[rgb(var(--border))]
-          shadow-2xl
-          rounded-t-3xl md:rounded-none
-          transition-transform duration-300 ease-out
-          ${active ? "translate-y-0 md:translate-x-0" : "translate-y-full md:translate-x-full"}
-        `}
+      <aside
+        className={[
+          "absolute inset-x-0 bottom-0 h-[90vh] overflow-hidden rounded-t-2xl border-t border-[rgb(var(--border))]/80 bg-[rgb(var(--bg-elev))] shadow-[0_-24px_90px_rgba(2,6,23,0.24)] transition-transform duration-300 ease-out md:inset-y-3 md:left-auto md:right-3 md:h-auto md:w-[540px] md:rounded-2xl md:border",
+          active ? "translate-y-0 md:translate-x-0" : "translate-y-full md:translate-x-[110%]"
+        ].join(" ")}
+        role="dialog"
+        aria-modal="true"
+        aria-label={`${currentName} icon details`}
       >
-
-        {/* Header */}
-        <div className="flex items-center justify-between border-b border-[rgb(var(--border))] px-6 py-5">
-          <div className="flex items-center gap-3">
-            <div className="grid h-10 w-10 place-items-center rounded-xl bg-[rgb(var(--bg))]">
-              <IconPreview
-                name={currentName}
-                style={style}
-                color={color}
-                size={22}
-                secondaryOpacity={secondaryOpacity}
-              />
-            </div>
-
-            <div>
-              <div className="text-xs text-[rgb(var(--fg-muted))]">Icon</div>
-              <div className="text-sm font-semibold text-[rgb(var(--fg))]">
-                {currentName}
+        <div className="flex h-full flex-col">
+          <header className="flex items-center justify-between border-b border-[rgb(var(--border))]/70 px-5 py-4">
+            <div className="min-w-0">
+              <div className="text-[11px] font-semibold uppercase tracking-wide text-[rgb(var(--fg-muted))]">
+                Icon details
               </div>
+              <h2 className="mt-1 truncate text-lg font-semibold text-[rgb(var(--fg))]">
+                {currentName}
+              </h2>
             </div>
-          </div>
-
-          <button
-            onClick={onClose}
-            className="text-xs font-semibold px-3 py-2 rounded-lg
-                       border border-[rgb(var(--border))]
-                       text-[rgb(var(--fg))]
-                       hover:bg-[rgb(var(--bg))]/60"
-          >
-            Close
-          </button>
-        </div>
-
-        {/* Content */}
-        <div className="p-6 space-y-8 overflow-auto h-full pb-24">
-
-         {/* ✅ Preview Section */}
-<div className="space-y-4">
-
-  {/* ✅ Style Toggle Inside Preview */}
-  <div className="flex gap-2 justify-center">
-    {STYLES.map((s) => (
-      <button
-        key={s}
-        onClick={() => setStyle(s)}
-        className={`text-[11px] px-3 py-1 rounded-lg transition ${
-          style === s
-            ? "bg-[rgb(var(--accent))] text-slate-900"
-            : "border border-[rgb(var(--border))]"
-        }`}
-      >
-        {styleLabel(s)}
-      </button>
-    ))}
-  </div>
-
-  {/* ✅ Icon Preview */}
-  <div className="rounded-2xl border border-[rgb(var(--border))] bg-[rgb(var(--bg))] p-6 flex justify-center items-center">
-    <IconPreview
-      name={currentName}
-      style={style}
-      color={color}
-      size={80}
-      secondaryOpacity={secondaryOpacity}
-    />
-  </div>
-
-</div>
-
-          {/* ✅ Platform Toggle */}
-          <div className="flex gap-2">
-            <button
-              onClick={() => setPlatform("react")}
-              className={`text-xs px-3 py-1 rounded-lg ${
-                platform === "react"
-                  ? "bg-[rgb(var(--accent))] text-slate-900"
-                  : "border border-[rgb(var(--border))]"
-              }`}
-            >
-              React
-            </button>
 
             <button
-              onClick={() => setPlatform("flutter")}
-              className={`text-xs px-3 py-1 rounded-lg ${
-                platform === "flutter"
-                  ? "bg-[rgb(var(--accent))] text-slate-900"
-                  : "border border-[rgb(var(--border))]"
-              }`}
+              type="button"
+              onClick={onClose}
+              className="rounded-lg border border-[rgb(var(--border))]/80 bg-[rgb(var(--bg))]/60 px-3 py-2 text-xs font-semibold text-[rgb(var(--fg-muted))] transition hover:text-[rgb(var(--fg))]"
             >
-              Flutter
+              Close
             </button>
+          </header>
+
+          <div className="flex-1 overflow-y-auto p-5 no-scrollbar">
+            <section className="rounded-2xl border border-[rgb(var(--border))]/70 bg-[rgb(var(--bg))]/55 p-5">
+              <div className="flex items-center justify-between gap-4">
+                <div>
+                  <div className="text-sm font-semibold text-[rgb(var(--fg))]">
+                    Preview
+                  </div>
+                  <div className="mt-1 text-xs text-[rgb(var(--fg-muted))]">
+                    {styleLabel(style)} style
+                  </div>
+                </div>
+
+                <span
+                  className="h-8 w-8 rounded-lg border border-[rgb(var(--border))] shadow-inner"
+                  style={{ backgroundColor: color }}
+                />
+              </div>
+
+              <div className="mt-5 grid min-h-[220px] place-items-center rounded-xl border border-[rgb(var(--border))]/70 bg-[rgb(var(--bg-elev))]">
+                <IconPreview
+                  name={currentName}
+                  style={style}
+                  color={color}
+                  size={96}
+                  secondaryOpacity={secondaryOpacity}
+                />
+              </div>
+            </section>
+
+            <section className="mt-5 space-y-4">
+              <SegmentedControl
+                label="Style"
+                items={STYLES.map((item) => ({
+                  value: item,
+                  label: styleLabel(item)
+                }))}
+                value={style}
+                onChange={(value) => setStyle(value as IconStyle)}
+              />
+
+              {style === "duotone" ? (
+                <div className="rounded-2xl border border-[rgb(var(--border))]/70 bg-[rgb(var(--bg))]/45 p-4">
+                  <div className="flex items-center justify-between">
+                    <label
+                      htmlFor="secondary-opacity"
+                      className="text-sm font-semibold text-[rgb(var(--fg))]"
+                    >
+                      Secondary opacity
+                    </label>
+                    <span className="font-mono text-xs text-[rgb(var(--fg-muted))]">
+                      {secondaryOpacity.toFixed(2)}
+                    </span>
+                  </div>
+                  <input
+                    id="secondary-opacity"
+                    type="range"
+                    min="0.05"
+                    max="1"
+                    step="0.05"
+                    value={secondaryOpacity}
+                    onChange={(event) => setSecondaryOpacity(Number(event.target.value))}
+                    className="mt-4 w-full accent-[rgb(var(--accent))]"
+                  />
+                </div>
+              ) : null}
+
+              <SegmentedControl
+                label="Code"
+                items={[
+                  { value: "react", label: "React" },
+                  { value: "flutter", label: "Flutter" }
+                ]}
+                value={platform}
+                onChange={(value) => setPlatform(value as Platform)}
+              />
+
+              <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 text-slate-100">
+                <div className="flex items-center justify-between border-b border-white/10 px-4 py-3">
+                  <div className="font-mono text-[11px] font-semibold uppercase tracking-wide text-slate-400">
+                    {platform} example
+                  </div>
+                  <div className="flex gap-1.5">
+                    <span className="h-2 w-2 rounded-full bg-red-400/80" />
+                    <span className="h-2 w-2 rounded-full bg-yellow-400/80" />
+                    <span className="h-2 w-2 rounded-full bg-green-400/80" />
+                  </div>
+                </div>
+                <pre className="max-h-[260px] overflow-auto p-4 text-xs leading-6">
+                  <code>{activeCode}</code>
+                </pre>
+              </div>
+            </section>
           </div>
 
-          {/* ✅ Terminal */}
-          <TerminalBlock
-            usageCode={activeCode}
-            platform={platform}
-          />
-
-          {/* ✅ Actions */}
-          <div className="flex gap-3">
-
+          <footer className="grid gap-3 border-t border-[rgb(var(--border))]/70 bg-[rgb(var(--bg-elev))]/95 p-4 sm:grid-cols-2">
             <CopyButton
-              label={platform === "react" ? "Copy React" : "Copy Flutter"}
+              label={platform === "react" ? "Copy React code" : "Copy Flutter code"}
               text={activeCode}
+              className="h-11 rounded-lg"
             />
 
-            {platform === "react" && (
-              <button
-                onClick={handleDownload}
-                disabled={downloading}
-                className="inline-flex items-center justify-center gap-2 px-4 py-3 text-xs font-semibold rounded-xl bg-[rgb(var(--accent))] text-slate-900"
-              >
-                {downloading ? "Downloading..." : "Download SVG"}
-              </button>
-            )}
-
-          </div>
-
+            <button
+              type="button"
+              onClick={handleDownload}
+              disabled={downloading}
+              className="inline-flex h-11 items-center justify-center rounded-lg bg-[rgb(var(--accent))] px-4 text-xs font-semibold text-slate-950 transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-70"
+            >
+              {downloading ? "Downloading..." : "Download SVG"}
+            </button>
+          </footer>
         </div>
+      </aside>
+    </div>
+  );
+
+  return createPortal(drawer, portalRoot);
+}
+
+function SegmentedControl({
+  label,
+  items,
+  value,
+  onChange
+}: {
+  label: string;
+  items: Array<{ value: string; label: string }>;
+  value: string;
+  onChange: (value: string) => void;
+}) {
+  return (
+    <div className="rounded-2xl border border-[rgb(var(--border))]/70 bg-[rgb(var(--bg))]/45 p-3">
+      <div className="mb-3 text-xs font-semibold uppercase tracking-wide text-[rgb(var(--fg-muted))]">
+        {label}
+      </div>
+      <div className="flex flex-wrap gap-2">
+        {items.map((item) => {
+          const active = value === item.value;
+          return (
+            <button
+              key={item.value}
+              type="button"
+              onClick={() => onChange(item.value)}
+              className={[
+                "rounded-lg px-3 py-2 text-xs font-semibold transition",
+                active
+                  ? "bg-[rgb(var(--fg))] text-[rgb(var(--bg))]"
+                  : "bg-[rgb(var(--bg-elev))] text-[rgb(var(--fg-muted))] hover:text-[rgb(var(--fg))]"
+              ].join(" ")}
+              aria-pressed={active}
+            >
+              {item.label}
+            </button>
+          );
+        })}
       </div>
     </div>
   );

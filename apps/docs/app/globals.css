@@ -129,7 +129,70 @@ body {
     transparent 100%
   );
 }
+.icon-item {
+  width: 28px;
+  height: 28px;
+  opacity: 0.4;
+}
 
+/* Smooth floating animation */
+@keyframes iconFloat {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Optional horizontal drift for premium feel */
+@keyframes iconDrift {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+/* Combine animations */
+.animate-iconFloat {
+  animation: iconFloat 14s ease-in-out infinite,
+             iconDrift 24s ease-in-out infinite;
+}
+
+/* Optional: soft fade edges (VERY premium look) */
+.mask-fade {
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+}
+/* icon uses CSS color instead of React props */
+.icon-svg {
+  color: rgb(var(--fg));
+  transition: color 0.2s ease;
+}
+
+/* improve rendering performance */
+.icon-card {
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+/* smooth theme switching */
+:root {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
 /* ================================================
    ANIMATIONS
    ================================================ */

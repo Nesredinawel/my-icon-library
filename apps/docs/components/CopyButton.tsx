@@ -19,8 +19,8 @@ export function CopyButton({
       await navigator.clipboard.writeText(text);
       setCopied(true);
       setTimeout(() => setCopied(false), 1200);
-    } catch (e) {
-      console.error("Copy failed:", e);
+    } catch (error) {
+      console.error("Copy failed:", error);
     }
   }
 
@@ -29,25 +29,12 @@ export function CopyButton({
       type="button"
       onClick={handleCopy}
       className={cn(
-        `
-        inline-flex items-center justify-center
-        rounded-xl
-        border border-[rgb(var(--border))]
-        bg-[rgb(var(--bg-elev))]
-        px-4 py-3
-        text-xs font-medium
-        text-[rgb(var(--fg))]
-        transition-colors duration-200
-        hover:bg-[rgb(var(--bg))]/60
-        active:scale-[0.98]
-        `,
+        "inline-flex items-center justify-center rounded-xl border border-[rgb(var(--border))] bg-[rgb(var(--bg-elev))] px-4 py-3 text-xs font-semibold text-[rgb(var(--fg))] transition hover:bg-[rgb(var(--bg))]/60 active:scale-[0.98]",
         className
       )}
     >
       {copied ? (
-        <span className="text-[rgb(var(--accent))] transition-colors">
-          Copied ✓
-        </span>
+        <span className="text-[rgb(var(--accent))]">Copied</span>
       ) : (
         label
       )}

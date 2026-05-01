@@ -8,6 +8,7 @@ import { IntegrationSection } from "@/components/landing/IntegrationSection";
 import { Footer } from "@/components/landing/Footer";
 import { NasiconCoreCard } from "@/components/landing/NasiconCoreCard";
 import { SiteBackground } from "@/components/SiteBackground";
+import { IconSpotlightBackground } from "@/components/landing/IconSpotlightBackground";
 
 const REQUIRED_STYLES: IconStyle[] = [
   "outline",
@@ -62,10 +63,10 @@ export default function HomePage() {
   const searchIcon = safe(interfaceIcons, 1)[0];
 
   const coreIconsAuto = [
-    ...safe(interfaceIcons, 100).slice(0, 10),
-    ...safe(arrowsIcons, 6).slice(0, 3),
-    ...safe(filesIcons, 6).slice(0, 2),
-    ...safe(securityIcons, 4).slice(0, 4)
+    ...safe(interfaceIcons, 24).slice(0, 10),
+    ...safe(arrowsIcons, 6),
+    ...safe(filesIcons, 4),
+    ...safe(securityIcons, 4)
   ];
 
   const customIcons = [
@@ -86,7 +87,7 @@ export default function HomePage() {
 
   const coreIcons = filterByAllStyles(meta, merged, REQUIRED_STYLES);
   const finalCoreIcons =
-    coreIcons.length >= 12 ? coreIcons : merged;
+    (coreIcons.length >= 18 ? coreIcons : merged).slice(0, 24);
 
   const qualityFeatures = [
     {
@@ -110,22 +111,28 @@ export default function HomePage() {
   const developerCardIcon = safe(devIcons, 1)[0];
 
   return (
-    <div className="relative">
+    <div className="relative min-h-screen overflow-hidden">
 
-      {/* ✅ Page-Specific Background */}
-      <SiteBackground variant="grid" glowOpacity={0.8} />
+      {/* Base gradient / grid background */}
+      <SiteBackground variant="grid" glowOpacity={0.35} />
 
-      {/* ✅ Content Layer */}
-      <div className="relative bg-[rgb(var(--bg))] text-[rgb(var(--fg))] transition-colors duration-300">
+      {/* ✅ Icon Spotlight Layer */}
+      <IconSpotlightBackground
+        icons={finalCoreIcons}
+      />
 
-        <Hero iconCount={iconCount} searchIconName={searchIcon} />
+      {/* ✅ Foreground Content */}
+      <div className="relative z-10 text-[rgb(var(--fg))]">
+
+        <Hero
+          iconCount={iconCount}
+          searchIconName={searchIcon}
+        />
 
         <NasiconCoreCard
           icons={finalCoreIcons}
           secondaryOpacity={0.1}
-          minHeight={520}
-          iconSize={32}
-          tileSize={84}
+          iconSize={26}
           strokeWidth={1.5}
           defaultStyle="outline"
         />

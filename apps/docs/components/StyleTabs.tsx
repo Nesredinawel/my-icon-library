@@ -7,7 +7,7 @@ const STYLES: { key: IconStyle; label: string }[] = [
   { key: "outline", label: "Outline" },
   { key: "solid", label: "Solid" },
   { key: "duotone", label: "Duotone" },
-  { key: "monochrome", label: "Monochrome" }
+  { key: "monochrome", label: "Mono" }
 ];
 
 export function StyleTabs({
@@ -18,57 +18,25 @@ export function StyleTabs({
   onChange: (v: IconStyle) => void;
 }) {
   return (
-    <div
-      className="
-        w-full
-        overflow-x-auto
-        no-scrollbar
-      "
-    >
-      <div
-        className="
-          inline-flex
-          min-w-max
-          items-center gap-1
-          rounded-2xl
-          border border-[rgb(var(--border))]/60
-          bg-[rgb(var(--bg-elev))]/70 backdrop-blur
-          p-1.5 shadow-sm
-          transition-colors duration-300
-        "
-      >
-        {STYLES.map((s) => {
-          const active = value === s.key;
+    <div className="overflow-x-auto no-scrollbar">
+      <div className="inline-flex min-w-max items-center gap-1 rounded-xl border border-[rgb(var(--border))]/80 bg-[rgb(var(--bg))]/60 p-1">
+        {STYLES.map((style) => {
+          const active = value === style.key;
 
           return (
             <button
-              key={s.key}
+              key={style.key}
               type="button"
-              onClick={() => onChange(s.key)}
+              onClick={() => onChange(style.key)}
               className={cn(
-                `
-                relative
-                whitespace-nowrap
-                rounded-xl
-                px-4 py-2
-                text-sm font-medium
-                transition-all duration-200
-                active:scale-[0.97]
-                `,
+                "h-10 whitespace-nowrap rounded-lg px-3 text-xs font-semibold transition active:scale-[0.98] sm:px-4",
                 active
-                  ? `
-                    bg-[rgb(var(--fg))]
-                    text-[rgb(var(--bg))]
-                    shadow-md
-                  `
-                  : `
-                    text-[rgb(var(--fg-muted))]
-                    hover:text-[rgb(var(--fg))]
-                    hover:bg-[rgb(var(--bg))]/60
-                  `
+                  ? "bg-[rgb(var(--fg))] text-[rgb(var(--bg))] shadow-sm"
+                  : "text-[rgb(var(--fg-muted))] hover:bg-[rgb(var(--bg-elev))] hover:text-[rgb(var(--fg))]"
               )}
+              aria-pressed={active}
             >
-              {s.label}
+              {style.label}
             </button>
           );
         })}
