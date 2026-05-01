@@ -5,12 +5,7 @@ type Props = {
   icons: string[];
 };
 
-const STYLE_ORDER: IconStyle[] = [
-  "outline",
-  "duotone",
-  "solid",
-  "monochrome"
-];
+const STYLE_ORDER: IconStyle[] = ["outline", "duotone", "solid", "monochrome"];
 
 const ROWS = 10;
 const COLUMNS = 16;
@@ -22,67 +17,75 @@ export function IconSpotlightBackground({ icons }: Props) {
     const row = Math.floor(index / COLUMNS);
     const column = index % COLUMNS;
 
+    const centerRow = ROWS / 2;
+    const centerCol = COLUMNS / 2;
+
+    const distanceFromCenter =
+      Math.abs(row - centerRow) + Math.abs(column - centerCol);
+
     return {
       key: `${row}-${column}`,
       name: iconPool[(index + row * 3 + column) % iconPool.length],
       style: STYLE_ORDER[(row + column) % STYLE_ORDER.length],
-      featured: (row === 2 || row === 6) && column % 5 === 2,
-      muted: (row + column) % 4 === 0
+      featured: distanceFromCenter < 3,
+      distance: distanceFromCenter
     };
   });
 
   return (
     <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
 
-      {/* background glow */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(var(--accent),0.18),transparent_40%),linear-gradient(to_bottom,rgba(var(--bg),1)_0%,rgba(var(--bg),0.98)_100%)]" />
+      {/* =========================
+          BASE + CENTER DEEMED GLOW
+      ========================= */}
+      <div className="absolute inset-0 bg-[rgb(var(--bg))]" />
 
-      {/* FULL WIDTH GRID (NO CONTAINER LIMIT) */}
+      {/* CENTER EMPHASIS FIELD */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,rgba(var(--accent),0.10)_0%,rgba(var(--accent),0.05)_25%,transparent_65%)]" />
+
+      {/* GRID */}
       <div className="absolute inset-0 pt-6 px-4 sm:px-6 md:px-10">
         <div
           className="
             grid
-            grid-cols-6
-            sm:grid-cols-8
-            md:grid-cols-12
-            lg:grid-cols-16
-            xl:grid-cols-18
+            grid-cols-6 sm:grid-cols-8 md:grid-cols-12 lg:grid-cols-16 xl:grid-cols-18
             gap-3 sm:gap-4 md:gap-5
             w-full
           "
         >
-          {cells.map((cell) => (
-            <div
-              key={cell.key}
-              className={[
-                "grid place-items-center border transition-colors",
-                cell.featured
-                  ? "h-14 w-14 rounded-2xl border-[rgb(var(--accent))]/40 bg-[rgb(var(--accent))]/16 shadow-[0_18px_60px_rgba(161,255,73,0.12)]"
-                  : "h-11 w-11 rounded-xl border-[rgb(var(--border))]/35 bg-[rgb(var(--bg-elev))]/40",
-                cell.muted && !cell.featured
-                  ? "opacity-40"
-                  : "opacity-90"
-              ].join(" ")}
-            >
-              <IconPreview
-                name={cell.name}
-                style={cell.style}
-                size={cell.featured ? 20 : 15}
-                color="rgb(var(--fg))"
-                secondaryOpacity={0.14}
-              />
-            </div>
-          ))}
+          {cells.map((cell) => {
+            const fade = Math.min(cell.distance * 0.12, 0.6);
+
+            return (
+              <div
+                key={cell.key}
+                className={[
+                  "grid place-items-center border transition-all",
+                  cell.featured
+                    ? "h-13 w-13 rounded-2xl border-[rgb(var(--accent))]/25 bg-[rgb(var(--accent))]/10"
+                    : "h-11 w-11 rounded-xl border-[rgb(var(--border))]/20 bg-[rgb(var(--bg-elev))]/30"
+                ].join(" ")}
+                style={{
+                  opacity: 1 - fade
+                }}
+              >
+                <IconPreview
+                  name={cell.name}
+                  style={cell.style}
+                  size={cell.featured ? 18 : 14}
+                  color="rgb(var(--fg))"
+                  secondaryOpacity={0.06}
+                />
+              </div>
+            );
+          })}
         </div>
       </div>
 
-      {/* decorative rings (kept top-based, not centered constraint) */}
-      <div className="absolute top-20 left-1/2 -translate-x-1/2">
-        <div className="h-[420px] w-[820px] rounded-full border border-[rgb(var(--border))]/25 opacity-30" />
-        <div className="absolute top-24 left-1/2 -translate-x-1/2 h-[260px] w-[520px] rounded-full border border-[rgb(var(--accent))]/20 opacity-40" />
-      </div>
+      {/* SOFT CENTER DEPTH BOOST (IMPORTANT LAYER) */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,transparent_35%,rgba(var(--bg),0.35)_70%,rgba(var(--bg),0.95)_100%)]" />
 
-      {/* fades */}
+      {/* TOP + BOTTOM FADE CONTROL */}
       <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-[rgb(var(--bg))] to-transparent" />
       <div className="absolute inset-x-0 bottom-0 h-80 bg-gradient-to-t from-[rgb(var(--bg))] via-[rgb(var(--bg))]/80 to-transparent" />
     </div>
