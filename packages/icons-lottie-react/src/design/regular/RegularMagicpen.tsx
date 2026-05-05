@@ -1,5 +1,5 @@
 import * as React from "react";
-import Lottie from "lottie-react";
+import { LottieRenderer } from "../../internal/lottie";
 import type { LottieIconProps } from "../../types";
 
 export function RegularMagicpen(props: LottieIconProps) {
@@ -23,5 +23,5 @@ export function RegularMagicpen(props: LottieIconProps) {
 
   if (!animationData) return null;
 
-  return <Lottie animationData={animationData} {...props} />;
+  return <LottieRenderer animationData={animationData} {...props} />;
 }

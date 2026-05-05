@@ -29,6 +29,7 @@ async function run() {
 
   await rm(OUT_ROOT, { recursive: true, force: true });
   await mkdir(OUT_ROOT, { recursive: true });
+  await mkdir(path.join(OUT_ROOT, "internal"), { recursive: true });
 
   const files = await fg("**/*.json", {
     cwd: JSON_ROOT,
@@ -58,7 +59,7 @@ async function run() {
 
     const code = `
 import * as React from "react";
-import Lottie from "lottie-react";
+import { LottieRenderer } from "../../internal/lottie";
 import type { LottieIconProps } from "../../types";
 
 export function ${componentName}(props: LottieIconProps) {
@@ -82,7 +83,7 @@ export function ${componentName}(props: LottieIconProps) {
 
   if (!animationData) return null;
 
-  return <Lottie animationData={animationData} {...props} />;
+  return <LottieRenderer animationData={animationData} {...props} />;
 }
 `;
 
@@ -114,6 +115,48 @@ export function ${componentName}(props: LottieIconProps) {
 
 export type LottieIconProps = Omit<PartialLottieComponentProps, "animationData">;
 `,
+    "utf8"
+  );
+
+  await writeFile(
+    path.join(OUT_ROOT, "internal", "lottie.tsx"),
+    await format(`
+import * as React from "react";
+import * as LottieReact from "lottie-react";
+import type { LottieIconProps } from "../types";
+
+type LottieRendererProps = LottieIconProps & {
+  animationData: unknown;
+};
+
+type LottieComponent = React.ComponentType<LottieRendererProps>;
+
+function resolveLottieComponent(value: unknown): LottieComponent | null {
+  let candidate = value;
+
+  for (let i = 0; i < 4; i += 1) {
+    if (typeof candidate === "function") {
+      return candidate as LottieComponent;
+    }
+
+    if (!candidate || typeof candidate !== "object" || !("default" in candidate)) {
+      return null;
+    }
+
+    candidate = (candidate as { default?: unknown }).default;
+  }
+
+  return null;
+}
+
+const Lottie = resolveLottieComponent(LottieReact);
+
+export function LottieRenderer(props: LottieRendererProps) {
+  if (!Lottie) return null;
+
+  return <Lottie {...props} />;
+}
+`),
     "utf8"
   );
 

@@ -35,6 +35,15 @@ importers:
 
   apps/docs:
     dependencies:
+      lottie-react:
+        specifier: ^2.4.0
+        version: 2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      nasicon-lottie-json:
+        specifier: ^0.1.1
+        version: 0.1.1
+      nasicon-lottie-react:
+        specifier: ^0.1.1
+        version: 0.1.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       nasicon-react:
         specifier: ^1.0.0
         version: 1.0.0(react@18.3.1)
@@ -1655,6 +1664,14 @@ packages:
     resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
+
+  nasicon-lottie-json@0.1.1:
+    resolution: {integrity: sha512-eWdSk83H42kC8VJ6ZpA3BzZYKUMuvJlZRyFNfJFQIUrEhsCdmHhgULPPVFgunvhxfiP1SihBQ8wNaTOvX0wSow==}
+
+  nasicon-lottie-react@0.1.1:
+    resolution: {integrity: sha512-VfQmDskYrUZmNmqiqM8bB6YRb/M3oobv+gyI0OHR3E0euUjrS1eDX6HN7Sn78Wb+U9L+xKcPvbznmvJa77F+ng==}
+    peerDependencies:
+      react: ^18 || ^19
 
   nasicon-react@1.0.0:
     resolution: {integrity: sha512-uK39jyqzQ7CB6nW40ciVtV1HLirXk4nD/WFO66R3XrelEymbXzyt3o1BxgL2wRK6zKG/D0l4ZSzY1H/ue0hF4g==}
@@ -3466,6 +3483,16 @@ snapshots:
       thenify-all: 1.6.0
 
   nanoid@3.3.11: {}
+
+  nasicon-lottie-json@0.1.1: {}
+
+  nasicon-lottie-react@0.1.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      lottie-react: 2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      nasicon-lottie-json: link:packages/icons-lottie-json
+      react: 18.3.1
+    transitivePeerDependencies:
+      - react-dom
 
   nasicon-react@1.0.0(react@18.3.1):
     dependencies:

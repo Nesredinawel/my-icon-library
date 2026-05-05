@@ -5,11 +5,15 @@ import { cn } from "@/lib/icon-utils";
 export function CategorySidebar({
   categories,
   activeCategory,
-  onSelect
+  onSelect,
+  allLabel = "All icons",
+  subtitle = "Filter the library"
 }: {
   categories: Array<{ name: string; count: number }>;
   activeCategory: string | null;
   onSelect: (name: string | null) => void;
+  allLabel?: string;
+  subtitle?: string;
 }) {
   return (
     <aside className="max-h-[calc(100vh-7rem)] overflow-hidden rounded-2xl border border-[rgb(var(--border))]/70 bg-[rgb(var(--bg-elev))]/80 shadow-[0_18px_70px_rgba(2,6,23,0.06)] backdrop-blur-2xl">
@@ -20,7 +24,7 @@ export function CategorySidebar({
               Categories
             </h2>
             <p className="mt-1 text-xs text-[rgb(var(--fg-muted))]">
-              Filter the library
+              {subtitle}
             </p>
           </div>
 
@@ -37,7 +41,7 @@ export function CategorySidebar({
       <div className="max-h-[calc(100vh-13rem)] space-y-1 overflow-y-auto p-3 no-scrollbar">
         <CategoryButton
           active={activeCategory === null}
-          name="All icons"
+          name={allLabel}
           count={categories.reduce((sum, item) => sum + item.count, 0)}
           onClick={() => onSelect(null)}
         />

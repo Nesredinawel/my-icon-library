@@ -9,6 +9,7 @@ import { cn } from "@/lib/icon-utils";
 
 const NAV_ITEMS = [
   { href: "/icons", label: "Icons" },
+  { href: "/lottie", label: "Lottie" },
   { href: "/docs", label: "Docs" }
 ];
 
@@ -49,10 +50,10 @@ export function AppHeader() {
           <div className="hidden items-center gap-2 md:flex">
             <ThemeToggle />
             <Link
-              href="/icons"
+              href="/lottie"
               className="inline-flex h-10 items-center justify-center rounded-xl bg-[rgb(var(--accent))] px-4 text-sm font-semibold text-slate-950 shadow-sm transition hover:brightness-95 active:scale-[0.98]"
             >
-              Browse icons
+              Browse Lottie
             </Link>
           </div>
 
@@ -102,10 +103,10 @@ export function AppHeader() {
             <div className="mt-3 flex items-center justify-between gap-3 border-t border-[rgb(var(--border))]/70 pt-3">
               <ThemeToggle />
               <Link
-                href="/icons"
+                href="/lottie"
                 className="inline-flex h-10 flex-1 items-center justify-center rounded-xl bg-[rgb(var(--accent))] px-4 text-sm font-semibold text-slate-950 transition hover:brightness-95"
               >
-                Browse icons
+                Browse Lottie
               </Link>
             </div>
           </div>
