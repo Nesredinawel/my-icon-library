@@ -1,0 +1,8417 @@
+{
+  "award": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "book open": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "book": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "bookmark-2": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "bookmark": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "briefcase": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "brifecase-cross": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "brifecase-tick": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "brifecase-timer": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "calculator": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "clipboard": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "gift": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "note-2": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "note": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "teacher": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "academic"
+  },
+  "archive add": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "archive minimus": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "archive minus": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "archive slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "archive tick": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "archive": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light",
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "archives-&-folders"
+  },
+  "book saved": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "book square": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "computing": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "filter add": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "filter edit": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "filter remove": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "filter search": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "filter square": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "filter tick": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "filter": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "folder 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "folder add": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "folder cloud": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "folder cross": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "folder favorite": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "folder minus": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "folder open": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "folder": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "receipt square": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "save 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "save add": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "save minus": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "save remove": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "search favorite 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "search favorite": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "search normal 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "search normal": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "search status 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "search status": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "search zoom in 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "search zoom in": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "search zoom out 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "search zoom out": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "sort": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "trash": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "trush square": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "archives-&-folders"
+  },
+  "arrange-circle-2": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrange-circle": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrange-square-2": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrange-square": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-2": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-3": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-bottom": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-circle-down": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-circle-left": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-circle-right": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-circle-Up": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-down 01": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-down 03": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-down": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-left 01": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-left 02": {
+    "styles": [
+      "color",
+      "light"
+    ],
+    "category": "arrows"
+  },
+  "arrow-left 03": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-left": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-right 01": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-right 02": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-right 03": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-right": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-square-down": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-square-left": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-square-right": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-square-up": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-swap-horizontal": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-swap-Vertical": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-up 01": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-up 02": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-up 03": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-up": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "back-square": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "convert": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "export 01": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "export 02": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "export 03": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "export": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "forward-square": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "frame": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "import 01": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "import 02": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "import": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "login 01": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "login": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "logout 01": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "logout": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "receive-square-2": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "receive-square": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "received": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "redo": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "refresh 03": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "refresh-2": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "refresh-circle": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "refresh-left-square": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "refresh-right-square": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "refresh-square-2": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "repeat-circle": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "repeat": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "rotate-left": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "arrows"
+  },
+  "rotate-right": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "arrows"
+  },
+  "send-sqaure-2": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "send-square": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "send": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "undo": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "arrow-left  02": {
+    "styles": [
+      "regular",
+      "duotone"
+    ],
+    "category": "arrows"
+  },
+  "aquarius": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "astrology"
+  },
+  "gemini-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "astrology"
+  },
+  "gemini": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "astrology"
+  },
+  "man": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "astrology"
+  },
+  "sagittarius": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "astrology"
+  },
+  "woman": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "astrology"
+  },
+  "bank": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "building"
+  },
+  "building-3": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "building"
+  },
+  "building-4": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "building"
+  },
+  "building": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "building"
+  },
+  "buildings-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "building"
+  },
+  "buildings": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "building"
+  },
+  "buliding": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "building"
+  },
+  "courthouse": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "building"
+  },
+  "hospital": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "building"
+  },
+  "house-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "building"
+  },
+  "house": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "building"
+  },
+  "code 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "code-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "code": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "command-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "command": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "data-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "data": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "document-code-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "document-code": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "hashtag-down": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "hashtag-up": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "hashtag": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light",
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "coding"
+  },
+  "hierarchy-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "hierarchy-3": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "hierarchy-square-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "hierarchy-square-3": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "hierarchy-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "hierarchy": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "message-programming": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "mobile-programming": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "programming-arrow": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "programming-arrows": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "scroll": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "sidebar-bottom": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "sidebar-left": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "sidebar-right": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "sidebar-top": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "simcard": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light",
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "coding"
+  },
+  "bag 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "commerce"
+  },
+  "bag cross 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "commerce"
+  },
+  "bag cross": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "commerce"
+  },
+  "bag Happy": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "commerce"
+  },
+  "bag tick 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "commerce"
+  },
+  "bag tick": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "commerce"
+  },
+  "bag timer": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "commerce"
+  },
+  "bag": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "commerce"
+  },
+  "barcode": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "commerce"
+  },
+  "shop add": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "commerce"
+  },
+  "shop remove": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "commerce"
+  },
+  "shop": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "commerce"
+  },
+  "shopping bag": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "commerce"
+  },
+  "shopping cart": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "commerce"
+  },
+  "airdrop": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "connection"
+  },
+  "bluetooth-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "connection"
+  },
+  "bluetooth-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "connection"
+  },
+  "bluetooth-rectangle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "connection"
+  },
+  "bluetooth": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "connection"
+  },
+  "group": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular",
+      "color",
+      "light",
+      "regular",
+      "duotone",
+      "color",
+      "duotone",
+      "light",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "connection"
+  },
+  "home-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "connection"
+  },
+  "home-wifi": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "connection"
+  },
+  "home": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "connection"
+  },
+  "mirroring-screen": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "connection"
+  },
+  "safe-home": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "connection"
+  },
+  "smart-home": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "connection"
+  },
+  "wifi-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "connection"
+  },
+  "wifi": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "connection"
+  },
+  "aave": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "ankr": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "augur": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "autonio": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "avalanche": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "binance-coin": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "binance-usd": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "bitcoin": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "cardano": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "celo": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "celsius": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "chainlink": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "civic": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "dai": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "dash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "decred": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "dent": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "educare": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "emercoin": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "enjin-coin": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "eos": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "ethereum-classic": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "ethereum": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "ftx-token": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "harmony": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "hedera-hashgraph": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "hex": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "huobi-token": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "icon": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "iost": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "kyber-network": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "litecoin": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "maker": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "monero": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "nebulas": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "nem": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "nexo": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "ocean-protocol": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "okb": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "ontology": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "polkadot": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "polygon": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "polyswarm": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "siacoin": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "solana": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "stacks": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "stellar": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "tenx": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "tether": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "the-graph": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "theta": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "thorchain": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "trontron": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "usd-coin": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "velas": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "vibe": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "wanchain 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "wanchain": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "wing": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "xrp": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "zel": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "crypto"
+  },
+  "additem": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "backward-item": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "bezier": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "blend-2": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "blend": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "blur": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "brush 1": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "brush 2": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "brush 3": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "brush": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "bucket-circle": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "bucket-square": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "color-swatch": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "colorfilter": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "colors-square": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "component": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "copy-success": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "copy": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "designtools": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "eraser": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "design"
+  },
+  "flash-circle": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "design"
+  },
+  "forward-item": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "glass": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "layer": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "lifebuoy": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "magicpen": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "main-component": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "mask 1": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "mask 2": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "mask": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "omega-circle": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "omega-square": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "paintbucket 1": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "paintbucket": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "path-2": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "path-square": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "path": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "pen-add": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "pen-close": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "pen-remove": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "pen-tool-2": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "pen-tool": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "recovery-convert": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "ruler&pen": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "ruler": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "scissor": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "design"
+  },
+  "shapes 1": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "shapes": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "size": {
+    "styles": [
+      "color",
+      "light",
+      "regular",
+      "duotone"
+    ],
+    "category": "design"
+  },
+  "call add": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "call calling": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "call incoming": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "call minus": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "call outgoing": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "call received": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "call remove": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "call slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "call": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "device message": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "direct inbox": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "direct normal": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "direct notification": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "direct send": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "direct": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "directbox default": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "directbox notification": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "directbox receive": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "directbox send": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message add 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message add": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message edit": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message favorite": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message minus": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message notification": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message remove": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message search": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message square": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message text 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message text": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message tick": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message time": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "message": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "messages 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "messages 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "messages 3": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "messages": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "sms edit": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "sms notification": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "sms search": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "sms star": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "sms tracking": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "sms": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light"
+    ],
+    "category": "conversation"
+  },
+  "whatsapp": {
+    "styles": [
+      "color",
+      "duotone",
+      "regular",
+      "light",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "conversation"
+  },
+  "3d cube scan": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "3d rotate": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "3d square": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "box 1": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "box add": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "box remove": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "box search": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "box tick": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "box time": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "box": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "convert 3d cube": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "truck 2": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "truck remove": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "truck tick": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "truck time": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "truck": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "delivery"
+  },
+  "activity": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "bitcoin card": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "bitcoin convert": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "bitcoin refresh": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "buy crypto": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "card add": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "card coin": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "card edit": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "card pos": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "card receive": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "card remove": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "card send": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "card slash": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "card tick 1": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "card tick": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "card": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "cards": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "chart 01": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "chart 03": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "chart 1": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "chart 2": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "chart square": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "chart success": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "chart": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "coin 01": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "coin": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "diagram": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "discount circle": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "discount shape": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "document": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "dollar circle": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "dollar square": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "empty wallet add": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "empty wallet change": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "empty wallet remove": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "empty wallet tick": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "empty wallet time": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "empty wallet": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "favorite chart": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "graph": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "Group": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "health": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "home hashtag": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "home trend down": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "home trend up": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "math": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "money 2": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "money 3": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "money 4": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "money add": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "money change": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "money forbidden": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "money recive": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "money remove 2": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "money remove": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "money send": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "money tick": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "money time": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "money": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "moneys": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "percentage Circle": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "percentage square": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "personalcard": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "presention chart": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "receipt 1": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "receipt 2": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "receipt 3": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "receipt add": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "receipt discount": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "receipt disscount": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "receipt edit": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "receipt item": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "receipt minus": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "receipt search": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "receipt text": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "receipt": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "security card": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "status up": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "strongbox 2": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "strongbox": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "tag 2": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "tag": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "ticket 2": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "ticket discount": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "ticket expired": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "ticket star": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "ticket": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "trade": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "transaction minus": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "trend down": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "trend up": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "wallet 1": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "wallet 2": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "wallet 3": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "wallet add 1": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "wallet add": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "wallet check": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "wallet minus": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "wallet money": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "wallet remove": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "wallet search": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "wallet": {
+    "styles": [
+      "color",
+      "light",
+      "duotone",
+      "regular"
+    ],
+    "category": "finance"
+  },
+  "3square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "align-bottom": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "align-horizontally": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "align-left": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "align-right": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "align-top": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "align-vertically": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "convertshape-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "convertshape": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "crop": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "element-1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "element-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "element-3": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "element-4": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "element-equal": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "element-plus": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "fatrows": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "format-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "format-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "grid-1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "grid-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "grid-3": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "grid-4": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "grid-5": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "grid-6": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "grid-7": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "grid-8": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "grid-9": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "grid-edit": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "grid-eraser": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "grid-lock": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "kanban": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "maximize 5": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "maximize-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "maximize-3": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "maximize-4": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "maximize": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "row-horizontal": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "row-vertical": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "slider-horizontal 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "slider-horizontal": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "slider-vertical 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "slider-vertical": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "grid-&-alignment"
+  },
+  "arrow square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "arrow": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "direct down": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "direct left": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "direct right": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "direct up": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "discover": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "global edit": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "global refresh": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "global search": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "global": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "gps slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "gps": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "location add": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "location cross": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "location minus": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "location slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "location tick": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "location": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "map 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "map": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "picture frame": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "radar 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "radar": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "route square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "routing 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "routing": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "location"
+  },
+  "archive-book": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "bill": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "clipboard-close": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "clipboard-export": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "clipboard-import": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "clipboard-text": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "clipboard-tick": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "copyright": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "creative-commons": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "document-cloud": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "document-copy": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "document-download": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "document-favorite": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "document-filter": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "document-forward": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "document-like": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "document-normal": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "document-previous": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "document-sketch": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "document-text 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "document-text": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "document-upload": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "edit-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "edit": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "menu-board": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "note 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "note-add": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "note-favorite": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "note-remove": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "note-text": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "stickynote": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "task-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "task": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "docs"
+  },
+  "android": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "apple": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "be": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "blogger": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "bootsrap": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "chrome": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "dribbble": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "dropbox": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "facebook": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "figma 01": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "figma": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "frame 01": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "frame 02": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "framer": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "google 01": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "google-play": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "google": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "html-3": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "html-5": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "illustrator": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "java-script": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "js": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "messenger": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "paypal": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "photoshop": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "python": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "slack": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "snapchat": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "spotify": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "trello": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "triangle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "twitch": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "ui8": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "vuesax": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "windows": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "xd": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "xiaomi": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "youtube": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "zoom": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "logo"
+  },
+  "airpod": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "airpods": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "audio square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "backward 10 seconds": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "backward 15 seconds": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "backward 5 seconds": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "backward": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "camera slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "camera": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "devices 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "devices": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "forward 10 seconds": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "forward 15 seconds": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "forward 5 seconds": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "forward": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "gallery add": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "gallery edit": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "gallery export": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "gallery favorite": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "gallery import": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "gallery remove": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "gallery slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "gallery tick": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "gallery": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "headphone": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "headphones": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "image": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "microphone 2 slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "microphone 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "microphone slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "microphone": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "mini music sqaure": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "mobile": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "monitor mobbile": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "monitor recorder": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "monitor": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "music circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "music dashboard": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "music filter": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "music library 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "music play": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "music playlist": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "music square add": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "music square remove": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "music square search": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "music square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "music": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "musicnote": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "next": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "note square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "pause circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "pause": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "play add": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "play circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "play cricle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "play remove": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "play": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "previous": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "printer slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "printer": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "radio": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "record circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "record": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "repeate music": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "repeate one": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "screenmirroring": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "speaker": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "stop circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "stop": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "subtitle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "video add": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "video circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "video horizontal": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "video octagon": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "video play": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "video remove": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "video slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "video square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "video tick": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "video time": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "video vertical": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "video": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "voice cricle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "voice square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "volume cross": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "volume high": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "volume low 01": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "volume low": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "volume mute": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "volume slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "volume up": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "media"
+  },
+  "cloud-add": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "network-&-servers"
+  },
+  "cloud-change": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "network-&-servers"
+  },
+  "cloud-connection": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "network-&-servers"
+  },
+  "cloud-remove": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "network-&-servers"
+  },
+  "driver-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "network-&-servers"
+  },
+  "driver-refresh": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "network-&-servers"
+  },
+  "driver": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "network-&-servers"
+  },
+  "external-drive": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "network-&-servers"
+  },
+  "folder-connection": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "network-&-servers"
+  },
+  "battery-2 3full": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "power"
+  },
+  "battery-charging": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "power"
+  },
+  "battery-disable": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "power"
+  },
+  "battery-empty 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "power"
+  },
+  "battery-empty": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "power"
+  },
+  "battery-full": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "power"
+  },
+  "flash-slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "power"
+  },
+  "flash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "power"
+  },
+  "lamp-charge": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "notification"
+  },
+  "lamp-on": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "notification"
+  },
+  "lamp-slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "notification"
+  },
+  "notification 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "notification"
+  },
+  "notification-bing": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "notification"
+  },
+  "notification-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "notification"
+  },
+  "notification-favorite": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "notification"
+  },
+  "notification-status": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "notification"
+  },
+  "notification": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "notification"
+  },
+  "candle-2": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "candle": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "category-2": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "category": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "menu": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "more-2": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "more": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "setting-2": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "setting-3": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "setting-4": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "setting-5": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "setting": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "settings": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "toggle-off-circle": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "toggle-off": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "toggle-on-circle": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "toggle-on": {
+    "styles": [
+      "duotone",
+      "color",
+      "light",
+      "regular"
+    ],
+    "category": "settings"
+  },
+  "broom": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "bubble": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "cake": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "coffee": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "diamonds": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "ghost": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "happyemoji": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "judge": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "lamp": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular",
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "random-misc"
+  },
+  "level": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "milk": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "mirror": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "mouse-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "mouse-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "mouse": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular",
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "random-misc"
+  },
+  "pet": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "ranking": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular",
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "reserve": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "share": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "signpost": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "slider": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "sound": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "speedometer": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "status": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "sticker": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "story": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "tag-right": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "tree": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "random-misc"
+  },
+  "24-support": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "behance": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "crown 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "crown": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "cup": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "dislike": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "emoji-happy": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "emoji-normal": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "emoji-sad": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "flag-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "flag": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "heart-add": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "heart-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "heart-edit": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "heart-remove": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "heart-search": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "heart-slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "heart-tick": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "heart": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "instagram": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "like 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "like-dislike": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "like-shapes": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "like-tag": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "like": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "lovely": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "magic-star": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "medal-star": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "medal": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "message-question": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "send-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "smileys": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "star 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "star-slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "star": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "unlimited": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "social"
+  },
+  "clock": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "cpu-charge": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "cpu-setting": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "cpu": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "electricity": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "game": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "gameboy": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "keyboard-open": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "keyboard": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "microscope": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "ram-2": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "ram": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "simcard-2": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "watch-status": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "watch": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "weight": {
+    "styles": [
+      "color",
+      "regular",
+      "duotone",
+      "light"
+    ],
+    "category": "tech"
+  },
+  "attach-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "attach-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "firstline": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "link 2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "link 3": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "link 4": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "link-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "link-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "link": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "paperclip-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "paperclip": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "pharagraphspacing": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "quote-down-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "quote-down-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "quote-down": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "quote-up-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "quote-up-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "quote-up": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "smallcaps": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "text 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "text-block": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "text-bold": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "text-italic": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "text-underline": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "textalign-center": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "textalign-justifycenter": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "textalign-justifyleft": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "textalign-justifyright": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "textalign-left": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "textalign-right": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "translate": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "text"
+  },
+  "airplane-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "transportation"
+  },
+  "airplane": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "transportation"
+  },
+  "bus": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "transportation"
+  },
+  "car": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "transportation"
+  },
+  "driving": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "transportation"
+  },
+  "gas-station": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "transportation"
+  },
+  "ship": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "transportation"
+  },
+  "smart-car": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "transportation"
+  },
+  "people": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "profile-2user": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "profile-add": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "profile-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "profile-delete": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "profile-remove": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "profile-tick": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "profile": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "tag-user": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "user-add": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "user-cirlce-add": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "user-edit": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "user-minus": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "user-octagon": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "user-remove": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "user-search": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "user-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "user-tag": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "user-tick": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "user": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "users"
+  },
+  "cloud-cross": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "cloud-drizzle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "cloud-fog": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "cloud-lightning": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "cloud-minus": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "cloud-notif": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "cloud-plus": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "cloud-snow": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "cloud-sunny": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "cloud": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "drop": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "moon": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "sun 01": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "sun-fog": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "sun": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "wind-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "wind": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "weather"
+  },
+  "add-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "add-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "add": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "autobrightness": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "close-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "close-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "danger": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "group 1": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "info-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "information": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "minus-cirlce": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "minus-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "minus": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "more-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "more-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "slash": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "tag-cross": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "tick-circle": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "tick-square": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "verify": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  },
+  "warning-2": {
+    "styles": [
+      "color",
+      "duotone",
+      "light",
+      "regular"
+    ],
+    "category": "warning-check"
+  }
+}
